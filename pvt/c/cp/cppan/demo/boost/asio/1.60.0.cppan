@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost.asio",
+    "cppan": "files:\r\n    - include/.*\\.hpp\r\n    - include/.*\\.ipp\r\n\ndependencies:\n    pvt.cppan.demo.boost.date_time: \"*\"\n    pvt.cppan.demo.boost.regex: \"*\"\n    pvt.cppan.demo.boost.system: \"*\"\n",
+    "source": {
+        "git": {
+            "url": "https://github.com/boostorg/asio",
+            "tag": "boost-1.60.0"
+        }
+    },
+    "version": "1.60.0"
+}

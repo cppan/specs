@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.rbock.sqlpp11_connector_sqlite3",
+    "cppan": "license: LICENSE\r\nfiles:\r\n    - include/.*\\.h\r\n    - src/.*\\.cpp\r\n    - src/.*\\.h\r\n\r\ndependencies:\r\n    pvt.cppan.demo.rbock.sqlpp11: master\r\n",
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/rbock/sqlpp11-connector-sqlite3"
+        }
+    },
+    "version": "master"
+}

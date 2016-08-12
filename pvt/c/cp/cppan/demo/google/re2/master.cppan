@@ -1,0 +1,11 @@
+{
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https://github.com/google/re2",
+            "branch": "master"
+        }
+    },
+    "cppan": "license: LICENSE\r\n\r\nfiles:\r\n  - re2/bitstate.cc\r\n  - re2/compile.cc\r\n  - re2/dfa.cc\r\n  - re2/filtered_re2.cc\r\n  - re2/mimics_pcre.cc\r\n  - re2/nfa.cc\r\n  - re2/onepass.cc\r\n  - re2/parse.cc\r\n  - re2/perl_groups.cc\r\n  - re2/prefilter.cc\r\n  - re2/prefilter.h\r\n  - re2/prefilter_tree.cc\r\n  - re2/prefilter_tree.h\r\n  - re2/prog.cc\r\n  - re2/prog.h\r\n  - re2/re2.cc\r\n  - re2/regexp.cc\r\n  - re2/regexp.h\r\n  - re2/set.cc\r\n  - re2/simplify.cc\r\n  - re2/stringpiece.cc\r\n  - re2/tostring.cc\r\n  - re2/unicode_casefold.cc\r\n  - re2/unicode_casefold.h\r\n  - re2/unicode_groups.cc\r\n  - re2/unicode_groups.h\r\n  - re2/walker-inl.h\r\n  - util/bitmap.h\r\n  - util/flags.h\r\n  - util/hash.cc\r\n  - util/logging.cc\r\n  - util/logging.h\r\n  - util/mutex.h\r\n  - util/rune.cc\r\n  - util/sparse_array.h\r\n  - util/sparse_set.h\r\n  - util/stringprintf.cc\r\n  - util/strutil.cc\r\n  - util/utf.h\r\n  - util/util.h\r\n  - util/valgrind.cc\r\n  - util/valgrind.h\r\n\r\n  - re2/filtered_re2.h\r\n  - re2/re2.h\r\n  - re2/set.h\r\n  - re2/stringpiece.h",
+    "project": "pvt.cppan.demo.google.re2"
+}

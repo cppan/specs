@@ -1,0 +1,11 @@
+{
+    "cppan": "files:\n    - \"include/.*\\\\.hpp\"\n    - \"src/.*\\\\.cpp\"\n\ndependencies:\n    pvt.cppan.demo.boost.core: \"*\"\n",
+    "project": "pvt.cppan.demo.boost.signals",
+    "source": {
+        "git": {
+            "tag": "boost-1.60.0",
+            "url": "https://github.com/boostorg/signals"
+        }
+    },
+    "version": "1.60.0"
+}

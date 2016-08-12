@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost.variant",
+    "version": "1.61.0",
+    "cppan": "files:\n  - include/.*\n  - src/.*\ndependencies:\n  pvt.cppan.demo.boost.format: !<!> \"*\"\n  pvt.cppan.demo.boost.functional: !<!> \"*\"\n  pvt.cppan.demo.boost.function: !<!> \"*\"\n  pvt.cppan.demo.boost.foreach: !<!> \"*\"\n  pvt.cppan.demo.boost.bind: !<!> \"*\"\n  pvt.cppan.demo.boost.container: !<!> \"*\"\n  pvt.cppan.demo.boost.integer: !<!> \"*\"\n  pvt.cppan.demo.boost.concept: !<!> \"*\"\n  pvt.cppan.demo.boost.detail: !<!> \"*\"\n  pvt.cppan.demo.boost.any: !<!> \"*\"\n  pvt.cppan.demo.boost.predef: !<!> \"*\"\n  pvt.cppan.demo.boost.lexical_cast: !<!> \"*\"\n  pvt.cppan.demo.boost.range: !<!> \"*\"\n  pvt.cppan.demo.boost.ratio: !<!> \"*\"\n  pvt.cppan.demo.boost.static_assert: !<!> \"*\"\n  pvt.cppan.demo.boost.system: !<!> \"*\"\n  pvt.cppan.demo.boost.tuple: !<!> \"*\"\n  pvt.cppan.demo.boost.throw_exception: !<!> \"*\"\n  pvt.cppan.demo.boost.tokenizer: !<!> \"*\"\n  pvt.cppan.demo.boost.optional: !<!> \"*\"\n  pvt.cppan.demo.boost.math: !<!> \"*\"\n  pvt.cppan.demo.boost.smart_ptr: !<!> \"*\"\n  pvt.cppan.demo.boost.type_traits: !<!> \"*\"\n  pvt.cppan.demo.boost.preprocessor: !<!> \"*\"\n  pvt.cppan.demo.boost.numeric: !<!> \"*\"\n  pvt.cppan.demo.boost.align: !<!> \"*\"\n  pvt.cppan.demo.boost.exception: !<!> \"*\"\n  pvt.cppan.demo.boost.move: !<!> \"*\"\n  pvt.cppan.demo.boost.random: !<!> \"*\"\n  pvt.cppan.demo.boost.mpl: !<!> \"*\"\n  pvt.cppan.demo.boost.array: !<!> \"*\"\n  pvt.cppan.demo.boost.iterator: !<!> \"*\"\n  pvt.cppan.demo.boost.assert: !<!> \"*\"\n  pvt.cppan.demo.boost.atomic: !<!> \"*\"\n  pvt.cppan.demo.boost.config: !<!> \"*\"\n  pvt.cppan.demo.boost.io: !<!> \"*\"\n  pvt.cppan.demo.boost.core: !<!> \"*\"\n  pvt.cppan.demo.boost.type_index: !<!> \"*\"\n  pvt.cppan.demo.boost.utility: !<!> \"*\"\n  pvt.cppan.demo.boost.variant: !<!> \"*\"",
+    "source": {
+        "git": {
+            "tag": "boost-1.61.0",
+            "url": "https://github.com/boostorg/variant"
+        }
+    }
+}

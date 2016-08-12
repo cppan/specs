@@ -1,0 +1,11 @@
+{
+    "version": "master",
+    "cppan": "license: LICENSE.txt\r\nfiles: include/.*\r\n",
+    "project": "pvt.cppan.demo.concepts.cmcstl2",
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/CaseyCarter/cmcstl2"
+        }
+    }
+}

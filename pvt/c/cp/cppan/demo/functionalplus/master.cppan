@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.functionalplus",
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/Dobiasd/FunctionalPlus"
+        }
+    },
+    "cppan": "files: include/.*",
+    "version": "master"
+}

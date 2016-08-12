@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.mattiasflodin.reckless",
+    "cppan": "version: windows\r\nsource:\r\n  git: https:\/\/github.com\/mattiasflodin\/reckless\r\n  branch: wip\/windows\r\n\r\nlicense: LICENSE.txt\r\nfiles:\r\n    - boost\/.*\r\n    - reckless\/include\/.*\r\n    - reckless\/src\/.*\\.cpp\r\n    - reckless\/src\/.*\\.hpp\r\ninclude_directories:\r\n    public: reckless\/include\r\n    public: boost",
+    "version": "windows",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mattiasflodin\/reckless",
+            "branch": "wip\/windows"
+        }
+    }
+}

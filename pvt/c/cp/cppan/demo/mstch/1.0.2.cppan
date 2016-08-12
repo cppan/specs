@@ -1,0 +1,11 @@
+{
+    "version": "1.0.2",
+    "source": {
+        "git": {
+            "tag": "1.0.2",
+            "url": "https://github.com/no1msd/mstch"
+        }
+    },
+    "project": "pvt.cppan.demo.mstch",
+    "cppan": "files:\r\n    - \"include/.*\\\\.hpp\"\r\n    - \"src/.*\\\\.hpp\"\r\n    - \"src/.*\\\\.cpp\"\r\n\r\ninclude_directories_private:\r\n    - src\r\n\r\ndependencies:\n    pvt.cppan.demo.boost.variant: \"*\""
+}

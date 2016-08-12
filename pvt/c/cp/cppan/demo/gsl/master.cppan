@@ -1,0 +1,11 @@
+{
+    "cppan": "license: LICENSE\r\nfiles: include/.*",
+    "source": {
+        "git": {
+            "url": "https://github.com/microsoft/GSL",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "project": "pvt.cppan.demo.gsl"
+}

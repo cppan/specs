@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost.container",
+    "source": {
+        "git": {
+            "url": "https://github.com/boostorg/container",
+            "tag": "boost-1.61.0"
+        }
+    },
+    "cppan": "files:\n  - include/.*\n  - src/.*\ndependencies:\n  pvt.cppan.demo.boost.intrusive: !<!> \"*\"\n  pvt.cppan.demo.boost.core: !<!> \"*\"\nexclude_from_build:\n  - src/dlmalloc_2_8_6.c\n  - src/dlmalloc_ext_2_8_6.c",
+    "version": "1.61.0"
+}

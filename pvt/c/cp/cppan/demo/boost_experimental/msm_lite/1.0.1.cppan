@@ -1,0 +1,11 @@
+{
+    "cppan": "files: include/.*",
+    "source": {
+        "git": {
+            "tag": "v1.0.1",
+            "url": "https://github.com/boost-experimental/msm-lite"
+        }
+    },
+    "project": "pvt.cppan.demo.boost_experimental.msm_lite",
+    "version": "1.0.1"
+}

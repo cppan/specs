@@ -1,0 +1,11 @@
+{
+    "cppan": "root_project: pvt.cppan.demo.google.highwayhash\r\n\r\nprojects:\r\n    vector:\r\n        license: LICENSE\r\n        files:\r\n            - code_annotation.h\r\n            - vec.h\r\n            - vec2.h\r\n        include_directories:\r\n            public:\r\n                - .\r\n\r\n    sip_hash:\r\n        license: LICENSE\r\n        files:\r\n            - sip_hash.h\r\n            - sip_hash.cc\r\n        include_directories:\r\n            public:\r\n                - .\r\n        dependencies: vector\r\n\r\n    sip_tree_hash:\r\n        license: LICENSE\r\n        files:\r\n            - sip_tree_hash.h\r\n            - sip_tree_hash.cc\r\n        include_directories:\r\n            public:\r\n                - .\r\n        dependencies:\r\n            - vector\r\n            - sip_hash\r\n\r\n    scalar_sip_tree_hash:\r\n        license: LICENSE\r\n        files:\r\n            - scalar_sip_tree_hash.h\r\n            - scalar_sip_tree_hash.cc\r\n        include_directories:\r\n            public:\r\n                - .\r\n        dependencies:\r\n            - vector\r\n            - sip_hash\r\n\r\n    highway_tree_hash:\r\n        license: LICENSE\r\n        files:\r\n            - highway_tree_hash.h\r\n            - highway_tree_hash.cc\r\n        include_directories:\r\n            public:\r\n                - .\r\n        dependencies: vector\r\n\r\n    scalar_highway_tree_hash:\r\n        license: LICENSE\r\n        files:\r\n            - scalar_highway_tree_hash.h\r\n            - scalar_highway_tree_hash.cc\r\n        include_directories:\r\n            public:\r\n                - .\r\n        dependencies: vector\r\n",
+    "source": {
+        "git": {
+            "url": "https://github.com/google/highwayhash",
+            "branch": "master"
+        }
+    },
+    "project": "pvt.cppan.demo.google.highwayhash",
+    "version": "master"
+}

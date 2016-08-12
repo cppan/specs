@@ -1,0 +1,11 @@
+{
+    "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\r\npost_sources: |\r\n    if (NOT WIN32)\r\n        list(REMOVE_ITEM src \"${CMAKE_CURRENT_SOURCE_DIR}/src/debug_output_backend.cpp\")\r\n        list(REMOVE_ITEM src \"${CMAKE_CURRENT_SOURCE_DIR}/src/light_rw_mutex.cpp\")\r\n        list(REMOVE_ITEM src \"${CMAKE_CURRENT_SOURCE_DIR}/src/dump_avx2.cpp\")\r\n        list(REMOVE_ITEM src \"${CMAKE_CURRENT_SOURCE_DIR}/src/dump_ssse3.cpp\")\r\n    endif()\r\n\ndependencies:\n    pvt.cppan.demo.boost.asio: \"*\"\n    pvt.cppan.demo.boost.atomic: \"*\"\n    pvt.cppan.demo.boost.core: \"*\"\n    pvt.cppan.demo.boost.date_time: \"*\"\n    pvt.cppan.demo.boost.filesystem: \"*\"\n    pvt.cppan.demo.boost.parameter: \"*\"\n    pvt.cppan.demo.boost.property_tree: \"*\"\n    pvt.cppan.demo.boost.regex: \"*\"\n    pvt.cppan.demo.boost.spirit: \"*\"\n    pvt.cppan.demo.boost.thread: \"*\"\n    pvt.cppan.demo.boost.type_index: \"*\"\n    pvt.cppan.demo.boost.winapi: \"*\"\n\noptions:\n    any:\n        definitions:\n            public: BOOST_LOG_WITHOUT_EVENT_LOG\r\n            private: BOOST_LOG_BUILDING_THE_LIB\r\n    shared:\r\n        definitions:\r\n            public: BOOST_LOG_DYN_LINK\r\n            private: BOOST_LOG_DLL\r\n",
+    "project": "pvt.cppan.demo.boost.log",
+    "version": "1.60.0",
+    "source": {
+        "git": {
+            "url": "https://github.com/boostorg/log",
+            "tag": "boost-1.60.0"
+        }
+    }
+}

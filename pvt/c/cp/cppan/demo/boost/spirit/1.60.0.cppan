@@ -1,0 +1,11 @@
+{
+    "version": "1.60.0",
+    "cppan": "files:\r\n    - include/.*\\.hpp\r\n    - include/.*\\.ipp\r\n\ndependencies:\n    pvt.cppan.demo.boost.algorithm: \"*\"\n    pvt.cppan.demo.boost.core: \"*\"\n    pvt.cppan.demo.boost.iostreams: \"*\"\n    pvt.cppan.demo.boost.regex: \"*\"\n    pvt.cppan.demo.boost.function_types: \"*\"\n    pvt.cppan.demo.boost.phoenix: \"*\"\n    pvt.cppan.demo.boost.unordered: \"*\"",
+    "project": "pvt.cppan.demo.boost.spirit",
+    "source": {
+        "git": {
+            "tag": "boost-1.60.0",
+            "url": "https://github.com/boostorg/spirit"
+        }
+    }
+}

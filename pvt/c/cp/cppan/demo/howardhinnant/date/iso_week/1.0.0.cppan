@@ -1,0 +1,11 @@
+{
+    "cppan": "files:\r\n  - iso_week.h\r\ninclude_directories:\r\n    public: .\r\ndependencies:\r\n  - pvt.cppan.demo.howardhinnant.date.date",
+    "source": {
+        "git": {
+            "tag": "v1.0.0",
+            "url": "https://github.com/HowardHinnant/date"
+        }
+    },
+    "project": "pvt.cppan.demo.howardhinnant.date.iso_week",
+    "version": "1.0.0"
+}

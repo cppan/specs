@@ -1,0 +1,11 @@
+{
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/Cyan4973/lz4"
+        }
+    },
+    "cppan": "license: lib/LICENSE\r\n\r\nfiles:\r\n  - lib/lz4.c\r\n  - lib/lz4.h\r\n  - lib/lz4hc.c\r\n  - lib/lz4hc.h\r\n  - lib/lz4frame.c\r\n  - lib/lz4frame.h\r\n  - lib/xxhash.c\r\n  - lib/xxhash.h\r\n\r\ninclude_directories:\r\n  public: lib",
+    "version": "master",
+    "project": "pvt.cppan.demo.lz4"
+}

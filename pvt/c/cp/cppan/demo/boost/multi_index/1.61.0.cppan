@@ -1,0 +1,11 @@
+{
+    "version": "1.61.0",
+    "source": {
+        "git": {
+            "tag": "boost-1.61.0",
+            "url": "https://github.com/boostorg/multi_index"
+        }
+    },
+    "project": "pvt.cppan.demo.boost.multi_index",
+    "cppan": "files:\n  - include/.*\n  - src/.*\ndependencies:\n  pvt.cppan.demo.boost.serialization: !<!> \"*\"\n  pvt.cppan.demo.boost.core: !<!> \"*\""
+}

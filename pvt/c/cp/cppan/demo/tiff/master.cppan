@@ -1,0 +1,6 @@
+{
+    "cppan": "license: COPYRIGHT\n\nfiles: .*\n\ninclude_directories:\n    public: .\n\npost_sources: |\n    if (WIN32)\n        list(REMOVE_ITEM src \"${CMAKE_CURRENT_SOURCE_DIR}/tif_unix.c\")\n    else()\n        list(REMOVE_ITEM src \"${CMAKE_CURRENT_SOURCE_DIR}/tif_win32.c\")\n    endif()\n\ndependencies:\n    pvt.cppan.demo.zlib: 1\n",
+    "project": "pvt.cppan.demo.tiff",
+    "file": "/tmp/cppan/809b-6ee3-367f-d068",
+    "version": "master"
+}

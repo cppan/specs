@@ -1,0 +1,11 @@
+{
+    "version": "3.11.0",
+    "source": {
+        "git": {
+            "url": "https://www.sqlite.org/2016/sqlite-amalgamation-3110000.zip",
+            "tag": "3.11.0"
+        }
+    },
+    "project": "pvt.cppan.demo.sqlite3",
+    "cppan": "root_directory: sqlite-amalgamation-3110000\r\nfiles:\r\n    - sqlite3.h\r\n    - sqlite3ext.h\r\n    - sqlite3.c\r\ninclude_directories:\r\n    public: ."
+}

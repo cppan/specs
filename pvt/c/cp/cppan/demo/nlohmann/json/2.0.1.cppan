@@ -1,0 +1,11 @@
+{
+    "source": {
+        "git": {
+            "url": "https://github.com/nlohmann/json",
+            "tag": "v2.0.1"
+        }
+    },
+    "version": "2.0.1",
+    "cppan": "files: src/json.hpp\r\ninclude_directories:\r\n  public:\r\n  - src",
+    "project": "pvt.cppan.demo.nlohmann.json"
+}

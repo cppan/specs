@@ -1,0 +1,11 @@
+{
+    "source": {
+        "git": {
+            "url": "https://github.com/boostorg/serialization",
+            "tag": "boost-1.60.0"
+        }
+    },
+    "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\ndependencies:\n    pvt.cppan.demo.boost.spirit: \"*\"\n",
+    "project": "pvt.cppan.demo.boost.serialization",
+    "version": "1.60.0"
+}

@@ -1,0 +1,11 @@
+{
+    "cppan": "license: LICENSE.txt\r\nfiles: include/.*\r\n",
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/tahonermann/text_view"
+        }
+    },
+    "version": "master",
+    "project": "pvt.cppan.demo.concepts.text_view"
+}

@@ -1,0 +1,11 @@
+{
+    "version": "1.60.0",
+    "project": "pvt.cppan.demo.boost.config",
+    "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\r\npost_sources: |\r\n    set(dummy_file ${CMAKE_CURRENT_SOURCE_DIR}/autolink.dummy)\r\n    if (NOT EXISTS ${dummy_file})\r\n    file(WRITE ${CMAKE_CURRENT_SOURCE_DIR}/include/boost/config/auto_link.hpp \"\r\n    #ifdef BOOST_LIB_PREFIX\r\n    #  undef BOOST_LIB_PREFIX\r\n    #endif\r\n    #if defined(BOOST_LIB_NAME)\r\n    #  undef BOOST_LIB_NAME\r\n    #endif\r\n    #if defined(BOOST_LIB_THREAD_OPT)\r\n    #  undef BOOST_LIB_THREAD_OPT\r\n    #endif\r\n    #if defined(BOOST_LIB_RT_OPT)\r\n    #  undef BOOST_LIB_RT_OPT\r\n    #endif\r\n    #if defined(BOOST_LIB_LINK_OPT)\r\n    #  undef BOOST_LIB_LINK_OPT\r\n    #endif\r\n    #if defined(BOOST_LIB_DEBUG_OPT)\r\n    #  undef BOOST_LIB_DEBUG_OPT\r\n    #endif\r\n    #if defined(BOOST_DYN_LINK)\r\n    #  undef BOOST_DYN_LINK\r\n    #endif\r\n    \")\r\n    file(WRITE ${dummy_file} \"\")\r\n    endif()",
+    "source": {
+        "git": {
+            "url": "https://github.com/boostorg/config",
+            "tag": "boost-1.60.0"
+        }
+    }
+}

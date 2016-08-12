@@ -1,0 +1,11 @@
+{
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/ericniebler/range-v3"
+        }
+    },
+    "project": "pvt.cppan.demo.range_v3",
+    "cppan": "license: LICENSE.txt\r\nfiles: include/.*",
+    "version": "master"
+}

@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost_experimental.process",
+    "source": {
+        "git": {
+            "url": "https://github.com/klemens-morgenstern/boost-process",
+            "branch": "develop"
+        }
+    },
+    "cppan": "files: include/.*",
+    "version": "develop"
+}

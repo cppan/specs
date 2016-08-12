@@ -1,0 +1,11 @@
+{
+    "cppan": "license: LICENSE\r\nfiles: code/mach7/.*\r\n\r\ninclude_directories:\r\n    public: code\r\n",
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/solodon4/Mach7"
+        }
+    },
+    "version": "master",
+    "project": "pvt.cppan.demo.mach7"
+}

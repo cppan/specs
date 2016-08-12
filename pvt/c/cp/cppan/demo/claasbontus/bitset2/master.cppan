@@ -1,0 +1,11 @@
+{
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/ClaasBontus/bitset2"
+        }
+    },
+    "cppan": "files:\r\n  - detail/.*\r\n  - bitset2.hpp\r\ninclude_directories:\r\n  public: .",
+    "project": "pvt.cppan.demo.claasbontus.bitset2",
+    "version": "master"
+}

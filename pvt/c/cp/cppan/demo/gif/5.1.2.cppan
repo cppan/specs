@@ -1,0 +1,6 @@
+{
+    "cppan": "license: COPYING\nfiles: .*\ninclude_directories:\n    public: .\n",
+    "file": "/tmp/cppan/1e8c-f599-b8af-b535",
+    "version": "5.1.2",
+    "project": "pvt.cppan.demo.gif"
+}

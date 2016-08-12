@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.uwebsockets",
+    "source": {
+        "git": {
+            "url": "https://github.com/alexhultman/uWebSockets",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "cppan": "files:\r\n  - uWS.cpp\r\n  - uWS.h\r\n  - utf8.cpp\r\n  \r\ninclude_directories:\r\n  public: .\r\n  \r\ndependencies:\r\n  pvt.cppan.demo.libuv: 1\r\n  pvt.cppan.demo.libressl.crypto: 2\r\n"
+}

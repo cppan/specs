@@ -1,0 +1,11 @@
+{
+    "cppan": "files: include/.*\r\ndependencies:\r\n    pvt.cppan.demo.boost.regex: 1\r\n    pvt.cppan.demo.boost.thread: 1\r\n    pvt.cppan.demo.boost.system: 1\r\n",
+    "project": "pvt.cppan.demo.boost_experimental.root_ptr",
+    "version": "master",
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/philippeb8/root_ptr"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/KhronosGroup/Vulkan-Hpp"
+        }
+    },
+    "project": "pvt.cppan.demo.vulkan_hpp",
+    "cppan": "license: LICENSE.txt\r\nfiles: vulkan/vulkan.hpp\r\ninclude_directories:\r\n  public: .\r\ndependencies:\r\n  pvt.cppan.demo.tinyxml2: \"*\"",
+    "version": "master"
+}

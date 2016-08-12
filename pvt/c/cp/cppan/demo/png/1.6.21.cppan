@@ -1,0 +1,6 @@
+{
+    "version": "1.6.21",
+    "file": "/tmp/cppan/1192-e545-023e-3351",
+    "project": "pvt.cppan.demo.png",
+    "cppan": "license: LICENSE\r\nroot_directory: lpng1621\r\nfiles: .*\r\ninclude_directories:\r\n    public: .\r\ndependencies:\r\n    pvt.cppan.demo.zlib: 1\r\n"
+}

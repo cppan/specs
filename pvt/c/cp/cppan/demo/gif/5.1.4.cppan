@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.gif",
+    "cppan": "license: COPYING\r\n\r\nroot_directory: giflib-5.1.4\r\n\r\nfiles:\r\n    - lib/.*\\.c\r\n    - lib/.*\\.h\r\n\r\ninclude_directories:\r\n    public: lib    \r\n\r\npre_sources: |\r\n    # dummy config file\r\n    if (MSVC)\r\n        if (NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/lib/unistd.h)\r\n            file(WRITE ${CMAKE_CURRENT_SOURCE_DIR}/lib/unistd.h)\r\n        endif()\r\n\r\n        if (NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/lib/stdbool.h)\r\n            file(WRITE ${CMAKE_CURRENT_SOURCE_DIR}/lib/stdbool.h \"\r\n                #pragma once\r\n                #define __bool_true_false_are_defined\t1\r\n                #ifndef __cplusplus\r\n                #define bool\t_Bool\r\n                #define false\t0\r\n                #define true\t1\r\n                #endif /* __cplusplus */\r\n            \")\r\n        endif()\r\n    endif()\r\n",
+    "version": "5.1.4",
+    "source": {
+        "git": {
+            "url": "http://downloads.sourceforge.net/project/giflib/giflib-5.1.4.tar.gz",
+            "tag": "5.1.4"
+        }
+    }
+}

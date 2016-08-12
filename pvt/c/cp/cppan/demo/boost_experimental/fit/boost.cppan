@@ -1,0 +1,11 @@
+{
+    "source": {
+        "git": {
+            "branch": "boost",
+            "url": "https://github.com/pfultz2/Fit"
+        }
+    },
+    "cppan": "files: include/.*\r\n",
+    "project": "pvt.cppan.demo.boost_experimental.fit",
+    "version": "boost"
+}

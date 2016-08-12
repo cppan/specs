@@ -1,0 +1,11 @@
+{
+    "source": {
+        "git": {
+            "url": "https://github.com/apache/thrift",
+            "tag": "0.9.3"
+        }
+    },
+    "version": "0.9.3",
+    "cppan": "license: LICENSE\r\n\r\nfiles:\r\n  - compiler/cpp/src/.*\r\n\r\ninclude_directories:\r\n  private: compiler/cpp/src\r\n  \r\naliases:\r\n  - thrift\r\n\r\npost_sources: |\r\n    if(MSVC)\r\n        configure_file(${CMAKE_CURRENT_SOURCE_DIR}/compiler/cpp/src/windows/version.h.in ${CMAKE_CURRENT_BINARY_DIR}/version.h)\r\n    else()\r\n        configure_file(${CMAKE_CURRENT_SOURCE_DIR}/compiler/cpp/version.h.in ${CMAKE_CURRENT_BINARY_DIR}/version.h)\r\n    endif()\r\n\r\n    find_package(FLEX REQUIRED)\r\n    find_package(BISON REQUIRED)\r\n\r\n    # Create flex and bison files and build the lib parse static library\r\n    BISON_TARGET(thrifty ${CMAKE_CURRENT_SOURCE_DIR}/compiler/cpp/src/thrifty.yy ${CMAKE_CURRENT_BINARY_DIR}/thrifty.cc)\r\n    FLEX_TARGET (thriftl ${CMAKE_CURRENT_SOURCE_DIR}/compiler/cpp/src/thriftl.ll ${CMAKE_CURRENT_BINARY_DIR}/thriftl.cc)\r\n    ADD_FLEX_BISON_DEPENDENCY(thriftl thrifty)\r\n\r\n    # HACK: Work around the fact that bison crates a .hh file but we need a .h file\r\n    add_custom_command(OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/thrifty.h\r\n                       COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_CURRENT_BINARY_DIR}/thrifty.hh ${CMAKE_CURRENT_BINARY_DIR}/thrifty.h\r\n                       DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/thrifty.hh\r\n                       )\r\n\r\n    list(APPEND src\r\n        ${CMAKE_CURRENT_BINARY_DIR}/thrifty.h\r\n        ${CMAKE_CURRENT_BINARY_DIR}/thrifty.cc\r\n        ${CMAKE_CURRENT_BINARY_DIR}/thriftl.cc\r\n    )\r\n\r\n",
+    "project": "pvt.cppan.demo.apache.thrift_compiler"
+}

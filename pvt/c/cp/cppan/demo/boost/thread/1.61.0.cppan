@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost.thread",
+    "source": {
+        "git": {
+            "url": "https://github.com/boostorg/thread",
+            "tag": "boost-1.61.0"
+        }
+    },
+    "cppan": "files:\n  - include/.*\n  - src/.*\noptions:\n  any:\n    definitions:\n      private: BOOST_THREAD_BUILD_LIB\n  static:\n    post_sources: !<!> \"if (WIN32)\\n    list(REMOVE_ITEM src \\\"${CMAKE_CURRENT_SOURCE_DIR}/src/win32/tss_dll.cpp\\\")\\nendif()\\n\"\n  shared:\n    post_sources: !<!> \"if (WIN32)\\n    list(REMOVE_ITEM src \\\"${CMAKE_CURRENT_SOURCE_DIR}/src/win32/tss_pe.cpp\\\")\\nendif()\"\n    definitions:\n      interface: BOOST_THREAD_USE_DLL\n      private: BOOST_THREAD_BUILD_DLL\npost_sources: !<!> \"if (WIN32)\\n    list(REMOVE_ITEM src \\\"${CMAKE_CURRENT_SOURCE_DIR}/src/pthread/thread.cpp\\\")\\n    list(REMOVE_ITEM src \\\"${CMAKE_CURRENT_SOURCE_DIR}/src/pthread/once.cpp\\\")\\n    list(REMOVE_ITEM src \\\"${CMAKE_CURRENT_SOURCE_DIR}/src/pthread/once_atomic.cpp\\\")\\nelse()\\n    list(REMOVE_ITEM src \\\"${CMAKE_CURRENT_SOURCE_DIR}/src/win32/thread.cpp\\\")\\n    list(REMOVE_ITEM src \\\"${CMAKE_CURRENT_SOURCE_DIR}/src/win32/tss_dll.cpp\\\")\\n    list(REMOVE_ITEM src \\\"${CMAKE_CURRENT_SOURCE_DIR}/src/win32/tss_pe.cpp\\\")\\nendif()\\n\"\ndependencies:\n  pvt.cppan.demo.boost.winapi: !<!> \"*\"\n  pvt.cppan.demo.boost.date_time: !<!> \"*\"\n  pvt.cppan.demo.boost.core: !<!> \"*\"\n  pvt.cppan.demo.boost.chrono: !<!> \"*\"\nexclude_from_build:\n  - src/pthread/once_atomic.cpp",
+    "version": "1.61.0"
+}

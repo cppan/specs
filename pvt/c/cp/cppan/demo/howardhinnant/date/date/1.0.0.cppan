@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.howardhinnant.date.date",
+    "cppan": "files:\r\n  - date.h\r\ninclude_directories:\r\n    public: .",
+    "version": "1.0.0",
+    "source": {
+        "git": {
+            "url": "https://github.com/HowardHinnant/date",
+            "tag": "v1.0.0"
+        }
+    }
+}

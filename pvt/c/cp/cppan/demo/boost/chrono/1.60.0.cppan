@@ -1,0 +1,11 @@
+{
+    "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\ndependencies:\n    pvt.cppan.demo.boost.core: \"*\"\n    pvt.cppan.demo.boost.winapi: \"*\"",
+    "project": "pvt.cppan.demo.boost.chrono",
+    "version": "1.60.0",
+    "source": {
+        "git": {
+            "url": "https://github.com/boostorg/chrono",
+            "tag": "boost-1.60.0"
+        }
+    }
+}

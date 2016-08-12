@@ -1,0 +1,11 @@
+{
+    "source": {
+        "git": {
+            "url": "https://github.com/boostorg/vmd",
+            "tag": "boost-1.60.0"
+        }
+    },
+    "cppan": "files:\r\n    - include/.*\r\n\r\ndependencies:\r\n    pvt.cppan.demo.boost.config: \"*\"\r\n    pvt.cppan.demo.boost.preprocessor: \"*\"",
+    "version": "1.60.0",
+    "project": "pvt.cppan.demo.boost.vmd"
+}

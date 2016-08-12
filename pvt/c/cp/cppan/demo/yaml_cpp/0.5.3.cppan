@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.yaml_cpp",
+    "version": "0.5.3",
+    "cppan": "license: LICENSE\r\nfiles:\r\n    - include/.*\r\n    - src/.*\n\ndependencies:\n    pvt.cppan.demo.boost.iterator: \"*\"\n    pvt.cppan.demo.boost.smart_ptr: \"*\"",
+    "source": {
+        "git": {
+            "url": "https://github.com/jbeder/yaml-cpp",
+            "tag": "release-0.5.3"
+        }
+    }
+}
