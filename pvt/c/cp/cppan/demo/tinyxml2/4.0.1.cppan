@@ -1,11 +1,11 @@
 {
     "cppan": "files:\r\n  - tinyxml2.cpp\r\n  - tinyxml2.h\r\ninclude_directories:\r\n  public: .",
-    "version": "4.0.1",
+    "project": "pvt.cppan.demo.tinyxml2",
     "source": {
         "git": {
             "tag": "4.0.1",
             "url": "https://github.com/leethomason/tinyxml2"
         }
     },
-    "project": "pvt.cppan.demo.tinyxml2"
+    "version": "4.0.1"
 }

@@ -1,11 +1,11 @@
 {
-    "project": "pvt.cppan.demo.boost.proto",
     "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\ndependencies:\n    pvt.cppan.demo.boost.core: \"*\"\n    pvt.cppan.demo.boost.fusion: \"*\"",
-    "version": "1.60.0",
+    "project": "pvt.cppan.demo.boost.proto",
     "source": {
         "git": {
             "tag": "boost-1.60.0",
             "url": "https://github.com/boostorg/proto"
         }
-    }
+    },
+    "version": "1.60.0"
 }

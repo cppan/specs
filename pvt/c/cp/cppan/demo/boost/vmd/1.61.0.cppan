@@ -1,5 +1,4 @@
 {
-    "version": "1.61.0",
     "cppan": "dependencies:\n  pvt.cppan.demo.boost.preprocessor: !<!> \"*\"\n  pvt.cppan.demo.boost.config: !<!> \"*\"\nfiles:\n  - include/.*",
     "project": "pvt.cppan.demo.boost.vmd",
     "source": {
@@ -7,5 +6,6 @@
             "tag": "boost-1.61.0",
             "url": "https://github.com/boostorg/vmd"
         }
-    }
+    },
+    "version": "1.61.0"
 }

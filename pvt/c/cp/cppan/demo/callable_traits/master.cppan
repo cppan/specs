@@ -1,11 +1,11 @@
 {
+    "cppan": "files: include/.*",
+    "project": "pvt.cppan.demo.callable_traits",
     "source": {
         "git": {
             "branch": "master",
             "url": "https://github.com/badair/callable_traits"
         }
     },
-    "project": "pvt.cppan.demo.callable_traits",
-    "version": "master",
-    "cppan": "files: include/.*"
+    "version": "master"
 }

@@ -3,8 +3,8 @@
     "project": "pvt.cppan.demo.boost.core",
     "source": {
         "git": {
-            "url": "https://github.com/boostorg/core",
-            "tag": "boost-1.61.0"
+            "tag": "boost-1.61.0",
+            "url": "https://github.com/boostorg/core"
         }
     },
     "version": "1.61.0"

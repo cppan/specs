@@ -1,11 +1,11 @@
 {
     "cppan": "license: LICENSE\r\nfiles:\r\n  - include/.*\\.h\r\n  - src/.*\\.cc\r\ndependencies:\r\n  pvt.cppan.demo.rapidjson: 1",
-    "version": "master",
+    "project": "pvt.cppan.demo.pistache",
     "source": {
         "git": {
             "branch": "master",
             "url": "https://github.com/oktal/pistache"
         }
     },
-    "project": "pvt.cppan.demo.pistache"
+    "version": "master"
 }

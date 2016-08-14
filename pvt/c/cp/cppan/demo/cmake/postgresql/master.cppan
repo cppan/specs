@@ -1,6 +1,5 @@
 {
-    "version": "master",
-    "file": "/tmp/cppan/bcf2-4eb7-4f88-789c",
     "cppan": "empty: true\r\n\r\npost_sources: |\r\n    find_package(PostgreSQL REQUIRED)\r\n    find_library(pg_lib ${PostgreSQL_LIBRARIES} HINTS ${PostgreSQL_LIBRARY_DIRS})\r\n\r\noptions:\r\n    any:\r\n        include_directories: ${PostgreSQL_INCLUDE_DIRS}\r\n        link_libraries: ${pg_lib}",
-    "project": "pvt.cppan.demo.cmake.postgresql"
+    "project": "pvt.cppan.demo.cmake.postgresql",
+    "version": "master"
 }

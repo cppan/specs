@@ -1,11 +1,11 @@
 {
+    "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\ndependencies:\n    pvt.cppan.demo.boost.algorithm: \"*\"\n    pvt.cppan.demo.boost.smart_ptr: \"*\"\n",
     "project": "pvt.cppan.demo.boost.date_time",
     "source": {
         "git": {
-            "url": "https://github.com/boostorg/date_time",
-            "tag": "boost-1.60.0"
+            "tag": "boost-1.60.0",
+            "url": "https://github.com/boostorg/date_time"
         }
     },
-    "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\ndependencies:\n    pvt.cppan.demo.boost.algorithm: \"*\"\n    pvt.cppan.demo.boost.smart_ptr: \"*\"\n",
     "version": "1.60.0"
 }

@@ -1,11 +1,11 @@
 {
-    "version": "0.5.1",
     "cppan": "license: COPYING\r\nfiles:\r\n    - src/.*\\.h\r\n    - src/.*\\.c\r\ninclude_directories:\r\n    public: src\r\n",
+    "project": "pvt.cppan.demo.webp",
     "source": {
         "git": {
             "tag": "v0.5.1",
             "url": "https://github.com/webmproject/libwebp"
         }
     },
-    "project": "pvt.cppan.demo.webp"
+    "version": "0.5.1"
 }

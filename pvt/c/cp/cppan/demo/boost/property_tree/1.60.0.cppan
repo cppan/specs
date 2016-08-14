@@ -1,11 +1,11 @@
 {
-    "version": "1.60.0",
+    "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\ndependencies:\n    pvt.cppan.demo.boost.core: \"*\"\n    pvt.cppan.demo.boost.multi_index: \"*\"",
+    "project": "pvt.cppan.demo.boost.property_tree",
     "source": {
         "git": {
             "tag": "boost-1.60.0",
             "url": "https://github.com/boostorg/property_tree"
         }
     },
-    "project": "pvt.cppan.demo.boost.property_tree",
-    "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\ndependencies:\n    pvt.cppan.demo.boost.core: \"*\"\n    pvt.cppan.demo.boost.multi_index: \"*\""
+    "version": "1.60.0"
 }

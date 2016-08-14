@@ -1,11 +1,11 @@
 {
-    "version": "1.60.0",
+    "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\ndependencies:\n    pvt.cppan.demo.boost.core: \"*\"\n    pvt.cppan.demo.boost.proto: \"*\"",
+    "project": "pvt.cppan.demo.boost.phoenix",
     "source": {
         "git": {
-            "url": "https://github.com/boostorg/phoenix",
-            "tag": "boost-1.60.0"
+            "tag": "boost-1.60.0",
+            "url": "https://github.com/boostorg/phoenix"
         }
     },
-    "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\ndependencies:\n    pvt.cppan.demo.boost.core: \"*\"\n    pvt.cppan.demo.boost.proto: \"*\"",
-    "project": "pvt.cppan.demo.boost.phoenix"
+    "version": "1.60.0"
 }

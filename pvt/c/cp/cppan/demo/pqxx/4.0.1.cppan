@@ -1,6 +1,5 @@
 {
-    "file": "/tmp/cppan/3eba-a458-5118-3417",
-    "version": "4.0.1",
+    "cppan": "license: COPYING\r\nfiles: .*\r\n\r\ndependencies:\r\n    pvt.cppan.demo.cmake.postgresql: master\r\n",
     "project": "pvt.cppan.demo.pqxx",
-    "cppan": "license: COPYING\r\nfiles: .*\r\n\r\ndependencies:\r\n    pvt.cppan.demo.cmake.postgresql: master\r\n"
+    "version": "4.0.1"
 }

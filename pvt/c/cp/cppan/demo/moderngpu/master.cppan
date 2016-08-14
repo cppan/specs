@@ -1,11 +1,11 @@
 {
-    "version": "master",
     "cppan": "license: LICENSE\r\nfiles: src/.*\r\ninclude_directories:\r\n  public:\r\n    - src",
+    "project": "pvt.cppan.demo.moderngpu",
     "source": {
         "git": {
             "branch": "master",
             "url": "https://github.com/nvlabs/moderngpu"
         }
     },
-    "project": "pvt.cppan.demo.moderngpu"
+    "version": "master"
 }

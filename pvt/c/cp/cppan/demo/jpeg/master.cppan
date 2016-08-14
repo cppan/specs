@@ -1,6 +1,5 @@
 {
     "cppan": "files: .*\n\ninclude_directories:\n    public: .\n\n",
-    "file": "/tmp/cppan/fb07-fbd0-440e-58f1",
-    "version": "master",
-    "project": "pvt.cppan.demo.jpeg"
+    "project": "pvt.cppan.demo.jpeg",
+    "version": "master"
 }

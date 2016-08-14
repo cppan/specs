@@ -1,13 +1,13 @@
 {
+    "commit": "",
+    "cppan": "version: 1.2.0\r\nsource:\r\n  git: https://github.com/KjellKod/g3log\r\n  tag: 1.2\r\n\r\nfiles: src/.*\r\ninclude_directories:\r\n  public: src",
+    "project": "pvt.cppan.demo.kjellkod.g3log",
     "source": {
         "git": {
-            "url": "https://github.com/KjellKod/g3log",
-            "tag": "1.2.0"
+            "tag": "1.2.0",
+            "url": "https://github.com/KjellKod/g3log"
         }
     },
     "tag": "1.2",
-    "commit": "",
-    "version": "1.2.0",
-    "cppan": "version: 1.2.0\r\nsource:\r\n  git: https://github.com/KjellKod/g3log\r\n  tag: 1.2\r\n\r\nfiles: src/.*\r\ninclude_directories:\r\n  public: src",
-    "project": "pvt.cppan.demo.kjellkod.g3log"
+    "version": "1.2.0"
 }

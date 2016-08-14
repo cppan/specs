@@ -1,4 +1,5 @@
 {
+    "cppan": "files: include/.*",
     "project": "pvt.cppan.demo.functionalplus",
     "source": {
         "git": {
@@ -6,6 +7,5 @@
             "url": "https://github.com/Dobiasd/FunctionalPlus"
         }
     },
-    "cppan": "files: include/.*",
     "version": "master"
 }

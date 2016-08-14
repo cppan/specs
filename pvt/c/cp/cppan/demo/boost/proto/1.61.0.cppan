@@ -1,5 +1,5 @@
 {
-    "version": "1.61.0",
+    "cppan": "files:\n  - include/.*\n  - src/.*\ndependencies:\n  pvt.cppan.demo.boost.core: !<!> \"*\"\n  pvt.cppan.demo.boost.fusion: !<!> \"*\"",
     "project": "pvt.cppan.demo.boost.proto",
     "source": {
         "git": {
@@ -7,5 +7,5 @@
             "url": "https://github.com/boostorg/proto"
         }
     },
-    "cppan": "files:\n  - include/.*\n  - src/.*\ndependencies:\n  pvt.cppan.demo.boost.core: !<!> \"*\"\n  pvt.cppan.demo.boost.fusion: !<!> \"*\""
+    "version": "1.61.0"
 }

@@ -1,11 +1,11 @@
 {
-    "version": "1.61.0",
+    "cppan": "dependencies:\n  pvt.cppan.demo.boost.core: !<!> \"*\"\nfiles:\n  - !<!> include/.*\\.hpp",
+    "project": "pvt.cppan.demo.boost.function",
     "source": {
         "git": {
-            "url": "https://github.com/boostorg/function",
-            "tag": "boost-1.61.0"
+            "tag": "boost-1.61.0",
+            "url": "https://github.com/boostorg/function"
         }
     },
-    "cppan": "dependencies:\n  pvt.cppan.demo.boost.core: !<!> \"*\"\nfiles:\n  - !<!> include/.*\\.hpp",
-    "project": "pvt.cppan.demo.boost.function"
+    "version": "1.61.0"
 }

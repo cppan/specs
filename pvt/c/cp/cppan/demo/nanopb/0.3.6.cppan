@@ -1,11 +1,11 @@
 {
-    "project": "pvt.cppan.demo.nanopb",
-    "version": "0.3.6",
     "cppan": "license: LICENSE.txt\r\n\r\nfiles:\r\n    - pb.h\r\n    - pb_common.h\r\n    - pb_common.c\r\n    - pb_encode.h\r\n    - pb_encode.c\r\n    - pb_decode.h\r\n    - pb_decode.c\r\n",
+    "project": "pvt.cppan.demo.nanopb",
     "source": {
         "git": {
             "tag": "nanopb-0.3.6",
             "url": "https://github.com/nanopb/nanopb"
         }
-    }
+    },
+    "version": "0.3.6"
 }

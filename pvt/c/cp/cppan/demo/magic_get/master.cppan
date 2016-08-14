@@ -1,11 +1,11 @@
 {
     "cppan": "files: magic_get.hpp\r\ninclude_directories:\r\n  public: .",
-    "version": "master",
     "project": "pvt.cppan.demo.magic_get",
     "source": {
         "git": {
-            "url": "https://github.com/apolukhin/magic_get",
-            "branch": "master"
+            "branch": "master",
+            "url": "https://github.com/apolukhin/magic_get"
         }
-    }
+    },
+    "version": "master"
 }

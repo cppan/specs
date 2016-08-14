@@ -1,11 +1,11 @@
 {
-    "project": "pvt.cppan.demo.boost.container",
-    "version": "1.60.0",
     "cppan": "files:\r\n    - include/.*\r\n    - src/.*\r\n\r\nexclude_from_build:\r\n    - src/dlmalloc_2_8_6.c\r\n    - src/dlmalloc_ext_2_8_6.c\r\n\ndependencies:\n    pvt.cppan.demo.boost.core: \"*\"\n    pvt.cppan.demo.boost.intrusive: \"*\"",
+    "project": "pvt.cppan.demo.boost.container",
     "source": {
         "git": {
             "tag": "boost-1.60.0",
             "url": "https://github.com/boostorg/container"
         }
-    }
+    },
+    "version": "1.60.0"
 }

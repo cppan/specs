@@ -1,6 +1,5 @@
 {
-    "file": "/tmp/cppan/240d-6f27-37f8-e413",
-    "version": "1.0.6",
     "cppan": "license: LICENSE\r\nroot_directory: bzip2-1.0.6\r\nfiles:\r\n    - bzlib.h\r\n    - bzlib_private.h\r\n    - blocksort.c\r\n    - bzlib.c\r\n    - compress.c\r\n    - crctable.c\r\n    - decompress.c\r\n    - huffman.c\r\n    - randtable.c\r\ninclude_directories:\r\n    public: .\r\n\r\noptions:\r\n    shared:\r\n        definitions:\r\n            public: BZ_DLL\r\n            interface: BZ_IMPORT\r\n",
-    "project": "pvt.cppan.demo.bzip2"
+    "project": "pvt.cppan.demo.bzip2",
+    "version": "1.0.6"
 }

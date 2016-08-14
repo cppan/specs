@@ -1,11 +1,11 @@
 {
-    "project": "pvt.cppan.demo.sqlite3",
-    "version": "3.13.0",
     "cppan": "root_directory: sqlite-amalgamation-3130000\r\nfiles:\r\n    - sqlite3.h\r\n    - sqlite3ext.h\r\n    - sqlite3.c\r\ninclude_directories:\r\n    public: .",
+    "project": "pvt.cppan.demo.sqlite3",
     "source": {
         "git": {
-            "url": "https://www.sqlite.org/2016/sqlite-amalgamation-3130000.zip",
-            "tag": "3.13.0"
+            "tag": "3.13.0",
+            "url": "https://www.sqlite.org/2016/sqlite-amalgamation-3130000.zip"
         }
-    }
+    },
+    "version": "3.13.0"
 }
