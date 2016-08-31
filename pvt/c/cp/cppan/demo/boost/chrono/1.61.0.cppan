@@ -1,11 +1,11 @@
 {
-    "cppan": "dependencies:\n  pvt.cppan.demo.boost.core: !<!> \"*\"\n  pvt.cppan.demo.boost.winapi: !<!> \"*\"\nfiles:\n  - include/.*\n  - src/.*",
     "project": "pvt.cppan.demo.boost.chrono",
+    "cppan": "files:\n  - include\/.*\n  - src\/.*\nsource:\n  tag: boost-1.61.0\n  git: https:\/\/github.com\/boostorg\/chrono\nversion: 1.61.0\ninclude_directories:\n  public:\n    - include\n  private:\n    - src\ndependencies:\n  public:\n    pvt.cppan.demo.boost.core:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.assert:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.config:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.integer:\n      include_directories_only: true\n      version: !<!> \"*\"\n    pvt.cppan.demo.boost.ratio:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.static_assert:\n      include_directories_only: true\n      version: !<!> \"*\"\n    pvt.cppan.demo.boost.move:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.mpl:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.predef:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.preprocessor:\n      include_directories_only: true\n      version: !<!> \"*\"\n    pvt.cppan.demo.boost.system: !<!> \"*\"\n    pvt.cppan.demo.boost.rational:\n      include_directories_only: true\n      version: !<!> \"*\"\n    pvt.cppan.demo.boost.throw_exception:\n      include_directories_only: true\n      version: !<!> \"*\"\n    pvt.cppan.demo.boost.type_traits:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.utility:\n      include_directories_only: true\n      version: !<!> \"*\"\n    pvt.cppan.demo.boost.typeof:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.winapi:\n      version: !<!> \"*\"\n      include_directories_only: true\noptions:\n  static:\n    definitions:\n      public:\n        - BOOST_CHRONO_STATIC_LINK\n        - BOOST_ALL_STATIC_LINK\n        - BOOST_CHRONO_BUILD_LIB\n  any:\n    definitions:\n      private:\n        - BOOST_CHRONO_SOURCE\n        - BOOST_CHRONO_BUILDING_THE_LIB\n  shared:\n    definitions:\n      public:\n        - BOOST_CHRONO_DYN_LINK\n        - BOOST_ALL_DYN_LINK\n        - BOOST_CHRONO_USE_DLL\n      private:\n        - BOOST_CHRONO_BUILD_DLL",
+    "version": "1.61.0",
     "source": {
         "git": {
-            "tag": "boost-1.61.0",
-            "url": "https://github.com/boostorg/chrono"
+            "url": "https:\/\/github.com\/boostorg\/chrono",
+            "tag": "boost-1.61.0"
         }
-    },
-    "version": "1.61.0"
+    }
 }

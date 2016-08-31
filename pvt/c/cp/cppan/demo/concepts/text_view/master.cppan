@@ -1,11 +1,11 @@
 {
-    "cppan": "license: LICENSE.txt\r\nfiles: include/.*\r\n",
     "project": "pvt.cppan.demo.concepts.text_view",
+    "cppan": "source:\n  branch: master\n  git: https:\/\/github.com\/tahonermann\/text_view\nlicense: LICENSE.txt\ndependencies:\n  pvt.cppan.demo.concepts.cmcstl2: master\nfiles: include\/.*\nversion: master",
+    "version": "master",
     "source": {
         "git": {
-            "branch": "master",
-            "url": "https://github.com/tahonermann/text_view"
+            "url": "https:\/\/github.com\/tahonermann\/text_view",
+            "branch": "master"
         }
-    },
-    "version": "master"
+    }
 }
