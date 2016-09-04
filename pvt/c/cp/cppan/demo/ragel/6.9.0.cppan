@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.ragel",
-    "cppan": "include_directories:\n  private:\n    - aapl\nsource:\n  remote: http:\/\/www.colm.net\/files\/ragel\/ragel-6.9.tar.gz\nversion: 6.9.0\nfiles:\n  - aapl\/.*\\.h\n  - src\/.*\\.cpp\n  - src\/.*\\.h\npost_sources: !<!> \"file_write_once(${BDIR}\/config.h \\\"\\\")\\nif (WIN32)\\n    file_write_once(${BDIR}\/unistd.h \\\"\\\")\\nendif()\\n\\nif (NOT EXISTS ${BDIR}\/fix_rbx)\\n    file_write_once(${BDIR}\/fix_rbx \\\"\\\")\\n    file(READ ${SDIR}\/src\/rbxgoto.cpp)\\nendif()\"\nlicense: COPYING",
+    "cppan": "include_directories:\n  private:\n    - aapl\nsource:\n  remote: http:\/\/www.colm.net\/files\/ragel\/ragel-6.9.tar.gz\nversion: 6.9.0\nfiles:\n  - aapl\/.*\\.h\n  - ragel\/.*\\.cpp\n  - ragel\/.*\\.h\npost_sources: !<!> \"file_write_once(${BDIR}\/config.h \\\"\\\")\\nif (WIN32)\\n    file_write_once(${BDIR}\/unistd.h \\\"\\\")\\nendif()\\n\\nif (NOT EXISTS ${BDIR}\/fix_rbx)\\n    file_write_once(${BDIR}\/fix_rbx \\\"\\\")\\n    file(READ ${SDIR}\/ragel\/rbxgoto.cpp f)\\nendif()\"\nlicense: COPYING",
     "version": "6.9.0",
     "source": {
         "remote": {
