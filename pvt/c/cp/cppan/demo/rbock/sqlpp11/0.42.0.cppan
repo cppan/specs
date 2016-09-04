@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.rbock.sqlpp11",
+    "cppan": "license: LICENSE\ndependencies:\n  pvt.cppan.demo.howardhinnant.date.date: 1\nfiles: include\/.*\\.h",
+    "version": "0.42.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/rbock\/sqlpp11",
+            "tag": "0.42"
+        }
+    }
+}
