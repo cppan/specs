@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.intel.opencv.core",
+    "cppan": "files:\n  grp1:\n    files:\n      - include\/.*\n      - src\/.*\\.cpp\n      - src\/.*\\.hpp\n    root: modules\/core\nlicense: LICENSE\ndependencies:\n  public:\n    pvt.cppan.demo.zlib: 1\nsource:\n  tag: 3.1.0\n  git: https:\/\/github.com\/opencv\/opencv\nversion: 3.1.0\ninclude_directories:\n  public:\n    - modules\/core\/include\n  private:\n    - modules\/core\/src",
+    "version": "3.1.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/opencv\/opencv",
+            "tag": "3.1.0"
+        }
+    }
+}
