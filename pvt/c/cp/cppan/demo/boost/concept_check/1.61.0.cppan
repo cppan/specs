@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost.concept_check",
+    "cppan": "header_only: true\nversion: 1.61.0\nsource:\n  git: https:\/\/github.com\/boostorg\/concept_check\n  tag: boost-1.61.0\ninclude_directories:\n  public:\n    - include\nfiles:\n  - include\/.*\ndependencies:\n  public:\n    pvt.cppan.demo.boost.assert:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.config:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.core:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.throw_exception:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.mpl:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.utility:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.static_assert:\n      include_directories_only: true\n      version: !<!> \"*\"\n    pvt.cppan.demo.boost.predef:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.preprocessor:\n      include_directories_only: true\n      version: !<!> \"*\"\n    pvt.cppan.demo.boost.type_traits:\n      version: !<!> \"*\"\n      include_directories_only: true",
+    "version": "1.61.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/concept_check",
+            "tag": "boost-1.61.0"
+        }
+    }
+}

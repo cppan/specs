@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.sqlite3",
+    "cppan": "include_directories:\n  public: .\nfiles:\n  - sqlite3.h\n  - sqlite3ext.h\n  - sqlite3.c",
+    "version": "3.14.1",
+    "source": {
+        "remote": {
+            "url": "https:\/\/www.sqlite.org\/2016\/sqlite-amalgamation-3140100.zip"
+        }
+    }
+}

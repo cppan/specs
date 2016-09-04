@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.range_v3_vs2015",
+    "cppan": "license: LICENSE.txt\nfiles: include\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/microsoft\/Range-V3-VS2015",
+            "branch": "master"
+        }
+    }
+}

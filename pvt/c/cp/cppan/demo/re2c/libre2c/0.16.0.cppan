@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.re2c.libre2c",
+    "cppan": "source:\n  tag: 0.16\n  git: https:\/\/github.com\/skvadrik\/re2c\nversion: 0.16.0\nroot_directory: libre2c\nfiles: libre2c\/.*\ninclude_directories:\n  public: .",
+    "version": "0.16.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/skvadrik\/re2c",
+            "tag": "0.16"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost.compatibility",
+    "cppan": "source:\n  tag: boost-1.61.0\n  git: https:\/\/github.com\/boostorg\/compatibility\nfiles:\n  - include\/.*\nversion: 1.61.0\ninclude_directories:\n  public:\n    - include\nheader_only: true",
+    "version": "1.61.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/compatibility",
+            "tag": "boost-1.61.0"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.cereal",
+    "cppan": "license: LICENSE\r\nfiles: include\/.*",
+    "version": "1.2.1",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/USCiLab\/cereal",
+            "tag": "v1.2.1"
+        }
+    }
+}

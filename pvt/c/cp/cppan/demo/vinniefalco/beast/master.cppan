@@ -1,0 +1,11 @@
+{
+    "cppan": "license: LICENSE_1_0.txt\r\nfiles: include/.*",
+    "project": "pvt.cppan.demo.vinniefalco.beast",
+    "source": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/vinniefalco/Beast"
+        }
+    },
+    "version": "master"
+}

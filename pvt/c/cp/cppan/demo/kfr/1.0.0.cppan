@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.kfr",
+    "cppan": "license: LICENSE.txt\r\nfiles: include\/.*",
+    "version": "1.0.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/kfrlib\/kfr",
+            "tag": "v1.0.0"
+        }
+    }
+}
