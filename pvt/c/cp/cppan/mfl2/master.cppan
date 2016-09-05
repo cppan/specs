@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.mfl2",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/mfl2",
+            "branch": "master"
+        }
+    },
+    "cppan": "files:\n  - include\/.*\n  - src\/.*\ndependencies:\n  pvt.cppan.mfl1: master"
+}

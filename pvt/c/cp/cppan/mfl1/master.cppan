@@ -7,5 +7,5 @@
             "branch": "master"
         }
     },
-    "cppan": "files:\n  - mfl1.cpp\n  - mfl1.h"
+    "cppan": "files:\n  - mfl1.cpp\n  - mfl1.h\ninclude_directories:\n  public: ."
 }
