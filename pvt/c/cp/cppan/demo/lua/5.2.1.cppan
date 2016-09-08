@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.lua",
+    "cppan": "version: 5.2.1\nfiles:\n  grp:\n    root: src\n    files:\n      - .*\\.h.*\n      - lapi.c\n      - lcode.c\n      - lctype.c\n      - ldebug.c\n      - ldo.c\n      - ldump.c\n      - lfunc.c\n      - lgc.c\n      - llex.c\n      - lmem.c\n      - lobject.c\n      - lopcodes.c\n      - lparser.c\n      - lstate.c\n      - lstring.c\n      - ltable.c\n      - ltm.c\n      - lundump.c\n      - lvm.c\n      - lzio.c\n      - lauxlib.c\n      - lbaselib.c\n      - lbitlib.c\n      - lcorolib.c\n      - ldblib.c\n      - liolib.c\n      - lmathlib.c\n      - loslib.c\n      - lstrlib.c\n      - ltablib.c\n      - lutf8lib.c\n      - loadlib.c\n      - linit.c\ninclude_directories:\n  public: src\nsource:\n  remote: https:\/\/www.lua.org\/ftp\/lua-5.2.1.tar.gz\noptions:\n  shared:\n    definitions:\n      public: LUA_BUILD_AS_DLL\n  any:\n    definitions:\n      private: LUA_CORE\n      private: LUA_LIB",
+    "version": "5.2.1",
+    "source": {
+        "remote": {
+            "url": "https:\/\/www.lua.org\/ftp\/lua-5.2.1.tar.gz"
+        }
+    }
+}

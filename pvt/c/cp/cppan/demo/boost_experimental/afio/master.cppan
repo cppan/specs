@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost_experimental.afio",
+    "cppan": "header_only: true\nsource:\n  git: https:\/\/github.com\/ned14\/boost.afio\n  branch: master\nfiles:\n  - include\/.*\ndependencies:\n  - include_directories_only: true\n    name: pvt.cppan.demo.boost.config\nversion: master",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ned14\/boost.afio",
+            "branch": "master"
+        }
+    }
+}
