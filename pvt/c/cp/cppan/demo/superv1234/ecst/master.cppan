@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.superv1234.ecst",
+    "cppan": "source:\n  git: https:\/\/github.com\/SuperV1234\/ecst\n  branch: master\nfiles:\n  - include\/.*\nversion: master\ndependencies:\n  pvt.cppan.demo.superv1234.vrm.core: master\n  pvt.cppan.demo.boost.hana: 1",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/SuperV1234\/ecst",
+            "branch": "master"
+        }
+    }
+}

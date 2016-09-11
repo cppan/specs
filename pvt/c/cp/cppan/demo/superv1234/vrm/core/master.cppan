@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.superv1234.vrm.core",
+    "cppan": "source:\n  git: https:\/\/github.com\/SuperV1234\/vrm_core\n  branch: master\noptions:\n  any:\n    definitions:\n      public: VRM_CORE_INLINE_LIBRARY\nversion: master\nfiles:\n  - include\/.*\ndependencies:\n  pvt.cppan.demo.superv1234.vrm.pp: master",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/SuperV1234\/vrm_core",
+            "branch": "master"
+        }
+    }
+}
