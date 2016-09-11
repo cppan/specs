@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.xiph.vorbis.vorbisfile",
+    "cppan": "post_sources: !<!> \"remove_src_unix(win32\/vorbisfile.def)\\n\"\ndependencies: pvt.cppan.demo.xiph.vorbis.libvorbis\nfiles:\n  - include\/.*\\.h\n  - lib\/vorbisfile.c\n  - lib\/misc.h\n  - lib\/os.h\n  - win32\/vorbisfile.def\nversion: 1.3.5\nsource:\n  remote: http:\/\/downloads.xiph.org\/releases\/vorbis\/libvorbis-1.3.5.tar.xz",
+    "version": "1.3.5",
+    "source": {
+        "remote": {
+            "url": "http:\/\/downloads.xiph.org\/releases\/vorbis\/libvorbis-1.3.5.tar.xz"
+        }
+    }
+}
