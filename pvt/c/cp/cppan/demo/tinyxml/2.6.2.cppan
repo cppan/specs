@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.tinyxml",
+    "cppan": "files:\n  - tinystr.cpp\n  - tinystr.h\n  - tinyxml.cpp\n  - tinyxml.h\n  - tinyxmlerror.cpp\n  - tinyxmlparser.cpp\nsource:\n  remote: http:\/\/freefr.dl.sourceforge.net\/project\/tinyxml\/tinyxml\/2.6.2\/tinyxml_2_6_2.zip\nversion: 2.6.2\noptions:\n  any:\n    definitions:\n      public: TIXML_USE_STL",
+    "version": "2.6.2",
+    "source": {
+        "remote": {
+            "url": "http:\/\/freefr.dl.sourceforge.net\/project\/tinyxml\/tinyxml\/2.6.2\/tinyxml_2_6_2.zip"
+        }
+    }
+}
