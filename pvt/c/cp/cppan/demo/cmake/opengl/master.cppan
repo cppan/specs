@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.cmake.opengl",
+    "cppan": "source:\n  remote: https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip\nversion: master\npost_sources: !<!> \"find_package(OpenGL REQUIRED)\\n\"\ninclude_directories:\n  public: ${OPENGL_INCLUDE_DIRS}\nempty: true\noptions:\n  any:\n    link_libraries:\n      public: ${OPENGL_LIBRARIES}",
+    "version": "master",
+    "source": {
+        "remote": {
+            "url": "https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip"
+        }
+    }
+}

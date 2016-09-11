@@ -1,5 +1,10 @@
 {
-    "cppan": "empty: true\r\n\r\npost_sources: |\r\n    find_package(PostgreSQL REQUIRED)\r\n    find_library(pg_lib ${PostgreSQL_LIBRARIES} HINTS ${PostgreSQL_LIBRARY_DIRS})\r\n\r\noptions:\r\n    any:\r\n        include_directories: ${PostgreSQL_INCLUDE_DIRS}\r\n        link_libraries: ${pg_lib}",
     "project": "pvt.cppan.demo.cmake.postgresql",
-    "version": "master"
+    "cppan": "source:\n  remote: https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip\nversion: master\ninclude_directories:\n  public: ${PostgreSQL_INCLUDE_DIRS}\npost_sources: !<!> \"find_package(PostgreSQL REQUIRED)\\nfind_library(pg_lib ${PostgreSQL_LIBRARIES} HINTS ${PostgreSQL_LIBRARY_DIRS})\\n\"\noptions:\n  any:\n    link_libraries:\n      public: ${pg_lib}\n    include_directories: ${PostgreSQL_INCLUDE_DIRS}\nempty: true",
+    "version": "master",
+    "source": {
+        "remote": {
+            "url": "https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip"
+        }
+    }
 }
