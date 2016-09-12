@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.weidai11.cryptopp",
+    "cppan": "version: 5.6.4\nsource:\n  tag: CRYPTOPP_5_6_4\n  git: https:\/\/github.com\/weidai11\/cryptopp\nexclude_from_build:\n  - bench1.cpp\n  - bench2.cpp\n  - test.cpp\n  - validat1.cpp\n  - validat2.cpp\n  - validat3.cpp\n  - adhoc.cpp\n  - datatest.cpp\n  - regtest.cpp\n  - fipsalgt.cpp\n  - dlltest.cpp\n  - fipstest.cpp\n  - pch.cpp\n  - simple.cpp\n  - winpipes.cpp\n  - cryptlib_bds.cpp\nfiles:\n  - .*\\.h\n  - .*\\.cpp\n  - .*\\.asm\npost_sources: !<!> \"if(MINGW OR WIN32)\\n    list(APPEND src ${CMAKE_CURRENT_SOURCE_DIR}\/winpipes.cpp)\\nendif()\\n\\nif (WORDS_BIGENDIAN)\\n    add_definitions(-DIS_BIG_ENDIAN)\\nendif()\\n\\nif(MSVC)\\n    if(${CMAKE_GENERATOR} MATCHES \\\".*ARM\\\")\\n        message(STATUS \\\"Disabling ASM because ARM is specified as target platform.\\\")\\n    else()\\n        remove_src(rdrand.asm)\\n        remove_src(x64dll.asm)\\n        remove_src(x64masm.asm)\\n\\n        list(APPEND src ${CMAKE_CURRENT_SOURCE_DIR}\/rdrand.asm)\\n        if(CMAKE_SIZEOF_VOID_P EQUAL 8)\\n            list(APPEND src ${CMAKE_CURRENT_SOURCE_DIR}\/x64dll.asm)\\n            list(APPEND src ${CMAKE_CURRENT_SOURCE_DIR}\/x64masm.asm)\\n            set_source_files_properties(${CMAKE_CURRENT_SOURCE_DIR}\/x64dll.asm PROPERTIES COMPILE_FLAGS \\\"\/D_M_X64\\\")\\n            set_source_files_properties(${CMAKE_CURRENT_SOURCE_DIR}\/x64masm.asm PROPERTIES COMPILE_FLAGS \\\"\/D_M_X64\\\")\\n            set_source_files_properties(${CMAKE_CURRENT_SOURCE_DIR}\/rdrand.asm PROPERTIES COMPILE_FLAGS \\\"\/D_M_X64\\\")\\n        else()\\n            set_source_files_properties(${CMAKE_CURRENT_SOURCE_DIR}\/x64dll.asm PROPERTIES COMPILE_FLAGS \\\"\/D_M_X86 \/safeseh\\\")\\n            set_source_files_properties(${CMAKE_CURRENT_SOURCE_DIR}\/x64masm.asm PROPERTIES COMPILE_FLAGS \\\"\/D_M_X86 \/safeseh\\\")\\n            set_source_files_properties(${CMAKE_CURRENT_SOURCE_DIR}\/rdrand.asm PROPERTIES COMPILE_FLAGS \\\"\/D_M_X86 \/safeseh\\\")\\n        endif()\\n        enable_language(ASM_MASM)\\n    endif()\\nendif()\"",
+    "version": "5.6.4",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/weidai11\/cryptopp",
+            "tag": "CRYPTOPP_5_6_4"
+        }
+    }
+}
