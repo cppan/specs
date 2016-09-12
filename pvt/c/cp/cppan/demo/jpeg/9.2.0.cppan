@@ -1,11 +1,10 @@
 {
-    "cppan": "# http://www.ijg.org/files/jpegsr9b.zip\r\n\r\nroot_directory: jpeg-9b\r\n\r\nfiles:\r\n  - jmemnobs.c\r\n  - jaricom.c\r\n  - jcapimin.c\r\n  - jcapistd.c\r\n  - jcarith.c\r\n  - jccoefct.c\r\n  - jccolor.c\r\n  - jcdctmgr.c\r\n  - jchuff.c\r\n  - jcinit.c\r\n  - jcmainct.c\r\n  - jcmarker.c\r\n  - jcmaster.c\r\n  - jcomapi.c\r\n  - jcparam.c\r\n  - jcprepct.c\r\n  - jcsample.c\r\n  - jctrans.c\r\n  - jdapimin.c\r\n  - jdapistd.c\r\n  - jdarith.c\r\n  - jdatadst.c\r\n  - jdatasrc.c\r\n  - jdcoefct.c\r\n  - jdcolor.c\r\n  - jddctmgr.c\r\n  - jdhuff.c\r\n  - jdinput.c\r\n  - jdmainct.c\r\n  - jdmarker.c\r\n  - jdmaster.c\r\n  - jdmerge.c\r\n  - jdpostct.c\r\n  - jdsample.c\r\n  - jdtrans.c\r\n  - jerror.c\r\n  - jfdctflt.c\r\n  - jfdctfst.c\r\n  - jfdctint.c\r\n  - jidctflt.c\r\n  - jidctfst.c\r\n  - jidctint.c\r\n  - jquant1.c\r\n  - jquant2.c\r\n  - jutils.c\r\n  - jmemmgr.c\r\n\r\n  - cderror.h\r\n  - cdjpeg.h\r\n  - jdct.h\r\n  - jinclude.h\r\n  - jmemsys.h\r\n  - jpegint.h\r\n  - jversion.h\r\n  - transupp.h\r\n  - jerror.h\r\n  - jmorecfg.h\r\n  - jpeglib.h\r\n\r\n  - jconfig.cfg\r\n  - jconfig.vc\r\n\r\ninclude_directories:\r\n  public: .\r\n\r\npre_sources: |\r\n    if (MSVC)\r\n        configure_file(${CMAKE_CURRENT_SOURCE_DIR}/jconfig.vc  ${CMAKE_CURRENT_BINARY_DIR}/jconfig.h COPYONLY)\r\n    else()\r\n        configure_file(${CMAKE_CURRENT_SOURCE_DIR}/jconfig.cfg ${CMAKE_CURRENT_BINARY_DIR}/jconfig.h COPYONLY)\r\n    endif()\r\n",
     "project": "pvt.cppan.demo.jpeg",
+    "cppan": "files:\n  - jmemnobs.c\n  - jaricom.c\n  - jcapimin.c\n  - jcapistd.c\n  - jcarith.c\n  - jccoefct.c\n  - jccolor.c\n  - jcdctmgr.c\n  - jchuff.c\n  - jcinit.c\n  - jcmainct.c\n  - jcmarker.c\n  - jcmaster.c\n  - jcomapi.c\n  - jcparam.c\n  - jcprepct.c\n  - jcsample.c\n  - jctrans.c\n  - jdapimin.c\n  - jdapistd.c\n  - jdarith.c\n  - jdatadst.c\n  - jdatasrc.c\n  - jdcoefct.c\n  - jdcolor.c\n  - jddctmgr.c\n  - jdhuff.c\n  - jdinput.c\n  - jdmainct.c\n  - jdmarker.c\n  - jdmaster.c\n  - jdmerge.c\n  - jdpostct.c\n  - jdsample.c\n  - jdtrans.c\n  - jerror.c\n  - jfdctflt.c\n  - jfdctfst.c\n  - jfdctint.c\n  - jidctflt.c\n  - jidctfst.c\n  - jidctint.c\n  - jquant1.c\n  - jquant2.c\n  - jutils.c\n  - jmemmgr.c\n  - cderror.h\n  - cdjpeg.h\n  - jdct.h\n  - jinclude.h\n  - jmemsys.h\n  - jpegint.h\n  - jversion.h\n  - transupp.h\n  - jerror.h\n  - jmorecfg.h\n  - jpeglib.h\n  - jconfig.cfg\n  - jconfig.vc\nsource:\n  remote: http:\/\/www.ijg.org\/files\/jpegsr9b.zip\nversion: 9.2.0\npost_sources: !<!> \"if (MSVC)\\n    configure_file(${CMAKE_CURRENT_SOURCE_DIR}\/jconfig.vc  ${CMAKE_CURRENT_BINARY_DIR}\/jconfig.h COPYONLY)\\nelse()\\n    configure_file(${CMAKE_CURRENT_SOURCE_DIR}\/jconfig.cfg ${CMAKE_CURRENT_BINARY_DIR}\/jconfig.h COPYONLY)\\nendif()\\n\\nfile(READ ${SDIR}\/jmorecfg.h f)\\nstring(REPLACE\\n    \\\"#define EXTERN(type)\\t\\textern type\\\"\\n    \\\"#define EXTERN(type)\\t\\textern ${LIBRARY_API} type\\\"\\n    f \\\"${f}\\\")\\nfile(WRITE ${SDIR}\/jmorecfg.h \\\"${f}\\\")\"",
+    "version": "9.2.0",
     "source": {
-        "git": {
-            "tag": "9.2.0",
-            "url": "http://www.ijg.org/files/jpegsr9b.zip"
+        "remote": {
+            "url": "http:\/\/www.ijg.org\/files\/jpegsr9b.zip"
         }
-    },
-    "version": "9.2.0"
+    }
 }
