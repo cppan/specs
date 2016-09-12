@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.bzip2",
-    "cppan": "version: 1.0.6\r\nsource:\r\n  remote: http:\/\/www.bzip.org\/1.0.6\/bzip2-1.0.6.tar.gz\r\n\r\nlicense: LICENSE\r\nroot_directory: bzip2-1.0.6\r\nfiles:\r\n    - bzlib.h\r\n    - bzlib_private.h\r\n    - blocksort.c\r\n    - bzlib.c\r\n    - compress.c\r\n    - crctable.c\r\n    - decompress.c\r\n    - huffman.c\r\n    - randtable.c\r\ninclude_directories:\r\n    public: .\r\n\r\noptions:\r\n    shared:\r\n        definitions:\r\n            public: BZ_DLL\r\n            interface: BZ_IMPORT",
+    "cppan": "include_directories:\n  public: .\nlicense: LICENSE\nversion: 1.0.6\nfiles:\n  - bzlib.h\n  - bzlib_private.h\n  - blocksort.c\n  - bzlib.c\n  - compress.c\n  - crctable.c\n  - decompress.c\n  - huffman.c\n  - randtable.c\nsource:\n  remote: http:\/\/www.bzip.org\/1.0.6\/bzip2-1.0.6.tar.gz\nroot_directory: bzip2-1.0.6\noptions:\n  shared:\n    definitions:\n      interface: BZ_IMPORT\npost_sources: !<!> \"file(READ ${SDIR}\/bzlib.h f)\\nstring(REPLACE\\n    \\\"#   define BZ_API(func) WINAPI func\\\\n#   define BZ_EXTERN extern\\\"\\n    \\\"#   define BZ_API(func) func\\\\n#   define BZ_EXTERN __declspec(dllexport)\\\" f \\\"${f}\\\")\\nstring(REPLACE\\n    \\\"#   define BZ_API(func) (WINAPI * func)\\\\n#   define BZ_EXTERN\\\"\\n    \\\"#   define BZ_API(func) func\\\\n#   define BZ_EXTERN __declspec(dllimport)\\\" f \\\"${f}\\\")\\nfile(WRITE ${SDIR}\/bzlib.h \\\"${f}\\\")\"",
     "version": "1.0.6",
     "source": {
         "remote": {

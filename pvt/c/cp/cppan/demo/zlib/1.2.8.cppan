@@ -1,11 +1,11 @@
 {
-    "cppan": "files:\r\n    - \"[^/]*\\\\.h\"\r\n    - \"[^/]*\\\\.c\"\r\ninclude_directories:\r\n    public: .\r\n\r\noptions:\r\n    shared:\r\n        definitions:\r\n            public: ZLIB_DLL\r\n",
     "project": "pvt.cppan.demo.zlib",
+    "cppan": "version: 1.2.8\nsource:\n  tag: v1.2.8\n  git: https:\/\/github.com\/madler\/zlib\nfiles:\n  - !<!> \"[^\/]*\\\\.h\"\n  - !<!> \"[^\/]*\\\\.c\"\noptions:\n  shared:\n    definitions:\n      private: ZLIB_DLL\ninclude_directories:\n  public: .",
+    "version": "1.2.8",
     "source": {
         "git": {
-            "tag": "v1.2.8",
-            "url": "https://github.com/madler/zlib"
+            "url": "https:\/\/github.com\/madler\/zlib",
+            "tag": "v1.2.8"
         }
-    },
-    "version": "1.2.8"
+    }
 }
