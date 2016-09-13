@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.xiph.vorbis.libvorbis",
-    "cppan": "version: 1.3.5\ndependencies:\n  pvt.cppan.demo.xiph.libogg: 1\nsource:\n  remote: http:\/\/downloads.xiph.org\/releases\/vorbis\/libvorbis-1.3.5.tar.xz\nexclude_from_build:\n  - lib\/barkmel.c\n  - lib\/psytune.c\n  - lib\/tone.c\n  - lib\/vorbisfile.c\nfiles:\n  - include\/.*\\.h\n  - lib\/.*\\.c\n  - lib\/.*\\.h\n  - win32\/.*\\.def\npost_sources: !<!> \"remove_src(win32\/vorbisenc.def)\\nremove_src(win32\/vorbisfile.def)\\nremove_src_unix(win32\/vorbis.def)\\n\"",
+    "cppan": "source:\n  remote: http:\/\/downloads.xiph.org\/releases\/vorbis\/libvorbis-1.3.5.tar.xz\nexclude_from_build:\n  - lib\/barkmel.c\n  - lib\/psytune.c\n  - lib\/tone.c\n  - lib\/vorbisfile.c\nversion: 1.3.5\ndependencies:\n  pvt.cppan.demo.xiph.libogg: 1\nfiles:\n  - include\/.*\\.h\n  - lib\/.*\\.c\n  - lib\/.*\\.h\n  - win32\/.*\\.def\ninclude_directories:\n  public: include\n  private: lib\npost_sources: !<!> \"remove_src(win32\/vorbisenc.def)\\nremove_src(win32\/vorbisfile.def)\\nremove_src_unix(win32\/vorbis.def)\\n\"",
     "version": "1.3.5",
     "source": {
         "remote": {
