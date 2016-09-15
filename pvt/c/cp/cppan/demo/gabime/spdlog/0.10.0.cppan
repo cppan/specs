@@ -1,0 +1,11 @@
+{
+    "cppan": "files: include\/.*\nlicense: LICENSE",
+    "project": "pvt.cppan.demo.gabime.spdlog",
+    "source": {
+        "git": {
+            "tag": "v0.10.0",
+            "url": "https:\/\/github.com\/gabime\/spdlog"
+        }
+    },
+    "version": "0.10.0"
+}
