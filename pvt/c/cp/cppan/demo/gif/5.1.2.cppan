@@ -1,5 +1,10 @@
 {
-    "cppan": "license: COPYING\nfiles: .*\ninclude_directories:\n    public: .\n",
     "project": "pvt.cppan.demo.gif",
-    "version": "5.1.2"
+    "cppan": "license: COPYING\nsource:\n  remote: http:\/\/downloads.sourceforge.net\/project\/giflib\/giflib-5.1.2.tar.bz2\npre_sources: !<!> \"# dummy config file\\nif (MSVC)\\n    if (NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}\/lib\/unistd.h)\\n        file(WRITE ${CMAKE_CURRENT_SOURCE_DIR}\/lib\/unistd.h)\\n    endif()\\n\\n    if (NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}\/lib\/stdbool.h)\\n        file(WRITE ${CMAKE_CURRENT_SOURCE_DIR}\/lib\/stdbool.h \\\"\\n            #pragma once\\n            #define __bool_true_false_are_defined\\t1\\n            #ifndef __cplusplus\\n            #define bool\\t_Bool\\n            #define false\\t0\\n            #define true\\t1\\n            #endif \/* __cplusplus *\/\\n        \\\")\\n    endif()\\nendif()\"\nstatic_only: true\nversion: 5.1.2\ninclude_directories:\n  public: lib\nfiles:\n  - lib\/.*\\.c\n  - lib\/.*\\.h",
+    "version": "5.1.2",
+    "source": {
+        "remote": {
+            "url": "http:\/\/downloads.sourceforge.net\/project\/giflib\/giflib-5.1.2.tar.bz2"
+        }
+    }
 }
