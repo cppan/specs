@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.foonathan.debug_assert",
+    "cppan": "version: master\nsource:\n  branch: master\n  git: https:\/\/github.com\/foonathan\/debug-assert\nfiles: debug_assert.hpp",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/foonathan\/debug-assert",
+            "branch": "master"
+        }
+    }
+}

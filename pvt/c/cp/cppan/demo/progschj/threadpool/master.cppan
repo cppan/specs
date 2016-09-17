@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.progschj.threadpool",
+    "cppan": "files: ThreadPool.h",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/progschj\/ThreadPool",
+            "branch": "master"
+        }
+    }
+}
