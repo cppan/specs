@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.expat",
+    "cppan": "include_directories:\n  public: lib\nsource:\n  remote: http:\/\/downloads.sourceforge.net\/project\/expat\/expat\/2.2.0\/expat-2.2.0.tar.bz2\nfiles:\n  - lib\/.*\\.h\n  - lib\/.*\\.c\n  - lib\/libexpat.def\n  - expat_config.h.cmake\nversion: 2.2.0\ncheck_include_exists:\n  - dlfcn.h\n  - fcntl.h\n  - inttypes.h\n  - memory.h\n  - stdint.h\n  - stdlib.h\n  - strings.h\n  - string.h\n  - sys\/stat.h\n  - sys\/types.h\n  - unistd.h\ncheck_functions_exists:\n  - getpagesize\n  - bcopy\n  - mmap\ncheck_symbol_exists:\n  memmove: string.h\npost_sources: !<!> \"remove_src_unix(lib\/libexpat.def)\\n\\nif(WIN32)\\nadd_definitions(-DWIN32)\\nendif(WIN32)\\n\\nset(STDC_HEADERS 1)\\nadd_definitions(-DHAVE_EXPAT_CONFIG_H)\\n\\n# configuration options\\nset(XML_CONTEXT_BYTES 1024 CACHE STRING \\\"Define to specify how much context to retain around the current parse point\\\")\\noption(XML_DTD \\\"Define to make parameter entity parsing functionality available\\\" ON)\\noption(XML_NS \\\"Define to make XML Namespaces functionality available\\\" ON)\\n\\nif(XML_DTD)\\n    set(XML_DTD 1)\\nelse(XML_DTD)\\n    set(XML_DTD 0)\\nendif(XML_DTD)\\nif(XML_NS)\\n    set(XML_NS 1)\\nelse(XML_NS)\\n    set(XML_NS 0)\\nendif(XML_NS)\\n\\nif(WORDS_BIGENDIAN)\\n    set(BYTEORDER 4321)\\nelse(WORDS_BIGENDIAN)\\n    set(BYTEORDER 1234)\\nendif(WORDS_BIGENDIAN)\\n\\nif(HAVE_SYS_TYPES_H)\\n    check_symbol_exists(\\\"off_t\\\" \\\"sys\/types.h\\\" OFF_T)\\n    check_symbol_exists(\\\"size_t\\\" \\\"sys\/types.h\\\" SIZE_T)\\nelse(HAVE_SYS_TYPES_H)\\n    set(OFF_T \\\"long\\\")\\n    set(SIZE_T \\\"unsigned\\\")\\nendif(HAVE_SYS_TYPES_H)\\n\\nconfigure_file(\\n    ${SDIR}\/expat_config.h.cmake\\n    ${BDIR}\/expat_config.h\\n    @ONLY\\n)\"\noptions:\n  static:\n    definitions:\n      public:\n        - XML_STATIC",
+    "version": "2.2.0",
+    "source": {
+        "remote": {
+            "url": "http:\/\/downloads.sourceforge.net\/project\/expat\/expat\/2.2.0\/expat-2.2.0.tar.bz2"
+        }
+    }
+}

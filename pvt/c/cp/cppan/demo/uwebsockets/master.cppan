@@ -1,11 +1,11 @@
 {
-    "cppan": "files:\r\n  - uWS.cpp\r\n  - uWS.h\r\n  - utf8.cpp\r\n  \r\ninclude_directories:\r\n  public: .\r\n  \r\ndependencies:\r\n  pvt.cppan.demo.libuv: 1\r\n  pvt.cppan.demo.libressl.crypto: 2\r\n",
     "project": "pvt.cppan.demo.uwebsockets",
+    "cppan": "version: master\nsource:\n  git: https:\/\/github.com\/uWebSockets\/uWebSockets\n  branch: master\ndependencies:\n  pvt.cppan.demo.libressl.crypto: 2\n  pvt.cppan.demo.libuv: 1\n  pvt.cppan.demo.libressl.ssl: 2\nfiles:\n  - src\/.*\\.cpp\n  - src\/.*\\.h\ninclude_directories:\n  public: src",
+    "version": "master",
     "source": {
         "git": {
-            "branch": "master",
-            "url": "https://github.com/alexhultman/uWebSockets"
+            "url": "https:\/\/github.com\/uWebSockets\/uWebSockets",
+            "branch": "master"
         }
-    },
-    "version": "master"
+    }
 }
