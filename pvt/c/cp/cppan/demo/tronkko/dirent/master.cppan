@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.tronkko.dirent",
+    "cppan": "files: include\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tronkko\/dirent",
+            "branch": "master"
+        }
+    }
+}
