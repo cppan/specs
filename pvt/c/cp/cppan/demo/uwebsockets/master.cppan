@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.uwebsockets",
-    "cppan": "version: master\nsource:\n  git: https:\/\/github.com\/uWebSockets\/uWebSockets\n  branch: master\ndependencies:\n  pvt.cppan.demo.libressl.crypto: 2\n  pvt.cppan.demo.libuv: 1\n  pvt.cppan.demo.libressl.ssl: 2\nfiles:\n  - src\/.*\\.cpp\n  - src\/.*\\.h\ninclude_directories:\n  public: src",
+    "cppan": "files:\n  - src\/.*\\.cpp\n  - src\/.*\\.h\nversion: master\nsource:\n  git: https:\/\/github.com\/uWebSockets\/uWebSockets\n  branch: master\ndependencies:\n  pvt.cppan.demo.libressl.ssl: 2\n  pvt.cppan.demo.libuv: 1\n  pvt.cppan.demo.zlib: 1\n  pvt.cppan.demo.libressl.crypto: 2\ninclude_directories:\n  public: src",
     "version": "master",
     "source": {
         "git": {
