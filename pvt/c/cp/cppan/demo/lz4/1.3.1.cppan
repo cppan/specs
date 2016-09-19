@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.lz4",
+    "cppan": "version: 1.3.1\ninclude_directories:\n  public: lib\nsource:\n  git: https:\/\/github.com\/Cyan4973\/lz4\n  tag: r131\nlicense: lib\/LICENSE\nfiles:\n  - lib\/lz4.c\n  - lib\/lz4.h\n  - lib\/lz4hc.c\n  - lib\/lz4hc.h\n  - lib\/lz4frame.c\n  - lib\/lz4frame.h\n  - lib\/xxhash.c\n  - lib\/xxhash.h",
+    "version": "1.3.1",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Cyan4973\/lz4",
+            "tag": "r131"
+        }
+    }
+}

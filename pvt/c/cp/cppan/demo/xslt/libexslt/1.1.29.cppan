@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.xslt.libexslt",
+    "cppan": "include_directories:\n  public: .\nsource:\n  remote: ftp:\/\/xmlsoft.org\/libxml2\/libxslt-1.1.29.tar.gz\ndependencies:\n  - pvt.cppan.demo.xslt.libxslt\nfiles:\n  - libexslt\/.*\\.h\n  - libexslt\/.*\\.c\n  - libexslt\/exsltconfig.h.in\ncheck_library_exists:\n  - gcrypt\ncheck_function_exists:\n  - asctime\n  - clock_gettime\n  - fabs\n  - floor\n  - fprintf\n  - ftime\n  - gettimeofday\n  - gmtime\n  - gmtime_r\n  - localtime\n  - localtime_r\n  - mktime\n  - pow\n  - printf\n  - sprintf\n  - sscanf\n  - stat\n  - time\n  - vfprintf\n  - vsnprintf\n  - vsprintf\n  - _stat\nversion: 1.1.29\ncheck_include_exists:\n  - ansidecl.h\n  - dlfcn.h\n  - errno.h\n  - float.h\n  - fp_class.h\n  - ieeefp.h\n  - inttypes.h\n  - locale.h\n  - math.h\n  - memory.h\n  - nan.h\n  - pthread.h\n  - stdarg.h\n  - stdint.h\n  - stdlib.h\n  - strings.h\n  - string.h\n  - sys\/select.h\n  - sys\/stat.h\n  - sys\/time.h\n  - sys\/timeb.h\n  - sys\/types.h\n  - time.h\n  - unistd.h\n  - xlocale.h\ncheck_symbol_exists:\n  snprintf: stdio.h\noptions:\n  any:\n    definitions:\n      private:\n        - IN_LIBEXSLT\n  static:\n    definitions:\n      public:\n        - LIBEXSLT_STATIC\npost_sources: !<!> \"set(VERSION ${PACKAGE_VERSION})\\nset(LIBEXSLT_VERSION_NUMBER ${PACKAGE_VERSION_MAJOR}0${PACKAGE_VERSION_MINOR}0${PACKAGE_VERSION_PATCH})\\n\\nset(WITH_CRYPTO 0)\\nif (HAVE_GCRYPT)\\n    set(WITH_CRYPTO 1)\\nendif()\\n\\nconfigure_file(${SDIR}\/libexslt\/exsltconfig.h.in ${BDIR}\/libexslt\/exsltconfig.h)\\nfile_write_once(${BDIR}\/config.h \\\"\\\")\"",
+    "version": "1.1.29",
+    "source": {
+        "remote": {
+            "url": "ftp:\/\/xmlsoft.org\/libxml2\/libxslt-1.1.29.tar.gz"
+        }
+    }
+}
