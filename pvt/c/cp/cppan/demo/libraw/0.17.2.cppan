@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.libraw",
+    "cppan": "version: 0.17.2\nexclude_from_build:\n  - internal\/aahd_demosaic.cpp\n  - internal\/dcb_demosaicing.c\n  - internal\/dht_demosaic.cpp\n  - internal\/libraw_x3f.cpp\n  - internal\/wf_filtering.cpp\nsource:\n  git: https:\/\/github.com\/LibRaw\/LibRaw\n  tag: 0.17.2\nlicense: COPYRIGHT\nfiles:\n  - internal\/.*\n  - libraw\/.*\n  - src\/.*\\.cpp\noptions:\n  static:\n    definitions:\n      public:\n        - LIBRAW_NODLL\n  shared:\n    definitions:\n      private:\n        - LIBRAW_BUILDLIB",
+    "version": "0.17.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/LibRaw\/LibRaw",
+            "tag": "0.17.2"
+        }
+    }
+}
