@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.openexr.ilmbase.half",
+    "cppan": "version: 2.2.0\ndependencies:\n  public:\n    pvt.cppan.demo.openexr.ilmbase.elut: !<!> \"*\"\n    pvt.cppan.demo.openexr.ilmbase.config: !<!> \"*\"\n    pvt.cppan.demo.openexr.ilmbase.tofloat: !<!> \"*\"\npost_sources: !<!> \"add_custom_command(OUTPUT ${BDIR}\/eLut.h\\n    COMMAND pvt.cppan.demo.openexr.ilmbase.elut > ${BDIR}\/eLut.h\\n)\\nadd_custom_command(OUTPUT ${BDIR}\/toFloat.h\\n    COMMAND pvt.cppan.demo.openexr.ilmbase.tofloat > ${BDIR}\/toFloat.h\\n)\\n\\nset(src ${src} ${BDIR}\/eLut.h ${BDIR}\/toFloat.h)\\n\"\noptions:\n  shared:\n    definitions:\n      private:\n        - HALF_EXPORTS\n      public:\n        - OPENEXR_DLL\nfiles:\n  - Half\/.*\\.h\n  - Half\/half.cpp\nsource:\n  remote: http:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-2.2.0.tar.gz\ninclude_directories:\n  public:\n    - Half",
+    "version": "2.2.0",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-2.2.0.tar.gz"
+        }
+    }
+}

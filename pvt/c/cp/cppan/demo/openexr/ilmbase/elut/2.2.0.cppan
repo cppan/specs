@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.openexr.ilmbase.elut",
+    "cppan": "version: 2.2.0\nfiles: Half\/eLut.cpp\nsource:\n  remote: http:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-2.2.0.tar.gz",
+    "version": "2.2.0",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-2.2.0.tar.gz"
+        }
+    }
+}
