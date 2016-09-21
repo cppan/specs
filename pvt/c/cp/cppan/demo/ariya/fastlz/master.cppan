@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.ariya.fastlz",
+    "cppan": "version: master\nsource:\n  git: https:\/\/github.com\/ariya\/FastLZ\n  branch: master\nlicense: LICENSE\nfiles:\n  - fastlz.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ariya\/FastLZ",
+            "branch": "master"
+        }
+    }
+}
