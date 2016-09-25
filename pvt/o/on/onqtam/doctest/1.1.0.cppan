@@ -1,0 +1,11 @@
+{
+    "project": "pvt.onqtam.doctest",
+    "cppan": "files: doctest\/.*\nversion: 1.1.0\ninclude_directories:\n  public: .\nsource:\n  tag: 1.1.0\n  git: https:\/\/github.com\/onqtam\/doctest",
+    "version": "1.1.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/onqtam\/doctest",
+            "tag": "1.1.0"
+        }
+    }
+}

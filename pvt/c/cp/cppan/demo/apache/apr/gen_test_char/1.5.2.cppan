@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.apache.apr.gen_test_char",
+    "cppan": "files:\n  - tools\/gen_test_char.c\nsource:\n  remote: http:\/\/apache-mirror.rbc.ru\/pub\/apache\/\/apr\/apr-1.5.2.tar.gz\nversion: 1.5.2",
+    "version": "1.5.2",
+    "source": {
+        "remote": {
+            "url": "http:\/\/apache-mirror.rbc.ru\/pub\/apache\/\/apr\/apr-1.5.2.tar.gz"
+        }
+    }
+}

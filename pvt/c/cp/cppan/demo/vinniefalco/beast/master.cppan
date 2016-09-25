@@ -1,11 +1,11 @@
 {
-    "cppan": "license: LICENSE_1_0.txt\r\nfiles: include/.*",
     "project": "pvt.cppan.demo.vinniefalco.beast",
+    "cppan": "version: master\ndependencies:\n  pvt.cppan.demo.boost.logic: 1\n  pvt.cppan.demo.boost.asio: 1\nsource:\n  git: https:\/\/github.com\/vinniefalco\/Beast\n  branch: master\nlicense: LICENSE_1_0.txt\nfiles: include\/.*",
+    "version": "master",
     "source": {
         "git": {
-            "branch": "master",
-            "url": "https://github.com/vinniefalco/Beast"
+            "url": "https:\/\/github.com\/vinniefalco\/Beast",
+            "branch": "master"
         }
-    },
-    "version": "master"
+    }
 }

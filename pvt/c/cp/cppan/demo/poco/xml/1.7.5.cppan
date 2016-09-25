@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.poco.xml",
+    "cppan": "source:\n  git: https:\/\/github.com\/pocoproject\/poco\n  tag: poco-1.7.5-release\nlicense: LICENSE\nversion: 1.7.5\ndependencies:\n  public:\n    pvt.cppan.demo.poco.foundation: !<!> \"*\"\n    pvt.cppan.demo.expat: 2\npost_sources: !<!> include(${SDIR}\/cmake\/PocoMacros.cmake)\nfiles:\n  - cmake\/PocoMacros.cmake\n  - XML\/include\/.*\n  - XML\/src\/.*\ninclude_directories:\n  private:\n    - XML\/src\n  public:\n    - XML\/include\nexclude_from_build:\n  - XML\/src\/xmlparse.cpp\n  - XML\/src\/xmlrole.c\n  - XML\/src\/xmltok.c\n  - XML\/src\/xmltok_impl.c\n  - XML\/src\/xmltok_ns.c\noptions:\n  any:\n    definitions:\n      public:\n        - POCO_UNBUNDLED\n        - POCO_NO_AUTOMATIC_LIBS\n  static:\n    definitions:\n      public:\n        - POCO_STATIC\n  shared:\n    definitions:\n      private:\n        - XML_EXPORTS\n      public:\n        - POCO_DLL",
+    "version": "1.7.5",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pocoproject\/poco",
+            "tag": "poco-1.7.5-release"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "project": "pvt.cppan.demo.freeimage.freeimageplus",
+    "version": "3.17.0",
+    "cppan": "files: .*\ndependencies:\n  pvt.cppan.demo.freeimage.freeimage: !<!> \"*\"\noptions:\n  shared:\n    definitions:\n      private:\n        - FIP_EXPORTS\n  static:\n    definitions:\n      public:\n        - FREEIMAGE_LIB"
+}

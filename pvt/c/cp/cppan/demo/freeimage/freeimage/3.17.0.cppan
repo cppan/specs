@@ -1,0 +1,5 @@
+{
+    "project": "pvt.cppan.demo.freeimage.freeimage",
+    "version": "3.17.0",
+    "cppan": "files: .*\ndependencies:\n  pvt.cppan.demo.jxrlib: 1\n  pvt.cppan.demo.openjpeg.openjp2: 2\n  pvt.cppan.demo.jpeg: 9\n  pvt.cppan.demo.libraw: 0\n  pvt.cppan.demo.png: 1\n  pvt.cppan.demo.tiff: 4\n  pvt.cppan.demo.webp: 0\n  pvt.cppan.demo.openexr.ilmimf: 2\n  pvt.cppan.demo.zlib: 1\noptions:\n  shared:\n    definitions:\n      private:\n        - FREEIMAGE_EXPORTS\n  static:\n    definitions:\n      public:\n        - FREEIMAGE_LIB"
+}

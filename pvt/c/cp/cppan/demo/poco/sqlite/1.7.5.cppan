@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.poco.sqlite",
+    "cppan": "dependencies:\n  public:\n    pvt.cppan.demo.poco.data: !<!> \"*\"\n    pvt.cppan.demo.poco.foundation: !<!> \"*\"\n    pvt.cppan.demo.sqlite3: 3\nlicense: LICENSE\ninclude_directories:\n  private:\n    - Data\/SQLite\/src\n  public:\n    - Data\/SQLite\/include\nversion: 1.7.5\nfiles:\n  - cmake\/PocoMacros.cmake\n  - Data\/SQLite\/include\/.*\n  - Data\/SQLite\/src\/.*\\.cpp\nsource:\n  git: https:\/\/github.com\/pocoproject\/poco\n  tag: poco-1.7.5-release\npost_sources: !<!> include(${SDIR}\/cmake\/PocoMacros.cmake)\noptions:\n  static:\n    definitions:\n      public:\n        - POCO_STATIC\n  shared:\n    definitions:\n      private:\n        - SQLite_EXPORTS\n      public:\n        - POCO_DLL\n  any:\n    definitions:\n      public:\n        - POCO_UNBUNDLED\n        - POCO_NO_AUTOMATIC_LIBS",
+    "version": "1.7.5",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pocoproject\/poco",
+            "tag": "poco-1.7.5-release"
+        }
+    }
+}

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.openexr.ilmimfutil",
-    "cppan": "source:\n  remote: http:\/\/download.savannah.nongnu.org\/releases\/openexr\/openexr-2.2.0.tar.gz\ninclude_directories:\n  public:\n    - IlmImfUtil\noptions:\n  shared:\n    definitions:\n      private:\n        - ILMIMF_EXPORTS\n      public:\n        - OPENEXR_DLL\nversion: 2.2.0\ndependencies:\n  public:\n    pvt.cppan.demo.openexr.ilmimf: !<!> \"*\"\nfiles:\n  - IlmImfUtil\/.*\\.h\n  - IlmImfUtil\/.*\\.cpp",
+    "cppan": "options:\n  shared:\n    definitions:\n      public:\n        - OPENEXR_DLL\n      private:\n        - ILMIMF_EXPORTS\nfiles:\n  - IlmImfUtil\/.*\\.h\n  - IlmImfUtil\/.*\\.cpp\ndependencies:\n  public:\n    pvt.cppan.demo.openexr.ilmimf: !<!> \"*\"\ninclude_directories:\n  public:\n    - IlmImfUtil\nsource:\n  remote: http:\/\/download.savannah.nongnu.org\/releases\/openexr\/openexr-2.2.0.tar.gz\nversion: 2.2.0",
     "version": "2.2.0",
     "source": {
         "remote": {

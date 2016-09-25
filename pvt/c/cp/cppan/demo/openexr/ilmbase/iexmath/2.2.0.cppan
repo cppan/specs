@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.openexr.ilmbase.iexmath",
-    "cppan": "include_directories:\n  public:\n    - IexMath\nversion: 2.2.0\nfiles:\n  - IexMath\/.*\\.h\n  - IexMath\/.*\\.cpp\ndependencies:\n  public:\n    pvt.cppan.demo.openexr.ilmbase.iex: !<!> \"*\"\noptions:\n  shared:\n    definitions:\n      private:\n        - IEXMATH_EXPORTS\n      public:\n        - OPENEXR_DLL\nsource:\n  remote: http:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-2.2.0.tar.gz",
+    "cppan": "include_directories:\n  public:\n    - IexMath\nversion: 2.2.0\noptions:\n  shared:\n    definitions:\n      public:\n        - OPENEXR_DLL\n      private:\n        - IEXMATH_EXPORTS\ndependencies:\n  public:\n    pvt.cppan.demo.openexr.ilmbase.iex: !<!> \"*\"\nsource:\n  remote: http:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-2.2.0.tar.gz\nfiles:\n  - IexMath\/.*\\.h\n  - IexMath\/.*\\.cpp",
     "version": "2.2.0",
     "source": {
         "remote": {
