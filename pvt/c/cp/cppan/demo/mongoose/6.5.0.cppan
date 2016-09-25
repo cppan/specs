@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.mongoose",
+    "cppan": "license: LICENSE\nfiles:\n  - mongoose.c\n  - mongoose.h",
+    "version": "6.5.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/cesanta\/mongoose",
+            "tag": "6.5"
+        }
+    }
+}
