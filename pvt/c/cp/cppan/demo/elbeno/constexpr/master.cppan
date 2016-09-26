@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.elbeno.constexpr",
+    "cppan": "files: src\/include\/.*\\.h\ninclude_directories:\n  public: src\/include",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/elbeno\/constexpr",
+            "branch": "master"
+        }
+    }
+}
