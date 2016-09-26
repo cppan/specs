@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.hsutter.gcpp",
+    "cppan": "files: .*\\.h",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/hsutter\/gcpp",
+            "branch": "master"
+        }
+    }
+}
