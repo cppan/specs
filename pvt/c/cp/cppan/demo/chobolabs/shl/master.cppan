@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.chobolabs.shl",
+    "cppan": "files: include\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Chobolabs\/chobo-shl",
+            "branch": "master"
+        }
+    }
+}
