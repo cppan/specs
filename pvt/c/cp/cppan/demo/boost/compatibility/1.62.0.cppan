@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.boost.compatibility",
-    "cppan": "include_directories:\n  public:\n    - include\nheader_only: true\nversion: 1.62.0\nsource:\n  git: https:\/\/github.com\/boostorg\/compatibility\n  tag: boost-1.62.0\nfiles:\n  - include\/.*",
+    "cppan": "source:\n  git: https:\/\/github.com\/boostorg\/compatibility\n  tag: boost-1.62.0\nheader_only: true\nversion: 1.62.0\nfiles:\n  - include\/.*\ninclude_directories:\n  public:\n    - include",
     "version": "1.62.0",
     "source": {
         "git": {

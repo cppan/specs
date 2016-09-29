@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.boost.io",
-    "cppan": "files:\n  - include\/.*\nheader_only: true\ninclude_directories:\n  public:\n    - include\ndependencies:\n  public:\n    pvt.cppan.demo.boost.config:\n      include_directories_only: true\n      version: !<!> \"*\"\nversion: 1.62.0\nsource:\n  tag: boost-1.62.0\n  git: https:\/\/github.com\/boostorg\/io",
+    "cppan": "source:\n  git: https:\/\/github.com\/boostorg\/io\n  tag: boost-1.62.0\nversion: 1.62.0\nfiles:\n  - include\/.*\ninclude_directories:\n  public:\n    - include\nheader_only: true\ndependencies:\n  public:\n    pvt.cppan.demo.boost.config:\n      version: !<!> \"*\"\n      include_directories_only: true",
     "version": "1.62.0",
     "source": {
         "git": {

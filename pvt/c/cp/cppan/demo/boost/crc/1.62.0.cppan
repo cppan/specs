@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.boost.crc",
-    "cppan": "dependencies:\n  public:\n    pvt.cppan.demo.boost.static_assert:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.integer:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.config:\n      version: !<!> \"*\"\n      include_directories_only: true\nversion: 1.62.0\nfiles:\n  - include\/.*\nsource:\n  git: https:\/\/github.com\/boostorg\/crc\n  tag: boost-1.62.0\nheader_only: true\ninclude_directories:\n  public:\n    - include",
+    "cppan": "version: 1.62.0\ninclude_directories:\n  public:\n    - include\ndependencies:\n  public:\n    pvt.cppan.demo.boost.config:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.integer:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.static_assert:\n      version: !<!> \"*\"\n      include_directories_only: true\nfiles:\n  - include\/.*\nsource:\n  git: https:\/\/github.com\/boostorg\/crc\n  tag: boost-1.62.0\nheader_only: true",
     "version": "1.62.0",
     "source": {
         "git": {

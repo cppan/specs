@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.boost.static_assert",
-    "cppan": "version: 1.62.0\nfiles:\n  - include\/.*\ndependencies:\n  public:\n    pvt.cppan.demo.boost.config:\n      include_directories_only: true\n      version: !<!> \"*\"\nsource:\n  git: https:\/\/github.com\/boostorg\/static_assert\n  tag: boost-1.62.0\nheader_only: true\ninclude_directories:\n  public:\n    - include",
+    "cppan": "header_only: true\nsource:\n  git: https:\/\/github.com\/boostorg\/static_assert\n  tag: boost-1.62.0\nversion: 1.62.0\ndependencies:\n  public:\n    pvt.cppan.demo.boost.config:\n      version: !<!> \"*\"\n      include_directories_only: true\ninclude_directories:\n  public:\n    - include\nfiles:\n  - include\/.*",
     "version": "1.62.0",
     "source": {
         "git": {
