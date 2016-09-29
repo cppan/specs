@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost.core",
+    "cppan": "include_directories:\n  public:\n    - include\ndependencies:\n  public:\n    pvt.cppan.demo.boost.assert:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.config:\n      version: !<!> \"*\"\n      include_directories_only: true\nfiles:\n  - include\/.*\nversion: 1.62.0\nsource:\n  git: https:\/\/github.com\/boostorg\/core\n  tag: boost-1.62.0\nheader_only: true",
+    "version": "1.62.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/core",
+            "tag": "boost-1.62.0"
+        }
+    }
+}

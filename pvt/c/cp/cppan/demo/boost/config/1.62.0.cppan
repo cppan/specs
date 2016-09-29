@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost.config",
+    "cppan": "source:\n  tag: boost-1.62.0\n  git: https:\/\/github.com\/boostorg\/config\nversion: 1.62.0\ninclude_directories:\n  public:\n    - include\npost_sources: !<!> \"set(dummy_file      ${SDIR}\/autolink.dummy)\\nif (NOT EXISTS ${dummy_file})\\n    file_write_safe(${SDIR}\/include\/boost\/config\/auto_link.hpp \\\"\\n#ifdef BOOST_LIB_PREFIX\\n#  undef BOOST_LIB_PREFIX\\n#endif\\n#if defined(BOOST_LIB_NAME)\\n#  undef BOOST_LIB_NAME\\n#endif\\n#if defined(BOOST_LIB_THREAD_OPT)\\n#  undef BOOST_LIB_THREAD_OPT\\n#endif\\n#if defined(BOOST_LIB_RT_OPT)\\n#  undef BOOST_LIB_RT_OPT\\n#endif\\n#if defined(BOOST_LIB_LINK_OPT)\\n#  undef BOOST_LIB_LINK_OPT\\n#endif\\n#if defined(BOOST_LIB_DEBUG_OPT)\\n#  undef BOOST_LIB_DEBUG_OPT\\n#endif\\n#if defined(BOOST_DYN_LINK)\\n#  undef BOOST_DYN_LINK\\n#endif\\n    \\\")\\n    file(WRITE ${dummy_file} \\\"\\\")\\nendif()\\n\"\nheader_only: true\nfiles:\n  - include\/.*",
+    "version": "1.62.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/config",
+            "tag": "boost-1.62.0"
+        }
+    }
+}

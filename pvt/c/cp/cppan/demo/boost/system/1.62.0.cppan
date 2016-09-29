@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.boost.system",
+    "cppan": "include_directories:\n  private:\n    - src\n  public:\n    - include\ndependencies:\n  public:\n    pvt.cppan.demo.boost.config:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.assert:\n      version: !<!> \"*\"\n      include_directories_only: true\n    pvt.cppan.demo.boost.core:\n      include_directories_only: true\n      version: !<!> \"*\"\n    pvt.cppan.demo.boost.predef:\n      include_directories_only: true\n      version: !<!> \"*\"\nsource:\n  tag: boost-1.62.0\n  git: https:\/\/github.com\/boostorg\/system\nversion: 1.62.0\nfiles:\n  - include\/.*\n  - src\/.*\noptions:\n  shared:\n    definitions:\n      public:\n        - BOOST_SYSTEM_DYN_LINK\n        - BOOST_ALL_DYN_LINK\n        - BOOST_SYSTEM_USE_DLL\n      private:\n        - BOOST_SYSTEM_BUILD_DLL\n  static:\n    definitions:\n      public:\n        - BOOST_SYSTEM_STATIC_LINK\n        - BOOST_ALL_STATIC_LINK\n        - BOOST_SYSTEM_BUILD_LIB\n  any:\n    definitions:\n      private:\n        - BOOST_SYSTEM_SOURCE\n        - BOOST_SYSTEM_BUILDING_THE_LIB",
+    "version": "1.62.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/system",
+            "tag": "boost-1.62.0"
+        }
+    }
+}
