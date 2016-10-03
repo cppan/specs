@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.asutton.origin.iterator",
+    "cppan": "dependencies:\n  public:\n    pvt.cppan.demo.asutton.origin.core: !<!> \"*\"\npost_sources: !<!> file_write_once(${BDIR}\/config.hpp \"\")\nversion: master\nfiles:\n  - origin\/iterator\/[^\/]*\\.hpp\n  - origin\/iterator\/[^\/]*\\.cpp\n  - origin\/iterator.hpp\nsource:\n  branch: master\n  git: https:\/\/github.com\/asutton\/origin",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/asutton\/origin",
+            "branch": "master"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.asutton.origin.memory",
+    "cppan": "dependencies:\n  public:\n    pvt.cppan.demo.asutton.origin.core: !<!> \"*\"\nfiles:\n  - origin\/memory\/[^\/]*\\.hpp\n  - origin\/memory\/[^\/]*\\.cpp\n  - origin\/memory.hpp\nsource:\n  git: https:\/\/github.com\/asutton\/origin\n  branch: master\npost_sources: !<!> file_write_once(${BDIR}\/config.hpp \"\")\nversion: master",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/asutton\/origin",
+            "branch": "master"
+        }
+    }
+}

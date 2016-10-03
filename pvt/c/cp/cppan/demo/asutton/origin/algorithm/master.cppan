@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.asutton.origin.algorithm",
+    "cppan": "post_sources: !<!> file_write_once(${BDIR}\/config.hpp \"\")\nfiles:\n  - origin\/algorithm\/[^\/]*\\.hpp\n  - origin\/algorithm\/[^\/]*\\.cpp\n  - origin\/algorithm.hpp\ndependencies:\n  public:\n    pvt.cppan.demo.asutton.origin.memory: !<!> \"*\"\n    pvt.cppan.demo.asutton.origin.iterator: !<!> \"*\"\n    pvt.cppan.demo.asutton.origin.range: !<!> \"*\"\nversion: master\nsource:\n  branch: master\n  git: https:\/\/github.com\/asutton\/origin",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/asutton\/origin",
+            "branch": "master"
+        }
+    }
+}
