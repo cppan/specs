@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.access_management",
+    "cppan": "source:\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\n  tag: 1.0.9\nversion: 1.0.9\nfiles:\n  - include\/.*\n  - source\/.*\nroot_directory: aws-cpp-sdk-access-management\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.cognito_identity: !<!> \"*\"\n    pvt.cppan.demo.amazon.aws.sdk.iam: !<!> \"*\"\noptions:\n  shared:\n    definitions:\n      private:\n        - AWS_ACCESS_MANAGEMENT_EXPORTS\nc++: 11",
+    "version": "1.0.9",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.9"
+        }
+    }
+}

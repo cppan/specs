@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.sts",
+    "cppan": "files:\n  - include\/.*\n  - source\/.*\nc++: 11\nsource:\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\n  tag: 1.0.9\nversion: 1.0.9\noptions:\n  shared:\n    definitions:\n      private:\n        - AWS_STS_EXPORTS\nroot_directory: aws-cpp-sdk-sts\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"",
+    "version": "1.0.9",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.9"
+        }
+    }
+}

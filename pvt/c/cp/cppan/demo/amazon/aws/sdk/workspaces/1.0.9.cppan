@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.workspaces",
+    "cppan": "files:\n  - include\/.*\n  - source\/.*\nsource:\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\n  tag: 1.0.9\nversion: 1.0.9\nroot_directory: aws-cpp-sdk-workspaces\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"\nc++: 11\noptions:\n  shared:\n    definitions:\n      private:\n        - AWS_WORKSPACES_EXPORTS",
+    "version": "1.0.9",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.9"
+        }
+    }
+}

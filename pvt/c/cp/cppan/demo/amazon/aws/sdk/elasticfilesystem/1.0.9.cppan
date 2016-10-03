@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.elasticfilesystem",
+    "cppan": "source:\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\n  tag: 1.0.9\nc++: 11\noptions:\n  shared:\n    definitions:\n      private:\n        - AWS_ELASTICFILESYSTEM_EXPORTS\nversion: 1.0.9\nroot_directory: aws-cpp-sdk-elasticfilesystem\nfiles:\n  - include\/.*\n  - source\/.*\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"",
+    "version": "1.0.9",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.9"
+        }
+    }
+}
