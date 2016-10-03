@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.iam",
+    "cppan": "options:\n  shared:\n    definitions:\n      private:\n        - AWS_IAM_EXPORTS\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"\nroot_directory: aws-cpp-sdk-iam\nsource:\n  tag: 1.0.9\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\nfiles:\n  - include\/.*\n  - source\/.*\nversion: 1.0.9\nc++: 11",
+    "version": "1.0.9",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.9"
+        }
+    }
+}

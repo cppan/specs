@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.core",
+    "cppan": "root_directory: aws-cpp-sdk-core\npost_sources: !<!> \"configure_file(\\\"${SDIR}\/include\/aws\/core\/SDKConfig.h.in\\\"\\n               \\\"${BDIR}\/aws\/core\/SDKConfig.h\\\")\\n\\nif (WIN32)\\n    add_definitions(-DENABLE_WINDOWS_CLIENT)\\n    add_definitions(-DENABLE_BCRYPT_ENCRYPTION)\\n\\n    file(GLOB_RECURSE src2 \\\"${SDIR}\/source\/http\/windows\/*\\\")\\n    set(src ${src} ${src2})\\n    remove_src(source\/http\/windows\/IXmlHttpRequest2HttpClient.cpp)\\n\\n    file(GLOB_RECURSE src2 \\\"${SDIR}\/source\/utils\/crypto\/bcrypt\/*\\\")\\n    set(src ${src} ${src2})\\nelse()\\n    add_definitions(-DENABLE_CURL_CLIENT)\\n    add_definitions(-DENABLE_OPENSSL_ENCRYPTION)\\n\\n    file(GLOB_RECURSE src2\\\" ${SDIR}\/source\/http\/curl\/*\\\")\\n    set(src ${src} ${src2})\\n\\n    file(GLOB_RECURSE src2 \\\"${SDIR}\/source\/utils\/crypto\/openssl\/*\\\")\\n    set(src ${src} ${src2})\\nendif()\\n\\nif (WIN32)\\n    file(GLOB_RECURSE src2 \\\"${SDIR}\/source\/platform\/windows\/*\\\")\\n    set(src ${src} ${src2})\\nelseif(ANDROID)\\n    file(GLOB_RECURSE src2 \\\"${SDIR}\/source\/platform\/android\/*\\\")\\n    set(src ${src} ${src2})\\nelse()\\n    file(GLOB_RECURSE src2 \\\"${SDIR}\/source\/platform\/linux-shared\/*\\\")\\n    set(src ${src} ${src2})\\nendif()\\n\"\nexclude_from_build:\n  - source\/http\/curl\/*\n  - source\/http\/windows\/*\n  - source\/utils\/crypto\/bcrypt\/*\n  - source\/utils\/crypto\/openssl\/*\n  - source\/utils\/crypto\/commoncrypto\/*\n  - source\/platform\/*\nfiles:\n  - include\/.*\n  - source\/.*\nc++: 11\noptions:\n  any:\n    link_libraries:\n      win32:\n        public:\n          - bcrypt\n          - wininet\n          - winhttp\n          - userenv\n          - rpcrt4\n  shared:\n    definitions:\n      public:\n        - USE_IMPORT_EXPORT\n      private:\n        - AWS_CORE_EXPORTS\nversion: 1.0.9\nsource:\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\n  tag: 1.0.9",
+    "version": "1.0.9",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.9"
+        }
+    }
+}

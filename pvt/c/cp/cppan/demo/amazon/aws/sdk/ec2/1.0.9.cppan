@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.ec2",
+    "cppan": "options:\n  shared:\n    definitions:\n      private:\n        - AWS_EC2_EXPORTS\nroot_directory: aws-cpp-sdk-ec2\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"\nversion: 1.0.9\nfiles:\n  - include\/.*\n  - source\/.*\nsource:\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\n  tag: 1.0.9\nc++: 11",
+    "version": "1.0.9",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.9"
+        }
+    }
+}

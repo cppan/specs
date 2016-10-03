@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.cloudhsm",
+    "cppan": "c++: 11\nversion: 1.0.9\nroot_directory: aws-cpp-sdk-cloudhsm\nsource:\n  tag: 1.0.9\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\noptions:\n  shared:\n    definitions:\n      private:\n        - AWS_CLOUDHSM_EXPORTS\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"\nfiles:\n  - include\/.*\n  - source\/.*",
+    "version": "1.0.9",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.9"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.dms",
+    "cppan": "files:\n  - include\/.*\n  - source\/.*\nroot_directory: aws-cpp-sdk-dms\nversion: 1.0.9\noptions:\n  shared:\n    definitions:\n      private:\n        - AWS_DMS_EXPORTS\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"\nsource:\n  tag: 1.0.9\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\nc++: 11",
+    "version": "1.0.9",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.9"
+        }
+    }
+}

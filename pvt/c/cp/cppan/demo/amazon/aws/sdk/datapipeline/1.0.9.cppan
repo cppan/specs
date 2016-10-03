@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.datapipeline",
+    "cppan": "c++: 11\nfiles:\n  - include\/.*\n  - source\/.*\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"\noptions:\n  shared:\n    definitions:\n      private:\n        - AWS_DATAPIPELINE_EXPORTS\nsource:\n  tag: 1.0.9\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\nroot_directory: aws-cpp-sdk-datapipeline\nversion: 1.0.9",
+    "version": "1.0.9",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.9"
+        }
+    }
+}
