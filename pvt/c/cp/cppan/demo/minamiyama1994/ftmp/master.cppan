@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.minamiyama1994.ftmp",
+    "cppan": "version: master\nsource:\n  git: https:\/\/github.com\/minamiyama1994\/FTMP\n  tag: master\nfiles: include\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/minamiyama1994\/FTMP",
+            "tag": "master"
+        }
+    }
+}

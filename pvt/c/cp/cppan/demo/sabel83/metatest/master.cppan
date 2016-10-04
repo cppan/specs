@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.sabel83.metatest",
+    "cppan": "dependencies: pvt.cppan.demo.boost.test\nsource:\n  branch: master\n  git: https:\/\/github.com\/sabel83\/metatest\nversion: master\nfiles:\n  - include\/.*\n  - src\/.*\\.cpp",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/sabel83\/metatest",
+            "branch": "master"
+        }
+    }
+}
