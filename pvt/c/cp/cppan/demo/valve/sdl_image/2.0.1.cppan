@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.valve.sdl_image",
+    "cppan": "exclude_from_package:\n  - showimage.c\ndependencies:\n  pvt.cppan.demo.gif: 5\n  pvt.cppan.demo.png: 1\n  pvt.cppan.demo.webp: 0.5\n  pvt.cppan.demo.valve.sdl.sdl: 2\n  pvt.cppan.demo.jpeg: 9\n  pvt.cppan.demo.tiff: 4\npost_sources: !<!> \"if (NOT APPLE)\\n    remove_src(IMG_UIImage.m)\\n    remove_src(IMG_ImageIO.m)\\nendif()\"\nfiles:\n  - !<!> \"[^\/]*\\\\.h\"\n  - !<!> \"[^\/]*\\\\.c$\"\n  - !<!> \"[^\/]*\\\\.m\"\nsource:\n  remote: https:\/\/www.libsdl.org\/projects\/SDL_image\/release\/SDL2_image-2.0.1.tar.gz\nversion: 2.0.1\noptions:\n  any:\n    definitions:\n      private:\n        - LOAD_BMP\n        - LOAD_GIF\n        - LOAD_JPG\n        - LOAD_LBM\n        - LOAD_PCX\n        - LOAD_PNG\n        - LOAD_PNM\n        - LOAD_TGA\n        - LOAD_TIF\n        - LOAD_WEBP\n        - LOAD_XCF\n        - LOAD_XPM\n        - LOAD_XV\n        - LOAD_XXX",
+    "version": "2.0.1",
+    "source": {
+        "remote": {
+            "url": "https:\/\/www.libsdl.org\/projects\/SDL_image\/release\/SDL2_image-2.0.1.tar.gz"
+        }
+    }
+}

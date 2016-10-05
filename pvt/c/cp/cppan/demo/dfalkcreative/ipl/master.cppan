@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.dfalkcreative.ipl",
+    "cppan": "files:\n  - Transform.h\n  - transform.cpp\nversion: master\nsource:\n  git: https:\/\/github.com\/dfalkcreative\/sdl2_image_processing_library\n  branch: master\ndependencies:\n  pvt.cppan.demo.valve.sdl_image: 2\n  pvt.cppan.demo.valve.sdl_ttf: 2\nstatic_only: true",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/dfalkcreative\/sdl2_image_processing_library",
+            "branch": "master"
+        }
+    }
+}
