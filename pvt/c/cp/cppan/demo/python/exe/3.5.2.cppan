@@ -1,0 +1,10 @@
+{
+    "project": "pvt.cppan.demo.python.exe",
+    "cppan": "files:\n  - Programs\/python.c\nversion: 3.5.2\nsource:\n  remote: https:\/\/www.python.org\/ftp\/python\/3.5.2\/Python-3.5.2.tar.xz\ndependencies: pvt.cppan.demo.python.lib",
+    "version": "3.5.2",
+    "source": {
+        "remote": {
+            "url": "https:\/\/www.python.org\/ftp\/python\/3.5.2\/Python-3.5.2.tar.xz"
+        }
+    }
+}
