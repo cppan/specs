@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.haptork.easylambda",
+    "cppan": "files: include\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/haptork\/easyLambda\/",
+            "branch": "master"
+        }
+    }
+}
