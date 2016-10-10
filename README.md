@@ -1,3 +1,3 @@
-# The CPPAN Master Repository
+# The C++ Archive Network Master Repository
 
-This repository contains the public CPPAN specifications.
+This repository contains public CPPAN specifications.
