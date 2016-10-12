@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.eldiener.cxx_dual",
+    "cppan": "files: include\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/eldiener\/cxx_dual",
+            "branch": "master"
+        }
+    }
+}

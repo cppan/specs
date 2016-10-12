@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.emilk.loguru",
+    "cppan": "files: loguru.hpp",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/emilk\/loguru",
+            "branch": "master"
+        }
+    }
+}

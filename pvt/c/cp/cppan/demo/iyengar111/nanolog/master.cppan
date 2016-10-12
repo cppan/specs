@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.iyengar111.nanolog",
+    "cppan": "files:\n  - NanoLog.cpp\n  - NanoLog.hpp",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Iyengar111\/NanoLog",
+            "branch": "master"
+        }
+    }
+}
