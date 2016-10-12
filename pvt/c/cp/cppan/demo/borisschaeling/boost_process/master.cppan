@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.borisschaeling.boost_process",
+    "cppan": "files: boost\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/BorisSchaeling\/boost-process",
+            "branch": "master"
+        }
+    }
+}
