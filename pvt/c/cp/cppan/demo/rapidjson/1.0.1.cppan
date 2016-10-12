@@ -1,0 +1,11 @@
+{
+    "cppan": "files: include\/.*",
+    "project": "pvt.cppan.demo.rapidjson",
+    "source": {
+        "git": {
+            "tag": "v1.0.1",
+            "url": "https:\/\/github.com\/miloyip\/rapidjson\/"
+        }
+    },
+    "version": "1.0.1"
+}

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.google.double_conversion",
-    "cppan": "source:\n  git: https:\/\/github.com\/google\/double-conversion\n  branch: master\nimport_from_bazel: true\nversion: master",
+    "cppan": "import_from_bazel: true\nversion: master\nsource:\n  git: https:\/\/github.com\/google\/double-conversion\n  branch: master",
     "version": "master",
     "source": {
         "git": {
