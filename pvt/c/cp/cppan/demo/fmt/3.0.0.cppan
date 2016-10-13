@@ -1,11 +1,11 @@
 {
-    "cppan": "files:\r\n  - fmt/.*\\.cc\r\n  - fmt/.*\\.h\r\ninclude_directories:\r\n  public:\r\n    - .",
     "project": "pvt.cppan.demo.fmt",
+    "cppan": "files:\n  - fmt\/.*\\.cc\n  - fmt\/.*\\.h\nstatic_only: true\nversion: 3.0.0\ninclude_directories:\n  public:\n    - .\nsource:\n  tag: 3.0.0\n  git: https:\/\/github.com\/fmtlib\/fmt",
+    "version": "3.0.0",
     "source": {
         "git": {
-            "tag": "3.0.0",
-            "url": "https://github.com/fmtlib/fmt"
+            "url": "https:\/\/github.com\/fmtlib\/fmt",
+            "tag": "3.0.0"
         }
-    },
-    "version": "3.0.0"
+    }
 }
