@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.badair.yarma",
+    "cppan": "files: yarma.hpp\ndependencies:\n  pvt.cppan.demo.badair.callable_traits: master\n  pvt.cppan.demo.boost.preprocessor: 1\nversion: master\nsource:\n  git: https:\/\/github.com\/badair\/yarma\n  branch: master",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/badair\/yarma",
+            "branch": "master"
+        }
+    }
+}
