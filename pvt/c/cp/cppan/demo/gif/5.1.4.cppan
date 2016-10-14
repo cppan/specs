@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/downloads.sourceforge.net\/project\/giflib\/giflib-5.1.4.tar.bz2"
         }
-    }
+    },
+    "sha256": "5d7efbc97a4314dd2463ad1be63b7403974b3b1290cc25881e9e2817f0a2650d",
+    "created": "2016-09-16 15:26:06.299428"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/python",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "774777f0a03f34e3b8472491442e494743c633b932ac533ca58a829f3174f4eb",
+    "created": "2016-10-10 15:00:12.407532"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/ratio",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "3ccde1b92bea04704236d9c8546855f9b9d6d26ff87edc0b40a6d3a085018cb9",
+    "created": "2016-08-30 23:58:43.955462"
 }

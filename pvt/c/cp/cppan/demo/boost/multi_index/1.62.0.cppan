@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/multi_index",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "2d9826195f5aad2ed8aef442c6ce320bf8ecbc8ef92c905e267a1232c09c8540",
+    "created": "2016-09-29 15:36:44.981019"
 }

@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/ftp.openbsd.org\/pub\/OpenBSD\/LibreSSL\/libressl-2.3.2.tar.gz"
         }
-    }
+    },
+    "sha256": "06ff0da86b437e90f7542db450ef8315ae8177362a534ceafb7879a1ff416119",
+    "created": "2016-09-19 22:54:54.920163"
 }

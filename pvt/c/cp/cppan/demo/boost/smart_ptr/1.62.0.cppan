@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/smart_ptr",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "6f583aa3e85cb0b6e264cff7055c60d5e743b9da664283ae196fcd6999f1ba8f",
+    "created": "2016-09-29 15:37:08.219251"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/concept_check",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "39551eb3976eb86393397be3f3da65a194bee9cb99e0c3ecf36d4d191311fade",
+    "created": "2016-09-29 15:36:16.533094"
 }

@@ -6,5 +6,7 @@
         "remote": {
             "url": "ftp:\/\/xmlsoft.org\/libxml2\/libxslt-1.1.29.tar.gz"
         }
-    }
+    },
+    "sha256": "9e251e88bc16d6401c9793cb9968b8278f18553ade79bbd6e0bb3dd67460b548",
+    "created": "2016-09-19 16:32:57.577211"
 }

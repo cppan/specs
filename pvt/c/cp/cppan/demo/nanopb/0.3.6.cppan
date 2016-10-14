@@ -4,8 +4,10 @@
     "source": {
         "git": {
             "tag": "nanopb-0.3.6",
-            "url": "https://github.com/nanopb/nanopb"
+            "url": "https:\/\/github.com\/nanopb\/nanopb"
         }
     },
-    "version": "0.3.6"
+    "version": "0.3.6",
+    "sha256": "e158d0738a58438d95af3771ef64b97c5d917f2db370d661227972cded68bbba",
+    "created": "2016-07-28 23:26:44.565744"
 }

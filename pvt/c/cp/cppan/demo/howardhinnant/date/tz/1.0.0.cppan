@@ -4,8 +4,10 @@
     "source": {
         "git": {
             "tag": "v1.0.0",
-            "url": "https://github.com/HowardHinnant/date"
+            "url": "https:\/\/github.com\/HowardHinnant\/date"
         }
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "sha256": "79d4993c77b98e8ef525fae6aa651b137ffa4495c5ac9cd23d9f1e7608f93883",
+    "created": "2016-08-01 19:27:46.378875"
 }

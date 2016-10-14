@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/tuple",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "1eb804d101a2fa90f0d7f8ed6b252b54ddfff9ef0488fe123b956ea08de9d7b7",
+    "created": "2016-08-30 23:58:59.476835"
 }

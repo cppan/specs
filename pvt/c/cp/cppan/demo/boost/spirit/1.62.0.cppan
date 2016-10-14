@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/spirit",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "4e87fdbdaa70984b93449cb2e1a273599815a5f3211aededc25f1cd5c9da9b7e",
+    "created": "2016-09-29 15:37:21.013156"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/wave",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "19a8e73b0374926f7ca6892550ba0eb9b8774b877b0f88a6ff2b0f44a4e0ccd4",
+    "created": "2016-09-29 15:37:13.029045"
 }

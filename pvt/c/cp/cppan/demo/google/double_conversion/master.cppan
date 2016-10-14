@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/google\/double-conversion",
             "branch": "master"
         }
-    }
+    },
+    "sha256": "e408c1efe1f7e13a9ed7e5841bb47e5c238b72b74bb086343a31d92160436252",
+    "created": "2016-10-12 22:06:25.545327"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/vmd",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "93164cb433bf0d1c25391f3c87e796655745fde333853ae218dc1b5607254a60",
+    "created": "2016-08-30 23:59:09.00739"
 }

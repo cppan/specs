@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/property_map",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "74eca1f115cac1ecf3fbf0e47d3bb218d207ff2f56bebbd51cfa12cbdb49fda8",
+    "created": "2016-08-30 23:58:22.439605"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
             "tag": "1.0.9"
         }
-    }
+    },
+    "sha256": "086eba3dd60b0306bbd0f7f89e8be3000218cab8caa1c70ee1063e4359a5f252",
+    "created": "2016-10-03 22:36:26.471477"
 }

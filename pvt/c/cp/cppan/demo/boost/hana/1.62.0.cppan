@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/hana",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "1332bef8adcb8f289342e2a8abe7d656089f4bade233cf14b5e145757ec084a1",
+    "created": "2016-09-29 15:36:43.414025"
 }

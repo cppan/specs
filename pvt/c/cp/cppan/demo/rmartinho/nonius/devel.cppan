@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/libnonius\/nonius",
             "branch": "devel"
         }
-    }
+    },
+    "sha256": "8bc1d36a7df5e57631865129fe0176ddd9da026623acbf4d99f2aad67d9ce253",
+    "created": "2016-10-12 09:52:54.672835"
 }

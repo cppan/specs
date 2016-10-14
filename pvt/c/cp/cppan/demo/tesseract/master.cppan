@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "c23ab7f8e05fb80984bd0629fbb4dde046157752ae935ad8d07e317681419752",
+    "created": "2016-07-03 20:35:18.664863"
 }

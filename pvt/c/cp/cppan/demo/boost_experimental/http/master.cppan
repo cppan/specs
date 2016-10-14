@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/BoostGSoC14\/boost.http",
             "branch": "master"
         }
-    }
+    },
+    "sha256": "fb6fa4b58393895a4a82400cf96189a9362ba117a214217dc4741e8e783beaff",
+    "created": "2016-09-01 09:27:49.549356"
 }

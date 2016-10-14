@@ -1,5 +1,7 @@
 {
     "project": "pvt.cppan.demo.freeimage.freeimageplus",
     "version": "3.17.0",
-    "cppan": "files: .*\ndependencies:\n  pvt.cppan.demo.freeimage.freeimage: !<!> \"*\"\noptions:\n  shared:\n    definitions:\n      private:\n        - FIP_EXPORTS\n  static:\n    definitions:\n      public:\n        - FREEIMAGE_LIB"
+    "cppan": "files: .*\ndependencies:\n  pvt.cppan.demo.freeimage.freeimage: !<!> \"*\"\noptions:\n  shared:\n    definitions:\n      private:\n        - FIP_EXPORTS\n  static:\n    definitions:\n      public:\n        - FREEIMAGE_LIB",
+    "sha256": "d0caba44f2255ed69b035e61ef413c46fb074b96b14c4f5663a2cdd28800b84f",
+    "created": "2016-09-21 21:41:14.423652"
 }

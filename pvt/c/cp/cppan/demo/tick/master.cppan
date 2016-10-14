@@ -1,11 +1,13 @@
 {
-    "cppan": "files: tick/.*",
+    "cppan": "files: tick\/.*",
     "project": "pvt.cppan.demo.tick",
     "source": {
         "git": {
             "branch": "master",
-            "url": "https://github.com/pfultz2/Tick"
+            "url": "https:\/\/github.com\/pfultz2\/Tick"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "0d766c4d87832f2801fc220ff734beaef15ecb708ef4963d17c57e735cf62eab",
+    "created": "2016-04-20 13:28:06.218574"
 }

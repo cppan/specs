@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/regex",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "ac2f428769f2225aeb8b8fd7e519d692dc8a494178b53897786aceff6ff2dcd8",
+    "created": "2016-08-30 23:59:02.131331"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/asio",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "f9f4af655e439e788561e035bd0f3ef539ab8bfe12747114863a346b224b935d",
+    "created": "2016-09-29 15:36:10.981739"
 }

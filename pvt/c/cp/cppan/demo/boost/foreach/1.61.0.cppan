@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/foreach",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "8e837e8e623d96faa21b895277d8f92e7cd29cff1a04b9a39415e2dc4e72d64f",
+    "created": "2016-08-30 23:57:34.385198"
 }

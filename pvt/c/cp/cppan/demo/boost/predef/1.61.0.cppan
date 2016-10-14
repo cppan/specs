@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/predef",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "298da8c2850f8ba86189bd1ae96235d11c1a784ac608bb41d07985b36221c959",
+    "created": "2016-08-30 23:58:52.799641"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/timer",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "29124405acb44c2592c1c0e9022351c134afe3a5012ace165a39b9d0a7101db7",
+    "created": "2016-08-30 23:58:57.652339"
 }

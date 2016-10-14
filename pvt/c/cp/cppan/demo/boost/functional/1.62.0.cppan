@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/functional",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "4e6b1c849ce532ff638fea6c5d6497ab686d589dcbe240777eb3ab6ea234d892",
+    "created": "2016-09-29 15:36:26.797926"
 }

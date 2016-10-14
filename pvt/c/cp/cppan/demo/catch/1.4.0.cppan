@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/philsquared\/Catch"
         }
     },
-    "version": "1.4.0"
+    "version": "1.4.0",
+    "sha256": "b29811cd1fcd644bc5453e0b9d7ea70b8886fefbc0ace928ac13c059478bea0f",
+    "created": "2016-09-20 23:04:01.505395"
 }

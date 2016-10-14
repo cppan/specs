@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/disjoint_sets",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "4fd9b91897d14670812560af23c6d61849e56ecf3dda6f49fb4f880bae22d7b2",
+    "created": "2016-09-29 15:36:21.609082"
 }

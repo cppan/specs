@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/dll",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "4d36c00431695c463165e2889eda9fa36b8618f8c5c82a1d06cc59da2b381119",
+    "created": "2016-08-30 23:57:28.011614"
 }

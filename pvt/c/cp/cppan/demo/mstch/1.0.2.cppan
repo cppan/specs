@@ -1,11 +1,13 @@
 {
-    "cppan": "files:\r\n    - \"include/.*\\\\.hpp\"\r\n    - \"src/.*\\\\.hpp\"\r\n    - \"src/.*\\\\.cpp\"\r\n\r\ninclude_directories_private:\r\n    - src\r\n\r\ndependencies:\n    pvt.cppan.demo.boost.variant: \"*\"",
+    "cppan": "files:\r\n    - \"include\/.*\\\\.hpp\"\r\n    - \"src\/.*\\\\.hpp\"\r\n    - \"src\/.*\\\\.cpp\"\r\n\r\ninclude_directories_private:\r\n    - src\r\n\r\ndependencies:\n    pvt.cppan.demo.boost.variant: \"*\"",
     "project": "pvt.cppan.demo.mstch",
     "source": {
         "git": {
             "tag": "1.0.2",
-            "url": "https://github.com/no1msd/mstch"
+            "url": "https:\/\/github.com\/no1msd\/mstch"
         }
     },
-    "version": "1.0.2"
+    "version": "1.0.2",
+    "sha256": "255828d00aed1828259e939ab6a7bd2935f012cd7086677ef8985fdb08898dc9",
+    "created": "2016-03-13 18:17:18.591379"
 }

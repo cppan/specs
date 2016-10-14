@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/program_options",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "92fcbebe1d7a3c2a6be53210ab1607f72e2a5fa66085d342eac82b6d2c94ecd0",
+    "created": "2016-08-30 23:58:37.195038"
 }

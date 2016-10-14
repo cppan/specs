@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/integer",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "55cdea52b4a8529dba6810003bbc3f601c6d8f150ab0c9f3b36c236158e137e4",
+    "created": "2016-08-30 23:57:51.928796"
 }

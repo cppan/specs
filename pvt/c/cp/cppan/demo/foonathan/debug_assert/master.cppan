@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/foonathan\/debug-assert",
             "branch": "master"
         }
-    }
+    },
+    "sha256": "21f848a6a2aa6d948f6ca606ac1b4ba6d0a835e8408b207393a49254e97f8f56",
+    "created": "2016-09-17 21:59:37.338772"
 }

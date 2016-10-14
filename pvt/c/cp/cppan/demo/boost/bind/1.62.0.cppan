@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/bind",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "a0431d836d12929bf80ae310d47d9a1d56a1a21e21ced076d6fd780c7c602441",
+    "created": "2016-09-29 15:36:11.068973"
 }

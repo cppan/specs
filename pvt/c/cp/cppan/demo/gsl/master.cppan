@@ -1,11 +1,13 @@
 {
-    "cppan": "license: LICENSE\r\nfiles: include/.*",
+    "cppan": "license: LICENSE\r\nfiles: include\/.*",
     "project": "pvt.cppan.demo.gsl",
     "source": {
         "git": {
             "branch": "master",
-            "url": "https://github.com/microsoft/GSL"
+            "url": "https:\/\/github.com\/microsoft\/GSL"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "011f6e5d3a9b5c3c3af6c9676a307e179b84433ede7cf5df7914fd7fdfb20828",
+    "created": "2016-03-13 18:16:30.799898"
 }

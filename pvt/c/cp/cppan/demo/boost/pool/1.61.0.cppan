@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/pool",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "0c18063d471b10536e64fed5370d99ec86a1cc3f8a605f91243840766d4f29fa",
+    "created": "2016-08-31 00:11:28.262511"
 }

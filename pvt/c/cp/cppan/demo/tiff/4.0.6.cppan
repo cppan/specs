@@ -6,5 +6,7 @@
         "remote": {
             "url": "https:\/\/codeload.github.com\/vadz\/libtiff\/zip\/Release-v4-0-6"
         }
-    }
+    },
+    "sha256": "b90ec5645b33e4120629c4da3ebb1a9989c85c6d757f95bdd94a0de8e2d012a8",
+    "created": "2016-09-21 21:24:50.102576"
 }

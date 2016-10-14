@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/madler\/zlib",
             "tag": "v1.2.8"
         }
-    }
+    },
+    "sha256": "6acee5ffcc3457c3bb5877fca169191052c0eed5d7c8af4f0bf98f29fc75dc6e",
+    "created": "2016-09-12 11:45:34.841396"
 }

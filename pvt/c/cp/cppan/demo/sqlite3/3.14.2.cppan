@@ -6,5 +6,7 @@
         "remote": {
             "url": "https:\/\/www.sqlite.org\/2016\/sqlite-amalgamation-3140200.zip"
         }
-    }
+    },
+    "sha256": "4590a590449a38c0b7d8b8ed67e428eb80fd9e9f77166671a2394d39060efb8b",
+    "created": "2016-09-23 18:41:24.921293"
 }

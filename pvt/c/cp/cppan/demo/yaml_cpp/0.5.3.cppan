@@ -1,11 +1,13 @@
 {
-    "cppan": "license: LICENSE\r\nfiles:\r\n    - include/.*\r\n    - src/.*\n\ndependencies:\n    pvt.cppan.demo.boost.iterator: \"*\"\n    pvt.cppan.demo.boost.smart_ptr: \"*\"",
+    "cppan": "license: LICENSE\r\nfiles:\r\n    - include\/.*\r\n    - src\/.*\n\ndependencies:\n    pvt.cppan.demo.boost.iterator: \"*\"\n    pvt.cppan.demo.boost.smart_ptr: \"*\"",
     "project": "pvt.cppan.demo.yaml_cpp",
     "source": {
         "git": {
             "tag": "release-0.5.3",
-            "url": "https://github.com/jbeder/yaml-cpp"
+            "url": "https:\/\/github.com\/jbeder\/yaml-cpp"
         }
     },
-    "version": "0.5.3"
+    "version": "0.5.3",
+    "sha256": "0f14fd46c6acfab613d3005f1424c841307f78965655067619d847ee0a68da1b",
+    "created": "2016-03-13 18:16:57.509954"
 }

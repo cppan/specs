@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/mpi",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "870b232755d55d743b3efef4675715c7ec3cd276fa04a005fbe93dd30559fec7",
+    "created": "2016-08-30 23:58:10.042504"
 }

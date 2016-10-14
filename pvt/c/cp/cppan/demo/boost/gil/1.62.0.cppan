@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/gil",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "98f5cbba8abe4fbf10247388cdf7a2ee6d073f9cb395e1f3c9c7fb15c1493b40",
+    "created": "2016-09-29 15:36:32.677115"
 }

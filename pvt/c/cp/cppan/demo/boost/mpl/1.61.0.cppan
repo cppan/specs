@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/mpl",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "82c848e7688d009746da8f109600237abf48a5ce4f671b3eb66e06014c26b528",
+    "created": "2016-08-30 23:58:28.688802"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/rbock\/sqlpp11"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "35fbb4f44697c8a080900f044662dbbff46b6d62621e5e8e6b1f3d6e6f28d98f",
+    "created": "2016-08-01 19:26:24.012445"
 }

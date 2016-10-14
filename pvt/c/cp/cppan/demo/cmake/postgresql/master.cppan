@@ -6,5 +6,7 @@
         "remote": {
             "url": "https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip"
         }
-    }
+    },
+    "sha256": "42cd8f9af10fb7f6694859bda39a0ef477d3b850d210c829df548081d6c6ec7b",
+    "created": "2016-09-11 22:24:53.678597"
 }

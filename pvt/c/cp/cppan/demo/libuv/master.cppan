@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/libuv\/libuv",
             "branch": "master"
         }
-    }
+    },
+    "sha256": "f87d11928afc3f56a0b0af4f386cea8b8c9418009cfcebe4b97d922676875339",
+    "created": "2016-09-19 23:13:41.56337"
 }

@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/www.colm.net\/files\/ragel\/ragel-6.9.tar.gz"
         }
-    }
+    },
+    "sha256": "944d733775bb9b02c7b58442ce64ea0fed1f593d1c2cbb0c60adc4605bd33688",
+    "created": "2016-09-04 20:55:45.229442"
 }

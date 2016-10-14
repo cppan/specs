@@ -1,11 +1,13 @@
 {
-    "cppan": "files:\r\n  - detail/.*\r\n  - bitset2.hpp\r\ninclude_directories:\r\n  public: .",
+    "cppan": "files:\r\n  - detail\/.*\r\n  - bitset2.hpp\r\ninclude_directories:\r\n  public: .",
     "project": "pvt.cppan.demo.claasbontus.bitset2",
     "source": {
         "git": {
             "branch": "master",
-            "url": "https://github.com/ClaasBontus/bitset2"
+            "url": "https:\/\/github.com\/ClaasBontus\/bitset2"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "42627579d152b187fcba2132128fd9a95b8ed10b0e8bc4ca41ea1cdbfa117400",
+    "created": "2016-08-08 19:53:27.710846"
 }

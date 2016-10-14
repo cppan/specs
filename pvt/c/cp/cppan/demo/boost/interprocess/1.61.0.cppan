@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/interprocess",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "de55274c5cd09e333f43920f684022f0fbfab5b3ab1b1a64abb444ee0e71a720",
+    "created": "2016-08-30 23:57:59.043903"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/flyweight",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "8e980708a8463e0ba57939eb5a4b7625902ae069cde8eda70d7ddf48f9dc97c3",
+    "created": "2016-09-29 15:36:28.102877"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/assign",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "dad9d7494c4a3ce5ca54041252ea8aa5cb72d970706088d00fdf201d31b421d8",
+    "created": "2016-08-30 23:57:07.275556"
 }

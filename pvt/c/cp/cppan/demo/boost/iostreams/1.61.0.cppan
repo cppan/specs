@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/iostreams",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "f6326b43485b51ea317c4aed2fb5a62ee8c193d57e9c6348c434b62c63865e67",
+    "created": "2016-08-30 23:58:04.431704"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/static_assert",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "ae26b1bdd0e340551a712c488cba86ee47dad1b643bde46c8ae8c044d397b19b",
+    "created": "2016-09-29 15:37:10.92207"
 }

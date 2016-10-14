@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/scope_exit",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "e91d1d742149d8abcf1035c0f996b6966e350a06df640fb26388a7cbed8f1091",
+    "created": "2016-08-30 23:58:48.159549"
 }

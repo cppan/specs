@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/asutton\/origin",
             "branch": "master"
         }
-    }
+    },
+    "sha256": "be4f9d38b0ebad65f907c1ea4d4a2b3bd5feb8ac45cc07e17aab3cb06f6db689",
+    "created": "2016-10-03 12:14:13.983422"
 }

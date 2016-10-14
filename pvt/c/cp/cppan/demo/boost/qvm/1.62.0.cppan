@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/qvm",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "0c742657b41de5dd9503b36d6bcd03289543e84dbe57c0b41edf84f10a7394d9",
+    "created": "2016-09-29 15:37:18.683156"
 }

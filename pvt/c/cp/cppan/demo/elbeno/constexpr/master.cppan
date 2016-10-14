@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/elbeno\/constexpr",
             "branch": "master"
         }
-    }
+    },
+    "sha256": "babbec4436fbb89723e497437903c5d2dc1d03a0677de9972d16b5df5375ee78",
+    "created": "2016-09-26 16:29:10.16788"
 }

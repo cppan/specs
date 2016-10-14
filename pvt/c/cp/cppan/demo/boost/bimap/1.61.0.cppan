@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/bimap",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "540e91606e8dee67ef683ad19b89c5c0d6d3707fa86b10cc93d4734659d6048f",
+    "created": "2016-08-30 23:57:23.203612"
 }

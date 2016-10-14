@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/rational",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "84268799da70357e14946d27411c41c69ce47a4bd4c55dcfaf81461cb6f79999",
+    "created": "2016-08-30 23:58:31.928422"
 }

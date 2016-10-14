@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/ftp.gnu.org\/pub\/gnu\/gettext\/gettext-0.19.8.1.tar.gz"
         }
-    }
+    },
+    "sha256": "f57a3f4eafc6fa5a5e039d2e01b720d42761d20fe01b3273bfbecce4f0491856",
+    "created": "2016-09-19 22:10:07.639414"
 }

@@ -4,8 +4,10 @@
     "source": {
         "git": {
             "branch": "master",
-            "url": "https://github.com/google/highwayhash"
+            "url": "https:\/\/github.com\/google\/highwayhash"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "1918a32d545090ff1d7946b3c92962dd40db7d1bd753c709635e8a6f5214a23e",
+    "created": "2016-03-13 18:17:03.066416"
 }

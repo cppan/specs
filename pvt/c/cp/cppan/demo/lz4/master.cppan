@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/Cyan4973\/lz4"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "1bb8c4043854ccbc19e78c4153a8602377c96320750887d464977d2ef7b48a29",
+    "created": "2016-07-27 14:09:08.097179"
 }

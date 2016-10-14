@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/intrusive",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "765e418cead62550885890bf9327de32ad172f6d8d0b97986fd4afa47219292a",
+    "created": "2016-09-29 15:36:44.175687"
 }

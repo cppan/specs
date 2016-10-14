@@ -1,11 +1,13 @@
 {
-    "cppan": "license: LICENSE\r\nfiles: src/.*\r\ninclude_directories:\r\n  public:\r\n    - src",
+    "cppan": "license: LICENSE\r\nfiles: src\/.*\r\ninclude_directories:\r\n  public:\r\n    - src",
     "project": "pvt.cppan.demo.moderngpu",
     "source": {
         "git": {
             "branch": "master",
-            "url": "https://github.com/nvlabs/moderngpu"
+            "url": "https:\/\/github.com\/nvlabs\/moderngpu"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "c964fdec0ac358932df7d73b72cea4448e486e359f9652354b573a3018c97d1a",
+    "created": "2016-03-29 11:24:45.808328"
 }

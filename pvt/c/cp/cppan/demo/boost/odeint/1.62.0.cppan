@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/odeint",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "51c26e92d7aaa1d04b67c5aa5410a06e16b8ea644678bd5b94622088c737fe4f",
+    "created": "2016-09-29 15:36:51.777683"
 }

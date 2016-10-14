@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/fusion",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "8c3ca30c4a628388abe1e8bce0d26dd0dcb1dc972e32f7f8d4286e4ef0f0d79f",
+    "created": "2016-08-30 23:57:30.4755"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/BorisSchaeling\/boost-process",
             "branch": "master"
         }
-    }
+    },
+    "sha256": "586bcd11bd9916fb8816523371bbec56bb6509776c0991c4a66e3f3524928abb",
+    "created": "2016-10-12 09:55:30.438426"
 }

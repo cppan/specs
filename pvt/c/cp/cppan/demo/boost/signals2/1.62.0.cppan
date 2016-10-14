@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/signals2",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "008888fc16f4e5d7b43b0abf99088ca3362b50d93893982ed95cbef3f343f5f5",
+    "created": "2016-09-29 15:37:28.451614"
 }

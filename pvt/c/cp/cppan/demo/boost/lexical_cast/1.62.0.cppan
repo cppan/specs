@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/lexical_cast",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "df2bcd4631a480736732e5571db361eb115751db8bf1cfb770cb8f673b5a759d",
+    "created": "2016-09-29 15:36:52.301527"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/endian",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "f290a98e2d4d1cd5e56d3d979ced1eb01dc5c2bc31aa9171fba03a0a0d433d3e",
+    "created": "2016-08-30 23:57:32.435688"
 }

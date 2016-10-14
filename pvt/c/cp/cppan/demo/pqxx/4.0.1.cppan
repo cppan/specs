@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/pqxx.org\/download\/software\/libpqxx\/libpqxx-4.0.1.tar.gz"
         }
-    }
+    },
+    "sha256": "318849aad2c8a565d19aeeb3e49fc7707ff826b48b1119ed86cd8bbe2da433a0",
+    "created": "2016-10-14 13:16:52.974773"
 }

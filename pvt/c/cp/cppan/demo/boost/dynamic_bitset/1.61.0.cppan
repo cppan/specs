@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/dynamic_bitset",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "b0e2e07828f362787a629751df6949f6d5cedd6101319cc6c532c433b208f865",
+    "created": "2016-08-30 23:57:39.351564"
 }

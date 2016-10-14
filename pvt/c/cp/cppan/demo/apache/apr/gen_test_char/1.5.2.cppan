@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/apache-mirror.rbc.ru\/pub\/apache\/\/apr\/apr-1.5.2.tar.gz"
         }
-    }
+    },
+    "sha256": "7c1642cb59006076f03ec6e6bca71113d9fdfd7d732677c78467936716faa7cd",
+    "created": "2016-09-23 21:10:07.015033"
 }

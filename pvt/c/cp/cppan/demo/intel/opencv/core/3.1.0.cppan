@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/opencv\/opencv",
             "tag": "3.1.0"
         }
-    }
+    },
+    "sha256": "efca0066af985d552748e4f53dd9ac226ec746143b6b060dae105bc057c3da67",
+    "created": "2016-09-04 15:18:22.888271"
 }

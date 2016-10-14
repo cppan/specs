@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/download.dre.vanderbilt.edu\/previous_versions\/ACE-6.4.0.tar.gz"
         }
-    }
+    },
+    "sha256": "9ef57c95ace97e39accd78805b7abd79349db0ba7a86785297ece451f76820dc",
+    "created": "2016-09-20 22:35:16.839303"
 }

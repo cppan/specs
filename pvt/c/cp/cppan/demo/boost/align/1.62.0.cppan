@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/align",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "71981658b8efd6a88edbb7ed820f4ab053f7d08b004a10d1b813301d648ca794",
+    "created": "2016-09-29 15:36:07.761057"
 }

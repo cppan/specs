@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/uuid",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "bebb7dc337a5f55d1a4e6b0bff138f3fa89299de91f301835b8c70e6ea7f856e",
+    "created": "2016-09-29 15:37:27.193155"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/graph_parallel",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "94c7cf38c90cc2ce4c1c6a055c8c0fdef94c4716a7d2e7e4259436d9d957857b",
+    "created": "2016-09-29 15:36:38.943469"
 }

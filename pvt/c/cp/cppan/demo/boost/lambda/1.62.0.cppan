@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/lambda",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "4c9311f1d8e58b42e2450646c5b281955b006c5f798d065d107a20e07b2af545",
+    "created": "2016-09-29 15:36:46.741847"
 }

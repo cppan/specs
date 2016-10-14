@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/freefr.dl.sourceforge.net\/project\/rapidxml\/rapidxml\/rapidxml%201.13\/rapidxml-1.13.zip"
         }
-    }
+    },
+    "sha256": "b67148288bda2ba6918ec84d9c283629038df44c19d1df56f47aad9794bfa74d",
+    "created": "2016-09-21 11:59:13.231151"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/proto",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "f7e16d6df86e51d94e7fafcee3ff358cc8ff9a07aeb72f19a1c3a89b5505b70d",
+    "created": "2016-09-29 15:37:20.171919"
 }

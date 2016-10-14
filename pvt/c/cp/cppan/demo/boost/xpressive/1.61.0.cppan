@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/xpressive",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "b7be385ca42ab3a7427a793f1dc01ce2a5cbd724a123d37f65a34536e7b08dee",
+    "created": "2016-08-30 23:59:17.191762"
 }

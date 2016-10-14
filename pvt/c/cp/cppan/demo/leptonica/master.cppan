@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/DanBloomberg\/leptonica"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "fd015ee3c8c6ed898c5655ec428ef8d573588f08e41965b0b6100fd65baf4e0b",
+    "created": "2016-06-28 23:22:31.817646"
 }

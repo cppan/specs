@@ -6,5 +6,7 @@
         "remote": {
             "url": "https:\/\/www.python.org\/ftp\/python\/3.5.2\/Python-3.5.2.tar.xz"
         }
-    }
+    },
+    "sha256": "b785192626b7dd69a35ebd5ab67e7916e54b3c7044ad72a9a45e499f60f2e7ad",
+    "created": "2016-10-05 21:31:39.083322"
 }

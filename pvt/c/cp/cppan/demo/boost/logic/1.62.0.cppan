@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/logic",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "242c9ff2d5c084ca89112d504643f68d004cc93eff63eb8eb9e64d562b79d91b",
+    "created": "2016-09-29 15:36:41.369089"
 }

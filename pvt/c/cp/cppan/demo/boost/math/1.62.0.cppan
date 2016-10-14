@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/math",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "1edc0c5efc371357193e70307c4698bbb3d779f95de35f3ec5fa7f63456f2682",
+    "created": "2016-09-29 15:36:50.085818"
 }

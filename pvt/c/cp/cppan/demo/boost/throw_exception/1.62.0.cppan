@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/throw_exception",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "bab202cbe092b1309a0e5b53a22f8472987acd746cbcf28c93b696fcce5b0e69",
+    "created": "2016-09-29 15:37:12.3738"
 }

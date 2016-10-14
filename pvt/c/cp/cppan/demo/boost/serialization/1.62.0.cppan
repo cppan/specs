@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/serialization",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "f0ea972b7cf714254ecf1b0d2f32d65cd3bc19d9ba84832eb9cbe305a594d964",
+    "created": "2016-09-29 15:36:58.195839"
 }

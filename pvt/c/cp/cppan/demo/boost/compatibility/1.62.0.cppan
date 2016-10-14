@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/compatibility",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "1ac9cfa9e3660f959045adb88c179050c5472198661ee8e2d762156dc8b2125e",
+    "created": "2016-09-29 15:36:20.745373"
 }

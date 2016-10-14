@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/fiber",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "1b7137d1bbbe39886cbc5eaa8e8c0b247a5e9b49d833b7039cfb0bcfd46511ab",
+    "created": "2016-09-29 15:36:22.84524"
 }

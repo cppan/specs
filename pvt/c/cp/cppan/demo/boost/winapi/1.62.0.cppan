@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/winapi",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "43c39f5d3a4b8275261099e5f8474e4e22edf8a5290e3aa318cee073b0153960",
+    "created": "2016-09-29 15:37:28.815171"
 }

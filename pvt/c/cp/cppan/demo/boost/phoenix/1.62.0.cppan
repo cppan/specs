@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/phoenix",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "375b554379243bcaca0417fe6e90e236bb0660fe759c19849c0fa1a367e9471e",
+    "created": "2016-09-29 15:37:07.205154"
 }

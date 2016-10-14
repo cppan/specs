@@ -1,11 +1,13 @@
 {
-    "cppan": "license: LICENSE\r\nfiles: code/mach7/.*\r\n\r\ninclude_directories:\r\n    public: code\r\n",
+    "cppan": "license: LICENSE\r\nfiles: code\/mach7\/.*\r\n\r\ninclude_directories:\r\n    public: code\r\n",
     "project": "pvt.cppan.demo.mach7",
     "source": {
         "git": {
             "branch": "master",
-            "url": "https://github.com/solodon4/Mach7"
+            "url": "https:\/\/github.com\/solodon4\/Mach7"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "06f16d3b98b560821ee63ffa60edd3b043b5e8d1800682839cca0e02c6963a24",
+    "created": "2016-03-13 18:16:44.632623"
 }

@@ -6,5 +6,7 @@
         "remote": {
             "url": "https:\/\/www.lua.org\/ftp\/lua-5.1.4.tar.gz"
         }
-    }
+    },
+    "sha256": "917a4cfad98ba3182b88f6e912f953022bef717f88d64043925ae9ee5e532de7",
+    "created": "2016-09-07 22:34:00.35336"
 }

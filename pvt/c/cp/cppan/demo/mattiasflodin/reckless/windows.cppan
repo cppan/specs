@@ -1,11 +1,13 @@
 {
-    "cppan": "version: windows\r\nsource:\r\n  git: https://github.com/mattiasflodin/reckless\r\n  branch: wip/windows\r\n\r\nlicense: LICENSE.txt\r\nfiles:\r\n    - boost/.*\r\n    - reckless/include/.*\r\n    - reckless/src/.*\\.cpp\r\n    - reckless/src/.*\\.hpp\r\ninclude_directories:\r\n    public: reckless/include\r\n    public: boost",
+    "cppan": "version: windows\r\nsource:\r\n  git: https:\/\/github.com\/mattiasflodin\/reckless\r\n  branch: wip\/windows\r\n\r\nlicense: LICENSE.txt\r\nfiles:\r\n    - boost\/.*\r\n    - reckless\/include\/.*\r\n    - reckless\/src\/.*\\.cpp\r\n    - reckless\/src\/.*\\.hpp\r\ninclude_directories:\r\n    public: reckless\/include\r\n    public: boost",
     "project": "pvt.cppan.demo.mattiasflodin.reckless",
     "source": {
         "git": {
-            "branch": "wip/windows",
-            "url": "https://github.com/mattiasflodin/reckless"
+            "branch": "wip\/windows",
+            "url": "https:\/\/github.com\/mattiasflodin\/reckless"
         }
     },
-    "version": "windows"
+    "version": "windows",
+    "sha256": "7d97a18e8e665afe6870a469ce7d45755e1821503d9cea4d33ff76e5c3487982",
+    "created": "2016-08-11 18:04:16.360633"
 }

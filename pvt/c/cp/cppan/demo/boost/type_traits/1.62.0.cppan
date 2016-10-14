@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/type_traits",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "f32ffb2f57cc143be59959b02a50a886fe50a548a699e29c93d53a59e568c0e8",
+    "created": "2016-09-29 15:37:15.688583"
 }

@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/freefr.dl.sourceforge.net\/project\/glew\/glew\/2.0.0\/glew-2.0.0.zip"
         }
-    }
+    },
+    "sha256": "6454731970eda950d00b7a45700391aa0d1d877d386ce1336fe30133fb7372e3",
+    "created": "2016-09-12 23:26:05.812875"
 }

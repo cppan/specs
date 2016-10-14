@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/circular_buffer",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "987f77f2b267092924de0a5533ff86a28ac07d38067f85c959130f6411145b3f",
+    "created": "2016-08-30 23:57:16.07225"
 }

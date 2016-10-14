@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/google\/etc2comp",
             "branch": "master"
         }
-    }
+    },
+    "sha256": "ad06270726cc259b9f86f0bb7e64c9db76f78ccf2a993bf9904a19e2dbca8c9f",
+    "created": "2016-09-19 17:47:32.420761"
 }

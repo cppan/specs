@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/convert",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "c9a43dae3f7435d6b9243783228551c1fc8b726c87f8ae90779cb1a29ca62c6a",
+    "created": "2016-08-30 23:57:23.534716"
 }

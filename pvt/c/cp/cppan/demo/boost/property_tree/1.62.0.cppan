@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/property_tree",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "db67467532c4750a8604a8edd99b13f3ab6190f6aed584719dc2ea899fdf9044",
+    "created": "2016-09-29 15:37:17.642312"
 }

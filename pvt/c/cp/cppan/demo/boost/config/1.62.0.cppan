@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/config",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "64766ec8e79e6da69d1c4d9b9c2ca71d21e98a53656c7753f348b531af21e9a1",
+    "created": "2016-09-29 15:36:13.47773"
 }

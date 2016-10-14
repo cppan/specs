@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/preprocessor",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "7bc1c2c8631e5688051d11c6ebebc428e36e62e33f6d1d989708e72b392bb6ac",
+    "created": "2016-08-30 23:58:30.054509"
 }

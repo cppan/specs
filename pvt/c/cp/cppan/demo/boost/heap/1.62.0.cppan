@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/heap",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "038e9207780a50bafaf2badf02abb84f8146dc58ca1b94ec35912afb5ac28078",
+    "created": "2016-09-29 15:36:35.174803"
 }

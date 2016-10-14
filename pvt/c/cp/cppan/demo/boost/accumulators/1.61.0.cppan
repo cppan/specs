@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/accumulators",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "079fdd7264e0fadba8de959a6a24429391ed51198e58d42d206456c299e02f83",
+    "created": "2016-08-30 23:57:03.855662"
 }

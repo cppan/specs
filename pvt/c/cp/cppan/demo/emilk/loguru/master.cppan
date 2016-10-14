@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/emilk\/loguru",
             "branch": "master"
         }
-    }
+    },
+    "sha256": "8ee849923b073a96d3918cbed2f78110af700af06ff05bb22860fe84140bf51f",
+    "created": "2016-10-12 09:22:55.9131"
 }

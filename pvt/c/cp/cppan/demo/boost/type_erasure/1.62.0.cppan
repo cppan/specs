@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/type_erasure",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "76035d6cfc99c781d1652cc4d19242e039ef85aca05d7ce78f4770ad004519de",
+    "created": "2016-09-29 15:37:25.096997"
 }

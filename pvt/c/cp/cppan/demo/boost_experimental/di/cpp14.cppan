@@ -1,11 +1,13 @@
 {
-    "cppan": "files: include/.*\r\n",
+    "cppan": "files: include\/.*\r\n",
     "project": "pvt.cppan.demo.boost_experimental.di",
     "source": {
         "git": {
             "branch": "cpp14",
-            "url": "https://github.com/boost-experimental/di"
+            "url": "https:\/\/github.com\/boost-experimental\/di"
         }
     },
-    "version": "cpp14"
+    "version": "cpp14",
+    "sha256": "d5f685a234c152edf516dd49480536d9713c12d548fdf6c80b14b4286f0eb76d",
+    "created": "2016-03-13 18:17:06.82819"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/coroutine",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "f39623b2fe8db090bbf6c8c18b69ab3e3b71958270db1706939b71cbfc74c9ee",
+    "created": "2016-08-30 23:57:27.696107"
 }

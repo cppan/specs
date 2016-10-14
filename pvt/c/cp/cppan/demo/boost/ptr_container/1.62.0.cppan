@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/ptr_container",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "0fbc3342a12211aa1e3418613f243c24c45121b4e2790fc69f15a0bce679cd0b",
+    "created": "2016-09-29 15:37:01.14679"
 }

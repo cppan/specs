@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/msm",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "ca2f47bdf312dccdacf148c5e4ace30c3e5d0f363b597fda93701a4ece7a455c",
+    "created": "2016-08-30 23:58:12.309872"
 }

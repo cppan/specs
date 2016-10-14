@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/www.bzip.org\/1.0.6\/bzip2-1.0.6.tar.gz"
         }
-    }
+    },
+    "sha256": "69ddf7cdf5ffec2d100f594c7bf756ff5b179a251e4a2762cea23b25a9fedcd8",
+    "created": "2016-09-12 15:56:12.788427"
 }

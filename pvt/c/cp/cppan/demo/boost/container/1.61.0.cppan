@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/container",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "7bb1257b87ae8baeb2f0edcb32b117c3d38f265806d4fcbfe0f9e866d558c91f",
+    "created": "2016-08-30 23:57:29.211564"
 }

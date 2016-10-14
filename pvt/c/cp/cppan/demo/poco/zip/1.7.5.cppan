@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/pocoproject\/poco",
             "tag": "poco-1.7.5-release"
         }
-    }
+    },
+    "sha256": "ebacf259520d7bdc5152c1cf16b743e8469238553a4a0d1f66c532540262002e",
+    "created": "2016-09-22 19:04:31.194908"
 }

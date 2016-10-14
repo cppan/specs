@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/interval",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "9bcf5d7397389710068bf08465ba9e6a0be99f619aff84c910a42e9f3717efac",
+    "created": "2016-09-29 15:36:34.260985"
 }

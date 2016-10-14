@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/chrono",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "85d36717159ba305c908c1322bd2cd44d60f1952e2a31be75afab1ab6a812e16",
+    "created": "2016-08-30 23:57:11.863635"
 }

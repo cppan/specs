@@ -1,11 +1,13 @@
 {
-    "cppan": "# http://tenet.dl.sourceforge.net/project/libpng/libpng16/1.6.23/libpng-1.6.23.tar.gz\r\n\r\nroot_directory: libpng-1.6.23\r\n\r\nlicense: LICENSE\r\n\r\nfiles:\r\n  - png.c\r\n  - pngerror.c\r\n  - pngget.c\r\n  - pngmem.c\r\n  - pngpread.c\r\n  - pngread.c\r\n  - pngrio.c\r\n  - pngrtran.c\r\n  - pngrutil.c\r\n  - pngset.c\r\n  - pngtrans.c\r\n  - pngwio.c\r\n  - pngwrite.c\r\n  - pngwtran.c\r\n  - pngwutil.c\r\n\r\n  - png.h\r\n  - pngconf.h\r\n\r\n  - pngpriv.h\r\n  - pngdebug.h\r\n  - pnginfo.h\r\n  - pngstruct.h\r\n\r\n  - scripts/pnglibconf.h.prebuilt\r\n\r\ninclude_directories:\r\n  public: .\r\n\r\npre_sources: |\r\n    configure_file(${CMAKE_CURRENT_SOURCE_DIR}/scripts/pnglibconf.h.prebuilt\r\n                   ${CMAKE_CURRENT_BINARY_DIR}/pnglibconf.h)\r\n\r\ndependencies:\r\n    pvt.cppan.demo.zlib: 1\r\n",
+    "cppan": "# http:\/\/tenet.dl.sourceforge.net\/project\/libpng\/libpng16\/1.6.23\/libpng-1.6.23.tar.gz\r\n\r\nroot_directory: libpng-1.6.23\r\n\r\nlicense: LICENSE\r\n\r\nfiles:\r\n  - png.c\r\n  - pngerror.c\r\n  - pngget.c\r\n  - pngmem.c\r\n  - pngpread.c\r\n  - pngread.c\r\n  - pngrio.c\r\n  - pngrtran.c\r\n  - pngrutil.c\r\n  - pngset.c\r\n  - pngtrans.c\r\n  - pngwio.c\r\n  - pngwrite.c\r\n  - pngwtran.c\r\n  - pngwutil.c\r\n\r\n  - png.h\r\n  - pngconf.h\r\n\r\n  - pngpriv.h\r\n  - pngdebug.h\r\n  - pnginfo.h\r\n  - pngstruct.h\r\n\r\n  - scripts\/pnglibconf.h.prebuilt\r\n\r\ninclude_directories:\r\n  public: .\r\n\r\npre_sources: |\r\n    configure_file(${CMAKE_CURRENT_SOURCE_DIR}\/scripts\/pnglibconf.h.prebuilt\r\n                   ${CMAKE_CURRENT_BINARY_DIR}\/pnglibconf.h)\r\n\r\ndependencies:\r\n    pvt.cppan.demo.zlib: 1\r\n",
     "project": "pvt.cppan.demo.png",
     "source": {
         "git": {
             "tag": "1.6.23",
-            "url": "http://tenet.dl.sourceforge.net/project/libpng/libpng16/1.6.23/libpng-1.6.23.tar.gz"
+            "url": "http:\/\/tenet.dl.sourceforge.net\/project\/libpng\/libpng16\/1.6.23\/libpng-1.6.23.tar.gz"
         }
     },
-    "version": "1.6.23"
+    "version": "1.6.23",
+    "sha256": "0ccd5479f09b845192838e825d438bd3a99692d0fed30ee02581632b43502e7d",
+    "created": "2016-07-18 00:37:30.76097"
 }

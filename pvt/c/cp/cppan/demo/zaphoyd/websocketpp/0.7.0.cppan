@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/zaphoyd\/websocketpp",
             "tag": "0.7.0"
         }
-    }
+    },
+    "sha256": "91711e5be3305fda2c7ebf5474e431a2677af477d1bf44f8cc8f304167669075",
+    "created": "2016-09-19 22:51:18.209913"
 }

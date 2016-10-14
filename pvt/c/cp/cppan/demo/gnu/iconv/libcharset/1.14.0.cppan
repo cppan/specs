@@ -6,5 +6,7 @@
         "remote": {
             "url": "http:\/\/ftp.gnu.org\/pub\/gnu\/libiconv\/libiconv-1.14.tar.gz"
         }
-    }
+    },
+    "sha256": "52767efc298a6e16eb2367a66e6de0d6ba2a3b6e03cb3993fd7df7f7fe397f67",
+    "created": "2016-09-19 12:26:38.751466"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/tokenizer",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "6c16f8920692baf55b71d08042299b1d0119ee03222373f2216da0ae555aa6cd",
+    "created": "2016-08-30 23:59:01.345038"
 }

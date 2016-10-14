@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/ublas",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "059a53a92f0fcd2c126f38a87f2f6c363796a0e99e4620e9d68302762549a468",
+    "created": "2016-09-29 15:37:26.309036"
 }

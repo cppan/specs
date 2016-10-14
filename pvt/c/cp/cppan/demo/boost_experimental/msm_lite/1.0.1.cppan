@@ -1,11 +1,13 @@
 {
-    "cppan": "files: include/.*",
+    "cppan": "files: include\/.*",
     "project": "pvt.cppan.demo.boost_experimental.msm_lite",
     "source": {
         "git": {
             "tag": "v1.0.1",
-            "url": "https://github.com/boost-experimental/msm-lite"
+            "url": "https:\/\/github.com\/boost-experimental\/msm-lite"
         }
     },
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "sha256": "35e46d6670c1833d3e967c22e8bc6ba9c152eedc6e55820ba334a9d096ae795e",
+    "created": "2016-05-18 11:38:50.030553"
 }

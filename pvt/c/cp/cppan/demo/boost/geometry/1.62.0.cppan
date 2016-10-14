@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/geometry",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "6f149150c5e963c083b5dd9a67a91905c482ec763c3e4d82caf36d1b003da7e2",
+    "created": "2016-09-29 15:36:35.741218"
 }

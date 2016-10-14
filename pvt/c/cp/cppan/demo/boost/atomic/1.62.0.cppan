@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/atomic",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "6e966ba3b49876451b9e77d1b7e4bb8313408acd2732648a4980071787242841",
+    "created": "2016-09-29 15:36:09.521182"
 }

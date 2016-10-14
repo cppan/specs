@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/iterator",
             "tag": "boost-1.61.0"
         }
-    }
+    },
+    "sha256": "57524446113f1f83ffb4829050ec79c3a3bb871bf507a5ba079d9597c2f2bc5b",
+    "created": "2016-08-30 23:57:57.503756"
 }

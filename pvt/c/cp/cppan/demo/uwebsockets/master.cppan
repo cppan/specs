@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/uWebSockets\/uWebSockets",
             "branch": "master"
         }
-    }
+    },
+    "sha256": "0cb99af0bc09a5f7ff55b14f56673e3fc06e4fd033b92db727d04684e926720b",
+    "created": "2016-09-19 23:02:45.618796"
 }

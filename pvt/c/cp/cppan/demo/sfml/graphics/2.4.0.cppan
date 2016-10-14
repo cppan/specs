@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/SFML\/SFML",
             "tag": "2.4.0"
         }
-    }
+    },
+    "sha256": "2e03dca1b024e3b3fdb7421624834666ef9d2f4240f365dd4be54b5f72aa21ec",
+    "created": "2016-09-12 15:20:49.740517"
 }

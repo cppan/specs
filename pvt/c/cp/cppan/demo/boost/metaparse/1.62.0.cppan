@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/metaparse",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "5bd0f1e96dff604d6191ae8672d4bf5f35b27189b546f498cd2c476568ffc309",
+    "created": "2016-09-29 15:36:58.773401"
 }

@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/uclouvain\/openjpeg",
             "tag": "v2.1.1"
         }
-    }
+    },
+    "sha256": "eef0cb9ba7fd9e4a3d125a658aa53f00b666d474c848d4db9394c2944e4d86ca",
+    "created": "2016-09-10 10:14:50.817514"
 }

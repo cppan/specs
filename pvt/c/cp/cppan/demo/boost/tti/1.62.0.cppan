@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/boostorg\/tti",
             "tag": "boost-1.62.0"
         }
-    }
+    },
+    "sha256": "05d4a3975aaf5da12447d2e7f9ce6a9b4d33c0afa723b7eefefb3adcc71e160e",
+    "created": "2016-09-29 15:37:13.809311"
 }

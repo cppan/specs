@@ -1,11 +1,13 @@
 {
-    "cppan": "files: include/.*",
+    "cppan": "files: include\/.*",
     "project": "pvt.cppan.demo.boost_experimental.sort_parallel",
     "source": {
         "git": {
             "branch": "master",
-            "url": "https://github.com/fjtapia/sort_parallel"
+            "url": "https:\/\/github.com\/fjtapia\/sort_parallel"
         }
     },
-    "version": "master"
+    "version": "master",
+    "sha256": "7d14654ef6ed965287a42fcb37ce9b8698a582e22e69d607ef42972fb2be742c",
+    "created": "2016-03-29 21:48:52.349233"
 }

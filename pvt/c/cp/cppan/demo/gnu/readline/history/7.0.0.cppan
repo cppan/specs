@@ -6,5 +6,7 @@
         "remote": {
             "url": "ftp:\/\/ftp.gnu.org\/gnu\/readline\/readline-7.0.tar.gz"
         }
-    }
+    },
+    "sha256": "202c01298f39e07b5dabccc142ed06999b281398fd6bbe0e414c5828b0f082f0",
+    "created": "2016-09-19 19:36:26.38068"
 }

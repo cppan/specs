@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/msgpack\/msgpack-c",
             "tag": "cpp-1.4.2"
         }
-    }
+    },
+    "sha256": "4fab12f1134d9a07399397c03ae8b56a970ffe7ad43f8e5273bd34e4a700dc6e",
+    "created": "2016-10-12 22:51:03.556316"
 }

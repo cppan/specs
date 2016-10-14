@@ -7,5 +7,7 @@
             "url": "https:\/\/github.com\/gabime\/spdlog",
             "tag": "v0.10.0"
         }
-    }
+    },
+    "sha256": "f4dc47766fdc8a99e508aab838b90492ad390640094ecd45bdf4c4cd4ec27ee0",
+    "created": "2016-09-15 19:38:41.97611"
 }

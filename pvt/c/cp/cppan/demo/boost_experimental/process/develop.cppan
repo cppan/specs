@@ -1,11 +1,13 @@
 {
-    "cppan": "files: include/.*",
+    "cppan": "files: include\/.*",
     "project": "pvt.cppan.demo.boost_experimental.process",
     "source": {
         "git": {
             "branch": "develop",
-            "url": "https://github.com/klemens-morgenstern/boost-process"
+            "url": "https:\/\/github.com\/klemens-morgenstern\/boost-process"
         }
     },
-    "version": "develop"
+    "version": "develop",
+    "sha256": "3ab24964a4afceb412f586f2cc3599006b8908a582d3e565bbaaadea386aba3a",
+    "created": "2016-04-18 16:37:14.446044"
 }
