@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gentryx.libflatarray",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/gentryx\/libflatarray",
+            "branch": "master"
+        }
+    },
+    "sha256": "bd62f5f2a8049cb86e674dcb54e09311ba99f2ec6e49a62db80e30489988188a",
+    "created": "2016-10-15 22:29:08.651032"
+}
