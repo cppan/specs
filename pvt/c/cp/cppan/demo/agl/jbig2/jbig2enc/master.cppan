@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.agl.jbig2.jbig2enc",
-    "cppan": "source:\n  git: https:\/\/github.com\/agl\/jbig2enc\n  branch: master\nexclude_from_package: src\/jbig2.cc\npatch:\n  replace_in_files:\n    lept_header:\n      from: !<!> leptonica\/allheaders.h\n      to: !<!> allheaders.h\n    lept_header:\n      from: !<!> leptonica\/allheaders.h\n      to: !<!> allheaders.h\ndependencies:\n  public:\n    pvt.cppan.demo.leptonica: master\ninclude_directories:\n  public: src\nversion: master\nfiles:\n  - src\/.*\\.cc\n  - src\/.*\\.h",
+    "cppan": "dependencies:\n  public:\n    pvt.cppan.demo.leptonica: master\npatch:\n  replace_in_files:\n    lept_header:\n      from: !<!> leptonica\/allheaders.h\n      to: !<!> allheaders.h\ninclude_directories:\n  public: src\noptions:\n  any:\n    definitions:\n      private:\n        - VERSION=PACKAGE_VERSION\nfiles:\n  - src\/.*\\.cc\n  - src\/.*\\.h\nexclude_from_package: src\/jbig2.cc\nsource:\n  git: https:\/\/github.com\/agl\/jbig2enc\n  branch: master\nversion: master\nstatic_only: true",
     "version": "master",
     "source": {
         "git": {
@@ -8,6 +8,6 @@
             "branch": "master"
         }
     },
-    "sha256": "a3537639bb3ebadda55c2e5409ecffe89e87cea3ee0a420eb27d2eddebb2791f",
-    "created": "2016-10-16 17:44:12.383589"
+    "sha256": "e6ecd6ed1116bb32d646bd91a01a018447d0e43d39346438e2b00d6247f86d6b",
+    "created": "2016-10-16 18:14:45.947428"
 }
