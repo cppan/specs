@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.anthonyw.internal_ptr",
+    "cppan": "files: internal_ptr.hpp",
+    "version": "default",
+    "source": {
+        "remote": {
+            "url": "https:\/\/bitbucket.org\/anthonyw\/internal_ptr\/get\/default.zip"
+        }
+    },
+    "sha256": "a1c83ae297b587839a8df09633bb9fe6d8593af37d05b57509d99891d77acdfd",
+    "created": "2016-10-16 11:24:00.702914"
+}
