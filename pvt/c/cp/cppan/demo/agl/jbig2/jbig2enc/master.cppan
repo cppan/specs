@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.agl.jbig2.jbig2enc",
+    "cppan": "source:\n  git: https:\/\/github.com\/agl\/jbig2enc\n  branch: master\nexclude_from_package: src\/jbig2.cc\npatch:\n  replace_in_files:\n    lept_header:\n      from: !<!> leptonica\/allheaders.h\n      to: !<!> allheaders.h\n    lept_header:\n      from: !<!> leptonica\/allheaders.h\n      to: !<!> allheaders.h\ndependencies:\n  public:\n    pvt.cppan.demo.leptonica: master\ninclude_directories:\n  public: src\nversion: master\nfiles:\n  - src\/.*\\.cc\n  - src\/.*\\.h",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/agl\/jbig2enc",
+            "branch": "master"
+        }
+    },
+    "sha256": "a3537639bb3ebadda55c2e5409ecffe89e87cea3ee0a420eb27d2eddebb2791f",
+    "created": "2016-10-16 17:44:12.383589"
+}
