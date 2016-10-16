@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.klmr.named_operator",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/klmr\/named-operator",
+            "branch": "master"
+        }
+    },
+    "sha256": "de7964a342818a69b30a5362a4bf030ae7c527341a8b49bbb03b784a645d156e",
+    "created": "2016-10-16 19:17:47.510999"
+}
