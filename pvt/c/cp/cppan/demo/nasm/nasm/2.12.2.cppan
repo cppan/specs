@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.nasm.nasm",
+    "cppan": "files:\n  - .*\\.h\n  - nasm.c\n  - nasmlib.c\n  - ver.c\n  - raa.c\n  - saa.c\n  - rbtree.c\n  - srcfile.c\n  - realpath.c\n  - float.c\n  - insnsa.c\n  - insnsb.c\n  - directiv.c\n  - assemble.c\n  - labels.c\n  - hashtbl.c\n  - crc64.c\n  - parser.c\n  - output\/outform.c\n  - output\/outlib.c\n  - output\/nulldbg.c\n  - output\/nullout.c\n  - output\/outbin.c\n  - output\/outaout.c\n  - output\/outcoff.c\n  - output\/outelf.c\n  - output\/outelf32.c\n  - output\/outelf64.c\n  - output\/outelfx32.c\n  - output\/outobj.c\n  - output\/outas86.c\n  - output\/outrdf2.c\n  - output\/outdbg.c\n  - output\/outieee.c\n  - output\/outmacho.c\n  - md5c.c\n  - output\/codeview.c\n  - preproc.c\n  - quote.c\n  - pptok.c\n  - macros.c\n  - listing.c\n  - eval.c\n  - exprlib.c\n  - stdscan.c\n  - strfunc.c\n  - tokhash.c\n  - regvals.c\n  - regflags.c\n  - ilog2.c\n  - lib\/strlcpy.c\n  - preproc-nop.c\n  - disp8.c\n  - iflag.c\ncheck_symbol_exists:\n  strnicmp:\n    - string.h\n  stricmp:\n    - string.h\n  snprintf:\n    - stdio.h\nversion: 2.12.2\ncheck_include_exists:\n  - file: inttypes.h\n    cpp: false\n    variable: HAVE_INTTYPES_H\n  - file: limits.h\n    cpp: false\n    variable: HAVE_LIMITS_H\n  - cpp: false\n    variable: HAVE_STDBOOL_H\n    file: stdbool.h\n  - variable: HAVE_STDLIB_H\n    cpp: false\n    file: stdlib.h\n  - cpp: false\n    variable: HAVE_STRINGS_H\n    file: strings.h\n  - variable: HAVE_SYS_PARAM_H\n    file: sys\/param.h\n    cpp: false\n  - cpp: false\n    variable: HAVE_UNISTD_H\n    file: unistd.h\nsource:\n  remote: http:\/\/www.nasm.us\/pub\/nasm\/releasebuilds\/2.12.02\/nasm-2.12.02.tar.xz\ncheck_function_exists:\n  - canonicalize_file_name\n  - getgid\n  - getuid\n  - pathconf\n  - realpath\n  - strcasecmp\n  - strcspn\n  - strlcpy\n  - strncasecmp\n  - strsep\n  - strspn\n  - vsnprintf\n  - _fullpath\n  - _snprintf\n  - _vsnprintf\ncheck_c_source_compiles:\n  STDC_HEADERS:\n    text: !<!> \"\\n#include <stdlib.h>\\n#include <stdarg.h>\\n#include <string.h>\\n#include <float.h>\\nint main() {return 0;}\\n\"\n    invert: false",
+    "version": "2.12.2",
+    "source": {
+        "remote": {
+            "url": "http:\/\/www.nasm.us\/pub\/nasm\/releasebuilds\/2.12.02\/nasm-2.12.02.tar.xz"
+        }
+    },
+    "sha256": "4a065eae3ab03ddeb0c3655d3f89e6738b19e23e0be2d913c6e95427251efb9d",
+    "created": "2016-10-17 18:44:08.340646"
+}
