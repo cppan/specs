@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tencent.libco",
+    "cppan": "version: master\nfiles:\n  - co_epoll.cpp\n  - co_epoll.h\n  - co_routine.cpp\n  - co_routine.h\n  - co_hook_sys_call.cpp\n  - coctx_swap.S\n  - coctx.cpp\n  - coctx.h\nsource:\n  git: https:\/\/github.com\/Tencent\/libco",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Tencent\/libco",
+            "branch": "master"
+        }
+    },
+    "sha256": "885082025fb958ba0ca07bb12ba0f5715a7f1d57000ea4bb1b815a974c0b7f60",
+    "created": "2016-10-17 06:54:59.770608"
+}
