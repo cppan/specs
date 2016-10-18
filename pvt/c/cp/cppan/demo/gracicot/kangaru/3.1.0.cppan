@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gracicot.kangaru",
+    "version": "3.1.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/gracicot\/kangaru",
+            "tag": "v3.1.0"
+        }
+    },
+    "sha256": "8cc329811c41a478a2bc5bc60412a6c598ae9b95c97fbe43a2d6c4006d23d5eb",
+    "created": "2016-10-18 19:51:07.402798"
+}
