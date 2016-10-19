@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.i3ck.flaggedt",
-    "cppan": "files: inc\/.*",
+    "cppan": "files: flaggedT\/.*",
     "version": "master",
     "source": {
         "git": {
@@ -8,6 +8,6 @@
             "branch": "master"
         }
     },
-    "sha256": "1babddbae21549d0d188070477598140ac5e283dfe53f6fe7f68d1b16ce08132",
-    "created": "2016-10-18 20:22:25.877482"
+    "sha256": "babdb71cee1c105e9425503387e572865bb13075ca8873afceee3ec159e2b29c",
+    "created": "2016-10-19 18:56:41.207077"
 }
