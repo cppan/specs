@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.boost_experimental.sml",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boost-experimental\/sml",
+            "branch": "master"
+        }
+    },
+    "sha256": "b243088ddd23fbbfd43da38ee23a62f4bc02e9996562264fe54c957ffe31faeb",
+    "created": "2016-10-22 21:58:19.602471"
+}
