@@ -7,7 +7,7 @@
             "branch": "develop"
         }
     },
-    "cppan": "files:\n  - small3d\/.*\\.hpp\n  - small3d\/.*\\.cpp\npost_target: !<!> \"IF(APPLE)\\n  FIND_LIBRARY(AUDIOUNIT_LIBRARY AudioUnit)\\n  FIND_LIBRARY(AUDIOTOOLBOX_LIBRARY AudioToolbox)\\n  FIND_LIBRARY(COREAUDIO_LIBRARY CoreAudio)\\n  TARGET_LINK_LIBRARIES(${this} PUBLIC ${COREAUDIO_LIBRARY} ${AUDIOUNIT_LIBRARY} ${AUDIOTOOLBOX_LIBRARY})\\nENDIF(APPLE)\\nset_property(TARGET ${this} PROPERTY CXX_STANDARD 11)\\n\"\ndependencies:\n  pvt.cppan.demo.glew: 2\n  pvt.cppan.demo.xiph.vorbis.vorbisfile: 1\n  pvt.cppan.demo.glm: 0\n  pvt.cppan.demo.png: 1\n  pvt.cppan.demo.valve.sdl.sdl: 2\n  pvt.cppan.demo.valve.sdl_ttf: 2\n  pvt.cppan.demo.portaudio: 19\nstatic_only: true\nexclude_from_build:\n  - small3d\/src\/main.cpp\ninclude_directories:\n  public: small3d\/include\/small3d",
+    "cppan": "files:\n  - small3d\/.*\\.hpp\n  - small3d\/.*\\.cpp\npost_target: !<!> \"IF(APPLE)\\n  FIND_LIBRARY(AUDIOUNIT_LIBRARY AudioUnit)\\n  FIND_LIBRARY(AUDIOTOOLBOX_LIBRARY AudioToolbox)\\n  FIND_LIBRARY(COREAUDIO_LIBRARY CoreAudio)\\n  TARGET_LINK_LIBRARIES(${this} PUBLIC ${COREAUDIO_LIBRARY} ${AUDIOUNIT_LIBRARY} ${AUDIOTOOLBOX_LIBRARY})\\nENDIF(APPLE)\\nset_property(TARGET ${this} PROPERTY CXX_STANDARD 11)\\n\"\ndependencies:\n  pvt.cppan.demo.valve.sdl_ttf: 2\n  pvt.cppan.demo.glm: 0\n  pvt.cppan.demo.png: 1\n  pvt.cppan.demo.xiph.vorbis.vorbisfile: 1\n  pvt.cppan.demo.valve.sdl.sdl: 2.0.4\n  pvt.cppan.demo.portaudio: 19\n  pvt.cppan.demo.glew: 2\nstatic_only: true\nexclude_from_build:\n  - small3d\/src\/main.cpp\ninclude_directories:\n  public: small3d\/include\/small3d",
     "sha256": "d70bfa63a15be1ffe9caa7a146bde1ac82555d0819c7aa06841a8e5546ef9229",
     "created": "2016-10-03 11:10:57.229784"
 }
