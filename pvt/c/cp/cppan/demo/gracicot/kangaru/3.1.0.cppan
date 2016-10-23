@@ -3,10 +3,10 @@
     "version": "3.1.0",
     "source": {
         "git": {
-            "url": "https:\/\/github.com\/gracicot\/kangaru",
+            "url": "https:\/\/github.com\/gracicot\/kangaru.git",
             "tag": "v3.1.0"
         }
     },
-    "sha256": "8cc329811c41a478a2bc5bc60412a6c598ae9b95c97fbe43a2d6c4006d23d5eb",
-    "created": "2016-10-18 19:51:07.402798"
+    "sha256": "20cb21b165557ebc272b8a52b4928d3b230c5e3a2d9926942ca7973b959590fc",
+    "created": "2016-10-23 19:18:46.449525"
 }
