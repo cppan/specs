@@ -1,13 +1,12 @@
 {
     "project": "pvt.cppan.demo.ericniebler.meta",
-    "cppan": "files: include\/.*\nversion: master\nsource:\n  git: https:\/\/github.com\/ericniebler\/meta\n  tag: master",
     "version": "master",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/ericniebler\/meta",
-            "tag": "master"
+            "branch": "master"
         }
     },
-    "sha256": "38e19885bbbf4d6261a4154c1463f1056469b92eb9634a3f8ca6259db84ca70e",
-    "created": "2016-10-04 19:50:24.760905"
+    "sha256": "d57d68347e6fac8e69540063b43ef021eb1c2ef54307829912a88644fc62ee32",
+    "created": "2016-10-24 23:50:17.67906"
 }
