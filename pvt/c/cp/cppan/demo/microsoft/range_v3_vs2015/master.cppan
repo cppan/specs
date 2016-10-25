@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.microsoft.range_v3_vs2015",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/microsoft\/Range-V3-VS2015",
+            "branch": "master"
+        }
+    },
+    "sha256": "b11f85d7d56f80d67599527fcffb4c1d000fcbf1f893701c39fd1ec7f9415269",
+    "created": "2016-10-24 23:56:32.592607"
+}
