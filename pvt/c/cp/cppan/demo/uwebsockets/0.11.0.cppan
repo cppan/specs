@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.uwebsockets",
+    "cppan": "files:\n  - src\/.*\\.cpp\n  - src\/.*\\.h\ndependencies:\n  pvt.cppan.demo.libressl.ssl: 2\n  pvt.cppan.demo.libuv: 1\n  pvt.cppan.demo.libressl.crypto: 2\n  pvt.cppan.demo.zlib: 1\nsource:\n  git: https:\/\/github.com\/uWebSockets\/uWebSockets\n  tag: v0.11.0\ninclude_directories:\n  public: src\nversion: 0.11.0",
+    "version": "0.11.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/uWebSockets\/uWebSockets",
+            "tag": "v0.11.0"
+        }
+    },
+    "sha256": "d7f2f861549bb95888f20b924e75cd354b2e8915b1f43bad3249f389b819512a",
+    "created": "2016-10-26 22:17:50.635571"
+}
