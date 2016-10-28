@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.nholthaus.units",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/nholthaus\/units",
+            "branch": "master"
+        }
+    },
+    "sha256": "71cbbabce276c5c64c86992610b94e0f59fe9cf0882f93c351f0f332e4dd3824",
+    "created": "2016-10-28 07:25:08.457676"
+}
