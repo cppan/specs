@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.fisherro.streams",
+    "cppan": "files: streams\/.*\ndependencies:\n  pvt.cppan.demo.fmt: 3\n  pvt.cppan.demo.microsoft.gsl: master",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/fisherro\/streams",
+            "branch": "master"
+        }
+    },
+    "sha256": "5067347ae5b94c001ebd570002667a29ae933b373e4e0f7642b43fe2db15c96b",
+    "created": "2016-10-28 21:45:55.262083"
+}
