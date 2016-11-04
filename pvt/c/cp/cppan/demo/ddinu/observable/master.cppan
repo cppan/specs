@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.ddinu.observable",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ddinu\/observable",
+            "branch": "master"
+        }
+    },
+    "sha256": "73552da652826fbe58fa4d4bb13175a9b6c73e80cd455a419fbb417a96c59f35",
+    "created": "2016-11-04 17:41:26.610047"
+}
