@@ -8,6 +8,6 @@
         }
     },
     "cppan": "static_only: true\nexclude_from_build:\n  - small3d\/src\/main.cpp\ninclude_directories:\n  public: small3d\/include\/small3d\nfiles:\n  - small3d\/.*\\.hpp\n  - small3d\/.*\\.cpp\ndependencies:\n  pvt.cppan.demo.portaudio: 19\n  pvt.cppan.demo.glew: 2\n  pvt.cppan.demo.xiph.vorbis.vorbisfile: 1\n  pvt.cppan.demo.freetype: 2.7.0\n  pvt.cppan.demo.glm: 0\n  pvt.cppan.demo.png: 1\n  pvt.cppan.demo.valve.sdl.sdl: 2.0.4\npost_target: !<!> \"IF(APPLE)\\n  FIND_LIBRARY(AUDIOUNIT_LIBRARY AudioUnit)\\n  FIND_LIBRARY(AUDIOTOOLBOX_LIBRARY AudioToolbox)\\n  FIND_LIBRARY(COREAUDIO_LIBRARY CoreAudio)\\n  TARGET_LINK_LIBRARIES(${this} PUBLIC ${COREAUDIO_LIBRARY} ${AUDIOUNIT_LIBRARY} ${AUDIOTOOLBOX_LIBRARY})\\nENDIF(APPLE)\\nset_property(TARGET ${this} PROPERTY CXX_STANDARD 11)\\n\"",
-    "sha256": "e4664f6adaee6d904bf96ebf5d018a5bd54315e3dcc91ce8835ff03671e629f1",
-    "created": "2016-11-05 06:54:36.036967"
+    "sha256": "a7460937b43b3c4613b8789390a7e0ffcb62b19657b7a0d19abe29d5c8ae7832",
+    "created": "2016-11-05 10:40:54.907566"
 }
