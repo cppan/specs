@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.joaquintides.poly_collection",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/joaquintides\/poly_collection",
+            "branch": "master"
+        }
+    },
+    "sha256": "c261fcaef1f7e967e2657e23e690d5987d461edb174f930e429ee5bca9d48ae7",
+    "created": "2016-11-06 17:18:17.300943"
+}

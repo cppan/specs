@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jbandela.stackless_coroutine",
+    "cppan": "files: stackless_coroutine.hpp",
+    "version": "channel_dev",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jbandela\/stackless_coroutine",
+            "branch": "channel_dev"
+        }
+    },
+    "sha256": "12bf9abc0490cd1c31d26da9f3ea92dbfcaa50d2bce71d611ad7fcfb35887730",
+    "created": "2016-11-06 17:14:33.832343"
+}
