@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.martinmoene.gsl_lite",
+    "version": "0.14.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/martinmoene\/gsl-lite",
+            "tag": "v0.14.0"
+        }
+    },
+    "sha256": "be579dce709971211e296e520555540caf61b7153babcfe7136f857cc6feace8",
+    "created": "2016-11-06 14:43:45.120199"
+}

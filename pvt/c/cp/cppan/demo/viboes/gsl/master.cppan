@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.viboes.gsl",
+    "cppan": "source:\n  git: https:\/\/github.com\/viboes\/GSL\nfiles:\n  - gsl\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/viboes\/GSL",
+            "branch": "master"
+        }
+    },
+    "sha256": "77d9bffb810984cab9e7ecb902cd0e8090ebcea15c02841087b8bd57d7432af1",
+    "created": "2016-11-06 14:49:35.081384"
+}
