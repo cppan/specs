@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.imneme.pcg_cpp",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/imneme\/pcg-cpp",
+            "branch": "master"
+        }
+    },
+    "sha256": "5f74e24388fa67179ad581fccd021659e45550f2147227b9c479387b9ee40f26",
+    "created": "2016-11-06 11:10:20.357895"
+}
