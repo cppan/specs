@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.irrequietus.typestring",
+    "cppan": "files: typestring.hh",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/irrequietus\/typestring",
+            "branch": "master"
+        }
+    },
+    "sha256": "67cfe2c5e4bb77e3ba4585e22dc865c9158441a8db26229b224cbed71d6db14c",
+    "created": "2016-11-07 22:34:14.097982"
+}
