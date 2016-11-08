@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.liancheng.amy",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/liancheng\/amy",
+            "branch": "master"
+        }
+    },
+    "sha256": "94eff00f2917b2b7c52b66ecd41860956d8896b17ebe6973f8c18a36ec1a475a",
+    "created": "2016-11-08 21:03:09.271864"
+}
