@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.tclap",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "git:\/\/git.code.sf.net\/p\/tclap\/code",
+            "branch": "master"
+        }
+    },
+    "sha256": "c0fed683935a6fbf6e07ac171a62fcfa99aaf692c6bfc1f770d400fa1397557c",
+    "created": "2016-11-11 07:54:06.048128"
+}
