@@ -1,0 +1,13 @@
+{
+    "project": "pvt.coding3d.small3d",
+    "version": "1.1.1",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/dimi309\/small3d",
+            "tag": "1.1.1"
+        }
+    },
+    "cppan": "static_only: true\nexclude_from_build:\n  - small3d\/src\/main.cpp\ninclude_directories:\n  public: small3d\/include\/small3d\nfiles:\n  - small3d\/.*\\.hpp\n  - small3d\/.*\\.cpp\ndependencies:\n  pvt.cppan.demo.portaudio: 19\n  pvt.cppan.demo.glew: 2\n  pvt.cppan.demo.xiph.vorbis.vorbisfile: 1\n  pvt.cppan.demo.freetype: 2.7.0\n  pvt.cppan.demo.glm: 0\n  pvt.cppan.demo.png: 1\n  pvt.cppan.demo.valve.sdl.sdl: 2.0.4\npost_target: !<!> \"IF(APPLE)\\n  FIND_LIBRARY(AUDIOUNIT_LIBRARY AudioUnit)\\n  FIND_LIBRARY(AUDIOTOOLBOX_LIBRARY AudioToolbox)\\n  FIND_LIBRARY(COREAUDIO_LIBRARY CoreAudio)\\n  TARGET_LINK_LIBRARIES(${this} PUBLIC ${COREAUDIO_LIBRARY} ${AUDIOUNIT_LIBRARY} ${AUDIOTOOLBOX_LIBRARY})\\nENDIF(APPLE)\\nset_property(TARGET ${this} PROPERTY CXX_STANDARD 11)\\n\"",
+    "sha256": "dd299dbcdb2edd2282f1b38ba9522fae5ba31f66ddbde0e4da30956327d67379",
+    "created": "2016-11-12 07:53:11.014299"
+}
