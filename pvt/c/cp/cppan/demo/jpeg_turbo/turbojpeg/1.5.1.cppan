@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jpeg_turbo.turbojpeg",
+    "cppan": "files:\n  - turbojpeg.c\n  - transupp.c\n  - jdatadst-tj.c\n  - jdatasrc-tj.c\nsource:\n  git: https:\/\/github.com\/libjpeg-turbo\/libjpeg-turbo\n  tag: 1.5.1\noptions:\n  shared:\n    definitions:\n      public:\n        - DLLDEFINE\ntype: lib\ndependencies:\n  public:\n    pvt.cppan.demo.jpeg_turbo.jpeg: !<!> \"*\"\nversion: 1.5.1",
+    "version": "1.5.1",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/libjpeg-turbo\/libjpeg-turbo",
+            "tag": "1.5.1"
+        }
+    },
+    "sha256": "a74af85c1bf8c198d167b215c87350a534cdf4310f29df8dfffaba8dbe174807",
+    "created": "2016-11-14 20:14:17.349243"
+}
