@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.stephane.libmodbus",
+    "cppan": "check_include_exists:\n  - cpp: false\n    variable: HAVE_ARPA_INET_H\n    file: arpa\/inet.h\n  - cpp: false\n    variable: HAVE_BYTESWAP_H\n    file: byteswap.h\n  - variable: HAVE_ERRNO_H\n    file: errno.h\n    cpp: false\n  - variable: HAVE_FCNTL_H\n    cpp: false\n    file: fcntl.h\n  - cpp: false\n    file: limits.h\n    variable: HAVE_LIMITS_H\n  - cpp: false\n    file: linux\/serial.h\n    variable: HAVE_LINUX_SERIAL_H\n  - variable: HAVE_NETDB_H\n    file: netdb.h\n    cpp: false\n  - variable: HAVE_NETINET_IN_H\n    file: netinet\/in.h\n    cpp: false\n  - cpp: false\n    file: netinet\/tcp.h\n    variable: HAVE_NETINET_TCP_H\n  - variable: HAVE_SYS_IOCTL_H\n    cpp: false\n    file: sys\/ioctl.h\n  - variable: HAVE_SYS_PARAMS_H\n    cpp: false\n    file: sys\/params.h\n  - variable: HAVE_SYS_SOCKET_H\n    cpp: false\n    file: sys\/socket.h\n  - variable: HAVE_SYS_TIME_H\n    cpp: false\n    file: sys\/time.h\n  - cpp: false\n    variable: HAVE_SYS_TYPES_H\n    file: sys\/types.h\n  - cpp: false\n    variable: HAVE_TERMIOS_H\n    file: termios.h\n  - cpp: false\n    variable: HAVE_TIME_H\n    file: time.h\n  - cpp: false\n    variable: HAVE_UNISTD_H\n    file: unistd.h\n  - cpp: false\n    variable: HAVE_WINSOCK2_H\n    file: winsock2.h\ntype: library\npost_sources: !<!> \"file_write_once(${BDIR}\/config.h \\\"\\\")\\n\\nset(LIBMODBUS_VERSION ${PACKAGE_VERSION})\\nset(LIBMODBUS_VERSION_MAJOR ${PACKAGE_VERSION_MAJOR})\\nset(LIBMODBUS_VERSION_MINOR ${PACKAGE_VERSION_MINOR})\\nset(LIBMODBUS_VERSION_MICRO ${PACKAGE_VERSION_PATCH})\\nconfigure_file(${SDIR}\/src\/modbus-version.h.in ${BDIR}\/modbus-version.h @ONLY)\"\ncheck_type_size:\n  - int64_t\n  - size_t\n  - ssize_t\n  - uint16_t\n  - uint32_t\n  - uint8_t\nsource:\n  git: https:\/\/github.com\/stephane\/libmodbus\nversion: master\ncheck_function_exists:\n  - accept4\n  - fork\n  - getaddrinfo\n  - gettimeofday\n  - inet_ntoa\n  - malloc\n  - memset\n  - select\n  - socket\n  - strerror\n  - strlcpy\nfiles:\n  - src\/[^\/]*\\.h\n  - src\/[^\/]*\\.c\n  - src\/[^\/]*\\.in\ncheck_decl_exists:\n  - TIOCM_RTS\n  - TIOCSRS485\n  - __CYGWIN__",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/stephane\/libmodbus",
+            "branch": "master"
+        }
+    },
+    "sha256": "3e31601df02ce9e9e5eca009b4198d65d4ff2c4a99f7a1455332f4c5a7f96544",
+    "created": "2016-11-15 08:58:27.262668"
+}
