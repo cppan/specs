@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.etlcpp.etl",
+    "version": "8.2.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/etlcpp\/etl",
+            "tag": "8.2.0"
+        }
+    },
+    "sha256": "ab1422cbab593a930486d8db8ae67c13c233846b295f804b5084faa2f468a306",
+    "created": "2016-11-18 17:36:21.46063"
+}
