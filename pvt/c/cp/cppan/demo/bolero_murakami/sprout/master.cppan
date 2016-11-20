@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.bolero_murakami.sprout",
+    "cppan": "files: sprout\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/bolero-MURAKAMI\/Sprout",
+            "branch": "master"
+        }
+    },
+    "sha256": "e050147b2d0645706e4c30db7d99ce2fb11c53229fe165ca7cb10ac0b59e1814",
+    "created": "2016-11-20 13:32:12.574835"
+}
