@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.libssh2",
+    "cppan": "source:\n  git: https:\/\/github.com\/libssh2\/libssh2\n  tag: libssh2-1.8.0\nversion: 1.8.0\ntype: lib\nfiles:\n  - src\/.*\\.c\n  - src\/.*\\.h\n  - src\/.*\\.in\n  - include\/.*\n  - cmake\/CheckNonblockingSocketSupport.cmake\ndependencies:\n  pvt.cppan.demo.openssl: 1\noptions:\n  any:\n    definitions:\n      private:\n        - LIBSSH2_LIBRARY\n      public:\n        - LIBSSH2_OPENSSL\n  shared:\n    definitions:\n      win32:\n        public:\n          - LIBSSH2_WIN32\npost_sources: !<!> \"include(${SDIR}\/cmake\/CheckNonblockingSocketSupport.cmake)\\ncheck_nonblocking_socket_support()\\n\\nconfigure_file(${SDIR}\/src\/libssh2_config_cmake.h.in ${BDIR}\/libssh2_config.h)\\n\"\ncheck_function_exists:\n  - alloca\n  - gettimeofday\n  - poll\n  - select\n  - strtoll\ncheck_include_exists:\n  - file: arpa\/inet.h\n    variable: HAVE_ARPA_INET_H\n    cpp: false\n  - file: errno.h\n    variable: HAVE_ERRNO_H\n    cpp: false\n  - file: fcntl.h\n    variable: HAVE_FCNTL_H\n    cpp: false\n  - file: netinet\/in.h\n    variable: HAVE_NETINET_IN_H\n    cpp: false\n  - file: stdio.h\n    variable: HAVE_STDIO_H\n    cpp: false\n  - file: stdlib.h\n    variable: HAVE_STDLIB_H\n    cpp: false\n  - file: sys\/ioctl.h\n    variable: HAVE_SYS_IOCTL_H\n    cpp: false\n  - file: sys\/select.h\n    variable: HAVE_SYS_SELECT_H\n    cpp: false\n  - file: sys\/socket.h\n    variable: HAVE_SYS_SOCKET_H\n    cpp: false\n  - file: sys\/time.h\n    variable: HAVE_SYS_TIME_H\n    cpp: false\n  - file: sys\/uio.h\n    variable: HAVE_SYS_UIO_H\n    cpp: false\n  - file: sys\/un.h\n    variable: HAVE_SYS_UN_H\n    cpp: false\n  - file: unistd.h\n    variable: HAVE_UNISTD_H\n    cpp: false\n  - file: windows.h\n    variable: HAVE_WINDOWS_H\n    cpp: false\n  - file: winsock2.h\n    variable: HAVE_WINSOCK2_H\n    cpp: false\n  - file: ws2tcpip.h\n    variable: HAVE_WS2TCPIP_H\n    cpp: false\ncheck_type_size:\n  - long\ncheck_c_source_compiles:\n  STDC_HEADERS:\n    text: !<!> \"\\n#include <stdlib.h>\\n#include <stdarg.h>\\n#include <string.h>\\n#include <float.h>\\nint main() {return 0;}\\n\"\n    invert: false",
+    "version": "1.8.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/libssh2\/libssh2",
+            "tag": "libssh2-1.8.0"
+        }
+    },
+    "sha256": "3326fde93ff5005aea7f58aae2c6da9d4ae9f58673bdce05044215112f9e6be8",
+    "created": "2016-11-25 10:45:24.432775"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.hjiang.jsonxx",
+    "cppan": "source:\n  git: https:\/\/github.com\/hjiang\/jsonxx\nversion: master\nfiles: jsonxx\\..*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/hjiang\/jsonxx",
+            "branch": "master"
+        }
+    },
+    "sha256": "91fbb7f3a6d1fd79e702963fc823511564863ee64fcb6f8175b7448230b66eb7",
+    "created": "2016-11-25 10:45:05.790944"
+}

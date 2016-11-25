@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.openssl.ssl",
+    "cppan": "source:\n  git: https:\/\/github.com\/openssl\/openssl\n  tag: OpenSSL_1_1_0c\nversion: 1.10.3\ntype: lib\nfiles:\n  - ssl\/.*\\.c\n  - ssl\/.*\\.h\n  - e_os.h\ndependencies:\n  public:\n    pvt.cppan.demo.openssl.crypto: !<!> \"*\"\ninclude_directories:\n  private:\n    - tls\n    - .\nexport_all_symbols: true",
+    "version": "1.10.3",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/openssl\/openssl",
+            "tag": "OpenSSL_1_1_0c"
+        }
+    },
+    "sha256": "a8c1d6e8358008f62f2f95a6cb2efaff36e5b4b524b2fba1ccf52588e18d0ff6",
+    "created": "2016-11-25 10:45:08.995953"
+}
