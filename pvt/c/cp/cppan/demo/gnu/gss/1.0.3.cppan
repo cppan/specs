@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.gnu.gss",
-    "cppan": "source:\n  remote: http:\/\/ftp.gnu.org\/gnu\/gss\/gss-1.0.3.tar.gz\nversion: 1.0.3\ntype: lib\nname: gss\nfiles:\n  - lib\/[^\/]*\\.c\n  - lib\/[^\/]*\\.h\n  - lib\/gl\/strverscmp.c\n  - lib\/headers\/.*\\.h\nexclude_from_build:\n  - lib\/gl\/strverscmp.c\ninclude_directories:\n  public: lib\/headers\nexport_all_symbols: true\noptions:\n  any:\n    definitions:\n      public:\n        - PO_SUFFIX=\".po\"\n        - LOCALEDIR=\".\"\ndependencies:\n  pvt.cppan.demo.gnu.gettext.intl: !<!> \"*\"\npost_sources: !<!> \"file_write_once(${BDIR}\/config.h \\\"\\\")\\n\\npush_front_to_file_once(${SDIR}\/lib\/version.c \\\"\\n    #include \\\\\\\"gl\/strverscmp.c\\\\\\\"\\n    #define strverscmp __strverscmp\\n\\\")\"",
+    "cppan": "source:\n  remote: http:\/\/ftp.gnu.org\/gnu\/gss\/gss-1.0.3.tar.gz\nversion: 1.0.3\ntype: lib\nname: gss\nfiles:\n  - lib\/[^\/]*\\.c\n  - lib\/[^\/]*\\.h\n  - lib\/gl\/strverscmp.c\n  - lib\/headers\/.*\\.h\nexclude_from_build:\n  - lib\/gl\/strverscmp.c\ninclude_directories:\n  public: lib\/headers\nstatic_only: true\noptions:\n  any:\n    definitions:\n      public:\n        - PO_SUFFIX=\".po\"\n        - LOCALEDIR=\".\"\ndependencies:\n  pvt.cppan.demo.gnu.gettext.intl: !<!> \"*\"\npost_sources: !<!> \"file_write_once(${BDIR}\/config.h \\\"\\\")\\n\\npush_front_to_file_once(${SDIR}\/lib\/version.c \\\"\\n    #include \\\\\\\"gl\/strverscmp.c\\\\\\\"\\n    #define strverscmp __strverscmp\\n\\\")\"",
     "version": "1.0.3",
     "source": {
         "remote": {
             "url": "http:\/\/ftp.gnu.org\/gnu\/gss\/gss-1.0.3.tar.gz"
         }
     },
-    "sha256": "985e7b08304fc5d1756d7c42e2bf67a890ab258af51b733b69a8c66c4950d309",
-    "created": "2016-11-25 12:23:08.03103"
+    "sha256": "8ded3239269b09360d768c49e1340bf6d6dd6e330543ca459f8632463d9926b0",
+    "created": "2016-11-25 13:30:37.858077"
 }
