@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.tcbrindle.cpp17_headers",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tcbrindle\/cpp17_headers",
+            "branch": "master"
+        }
+    },
+    "sha256": "25247e7074b91051e2f7c1ef09edbe41a0c98e35554d566fc98197fcdc2e9d5c",
+    "created": "2016-11-26 09:37:33.299814"
+}

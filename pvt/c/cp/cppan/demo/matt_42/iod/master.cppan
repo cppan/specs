@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.matt_42.iod",
+    "cppan": "files: iod\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/matt-42\/iod",
+            "branch": "master"
+        }
+    },
+    "sha256": "8e722a11546d0557efcdc255cbcfaf8c93364b2fac12f113667e21f129737e65",
+    "created": "2016-11-26 09:38:51.126026"
+}
