@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.lz4",
-    "cppan": "version: 1.3.1\ninclude_directories:\n  public: lib\nsource:\n  git: https:\/\/github.com\/Cyan4973\/lz4\n  tag: r131\nlicense: lib\/LICENSE\nfiles:\n  - lib\/lz4.c\n  - lib\/lz4.h\n  - lib\/lz4hc.c\n  - lib\/lz4hc.h\n  - lib\/lz4frame.c\n  - lib\/lz4frame.h\n  - lib\/xxhash.c\n  - lib\/xxhash.h",
+    "cppan": "type: lib\nsource:\n  git: https:\/\/github.com\/Cyan4973\/lz4\n  tag: r131\nversion: 1.3.1\ninclude_directories:\n  public: lib\nlicense: lib\/LICENSE\nfiles:\n  - lib\/lz4.c\n  - lib\/lz4.h\n  - lib\/lz4hc.c\n  - lib\/lz4hc.h\n  - lib\/lz4frame.c\n  - lib\/lz4frame.h\n  - lib\/lz4frame_static.h\n  - lib\/xxhash.c\n  - lib\/xxhash.h\noptions:\n  shared:\n    definitions:\n      private:\n        - LZ4_DLL_EXPORT\n      interface:\n        - LZ4_DLL_IMPORT",
     "version": "1.3.1",
     "source": {
         "git": {
@@ -8,6 +8,6 @@
             "tag": "r131"
         }
     },
-    "sha256": "09934fb80aaec3bb087cd3924bec7cfd7cfab9f3f6f409700256fbf5f09126fc",
-    "created": "2016-09-19 16:35:28.58255"
+    "sha256": "76ae87d9205d4b2a07efc0e88d1ac5aea90d001a62cc15b10be7beb13602aaca",
+    "created": "2016-11-26 10:47:20.130556"
 }
