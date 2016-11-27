@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.arximboldi.immer",
+    "cppan": "files: immer\/.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/arximboldi\/immer",
+            "branch": "master"
+        }
+    },
+    "sha256": "303c8229cfbc22cb05fa87cfb6f8181badce64141fb2213c1147dc527be5bdde",
+    "created": "2016-11-27 17:12:33.68711"
+}
