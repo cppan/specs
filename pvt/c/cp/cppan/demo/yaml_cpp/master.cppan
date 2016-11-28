@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.yaml_cpp",
-    "cppan": "dependencies:\n  pvt.cppan.demo.boost.iterator: !<!> \"*\"\n  pvt.cppan.demo.boost.smart_ptr: !<!> \"*\"",
+    "cppan": "source:\n  git: https:\/\/github.com\/jbeder\/yaml-cpp\nversion: master\noptions:\n  shared:\n    definitions:\n      public:\n        - YAML_CPP_DLL\n      private:\n        - yaml_cpp_EXPORTS\ndependencies:\n  pvt.cppan.demo.boost.iterator: !<!> \"*\"\n  pvt.cppan.demo.boost.smart_ptr: !<!> \"*\"",
     "version": "master",
     "source": {
         "git": {
@@ -8,6 +8,6 @@
             "branch": "master"
         }
     },
-    "sha256": "73e9f20f266b018f0baf2d3a04375f07dea46928d95514c60e533ce0cf700b2c",
-    "created": "2016-11-28 08:20:19.827742"
+    "sha256": "cfe810d0a60cc4c2dc254e8d4af004a87ea931a41a3bd02e402422385bc88dbb",
+    "created": "2016-11-28 20:49:49.59689"
 }
