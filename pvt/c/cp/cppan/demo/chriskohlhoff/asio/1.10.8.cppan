@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.chriskohlhoff.asio",
-    "cppan": "source:\n  git: https:\/\/github.com\/chriskohlhoff\/asio\n  tag: asio-1-10-8\nversion: 1.10.8\nroot_directory: asio\nfiles:\n  - .*\\.hpp",
+    "cppan": "source:\n  git: https:\/\/github.com\/chriskohlhoff\/asio\n  tag: asio-1-10-8\nversion: 1.10.8\nroot_directory: asio\nfiles:\n  - .*\\.hpp\n  - .*\\.ipp\noptions:\n  any:\n    definitions:\n      public:\n        - ASIO_STANDALONE\ninclude_directories:\n  public:\n    - .\n    - include",
     "version": "1.10.8",
     "source": {
         "git": {
@@ -8,6 +8,6 @@
             "tag": "asio-1-10-8"
         }
     },
-    "sha256": "bafc85ba08ed21d83c16c70cab7a2b2715e4e9d442fd52c9d3b1a20d9c2c2855",
-    "created": "2016-11-30 21:29:39.865473"
+    "sha256": "f02896c26bb7dea5289a9367ceac4a418abd487f3d2b6b893834322ef554ce10",
+    "created": "2016-11-30 23:12:32.697304"
 }

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.msgpack",
-    "cppan": "files:\n  - include\/.*\nversion: 2.0.0\nsource:\n  git: https:\/\/github.com\/msgpack\/msgpack-c\n  tag: cpp-2.0.0",
+    "cppan": "source:\n  git: https:\/\/github.com\/msgpack\/msgpack-c\n  tag: cpp-2.0.0\nversion: 2.0.0\ninclude_directories:\n  public:\n    - .\n    - include",
     "version": "2.0.0",
     "source": {
         "git": {
@@ -8,6 +8,6 @@
             "tag": "cpp-2.0.0"
         }
     },
-    "sha256": "f3635fe3b63e7a3e5b0156da9a442cc4802722ca0414a575752bcc64ace080ef",
-    "created": "2016-10-12 22:48:04.559048"
+    "sha256": "982a9786ce933b336e625b3e6bac4d23f94674f1a53d1a60917614a6181df711",
+    "created": "2016-11-30 23:12:11.014744"
 }

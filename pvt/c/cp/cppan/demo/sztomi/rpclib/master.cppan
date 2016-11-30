@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.sztomi.rpclib",
+    "cppan": "source:\n  git: https:\/\/github.com\/rpclib\/rpclib\nfiles:\n  - include\/.*\n  - lib\/.*\ninclude_directories:\n  public: include\n  private: lib\noptions:\n  any:\n    definitions:\n      public:\n        - RPCLIB_FMT=fmt\ndependencies:\n  pvt.cppan.demo.chriskohlhoff.asio: 1\n  pvt.cppan.demo.fmt: 3\n  pvt.cppan.demo.msgpack: 2\n  pvt.cppan.demo.rmartinho.wheels: stable",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/rpclib\/rpclib",
+            "branch": "master"
+        }
+    },
+    "sha256": "291fcf23054f8274ab38de64ea09ef8144a5ed445eeecca54e7b206326b336f1",
+    "created": "2016-11-30 23:06:18.994109"
+}
