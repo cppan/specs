@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.uscilab.cereal",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/USCiLab\/cereal",
+            "branch": "master"
+        }
+    },
+    "sha256": "78e3dbee5e97d7248950d3d32860f75b049a33817e21650bcb4393310b45884e",
+    "created": "2016-11-30 15:30:42.714868"
+}
