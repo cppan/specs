@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.rmartinho.wheels",
+    "version": "stable",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/rmartinho\/wheels",
+            "branch": "stable"
+        }
+    },
+    "sha256": "7d28b17a0eeb9b8a82f61317cef7f1d505e1fc78b3282d939f93d3202f9d87ff",
+    "created": "2016-11-30 21:33:54.607972"
+}
