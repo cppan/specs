@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.poco.data",
+    "cppan": "version: 1.7.6\nfiles:\n  - cmake\/PocoMacros.cmake\n  - Data\/include\/.*\n  - Data\/src\/.*\noptions:\n  shared:\n    definitions:\n      public:\n        - POCO_DLL\n      private:\n        - Data_EXPORTS\n  static:\n    definitions:\n      public:\n        - POCO_STATIC\n  any:\n    definitions:\n      public:\n        - POCO_UNBUNDLED\n        - POCO_NO_AUTOMATIC_LIBS\npost_sources: !<!> include(${SDIR}\/cmake\/PocoMacros.cmake)\ninclude_directories:\n  private:\n    - Data\/src\n  public:\n    - Data\/include\ndependencies:\n  public:\n    pvt.cppan.demo.poco.foundation: !<!> \"*\"\nlicense: LICENSE\nsource:\n  tag: poco-1.7.6-release\n  git: https:\/\/github.com\/pocoproject\/poco",
+    "version": "1.7.6",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pocoproject\/poco",
+            "tag": "poco-1.7.6-release"
+        }
+    },
+    "sha256": "07800ed7a80f95da24faa19de000eafa4d1ef20877959b8d1bdb4e7c94d0caca",
+    "created": "2016-11-30 13:26:13.064846"
+}

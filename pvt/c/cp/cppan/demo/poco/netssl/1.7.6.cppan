@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.poco.netssl",
+    "cppan": "source:\n  git: https:\/\/github.com\/pocoproject\/poco\n  tag: poco-1.7.6-release\nversion: 1.7.6\noptions:\n  any:\n    definitions:\n      public:\n        - POCO_UNBUNDLED\n        - POCO_NO_AUTOMATIC_LIBS\n  static:\n    definitions:\n      public:\n        - POCO_STATIC\n  shared:\n    definitions:\n      private:\n        - NetSSL_EXPORTS\n      public:\n        - POCO_DLL\nfiles:\n  - cmake\/PocoMacros.cmake\n  - NetSSL_OpenSSL\/include\/.*\n  - NetSSL_OpenSSL\/src\/.*\npost_sources: !<!> include(${SDIR}\/cmake\/PocoMacros.cmake)\ndependencies:\n  public:\n    pvt.cppan.demo.poco.crypto: !<!> \"*\"\n    pvt.cppan.demo.poco.util: !<!> \"*\"\n    pvt.cppan.demo.poco.net: !<!> \"*\"\nlicense: LICENSE\ninclude_directories:\n  private:\n    - NetSSL_OpenSSL\/src\n  public:\n    - NetSSL_OpenSSL\/include",
+    "version": "1.7.6",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pocoproject\/poco",
+            "tag": "poco-1.7.6-release"
+        }
+    },
+    "sha256": "ee11264607afb232114aba31bf78d0922852920409f5d5fa9212a4bb6b540497",
+    "created": "2016-11-30 13:26:24.733328"
+}
