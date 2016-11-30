@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.syoyo.tinyobjloader",
+    "cppan": "source:\n  git: https:\/\/github.com\/syoyo\/tinyobjloader\n  tag: v1.0.2\nversion: 1.0.2\nfiles: tiny_obj_loader.*",
+    "version": "1.0.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/syoyo\/tinyobjloader",
+            "tag": "v1.0.2"
+        }
+    },
+    "sha256": "84d2a61ef2877580acbe13902f540615dee1bd203de4258941f4a28cb0e07973",
+    "created": "2016-11-30 18:35:40.445467"
+}

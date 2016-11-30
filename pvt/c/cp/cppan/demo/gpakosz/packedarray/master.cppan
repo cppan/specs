@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gpakosz.packedarray",
+    "cppan": "source:\n  git: https:\/\/github.com\/gpakosz\/PackedArray\nfiles: PackedArray.*",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/gpakosz\/PackedArray",
+            "branch": "master"
+        }
+    },
+    "sha256": "5f0f466914f9b717efeac08476a2da96a35bce8838736d1a32d5b0b46bfb3bff",
+    "created": "2016-11-30 18:35:29.628018"
+}

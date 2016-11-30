@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.joeld42.tk_objfile",
+    "cppan": "source:\n  git: https:\/\/github.com\/joeld42\/tk_objfile",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/joeld42\/tk_objfile",
+            "branch": "master"
+        }
+    },
+    "sha256": "eb6c1e2ece21d85b8cc57a23abd7bc48bc58e652d510ec53e5ebc75cca026737",
+    "created": "2016-11-30 18:35:39.379878"
+}

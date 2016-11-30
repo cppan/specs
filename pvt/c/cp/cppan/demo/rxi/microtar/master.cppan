@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.rxi.microtar",
+    "cppan": "source:\n  git: https:\/\/github.com\/rxi\/microtar",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/rxi\/microtar",
+            "branch": "master"
+        }
+    },
+    "sha256": "e21d66c005e9148ecefab18185f3a7b567e142d8f6c9447b76d2e214e9c30a5e",
+    "created": "2016-11-30 18:35:23.835808"
+}

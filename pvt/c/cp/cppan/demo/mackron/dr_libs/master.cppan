@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mackron.dr_libs",
+    "cppan": "source:\n  git: https:\/\/github.com\/mackron\/dr_libs",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mackron\/dr_libs",
+            "branch": "master"
+        }
+    },
+    "sha256": "808d48846aed913f111f05fb46a3b806558af3a36f11f362f117aff6fae767b7",
+    "created": "2016-11-30 18:35:19.885094"
+}

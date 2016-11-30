@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.cxong.tinydir",
+    "cppan": "source:\n  git: https:\/\/github.com\/cxong\/tinydir\n  tag: 1.2\nversion: 1.2.0",
+    "version": "1.2.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/cxong\/tinydir",
+            "tag": "1.2"
+        }
+    },
+    "sha256": "b7d3e7644a79035d1b462ab9d6d142530e837da5087a3edfc30b00dfd6a9c263",
+    "created": "2016-11-30 18:35:39.10356"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.troydhanson.uthash",
+    "cppan": "source:\n  git: https:\/\/github.com\/troydhanson\/uthash\n  tag: v2.0.1\nversion: 2.0.1\nfiles:\n  - src\/.*\n  - libut\/src\/.*\ninclude_directories:\n  public: src",
+    "version": "2.0.1",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/troydhanson\/uthash",
+            "tag": "v2.0.1"
+        }
+    },
+    "sha256": "6a4c6829cf9853df98e9cd7ad3a29d9768c290b9c5692376547a1717321c9465",
+    "created": "2016-11-30 18:35:27.814194"
+}

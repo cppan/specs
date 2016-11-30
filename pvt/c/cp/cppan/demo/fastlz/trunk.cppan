@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.fastlz",
+    "cppan": "source:\n  remote: https:\/\/storage.googleapis.com\/google-code-archive-source\/v2\/code.google.com\/fastlz\/source-archive.zip\nversion: trunk\nroot_directory: fastlz\/trunk\nfiles: fastlz.*",
+    "version": "trunk",
+    "source": {
+        "remote": {
+            "url": "https:\/\/storage.googleapis.com\/google-code-archive-source\/v2\/code.google.com\/fastlz\/source-archive.zip"
+        }
+    },
+    "sha256": "856305fbbabbda6be65c8392c0fe514f029bdebfbbe9634f7f4c9a28a5015bc5",
+    "created": "2016-11-30 18:35:23.035636"
+}

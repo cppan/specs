@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.afterwise.aw_ima",
+    "cppan": "source:\n  git: https:\/\/github.com\/afterwise\/aw-ima",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/afterwise\/aw-ima",
+            "branch": "master"
+        }
+    },
+    "sha256": "5cf3783a621b15d3ffb4880f4cd764443314e0b314610b19d2ccb48410d467d6",
+    "created": "2016-11-30 18:35:18.895467"
+}
