@@ -1,0 +1,13 @@
+{
+    "cppan": "files: include\/.*",
+    "project": "pvt.cppan.demo.catch",
+    "source": {
+        "git": {
+            "tag": "v1.5.8",
+            "url": "https:\/\/github.com\/philsquared\/Catch"
+        }
+    },
+    "version": "1.5.8",
+    "sha256": "6989e5c9f8b60e5637c4eff6bd4158824d11fe6944cf320983063c5fd75b015f",
+    "created": "2016-12-01 11:01:26.267431"
+}
