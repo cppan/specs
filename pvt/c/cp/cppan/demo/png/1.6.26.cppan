@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.png",
+    "cppan": "source:\n  remote: http:\/\/tenet.dl.sourceforge.net\/project\/libpng\/libpng16\/1.6.26\/libpng-1.6.26.tar.gz\nversion: 1.6.26\nfiles:\n  - png.c\n  - pngerror.c\n  - pngget.c\n  - pngmem.c\n  - pngpread.c\n  - pngread.c\n  - pngrio.c\n  - pngrtran.c\n  - pngrutil.c\n  - pngset.c\n  - pngtrans.c\n  - pngwio.c\n  - pngwrite.c\n  - pngwtran.c\n  - pngwutil.c\n  - png.h\n  - pngconf.h\n  - pngpriv.h\n  - pngdebug.h\n  - pnginfo.h\n  - pngstruct.h\n  - scripts\/pnglibconf.h.prebuilt\ninclude_directories:\n  public: .\npre_sources: !<!> \"configure_file(${CMAKE_CURRENT_SOURCE_DIR}\/scripts\/pnglibconf.h.prebuilt\\n               ${CMAKE_CURRENT_BINARY_DIR}\/pnglibconf.h)\\n\"\ndependencies:\n  pvt.cppan.demo.zlib: 1",
+    "version": "1.6.26",
+    "source": {
+        "remote": {
+            "url": "http:\/\/tenet.dl.sourceforge.net\/project\/libpng\/libpng16\/1.6.26\/libpng-1.6.26.tar.gz"
+        }
+    },
+    "sha256": "8f66c6127a015ed0ce5da01bb2291d7c553b89fe0cad0ca9c0a9e509c1d25e22",
+    "created": "2016-12-01 19:57:42.280903"
+}
