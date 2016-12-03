@@ -1,0 +1,17 @@
+{
+    "project": "pvt.cppan.demo.tweetnacl",
+    "cppan": "source:\n  files:\n    - http:\/\/tweetnacl.cr.yp.to\/20131229\/tweetnacl.h\n    - http:\/\/tweetnacl.cr.yp.to\/20131229\/tweetnacl.c\nversion: 2013.12.29",
+    "version": "2013.12.29",
+    "source": {
+        "files": [
+            {
+                "url": "http:\/\/tweetnacl.cr.yp.to\/20131229\/tweetnacl.c"
+            },
+            {
+                "url": "http:\/\/tweetnacl.cr.yp.to\/20131229\/tweetnacl.h"
+            }
+        ]
+    },
+    "sha256": "39a36276d317a5eafa16bdceac0474a20c9a7f1b6d6955db90b43494ba863d0d",
+    "created": "2016-12-03 22:08:24.138729"
+}
