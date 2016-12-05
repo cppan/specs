@@ -1,12 +1,23 @@
 {
     "project": "pvt.cppan.demo.cmake.opengl",
-    "cppan": "source:\n  remote: https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip\nversion: master\npost_sources: !<!> \"find_package(OpenGL REQUIRED)\\n\"\ninclude_directories:\n  public: ${OPENGL_INCLUDE_DIRS}\nempty: true\noptions:\n  any:\n    link_libraries:\n      public: ${OPENGL_LIBRARIES}",
+    "cppan": "source:\n  files:\n    - https:\/\/www.opengl.org\/registry\/api\/GL\/glext.h\n    - https:\/\/www.opengl.org\/registry\/api\/GL\/glcorearb.h\n    - https:\/\/www.opengl.org\/registry\/api\/GL\/glxext.h\n    - https:\/\/www.opengl.org\/registry\/api\/GL\/wglext.h\nversion: master\ninclude_directories:\n  public: ${OPENGL_INCLUDE_DIRS}\n  public: .\nunpack_directory: GL\npost_sources: \"find_package(OpenGL REQUIRED)\\n\"\noptions:\n  any:\n    link_libraries:\n      public: ${OPENGL_LIBRARIES}",
     "version": "master",
     "source": {
-        "remote": {
-            "url": "https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip"
-        }
+        "files": [
+            {
+                "url": "https:\/\/www.opengl.org\/registry\/api\/GL\/glcorearb.h"
+            },
+            {
+                "url": "https:\/\/www.opengl.org\/registry\/api\/GL\/glext.h"
+            },
+            {
+                "url": "https:\/\/www.opengl.org\/registry\/api\/GL\/glxext.h"
+            },
+            {
+                "url": "https:\/\/www.opengl.org\/registry\/api\/GL\/wglext.h"
+            }
+        ]
     },
-    "sha256": "24ce4291f21fc48b3028326a83a592456979891d5b1a936753ab5b8ae3c7cb94",
-    "created": "2016-09-11 22:23:03.098801"
+    "sha256": "d453544940b8e10a35debb0c87fb2b81019da977919fc1ecc65184f686aef830",
+    "created": "2016-12-05 11:22:49.386762"
 }
