@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jnorthrup.patl",
+    "cppan": "source:\n  git: https:\/\/github.com\/jnorthrup\/patl\nfiles: uxn\/patl\/.*\\.hpp\ninclude_directories:\n  public: uxn",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jnorthrup\/patl",
+            "branch": "master"
+        }
+    },
+    "sha256": "9de1c3e3347490adea46cf556ab9971c55d8aa1e0309dd276ee8b48743289d31",
+    "created": "2016-12-06 17:49:42.991605"
+}

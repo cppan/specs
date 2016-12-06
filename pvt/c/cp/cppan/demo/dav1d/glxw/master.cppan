@@ -1,0 +1,11 @@
+{
+    "project": "pvt.cppan.demo.dav1d.glxw",
+    "version": "master",
+    "source": {
+        "remote": {
+            "url": "http:\/\/glxw.dav1d.de\/glxw.zip"
+        }
+    },
+    "sha256": "03625cf4fd3dc338edb7f0feb14b3540479efc687ed8836e67b3ebcb7b0c09ba",
+    "created": "2016-12-06 17:59:20.353931"
+}
