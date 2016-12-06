@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.cameron314.concurrentqueue",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/cameron314\/concurrentqueue",
+            "branch": "master"
+        }
+    },
+    "sha256": "ef1d7b65a7e2ecae832e332c595fd167630b5786f9808ad356189bbf1ad73f64",
+    "created": "2016-12-06 17:39:13.010391"
+}
