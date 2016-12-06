@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.kimgr.getopt_port",
+    "cppan": "source:\n  git: https:\/\/github.com\/kimgr\/getopt_port\nfiles:\n  - getopt.c\n  - getopt.h\nstatic_only: true",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/kimgr\/getopt_port",
+            "branch": "master"
+        }
+    },
+    "sha256": "79466e9487b83f81123c473b6cc83044dbe93d4cfb90e084afa4d0dc665ef932",
+    "created": "2016-12-06 14:39:02.135334"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.khronos.vulkan",
+    "cppan": "source:\n  git: https:\/\/github.com\/KhronosGroup\/Vulkan-Docs\n  tag: v1.0.36-core\nversion: 1.0.36\nfiles: src\/vulkan\/.*",
+    "version": "1.0.36",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/KhronosGroup\/Vulkan-Docs",
+            "tag": "v1.0.36-core"
+        }
+    },
+    "sha256": "40d535a5864afc609f3ac1a271c93d82a193bfb032a803e7bdf04ef70d8e6c53",
+    "created": "2016-12-06 13:49:17.870385"
+}
