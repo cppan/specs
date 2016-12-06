@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tinycthread",
+    "cppan": "source:\n  git: https:\/\/github.com\/tinycthread\/tinycthread\nfiles: source\/.*\ninclude_directories:\n  public: source\nstatic_only: true",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tinycthread\/tinycthread",
+            "branch": "master"
+        }
+    },
+    "sha256": "a3d74dd0a4b4e70115437c7534e439feba584cba3476fc2d73e82c61f35b2243",
+    "created": "2016-12-06 14:41:47.212596"
+}
