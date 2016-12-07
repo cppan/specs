@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.ipkn.crow",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ipkn\/crow",
+            "branch": "master"
+        }
+    },
+    "sha256": "963cd9d226d99181320d6313afdc6c26a388c9cc002d32206b0de46bda1d502f",
+    "created": "2016-12-07 19:41:10.264113"
+}
