@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.nodejs.http_parser",
+    "cppan": "source:\n  git: https:\/\/github.com\/nodejs\/http-parser\n  tag: v2.7.1\nversion: 2.7.1\nfiles:\n  - http_parser.c\n  - http_parser.h",
+    "version": "2.7.1",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/nodejs\/http-parser",
+            "tag": "v2.7.1"
+        }
+    },
+    "sha256": "bc9a5b7102d68bc7d105ecb22f42802591f335a0e32b38495a147ce1bdf859a2",
+    "created": "2016-12-07 22:03:16.156268"
+}
