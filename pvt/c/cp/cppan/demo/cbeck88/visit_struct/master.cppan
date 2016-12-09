@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.cbeck88.visit_struct",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/cbeck88\/visit_struct",
+            "branch": "master"
+        }
+    },
+    "sha256": "23185184a4ef5753b146bc83a6fd85a183c2eacf31db1cd8a0e6ecd31f1a0def",
+    "created": "2016-12-09 19:06:18.183687"
+}
