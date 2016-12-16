@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.unicode.icu.stub.i18n",
-    "cppan": "source:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0\ntype: lib\nfiles:\n  - i18n\/.*\\.h\n  - i18n\/.*\\.c\n  - i18n\/.*\\.cpp\ninclude_directories:\n  public: i18n\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.common:\n      version: \"*\"\noptions:\n  any:\n    definitions:\n      private:\n        - U_I18N_IMPLEMENTATION\n      public:\n        - U_USING_ICU_NAMESPACE=1\n        - U_EXPORT=${CPPAN_EXPORT}\n        - U_IMPORT=${CPPAN_IMPORT}\nroot_directory: icu\/source\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0",
+    "cppan": "source:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0\ntype: lib\nfiles:\n  - i18n\/.*\\.h\n  - i18n\/.*\\.c\n  - i18n\/.*\\.cpp\ninclude_directories:\n  public: i18n\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.common:\n      version: \"*\"\noptions:\n  any:\n    definitions:\n      private:\n        - U_I18N_IMPLEMENTATION\n      public:\n        - U_USING_ICU_NAMESPACE=1\n  static:\n    definitions:\n      public:\n        - U_STATIC_IMPLEMENTATION\n  shared:\n    definitions:\n      public:\n        - U_EXPORT=${CPPAN_EXPORT}\n        - U_IMPORT=${CPPAN_IMPORT}\nroot_directory: icu\/source\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0",
     "version": "58.2.0",
     "source": {
         "remote": {
             "url": "http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip"
         }
     },
-    "sha256": "bd64e6deea03e8bb8e76f0018a315e972414a4d4ae960337c6ad7cb38b5d4f9e",
-    "created": "2016-12-16 19:20:10.987651"
+    "sha256": "33a542afdfd96c5531978df7eab009752eccc8a33cec6cdac2acade4f97a6192",
+    "created": "2016-12-16 21:15:27.794261"
 }

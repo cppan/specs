@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.unicode.icu.stub.data",
-    "cppan": "source:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0\ntype: lib\nshared_only: true\nfiles: stubdata\/stubdata.c\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.common:\n      version: \"*\"\n      include_directories_only: true\npost_target: \"if (MSVC)\\n    target_link_libraries(${this} PRIVATE -NOENTRY)\\nendif()\"\nroot_directory: icu\/source\noptions:\n  any:\n    definitions:\n      public:\n        - U_USING_ICU_NAMESPACE=1\n        - U_EXPORT=${CPPAN_EXPORT}\n        - U_IMPORT=${CPPAN_IMPORT}\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0",
+    "cppan": "source:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0\ntype: lib\nfiles: stubdata\/stubdata.c\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.common:\n      version: \"*\"\n      include_directories_only: true\npost_target: \"if (${LIBRARY_TYPE} STREQUAL SHARED)\\n    if (MSVC)\\n        target_link_libraries(${this} PRIVATE -NOENTRY)\\n    endif()\\nendif()\"\nroot_directory: icu\/source\noptions:\n  any:\n    definitions:\n      public:\n        - U_USING_ICU_NAMESPACE=1\n  static:\n    definitions:\n      public:\n        - U_STATIC_IMPLEMENTATION\n  shared:\n    definitions:\n      public:\n        - U_EXPORT=${CPPAN_EXPORT}\n        - U_IMPORT=${CPPAN_IMPORT}\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0",
     "version": "58.2.0",
     "source": {
         "remote": {
             "url": "http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip"
         }
     },
-    "sha256": "a630f764110e659b7c7aa995bc62d96bbde0333492df4c179a6438c0bae2372e",
-    "created": "2016-12-16 20:38:56.186145"
+    "sha256": "22f23a3b7254bd4ed13a9cdbfb0f3e24d5d0dfa3dee10ccd635d9cab3881b4ab",
+    "created": "2016-12-16 21:30:59.14233"
 }

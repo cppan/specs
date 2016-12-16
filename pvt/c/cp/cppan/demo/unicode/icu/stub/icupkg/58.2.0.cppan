@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.unicode.icu.stub.icupkg",
-    "cppan": "source:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0\nfiles:\n  - tools\/icupkg\/.*\\.h\n  - tools\/icupkg\/.*\\.c\n  - tools\/icupkg\/.*\\.cpp\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.toolutil:\n      version: \"*\"\nroot_directory: icu\/source\noptions:\n  any:\n    definitions:\n      public:\n        - U_USING_ICU_NAMESPACE=1\n        - U_EXPORT=${CPPAN_EXPORT}\n        - U_IMPORT=${CPPAN_IMPORT}\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0",
+    "cppan": "source:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0\nfiles:\n  - tools\/icupkg\/.*\\.h\n  - tools\/icupkg\/.*\\.c\n  - tools\/icupkg\/.*\\.cpp\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.toolutil:\n      version: \"*\"\nroot_directory: icu\/source\noptions:\n  any:\n    definitions:\n      public:\n        - U_USING_ICU_NAMESPACE=1\n  static:\n    definitions:\n      public:\n        - U_STATIC_IMPLEMENTATION\n  shared:\n    definitions:\n      public:\n        - U_EXPORT=${CPPAN_EXPORT}\n        - U_IMPORT=${CPPAN_IMPORT}\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0",
     "version": "58.2.0",
     "source": {
         "remote": {
             "url": "http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip"
         }
     },
-    "sha256": "948e9b8da35039722111c744678f04b4b212b2e055a2c11c8874af87e1690b5c",
-    "created": "2016-12-16 20:36:14.440057"
+    "sha256": "c4a5238cdc8ac203c69914cc157465b9137090520b7e1b4c94269e394a9e639c",
+    "created": "2016-12-16 21:15:20.033536"
 }
