@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.stub.data",
+    "cppan": "source:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0\ntype: lib\nfiles: stubdata\/stubdata.c\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.common:\n      version: \"*\"\n      include_directories_only: true\npost_target: \"if (MSVC)\\n    target_link_libraries(${this} PRIVATE -NOENTRY)\\nendif()\\n\"\nroot_directory: icu\/source\noptions:\n  any:\n    definitions:\n      public:\n        - U_USING_ICU_NAMESPACE=1\n        - U_EXPORT=${CPPAN_EXPORT}\n        - U_IMPORT=${CPPAN_IMPORT}\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0",
+    "version": "58.2.0",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip"
+        }
+    },
+    "sha256": "5489f234885c6227d690acb7a3e7c74b7a781071fcb445e389bc49681de8552b",
+    "created": "2016-12-16 19:20:11.868424"
+}
