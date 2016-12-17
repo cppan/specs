@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.unicode.icu.data",
-    "cppan": "source:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0\ntype: lib\nroot_directory: icu\/source\ncustom: true\nheader_only: false\nfiles: data\/in\/.*\\.dat\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.icupkg:\n      version: \"*\"\n      reference: icupkg\n    pvt.cppan.demo.unicode.icu.stub.pkgdata:\n      version: \"*\"\n      reference: pkgdata\npre_sources: \"file_write_once(${SDIR}\/dummy.c \\\"\\\")\\n\"\npost_sources: \"set(name icudt${PACKAGE_VERSION_MAJOR})\\nset(o ${BDIR}\/dst\/${name}_dat.obj)\\nadd_custom_command(OUTPUT ${o}\\n    COMMAND ${CMAKE_COMMAND} -E make_directory files\\n    COMMAND ${CMAKE_COMMAND} -E make_directory dst\\n    COMMAND ${icupkg}  -d files -x * --list \\\"${SDIR}\/data\/in\/icudt${PACKAGE_VERSION_MAJOR}l.dat\\\" -o icudata.lst\\n    COMMAND ${pkgdata} -s files -d dst -m dll -p ${name} icudata.lst\\n    WORKING_DIRECTORY ${BDIR}\\n)\\nset(src ${src} ${o} ${SDIR}\/dummy.c)\\n\"\npost_target: \"if (${LIBRARY_TYPE} STREQUAL SHARED)\\n    if (MSVC)\\n        target_link_libraries(${this} PRIVATE -NOENTRY)\\n    endif()\\nendif()\"\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0",
-    "version": "58.2.0",
+    "cppan": "source:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0\ntype: lib\nroot_directory: icu\/source\ncustom: true\nheader_only: false\nfiles: data\/in\/.*\\.dat\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.icupkg:\n      version: \"*\"\n      reference: icupkg\n    pvt.cppan.demo.unicode.icu.stub.pkgdata:\n      version: \"*\"\n      reference: pkgdata\npre_sources: \"file_write_once(${SDIR}\/dummy.c \\\"\\\")\\n\"\npost_sources: \"set(name icudt${PACKAGE_VERSION_MAJOR})\\nset(o ${BDIR}\/dst\/${name}_dat.obj)\\nadd_custom_command(OUTPUT ${o}\\n    COMMAND ${CMAKE_COMMAND} -E make_directory files\\n    COMMAND ${CMAKE_COMMAND} -E make_directory dst\\n    COMMAND ${icupkg}  -d files -x * --list \\\"${SDIR}\/data\/in\/icudt${PACKAGE_VERSION_MAJOR}l.dat\\\" -o icudata.lst\\n    COMMAND ${pkgdata} -s files -d dst -m dll -p ${name} icudata.lst\\n    WORKING_DIRECTORY ${BDIR}\\n)\\nset(src ${src} ${o} ${SDIR}\/dummy.c)\\n\"\npost_target: \"if (LIBRARY_TYPE STREQUAL SHARED)\\n    if (MSVC)\\n        target_link_libraries(${this} PRIVATE -NOENTRY)\\n    endif()\\nendif()\"\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0",
     "source": {
         "remote": {
             "url": "http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip"
         }
     },
-    "sha256": "4c3703ba68a11c2151639ed9fe5005ef6fc1eb69a4690983411a6cc954a0438d",
-    "created": "2016-12-16 21:15:35.767246"
+    "version": "58.2.0",
+    "sha256": "90302ed871d7b76fa09e1c1b28bdbabda99a5aa7c5cd3561d3f8f7f151daab44",
+    "created": "2016-12-17 10:32:50.612162"
 }
