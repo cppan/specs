@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.unicode.icu.data",
-    "cppan": "custom: true\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.icupkg:\n      reference: icupkg\n      version: \"*\"\n    pvt.cppan.demo.unicode.icu.stub.pkgdata:\n      reference: pkgdata\n      version: \"*\"\nfiles: data\/in\/.*\\.dat\nheader_only: false\npost_sources: \"set(name icudt${PACKAGE_VERSION_MAJOR})\\nset(o ${BDIR}\/dst\/${name}_dat.obj)\\nset(symdll dll)\\nif (LIBRARY_TYPE STREQUAL STATIC)\\n    set(symdll static)\\nendif()\\nadd_custom_command(OUTPUT ${o}\\n    COMMAND ${CMAKE_COMMAND} -E make_directory files\\n    COMMAND ${CMAKE_COMMAND} -E make_directory dst\\n    COMMAND ${icupkg}  -d files -x * --list \\\"${SDIR}\/data\/in\/icudt${PACKAGE_VERSION_MAJOR}l.dat\\\" -o icudata.lst\\n    COMMAND ${pkgdata} -s files -d dst -m ${symdll} -p ${name} icudata.lst\\n    WORKING_DIRECTORY ${BDIR}\\n)\\nset(src ${src} ${o} ${SDIR}\/dummy.c)\\n\"\npost_target: \"if (LIBRARY_TYPE STREQUAL SHARED)\\n    if (MSVC)\\n        target_link_libraries(${this} PRIVATE -NOENTRY)\\n    endif()\\nendif()\"\npre_sources: \"file_write_once(${SDIR}\/dummy.c \\\"\\\")\\n\"\nroot_directory: icu\/source\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\ntype: lib\nversion: 58.2.0",
+    "cppan": "source:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0\ntype: lib\nroot_directory: icu\/source\ncustom: true\nheader_only: false\nfiles: data\/in\/.*\\.dat\nbuild_dependencies_with_same_config: true\ndependencies:\n  public:\n    pvt.cppan.demo.unicode.icu.stub.icupkg:\n      version: \"*\"\n      reference: icupkg\n    pvt.cppan.demo.unicode.icu.stub.pkgdata:\n      version: \"*\"\n      reference: pkgdata\npre_sources: \"file_write_once(${SDIR}\/dummy.c \\\"\\\")\\n\"\npost_sources: \"set(name icudt${PACKAGE_VERSION_MAJOR})\\nset(o ${BDIR}\/dst\/${name}_dat.obj)\\nadd_custom_command(OUTPUT ${o}\\n    COMMAND ${CMAKE_COMMAND} -E make_directory files\\n    COMMAND ${CMAKE_COMMAND} -E make_directory dst\\n    COMMAND ${icupkg}  -d files -x * --list \\\"${SDIR}\/data\/in\/icudt${PACKAGE_VERSION_MAJOR}l.dat\\\" -o icudata.lst\\n    COMMAND ${pkgdata} -s files -d dst -m dll -p ${name} icudata.lst\\n    WORKING_DIRECTORY ${BDIR}\\n)\\nset(src ${src} ${o} ${SDIR}\/dummy.c)\\n\"\npost_target: \"if (${LIBRARY_TYPE} STREQUAL SHARED)\\n    if (MSVC)\\n        target_link_libraries(${this} PRIVATE -NOENTRY)\\n    endif()\\nendif()\"\nsource:\n  remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\nversion: 58.2.0",
+    "version": "58.2.0",
     "source": {
         "remote": {
             "url": "http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip"
         }
     },
-    "version": "58.2.0",
-    "sha256": "d61b589dfa72a6fbcb96a286669e3a18ce7a31ee82840693f7ac139364127672",
-    "created": "2016-12-17 12:52:29.855268"
+    "sha256": "c7a2fad9526838a16ba24f9e8c9da2e106f34aff798275b453a6e5f78958c3d8",
+    "created": "2016-12-18 19:22:47.917069"
 }
