@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.oktal.pistache",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/oktal\/pistache",
+            "branch": "master"
+        }
+    },
+    "sha256": "3c228c191752f709e69fb9ea3dd29cd4468852a8dfb77c4e47edf2cd9cc08493",
+    "created": "2016-12-19 16:22:39.552281"
+}
