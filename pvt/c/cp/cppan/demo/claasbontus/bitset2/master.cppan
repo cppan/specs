@@ -1,5 +1,5 @@
 {
-    "cppan": "files:\r\n  - detail\/.*\r\n  - bitset2.hpp\r\ninclude_directories:\r\n  public: .",
+    "cppan": "files:\n  - detail\/.*\n  - bitset2.hpp\ninclude_directories:\n  public: .",
     "project": "pvt.cppan.demo.claasbontus.bitset2",
     "source": {
         "git": {
