@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.mgk25.jbig.jbig",
+    "cppan": "source:\n  remote: https:\/\/www.cl.cam.ac.uk\/~mgk25\/jbigkit\/download\/jbigkit-2.1.tar.gz\nversion: 2.1.0\nfiles:\n  - libjbig\/jbig.c\n  - libjbig\/jbig.h\ninclude_directories:\n  public: libjbig\ndependencies:\n  public:\n    pvt.cppan.demo.mgk25.jbig.ar:\n      version: \"*\"\ntype: lib\nstatic_only: true\nsource:\n  remote: https:\/\/www.cl.cam.ac.uk\/~mgk25\/jbigkit\/download\/jbigkit-2.1.tar.gz\nversion: 2.1.0",
+    "version": "2.1.0",
+    "source": {
+        "remote": {
+            "url": "https:\/\/www.cl.cam.ac.uk\/~mgk25\/jbigkit\/download\/jbigkit-2.1.tar.gz"
+        }
+    },
+    "sha256": "d5c8ad21890ba3f28a068be6abdfef0239c6a30b2705652f9b381e214b916ca5",
+    "created": "2016-12-21 18:12:09.069599"
+}
