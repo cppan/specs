@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.agl.jbig2.jbig2enc",
-    "cppan": "dependencies:\n  public:\n    pvt.cppan.demo.leptonica: master\npatch:\n  replace_in_files:\n    lept_header:\n      from: !<!> leptonica\/allheaders.h\n      to: !<!> allheaders.h\ninclude_directories:\n  public: src\noptions:\n  any:\n    definitions:\n      private:\n        - VERSION=PACKAGE_VERSION\nfiles:\n  - src\/.*\\.cc\n  - src\/.*\\.h\nexclude_from_package: src\/jbig2.cc\nsource:\n  git: https:\/\/github.com\/agl\/jbig2enc\n  branch: master\nversion: master\nstatic_only: true",
-    "version": "master",
+    "cppan": "dependencies:\n  public:\n    pvt.cppan.demo.danbloomberg.leptonica: master\npatch:\n  replace_in_files:\n    lept_header:\n      from: leptonica\/allheaders.h\n      to: allheaders.h\ninclude_directories:\n  public: src\noptions:\n  any:\n    definitions:\n      private:\n        - VERSION=PACKAGE_VERSION\nfiles:\n  - src\/.*\\.cc\n  - src\/.*\\.h\nexclude_from_package: src\/jbig2.cc\nsource:\n  git: https:\/\/github.com\/agl\/jbig2enc\n  branch: master\nversion: master\nstatic_only: true",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/agl\/jbig2enc",
             "branch": "master"
         }
     },
-    "sha256": "e6ecd6ed1116bb32d646bd91a01a018447d0e43d39346438e2b00d6247f86d6b",
-    "created": "2016-10-16 18:14:45.947428"
+    "version": "master",
+    "sha256": "3a0f12de27f37a7903d9a7e228cf147984ff05f77d51de433d0c8ef24fa1ff6c",
+    "created": "2016-12-22 12:12:09.568081"
 }
