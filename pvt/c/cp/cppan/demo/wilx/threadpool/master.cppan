@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.wilx.threadpool",
+    "cppan": "files: ThreadPool.h",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/log4cplus\/ThreadPool",
+            "branch": "master"
+        }
+    },
+    "sha256": "bca2534f0d4a70abbd1f494d1cdb20ecce6b4c164b31b0250e60e1bfe168edea",
+    "created": "2016-12-22 19:05:56.890013"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.wilx.log4cplus",
+    "cppan": "source:\n  git: https:\/\/github.com\/log4cplus\/log4cplus\n  tag: REL_1_2_0\nversion: 1.2.0\noptions:\n  any:\n    definitions:\n      private:\n        - INSIDE_LOG4CPLUS\n      public:\n        - LOG4CPLUS_DECLSPEC_EXPORT=${CPPAN_EXPORT}\n        - LOG4CPLUS_DECLSPEC_IMPORT=${CPPAN_IMPORT}\ndependencies:\n  pvt.cppan.demo.wilx.threadpool: master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/log4cplus\/log4cplus",
+            "tag": "REL_1_2_0"
+        }
+    },
+    "version": "1.2.0",
+    "sha256": "0dc51837224a8ba48847c6b72b4e01a880f36b2ca1e4d7f74bbb635b61f57002",
+    "created": "2016-12-22 19:06:59.019647"
+}
