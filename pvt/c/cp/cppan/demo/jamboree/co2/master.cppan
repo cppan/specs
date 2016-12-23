@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.jamboree.co2",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jamboree\/co2",
+            "branch": "master"
+        }
+    },
+    "sha256": "784ab6ee007feb996ccd11b559824e9ed83bd57d208e7144b0531fac20755b57",
+    "created": "2016-12-23 20:56:18.11626"
+}

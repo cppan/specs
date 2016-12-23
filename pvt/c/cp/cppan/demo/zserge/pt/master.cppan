@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.zserge.pt",
+    "cppan": "files: pt.h",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/zserge\/pt",
+            "branch": "master"
+        }
+    },
+    "sha256": "681a4adce760121284524957a02e34afd8903e16f14cf4e0ef8548f29ea430ad",
+    "created": "2016-12-23 20:57:55.890812"
+}
