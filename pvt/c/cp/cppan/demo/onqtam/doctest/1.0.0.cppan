@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.onqtam.doctest",
-    "cppan": "version: 1.0.0\nfiles: doctest\/.*\nsource:\n  git: https:\/\/github.com\/onqtam\/doctest\n  tag: 1.0.0\ninclude_directories:\n  public: .",
+    "cppan": "source:\n    git: https:\/\/github.com\/onqtam\/doctest\n    tag: 1.0.0\n\nversion: 1.0.0\n\nfiles: doctest\/.*\n\ninclude_directories:\n    public: .\n\n",
     "version": "1.0.0",
     "source": {
         "git": {

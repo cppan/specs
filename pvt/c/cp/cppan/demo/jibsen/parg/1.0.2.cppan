@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.jibsen.parg",
-    "cppan": "source:\n  git: https:\/\/github.com\/jibsen\/parg\n  tag: v1.0.2\nversion: 1.0.2\nfiles: parg.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/jibsen\/parg\n    tag: v1.0.2\n\nversion: 1.0.2\n\nfiles: parg.*\n\n",
     "version": "1.0.2",
     "source": {
         "git": {

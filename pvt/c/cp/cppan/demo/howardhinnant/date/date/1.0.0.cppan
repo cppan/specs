@@ -1,5 +1,5 @@
 {
-    "cppan": "files:\r\n  - date.h\r\ninclude_directories:\r\n    public: .",
+    "cppan": "files:\n    -   date.h\n\ninclude_directories:\n    public: .\n\n",
     "project": "pvt.cppan.demo.howardhinnant.date.date",
     "source": {
         "git": {

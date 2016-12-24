@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.cmake.opengl",
-    "cppan": "source:\n  files:\n    - https:\/\/www.opengl.org\/registry\/api\/GL\/glext.h\n    - https:\/\/www.opengl.org\/registry\/api\/GL\/glcorearb.h\n    - https:\/\/www.opengl.org\/registry\/api\/GL\/glxext.h\n    - https:\/\/www.opengl.org\/registry\/api\/GL\/wglext.h\nversion: master\ninclude_directories:\n  public: ${OPENGL_INCLUDE_DIRS}\n  public: .\nunpack_directory: GL\npost_sources: \"find_package(OpenGL REQUIRED)\\n\"\noptions:\n  any:\n    link_libraries:\n      public: ${OPENGL_LIBRARIES}",
+    "cppan": "source:\n    files:\n        -   https:\/\/www.opengl.org\/registry\/api\/GL\/glext.h\n        -   https:\/\/www.opengl.org\/registry\/api\/GL\/glcorearb.h\n        -   https:\/\/www.opengl.org\/registry\/api\/GL\/glxext.h\n        -   https:\/\/www.opengl.org\/registry\/api\/GL\/wglext.h\n\nversion: master\n\nunpack_directory: GL\n\ninclude_directories:\n    public: ${OPENGL_INCLUDE_DIRS}\n    public: .\n\noptions:\n    any:\n        link_libraries:\n            public: ${OPENGL_LIBRARIES}\n\npost_sources: |\n    find_package(OpenGL REQUIRED)\n    \n\n",
     "version": "master",
     "source": {
         "files": [

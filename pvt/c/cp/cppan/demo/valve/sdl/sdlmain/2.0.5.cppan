@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.valve.sdl.sdlmain",
-    "cppan": "version: 2.0.5\nstatic_only: true\nsource:\n  remote: https:\/\/www.libsdl.org\/release\/SDL2-2.0.5.tar.gz\nfiles:\n  - cmake\/.*\n  - include\/.*\n  - src\/.*\\.h\n  - src\/main\/dummy\/.*\\.c",
+    "cppan": "source:\n    remote: https:\/\/www.libsdl.org\/release\/SDL2-2.0.5.tar.gz\n\nversion: 2.0.5\n\nstatic_only: true\n\nfiles:\n    -   cmake\/.*\n    -   include\/.*\n    -   src\/.*\\.h\n    -   src\/main\/dummy\/.*\\.c\n\n",
     "version": "2.0.5",
     "source": {
         "remote": {

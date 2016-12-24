@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.progschj.threadpool",
-    "cppan": "files: ThreadPool.h",
+    "cppan": "files: ThreadPool.h\n\n",
     "version": "master",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.viboes.gsl",
-    "cppan": "source:\n  git: https:\/\/github.com\/viboes\/GSL\nfiles:\n  - gsl\/.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/viboes\/GSL\n\nfiles:\n    -   gsl\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

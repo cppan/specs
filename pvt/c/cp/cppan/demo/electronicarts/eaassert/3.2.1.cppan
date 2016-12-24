@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.electronicarts.eaassert",
-    "cppan": "source:\n  git: https:\/\/github.com\/electronicarts\/EASTL\n  tag: 3.02.01\nfiles:\n  - test\/packages\/EAAssert\/include\/.*\nversion: 3.2.1\noptions:\n  any:\n    definitions:\n      public:\n        - EASTL_OPENSOURCE=1\ninclude_directories:\n  public: test\/packages\/EAAssert\/include",
+    "cppan": "source:\n    git: https:\/\/github.com\/electronicarts\/EASTL\n    tag: 3.02.01\n\nversion: 3.2.1\n\nfiles:\n    -   test\/packages\/EAAssert\/include\/.*\n\ninclude_directories:\n    public: test\/packages\/EAAssert\/include\n\noptions:\n    any:\n        definitions:\n            public:\n                -   EASTL_OPENSOURCE=1\n\n",
     "version": "3.2.1",
     "source": {
         "git": {

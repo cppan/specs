@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.agl.jbig2.jbig2",
-    "cppan": "files: src\/jbig2.cc\npatch:\n  replace_in_files:\n    lept_header:\n      from: !<!> leptonica\/allheaders.h\n      to: !<!> allheaders.h\nversion: master\ndependencies:\n  public:\n    pvt.cppan.demo.agl.jbig2.jbig2enc: !<!> \"*\"\nsource:\n  git: https:\/\/github.com\/agl\/jbig2enc\n  branch: master",
+    "cppan": "source:\n    git: https:\/\/github.com\/agl\/jbig2enc\n    branch: master\n\nversion: master\n\nfiles: src\/jbig2.cc\n\ndependencies:\n    public:\n        pvt.cppan.demo.agl.jbig2.jbig2enc: \"*\"\n\npatch:\n    replace_in_files:\n        lept_header:\n            from: leptonica\/allheaders.h\n            to: allheaders.h\n\n",
     "version": "master",
     "source": {
         "git": {

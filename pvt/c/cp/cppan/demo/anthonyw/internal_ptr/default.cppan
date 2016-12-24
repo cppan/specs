@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.anthonyw.internal_ptr",
-    "cppan": "files: internal_ptr.hpp",
+    "cppan": "files: internal_ptr.hpp\n\n",
     "version": "default",
     "source": {
         "remote": {

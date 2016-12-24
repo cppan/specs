@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.gabime.spdlog",
-    "cppan": "files: include\/.*\nlicense: LICENSE",
+    "cppan": "license: LICENSE\n\nfiles: include\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

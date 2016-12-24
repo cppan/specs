@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.glew",
-    "cppan": "dependencies:\n  pvt.cppan.demo.cmake.opengl: master\nfiles:\n  - include\/.*\n  - src\/glew.c\nsource:\n  remote: http:\/\/freefr.dl.sourceforge.net\/project\/glew\/glew\/2.0.0\/glew-2.0.0.zip\noptions:\n  static:\n    definitions:\n      private:\n        - GLEW_STATIC\n  static:\n    definitions:\n      private:\n        - GLEW_BUILD\nversion: master",
+    "cppan": "source:\n    remote: http:\/\/freefr.dl.sourceforge.net\/project\/glew\/glew\/2.0.0\/glew-2.0.0.zip\n\nversion: master\n\nfiles:\n    -   include\/.*\n    -   src\/glew.c\n\noptions:\n    static:\n        definitions:\n            private:\n                -   GLEW_STATIC\n    static:\n        definitions:\n            private:\n                -   GLEW_BUILD\n\ndependencies:\n    pvt.cppan.demo.cmake.opengl: master\n\n",
     "version": "master",
     "source": {
         "remote": {

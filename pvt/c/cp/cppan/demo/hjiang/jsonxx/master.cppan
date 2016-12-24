@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.hjiang.jsonxx",
-    "cppan": "source:\n  git: https:\/\/github.com\/hjiang\/jsonxx\nversion: master\nfiles: jsonxx\\..*",
+    "cppan": "source:\n    git: https:\/\/github.com\/hjiang\/jsonxx\n\nversion: master\n\nfiles: jsonxx\\..*\n\n",
     "version": "master",
     "source": {
         "git": {

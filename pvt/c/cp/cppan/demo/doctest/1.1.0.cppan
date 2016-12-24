@@ -1,5 +1,5 @@
 {
-    "cppan": "include_directories:\n  public: .\nfiles: doctest\/.*",
+    "cppan": "files: doctest\/.*\n\ninclude_directories:\n    public: .\n\n",
     "project": "pvt.cppan.demo.doctest",
     "source": {
         "git": {

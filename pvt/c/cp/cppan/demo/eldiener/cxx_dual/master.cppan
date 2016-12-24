@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.eldiener.cxx_dual",
-    "cppan": "files: include\/.*",
+    "cppan": "files: include\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

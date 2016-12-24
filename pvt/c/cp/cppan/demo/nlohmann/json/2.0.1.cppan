@@ -1,5 +1,5 @@
 {
-    "cppan": "files: src\/json.hpp\r\ninclude_directories:\r\n  public:\r\n  - src",
+    "cppan": "files: src\/json.hpp\n\ninclude_directories:\n    public:\n        -   src\n\n",
     "project": "pvt.cppan.demo.nlohmann.json",
     "source": {
         "git": {

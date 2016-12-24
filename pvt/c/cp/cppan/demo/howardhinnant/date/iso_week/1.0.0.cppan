@@ -1,5 +1,5 @@
 {
-    "cppan": "files:\r\n  - iso_week.h\r\ninclude_directories:\r\n    public: .\r\ndependencies:\r\n  - pvt.cppan.demo.howardhinnant.date.date",
+    "cppan": "files:\n    -   iso_week.h\n\ninclude_directories:\n    public: .\n\ndependencies:\n    -   pvt.cppan.demo.howardhinnant.date.date\n\n",
     "project": "pvt.cppan.demo.howardhinnant.date.iso_week",
     "source": {
         "git": {

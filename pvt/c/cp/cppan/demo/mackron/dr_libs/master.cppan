@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.mackron.dr_libs",
-    "cppan": "source:\n  git: https:\/\/github.com\/mackron\/dr_libs",
+    "cppan": "source:\n    git: https:\/\/github.com\/mackron\/dr_libs\n\n",
     "version": "master",
     "source": {
         "git": {

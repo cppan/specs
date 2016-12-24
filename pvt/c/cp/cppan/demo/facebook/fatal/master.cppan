@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.facebook.fatal",
-    "cppan": "version: master\nsource:\n  git: https:\/\/github.com\/facebook\/fatal\n  tag: master\nfiles:\n  - fatal\/.*\\.h",
+    "cppan": "source:\n    git: https:\/\/github.com\/facebook\/fatal\n    tag: master\n\nversion: master\n\nfiles:\n    -   fatal\/.*\\.h\n\n",
     "version": "master",
     "source": {
         "git": {

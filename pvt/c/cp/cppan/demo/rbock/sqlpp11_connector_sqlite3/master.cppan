@@ -1,5 +1,5 @@
 {
-    "cppan": "license: LICENSE\r\nfiles:\r\n    - include\/.*\\.h\r\n    - src\/.*\\.cpp\r\n    - src\/.*\\.h\r\n\r\ndependencies:\r\n    pvt.cppan.demo.rbock.sqlpp11: master\r\n",
+    "cppan": "license: LICENSE\n\nfiles:\n    -   include\/.*\\.h\n    -   src\/.*\\.cpp\n    -   src\/.*\\.h\n\ndependencies:\n    pvt.cppan.demo.rbock.sqlpp11: master\n\n",
     "project": "pvt.cppan.demo.rbock.sqlpp11_connector_sqlite3",
     "source": {
         "git": {

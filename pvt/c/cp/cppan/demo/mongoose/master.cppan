@@ -1,10 +1,10 @@
 {
-    "cppan": "license: LICENSE\r\n\r\nfiles:\r\n  - mongoose.c\r\n  - mongoose.c\r\n\r\ninclude_directories:\r\n  public: .",
+    "cppan": "license: LICENSE\n\nfiles:\n    -   mongoose.c\n    -   mongoose.c\n\ninclude_directories:\n    public: .\n\n",
     "project": "pvt.cppan.demo.mongoose",
     "source": {
         "git": {
             "branch": "master",
-            "url": "https://github.com/cesanta/mongoose"
+            "url": "https:\/\/github.com\/cesanta\/mongoose"
         }
     },
     "version": "master"

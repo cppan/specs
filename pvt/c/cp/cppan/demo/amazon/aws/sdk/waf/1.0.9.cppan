@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.amazon.aws.sdk.waf",
-    "cppan": "options:\n  shared:\n    definitions:\n      private:\n        - AWS_WAF_EXPORTS\nsource:\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\n  tag: 1.0.9\nversion: 1.0.9\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"\nfiles:\n  - include\/.*\n  - source\/.*\nroot_directory: aws-cpp-sdk-waf\nc++: 11",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: 1.0.9\n\nversion: 1.0.9\n\nroot_directory: aws-cpp-sdk-waf\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_WAF_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core: \"*\"\n\n",
     "version": "1.0.9",
     "source": {
         "git": {

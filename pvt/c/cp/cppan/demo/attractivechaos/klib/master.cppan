@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.attractivechaos.klib",
-    "cppan": "source:\n  git: https:\/\/github.com\/attractivechaos\/klib",
+    "cppan": "source:\n    git: https:\/\/github.com\/attractivechaos\/klib\n\n",
     "version": "master",
     "source": {
         "git": {

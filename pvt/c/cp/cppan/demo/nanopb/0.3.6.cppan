@@ -1,5 +1,5 @@
 {
-    "cppan": "license: LICENSE.txt\r\n\r\nfiles:\r\n    - pb.h\r\n    - pb_common.h\r\n    - pb_common.c\r\n    - pb_encode.h\r\n    - pb_encode.c\r\n    - pb_decode.h\r\n    - pb_decode.c\r\n",
+    "cppan": "license: LICENSE.txt\n\nfiles:\n    -   pb.h\n    -   pb_common.h\n    -   pb_common.c\n    -   pb_encode.h\n    -   pb_encode.c\n    -   pb_decode.h\n    -   pb_decode.c\n\n",
     "project": "pvt.cppan.demo.nanopb",
     "source": {
         "git": {

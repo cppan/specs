@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.rigtorp.hashmap",
-    "cppan": "version: master\nsource:\n  git: https:\/\/github.com\/rigtorp\/HashMap\n  branch: master\nfiles: HashMap.h",
+    "cppan": "source:\n    git: https:\/\/github.com\/rigtorp\/HashMap\n    branch: master\n\nversion: master\n\nfiles: HashMap.h\n\n",
     "version": "master",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.microsoft.gsl",
-    "cppan": "files: gsl\/.*",
+    "cppan": "files: gsl\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

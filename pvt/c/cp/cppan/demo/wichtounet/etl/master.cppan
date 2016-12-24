@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.wichtounet.etl",
-    "cppan": "source:\n  git: https:\/\/github.com\/wichtounet\/etl\nfiles: include\/.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/wichtounet\/etl\n\nfiles: include\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

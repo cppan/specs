@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.adishavit.argh",
-    "cppan": "files: argh.h",
+    "cppan": "files: argh.h\n\n",
     "version": "master",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.valve.sdl_ttf",
-    "cppan": "dependencies:\n  pvt.cppan.demo.valve.sdl.sdl: 2\n  pvt.cppan.demo.freetype: 2\nversion: 2.0.14\nfiles:\n  - SDL_ttf.h\n  - SDL_ttf.c\nsource:\n  remote: https:\/\/www.libsdl.org\/projects\/SDL_ttf\/release\/SDL2_ttf-2.0.14.tar.gz",
+    "cppan": "source:\n    remote: https:\/\/www.libsdl.org\/projects\/SDL_ttf\/release\/SDL2_ttf-2.0.14.tar.gz\n\nversion: 2.0.14\n\nfiles:\n    -   SDL_ttf.h\n    -   SDL_ttf.c\n\ndependencies:\n    pvt.cppan.demo.valve.sdl.sdl: 2\n    pvt.cppan.demo.freetype: 2\n\n",
     "version": "2.0.14",
     "source": {
         "remote": {

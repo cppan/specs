@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.asutton.origin.core",
-    "cppan": "post_sources: !<!> file_write_once(${BDIR}\/config.hpp \"\")\nsource:\n  branch: master\n  git: https:\/\/github.com\/asutton\/origin\nfiles:\n  - origin\/core\/[^\/]*\\.hpp\n  - origin\/core\/[^\/]*\\.cpp\nversion: master",
+    "cppan": "source:\n    branch: master\n    git: https:\/\/github.com\/asutton\/origin\n\nversion: master\n\nfiles:\n    -   origin\/core\/[^\/]*\\.hpp\n    -   origin\/core\/[^\/]*\\.cpp\n\npost_sources: |\n    file_write_once(${BDIR}\/config.hpp \"\")\n\n",
     "version": "master",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.rbock.sqlpp11",
-    "cppan": "license: LICENSE\ndependencies:\n  pvt.cppan.demo.howardhinnant.date.date: 1\nfiles: include\/.*\\.h",
+    "cppan": "license: LICENSE\n\nfiles: include\/.*\\.h\n\ndependencies:\n    pvt.cppan.demo.howardhinnant.date.date: 1\n\n",
     "version": "0.42.0",
     "source": {
         "git": {

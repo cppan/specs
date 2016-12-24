@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.khronos.vulkan",
-    "cppan": "source:\n  git: https:\/\/github.com\/KhronosGroup\/Vulkan-Docs\n  tag: v1.0.36-core\nversion: 1.0.36\nfiles: src\/vulkan\/.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/KhronosGroup\/Vulkan-Docs\n    tag: v1.0.36-core\n\nversion: 1.0.36\n\nfiles: src\/vulkan\/.*\n\n",
     "version": "1.0.36",
     "source": {
         "git": {

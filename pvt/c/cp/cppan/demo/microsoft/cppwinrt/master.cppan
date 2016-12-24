@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.microsoft.cppwinrt",
-    "cppan": "version: master\ninclude_directories:\n  public: 10.0.14393.0\/winrt\nfiles: 10.0.14393.0\/winrt\/.*\nsource:\n  git: https:\/\/github.com\/Microsoft\/cppwinrt",
+    "cppan": "source:\n    git: https:\/\/github.com\/Microsoft\/cppwinrt\n\nversion: master\n\nfiles: 10.0.14393.0\/winrt\/.*\n\ninclude_directories:\n    public: 10.0.14393.0\/winrt\n\n",
     "version": "master",
     "source": {
         "git": {

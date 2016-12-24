@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.danielgibson.snippets",
-    "cppan": "source:\n  git: https:\/\/github.com\/DanielGibson\/Snippets\nfiles: !<!> \"[^\/]*\\\\.h\"",
+    "cppan": "source:\n    git: https:\/\/github.com\/DanielGibson\/Snippets\n\nfiles: \"[^\/]*\\\\.h\"\n\n",
     "version": "master",
     "source": {
         "git": {

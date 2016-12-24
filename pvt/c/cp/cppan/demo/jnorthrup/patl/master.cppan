@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.jnorthrup.patl",
-    "cppan": "source:\n  git: https:\/\/github.com\/jnorthrup\/patl\nfiles: uxn\/patl\/.*\\.hpp\ninclude_directories:\n  public: uxn",
+    "cppan": "source:\n    git: https:\/\/github.com\/jnorthrup\/patl\n\nfiles: uxn\/patl\/.*\\.hpp\n\ninclude_directories:\n    public: uxn\n\n",
     "version": "master",
     "source": {
         "git": {

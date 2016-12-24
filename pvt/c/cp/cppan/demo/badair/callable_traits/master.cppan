@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.badair.callable_traits",
-    "cppan": "files: include\/.*",
+    "cppan": "files: include\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

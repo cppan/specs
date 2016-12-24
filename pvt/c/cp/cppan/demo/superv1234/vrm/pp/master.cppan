@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.superv1234.vrm.pp",
-    "cppan": "source:\n  branch: master\n  git: https:\/\/github.com\/SuperV1234\/vrm_pp\nversion: master\nfiles:\n  - include\/.*",
+    "cppan": "source:\n    branch: master\n    git: https:\/\/github.com\/SuperV1234\/vrm_pp\n\nversion: master\n\nfiles:\n    -   include\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

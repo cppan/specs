@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.afterwise.aw_ima",
-    "cppan": "source:\n  git: https:\/\/github.com\/afterwise\/aw-ima",
+    "cppan": "source:\n    git: https:\/\/github.com\/afterwise\/aw-ima\n\n",
     "version": "master",
     "source": {
         "git": {

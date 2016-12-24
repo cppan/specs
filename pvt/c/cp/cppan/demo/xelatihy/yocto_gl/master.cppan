@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.xelatihy.yocto_gl",
-    "cppan": "source:\n  git: https:\/\/github.com\/xelatihy\/yocto-gl\nfiles: yocto\/.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/xelatihy\/yocto-gl\n\nfiles: yocto\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.irrequietus.typestring",
-    "cppan": "files: typestring.hh",
+    "cppan": "files: typestring.hh\n\n",
     "version": "master",
     "source": {
         "git": {

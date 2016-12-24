@@ -1,5 +1,5 @@
 {
-    "cppan": "files: tick\/.*",
+    "cppan": "files: tick\/.*\n\n",
     "project": "pvt.cppan.demo.tick",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.zserge.pt",
-    "cppan": "files: pt.h",
+    "cppan": "files: pt.h\n\n",
     "version": "master",
     "source": {
         "git": {

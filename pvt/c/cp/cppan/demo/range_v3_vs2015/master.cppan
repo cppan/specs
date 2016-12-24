@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.range_v3_vs2015",
-    "cppan": "license: LICENSE.txt\nfiles: include\/.*",
+    "cppan": "license: LICENSE.txt\n\nfiles: include\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

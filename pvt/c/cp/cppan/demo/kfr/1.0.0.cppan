@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.kfr",
-    "cppan": "license: LICENSE.txt\r\nfiles: include\/.*",
+    "cppan": "license: LICENSE.txt\n\nfiles: include\/.*\n\n",
     "version": "1.0.0",
     "source": {
         "git": {

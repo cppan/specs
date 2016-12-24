@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.gpakosz.packedarray",
-    "cppan": "source:\n  git: https:\/\/github.com\/gpakosz\/PackedArray\nfiles: PackedArray.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/gpakosz\/PackedArray\n\nfiles: PackedArray.*\n\n",
     "version": "master",
     "source": {
         "git": {

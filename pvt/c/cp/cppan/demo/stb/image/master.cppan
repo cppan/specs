@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.stb.image",
-    "cppan": "version: master\nsource:\n  branch: master\n  git: https:\/\/github.com\/nothings\/stb\nfiles: stb_image.h",
+    "cppan": "source:\n    branch: master\n    git: https:\/\/github.com\/nothings\/stb\n\nversion: master\n\nfiles: stb_image.h\n\n",
     "version": "master",
     "source": {
         "git": {

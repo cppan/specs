@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.electronicarts.eastl",
-    "cppan": "files:\n  - include\/.*\n  - source\/.*\noptions:\n  any:\n    definitions:\n      public:\n        - EASTL_OPENSOURCE=1\nsource:\n  git: https:\/\/github.com\/electronicarts\/EASTL\n  tag: 3.02.01\nversion: 3.2.1\ndependencies:\n  pvt.cppan.demo.electronicarts.eabase: !<!> \"*\"\n  pvt.cppan.demo.electronicarts.eastdc: !<!> \"*\"",
+    "cppan": "source:\n    git: https:\/\/github.com\/electronicarts\/EASTL\n    tag: 3.02.01\n\nversion: 3.2.1\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    any:\n        definitions:\n            public:\n                -   EASTL_OPENSOURCE=1\n\ndependencies:\n    pvt.cppan.demo.electronicarts.eabase: \"*\"\n    pvt.cppan.demo.electronicarts.eastdc: \"*\"\n\n",
     "version": "3.2.1",
     "source": {
         "git": {

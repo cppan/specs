@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.fastlz",
-    "cppan": "source:\n  remote: https:\/\/storage.googleapis.com\/google-code-archive-source\/v2\/code.google.com\/fastlz\/source-archive.zip\nversion: trunk\nroot_directory: fastlz\/trunk\nfiles: fastlz.*",
+    "cppan": "source:\n    remote: https:\/\/storage.googleapis.com\/google-code-archive-source\/v2\/code.google.com\/fastlz\/source-archive.zip\n\nversion: trunk\n\nroot_directory: fastlz\/trunk\n\nfiles: fastlz.*\n\n",
     "version": "trunk",
     "source": {
         "remote": {

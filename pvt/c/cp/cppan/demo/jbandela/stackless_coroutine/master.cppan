@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.jbandela.stackless_coroutine",
-    "cppan": "files: stackless_coroutine.hpp",
+    "cppan": "files: stackless_coroutine.hpp\n\n",
     "version": "master",
     "source": {
         "git": {

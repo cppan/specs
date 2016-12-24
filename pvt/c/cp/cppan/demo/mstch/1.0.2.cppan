@@ -1,5 +1,5 @@
 {
-    "cppan": "files:\r\n    - \"include\/.*\\\\.hpp\"\r\n    - \"src\/.*\\\\.hpp\"\r\n    - \"src\/.*\\\\.cpp\"\r\n\r\ninclude_directories_private:\r\n    - src\r\n\r\ndependencies:\n    pvt.cppan.demo.boost.variant: \"*\"",
+    "cppan": "files:\n    -   include\/.*\\.hpp\n    -   src\/.*\\.hpp\n    -   src\/.*\\.cpp\n\ndependencies:\n    pvt.cppan.demo.boost.variant: \"*\"\n\ninclude_directories_private:\n    -   src\n\n",
     "project": "pvt.cppan.demo.mstch",
     "source": {
         "git": {

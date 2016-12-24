@@ -1,6 +1,6 @@
 {
     "project": "pvt.ninetainedo.sery",
-    "cppan": "source:\n  git: https:\/\/github.com\/Ninetainedo\/Sery\n  tag: v1.0\nstatic_only: true\nc++: 11\nversion: 1.0.0\nfiles:\n  - include\/.*\n  - src\/.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/Ninetainedo\/Sery\n    tag: v1.0\n\nversion: 1.0.0\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   include\/.*\n    -   src\/.*\n\n",
     "version": "1.0.0",
     "source": {
         "git": {

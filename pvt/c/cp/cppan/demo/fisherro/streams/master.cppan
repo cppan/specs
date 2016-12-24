@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.fisherro.streams",
-    "cppan": "files: streams\/.*\ndependencies:\n  pvt.cppan.demo.fmt: 3\n  pvt.cppan.demo.microsoft.gsl: master",
+    "cppan": "files: streams\/.*\n\ndependencies:\n    pvt.cppan.demo.fmt: 3\n    pvt.cppan.demo.microsoft.gsl: master\n\n",
     "version": "master",
     "source": {
         "git": {

@@ -1,5 +1,5 @@
 {
-    "cppan": "license: LICENSE\r\nfiles: src\/.*\r\ninclude_directories:\r\n  public:\r\n    - src",
+    "cppan": "license: LICENSE\n\nfiles: src\/.*\n\ninclude_directories:\n    public:\n        -   src\n\n",
     "project": "pvt.cppan.demo.moderngpu",
     "source": {
         "git": {

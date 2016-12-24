@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.glm",
-    "cppan": "version: 0.9.8\nheader_only: true\nsource:\n  git: https:\/\/github.com\/g-truc\/glm\n  tag: 0.9.8.0\nfiles: glm\/.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/g-truc\/glm\n    tag: 0.9.8.0\n\nversion: 0.9.8\n\nheader_only: true\n\nfiles: glm\/.*\n\n",
     "version": "0.9.8",
     "source": {
         "git": {

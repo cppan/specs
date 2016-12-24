@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.mbasaglia.melanolib",
-    "cppan": "post_sources: configure_file(${SDIR}\/src\/dynlib\/library_name.in.hpp ${BDIR}\/library_name.hpp @ONLY)\nfiles:\n  - include\/.*\n  - src\/.*\\.cpp\n  - src\/.*\\.hpp\nsource:\n  git: https:\/\/github.com\/mbasaglia\/Melanolib",
+    "cppan": "source:\n    git: https:\/\/github.com\/mbasaglia\/Melanolib\n\nfiles:\n    -   include\/.*\n    -   src\/.*\\.cpp\n    -   src\/.*\\.hpp\n\npost_sources: |\n    configure_file(${SDIR}\/src\/dynlib\/library_name.in.hpp ${BDIR}\/library_name.hpp @ONLY)\n\n",
     "version": "master",
     "source": {
         "git": {

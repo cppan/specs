@@ -1,5 +1,5 @@
 {
-    "cppan": "license: LICENSE.txt\r\nfiles: include\/.*",
+    "cppan": "license: LICENSE.txt\n\nfiles: include\/.*\n\n",
     "project": "pvt.cppan.demo.range_v3",
     "source": {
         "git": {

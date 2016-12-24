@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.asutton.origin.graph",
-    "cppan": "version: master\nsource:\n  branch: master\n  git: https:\/\/github.com\/asutton\/origin\npost_sources: !<!> file_write_once(${BDIR}\/config.hpp \"\")\ndependencies:\n  public:\n    pvt.cppan.demo.asutton.origin.range: !<!> \"*\"\nfiles:\n  - origin.graph\/[^\/]*\\.hpp\n  - origin.graph\/[^\/]*\\.cpp",
+    "cppan": "source:\n    branch: master\n    git: https:\/\/github.com\/asutton\/origin\n\nversion: master\n\nfiles:\n    -   origin.graph\/[^\/]*\\.hpp\n    -   origin.graph\/[^\/]*\\.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.asutton.origin.range: \"*\"\n\npost_sources: |\n    file_write_once(${BDIR}\/config.hpp \"\")\n\n",
     "version": "master",
     "source": {
         "git": {

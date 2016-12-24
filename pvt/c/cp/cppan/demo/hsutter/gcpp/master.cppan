@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.hsutter.gcpp",
-    "cppan": "files: .*\\.h",
+    "cppan": "files: .*\\.h\n\n",
     "version": "master",
     "source": {
         "git": {

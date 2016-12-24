@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.greg7mdp.sparsepp",
-    "cppan": "version: master\nsource:\n  git: https:\/\/github.com\/greg7mdp\/sparsepp\n  branch: master\nfiles: sparsepp.h\nlicense: LICENSE",
+    "cppan": "source:\n    git: https:\/\/github.com\/greg7mdp\/sparsepp\n    branch: master\n\nversion: master\n\nlicense: LICENSE\n\nfiles: sparsepp.h\n\n",
     "version": "master",
     "source": {
         "git": {

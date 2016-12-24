@@ -1,5 +1,5 @@
 {
-    "cppan": "version: windows\r\nsource:\r\n  git: https:\/\/github.com\/mattiasflodin\/reckless\r\n  branch: wip\/windows\r\n\r\nlicense: LICENSE.txt\r\nfiles:\r\n    - boost\/.*\r\n    - reckless\/include\/.*\r\n    - reckless\/src\/.*\\.cpp\r\n    - reckless\/src\/.*\\.hpp\r\ninclude_directories:\r\n    public: reckless\/include\r\n    public: boost",
+    "cppan": "source:\n    git: https:\/\/github.com\/mattiasflodin\/reckless\n    branch: wip\/windows\n\nversion: windows\n\nlicense: LICENSE.txt\n\nfiles:\n    -   boost\/.*\n    -   reckless\/include\/.*\n    -   reckless\/src\/.*\\.cpp\n    -   reckless\/src\/.*\\.hpp\n\ninclude_directories:\n    public: reckless\/include\n    public: boost\n\n",
     "project": "pvt.cppan.demo.mattiasflodin.reckless",
     "source": {
         "git": {

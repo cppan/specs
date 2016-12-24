@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.amazon.aws.sdk.dynamodb",
-    "cppan": "root_directory: aws-cpp-sdk-dynamodb\nversion: 1.0.9\nc++: 11\nsource:\n  tag: 1.0.9\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\ndependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"\noptions:\n  shared:\n    definitions:\n      private:\n        - AWS_DYNAMODB_EXPORTS\nfiles:\n  - include\/.*\n  - source\/.*",
+    "cppan": "source:\n    tag: 1.0.9\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n\nversion: 1.0.9\n\nroot_directory: aws-cpp-sdk-dynamodb\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_DYNAMODB_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core: \"*\"\n\n",
     "version": "1.0.9",
     "source": {
         "git": {

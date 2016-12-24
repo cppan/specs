@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.eigen",
-    "cppan": "version: 3.2.10\nsource:\n  remote: http:\/\/bitbucket.org\/eigen\/eigen\/get\/3.2.10.tar.gz\nfiles:\n  - Eigen\/.*",
+    "cppan": "source:\n    remote: http:\/\/bitbucket.org\/eigen\/eigen\/get\/3.2.10.tar.gz\n\nversion: 3.2.10\n\nfiles:\n    -   Eigen\/.*\n\n",
     "version": "3.2.10",
     "source": {
         "remote": {

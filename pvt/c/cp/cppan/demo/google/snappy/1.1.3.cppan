@@ -1,5 +1,5 @@
 {
-    "cppan": "license: COPYING\r\n\r\nfiles:\r\n  - snappy.cc\r\n  - snappy-sinksource.cc\r\n  - snappy-stubs-internal.cc\r\n  - snappy-c.cc\r\n  - snappy.h\r\n  - snappy-sinksource.h\r\n  - snappy-stubs-public.h\r\n  - snappy-c.h\r\n\r\ninclude_directories:\r\n  public: .\r\n",
+    "cppan": "license: COPYING\n\nfiles:\n    -   snappy.cc\n    -   snappy-sinksource.cc\n    -   snappy-stubs-internal.cc\n    -   snappy-c.cc\n    -   snappy.h\n    -   snappy-sinksource.h\n    -   snappy-stubs-public.h\n    -   snappy-c.h\n\ninclude_directories:\n    public: .\n\n",
     "project": "pvt.cppan.demo.google.snappy",
     "source": {
         "git": {

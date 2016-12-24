@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.agl.jbig2.jbig2enc",
-    "cppan": "dependencies:\n  public:\n    pvt.cppan.demo.danbloomberg.leptonica: master\npatch:\n  replace_in_files:\n    lept_header:\n      from: leptonica\/allheaders.h\n      to: allheaders.h\ninclude_directories:\n  public: src\noptions:\n  any:\n    definitions:\n      private:\n        - VERSION=PACKAGE_VERSION\nfiles:\n  - src\/.*\\.cc\n  - src\/.*\\.h\nexclude_from_package: src\/jbig2.cc\nsource:\n  git: https:\/\/github.com\/agl\/jbig2enc\n  branch: master\nversion: master\nstatic_only: true",
+    "cppan": "source:\n    git: https:\/\/github.com\/agl\/jbig2enc\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nfiles:\n    -   src\/.*\\.cc\n    -   src\/.*\\.h\n\nexclude_from_package: src\/jbig2.cc\n\ninclude_directories:\n    public: src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   VERSION=PACKAGE_VERSION\n\ndependencies:\n    public:\n        pvt.cppan.demo.danbloomberg.leptonica: master\n\npatch:\n    replace_in_files:\n        lept_header:\n            from: leptonica\/allheaders.h\n            to: allheaders.h\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/agl\/jbig2enc",

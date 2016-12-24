@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.jxrlib",
-    "cppan": "source:\n  remote: http:\/\/download-codeplex.sec.s-msft.com\/Download\/Release?ProjectName=jxrlib&DownloadId=685249&FileTime=130142428055530000&Build=21031\nfiles:\n  - jxrgluelib\/.*\\.c\n  - jxrgluelib\/.*\\.h\n  - image\/decode\/.*\n  - image\/encode\/.*\n  - image\/sys\/.*\n  - image\/x86\/.*\n  - common\/include\/.*\ninclude_directories:\n  public:\n    - common\/include\n    - jxrgluelib\n    - image\/sys\nstatic_only: true\nversion: 1.1.0",
+    "cppan": "source:\n    remote: http:\/\/download-codeplex.sec.s-msft.com\/Download\/Release?ProjectName=jxrlib&DownloadId=685249&FileTime=130142428055530000&Build=21031\n\nversion: 1.1.0\n\nstatic_only: true\n\nfiles:\n    -   jxrgluelib\/.*\\.c\n    -   jxrgluelib\/.*\\.h\n    -   image\/decode\/.*\n    -   image\/encode\/.*\n    -   image\/sys\/.*\n    -   image\/x86\/.*\n    -   common\/include\/.*\n\ninclude_directories:\n    public:\n        -   common\/include\n        -   jxrgluelib\n        -   image\/sys\n\n",
     "version": "1.1.0",
     "source": {
         "remote": {

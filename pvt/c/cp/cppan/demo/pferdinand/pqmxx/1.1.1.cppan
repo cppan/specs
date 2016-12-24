@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.pferdinand.pqmxx",
-    "cppan": "version: 1.1.1\ndependencies:\n  pvt.cppan.demo.cmake.postgresql: master\nsource:\n  git: https:\/\/github.com\/pferdinand\/libpqmxx\n  tag: 1.1.1\nfiles:\n  - include\/.*\n  - src\/.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/pferdinand\/libpqmxx\n    tag: 1.1.1\n\nversion: 1.1.1\n\nfiles:\n    -   include\/.*\n    -   src\/.*\n\ndependencies:\n    pvt.cppan.demo.cmake.postgresql: master\n\n",
     "version": "1.1.1",
     "source": {
         "git": {

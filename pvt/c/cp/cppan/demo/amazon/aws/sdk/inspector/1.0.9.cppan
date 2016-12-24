@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.amazon.aws.sdk.inspector",
-    "cppan": "dependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"\noptions:\n  shared:\n    definitions:\n      private:\n        - AWS_INSPECTOR_EXPORTS\nc++: 11\nfiles:\n  - include\/.*\n  - source\/.*\nroot_directory: aws-cpp-sdk-inspector\nsource:\n  tag: 1.0.9\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\nversion: 1.0.9",
+    "cppan": "source:\n    tag: 1.0.9\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n\nversion: 1.0.9\n\nroot_directory: aws-cpp-sdk-inspector\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_INSPECTOR_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core: \"*\"\n\n",
     "version": "1.0.9",
     "source": {
         "git": {

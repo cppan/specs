@@ -1,10 +1,10 @@
 {
-    "cppan": "license: LICENSE.txt\r\nfiles: vulkan/vulkan.hpp\r\ninclude_directories:\r\n  public: .\r\ndependencies:\r\n  pvt.cppan.demo.tinyxml2: \"*\"",
+    "cppan": "license: LICENSE.txt\n\nfiles: vulkan\/vulkan.hpp\n\ninclude_directories:\n    public: .\n\ndependencies:\n    pvt.cppan.demo.tinyxml2: \"*\"\n\n",
     "project": "pvt.cppan.demo.vulkan_hpp",
     "source": {
         "git": {
             "branch": "master",
-            "url": "https://github.com/KhronosGroup/Vulkan-Hpp"
+            "url": "https:\/\/github.com\/KhronosGroup\/Vulkan-Hpp"
         }
     },
     "version": "master"

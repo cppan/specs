@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.amazon.aws.sdk.kinesis",
-    "cppan": "dependencies:\n  public:\n    pvt.cppan.demo.amazon.aws.sdk.core: !<!> \"*\"\nc++: 11\nversion: 1.0.9\nfiles:\n  - include\/.*\n  - source\/.*\nsource:\n  tag: 1.0.9\n  git: https:\/\/github.com\/aws\/aws-sdk-cpp\noptions:\n  shared:\n    definitions:\n      private:\n        - AWS_KINESIS_EXPORTS\nroot_directory: aws-cpp-sdk-kinesis",
+    "cppan": "source:\n    tag: 1.0.9\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n\nversion: 1.0.9\n\nroot_directory: aws-cpp-sdk-kinesis\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_KINESIS_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core: \"*\"\n\n",
     "version": "1.0.9",
     "source": {
         "git": {

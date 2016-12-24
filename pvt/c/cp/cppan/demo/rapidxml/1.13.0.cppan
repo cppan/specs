@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.rapidxml",
-    "cppan": "files:\n  - .*\\.hpp\nsource:\n  remote: !<!> http:\/\/freefr.dl.sourceforge.net\/project\/rapidxml\/rapidxml\/rapidxml%201.13\/rapidxml-1.13.zip\nversion: 1.13.0\nlicense: license.txt",
+    "cppan": "source:\n    remote: http:\/\/freefr.dl.sourceforge.net\/project\/rapidxml\/rapidxml\/rapidxml%201.13\/rapidxml-1.13.zip\n\nversion: 1.13.0\n\nlicense: license.txt\n\nfiles:\n    -   .*\\.hpp\n\n",
     "version": "1.13.0",
     "source": {
         "remote": {

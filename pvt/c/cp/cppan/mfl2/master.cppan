@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "files:\n  - include\/.*\n  - src\/.*\ndependencies:\n  pvt.cppan.mfl1: master",
+    "cppan": "files:\n    -   include\/.*\n    -   src\/.*\n\ndependencies:\n    pvt.cppan.mfl1: master\n\n",
     "sha256": "0f949422e6d0aa17f0703d8f7c1aad0ff4bbfc648d6a0597c675adc19669e7d7",
     "created": "2016-09-05 20:46:30.067689"
 }

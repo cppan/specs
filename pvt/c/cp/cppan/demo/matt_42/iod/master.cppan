@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.matt_42.iod",
-    "cppan": "files: iod\/.*",
+    "cppan": "files: iod\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

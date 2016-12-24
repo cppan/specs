@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.gpakosz.whereami",
-    "cppan": "source:\n  git: https:\/\/github.com\/gpakosz\/whereami",
+    "cppan": "source:\n    git: https:\/\/github.com\/gpakosz\/whereami\n\n",
     "version": "master",
     "source": {
         "git": {

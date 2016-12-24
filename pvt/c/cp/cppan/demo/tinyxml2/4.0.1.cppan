@@ -1,5 +1,5 @@
 {
-    "cppan": "files:\r\n  - tinyxml2.cpp\r\n  - tinyxml2.h\r\ninclude_directories:\r\n  public: .",
+    "cppan": "files:\n    -   tinyxml2.cpp\n    -   tinyxml2.h\n\ninclude_directories:\n    public: .\n\n",
     "project": "pvt.cppan.demo.tinyxml2",
     "source": {
         "git": {

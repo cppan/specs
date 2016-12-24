@@ -1,5 +1,5 @@
 {
-    "cppan": "license: LICENSE\r\nfiles:\r\n  - include\/.*\\.h\r\n  - src\/.*\\.cc\r\ndependencies:\r\n  pvt.cppan.demo.rapidjson: 1",
+    "cppan": "license: LICENSE\n\nfiles:\n    -   include\/.*\\.h\n    -   src\/.*\\.cc\n\ndependencies:\n    pvt.cppan.demo.rapidjson: 1\n\n",
     "project": "pvt.cppan.demo.pistache",
     "source": {
         "git": {

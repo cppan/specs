@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.cmake.postgresql",
-    "cppan": "source:\n  remote: https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip\nversion: master\ninclude_directories:\n  public: ${PostgreSQL_INCLUDE_DIRS}\npost_sources: !<!> \"find_package(PostgreSQL REQUIRED)\\nfind_library(pg_lib ${PostgreSQL_LIBRARIES} HINTS ${PostgreSQL_LIBRARY_DIRS})\\n\"\noptions:\n  any:\n    link_libraries:\n      public: ${pg_lib}\n    include_directories: ${PostgreSQL_INCLUDE_DIRS}\nempty: true",
+    "cppan": "source:\n    remote: https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip\n\nversion: master\n\nempty: true\n\ninclude_directories:\n    public: ${PostgreSQL_INCLUDE_DIRS}\n\noptions:\n    any:\n        link_libraries:\n            public: ${pg_lib}\n        include_directories: ${PostgreSQL_INCLUDE_DIRS}\n\npost_sources: |\n    find_package(PostgreSQL REQUIRED)\n    find_library(pg_lib ${PostgreSQL_LIBRARIES} HINTS ${PostgreSQL_LIBRARY_DIRS})\n    \n\n",
     "version": "master",
     "source": {
         "remote": {

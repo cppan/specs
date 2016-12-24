@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo._7zip.lzma_sdk",
-    "cppan": "files:\n  grp:\n    files:\n      - .*\\.h\n      - Alloc.c\n      - LzFind.c\n      - LzFindMt.c\n      - LzmaDec.c\n      - LzmaEnc.c\n      - LzmaLib.c\n      - Threads.c\n      - Util\/LzmaLib\/LzmaLib.def\n    root: C\nsource:\n  remote: http:\/\/www.7-zip.org\/a\/lzma1602.7z\nversion: 16.2.0\npost_sources: !<!> remove_src_unix(Util\/LzmaLib\/LzmaLib.def)\ninclude_directories:\n  public: C",
+    "cppan": "source:\n    remote: http:\/\/www.7-zip.org\/a\/lzma1602.7z\n\nversion: 16.2.0\n\nfiles:\n    grp:\n        files:\n            -   .*\\.h\n            -   Alloc.c\n            -   LzFind.c\n            -   LzFindMt.c\n            -   LzmaDec.c\n            -   LzmaEnc.c\n            -   LzmaLib.c\n            -   Threads.c\n            -   Util\/LzmaLib\/LzmaLib.def\n        root: C\n\ninclude_directories:\n    public: C\n\npost_sources: |\n    remove_src_unix(Util\/LzmaLib\/LzmaLib.def)\n\n",
     "version": "16.2.0",
     "source": {
         "remote": {

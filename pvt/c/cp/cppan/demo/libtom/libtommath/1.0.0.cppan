@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.libtom.libtommath",
-    "cppan": "static_only: true\nversion: 1.0.0\nsource:\n  git: https:\/\/github.com\/libtom\/libtommath\n  tag: v1.0\nlicense: LICENSE\nfiles:\n  - .*\\.h\n  - bn.*\\.c",
+    "cppan": "source:\n    git: https:\/\/github.com\/libtom\/libtommath\n    tag: v1.0\n\nversion: 1.0.0\n\nlicense: LICENSE\n\nstatic_only: true\n\nfiles:\n    -   .*\\.h\n    -   bn.*\\.c\n\n",
     "version": "1.0.0",
     "source": {
         "git": {

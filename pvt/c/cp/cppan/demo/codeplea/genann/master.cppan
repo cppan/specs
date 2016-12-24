@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.codeplea.genann",
-    "cppan": "source:\n  git: https:\/\/github.com\/codeplea\/genann\nfiles: genann.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/codeplea\/genann\n\nfiles: genann.*\n\n",
     "version": "master",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.bmaynard.inireader.clib",
-    "cppan": "source:\n  git: https:\/\/github.com\/bmaynard\/iniReader\n  branch: master\nroot_directory: C\nfiles: iniReader.*\nstatic_only: true",
+    "cppan": "source:\n    git: https:\/\/github.com\/bmaynard\/iniReader\n    branch: master\n\nroot_directory: C\n\nstatic_only: true\n\nfiles: iniReader.*\n\n",
     "version": "master",
     "source": {
         "git": {

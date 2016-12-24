@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.grigorig.ucdn",
-    "cppan": "source:\n  git: https:\/\/github.com\/grigorig\/ucdn\nfiles:\n  - ucdn.c\n  - ucdn.h\n  - unicodedata_db.h",
+    "cppan": "source:\n    git: https:\/\/github.com\/grigorig\/ucdn\n\nfiles:\n    -   ucdn.c\n    -   ucdn.h\n    -   unicodedata_db.h\n\n",
     "version": "master",
     "source": {
         "git": {

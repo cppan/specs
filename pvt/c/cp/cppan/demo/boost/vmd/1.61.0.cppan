@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.boost.vmd",
-    "cppan": "files:\n  - include\/.*\nversion: 1.61.0\ndependencies:\n  public:\n    pvt.cppan.demo.boost.preprocessor:\n      version: !<!> \"*\"\n      include_directories_only: true\ninclude_directories:\n  public:\n    - include\nsource:\n  tag: boost-1.61.0\n  git: https:\/\/github.com\/boostorg\/vmd\nheader_only: true",
+    "cppan": "source:\n    tag: boost-1.61.0\n    git: https:\/\/github.com\/boostorg\/vmd\n\nversion: 1.61.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n\n",
     "version": "1.61.0",
     "source": {
         "git": {

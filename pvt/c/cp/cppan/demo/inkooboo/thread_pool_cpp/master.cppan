@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.inkooboo.thread_pool_cpp",
-    "cppan": "files: thread_pool\/.*\ninclude_directories:\n  public:\n    - .\n    - thread_pool\nversion: master\nsource:\n  git: https:\/\/github.com\/inkooboo\/thread-pool-cpp\n  branch: master",
+    "cppan": "source:\n    git: https:\/\/github.com\/inkooboo\/thread-pool-cpp\n    branch: master\n\nversion: master\n\nfiles: thread_pool\/.*\n\ninclude_directories:\n    public:\n        -   .\n        -   thread_pool\n\n",
     "version": "master",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.sqlite3",
-    "cppan": "files:\n  - sqlite3.h\n  - sqlite3ext.h\n  - sqlite3.c\noptions:\n  shared:\n    definitions:\n      public:\n        - SQLITE_API=${LIBRARY_API}",
+    "cppan": "files:\n    -   sqlite3.h\n    -   sqlite3ext.h\n    -   sqlite3.c\n\noptions:\n    shared:\n        definitions:\n            public:\n                -   SQLITE_API=${LIBRARY_API}\n\n",
     "version": "3.14.2",
     "source": {
         "remote": {

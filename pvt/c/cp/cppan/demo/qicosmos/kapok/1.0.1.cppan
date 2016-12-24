@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.qicosmos.kapok",
-    "cppan": "version: 1.0.1\nsource:\n  git: https:\/\/github.com\/qicosmos\/Kapok\n  tag: v1.001\nfiles: kapok\/.*\ndependencies:\n  pvt.cppan.demo.fmt: 3\n  pvt.cppan.demo.boost.optional: 1\n  pvt.cppan.demo.boost.mpl: 1\n  pvt.cppan.demo.boost.lexical_cast: 1\n  pvt.cppan.demo.rapidjson: 1\n  pvt.cppan.demo.boost.variant: 1",
+    "cppan": "source:\n    git: https:\/\/github.com\/qicosmos\/Kapok\n    tag: v1.001\n\nversion: 1.0.1\n\nfiles: kapok\/.*\n\ndependencies:\n    pvt.cppan.demo.fmt: 3\n    pvt.cppan.demo.boost.optional: 1\n    pvt.cppan.demo.boost.mpl: 1\n    pvt.cppan.demo.boost.lexical_cast: 1\n    pvt.cppan.demo.rapidjson: 1\n    pvt.cppan.demo.boost.variant: 1\n\n",
     "version": "1.0.1",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.johnezang.pithy",
-    "cppan": "source:\n  git: https:\/\/github.com\/johnezang\/pithy",
+    "cppan": "source:\n    git: https:\/\/github.com\/johnezang\/pithy\n\n",
     "version": "master",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.reactive_extensions.rxcpp",
-    "cppan": "version: 3.0.0\nsource:\n  git: https:\/\/github.com\/Reactive-Extensions\/RxCpp\n  tag: v3.0.0\ninclude_directories:\n  public: Rx\/v2\/src\nfiles:\n  - Rx\/v2\/src\/.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/Reactive-Extensions\/RxCpp\n    tag: v3.0.0\n\nversion: 3.0.0\n\nfiles:\n    -   Rx\/v2\/src\/.*\n\ninclude_directories:\n    public: Rx\/v2\/src\n\n",
     "version": "3.0.0",
     "source": {
         "git": {

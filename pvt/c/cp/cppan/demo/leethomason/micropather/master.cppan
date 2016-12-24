@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.leethomason.micropather",
-    "cppan": "source:\n  git: https:\/\/github.com\/leethomason\/MicroPather\nfiles: micropather.*",
+    "cppan": "source:\n    git: https:\/\/github.com\/leethomason\/MicroPather\n\nfiles: micropather.*\n\n",
     "version": "master",
     "source": {
         "git": {

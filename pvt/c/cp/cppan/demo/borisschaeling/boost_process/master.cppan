@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.borisschaeling.boost_process",
-    "cppan": "files: boost\/.*",
+    "cppan": "files: boost\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

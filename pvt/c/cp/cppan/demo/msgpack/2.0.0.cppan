@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.msgpack",
-    "cppan": "source:\n  git: https:\/\/github.com\/msgpack\/msgpack-c\n  tag: cpp-2.0.0\nversion: 2.0.0\ninclude_directories:\n  public:\n    - .\n    - include",
+    "cppan": "source:\n    git: https:\/\/github.com\/msgpack\/msgpack-c\n    tag: cpp-2.0.0\n\nversion: 2.0.0\n\ninclude_directories:\n    public:\n        -   .\n        -   include\n\n",
     "version": "2.0.0",
     "source": {
         "git": {

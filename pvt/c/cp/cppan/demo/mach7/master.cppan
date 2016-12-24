@@ -1,5 +1,5 @@
 {
-    "cppan": "license: LICENSE\r\nfiles: code\/mach7\/.*\r\n\r\ninclude_directories:\r\n    public: code\r\n",
+    "cppan": "license: LICENSE\n\nfiles: code\/mach7\/.*\n\ninclude_directories:\n    public: code\n\n",
     "project": "pvt.cppan.demo.mach7",
     "source": {
         "git": {

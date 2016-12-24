@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.troydhanson.uthash",
-    "cppan": "source:\n  git: https:\/\/github.com\/troydhanson\/uthash\n  tag: v2.0.1\nversion: 2.0.1\nfiles:\n  - src\/.*\n  - libut\/src\/.*\ninclude_directories:\n  public: src",
+    "cppan": "source:\n    git: https:\/\/github.com\/troydhanson\/uthash\n    tag: v2.0.1\n\nversion: 2.0.1\n\nfiles:\n    -   src\/.*\n    -   libut\/src\/.*\n\ninclude_directories:\n    public: src\n\n",
     "version": "2.0.1",
     "source": {
         "git": {

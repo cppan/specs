@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.fmt",
-    "cppan": "source:\n  tag: 3.0.1\n  git: https:\/\/github.com\/fmtlib\/fmt\nversion: 3.0.1\nfiles:\n  - fmt\/format.*\ninclude_directories:\n  public:\n    - .\n    - fmt\noptions:\n  shared:\n    definitions:\n      private:\n        - FMT_EXPORT\n      public:\n        - FMT_SHARED",
+    "cppan": "source:\n    tag: 3.0.1\n    git: https:\/\/github.com\/fmtlib\/fmt\n\nversion: 3.0.1\n\nfiles:\n    -   fmt\/format.*\n\ninclude_directories:\n    public:\n        -   .\n        -   fmt\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   FMT_EXPORT\n            public:\n                -   FMT_SHARED\n\n",
     "version": "3.0.1",
     "source": {
         "git": {

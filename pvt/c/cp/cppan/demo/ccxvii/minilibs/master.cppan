@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.ccxvii.minilibs",
-    "cppan": "source:\n  git: https:\/\/github.com\/ccxvii\/minilibs",
+    "cppan": "source:\n    git: https:\/\/github.com\/ccxvii\/minilibs\n\n",
     "version": "master",
     "source": {
         "git": {

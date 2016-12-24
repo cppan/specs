@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.karimnaaji.quickhull_3d",
-    "cppan": "source:\n  branch: master\n  git: https:\/\/github.com\/karimnaaji\/3d-quickhull\nversion: master\nfiles: quickhull.h\noptions:\n  any:\n    dependencies:\n      public: QUICKHULL_IMPLEMENTATION",
+    "cppan": "source:\n    branch: master\n    git: https:\/\/github.com\/karimnaaji\/3d-quickhull\n\nversion: master\n\nfiles: quickhull.h\n\noptions:\n    any:\n        dependencies:\n            public: QUICKHULL_IMPLEMENTATION\n\n",
     "version": "master",
     "source": {
         "git": {

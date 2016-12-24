@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.tweetnacl",
-    "cppan": "source:\n  files:\n    - http:\/\/tweetnacl.cr.yp.to\/20131229\/tweetnacl.h\n    - http:\/\/tweetnacl.cr.yp.to\/20131229\/tweetnacl.c\nversion: 2013.12.29",
+    "cppan": "source:\n    files:\n        -   http:\/\/tweetnacl.cr.yp.to\/20131229\/tweetnacl.h\n        -   http:\/\/tweetnacl.cr.yp.to\/20131229\/tweetnacl.c\n\nversion: 2013.12.29\n\n",
     "version": "2013.12.29",
     "source": {
         "files": [

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.superv1234.vrm.core",
-    "cppan": "version: master\nsource:\n  branch: master\n  git: https:\/\/github.com\/SuperV1234\/vrm_core\noptions:\n  any:\n    definitions:\n      public: VRM_CORE_INLINE_LIBRARY\nfiles:\n  - include\/.*\ndependencies:\n  pvt.cppan.demo.superv1234.vrm.pp: master\nheader_only: true",
+    "cppan": "source:\n    branch: master\n    git: https:\/\/github.com\/SuperV1234\/vrm_core\n\nversion: master\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\noptions:\n    any:\n        definitions:\n            public: VRM_CORE_INLINE_LIBRARY\n\ndependencies:\n    pvt.cppan.demo.superv1234.vrm.pp: master\n\n",
     "version": "master",
     "source": {
         "git": {

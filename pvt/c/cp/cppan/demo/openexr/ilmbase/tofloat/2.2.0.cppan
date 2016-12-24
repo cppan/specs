@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.openexr.ilmbase.tofloat",
-    "cppan": "files: Half\/toFloat.cpp\nsource:\n  remote: http:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-2.2.0.tar.gz\nversion: 2.2.0",
+    "cppan": "source:\n    remote: http:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-2.2.0.tar.gz\n\nversion: 2.2.0\n\nfiles: Half\/toFloat.cpp\n\n",
     "version": "2.2.0",
     "source": {
         "remote": {

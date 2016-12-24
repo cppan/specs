@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.arximboldi.immer",
-    "cppan": "files: immer\/.*",
+    "cppan": "files: immer\/.*\n\n",
     "version": "master",
     "source": {
         "git": {

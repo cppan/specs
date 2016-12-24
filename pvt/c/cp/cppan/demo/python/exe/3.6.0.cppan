@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.python.exe",
-    "cppan": "files:\n  - Programs\/python.c\nversion: 3.6.0\nsource:\n  remote: https:\/\/www.python.org\/ftp\/python\/3.6.0\/Python-3.6.0.tar.xz\ndependencies: pvt.cppan.demo.python.lib",
+    "cppan": "source:\n    remote: https:\/\/www.python.org\/ftp\/python\/3.6.0\/Python-3.6.0.tar.xz\n\nversion: 3.6.0\n\nfiles:\n    -   Programs\/python.c\n\ndependencies: pvt.cppan.demo.python.lib\n\n",
     "version": "3.6.0",
     "source": {
         "remote": {

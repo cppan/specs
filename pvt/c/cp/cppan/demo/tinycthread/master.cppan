@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.tinycthread",
-    "cppan": "source:\n  git: https:\/\/github.com\/tinycthread\/tinycthread\nfiles: source\/.*\ninclude_directories:\n  public: source\nstatic_only: true",
+    "cppan": "source:\n    git: https:\/\/github.com\/tinycthread\/tinycthread\n\nstatic_only: true\n\nfiles: source\/.*\n\ninclude_directories:\n    public: source\n\n",
     "version": "master",
     "source": {
         "git": {

@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.boost.predef",
-    "cppan": "include_directories:\n  public:\n    - include\nsource:\n  tag: boost-1.62.0\n  git: https:\/\/github.com\/boostorg\/predef\nversion: 1.62.0\nheader_only: true\nfiles:\n  - include\/.*",
+    "cppan": "source:\n    tag: boost-1.62.0\n    git: https:\/\/github.com\/boostorg\/predef\n\nversion: 1.62.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\n",
     "version": "1.62.0",
     "source": {
         "git": {

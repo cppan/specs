@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.daniilguit.openbgi",
-    "cppan": "source:\n  git: https:\/\/github.com\/daniilguit\/openbgi\nroot_directory: library\nfiles:\n  - .*\\.c\n  - .*\\.h\n  - .*\\.C\n  - .*\\.H",
+    "cppan": "source:\n    git: https:\/\/github.com\/daniilguit\/openbgi\n\nroot_directory: library\n\nfiles:\n    -   .*\\.c\n    -   .*\\.h\n    -   .*\\.C\n    -   .*\\.H\n\n",
     "version": "master",
     "source": {
         "git": {

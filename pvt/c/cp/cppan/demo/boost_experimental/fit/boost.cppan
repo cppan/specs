@@ -1,5 +1,5 @@
 {
-    "cppan": "files: include\/.*\r\n",
+    "cppan": "files: include\/.*\n\n",
     "project": "pvt.cppan.demo.boost_experimental.fit",
     "source": {
         "git": {

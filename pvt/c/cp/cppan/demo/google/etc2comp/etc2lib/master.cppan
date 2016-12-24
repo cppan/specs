@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.google.etc2comp.etc2lib",
-    "cppan": "static_only: true\nversion: master\nsource:\n  git: https:\/\/github.com\/google\/etc2comp\n  branch: master\nfiles:\n  - EtcLib\/.*\\.h\n  - EtcLib\/.*\\.cpp\ninclude_directories:\n  public:\n    - EtcLib\/Etc\n    - EtcLib\/EtcCodec",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/etc2comp\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nfiles:\n    -   EtcLib\/.*\\.h\n    -   EtcLib\/.*\\.cpp\n\ninclude_directories:\n    public:\n        -   EtcLib\/Etc\n        -   EtcLib\/EtcCodec\n\n",
     "version": "master",
     "source": {
         "git": {

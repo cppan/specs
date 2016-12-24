@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.oberhumer.lzo.lzo",
-    "cppan": "source:\n  remote: http:\/\/www.oberhumer.com\/opensource\/lzo\/download\/lzo-2.09.tar.gz\nversion: 2.0.9\ntype: lib\noptions:\n  any:\n    definitions:\n      public:\n        - __LZO_EXPORT1=${LIBRARY_API}",
+    "cppan": "source:\n    remote: http:\/\/www.oberhumer.com\/opensource\/lzo\/download\/lzo-2.09.tar.gz\n\nversion: 2.0.9\n\ntype: lib\n\noptions:\n    any:\n        definitions:\n            public:\n                -   __LZO_EXPORT1=${LIBRARY_API}\n\n",
     "version": "2.0.9",
     "source": {
         "remote": {

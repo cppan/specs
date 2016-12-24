@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.tessil.hopscotch_map",
-    "cppan": "version: 0.2.0\ninclude_directories:\n  public: src\nsource:\n  tag: v0.2.0\n  git: https:\/\/github.com\/Tessil\/hopscotch-map\nfiles: src\/.*",
+    "cppan": "source:\n    tag: v0.2.0\n    git: https:\/\/github.com\/Tessil\/hopscotch-map\n\nversion: 0.2.0\n\nfiles: src\/.*\n\ninclude_directories:\n    public: src\n\n",
     "version": "0.2.0",
     "source": {
         "git": {

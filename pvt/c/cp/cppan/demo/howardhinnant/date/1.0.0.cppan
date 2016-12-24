@@ -1,10 +1,10 @@
 {
-    "cppan": "files: date.h\r\ninclude_directories:\r\n    public: .\r\n",
+    "cppan": "files: date.h\n\ninclude_directories:\n    public: .\n\n",
     "project": "pvt.cppan.demo.howardhinnant.date",
     "source": {
         "git": {
             "tag": "v1.0.0",
-            "url": "https://github.com/HowardHinnant/date"
+            "url": "https:\/\/github.com\/HowardHinnant\/date"
         }
     },
     "version": "1.0.0"
