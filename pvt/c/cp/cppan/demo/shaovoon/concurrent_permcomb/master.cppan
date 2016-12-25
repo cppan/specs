@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.shaovoon.concurrent_permcomb",
+    "cppan": "root_directory: PermComb\n\nfiles: permcomb\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/shaovoon\/concurrent_permcomb",
+            "branch": "master"
+        }
+    },
+    "sha256": "af0fc85158c312dc238fbadd12d9ffef041ef554d39c6011dfe0670525e3f36d",
+    "created": "2016-12-25 13:27:32.683466"
+}
