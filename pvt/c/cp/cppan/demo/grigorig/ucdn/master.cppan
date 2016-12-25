@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.grigorig.ucdn",
-    "cppan": "source:\n    git: https:\/\/github.com\/grigorig\/ucdn\n\nfiles:\n    -   ucdn.c\n    -   ucdn.h\n    -   unicodedata_db.h\n\n",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/grigorig\/ucdn\n\nstatic_only: true\n\nfiles:\n    -   ucdn.c\n    -   ucdn.h\n    -   unicodedata_db.h\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/grigorig\/ucdn",
             "branch": "master"
         }
     },
-    "sha256": "786d821ebd013de3db3aba908f6f9ff1fba3f222815f467004c8304909069e1d",
-    "created": "2016-12-05 21:35:23.166823"
+    "version": "master",
+    "sha256": "669654b7db4059a2342a9b88053650d6a1e15c6ec903124ca64fff5fcf3f54ed",
+    "created": "2016-12-25 12:29:31.908908"
 }
