@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.tuple",
+    "version": "1.63.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/tuple\n    commit: d77e569c899f7eb3d1f255889e739d586ba5900f\n\nversion: 1.63.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/tuple",
+            "commit": "d77e569c899f7eb3d1f255889e739d586ba5900f"
+        }
+    },
+    "sha256": "362859ea9e5a616723e619a81c58e0930f822ab296f72fcae4dfe4c605d15ef8",
+    "created": "2016-12-30 20:49:47.560559"
+}

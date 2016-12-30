@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.logic",
+    "version": "1.63.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/logic\n    commit: 8cb497225694a811bb669f2b0f7dd205d3992114\n\nversion: 1.63.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/logic",
+            "commit": "8cb497225694a811bb669f2b0f7dd205d3992114"
+        }
+    },
+    "sha256": "e7240874a8a6d54329cb4197acd00cf857b6a26d17bf1c571a60381b9db7c789",
+    "created": "2016-12-30 20:48:37.273853"
+}

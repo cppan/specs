@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.system",
+    "version": "1.63.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/system\n    commit: e5da5ce2cfef69630687434b292507af9fda83d9\n\nversion: 1.63.0\n\nfiles:\n    -   include\/.*\n    -   src\/.*\n\ninclude_directories:\n    public:\n        -   include\n    private:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   BOOST_SYSTEM_BUILDING_THE_LIB\n                -   BOOST_SYSTEM_SOURCE\n    shared:\n        definitions:\n            private:\n                -   BOOST_SYSTEM_BUILD_DLL\n            public:\n                -   BOOST_ALL_DYN_LINK\n                -   BOOST_SYSTEM_DYN_LINK\n                -   BOOST_SYSTEM_USE_DLL\n    static:\n        definitions:\n            public:\n                -   BOOST_ALL_STATIC_LINK\n                -   BOOST_SYSTEM_BUILD_LIB\n                -   BOOST_SYSTEM_STATIC_LINK\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/system",
+            "commit": "e5da5ce2cfef69630687434b292507af9fda83d9"
+        }
+    },
+    "sha256": "a8d8a55a438236d9a8c8aa53823cf2551225e9cf1c70467b227697b5e8b973d7",
+    "created": "2016-12-30 20:49:38.747804"
+}

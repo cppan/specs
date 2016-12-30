@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.foonathan.memory",
-    "cppan": "version: 0.6.0\n\nfiles:\n    -   include\/.*\n    -   src\/.*\\.cpp\n    -   src\/.*\\.hpp\n    -   src\/.*\\.in\n\ninclude_directories:\n    public:\n        -   include\n    private:\n        -   include\/foonathan\/memory\n        -   src\n\noptions: ~\n\npost_sources: |\n    configure_file(${SDIR}\/src\/config.hpp.in ${BDIR}\/config_impl.hpp)\n    file(WRITE ${BDIR}\/container_node_sizes.hpp \"\")\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/foonathan\/memory\n    tag: v0.6\n\nversion: 0.6.0\n\nfiles:\n    -   include\/.*\n    -   src\/.*\\.cpp\n    -   src\/.*\\.hpp\n    -   src\/.*\\.in\n\ninclude_directories:\n    public:\n        -   include\n    private:\n        -   src\n        -   include\/foonathan\/memory\n\npost_sources: |\n    configure_file(${SDIR}\/src\/config.hpp.in ${BDIR}\/config_impl.hpp)\n    file(WRITE ${BDIR}\/container_node_sizes.hpp \"\")\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/foonathan\/memory",
@@ -8,6 +8,6 @@
         }
     },
     "version": "0.6.0",
-    "sha256": "6891e3bb16f7e3efa2dd2e9e8045215e86ea6d96eb9219e0f71d5d571d1c6882",
-    "created": "2016-12-29 15:09:11.281073"
+    "sha256": "0cad9b8a0f7ed185f2b7488f39276c3b3c5f02c4578c01bbdcd88e03e3dc1061",
+    "created": "2016-12-30 20:40:32.139929"
 }

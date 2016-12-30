@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.png",
-    "cppan": "version: 1.6.27\n\nfiles:\n    -   png.c\n    -   png.h\n    -   pngconf.h\n    -   pngdebug.h\n    -   pngerror.c\n    -   pngget.c\n    -   pnginfo.h\n    -   pngmem.c\n    -   pngpread.c\n    -   pngpriv.h\n    -   pngread.c\n    -   pngrio.c\n    -   pngrtran.c\n    -   pngrutil.c\n    -   pngset.c\n    -   pngstruct.h\n    -   pngtrans.c\n    -   pngwio.c\n    -   pngwrite.c\n    -   pngwtran.c\n    -   pngwutil.c\n    -   scripts\/pnglibconf.h.prebuilt\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.zlib:\n            version: 1\n\npre_sources: |\n    configure_file(${CMAKE_CURRENT_SOURCE_DIR}\/scripts\/pnglibconf.h.prebuilt\n                   ${CMAKE_CURRENT_BINARY_DIR}\/pnglibconf.h)\n\n",
-    "version": "1.6.27",
+    "cppan": "source:\n    remote: http:\/\/tenet.dl.sourceforge.net\/project\/libpng\/libpng16\/1.6.27\/libpng-1.6.27.tar.gz\n\nversion: 1.6.27\n\nfiles:\n    -   png.c\n    -   png.h\n    -   pngconf.h\n    -   pngdebug.h\n    -   pngerror.c\n    -   pngget.c\n    -   pnginfo.h\n    -   pngmem.c\n    -   pngpread.c\n    -   pngpriv.h\n    -   pngread.c\n    -   pngrio.c\n    -   pngrtran.c\n    -   pngrutil.c\n    -   pngset.c\n    -   pngstruct.h\n    -   pngtrans.c\n    -   pngwio.c\n    -   pngwrite.c\n    -   pngwtran.c\n    -   pngwutil.c\n    -   scripts\/pnglibconf.h.prebuilt\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.zlib:\n            version: 1\n\npre_sources: |\n    configure_file(${CMAKE_CURRENT_SOURCE_DIR}\/scripts\/pnglibconf.h.prebuilt\n                   ${CMAKE_CURRENT_BINARY_DIR}\/pnglibconf.h)\n\n",
     "source": {
         "remote": {
             "url": "http:\/\/tenet.dl.sourceforge.net\/project\/libpng\/libpng16\/1.6.27\/libpng-1.6.27.tar.gz"
         }
     },
-    "sha256": "e02492d9df4caf2353803df499cb129827b886b7b80e1f63d153f4052bb4ee60",
-    "created": "2016-12-29 20:44:00.634451"
+    "version": "1.6.27",
+    "sha256": "ec829d409e8a735f32bc8cb4d806e9cbca085787f56eed8f1e9b7170d15c691b",
+    "created": "2016-12-30 20:42:50.066186"
 }
