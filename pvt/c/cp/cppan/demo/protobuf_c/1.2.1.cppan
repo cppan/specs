@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.protobuf_c",
+    "cppan": "version: 1.2.1\n\nfiles:\n    -   protobuf-c\/.*\\.c\n    -   protobuf-c\/.*\\.h\n\ninclude_directories:\n    public:\n        -   protobuf-c\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/protobuf-c\/protobuf-c",
+            "tag": "v1.2.1"
+        }
+    },
+    "version": "1.2.1",
+    "sha256": "cb963d383645658830283d10af802210be37bb11f7776651aabf245757cbeb6b",
+    "created": "2016-12-30 19:30:52.492164"
+}
