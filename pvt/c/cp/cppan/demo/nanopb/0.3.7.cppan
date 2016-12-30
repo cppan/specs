@@ -1,0 +1,13 @@
+{
+    "cppan": "version: 0.3.7\n\nlicense: LICENSE.txt\n\nfiles:\n    -   pb.h\n    -   pb_common.c\n    -   pb_common.h\n    -   pb_decode.c\n    -   pb_decode.h\n    -   pb_encode.c\n    -   pb_encode.h\n\n",
+    "project": "pvt.cppan.demo.nanopb",
+    "source": {
+        "git": {
+            "tag": "nanopb-0.3.7",
+            "url": "https:\/\/github.com\/nanopb\/nanopb"
+        }
+    },
+    "version": "0.3.7",
+    "sha256": "99d7bb8ece79e50868875aab87c9eb7d30215ef6ce6f2e864ee495146b060b7b",
+    "created": "2016-12-30 18:53:07.99578"
+}
