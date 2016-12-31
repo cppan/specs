@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.tesseract.ambiguous_words",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/ambiguous_words.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.tesseract:\n            version: \"*\"\n\n",
+    "sha256": "c34d26ec280676efbe0c53e2f82feaebd4e35962b24f831e167cebb3836b3272",
+    "created": "2016-12-31 14:52:53.969123"
+}

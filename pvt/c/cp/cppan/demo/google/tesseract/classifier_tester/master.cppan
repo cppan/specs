@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.tesseract.classifier_tester",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/classifier_tester.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.common_training:\n            version: \"*\"\n\n",
+    "sha256": "15102faf9cf51113f1398cdc02600eb11b261c09ef8cf62905865ec5133d1299",
+    "created": "2016-12-31 14:52:57.312311"
+}

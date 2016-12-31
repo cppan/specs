@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.tesseract.shapeclustering",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/shapeclustering.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.common_training:\n            version: \"*\"\n\n",
+    "sha256": "fc51c5ceaa5fbaa10bbb6a45cc37e31b98814b19af8cc0358c9dd05716fcc954",
+    "created": "2016-12-31 14:53:31.302374"
+}
