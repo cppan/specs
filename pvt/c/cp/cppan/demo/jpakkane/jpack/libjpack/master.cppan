@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jpakkane.jpack.libjpack",
+    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/jpakkane\/jpak\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nfiles:\n    -   file.*\n    -   fileutils.*\n    -   mmapper.*\n    -   utils.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.xz_utils.lzma:\n            version: 5\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jpakkane\/jpak",
+            "branch": "master"
+        }
+    },
+    "sha256": "4c8af29cdc75987dd4ec999fb34682a7778863872cf21e6e7e112eecf3ffbf93",
+    "created": "2017-01-02 17:03:41.895173"
+}

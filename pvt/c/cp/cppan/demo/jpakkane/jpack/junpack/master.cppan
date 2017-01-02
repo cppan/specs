@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jpakkane.jpack.junpack",
+    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/jpakkane\/jpak\n    branch: master\n\nversion: master\n\nfiles:\n    -   junpack.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.jpakkane.jpack.libjpack:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jpakkane\/jpak",
+            "branch": "master"
+        }
+    },
+    "sha256": "16a8f8171ef9bbf76f6370be619301eee16fb5f0aea574176591853f152bc48c",
+    "created": "2017-01-02 17:02:15.158536"
+}
