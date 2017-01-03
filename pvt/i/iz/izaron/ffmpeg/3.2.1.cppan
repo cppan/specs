@@ -1,0 +1,13 @@
+{
+    "project": "pvt.izaron.ffmpeg",
+    "cppan": "source:\n    git: https:\/\/github.com\/FFmpeg\/FFmpeg\n    tag: n3.2.1\n\nversion: 3.2.1\n\nfiles:\n    -   .*\\.c\n    -   .*\\.cpp\n    -   .*\\.h\n    -   .*\\.hpp\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/FFmpeg\/FFmpeg",
+            "tag": "n3.2.1"
+        }
+    },
+    "version": "3.2.1",
+    "sha256": "8ebcb46ab03f0152c6c8f1f2128fff58408352b27a6859492766b16b1725e42a",
+    "created": "2017-01-03 08:37:58.329517"
+}
