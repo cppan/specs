@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.fosterbrereton.mutexpp",
+    "cppan": "source:\n    git: https:\/\/github.com\/fosterbrereton\/mutexpp\n    branch: master\n\nversion: master\n\nfiles:\n    -   include\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/fosterbrereton\/mutexpp",
+            "branch": "master"
+        }
+    },
+    "sha256": "ce769208da7651a746dd6346cc0a42d9a36de4c29697ae21cc05cb243213b779",
+    "created": "2017-01-04 19:32:59.77729"
+}

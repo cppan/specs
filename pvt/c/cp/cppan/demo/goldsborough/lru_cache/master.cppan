@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.goldsborough.lru_cache",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/goldsborough\/lru-cache",
+            "branch": "master"
+        }
+    },
+    "sha256": "a300f2d589038adbaf472269f2b9738c59bef7f27a91849015281a0cb146cba4",
+    "created": "2017-01-04 19:30:26.898732",
+    "cppan": "source:\n    git: https:\/\/github.com\/goldsborough\/lru-cache\n    branch: master\n\nversion: master\n\n"
+}
