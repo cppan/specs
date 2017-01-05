@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.bzip2",
-    "cppan": "source:\n    remote: http:\/\/www.bzip.org\/1.0.6\/bzip2-1.0.6.tar.gz\n\nversion: 1.0.6\n\nlicense: LICENSE\n\nroot_directory: bzip2-1.0.6\n\nfiles:\n    -   bzlib.h\n    -   bzlib_private.h\n    -   blocksort.c\n    -   bzlib.c\n    -   compress.c\n    -   crctable.c\n    -   decompress.c\n    -   huffman.c\n    -   randtable.c\n\ninclude_directories:\n    public: .\n\noptions:\n    shared:\n        definitions:\n            interface: BZ_IMPORT\n\npost_sources: |\n    if (NOT EXISTS ${SDIR}\/bzipfix.dummy)\n    file(READ ${SDIR}\/bzlib.h f)\n    string(REPLACE\n        \"#   define BZ_API(func) WINAPI func\\n#   define BZ_EXTERN extern\"\n        \"#   define BZ_API(func) func\\n#   define BZ_EXTERN __declspec(dllexport)\" f \"${f}\")\n    string(REPLACE\n        \"#   define BZ_API(func) (WINAPI * func)\\n#   define BZ_EXTERN\"\n        \"#   define BZ_API(func) func\\n#   define BZ_EXTERN __declspec(dllimport)\" f \"${f}\")\n    file(WRITE ${SDIR}\/bzlib.h \"${f}\")\n    endif()\n    file_write_once(${SDIR}\/bzipfix.dummy \"\")\n    \n\n",
-    "version": "1.0.6",
+    "cppan": "source:\n    remote: http:\/\/www.bzip.org\/1.0.6\/bzip2-1.0.6.tar.gz\n\nversion: 1.0.6\n\ntype: library\n\nfiles:\n    -   blocksort.c\n    -   bzlib.c\n    -   bzlib.h\n    -   bzlib_private.h\n    -   compress.c\n    -   crctable.c\n    -   decompress.c\n    -   huffman.c\n    -   randtable.c\n\ninclude_directories:\n    public:\n        -   .\n\noptions:\n    shared:\n        definitions:\n            interface:\n                -   BZ_IMPORT\n            public:\n                -   BZ_SHARED\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/bzlib.h\n        \"#ifdef _WIN32\"\n        \"#if defined(_WIN32) && defined(BZ_SHARED)\")\n    replace_in_file_once(${SDIR}\/bzlib.h\n        \"#   define BZ_API(func) WINAPI func\\n#   define BZ_EXTERN extern\"\n        \"#   define BZ_API(func) func\\n#   define BZ_EXTERN __declspec(dllexport)\")\n    replace_in_file_once(${SDIR}\/bzlib.h\n        \"#   define BZ_API(func) (WINAPI * func)\\n#   define BZ_EXTERN\"\n        \"#   define BZ_API(func) func\\n#   define BZ_EXTERN __declspec(dllimport)\")\n\n",
     "source": {
         "remote": {
             "url": "http:\/\/www.bzip.org\/1.0.6\/bzip2-1.0.6.tar.gz"
         }
     },
-    "sha256": "69ddf7cdf5ffec2d100f594c7bf756ff5b179a251e4a2762cea23b25a9fedcd8",
-    "created": "2016-09-12 15:56:12.788427"
+    "version": "1.0.6",
+    "sha256": "ad96095148c1da617abdafbcc94d49dafc06b5f9acd4e2c64a7ec2a60d939065",
+    "created": "2017-01-05 11:41:30.588018"
 }
