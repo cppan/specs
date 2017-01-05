@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ffmpeg.swscale",
+    "version": "3.2.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/FFmpeg\/FFmpeg\n    tag: n3.2.1\n\nversion: 3.2.1\n\ntype: library\n\nexport_all_symbols: true\n\nfiles:\n    -   libswscale\/.*\\.c\n    -   libswscale\/.*\\.h\n\noptions:\n    any:\n        definitions:\n            public:\n                -   SWS_MAX_FILTER_SIZE=256\n\ndependencies:\n    public:\n        pvt.cppan.demo.ffmpeg.avutil:\n            version: \"*\"\n\npost_project: |\n    # strip unexisting symbols with \/O1\n    if (MSVC)\n        string(REPLACE \"\/RTC1\" \"\" CMAKE_C_FLAGS_DEBUG ${CMAKE_C_FLAGS_DEBUG})\n        string(REPLACE \"\/RTC1\" \"\" CMAKE_CXX_FLAGS_DEBUG ${CMAKE_CXX_FLAGS_DEBUG})\n    \n        set(CMAKE_C_FLAGS_DEBUG \"${CMAKE_C_FLAGS_DEBUG} \/O1\")\n        set(CMAKE_CXX_FLAGS_DEBUG \"${CMAKE_CXX_FLAGS_DEBUG} \/O1\")\n    endif()\n\npost_sources: |\n    remove_src_dir(libswscale\/aarch64\/*)\n    remove_src_dir(libswscale\/arm\/*)\n    remove_src_dir(libswscale\/ppc\/*)\n    remove_src_dir(libswscale\/tests\/*)\n    remove_src_dir(libswscale\/*_template*)\n    remove_src(libswscale\/x86\/w64xmmtest.c)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/FFmpeg\/FFmpeg",
+            "tag": "n3.2.1"
+        }
+    },
+    "sha256": "f340886dff309eb2cb51280ae890a3d6fd4784179436b82cd342cd9e7c615cf5",
+    "created": "2017-01-05 20:42:49.177919"
+}

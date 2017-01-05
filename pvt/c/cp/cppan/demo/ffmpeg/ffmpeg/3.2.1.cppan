@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ffmpeg.ffmpeg",
+    "version": "3.2.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/FFmpeg\/FFmpeg\n    tag: n3.2.1\n\nversion: 3.2.1\n\nfiles:\n    -   cmdutils.c\n    -   cmdutils.h\n    -   cmdutils_common_opts.h\n    -   ffmpeg.*\n\noptions:\n    any:\n        definitions:\n            public:\n                -   CONFIG_THIS_YEAR=2017\n            unix:\n                public:\n                    -   AVCONV_DATADIR=\"\/usr\/local\/share\/ffmpeg\"\n                    -   CC_IDENT=\"C++ Archive Network\"\n                    -   FFMPEG_DATADIR=\"\/usr\/local\/share\/ffmpeg\"\n            win32:\n                public:\n                    -   AVCONV_DATADIR=\"ffmpeg\"\n                    -   CC_IDENT=\"C++ Archive Network\"\n                    -   FFMPEG_DATADIR=\"ffmpeg\"\n\ndependencies:\n    public:\n        pvt.cppan.demo.ffmpeg.avdevice:\n            version: \"*\"\n\npost_project: |\n    # strip unexisting symbols with \/O1\n    if (MSVC)\n        string(REPLACE \"\/RTC1\" \"\" CMAKE_C_FLAGS_DEBUG ${CMAKE_C_FLAGS_DEBUG})\n        string(REPLACE \"\/RTC1\" \"\" CMAKE_CXX_FLAGS_DEBUG ${CMAKE_CXX_FLAGS_DEBUG})\n    \n        set(CMAKE_C_FLAGS_DEBUG \"${CMAKE_C_FLAGS_DEBUG} \/O1\")\n        set(CMAKE_CXX_FLAGS_DEBUG \"${CMAKE_CXX_FLAGS_DEBUG} \/O1\")\n    endif()\n\npost_sources: |\n    remove_src_win32(ffmpeg_qsv.c)\n    remove_src_win32(ffmpeg_vaapi.c)\n    remove_src_win32(ffmpeg_vdpau.c)\n    remove_src_win32(ffmpeg_videotoolbox.c)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/FFmpeg\/FFmpeg",
+            "tag": "n3.2.1"
+        }
+    },
+    "sha256": "df554dc9d9f03e38fdf1260dd06d07701d722de1ba8e1692082c7f017c4a1f5e",
+    "created": "2017-01-05 20:42:39.287696"
+}
