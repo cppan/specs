@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.poco.util",
+    "cppan": "source:\n    git: https:\/\/github.com\/pocoproject\/poco\n    tag: poco-1.7.7-release\n\nversion: 1.7.7\n\nlicense: LICENSE\n\nfiles:\n    -   Util\/include\/.*\n    -   Util\/src\/.*\n    -   cmake\/PocoMacros.cmake\n\ninclude_directories:\n    public:\n        -   Util\/include\n    private:\n        -   Util\/src\n\noptions:\n    any:\n        definitions:\n            public:\n                -   POCO_NO_AUTOMATIC_LIBS\n                -   POCO_UNBUNDLED\n    shared:\n        definitions:\n            private:\n                -   Util_EXPORTS\n            public:\n                -   POCO_DLL\n    static:\n        definitions:\n            public:\n                -   POCO_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.poco.json:\n            version: \"*\"\n        pvt.cppan.demo.poco.xml:\n            version: \"*\"\n\npost_sources: |\n    include(${SDIR}\/cmake\/PocoMacros.cmake)\n    \n    # Sources\n    file(GLOB SRCS_G \"${SDIR}\/Util\/src\/*.cpp\")\n    POCO_SOURCES_AUTO( SRCS ${SRCS_G})\n    \n    # Headers\n    file(GLOB_RECURSE HDRS_G \"${SDIR}\/Util\/include\/*.h\" )\n    POCO_HEADERS_AUTO( SRCS ${HDRS_G})\n    \n    POCO_SOURCES_AUTO_PLAT( SRCS WIN32\n        ${SDIR}\/Util\/src\/WinRegistryConfiguration.cpp\n        ${SDIR}\/Util\/src\/WinRegistryKey.cpp\n        ${SDIR}\/Util\/src\/WinService.cpp\n    )\n    \n    set(src ${SRCS})\n\n",
+    "version": "1.7.7",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pocoproject\/poco",
+            "tag": "poco-1.7.7-release"
+        }
+    },
+    "sha256": "1f8cca3dc713d708e5efeeaa1a85a59464cc417924b9858d5058682b7f9170ab",
+    "created": "2017-01-06 06:43:32.371023"
+}
