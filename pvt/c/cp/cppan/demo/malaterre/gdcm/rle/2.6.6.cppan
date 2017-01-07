@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.malaterre.gdcm.rle",
+    "version": "2.6.6",
+    "cppan": "source:\n    git: https:\/\/github.com\/malaterre\/GDCM\n    tag: v2.6.6\n\nversion: 2.6.6\n\ntype: library\n\nroot_directory: Utilities\n\nstatic_only: true\n\nfiles:\n    -   gdcmrle\/.*\\.cxx\n    -   gdcmrle\/.*\\.h\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/malaterre\/GDCM",
+            "tag": "v2.6.6"
+        }
+    },
+    "sha256": "1d433de55a0b7c34c10f712e571323b18b79d8cbfe65f94ebfd3e8f0cb16bc76",
+    "created": "2017-01-07 17:58:12.380584"
+}
