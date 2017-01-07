@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.vbaderks.charls",
+    "cppan": "source:\n    git: https:\/\/github.com\/team-charls\/charls\n    tag: 1.1.0\n\nversion: 1.1.0\n\ntype: library\n\nfiles:\n    -   src.*\\.cpp\n    -   src\/.*\\.h\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/src\/interface.h\n        \"#include \\\"publictypes.h\\\"\"\n        \"#include \\\"publictypes.h\\\"\\n#define CHARLS_IMEXPORT(x) ${LIBRARY_API} x\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/team-charls\/charls",
+            "tag": "1.1.0"
+        }
+    },
+    "version": "1.1.0",
+    "sha256": "8517f080063819eea01b155cffa01d00bd93df6993b1a1413f0775b8fb69921e",
+    "created": "2017-01-07 15:32:31.000367"
+}
