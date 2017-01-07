@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.alexey_gruzdev.yato",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/bitbucket.org\/alexey_gruzdev\/yato.git",
+            "branch": "master"
+        }
+    },
+    "sha256": "1d27707193756b2d6ba84065b085e00f4ba26def87d52822486be90b8d3fb64d",
+    "created": "2017-01-07 23:26:43.44929",
+    "cppan": "source:\n    git: https:\/\/bitbucket.org\/alexey_gruzdev\/yato.git\n    branch: master\n\nversion: master\n\n"
+}
