@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.cacay.memorypool.cpp98",
+    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/cacay\/MemoryPool\n    branch: master\n\nversion: master\n\nroot_directory: C-98\n\nfiles:\n    -   .*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/cacay\/MemoryPool",
+            "branch": "master"
+        }
+    },
+    "sha256": "6ee06e0c7d1ca9f07b603720de455058cd06fa7a7d85010618b8ab09167a064d",
+    "created": "2017-01-08 00:27:40.913565"
+}
