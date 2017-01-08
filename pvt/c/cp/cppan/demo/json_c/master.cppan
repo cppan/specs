@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.json_c",
+    "cppan": "source:\n    git: https:\/\/github.com\/json-c\/json-c\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   .*\\.c\n    -   .*\\.h\n\nexclude_from_package:\n    -   test.*\n\npatch:\n    regex_replace:\n        \"\\\"config.h\\\"\": \"\\\"config.json_c.h\\\"\"\n\npost_sources: |\n    file_write_once(${BDIR}\/config.json_c.h \"\")\n    file_write_once(${BDIR}\/json_config.h \"\")\n\ncheck_function_exists:\n    -   memcmp\n    -   open\n    -   realloc\n    -   setlocale\n    -   strcasecmp\n    -   strdup\n    -   strerror\n    -   strncasecmp\n    -   uselocale\n    -   vasprintf\n    -   vprintf\n    -   vsnprintf\n    -   vsyslog\n\ncheck_include_exists:\n    -   file: endian.h\n        variable: HAVE_ENDIAN_H\n        cpp: false\n    -   file: fcntl.h\n        variable: HAVE_FCNTL_H\n        cpp: false\n    -   file: limits.h\n        variable: HAVE_LIMITS_H\n        cpp: false\n    -   file: locale.h\n        variable: HAVE_LOCALE_H\n        cpp: false\n    -   file: stdarg.h\n        variable: HAVE_STDARG_H\n        cpp: false\n    -   file: syslog.h\n        variable: HAVE_SYSLOG_H\n        cpp: false\n    -   file: sys\/cdefs.h\n        variable: HAVE_SYS_CDEFS_H\n        cpp: false\n    -   file: xlocale.h\n        variable: HAVE_XLOCALE_H\n        cpp: false\n    -   file: inttypes.h\n        variable: JSON_C_HAVE_INTTYPES_H\n        cpp: false\n\ncheck_type_size:\n    -   type: int\n    -   type: long\n\ncheck_symbol_exists:\n    -   symbol: snprintf\n        headers:\n            -   stdio.h\n\ncheck_decl_exists:\n    -   INFINITY\n    -   isinf\n    -   isnan\n    -   nan\n    -   _finite\n    -   _isnan\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/json-c\/json-c",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "cf503e020895e16b8fc6f47fc1172aa6f3f4f750abc8a6204318716bea0e2781",
+    "created": "2017-01-08 16:50:51.790651"
+}
