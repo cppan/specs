@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnome.pango.pangocairo",
+    "version": "1.40.3",
+    "cppan": "source:\n    remote: http:\/\/ftp.gnome.org\/pub\/GNOME\/sources\/pango\/1.40\/pango-1.40.3.tar.xz\n\nversion: 1.40.3\n\ntype: library\n\nfiles:\n    -   pango\/pangocairo-.*\n    -   pango\/pangocairo.h\n    -   pango\/pangocoretext.*\n    -   pango\/pangowin32-fontcache.c\n    -   pango\/pangowin32-fontmap.c\n    -   pango\/pangowin32-private.h\n    -   pango\/pangowin32-shape.c\n    -   pango\/pangowin32.c\n    -   pango\/pangowin32.h\n\ninclude_directories:\n    public:\n        -   .\n        -   pango\n\noptions:\n    any:\n        definitions:\n            private:\n                -   PANGO_ENABLE_BACKEND=1\n                -   PANGO_ENABLE_ENGINE=1\n            public:\n                -   HAVE_CAIRO=1\n                -   HAVE_CAIRO_FREETYPE=1\n                -   HAVE_CAIRO_PDF=1\n                -   HAVE_CAIRO_PNG=1\n                -   HAVE_CAIRO_PS=1\n                -   HAVE_DIRENT_H=1\n                -   HAVE_FREETYPE=1\n            win32:\n                public:\n                    -   HAVE_CAIRO_WIN32\n        link_libraries:\n            win32:\n                public:\n                    -   Usp10\n\ndependencies:\n    public:\n        pvt.cppan.demo.cairographics.cairo:\n            version: 1\n        pvt.cppan.demo.freedesktop.fontconfig.fontconfig:\n            version: 2\n        pvt.cppan.demo.gnome.pango.pangoft2:\n            version: \"*\"\n\npost_sources: |\n    if (WIN32)\n        remove_src_dir(pango\/pangocoretext*)\n        remove_src_dir(pango\/pangocairo-coretext*)\n    else()\n        remove_src_dir(pango\/pangocairo-win32*)\n        remove_src_dir(pango\/pangowin32*)\n    endif()\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/ftp.gnome.org\/pub\/GNOME\/sources\/pango\/1.40\/pango-1.40.3.tar.xz"
+        }
+    },
+    "sha256": "9b4a700acc2bb45904438de34578613744487cf31e25f5a17ef14304d2cdfc09",
+    "created": "2017-01-11 15:38:32.182653"
+}
