@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.soci",
+    "cppan": "source:\n    git: https:\/\/github.com\/SOCI\/soci\n    branch: master\n\nversion: master\n\ntype: library\n\ninclude_directories:\n    public:\n        -   include\n    private:\n        -   src\n        -   include\/private\n\noptions:\n    any:\n        link_libraries:\n            win32:\n                public:\n                    -   odbc32\n    shared:\n        definitions:\n            public:\n                -   SOCI_DLL\n\ndependencies:\n    public:\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\npost_sources: |\n    file_write_once(${BDIR}\/soci\/soci-config.h \"\")\n    file_write_once(${BDIR}\/soci_backends_config.h \"\n        #pragma once\n        #define DEFAULT_BACKENDS_PATH \\\".\\\"\n        #define SOCI_LIB_PREFIX \\\"\\\"\n        #define SOCI_LIB_SUFFIX \\\"\\\"\n    \")\n    \n    remove_src_dir(src\/backends\/db2\/*)\n    remove_src_dir(src\/backends\/empty\/*)\n    remove_src_dir(src\/backends\/firebird\/*)\n    remove_src_dir(src\/backends\/mysql\/*)\n    remove_src_dir(src\/backends\/oracle\/*)\n    remove_src_dir(src\/backends\/postgresql\/*)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/SOCI\/soci",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "61a5cc9a3aef93bf39b6d5fa96aa8c8a36ef4b468ffea6e3212ba798f66779de",
+    "created": "2017-01-12 15:53:24.115632"
+}
