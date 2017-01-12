@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.robhz786.stringify",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/robhz786\/stringify",
+            "branch": "master"
+        }
+    },
+    "sha256": "e930eb7639c79a61f39eb6be06070cae1fc505020ba42f97ac8bc7158f5d6be3",
+    "created": "2017-01-11 23:59:30.366079",
+    "cppan": "source:\n    git: https:\/\/github.com\/robhz786\/stringify\n    branch: master\n\nversion: master\n\n"
+}
