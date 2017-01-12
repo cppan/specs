@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.pfultz2.prove",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pfultz2\/Prove",
+            "branch": "master"
+        }
+    },
+    "sha256": "26db22bf56a257b04e67089d1463ccdc39ec39645cecade4a2c66028950afbf2",
+    "created": "2017-01-12 18:54:24.154154",
+    "cppan": "source:\n    git: https:\/\/github.com\/pfultz2\/Prove\n    branch: master\n\nversion: master\n\n"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jgm.cmark.libcmark",
+    "version": "0.27.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/jgm\/cmark\n    tag: 0.27.1\n\nversion: 0.27.1\n\ntype: library\n\napi_name: CMARK_EXPORT\n\nfiles:\n    -   src\/.*\\.c\n    -   src\/.*\\.h\n    -   src\/.*\\.in\n    -   src\/.*\\.inc\n\nexclude_from_package:\n    -   src\/main.c\n\npost_sources: |\n    configure_file(${SDIR}\/src\/config.h.in ${BDIR}\/config.h)\n    configure_file(${SDIR}\/src\/cmark_version.h.in ${BDIR}\/cmark_version.h)\n\ncheck_include_exists:\n    -   file: \"stdbool.h\\n\"\n        variable: HAVE_STDBOOL_H_\n        cpp: false\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jgm\/cmark",
+            "tag": "0.27.1"
+        }
+    },
+    "sha256": "5b440f1e7fec24a3264ae3d3dfa64be6771b0396ab219820faec653be6c06033",
+    "created": "2017-01-12 19:39:21.179777"
+}

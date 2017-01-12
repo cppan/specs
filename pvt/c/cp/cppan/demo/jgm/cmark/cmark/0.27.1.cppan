@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jgm.cmark.cmark",
+    "version": "0.27.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/jgm\/cmark\n    tag: 0.27.1\n\nversion: 0.27.1\n\nfiles:\n    -   src\/main.c\n\ndependencies:\n    public:\n        pvt.cppan.demo.jgm.cmark.libcmark:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jgm\/cmark",
+            "tag": "0.27.1"
+        }
+    },
+    "sha256": "3c80f49adb087e4f85739adccb6cc0c59884b1e2e00658a201193ecfaf8df303",
+    "created": "2017-01-12 19:40:07.801715"
+}
