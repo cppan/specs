@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.orlp.pdqsort",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/orlp\/pdqsort",
+            "branch": "master"
+        }
+    },
+    "sha256": "bcf24f00011d1efd91ff43f01e557654c4632f68905965ffab1f674b39c23c62",
+    "created": "2017-01-13 22:13:28.637889",
+    "cppan": "source:\n    git: https:\/\/github.com\/orlp\/pdqsort\n    branch: master\n\nversion: master\n\n"
+}
