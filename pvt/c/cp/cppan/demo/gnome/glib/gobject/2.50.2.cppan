@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.gnome.glib.gobject",
-    "version": "2.50.2",
-    "cppan": "source:\n    git: git:\/\/git.gnome.org\/glib\n    tag: 2.50.2\n\nversion: 2.50.2\n\ntype: library\n\nfiles:\n    -   gobject\/[^\/]*\\.c\n    -   gobject\/[^\/]*\\.h\n\nexclude_from_build:\n    -   gobject\/glib-genmarshal.c\n\ninclude_directories:\n    public:\n        -   .\n        -   gobject\n\noptions:\n    any:\n        definitions:\n            private:\n                -   GOBJECT_COMPILATION\n    shared:\n        definitions:\n            private:\n                -   DLL_EXPORT\n    static:\n        definitions:\n            public:\n                -   GOBJECT_STATIC_COMPILATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.glib.glib:\n            version: \"*\"\n        pvt.cppan.demo.weltling.winlibs.libffi:\n            version: 3\n\npost_sources: |\n    #file_write_once(${BDIR}\/config.h \"\")\n\n",
+    "cppan": "source:\n    git: git:\/\/git.gnome.org\/glib\n    tag: 2.50.2\n\nversion: 2.50.2\n\ntype: library\n\nshared_only: true\n\nfiles:\n    -   gobject\/[^\/]*\\.c\n    -   gobject\/[^\/]*\\.h\n\nexclude_from_build:\n    -   gobject\/glib-genmarshal.c\n\ninclude_directories:\n    public:\n        -   gobject\n        -   .\n\noptions:\n    any:\n        definitions:\n            private:\n                -   GOBJECT_COMPILATION\n    shared:\n        definitions:\n            private:\n                -   DLL_EXPORT\n    static:\n        definitions:\n            public:\n                -   GOBJECT_STATIC_COMPILATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.glib.glib:\n            version: \"*\"\n        pvt.cppan.demo.weltling.winlibs.libffi:\n            version: 3\n\npost_sources: |\n    #file_write_once(${BDIR}\/config.h \"\")\n\n",
     "source": {
         "git": {
             "url": "git:\/\/git.gnome.org\/glib",
             "tag": "2.50.2"
         }
     },
-    "sha256": "ae91fc12d3e2d60e0a9b712b74bb19d539ff7e38a198aebce3fc48279cc3b73a",
-    "created": "2017-01-10 23:25:35.430487"
+    "version": "2.50.2",
+    "sha256": "565ffb533d4e10bdaf9ac3e1705f190b4620dd0a2a2dd4ac99d9bd61e2e48308",
+    "created": "2017-01-13 18:57:32.111755"
 }
