@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.cloudformation",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: 1.0.51\n\nversion: 1.0.51\n\nroot_directory: aws-cpp-sdk-cloudformation\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_CLOUDFORMATION_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "version": "1.0.51",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.51"
+        }
+    },
+    "sha256": "5989569e94b2fee17479ed0510eb07e88218310f9e0c88feb44b7e147408b7ad",
+    "created": "2017-01-13 10:45:50.367688"
+}

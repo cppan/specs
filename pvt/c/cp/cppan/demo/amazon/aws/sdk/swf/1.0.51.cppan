@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.swf",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: 1.0.51\n\nversion: 1.0.51\n\nroot_directory: aws-cpp-sdk-swf\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_SWF_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "version": "1.0.51",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.51"
+        }
+    },
+    "sha256": "684571d3a121c30690b3da7dbb074e03c1b7e49e2f43b73c42ba2daf81aada17",
+    "created": "2017-01-13 10:49:39.441786"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.storagegateway",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: 1.0.51\n\nversion: 1.0.51\n\nroot_directory: aws-cpp-sdk-storagegateway\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_STORAGEGATEWAY_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "version": "1.0.51",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.51"
+        }
+    },
+    "sha256": "b8efe8eecdb5a07d67ed0d648ba40381cacfd795db242f63efd8ff42f1a553a1",
+    "created": "2017-01-13 10:49:53.698522"
+}
