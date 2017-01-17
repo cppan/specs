@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mpark.variant",
+    "version": "1.0.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mpark\/variant",
+            "tag": "v1.0.0"
+        }
+    },
+    "sha256": "64d399b71226228ba6f6c190f18a0f4caa377a3e7e84bbba478e95d142fe6b14",
+    "created": "2017-01-17 12:13:42.826102",
+    "cppan": "source:\n    git: https:\/\/github.com\/mpark\/variant\n    tag: v1.0.0\n\nversion: 1.0.0\n\n"
+}
