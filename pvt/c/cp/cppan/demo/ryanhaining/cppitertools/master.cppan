@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ryanhaining.cppitertools",
+    "cppan": "source:\n    git: https:\/\/github.com\/ryanhaining\/cppitertools\n    branch: master\n\nversion: master\n\nfiles:\n    -   .*\\.hpp\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ryanhaining\/cppitertools",
+            "branch": "master"
+        }
+    },
+    "sha256": "89692c0ccfbf743908a108655bc723c92f8189cae2440263a7005cdaf0b1cabb",
+    "created": "2017-01-19 20:02:30.771119"
+}
