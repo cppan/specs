@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.unicode.icu.common",
-    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\n\nversion: 58.2.0\n\ntype: lib\n\nroot_directory: icu\/source\n\nfiles:\n    -   common\/.*\\.h\n    -   common\/.*\\.c\n    -   common\/.*\\.cpp\n\ninclude_directories:\n    public: common\n\noptions:\n    any:\n        definitions:\n            private:\n                -   U_COMMON_IMPLEMENTATION\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.data:\n            version: \"*\"\n\n",
-    "version": "58.2.0",
+    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip\n\nversion: 58.2.0\n\ntype: library\n\nroot_directory: source\n\nfiles:\n    -   common\/.*\\.c\n    -   common\/.*\\.cpp\n    -   common\/.*\\.h\n\ninclude_directories:\n    public:\n        -   common\n\noptions:\n    any:\n        definitions:\n            private:\n                -   U_COMMON_IMPLEMENTATION\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\nchecks_prefixes:\n    -   U_\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.data:\n            version: \"*\"\n\ncheck_function_exists:\n    -   dlopen\n    -   gettimeofday\n    -   mmap\n    -   nl_langinfo\n    -   popen\n    -   pthread_mutex_lock\n    -   strtod_l\n    -   tzset\n    -   _tzset\n\ncheck_include_exists:\n    -   file: dirent.h\n        variable: HAVE_DIRENT_H\n        cpp: false\n    -   file: dlfcn.h\n        variable: HAVE_DLFCN_H\n        cpp: false\n    -   file: elf.h\n        variable: HAVE_ELF_H\n        cpp: false\n    -   file: inttypes.h\n        variable: HAVE_INTTYPES_H\n        cpp: false\n    -   file: wchar.h\n        variable: HAVE_WCHAR_H\n        cpp: false\n\ncheck_type_size:\n    -   type: int16_t\n    -   type: int32_t\n    -   type: int64_t\n    -   type: int8_t\n    -   type: uint16_t\n    -   type: uint32_t\n    -   type: uint64_t\n    -   type: uint8_t\n    -   type: wchar_t\n\ncheck_library_function:\n    -   function: pthread_attr_init\n        library: pthread\n    -   function: pthread_mutex_init\n        library: pthread\n\n",
     "source": {
         "remote": {
             "url": "http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip"
         }
     },
-    "sha256": "0281af0a657c39a7627cd69f41b996c15d4a2e552a50f970a2cfa3575871f280",
-    "created": "2016-12-16 21:15:08.878433"
+    "version": "58.2.0",
+    "sha256": "5049f867a9958b2a0836f432b83c43fe49d5e908248e046616f8aa9706e8c9d8",
+    "created": "2017-01-19 13:25:30.288719"
 }
