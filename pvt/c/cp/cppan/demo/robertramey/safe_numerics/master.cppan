@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.robertramey.safe_numerics",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/robertramey\/safe_numerics",
+            "branch": "master"
+        }
+    },
+    "sha256": "b80cbb3498c8dfbe3174448ec5509c0d783c89f6bf0af87ea87abe7c8d73e9dc",
+    "created": "2017-01-20 21:57:43.946635",
+    "cppan": "source:\n    git: https:\/\/github.com\/robertramey\/safe_numerics\n    branch: master\n\nversion: master\n\n"
+}
