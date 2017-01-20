@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.pollardbanknote.cppbackport",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/PollardBanknote\/cppbackport",
+            "branch": "master"
+        }
+    },
+    "sha256": "c10c35f59e659a98cd47b2458bfb36e23d8817712ec971a44f3f43c334f4b637",
+    "created": "2017-01-20 15:00:53.199043",
+    "cppan": "source:\n    git: https:\/\/github.com\/PollardBanknote\/cppbackport\n    branch: master\n\nversion: master\n\n"
+}

@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.tinythreadpp",
+    "cppan": "source:\n    remote: http:\/\/tinythreadpp.bitsnbites.eu\/files\/TinyThread%2B%2B-1.1-src.tar.bz2\n\nversion: 1.1.0\n\nfiles:\n    -   source\/.*\n\ninclude_directories:\n    public:\n        -   source\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/tinythreadpp.bitsnbites.eu\/files\/TinyThread%2B%2B-1.1-src.tar.bz2"
+        }
+    },
+    "version": "1.1.0",
+    "sha256": "0fc8b5612bcc536a1ab644a8ee2a1a073b10cbeaa1c3f91d3d2c0ac25bc3a35e",
+    "created": "2017-01-20 15:03:17.388176"
+}
