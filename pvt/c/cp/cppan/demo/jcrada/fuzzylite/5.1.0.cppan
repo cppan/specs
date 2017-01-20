@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jcrada.fuzzylite",
+    "cppan": "source:\n    git: https:\/\/github.com\/fuzzylite\/fuzzylite\n    tag: v5.1\n\nversion: 5.1.0\n\ntype: library\n\nroot_directory: fuzzylite\n\nc++: 11\n\nfiles:\n    -   fl\/.*\n    -   src\/.*\n\nexclude_from_package:\n    -   src\/m\/.*\n    -   src\/main.cpp\n\noptions:\n    any:\n        definitions:\n            public:\n                -   FL_BACKTRACE_OFF\n                -   FL_CPP11\n    shared:\n        definitions:\n            interface:\n                -   FL_IMPORT_LIBRARY\n            private:\n                -   FL_EXPORT_LIBRARY\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/fuzzylite\/fuzzylite",
+            "tag": "v5.1"
+        }
+    },
+    "version": "5.1.0",
+    "sha256": "7998e52e09d93766aa7a58c16856bbba554205915ac8b41c52722dcc4a9ce7b4",
+    "created": "2017-01-20 12:35:59.086531"
+}
