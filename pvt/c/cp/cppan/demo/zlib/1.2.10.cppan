@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.zlib",
+    "cppan": "source:\n    git: https:\/\/github.com\/madler\/zlib\n    tag: v1.2.10\n\nversion: 1.2.10\n\nfiles:\n    -   \"[^\/]*\\\\.c\"\n    -   \"[^\/]*\\\\.h\"\n\ninclude_directories:\n    public:\n        -   .\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   ZLIB_DLL\n\n",
+    "version": "1.2.10",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/madler\/zlib",
+            "tag": "v1.2.10"
+        }
+    },
+    "sha256": "ee57b3677b3a22059eea381218522f8f64597a5fc635b73815dbea03b125f8df",
+    "created": "2017-01-23 07:12:44.695852"
+}
