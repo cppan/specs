@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.lexxmark.winflexbison.bison",
+    "cppan": "source:\n    git: https:\/\/github.com\/lexxmark\/winflexbison\n    branch: master\n\nversion: master\n\nfiles:\n    -   bison\/data\/[^\/]*\n    -   bison\/data\/m4sugar\/.*\n    -   bison\/src\/.*\n\nexclude_from_build:\n    -   bison\/data\/*\n\ninclude_directories:\n    public:\n        -   bison\/src\n\ndependencies:\n    public:\n        pvt.cppan.demo.lexxmark.winflexbison.common:\n            version: \"*\"\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/bison\/src\/main.c \"if (!last_divider)\" \"\")\n    replace_in_file_once(${SDIR}\/bison\/src\/main.c \"free(local_pkgdatadir);\" \"\")            \n    replace_in_file_once(${SDIR}\/bison\/src\/config.h \"data\" \"${SDIR}\/bison\/data\/\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/lexxmark\/winflexbison",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "3700a030f4f0506a452bb09e19c15c55eaad14128352140c9129f1c7b2d39d4e",
+    "created": "2017-01-27 19:15:41.814347"
+}
