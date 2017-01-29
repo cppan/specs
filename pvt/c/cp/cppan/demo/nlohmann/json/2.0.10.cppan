@@ -1,0 +1,13 @@
+{
+    "cppan": "source:\n    git: https:\/\/github.com\/nlohmann\/json\n    tag: v2.0.10\n\nversion: 2.0.10\n\nfiles:\n    -   src\/json.hpp\n\ninclude_directories:\n    public:\n        -   src\n\n",
+    "project": "pvt.cppan.demo.nlohmann.json",
+    "source": {
+        "git": {
+            "tag": "v2.0.10",
+            "url": "https:\/\/github.com\/nlohmann\/json"
+        }
+    },
+    "version": "2.0.10",
+    "sha256": "e392203c8345ee69e51e7cbc3f68123b7de228b7f118fae04d48f3a3d3c16ec0",
+    "created": "2017-01-29 22:08:46.106731"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.caseycarter.cmcstl2",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/CaseyCarter\/cmcstl2",
+            "branch": "master"
+        }
+    },
+    "sha256": "87e6255c3416c9542c6599461b8e4273452d75e70aeb6a8f26a018b89ec6ce6c",
+    "created": "2017-01-29 22:05:03.120802",
+    "cppan": "source:\n    git: https:\/\/github.com\/CaseyCarter\/cmcstl2\n    branch: master\n\nversion: master\n\n"
+}

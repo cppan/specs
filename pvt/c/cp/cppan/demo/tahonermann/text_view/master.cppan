@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tahonermann.text_view",
+    "cppan": "source:\n    git: https:\/\/github.com\/tahonermann\/text_view\n    branch: master\n\nversion: master\n\nlicense: LICENSE.txt\n\nfiles:\n    -   include\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.caseycarter.cmcstl2:\n            version: master\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tahonermann\/text_view",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "f1fd5d92d9bbea46e16f0627febb8b5d6ddfdad6d130a6d2d9333184f138c0a9",
+    "created": "2017-01-29 22:05:47.465565"
+}
