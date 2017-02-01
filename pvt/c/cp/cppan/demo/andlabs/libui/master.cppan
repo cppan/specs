@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.andlabs.libui",
+    "cppan": "source:\n    git: https:\/\/github.com\/andlabs\/libui\n    branch: master\n\nversion: master\n\nfiles:\n    -   \"[^\/]*\\\\.h\"\n    -   common\/.*\\.[hc]\n    -   darwin\/.*\\.[hm]\n    -   unix\/.*\\.[hc]\n    -   windows\/.*\\.[hc]pp\n\noptions:\n    any:\n        link_libraries:\n            win32:\n                public:\n                    -   D2d1\n                    -   Dwrite\n                    -   Usp10\n                    -   UxTheme\n    shared:\n        definitions:\n            private:\n                -   libui_EXPORTS\n\npost_sources: |\n    remove_src_dir(windows\/*)\n    remove_src_dir(darwin\/*)\n    remove_src_dir(unix\/*)\n    \n    if (WIN32)\n        add_src_dir(windows\/*)\n    elseif (APPLE)\n        add_src_dir(darwin\/*)\n    else()\n        add_src_dir(unix\/*)\n    endif()\n\npost_target: |\n    if (WIN32)\n        target_include_directories(${this} PUBLIC ${SDIR}\/windows)\n    elseif (APPLE)\n        target_include_directories(${this} PUBLIC ${SDIR}\/darwin)\n    else()\n        target_include_directories(${this} PUBLIC ${SDIR}\/unix)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/andlabs\/libui",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "7289412977b4b70709a272c39da1513257d00cd629cc4b0134014757b18b9915",
+    "created": "2017-02-01 20:43:25.902715"
+}

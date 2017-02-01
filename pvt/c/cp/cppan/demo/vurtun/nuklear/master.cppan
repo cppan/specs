@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.vurtun.nuklear",
+    "cppan": "source:\n    git: https:\/\/github.com\/vurtun\/nuklear\n    branch: master\n\nversion: master\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/vurtun\/nuklear",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "fa4e04b738400be6e32b5220bd046b87f38bf3256a8db258ad4cb5407b83ceec",
+    "created": "2017-02-01 19:55:25.041655"
+}

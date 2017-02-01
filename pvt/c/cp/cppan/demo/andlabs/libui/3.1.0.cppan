@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.andlabs.libui",
+    "cppan": "source:\n    git: https:\/\/github.com\/andlabs\/libui\n    tag: alpha3.1\n\nversion: 3.1.0\n\nfiles:\n    -   \"[^\/]*\\\\.h\"\n    -   common\/.*\\.[hc]\n    -   darwin\/.*\\.[hm]\n    -   unix\/.*\\.[hc]\n    -   windows\/.*\\.[hc]pp\n\noptions:\n    any:\n        link_libraries:\n            win32:\n                public:\n                    -   D2d1\n                    -   Dwrite\n                    -   Usp10\n                    -   UxTheme\n    shared:\n        definitions:\n            private:\n                -   libui_EXPORTS\n\npost_sources: |\n    remove_src_dir(windows\/*)\n    remove_src_dir(darwin\/*)\n    remove_src_dir(unix\/*)\n    \n    if (WIN32)\n        add_src_dir(windows\/*)\n    elseif (APPLE)\n        add_src_dir(darwin\/*)\n    else()\n        add_src_dir(unix\/*)\n    endif()\n\npost_target: |\n    if (WIN32)\n        target_include_directories(${this} PUBLIC ${SDIR}\/windows)\n    elseif (APPLE)\n        target_include_directories(${this} PUBLIC ${SDIR}\/darwin)\n    else()\n        target_include_directories(${this} PUBLIC ${SDIR}\/unix)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/andlabs\/libui",
+            "tag": "alpha3.1"
+        }
+    },
+    "version": "3.1.0",
+    "sha256": "4dfc0de33019506b9cac771118b1de47906d149f0145483977cf6e7326cdc622",
+    "created": "2017-02-01 20:38:06.222837"
+}
