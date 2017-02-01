@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.stb.all",
+    "cppan": "source:\n    git: https:\/\/github.com\/nothings\/stb\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nfiles:\n    -   \"[^\/]*\\\\.c\"\n    -   \"[^\/]*\\\\.h\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/nothings\/stb",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "7006f83d6dd34c6db014147f5c4b3af7ab9761fbb49b568c427b3a368e98db34",
+    "created": "2017-02-01 19:42:51.54947"
+}
