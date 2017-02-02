@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.banditcpp.bandit",
+    "cppan": "source:\n    git: https:\/\/github.com\/banditcpp\/bandit\n    tag: v2.0.0\n\nversion: 2.0.0\n\nfiles:\n    -   bandit\/.*\n\n",
+    "version": "2.0.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/banditcpp\/bandit",
+            "tag": "v2.0.0"
+        }
+    },
+    "sha256": "0e82910912dbe49a5300be70d78d2d5e7fdf39b4ba0bab402b8a2d3af2d77e1f",
+    "created": "2017-02-02 17:44:20.756357"
+}
