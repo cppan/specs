@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.coruus.keccak_tiny_unrolled",
-    "cppan": "source:\n    git: https:\/\/github.com\/coruus\/keccak-tiny\n    branch: singlefile\n\nversion: singlefile\n\nfiles:\n    -   keccak-tiny-unrolled.c\n    -   keccak-tiny.h\n\n",
-    "version": "singlefile",
+    "cppan": "source:\n    git: https:\/\/github.com\/coruus\/keccak-tiny\n    branch: singlefile\n\nversion: singlefile\n\nstatic_only: true\n\nfiles:\n    -   keccak-tiny-unrolled.c\n    -   keccak-tiny.h\n\npost_sources: |\n    if (WIN32)\n        replace_in_file_once(keccak-tiny.h \"#include <stdlib.h>\" \"#include <stdlib.h>\\n#define memset_s(W,WL,V,OL) memset(W,V,OL)\")\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/coruus\/keccak-tiny",
             "branch": "singlefile"
         }
     },
-    "sha256": "466a26678b7341e2edb20a6a1385da6ca095a5b2e583e95beb0ad89c5f235d2e",
-    "created": "2017-02-03 12:08:46.977371"
+    "version": "singlefile",
+    "sha256": "2ab3299954f5426eeacf2c617989605551bba55a5b66dd23e58b357b02335572",
+    "created": "2017-02-03 12:19:36.698642"
 }
