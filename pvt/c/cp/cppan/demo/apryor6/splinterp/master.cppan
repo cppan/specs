@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.apryor6.splinterp",
+    "cppan": "source:\n    git: https:\/\/github.com\/apryor6\/splinterp\n    branch: master\n\nversion: master\n\nfiles:\n    -   splinterp.h\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/apryor6\/splinterp",
+            "branch": "master"
+        }
+    },
+    "sha256": "1a5cbd77d54f0ae5b338acff67b4c5960d3f82394cd0e3fdb603af985ef2c28e",
+    "created": "2017-02-08 16:12:12.513459"
+}
