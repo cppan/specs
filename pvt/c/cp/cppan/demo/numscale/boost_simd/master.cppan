@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.numscale.boost_simd",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/NumScale\/boost.simd",
+            "branch": "master"
+        }
+    },
+    "sha256": "e819da5d282d3e051d47189a5452cb5bce9cb5001b7f13832c8e76a8a6500e5a",
+    "created": "2017-02-10 13:18:09.429527",
+    "cppan": "source:\n    git: https:\/\/github.com\/NumScale\/boost.simd\n    branch: master\n\nversion: master\n\n"
+}
