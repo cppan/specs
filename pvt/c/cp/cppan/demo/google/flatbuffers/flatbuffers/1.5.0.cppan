@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.flatbuffers.flatbuffers",
+    "version": "1.5.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/flatbuffers\n    tag: v1.5.0\n\nversion: 1.5.0\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   include\/flatbuffers\/code_generators.h\n    -   include\/flatbuffers\/flatbuffers.h\n    -   include\/flatbuffers\/flexbuffers.h\n    -   include\/flatbuffers\/hash.h\n    -   include\/flatbuffers\/idl.h\n    -   include\/flatbuffers\/reflection.h\n    -   include\/flatbuffers\/reflection_generated.h\n    -   include\/flatbuffers\/util.h\n    -   src\/code_generators.cpp\n    -   src\/idl_gen_text.cpp\n    -   src\/idl_parser.cpp\n    -   src\/reflection.cpp\n    -   src\/util.cpp\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/google\/flatbuffers",
+            "tag": "v1.5.0"
+        }
+    },
+    "sha256": "14c32c89fd2cd3fb34f7b821c51d67d1b73b5ee1d970dfc14c2040041ae262e1",
+    "created": "2017-02-13 21:22:34.823438"
+}

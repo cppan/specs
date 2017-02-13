@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.flatbuffers.flatc",
+    "version": "1.5.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/flatbuffers\n    tag: v1.5.0\n\nversion: 1.5.0\n\nfiles:\n    -   grpc\/src\/compiler\/cpp_generator.cc\n    -   grpc\/src\/compiler\/cpp_generator.h\n    -   grpc\/src\/compiler\/go_generator.cc\n    -   grpc\/src\/compiler\/go_generator.h\n    -   grpc\/src\/compiler\/schema_interface.h\n    -   src\/flatc.cpp\n    -   src\/flatc_main.cpp\n    -   src\/idl_gen_cpp.cpp\n    -   src\/idl_gen_fbs.cpp\n    -   src\/idl_gen_general.cpp\n    -   src\/idl_gen_go.cpp\n    -   src\/idl_gen_grpc.cpp\n    -   src\/idl_gen_js.cpp\n    -   src\/idl_gen_php.cpp\n    -   src\/idl_gen_python.cpp\n\ninclude_directories:\n    public:\n        -   grpc\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.flatbuffers.flatbuffers:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/google\/flatbuffers",
+            "tag": "v1.5.0"
+        }
+    },
+    "sha256": "0e102b8f9880042d0c1dcd6a84f88c1dd336f2a3ee6e0b669c87435d76ed3908",
+    "created": "2017-02-13 21:22:39.643753"
+}
