@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.tesseract.mftraining",
+    "version": "3.5.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "branch": "3.05"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/mergenf.*\n    -   training\/mftraining.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.common_training:\n            version: \"*\"\n\n",
+    "sha256": "ae2e827b25e62844ab92074689944407ca8d04c67f9b8df9e8a0efbe547f8f53",
+    "created": "2017-02-16 22:20:28.71709"
+}
