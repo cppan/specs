@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.glassechidna.zxing_cpp",
+    "cppan": "source:\n    git: https:\/\/github.com\/glassechidna\/zxing-cpp\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nfiles:\n    -   core\/src\/zxing\/.*\n\ninclude_directories:\n    public:\n        -   core\/src\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.iconv.libiconv:\n            version: 1\n        pvt.cppan.demo.mattmccutchen.bigint:\n            version: master\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/core\/src\/zxing\/aztec\/decoder\/Decoder.cpp \"char* ss = s;\" \"const char* ss = s;\")\n    replace_in_file_once(${SDIR}\/core\/src\/zxing\/pdf417\/decoder\/DecodedBitStreamParser.h   \"bigint\/\" \"\")\n    replace_in_file_once(${SDIR}\/core\/src\/zxing\/pdf417\/decoder\/DecodedBitStreamParser.cpp \"bigint\/\" \"\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/glassechidna\/zxing-cpp",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "855f5813344f5207d9379be58ed81d4e201b80aa477aa32c2d56fb6b011abd23",
+    "created": "2017-02-18 20:59:02.531712"
+}
