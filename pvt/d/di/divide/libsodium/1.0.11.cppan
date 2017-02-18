@@ -1,0 +1,12 @@
+{
+    "project": "pvt.divide.libsodium",
+    "version": "1.0.11",
+    "source": {
+        "remote": {
+            "url": "https:\/\/download.libsodium.org\/libsodium\/releases\/libsodium-1.0.11.tar.gz"
+        }
+    },
+    "sha256": "162616e55ac42263e5241535436c7ce9a61e199fdcc3189bd777a0521478470f",
+    "created": "2017-02-18 19:39:52.449876",
+    "cppan": "source:\n    remote: https:\/\/download.libsodium.org\/libsodium\/releases\/libsodium-1.0.11.tar.gz\n\nversion: 1.0.11\n\n"
+}
