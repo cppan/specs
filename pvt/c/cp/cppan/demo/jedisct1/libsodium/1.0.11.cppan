@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jedisct1.libsodium",
+    "cppan": "source:\n    git: https:\/\/github.com\/jedisct1\/libsodium\n    tag: 1.0.11\n\nversion: 1.0.11\n\ntype: library\n\nfiles:\n    -   src\/.*\\.[hc]\n    -   src\/.*\\.in\n\ninclude_directories:\n    public:\n        -   src\/libsodium\/include\n    private:\n        -   src\/libsodium\/include\/sodium\n\noptions:\n    shared:\n        definitions:\n            public:\n                -   SODIUM_DLL_EXPORT\n    static:\n        definitions:\n            public:\n                -   SODIUM_STATIC\n\npost_sources: |\n    set(SODIUM_LIBRARY_VERSION_MAJOR ${PACKAGE_VERSION_MAJOR})\n    set(SODIUM_LIBRARY_VERSION_MINOR ${PACKAGE_VERSION_MINOR})\n    configure_file(${SDIR}\/src\/libsodium\/include\/sodium\/version.h.in ${BDIR}\/version.h @ONLY)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jedisct1\/libsodium",
+            "tag": "1.0.11"
+        }
+    },
+    "version": "1.0.11",
+    "sha256": "8ec53d03e24b0149ff61a1f85d7f1cde53f615ccf77a201fa6f0b0bbc866565b",
+    "created": "2017-02-18 20:18:50.520369"
+}

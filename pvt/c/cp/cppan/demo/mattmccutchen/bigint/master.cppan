@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mattmccutchen.bigint",
+    "cppan": "source:\n    git: https:\/\/mattmccutchen.net\/bigint\/bigint.git\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nfiles:\n    -   BigInteger.hh\n    -   BigInteger.o\n    -   BigIntegerAlgorithms.hh\n    -   BigIntegerAlgorithms.o\n    -   BigIntegerLibrary.hh\n    -   BigIntegerUtils.hh\n    -   BigIntegerUtils.o\n    -   BigUnsigned.hh\n    -   BigUnsigned.o\n    -   BigUnsignedInABase.hh\n    -   BigUnsignedInABase.o\n    -   NumberlikeArray.hh\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/mattmccutchen.net\/bigint\/bigint.git",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "387620531c3aa4390f5f4a20c54f9c1a7b4174f9e37b8e4aa0e2f90245380521",
+    "created": "2017-02-18 20:44:47.012106"
+}
