@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.intel.tbb.tbbmalloc_proxy",
+    "version": "4.17.3",
+    "cppan": "source:\n    remote: https:\/\/www.threadingbuildingblocks.org\/sites\/default\/files\/software_releases\/source\/tbb2017_20161128oss_src.tgz\n\nversion: 4.17.3\n\ntype: library\n\nfiles:\n    -   include\/.*\n    -   src\/tbb\/.*\\.h\n    -   src\/tbbmalloc\/.*\\.h\n    -   src\/tbbmalloc\/proxy.*\n    -   src\/tbbmalloc\/tbb_function_replacement.*\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __TBBMALLOC_BUILD\n            public:\n                -   __TBBMALLOC_NO_IMPLICIT_LINKAGE\n                -   __TBB_NO_IMPLICIT_LINKAGE\n            unix:\n                public:\n                    -   USE_PTHREAD\n            win32:\n                public:\n                    -   USE_WINTHREAD\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.tbb.tbbmalloc:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/www.threadingbuildingblocks.org\/sites\/default\/files\/software_releases\/source\/tbb2017_20161128oss_src.tgz"
+        }
+    },
+    "sha256": "788a8cb48dc7d10127fa87daede1a2407f3f476f4db8f5d3c0fea8c7955136ce",
+    "created": "2017-02-19 20:45:10.140552"
+}
