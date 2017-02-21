@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.brunocodutra.metal",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/brunocodutra\/metal",
+            "branch": "master"
+        }
+    },
+    "sha256": "6cd99ae26cce87e56bc252a2a08d8666bac10d54f6ea6f84a10ad12432604c63",
+    "created": "2017-02-21 22:15:53.158218",
+    "cppan": "source:\n    git: https:\/\/github.com\/brunocodutra\/metal\n    branch: master\n\nversion: master\n\n"
+}
