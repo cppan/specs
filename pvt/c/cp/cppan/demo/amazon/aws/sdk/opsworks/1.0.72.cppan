@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.opsworks",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: 1.0.72\n\nversion: 1.0.72\n\nroot_directory: aws-cpp-sdk-opsworks\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_OPSWORKS_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "version": "1.0.72",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.72"
+        }
+    },
+    "sha256": "e1166d19124af3950fd3458c31bc4a7fc48db76b087ed142330a8c26dc5e2a23",
+    "created": "2017-02-22 22:58:34.652708"
+}

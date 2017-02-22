@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.kinesisanalytics",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: 1.0.72\n\nversion: 1.0.72\n\nroot_directory: aws-cpp-sdk-kinesisanalytics\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_KINESISANALYTICS_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "version": "1.0.72",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.72"
+        }
+    },
+    "sha256": "b841f0069d76987552c6bfe1f246e4e1e75bcb15cfda0b1709bf000b0ac2ed87",
+    "created": "2017-02-22 22:57:46.976498"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.apigateway",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: 1.0.72\n\nversion: 1.0.72\n\nroot_directory: aws-cpp-sdk-apigateway\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_APIGATEWAY_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "version": "1.0.72",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.72"
+        }
+    },
+    "sha256": "382c604c6494e1a3f5e0e60d6724e0723879e1e958e0d19419746ab297d0ce16",
+    "created": "2017-02-22 22:54:54.104348"
+}

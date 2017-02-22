@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.rds",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: 1.0.72\n\nversion: 1.0.72\n\nroot_directory: aws-cpp-sdk-rds\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_RDS_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "version": "1.0.72",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.72"
+        }
+    },
+    "sha256": "79562c024a7f3d32a5f46fd9fd50b12b09459958296d659510db0153bcf3c95a",
+    "created": "2017-02-22 22:58:27.547139"
+}

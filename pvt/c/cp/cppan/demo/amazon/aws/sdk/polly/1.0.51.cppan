@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.polly",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: 1.0.51\n\nversion: 1.0.51\n\nroot_directory: aws-cpp-sdk-polly\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_POLLY_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "1.0.51"
+        }
+    },
+    "version": "1.0.51",
+    "sha256": "d3babd305bcf3d4c50505e46f07d6cd360a893b5cf327254f2ea7850e692fe88",
+    "created": "2017-02-22 22:48:24.119113"
+}
