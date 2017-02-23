@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.tesseract.dawg2wordlist",
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/dawg2wordlist.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "version": "3.5.0",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "branch": "3.05"
+            "tag": "3.05"
         }
     },
-    "version": "3.5.0",
-    "sha256": "c05d5ff6df004676328dc71597eaefb5994b5145e615d0417fac86937f1f3e5d",
-    "created": "2017-02-23 12:56:06.727154"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/dawg2wordlist.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "sha256": "fe7757dff4f032a3bf7c0c67bdfaa06d670ed3c3caa98672533f4c9e2d74d323",
+    "created": "2017-02-23 17:20:56.244069"
 }

@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "branch": "3.05"
+            "tag": "3.05"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/shapeclustering.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.common_training:\n            version: \"*\"\n\n",
-    "sha256": "cfaa8414d78f3490cf39155e23dbc2341a96cb249e1dcd9b39b1c181aef23ccb",
-    "created": "2017-02-16 22:20:38.750888"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/shapeclustering.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.common_training:\n            version: \"*\"\n\n",
+    "sha256": "a381bad07013bcc9fe45d22132d6d3e9fce233cabfe84fa1beecc885da6830a6",
+    "created": "2017-02-23 17:21:15.782969"
 }

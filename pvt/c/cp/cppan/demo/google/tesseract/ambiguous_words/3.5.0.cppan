@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.tesseract.ambiguous_words",
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/ambiguous_words.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "version": "3.5.0",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "branch": "3.05"
+            "tag": "3.05"
         }
     },
-    "version": "3.5.0",
-    "sha256": "79ae5a1c5ee09f0adabfdc679559f6305d90db2b967906fa53a8a53de988d82f",
-    "created": "2017-02-23 12:55:58.377425"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/ambiguous_words.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "sha256": "6c8d36dc2b9003d3e2b0466eb7af0afe89d7f431722a20f04ee9ed61ba989bda",
+    "created": "2017-02-23 17:20:38.033257"
 }
