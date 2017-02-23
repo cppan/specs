@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.intel.opencv.contrib.text",
-    "version": "3.2.0",
-    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: 3.2.0\n\nversion: 3.2.0\n\ntype: library\n\nfiles:\n    -   modules\/text\/include\/.*\n    -   modules\/text\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/text\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n            public:\n                -   HAVE_TESSERACT\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.tesseract:\n            version: master\n        pvt.cppan.demo.intel.opencv.imgproc:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.ml:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\npost_sources: |\n    file_write_once(${BDIR}\/text_config.hpp \"\")\n    replace_in_file_once(${SDIR}\/modules\/text\/src\/precomp.hpp\n        \"#include <tesseract\/baseapi.h>\" \"#include <baseapi.h>\"\n    )\n    replace_in_file_once(${SDIR}\/modules\/text\/src\/precomp.hpp\n        \"#include <tesseract\/resultiterator.h>\" \"#include <resultiterator.h>\"\n    )\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: 3.2.0\n\nversion: 3.2.0\n\ntype: library\n\nfiles:\n    -   modules\/text\/include\/.*\n    -   modules\/text\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/text\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n            public:\n                -   HAVE_TESSERACT\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.libtesseract:\n            version: master\n        pvt.cppan.demo.intel.opencv.imgproc:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.ml:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\npost_sources: |\n    file_write_once(${BDIR}\/text_config.hpp \"\")\n    replace_in_file_once(${SDIR}\/modules\/text\/src\/precomp.hpp\n        \"#include <tesseract\/baseapi.h>\" \"#include <baseapi.h>\"\n    )\n    replace_in_file_once(${SDIR}\/modules\/text\/src\/precomp.hpp\n        \"#include <tesseract\/resultiterator.h>\" \"#include <resultiterator.h>\"\n    )\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/opencv\/opencv_contrib",
             "tag": "3.2.0"
         }
     },
-    "sha256": "8ecfb9bd9ca66a1e048676110956f9c11b13b765a471545d7305e723d1974e18",
-    "created": "2017-01-10 10:44:33.669515"
+    "version": "3.2.0",
+    "sha256": "79a3341219ecce5f028051b0818da942b71a2aa2a512c41b78d56dc16b6f794d",
+    "created": "2017-02-23 12:53:29.849849"
 }

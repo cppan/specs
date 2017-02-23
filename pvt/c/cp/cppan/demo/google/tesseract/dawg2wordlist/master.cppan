@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/dawg2wordlist.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.tesseract:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/dawg2wordlist.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.libtesseract:\n            version: \"*\"\n\n",
     "sha256": "caedccb62683a49e1d6c0bb7aa9eeb07cc11a7b9dda34a7f3061ef6c5f45aad5",
     "created": "2016-12-31 14:53:12.689974"
 }
