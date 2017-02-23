@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.gnome.glib.gmodule",
-    "cppan": "source:\n    git: git:\/\/git.gnome.org\/glib\n    tag: 2.50.2\n\nversion: 2.50.2\n\ntype: library\n\nshared_only: true\n\nfiles:\n    -   gmodule\/[^\/]*\\.c\n    -   gmodule\/[^\/]*\\.h\n\nexclude_from_build:\n    -   gmodule\/gmodule-.*\n\ninclude_directories:\n    public:\n        -   gmodule\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.glib.glib:\n            version: \"*\"\n\npost_sources: |\n    #file_write_once(${BDIR}\/config.h \"\")\n    configure_file(${SDIR}\/gmodule\/gmoduleconf.h.in ${BDIR}\/gmodule\/gmoduleconf.h)\n    \n    set(msrc)\n    if (WIN32)\n        set(msrc gmodule\/gmodule-win32.c)\n    elseif(APPLE)\n        set(msrc gmodule\/gmodule-dyld.c)\n    else()\n        set(msrc gmodule\/gmodule-dl.c)\n    endif()\n\n",
+    "cppan": "source:\n    git: git:\/\/git.gnome.org\/glib\n    tag: 2.50.2\n\nversion: 2.50.2\n\ntype: library\n\nfiles:\n    -   gmodule\/[^\/]*\\.c\n    -   gmodule\/[^\/]*\\.h\n\nexclude_from_build:\n    -   gmodule\/gmodule-.*\n\ninclude_directories:\n    public:\n        -   .\n        -   gmodule\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.glib.glib:\n            version: \"*\"\n\npost_sources: |\n    #file_write_once(${BDIR}\/config.h \"\")\n    configure_file(${SDIR}\/gmodule\/gmoduleconf.h.in ${BDIR}\/gmodule\/gmoduleconf.h)\n    \n    set(msrc)\n    if (WIN32)\n        set(msrc gmodule\/gmodule-win32.c)\n    elseif(APPLE)\n        set(msrc gmodule\/gmodule-dyld.c)\n    else()\n        set(msrc gmodule\/gmodule-dl.c)\n    endif()\n\n",
     "source": {
         "git": {
             "url": "git:\/\/git.gnome.org\/glib",
@@ -8,6 +8,6 @@
         }
     },
     "version": "2.50.2",
-    "sha256": "3b989f5f15896bb9f840cc3039fe3278cc8d3fa6fcc083160ec7d4bd860873db",
-    "created": "2017-01-13 18:57:24.711544"
+    "sha256": "27ffe47dd0c514ccadff28015dece6e2a6825bbf7cdfde76262009e4e0d719c4",
+    "created": "2017-02-23 17:52:56.56378"
 }
