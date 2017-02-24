@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gnome.glib.gmodule",
+    "cppan": "source:\n    git: git:\/\/git.gnome.org\/glib\n    tag: 2.50.3\n\nversion: 2.50.3\n\ntype: library\n\nfiles:\n    -   gmodule\/[^\/]*\\.c\n    -   gmodule\/[^\/]*\\.h\n\nexclude_from_build:\n    -   gmodule\/gmodule-.*\n\ninclude_directories:\n    public:\n        -   gmodule\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.glib.glib:\n            version: \"*\"\n\npost_sources: |\n    #file_write_once(${BDIR}\/config.h \"\")\n    configure_file(${SDIR}\/gmodule\/gmoduleconf.h.in ${BDIR}\/gmodule\/gmoduleconf.h)\n    \n    set(msrc)\n    if (WIN32)\n        set(msrc gmodule\/gmodule-win32.c)\n    elseif(APPLE)\n        set(msrc gmodule\/gmodule-dyld.c)\n    else()\n        set(msrc gmodule\/gmodule-dl.c)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "git:\/\/git.gnome.org\/glib",
+            "tag": "2.50.3"
+        }
+    },
+    "version": "2.50.3",
+    "sha256": "0614622d8f9978848f35ef70ea16c582c3b2602acbb39535485bb0d4561f1ce5",
+    "created": "2017-02-24 20:45:57.088156"
+}
