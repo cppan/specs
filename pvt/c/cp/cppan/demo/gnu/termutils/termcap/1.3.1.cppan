@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnu.termutils.termcap",
+    "cppan": "source:\n    remote: http:\/\/ftp.gnu.org\/gnu\/termcap\/termcap-1.3.1.tar.gz\n\nversion: 1.3.1\n\ntype: library\n\nstatic_only: true\n\ncheck_include_exists:\n    -   file: fcntl.h\n        variable: HAVE_FCNTL_H\n        cpp: false\n    -   file: string.h\n        variable: HAVE_STRING_H\n        cpp: false\n    -   file: unistd.h\n        variable: HAVE_UNISTD_H\n        cpp: false\n\ncheck_c_source_compiles:\n    STDC_HEADERS:\n        text: \"\\n#include <stdlib.h>\\n#include <stdarg.h>\\n#include <string.h>\\n#include <float.h>\\nint main() {return 0;}\\n\"\n        invert: false\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/ftp.gnu.org\/gnu\/termcap\/termcap-1.3.1.tar.gz"
+        }
+    },
+    "version": "1.3.1",
+    "sha256": "b0130eea4247d1d9cb22681675377fb1cefb2696c6a48cac2bdf0184158ee913",
+    "created": "2017-02-26 00:17:58.317522"
+}
