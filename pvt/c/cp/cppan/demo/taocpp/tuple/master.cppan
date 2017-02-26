@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.taocpp.tuple",
+    "cppan": "source:\n    git: https:\/\/github.com\/taocpp\/tuple\n    branch: master\n\nversion: master\n\nfiles:\n    -   include\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/taocpp\/tuple",
+            "branch": "master"
+        }
+    },
+    "sha256": "c7d50c5eee589f5d702d2dd109197e19caaa77e426d5354e6533776eed077682",
+    "created": "2017-02-26 19:58:06.756208"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.taocpp.sequences",
+    "cppan": "source:\n    git: https:\/\/github.com\/taocpp\/sequences\n    branch: master\n\nversion: master\n\nfiles:\n    -   include\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/taocpp\/sequences",
+            "branch": "master"
+        }
+    },
+    "sha256": "3d3bc807cc687ef609bc9b33834923d834516cf809c8774fb52677b757305e58",
+    "created": "2017-02-26 19:58:19.47672"
+}

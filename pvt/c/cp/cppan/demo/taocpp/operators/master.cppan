@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.taocpp.operators",
+    "cppan": "source:\n    git: https:\/\/github.com\/taocpp\/operators\n    branch: master\n\nversion: master\n\nfiles:\n    -   include\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/taocpp\/operators",
+            "branch": "master"
+        }
+    },
+    "sha256": "3e2ab098015ec1098d42e00139bf4d90bf63501340fd36acb464668a35bed089",
+    "created": "2017-02-26 19:57:28.528041"
+}
