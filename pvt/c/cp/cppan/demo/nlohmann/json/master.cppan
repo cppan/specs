@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.nlohmann.json",
+    "cppan": "source:\n    git: https:\/\/github.com\/nlohmann\/json\n    branch: master\n\nversion: master\n\nfiles:\n    -   src\/json.hpp\n\ninclude_directories:\n    public:\n        -   src\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/nlohmann\/json",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "e3c74b6b085f35cc0364c50b6a51f3c27a4d7bf8ee118aa705fdc9217352126a",
+    "created": "2017-02-26 18:56:10.352332"
+}
