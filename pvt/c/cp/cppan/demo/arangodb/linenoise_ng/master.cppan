@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.arangodb.linenoise_ng",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/arangodb\/linenoise-ng",
+            "branch": "master"
+        }
+    },
+    "sha256": "57f51b88ce6622b508997531e93fb0faf02569ab4d70fb3dbae429bf21cbf5ae",
+    "created": "2017-02-26 18:04:27.973504",
+    "cppan": "source:\n    git: https:\/\/github.com\/arangodb\/linenoise-ng\n    branch: master\n\nversion: master\n\n"
+}

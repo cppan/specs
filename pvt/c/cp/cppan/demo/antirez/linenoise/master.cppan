@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.antirez.linenoise",
+    "cppan": "source:\n    git: https:\/\/github.com\/antirez\/linenoise\n    branch: master\n\nversion: master\n\nfiles:\n    -   linenoise.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/antirez\/linenoise",
+            "branch": "master"
+        }
+    },
+    "sha256": "30871692ac557c745532331ff5879012057489243dd8e1a039939068ecf235d7",
+    "created": "2017-02-26 18:03:05.854695"
+}
