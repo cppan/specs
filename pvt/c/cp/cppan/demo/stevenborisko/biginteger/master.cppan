@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.stevenborisko.biginteger",
+    "cppan": "source:\n    git: https:\/\/github.com\/stevenBorisko\/BigInteger\n    branch: master\n\nversion: master\n\nfiles:\n    -   .*\\.[ch]pp\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/stevenBorisko\/BigInteger",
+            "branch": "master"
+        }
+    },
+    "sha256": "e539f6d7aba1f77e3af8b152ecf4ce91b096d3e077ea009c8cd2630b7c63a60a",
+    "created": "2017-02-27 19:59:38.892882"
+}

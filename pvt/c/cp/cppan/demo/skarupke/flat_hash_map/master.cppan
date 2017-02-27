@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.skarupke.flat_hash_map",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/skarupke\/flat_hash_map",
+            "branch": "master"
+        }
+    },
+    "sha256": "802b913fac36b0623ad8f31175b5aeacd42aaa5150d03515b71fab04e8311396",
+    "created": "2017-02-27 20:03:11.809544",
+    "cppan": "source:\n    git: https:\/\/github.com\/skarupke\/flat_hash_map\n    branch: master\n\nversion: master\n\n"
+}

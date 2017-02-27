@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tessil.ordered_map",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Tessil\/ordered-map",
+            "branch": "master"
+        }
+    },
+    "sha256": "1930ecf3d07f85268655d98412c6a68c0928cf33ab02a124cd0f06ab2d374346",
+    "created": "2017-02-27 20:01:18.338769",
+    "cppan": "source:\n    git: https:\/\/github.com\/Tessil\/ordered-map\n    branch: master\n\nversion: master\n\n"
+}
