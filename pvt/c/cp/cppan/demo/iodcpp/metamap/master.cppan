@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.iodcpp.metamap",
+    "cppan": "source:\n    git: https:\/\/github.com\/iodcpp\/metamap\n    branch: master\n\nversion: master\n\nfiles:\n    -   metamap\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/iodcpp\/metamap",
+            "branch": "master"
+        }
+    },
+    "sha256": "3e83f24e29444b78173134e63da746c5eeac88c4dcadcbe40865e1c7ba4ebe0a",
+    "created": "2017-02-28 19:57:08.242544"
+}
