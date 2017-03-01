@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.gnu.gss",
-    "cppan": "source:\n    remote: http:\/\/ftp.gnu.org\/gnu\/gss\/gss-1.0.3.tar.gz\n\nversion: 1.0.3\n\nname: gss\n\ntype: lib\n\nstatic_only: true\n\nfiles:\n    -   lib\/[^\/]*\\.c\n    -   lib\/[^\/]*\\.h\n    -   lib\/gl\/strverscmp.c\n    -   lib\/headers\/.*\\.h\n\nexclude_from_build:\n    -   lib\/gl\/strverscmp.c\n\ninclude_directories:\n    public: lib\/headers\n\noptions:\n    any:\n        definitions:\n            public:\n                -   PO_SUFFIX=\".po\"\n                -   LOCALEDIR=\".\"\n\ndependencies:\n    pvt.cppan.demo.gnu.gettext.intl: \"*\"\n\npost_sources: |\n    file_write_once(${BDIR}\/config.h \"\")\n    \n    push_front_to_file_once(${SDIR}\/lib\/version.c \"\n        #include \\\"gl\/strverscmp.c\\\"\n        #define strverscmp __strverscmp\n    \")\n\n",
-    "version": "1.0.3",
+    "cppan": "source:\n    remote: http:\/\/ftp.gnu.org\/gnu\/gss\/gss-1.0.3.tar.gz\n\nversion: 1.0.3\n\nname: gss\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   lib\/[^\/]*\\.c\n    -   lib\/[^\/]*\\.h\n    -   lib\/gl\/strverscmp.c\n    -   lib\/headers\/.*\\.h\n\nexclude_from_build:\n    -   lib\/gl\/strverscmp.c\n\ninclude_directories:\n    public:\n        -   lib\/headers\n\noptions:\n    any:\n        definitions:\n            public:\n                -   PO_SUFFIX=\".po\"\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.gettext.intl:\n            version: \"*\"\n\npost_sources: |\n    file_write_once(${BDIR}\/config.h \"\")\n    \n    push_front_to_file_once(${SDIR}\/lib\/version.c \"\n        #include \\\"gl\/strverscmp.c\\\"\n        #define strverscmp __strverscmp\n    \")\n\n",
     "source": {
         "remote": {
             "url": "http:\/\/ftp.gnu.org\/gnu\/gss\/gss-1.0.3.tar.gz"
         }
     },
-    "sha256": "8ded3239269b09360d768c49e1340bf6d6dd6e330543ca459f8632463d9926b0",
-    "created": "2016-11-25 13:30:37.858077"
+    "version": "1.0.3",
+    "sha256": "7c284e257305f105d0881339243aeeede76e6e15d288402f6e695d0661a09972",
+    "created": "2017-03-01 17:10:33.89086"
 }
