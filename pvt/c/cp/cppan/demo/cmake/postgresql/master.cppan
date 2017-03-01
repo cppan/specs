@@ -1,12 +1,7 @@
 {
     "project": "pvt.cppan.demo.cmake.postgresql",
-    "cppan": "source:\n    remote: https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip\n\nversion: master\n\nempty: true\n\ninclude_directories:\n    public: ${PostgreSQL_INCLUDE_DIRS}\n\noptions:\n    any:\n        link_libraries:\n            public: ${pg_lib}\n        include_directories: ${PostgreSQL_INCLUDE_DIRS}\n\npost_sources: |\n    find_package(PostgreSQL REQUIRED)\n    find_library(pg_lib ${PostgreSQL_LIBRARIES} HINTS ${PostgreSQL_LIBRARY_DIRS})\n    \n\n",
+    "cppan": "version: master\n\nempty: true\n\ninclude_directories:\n    public:\n        -   ${PostgreSQL_INCLUDE_DIRS}\n\npost_sources: |\n    find_package(PostgreSQL REQUIRED)\n    find_library(pg_lib ${PostgreSQL_LIBRARIES} HINTS ${PostgreSQL_LIBRARY_DIRS})\n\npost_target: |\n    if (\"${pg_lib}\" STREQUAL \"pg_lib-NOTFOUND\")\n    target_link_libraries(${this} INTERFACE ${PostgreSQL_LIBRARIES})\n    else()\n    target_link_libraries(${this} INTERFACE ${pg_lib})\n    endif()\n\n",
     "version": "master",
-    "source": {
-        "remote": {
-            "url": "https:\/\/github.com\/nigels-com\/glew\/archive\/master.zip"
-        }
-    },
-    "sha256": "42cd8f9af10fb7f6694859bda39a0ef477d3b850d210c829df548081d6c6ec7b",
-    "created": "2016-09-11 22:24:53.678597"
+    "sha256": "d336795039c5ae31b30295ee0d7ecfcc9b621be62f4c4f45afa879eff09919db",
+    "created": "2017-03-01 12:07:27.02294"
 }

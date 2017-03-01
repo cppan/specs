@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.no1msd.mstch",
+    "cppan": "source:\n    git: https:\/\/github.com\/no1msd\/mstch\n    tag: 1.0.2\n\nversion: 1.0.2\n\nfiles:\n    -   include\/.*\\.hpp\n    -   src\/.*\\.cpp\n    -   src\/.*\\.hpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.variant:\n            version: \"*\"\n\n",
+    "version": "1.0.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/no1msd\/mstch",
+            "tag": "1.0.2"
+        }
+    },
+    "sha256": "820222e8235d9b1131a5299160c4de3a47f5e6b9d99bb03ee36dfd0718184966",
+    "created": "2017-03-01 12:15:03.682518"
+}
