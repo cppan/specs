@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.client.cppan",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/cppan\/cppan",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/cppan\/cppan\n    branch: master\n\nversion: master\n\nfiles:\n    -   src\/client\/.*\n\nexclude_from_package:\n    -   src\/client\/.*\\.txt\n\ndependencies:\n    public:\n        pvt.cppan.client.common:\n            version: \"*\"\n        pvt.cppan.demo.boost.program_options:\n            version: 1\n        pvt.cppan.demo.yhirose.cpp_linenoise:\n            version: master\n\n",
+    "sha256": "8f8d0b3e2bcee3c9b7625b90018ee145cceae48ef752c9b67b19fe3acf751e95",
+    "created": "2017-03-01 20:44:50.531099"
+}
