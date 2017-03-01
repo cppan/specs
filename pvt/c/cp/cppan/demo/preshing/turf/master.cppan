@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.preshing.turf",
+    "cppan": "source:\n    git: https:\/\/github.com\/preshing\/turf\n    branch: master\n\nversion: master\n\nfiles:\n    -   turf\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/preshing\/turf",
+            "branch": "master"
+        }
+    },
+    "sha256": "f873ecbcf410301a2030fede49237ff888855e1a04f4cb0198aa89f4d6b87c4f",
+    "created": "2017-03-01 11:35:26.054741"
+}
