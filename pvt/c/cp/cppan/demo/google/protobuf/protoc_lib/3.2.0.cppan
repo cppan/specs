@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.protobuf.protoc_lib",
+    "version": "3.2.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/protobuf\n    tag: v3.2.0\n\nversion: 3.2.0\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   LIBPROTOC_EXPORTS\n            public:\n                -   PROTOBUF_USE_DLLS\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.protobuf.protobuf:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/google\/protobuf",
+            "tag": "v3.2.0"
+        }
+    },
+    "sha256": "371a7ac920516708c36a789c1774e25b390e14c64c66748138bd0fdad8076210",
+    "created": "2017-03-02 22:40:01.006633"
+}
