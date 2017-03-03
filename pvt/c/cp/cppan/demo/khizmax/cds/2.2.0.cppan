@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.khizmax.cds",
+    "cppan": "source:\n    git: https:\/\/github.com\/khizmax\/libcds\n    tag: v2.2.0\n\nversion: 2.2.0\n\nfiles:\n    -   cds\/.*\n    -   src\/.*\n\noptions:\n    any:\n        definitions:\n            private:\n                -   CDS_BUILD_LIB\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/khizmax\/libcds",
+            "tag": "v2.2.0"
+        }
+    },
+    "version": "2.2.0",
+    "sha256": "d2278ffae82044fffda193568fb6525295aa99fa6a8ae061e0498daaeeffbeca",
+    "created": "2017-03-03 00:22:15.349498"
+}
