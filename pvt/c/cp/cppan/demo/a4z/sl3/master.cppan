@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.a4z.sl3",
+    "cppan": "source:\n    git: https:\/\/bitbucket.org\/a4z\/libsl3\n    branch: master\n\nversion: master\n\noptions:\n    shared:\n        definitions:\n            interface:\n                -   LINK_SL3_DLL\n            private:\n                -   LIBSL3_DLL\n\ndependencies:\n    public:\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\npost_sources: |\n    set(sl3_MAJOR_VERSION 1)\n    set(sl3_MINOR_VERSION 0)\n    \n    # sqlite major is always 3, no need to use that here\n    # set(internal_SQLITE_MAJOR_V 3)\n    set(internal_SQLITE_MINOR_V 13)\n    set(internal_SQLITE_PATCH_V  0)\n    \n    # sqlite uses (X*1000000 + Y*1000 + Z),\n    # but minor patch used since major is always 3\n    math(EXPR sl3_PATCH_VERSION \"${internal_SQLITE_MINOR_V}*1000 + ${internal_SQLITE_PATCH_V}\")\n    \n    set(sl3_VERSION ${sl3_MAJOR_VERSION}.${sl3_MINOR_VERSION}.${sl3_PATCH_VERSION})\n    \n    set(CONFIG_SQLITE3_INTERNAL false)\n    \n    configure_file(${SDIR}\/src\/config.in ${BDIR}\/sl3\/config.hpp)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/bitbucket.org\/a4z\/libsl3",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "f1371c299416c5d8e5a7e01b29e696ee17823de9bb015d7baa5ee3923c2fb260",
+    "created": "2017-03-03 09:23:21.905254"
+}
