@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.iwongu.sqlite3pp",
+    "cppan": "source:\n    git: https:\/\/github.com\/iwongu\/sqlite3pp\n    tag: v1.0.6\n\nversion: 1.0.6\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/iwongu\/sqlite3pp",
+            "tag": "v1.0.6"
+        }
+    },
+    "version": "1.0.6",
+    "sha256": "2c04b2ba2d396d09d746e11b03aa435be8cdc57a8eefb2f451c96a8e96d9b70a",
+    "created": "2017-03-03 10:10:34.820476"
+}

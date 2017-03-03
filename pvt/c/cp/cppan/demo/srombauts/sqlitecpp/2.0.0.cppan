@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.srombauts.sqlitecpp",
+    "cppan": "source:\n    git: https:\/\/github.com\/SRombauts\/SQLiteCpp\n    tag: 2.0.0\n\nversion: 2.0.0\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/SRombauts\/SQLiteCpp",
+            "tag": "2.0.0"
+        }
+    },
+    "version": "2.0.0",
+    "sha256": "2d8e2b230faecd2f51f8915ef1ab92235fd538f8f1919870fbf50530df4946cc",
+    "created": "2017-03-03 10:08:11.329087"
+}
