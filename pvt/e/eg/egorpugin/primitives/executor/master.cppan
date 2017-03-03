@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.executor",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: executor\n\ntype: library\n\nroot_directory: executor\n\n",
+    "sha256": "eeb8a5483bd0fabfde3eb2e84a5411ac9cb3676ac540cfcf6af7e496f4183cf4",
+    "created": "2017-03-03 14:24:08.178675"
+}

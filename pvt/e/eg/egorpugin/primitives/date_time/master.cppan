@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.date_time",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: date_time\n\ntype: library\n\nroot_directory: date_time\n\n",
+    "sha256": "4d1b1d2179196342da8292d12d03ce8418d955d1d3aaefc58de0f043d3ae2b44",
+    "created": "2017-03-03 14:24:03.431499"
+}

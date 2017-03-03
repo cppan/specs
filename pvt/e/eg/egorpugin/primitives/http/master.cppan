@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.http",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: http\n\ntype: library\n\nroot_directory: http\n\n",
+    "sha256": "72addf02cbd5983ec84c9042151654c24f6d2e413e84f5f9a68576723e146aae",
+    "created": "2017-03-03 14:24:21.304642"
+}

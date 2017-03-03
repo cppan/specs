@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.context",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: context\n\ntype: library\n\nroot_directory: context\n\n",
+    "sha256": "af05a8f4997c681970710d9c4b64c0840bb4e9a75924f4b3603f2d039fae9217",
+    "created": "2017-03-03 14:23:58.712571"
+}

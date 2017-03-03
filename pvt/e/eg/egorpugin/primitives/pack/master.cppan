@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.pack",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: pack\n\ntype: library\n\nroot_directory: pack\n\n",
+    "sha256": "ceaacaf2cb1a0f12b5ac4435565e45b34bc86249cb26bb614b3fdcd12c8883f9",
+    "created": "2017-03-03 14:24:34.761678"
+}
