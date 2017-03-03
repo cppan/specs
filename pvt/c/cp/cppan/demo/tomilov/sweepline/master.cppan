@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tomilov.sweepline",
+    "cppan": "source:\n    git: https:\/\/github.com\/tomilov\/sweepline\n    branch: master\n\nversion: master\n\nfiles:\n    -   .*\\.hpp\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tomilov\/sweepline",
+            "branch": "master"
+        }
+    },
+    "sha256": "c8b02b76d508041eeb00ab1ed0ad627c15112cd37d030759727d1cc560bd3623",
+    "created": "2017-03-03 21:13:30.882008"
+}

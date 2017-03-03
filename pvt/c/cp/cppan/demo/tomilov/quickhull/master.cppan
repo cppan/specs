@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tomilov.quickhull",
+    "cppan": "source:\n    git: https:\/\/github.com\/tomilov\/quickhull\n    branch: master\n\nversion: master\n\nfiles:\n    -   include\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tomilov\/quickhull",
+            "branch": "master"
+        }
+    },
+    "sha256": "caafd85fe13a24cf900fb90a2d15612cc578e94778dfae1f48a07d0e8fdcb461",
+    "created": "2017-03-03 21:12:50.865474"
+}

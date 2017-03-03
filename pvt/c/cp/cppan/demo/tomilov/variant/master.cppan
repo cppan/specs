@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tomilov.variant",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tomilov\/variant",
+            "branch": "master"
+        }
+    },
+    "sha256": "5d9f9f6fb24852e7a238affebf86782c4a4101322962c3803f59357fa8435f4b",
+    "created": "2017-03-03 21:11:54.451046",
+    "cppan": "source:\n    git: https:\/\/github.com\/tomilov\/variant\n    branch: master\n\nversion: master\n\n"
+}
