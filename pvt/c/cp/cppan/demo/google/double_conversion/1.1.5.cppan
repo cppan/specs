@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.double_conversion",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/double-conversion\n    tag: v1.1.5\n\nversion: 1.1.5\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/google\/double-conversion",
+            "tag": "v1.1.5"
+        }
+    },
+    "version": "1.1.5",
+    "sha256": "48327231c92035cbd18f3cf096a3a55c3a550e445920a149ba66ee99d1c133f0",
+    "created": "2017-03-05 09:38:41.489298"
+}
