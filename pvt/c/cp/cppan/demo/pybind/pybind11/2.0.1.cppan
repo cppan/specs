@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.pybind.pybind11",
+    "version": "2.0.1",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pybind\/pybind11",
+            "tag": "v2.0.1"
+        }
+    },
+    "sha256": "abb41f8ed9024da9ca26d86ce11fbda39981152bbba4b0078a31b7954ec127e6",
+    "created": "2017-03-05 20:17:15.102893",
+    "cppan": "source:\n    git: https:\/\/github.com\/pybind\/pybind11\n    tag: v2.0.1\n\nversion: 2.0.1\n\n"
+}

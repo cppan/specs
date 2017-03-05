@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.pybind.pybind11",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pybind\/pybind11",
+            "branch": "master"
+        }
+    },
+    "sha256": "25867f6b19bc3d2111376e61a0ab1d281f0aefc85fbff6f0f86906ac56081007",
+    "created": "2017-03-05 20:17:03.676714",
+    "cppan": "source:\n    git: https:\/\/github.com\/pybind\/pybind11\n    branch: master\n\nversion: master\n\n"
+}
