@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.double_conversion",
-    "cppan": "source:\n    git: https:\/\/github.com\/google\/double-conversion\n    branch: master\n\nversion: master\n\nimport_from_bazel: true\n\n",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/double-conversion\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nimport_from_bazel: true\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/google\/double-conversion",
             "branch": "master"
         }
     },
-    "sha256": "e408c1efe1f7e13a9ed7e5841bb47e5c238b72b74bb086343a31d92160436252",
-    "created": "2016-10-12 22:06:25.545327"
+    "version": "master",
+    "sha256": "d7c23f5e97cb7010be7080c610a2a1107df59b9d0f7630976f329fba908f7c18",
+    "created": "2017-03-05 10:31:09.81503"
 }
