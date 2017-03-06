@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.aappleby.smhasher.murmurhash3",
+    "cppan": "source:\n    git: https:\/\/github.com\/aappleby\/smhasher\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nfiles:\n    -   src\/MurmurHash3.cpp\n    -   src\/MurmurHash3.h\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aappleby\/smhasher",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "99f1e51218cc5ad744c7836177c8638c5d237389e249ce678bdd7998b44a68fd",
+    "created": "2017-03-06 00:26:57.990797"
+}
