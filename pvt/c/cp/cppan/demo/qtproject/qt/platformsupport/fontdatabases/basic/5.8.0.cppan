@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.platformsupport.fontdatabases.basic",
+    "version": "5.8.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.8.0\n\nversion: 5.8.0\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   include\/QtFontDatabaseSupport\/.*\n    -   src\/platformsupport\/fontdatabases\/basic\/.*\n\ninclude_directories:\n    public:\n        -   include\n        -   include\/QtFontDatabaseSupport\n        -   include\/QtFontDatabaseSupport\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\n        -   include\/QtFontDatabaseSupport\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\/QtFontDatabaseSupport\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.gui:\n            version: \"*\"\n\npost_sources: |\n    if (CPPAN_LOCAL_PROJECT)\n        set(PACKAGE_VERSION_MAJOR 5)\n        set(PACKAGE_VERSION_MINOR 8)\n        set(PACKAGE_VERSION_PATCH 0)\n    endif()\n    \n    file_write_once(${BDIR}\/QtFontDatabaseSupport\/QtFontDatabaseSupportDepends \"\n        #ifdef __cplusplus\n        #include <QtCore\/QtCore>\n        #include <QtGui\/QtGui>\n        #endif\n    \")\n    \n    replace_in_file_once(${SDIR}\/src\/platformsupport\/fontdatabases\/basic\/qbasicfontdatabase.cpp\n        \"extern FT_Library qt_getFreetype();\"\n        \"extern Q_GUI_EXPORT FT_Library qt_getFreetype();\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.8.0"
+        }
+    },
+    "sha256": "bd026fe38ac050ecb26960a8b6b36b87443feaebb4264a75e9f751daa5054cec",
+    "created": "2017-03-06 21:34:07.148675"
+}

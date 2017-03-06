@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.platformsupport.fontdatabases.windows",
+    "version": "5.8.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.8.0\n\nversion: 5.8.0\n\ntype: library\n\nroot_directory: src\/platformsupport\/fontdatabases\/windows\n\nstatic_only: true\n\nfiles:\n    -   .*\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   QT_USE_DIRECTWRITE2\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.platformsupport.fontdatabases.basic:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.8.0"
+        }
+    },
+    "sha256": "a7bd48a6852d1f90c1f71cb81e45b9dd2003f1a9a2edd3313a18b44603762b39",
+    "created": "2017-03-06 21:34:11.697495"
+}
