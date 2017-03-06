@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.angle.egl",
+    "version": "c3031",
+    "cppan": "source:\n    git: https:\/\/chromium.googlesource.com\/angle\/angle\n    branch: chromium\/3031\n\nversion: c3031\n\ntype: library\n\napi_name: EGLAPI\n\nfiles:\n    -   src\/libEGL\/libEGL.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.angle.gles_v2:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/chromium.googlesource.com\/angle\/angle",
+            "branch": "chromium\/3031"
+        }
+    },
+    "sha256": "91fe04af03c7f2f6dba73f3cb3a0c15694899bc4f52b14cc1f5107c2ff695944",
+    "created": "2017-03-06 01:10:06.15805"
+}

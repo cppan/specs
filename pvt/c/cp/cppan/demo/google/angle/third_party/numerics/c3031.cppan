@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.angle.third_party.numerics",
+    "version": "c3031",
+    "cppan": "source:\n    git: https:\/\/chromium.googlesource.com\/angle\/angle\n    branch: chromium\/3031\n\nversion: c3031\n\ntype: library\n\nroot_directory: src\/common\/third_party\/numerics\n\nfiles:\n    -   .*\\.h\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/chromium.googlesource.com\/angle\/angle",
+            "branch": "chromium\/3031"
+        }
+    },
+    "sha256": "58aa823ba717fe63554fc6926d1c57e8294a8c541005347e6425fc51c1dff089",
+    "created": "2017-03-06 01:10:23.674266"
+}

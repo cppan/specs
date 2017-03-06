@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.angle.angle",
+    "cppan": "source:\n    git: https:\/\/chromium.googlesource.com\/angle\/angle\n    branch: chromium\/3031\n\nversion: c3031\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   src\/libANGLE\/.*\\.cpp\n    -   src\/libANGLE\/.*\\.h\n    -   src\/libANGLE\/.*\\.inl\n\nexclude_from_package:\n    -   src\/libANGLE\/renderer\/d3d\/d3d11\/winrt\/.*\n    -   src\/libANGLE\/renderer\/gl\/egl\/android\/.*\n    -   src\/libANGLE\/renderer\/gl\/egl\/ozone\/.*\n    -   src\/libANGLE\/renderer\/gl\/glx\/.*\n    -   src\/libANGLE\/renderer\/null\/.*\n    -   src\/libANGLE\/renderer\/vulkan\/.*\n\noptions:\n    any:\n        definitions:\n            private:\n                -   LIBANGLE_IMPLEMENTATION\n            win32:\n                public:\n                    -   ANGLE_ENABLE_D3D11\n                    -   ANGLE_ENABLE_D3D9\n        link_libraries:\n            win32:\n                public:\n                    -   d3d11\n                    -   d3d9\n                    -   dxguid\n\ndependencies:\n    public:\n        pvt.cppan.demo.aappleby.smhasher.murmurhash3:\n            version: master\n        pvt.cppan.demo.google.angle.compiler.translator:\n            version: \"*\"\n        pvt.cppan.demo.google.angle.third_party.khronos:\n            version: \"*\"\n        pvt.cppan.demo.google.angle.third_party.systeminfo:\n            version: \"*\"\n        pvt.cppan.demo.google.angle.util.image:\n            version: \"*\"\n\npost_sources: |\n    remove_src_dir(*unittest.cpp)\n    if (WIN32)\n        remove_src(src\/libANGLE\/renderer\/gl\/egl\/FunctionsEGLDL.cpp)\n    endif()\n    \n    file_write_once(${BDIR}\/id\/commit.h \"\n        #define ANGLE_COMMIT_HASH \\\"unknown hash\\\"\n        #define ANGLE_COMMIT_HASH_SIZE 12\n        #define ANGLE_COMMIT_DATE \\\"unknown date\\\"\n    \")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/chromium.googlesource.com\/angle\/angle",
+            "branch": "chromium\/3031"
+        }
+    },
+    "version": "c3031",
+    "sha256": "a5aee134b06a3eb4079d2666d2ea7b923203243491e540552272224faa011241",
+    "created": "2017-03-06 01:39:38.516685"
+}

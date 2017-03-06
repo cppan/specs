@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.angle.compiler.translator",
+    "version": "c3031",
+    "cppan": "source:\n    git: https:\/\/chromium.googlesource.com\/angle\/angle\n    branch: chromium\/3031\n\nversion: c3031\n\ntype: library\n\nroot_directory: src\n\nstatic_only: true\n\nfiles:\n    -   compiler\/translator\/.*\\.cpp\n    -   compiler\/translator\/.*\\.h\n\noptions:\n    any:\n        definitions:\n            private:\n                -   LIBANGLE_IMPLEMENTATION\n            win32:\n                public:\n                    -   ANGLE_ENABLE_GLSL\n                    -   ANGLE_ENABLE_HLSL\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.angle.compiler.preprocessor:\n            version: \"*\"\n        pvt.cppan.demo.google.angle.third_party.compiler:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/chromium.googlesource.com\/angle\/angle",
+            "branch": "chromium\/3031"
+        }
+    },
+    "sha256": "a6cde1a47977eb091867b449971eb181396bf2409bf9bb894a54cb43eadff913",
+    "created": "2017-03-06 01:09:59.098495"
+}

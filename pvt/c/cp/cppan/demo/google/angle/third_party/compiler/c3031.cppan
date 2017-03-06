@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.angle.third_party.compiler",
+    "cppan": "source:\n    git: https:\/\/chromium.googlesource.com\/angle\/angle\n    branch: chromium\/3031\n\nversion: c3031\n\ntype: library\n\nroot_directory: src\n\nstatic_only: true\n\nfiles:\n    -   third_party\/compiler\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.angle.common:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/chromium.googlesource.com\/angle\/angle",
+            "branch": "chromium\/3031"
+        }
+    },
+    "version": "c3031",
+    "sha256": "adfc646b62c0ad7b9cf1478d5aad884d07aca51ac6cc9fcab1d5cc7ee0a385a9",
+    "created": "2017-03-06 01:26:16.757434"
+}

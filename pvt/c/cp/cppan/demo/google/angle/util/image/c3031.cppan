@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.angle.util.image",
+    "cppan": "source:\n    git: https:\/\/chromium.googlesource.com\/angle\/angle\n    branch: chromium\/3031\n\nversion: c3031\n\ntype: library\n\nroot_directory: src\n\nstatic_only: true\n\nfiles:\n    -   image_util\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.angle.common:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/chromium.googlesource.com\/angle\/angle",
+            "branch": "chromium\/3031"
+        }
+    },
+    "version": "c3031",
+    "sha256": "267c48b78e7cd5ea980177b407d97de220504c3ce4a0644641a700b4eb780a17",
+    "created": "2017-03-06 01:31:04.188038"
+}
