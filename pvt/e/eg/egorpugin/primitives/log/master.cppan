@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: log\n\ntype: library\n\nroot_directory: log\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.log:\n            version: 1\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: log\n\ntype: library\n\nroot_directory: log\n\nc++: 14\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.log:\n            version: 1\n\n",
     "sha256": "f61a60d76e39b1bc4e6b5c8d46028aaac3e235992a2916129de258751b0dc640",
     "created": "2017-03-03 14:24:30.032283"
 }

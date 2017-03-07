@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.string",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: string\n\ntype: library\n\nroot_directory: string\n\nc++: 14\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.algorithm:\n            version: 1\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: string\n\ntype: library\n\nroot_directory: string\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.algorithm:\n            version: 1\n\n",
-    "sha256": "43615d1e7163fcd8a98e7b98c8cecec15cad0d68ee57631dfb1c076e6e51b75a",
-    "created": "2017-03-03 14:24:43.320084"
+    "version": "master",
+    "sha256": "abc66d8829e1e756e082cd8f62f393361a1171be6b4cbf5dd60e1d4cd658a80a",
+    "created": "2017-03-07 07:37:17.221732"
 }

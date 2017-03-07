@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: lock\n\ntype: library\n\nroot_directory: lock\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.interprocess:\n            version: 1\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: lock\n\ntype: library\n\nroot_directory: lock\n\nc++: 14\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.interprocess:\n            version: 1\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n\n",
     "sha256": "c01b1566c9221175c23035262a19635504832b0282f5d23cd46f6a3ddcf2132c",
     "created": "2017-03-03 14:24:25.724637"
 }
