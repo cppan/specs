@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ned14.outcome",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ned14\/boost.outcome",
+            "branch": "master"
+        }
+    },
+    "sha256": "ee9d078c7f223a73d20b19605d60f94ce03a1745e54ee8fa8ef5b7e745aa8a16",
+    "created": "2017-03-13 21:29:56.411815",
+    "cppan": "source:\n    git: https:\/\/github.com\/ned14\/boost.outcome\n    branch: master\n\nversion: master\n\n"
+}
