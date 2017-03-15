@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.poco.crypto",
+    "cppan": "source:\n    git: https:\/\/github.com\/pocoproject\/poco\n    tag: poco-1.7.8-release\n\nversion: 1.7.8\n\nlicense: LICENSE\n\nfiles:\n    -   Crypto\/include\/.*\n    -   Crypto\/src\/.*\n    -   cmake\/PocoMacros.cmake\n\ninclude_directories:\n    public:\n        -   Crypto\/include\n    private:\n        -   Crypto\/src\n\noptions:\n    any:\n        definitions:\n            public:\n                -   POCO_NO_AUTOMATIC_LIBS\n                -   POCO_UNBUNDLED\n    shared:\n        definitions:\n            private:\n                -   Crypto_EXPORTS\n            public:\n                -   POCO_DLL\n    static:\n        definitions:\n            public:\n                -   POCO_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.libressl:\n            version: 2\n        pvt.cppan.demo.poco.foundation:\n            version: \"*\"\n        pvt.cppan.demo.poco.util:\n            version: \"*\"\n\npost_sources: |\n    include(${SDIR}\/cmake\/PocoMacros.cmake)\n\n",
+    "version": "1.7.8",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pocoproject\/poco",
+            "tag": "poco-1.7.8-release"
+        }
+    },
+    "sha256": "0d77ce17e8a8941a23ad86c6c4bc8d32a5c0f3897f4e2f550a5f49c73c91c545",
+    "created": "2017-03-15 07:09:33.917501"
+}
