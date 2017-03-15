@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.gflags",
+    "cppan": "source:\n    git: https:\/\/github.com\/gflags\/gflags\n    tag: v2.2.0\n\nversion: 2.2.0\n\ntype: library\n\nfiles:\n    -   src\/.*\\.cc\n    -   src\/.*\\.h\n    -   src\/.*\\.in\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   OS_WINDOWS\n    shared:\n        definitions:\n            public:\n                -   GFLAGS_IS_A_DLL=1\n    static:\n        definitions:\n            public:\n                -   GFLAGS_IS_A_DLL=0\n\npost_sources: |\n    set(GFLAGS_INTTYPES_FORMAT_C99 1)\n    \n    set(GFLAGS_NAMESPACE google)\n    set(NS GFLAGS)\n    set(ns gflags)\n    set(INCLUDE_GFLAGS_NS_H \"#include \\\"gflags\/gflags_ns.h\\\"\")\n    \n    configure_file(${SDIR}\/src\/config.h.in ${BDIR}\/config.h @ONLY)\n    \n    configure_file(${SDIR}\/src\/gflags.h.in ${BDIR}\/gflags\/gflags.h @ONLY)\n    configure_file(${SDIR}\/src\/gflags_completions.h.in ${BDIR}\/gflags\/gflags_completions.h @ONLY)\n    configure_file(${SDIR}\/src\/gflags_declare.h.in ${BDIR}\/gflags\/gflags_declare.h @ONLY)\n    configure_file(${SDIR}\/src\/gflags_ns.h.in ${BDIR}\/gflags\/gflags_ns.h @ONLY)\n\ncheck_function_exists:\n    -   strtoll\n    -   strtoq\n\ncheck_include_exists:\n    -   file: fnmatch.h\n        variable: HAVE_FNMATCH_H\n        cpp: false\n    -   file: inttypes.h\n        variable: HAVE_INTTYPES_H\n        cpp: false\n    -   file: stdint.h\n        variable: HAVE_STDINT_H\n        cpp: false\n    -   file: sys\/stat.h\n        variable: HAVE_SYS_STAT_H\n        cpp: false\n    -   file: sys\/types.h\n        variable: HAVE_SYS_TYPES_H\n        cpp: false\n    -   file: unistd.h\n        variable: HAVE_UNISTD_H\n        cpp: false\n\ncheck_symbol_exists:\n    -   symbol: snprintf\n        headers:\n            -   stdio.h\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/gflags\/gflags",
+            "tag": "v2.2.0"
+        }
+    },
+    "version": "2.2.0",
+    "sha256": "c6719f2385d71a9fe5a6c7c8472beb5ba04f41ff12abf0d01b3945261da47ec6",
+    "created": "2017-03-15 20:37:08.247084"
+}
