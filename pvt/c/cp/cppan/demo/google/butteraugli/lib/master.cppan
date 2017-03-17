@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.butteraugli.lib",
-    "cppan": "source:\n    git: https:\/\/github.com\/google\/butteraugli\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nfiles:\n    -   butteraugli\/butteraugli\\..*\n\n",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/butteraugli\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nfiles:\n    -   butteraugli\/butteraugli\\..*\n\npost_sources: |\n    if (WIN32)\n        replace_in_file_once(${SDIR}\/butteraugli\/butteraugli.h \"__restrict\" \"\/\/__restrict\")\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/google\/butteraugli",
             "branch": "master"
         }
     },
-    "sha256": "9de7bb8cf1266c6d57b2862ff5f335ea2167db18b2a2c6d49fdaa5b6043cb3a2",
-    "created": "2017-03-16 20:35:51.464841"
+    "version": "master",
+    "sha256": "9236183efc23bd66f9029ecb34ba96c07bbf7f0b4e522d68cb0f23fd217c4fdf",
+    "created": "2017-03-17 14:50:37.461005"
 }

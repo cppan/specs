@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.foonathan.type_safe",
-    "cppan": "source:\n    git: https:\/\/github.com\/foonathan\/type_safe\n    branch: master\n\nversion: master\n\nfiles:\n    -   include\/.*\n\ndependencies:\n    pvt.cppan.demo.foonathan.debug_assert: master\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/foonathan\/type_safe\n    branch: master\n\nversion: master\n\nfiles:\n    -   include\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.foonathan.debug_assert:\n            version: master\n\n",
     "version": "master",
     "source": {
         "git": {
