@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.compmaniak.typed_flags",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/compmaniak\/typed_flags",
+            "branch": "master"
+        }
+    },
+    "sha256": "422305205b02242ca7629369d966c70d1905aa5bc4911362adfeca7a92d4d786",
+    "created": "2017-03-18 13:13:25.699764",
+    "cppan": "source:\n    git: https:\/\/github.com\/compmaniak\/typed_flags\n    branch: master\n\nversion: master\n\n"
+}
