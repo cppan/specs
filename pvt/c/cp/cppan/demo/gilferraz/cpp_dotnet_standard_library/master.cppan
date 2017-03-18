@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gilferraz.cpp_dotnet_standard_library",
+    "cppan": "source:\n    git: https:\/\/github.com\/GilFerraz\/Cpp-.NET-Standard-Library\n    branch: master\n\nversion: master\n\nroot_directory: Cpp-.Net-Standard-Library\n\nfiles:\n    -   System\/.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/GilFerraz\/Cpp-.NET-Standard-Library",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "sha256": "b76058f37fcad8271012f8c083207d06777448b28d0c7f2d36dfa6ef59dc12e5",
+    "created": "2017-03-18 17:38:11.662317"
+}
