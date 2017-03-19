@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jsnell.parallel_xxhash",
+    "cppan": "source:\n    git: https:\/\/github.com\/jsnell\/parallel-xxhash\n    branch: master\n\nversion: master\n\nfiles:\n    -   .*\\.h\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jsnell\/parallel-xxhash",
+            "branch": "master"
+        }
+    },
+    "sha256": "38e6bad525c511b9bdffb6ff195671428725b891d1b989e816a74de984c457c5",
+    "created": "2017-03-19 18:47:11.662986"
+}

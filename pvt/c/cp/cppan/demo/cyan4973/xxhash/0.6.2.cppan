@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.cyan4973.xxhash",
+    "cppan": "source:\n    git: https:\/\/github.com\/Cyan4973\/xxHash\n    tag: v0.6.2\n\nversion: 0.6.2\n\nstatic_only: true\n\nfiles:\n    -   xxhash.[hc]\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Cyan4973\/xxHash",
+            "tag": "v0.6.2"
+        }
+    },
+    "version": "0.6.2",
+    "sha256": "89f83f5c134bac3e04a8493a4e49e0f01f390476d8136b0d6f2c9d550d77b034",
+    "created": "2017-03-19 18:45:48.096493"
+}
