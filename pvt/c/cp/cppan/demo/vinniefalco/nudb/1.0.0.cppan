@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.vinniefalco.nudb",
+    "version": "1.0.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/vinniefalco\/NuDB",
+            "tag": "1.0.0"
+        }
+    },
+    "sha256": "fa5bd60ba4e963ff7303a2b88c01fe759e790dd06faa02d789d78d27b5bebd47",
+    "created": "2017-03-22 20:45:15.772367",
+    "cppan": "source:\n    git: https:\/\/github.com\/vinniefalco\/NuDB\n    tag: 1.0.0\n\nversion: 1.0.0\n\n"
+}
