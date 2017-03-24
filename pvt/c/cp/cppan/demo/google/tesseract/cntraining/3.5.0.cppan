@@ -8,6 +8,6 @@
         }
     },
     "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/cntraining.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.common_training:\n            version: \"*\"\n\n",
-    "sha256": "82170eabe472ebc4ec3054b7b6e71b3e6670d647e99716e5b36a4047116f31e1",
-    "created": "2017-02-23 17:20:45.23589"
+    "created": "2017-02-23 17:20:45.23589",
+    "hash": "fbd0beaba5ebfcfb5cdfcee76a784559860a1988824e4ad9e8e6afadceb9bded"
 }

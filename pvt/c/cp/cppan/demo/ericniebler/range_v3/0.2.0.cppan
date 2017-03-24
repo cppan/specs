@@ -7,7 +7,7 @@
             "tag": "0.2.0"
         }
     },
-    "sha256": "46755452c1e212e99ca4e0eaa8e44f16aaca071af8ae3a23cea163dd370fcf90",
     "created": "2017-03-14 14:54:54.087894",
-    "cppan": "source:\n    git: https:\/\/github.com\/ericniebler\/range-v3\n    tag: 0.2.0\n\nversion: 0.2.0\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/ericniebler\/range-v3\n    tag: 0.2.0\n\nversion: 0.2.0\n\n",
+    "hash": "3aa0992310e5c25d25d3ff1e78ffb0cc8b6b1317c015478b98d4e05a922a2147"
 }

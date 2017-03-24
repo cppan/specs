@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "cac093c36007c67a964d4efd10730c36e3bc164c238181672871d10757744b62",
     "created": "2017-01-17 10:29:45.542895",
-    "cppan": "source:\n    git: https:\/\/github.com\/mpark\/variant\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/mpark\/variant\n    branch: master\n\nversion: master\n\n",
+    "hash": "0416d4c66ce739a5edf92aa1701a6bc33213b9f1b8ddf2c313b1edd99519a929"
 }

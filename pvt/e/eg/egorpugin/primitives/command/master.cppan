@@ -8,6 +8,6 @@
         }
     },
     "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: command\n\ntype: library\n\nroot_directory: command\n\nc++: 14\n\n",
-    "sha256": "5698d10feaba5d72801a2e8fd43139a6b97d275ada44fa90a2d25289a8c30f34",
-    "created": "2017-03-03 14:23:54.212974"
+    "created": "2017-03-03 14:23:54.212974",
+    "hash": "43813ecb4b2aedfe9599e0ab5b67e7ebd4a78fc3b7757cb031cf49ac8b7fd6fd"
 }

@@ -7,7 +7,7 @@
             "tag": "v1.0.0"
         }
     },
-    "sha256": "866cc2b27502c92ec68987982867569b494a309fcb2fa4799e798f1820965f0b",
     "created": "2017-02-26 18:05:02.199206",
-    "cppan": "source:\n    git: https:\/\/github.com\/arangodb\/linenoise-ng\n    tag: v1.0.0\n\nversion: 1.0.0\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/arangodb\/linenoise-ng\n    tag: v1.0.0\n\nversion: 1.0.0\n\n",
+    "hash": "aaccab10e00eb60fa2e706bd3554c0a0a7cb974793f8100414cbc7e180a92dfe"
 }

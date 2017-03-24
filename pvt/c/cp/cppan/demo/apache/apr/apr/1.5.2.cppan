@@ -7,6 +7,6 @@
             "url": "http:\/\/apache-mirror.rbc.ru\/pub\/apache\/\/apr\/apr-1.5.2.tar.gz"
         }
     },
-    "sha256": "2d5d1b495fab869e080dd95ba88156a628225e637d5a8c35181238c4ebed19b8",
-    "created": "2016-09-23 21:32:57.534126"
+    "created": "2016-09-23 21:32:57.534126",
+    "hash": "f5829e7140832635344c1051c2d3f97647222ba4f6682cc8ca1fa45bdfb5486c"
 }

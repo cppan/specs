@@ -7,6 +7,6 @@
             "url": "https:\/\/www.python.org\/ftp\/python\/3.5.2\/Python-3.5.2.tar.xz"
         }
     },
-    "sha256": "3c5bbaaf407d4becb0c6ba221311cc33a2c24d8e95979e021504ccff1749a8c1",
-    "created": "2016-10-14 10:49:55.373311"
+    "created": "2016-10-14 10:49:55.373311",
+    "hash": "2a8513266c7118e58594339dfbb1cd43231d21977fab768cebfb41a816e66c3c"
 }

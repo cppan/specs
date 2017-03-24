@@ -7,6 +7,6 @@
             "url": "http:\/\/tenet.dl.sourceforge.net\/project\/libpng\/libpng16\/1.6.26\/libpng-1.6.26.tar.gz"
         }
     },
-    "sha256": "8f66c6127a015ed0ce5da01bb2291d7c553b89fe0cad0ca9c0a9e509c1d25e22",
-    "created": "2016-12-01 19:57:42.280903"
+    "created": "2016-12-01 19:57:42.280903",
+    "hash": "f2b379d9e957085443706117ad079df02930f54e8692f65bc197bbe838996edc"
 }

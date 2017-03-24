@@ -8,6 +8,6 @@
             "branch": "chromium\/3031"
         }
     },
-    "sha256": "f0a2ce8c338c5486336bf2cf56e1923418d6a62fbe253a1b74a58a0634ae1741",
-    "created": "2017-03-06 01:10:27.827175"
+    "created": "2017-03-06 01:10:27.827175",
+    "hash": "1e8984aaa1855e15be0cf392f1415a87bda7401d5ea93cb25ed841ce5f762df9"
 }

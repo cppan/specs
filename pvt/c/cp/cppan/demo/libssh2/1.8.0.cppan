@@ -8,6 +8,6 @@
             "tag": "libssh2-1.8.0"
         }
     },
-    "sha256": "3326fde93ff5005aea7f58aae2c6da9d4ae9f58673bdce05044215112f9e6be8",
-    "created": "2016-11-25 10:45:24.432775"
+    "created": "2016-11-25 10:45:24.432775",
+    "hash": "b9dc113734fb4da0116193973f0b3ffcf78f67dedf415705797377cd4a8c9a10"
 }

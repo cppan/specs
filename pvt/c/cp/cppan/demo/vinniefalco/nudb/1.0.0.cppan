@@ -7,7 +7,7 @@
             "tag": "1.0.0"
         }
     },
-    "sha256": "fa5bd60ba4e963ff7303a2b88c01fe759e790dd06faa02d789d78d27b5bebd47",
     "created": "2017-03-22 20:45:15.772367",
-    "cppan": "source:\n    git: https:\/\/github.com\/vinniefalco\/NuDB\n    tag: 1.0.0\n\nversion: 1.0.0\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/vinniefalco\/NuDB\n    tag: 1.0.0\n\nversion: 1.0.0\n\n",
+    "hash": "10e029e6c567f0b5075161e18ba30d2b63f89c583842e1075f4321b6b835910f"
 }

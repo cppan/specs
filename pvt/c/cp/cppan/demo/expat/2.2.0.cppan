@@ -7,6 +7,6 @@
             "url": "http:\/\/downloads.sourceforge.net\/project\/expat\/expat\/2.2.0\/expat-2.2.0.tar.bz2"
         }
     },
-    "sha256": "ccee67e68afd113faba1a8057f5cb2d25190aafdb7b00e95ec71f2e6e1b0417e",
-    "created": "2016-09-19 22:28:09.696985"
+    "created": "2016-09-19 22:28:09.696985",
+    "hash": "ba02c565a8975a80a9cd0b0bcd7feb2b8de81673d0d79696386f95f73fbc89e6"
 }

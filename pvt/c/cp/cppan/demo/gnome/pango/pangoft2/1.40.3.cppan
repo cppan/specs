@@ -7,6 +7,6 @@
             "url": "http:\/\/ftp.gnome.org\/pub\/GNOME\/sources\/pango\/1.40\/pango-1.40.3.tar.xz"
         }
     },
-    "sha256": "6dd93e9cb5c10f032f655870b4ffbb4e7227ed84fae4596d369111044a93af38",
-    "created": "2017-01-11 15:54:03.781587"
+    "created": "2017-01-11 15:54:03.781587",
+    "hash": "2f28f1a4425633b8841f06569641360209d2aca0e214a6c31bc06374843734c7"
 }

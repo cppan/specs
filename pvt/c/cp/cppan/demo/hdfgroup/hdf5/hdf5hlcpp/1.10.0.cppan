@@ -7,6 +7,6 @@
             "url": "https:\/\/support.hdfgroup.org\/ftp\/HDF5\/releases\/hdf5-1.10\/hdf5-1.10.0-patch1\/src\/hdf5-1.10.0-patch1.tar.bz2"
         }
     },
-    "sha256": "4c48bff30d0349764f726cd7bdb4895b7715b2c6fcc26054d5702c8589a7e7cb",
-    "created": "2017-01-09 22:35:26.463203"
+    "created": "2017-01-09 22:35:26.463203",
+    "hash": "981592682cba5287b2427794b48179ae0d04f1da1af2bd60c17989d1d292a278"
 }

@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "781b18e97a4863c8235e946c14b323f618d77619bb0e2297a6dbcde7d34c5803",
     "created": "2017-03-24 06:42:33.221626",
-    "cppan": "source:\n    git: https:\/\/github.com\/GPUOpen-LibrariesAndSDKs\/Anvil\/\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/GPUOpen-LibrariesAndSDKs\/Anvil\/\n    branch: master\n\nversion: master\n\n",
+    "hash": "3ccd251f717b61686dbe546fd53237aa0be5a01e30f91b81e0233d48d6aa331a"
 }

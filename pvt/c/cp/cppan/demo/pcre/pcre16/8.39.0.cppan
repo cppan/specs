@@ -7,6 +7,6 @@
             "url": "http:\/\/ftp.csx.cam.ac.uk\/pub\/software\/programming\/pcre\/pcre-8.39.tar.gz"
         }
     },
-    "sha256": "4582df3afc27587711d22538785a943902036f1e98256c50eb39092acde8e4d6",
-    "created": "2016-11-25 19:06:05.170603"
+    "created": "2016-11-25 19:06:05.170603",
+    "hash": "5929b03676ca5d55e8c3148d9c269b9f1e5ce6d6310ed77c205fede87d2aef90"
 }

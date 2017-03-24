@@ -2,6 +2,6 @@
     "project": "pvt.cppan.demo.cmake.opengl",
     "cppan": "version: master\n\nempty: true\n\ninclude_directories:\n    public:\n        -   ${OPENGL_INCLUDE_DIRS}\n\noptions:\n    any:\n        link_libraries:\n            public:\n                -   ${OPENGL_LIBRARIES}\n\npost_sources: |\n    find_package(OpenGL REQUIRED)\n\n",
     "version": "master",
-    "sha256": "72dbc274bceaf6b15a9127fbe8af2c1c4c897332fb85b4a2bbaa0dd50e45942e",
-    "created": "2017-01-08 17:17:29.598627"
+    "created": "2017-01-08 17:17:29.598627",
+    "hash": "733527a862f35a51c0802dc5b2051b38e94b9ca39714dc65d750461ac3180b4e"
 }

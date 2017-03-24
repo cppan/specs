@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "947ae1a12c1c10349910573c7cfeacdb0cd7e5516696f47b623e2bb34251dd2e",
     "created": "2017-03-03 21:12:09.20372",
-    "cppan": "source:\n    git: https:\/\/github.com\/tomilov\/insituc\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/tomilov\/insituc\n    branch: master\n\nversion: master\n\n",
+    "hash": "45a1a46e8e63d5e0b15460dbf5b2803c46d6c9f21ea4ffad61393ef45e0c76ad"
 }

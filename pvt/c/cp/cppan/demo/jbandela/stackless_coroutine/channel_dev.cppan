@@ -8,6 +8,6 @@
             "branch": "channel_dev"
         }
     },
-    "sha256": "12bf9abc0490cd1c31d26da9f3ea92dbfcaa50d2bce71d611ad7fcfb35887730",
-    "created": "2016-11-06 17:14:33.832343"
+    "created": "2016-11-06 17:14:33.832343",
+    "hash": "a4b562f25bfaa98d2dc4268ce3168f1d2a4b161f73fc201daa6805edb29b1ff8"
 }

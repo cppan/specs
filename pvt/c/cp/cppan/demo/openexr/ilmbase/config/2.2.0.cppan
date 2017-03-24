@@ -7,6 +7,6 @@
             "url": "http:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-2.2.0.tar.gz"
         }
     },
-    "sha256": "5ccca3c164d1f57b7d47f9df1a2c1a70ce3e4ffef7df6b139cdba1f8dfedb13d",
-    "created": "2016-09-21 18:57:32.055347"
+    "created": "2016-09-21 18:57:32.055347",
+    "hash": "36f208f292897693a6ef3e86649fd02adf27f3f81aeed5bc5083cba8d4b9f014"
 }

@@ -8,6 +8,6 @@
             "tag": "poco-1.7.8-release"
         }
     },
-    "sha256": "8800ba1e3db96573dd190a0c81fd3c4e80947ed72d8e633c6ca323c2b5f797dc",
-    "created": "2017-03-15 07:09:52.916161"
+    "created": "2017-03-15 07:09:52.916161",
+    "hash": "cc8c967db6ffcf5a83adba4eb882b3c9618b40b85f81fd5c4ec3bcaff0170ace"
 }

@@ -7,6 +7,6 @@
             "url": "http:\/\/download.savannah.nongnu.org\/releases\/openexr\/openexr-2.2.0.tar.gz"
         }
     },
-    "sha256": "a3a8e617ff82a66ef6f0ac0a113b7cec95e60246ddda4c2529cac20e45554316",
-    "created": "2016-09-21 18:57:40.558275"
+    "created": "2016-09-21 18:57:40.558275",
+    "hash": "a6f47496005f3473344a35ea424144d09b20b6d3d77e432d1cfe111ba435f614"
 }

@@ -7,7 +7,7 @@
             "tag": "v1.0.0"
         }
     },
-    "sha256": "1959af7d24924d75cf778dc548520bd8bceb42db1c3d6462a2438a4829e46c83",
     "created": "2017-03-07 13:39:58.252261",
-    "cppan": "source:\n    git: https:\/\/github.com\/Naios\/continuable\n    tag: v1.0.0\n\nversion: 1.0.0\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/Naios\/continuable\n    tag: v1.0.0\n\nversion: 1.0.0\n\n",
+    "hash": "07363497988548175ac6d1d82048074181f9e87124215af914de2059075f0a1f"
 }

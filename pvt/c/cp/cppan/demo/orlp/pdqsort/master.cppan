@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "bcf24f00011d1efd91ff43f01e557654c4632f68905965ffab1f674b39c23c62",
     "created": "2017-01-13 22:13:28.637889",
-    "cppan": "source:\n    git: https:\/\/github.com\/orlp\/pdqsort\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/orlp\/pdqsort\n    branch: master\n\nversion: master\n\n",
+    "hash": "00e01d3a0409e93e1f3d82a48b6502d75dd35a58858cfc5fb1a2667511a46797"
 }

@@ -7,6 +7,6 @@
             "url": "https:\/\/www.lua.org\/ftp\/lua-5.2.2.tar.gz"
         }
     },
-    "sha256": "b845294e871a27e69b83f81c4e6fdfe5632e321b7e89bed4f6da90264cb2d3c8",
-    "created": "2016-09-07 22:33:45.449661"
+    "created": "2016-09-07 22:33:45.449661",
+    "hash": "21e637e343a23035eb4fbf19146af205c7c8c858106baec21e780139bc66465e"
 }

@@ -7,6 +7,6 @@
             "url": "https:\/\/www.libsdl.org\/release\/SDL2-2.0.5.tar.gz"
         }
     },
-    "sha256": "a6a4b45fd6107bed1f67bea47bfab833b26d6455748f6d0e45201e8895f32936",
-    "created": "2016-12-04 20:27:13.453334"
+    "created": "2016-12-04 20:27:13.453334",
+    "hash": "308768fa2a9d547f3c5fe112acc4d0e13107a998efcd9bfcf7a1b9a098b3e39d"
 }

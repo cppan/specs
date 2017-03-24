@@ -7,6 +7,6 @@
             "url": "http:\/\/www.nasm.us\/pub\/nasm\/releasebuilds\/2.12.02\/nasm-2.12.02.tar.xz"
         }
     },
-    "sha256": "978e2ff5a1ef948802744e4e3aab777cff2da60d5fc77926b9b3b87e8264c998",
-    "created": "2016-10-17 19:41:15.519427"
+    "created": "2016-10-17 19:41:15.519427",
+    "hash": "9f7b7420384056d3bfdcb8a3ab9ecd5bc98388d2d67dda16194e1363165600f9"
 }

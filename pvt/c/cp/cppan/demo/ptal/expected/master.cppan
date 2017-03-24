@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "ac3462d176bfe7eb23f17048c37c385bebb8d3c43ab46d954568d6bc690c8794",
     "created": "2017-01-01 21:32:26.686663",
-    "cppan": "source:\n    git: https:\/\/github.com\/ptal\/expected\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/ptal\/expected\n    branch: master\n\nversion: master\n\n",
+    "hash": "785b0437e2d46343ca4a5a08a37a29e326ac7abbfbe94c0c9fa0ba284c034148"
 }

@@ -8,6 +8,6 @@
         }
     },
     "cppan": "files:\n    -   include\/.*\n    -   src\/.*\n\ndependencies:\n    pvt.cppan.mfl1: master\n\n",
-    "sha256": "0f949422e6d0aa17f0703d8f7c1aad0ff4bbfc648d6a0597c675adc19669e7d7",
-    "created": "2016-09-05 20:46:30.067689"
+    "created": "2016-09-05 20:46:30.067689",
+    "hash": "8828a764e2d6766ba6b49ec01509c2b27e860a7fc4298b4b2e6c204e35b002fc"
 }

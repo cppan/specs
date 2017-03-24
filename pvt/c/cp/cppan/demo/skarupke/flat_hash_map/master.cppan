@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "802b913fac36b0623ad8f31175b5aeacd42aaa5150d03515b71fab04e8311396",
     "created": "2017-02-27 20:03:11.809544",
-    "cppan": "source:\n    git: https:\/\/github.com\/skarupke\/flat_hash_map\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/skarupke\/flat_hash_map\n    branch: master\n\nversion: master\n\n",
+    "hash": "bd23b18019e4ad1a608bf8b8d9c9bc495af35eccc5f1ac161e217e134dbd9238"
 }

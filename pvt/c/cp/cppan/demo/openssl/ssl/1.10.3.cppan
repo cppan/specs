@@ -8,6 +8,6 @@
             "tag": "OpenSSL_1_1_0c"
         }
     },
-    "sha256": "a8c1d6e8358008f62f2f95a6cb2efaff36e5b4b524b2fba1ccf52588e18d0ff6",
-    "created": "2016-11-25 10:45:08.995953"
+    "created": "2016-11-25 10:45:08.995953",
+    "hash": "285ed3062d8b7602294da4fcb353109dd568739388781d7d40ab5b75f368cdf8"
 }

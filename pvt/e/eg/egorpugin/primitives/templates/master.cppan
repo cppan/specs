@@ -8,6 +8,6 @@
         }
     },
     "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: templates\n\ntype: library\n\nroot_directory: templates\n\nc++: 14\n\n",
-    "sha256": "e4a04bccbddc1e0e5e1f75de988298de8f6bb0e07c7729a720b9e5734d762240",
-    "created": "2017-03-03 18:58:39.667709"
+    "created": "2017-03-03 18:58:39.667709",
+    "hash": "95e1e146a7e93e7305b91bee155eb2c29170a819c9b3b2f7faedb524919e8a6a"
 }

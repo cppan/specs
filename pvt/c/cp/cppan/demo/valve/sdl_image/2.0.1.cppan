@@ -7,6 +7,6 @@
             "url": "https:\/\/www.libsdl.org\/projects\/SDL_image\/release\/SDL2_image-2.0.1.tar.gz"
         }
     },
-    "sha256": "ab27c06f429b822627895885a4a3faeb524fe3361220ca8689524760a01814e8",
-    "created": "2016-10-05 16:24:25.654983"
+    "created": "2016-10-05 16:24:25.654983",
+    "hash": "1d0bcde20c2d9e9781d9908aa9a308cb4079c724db44d4aa94e96cd15403227a"
 }

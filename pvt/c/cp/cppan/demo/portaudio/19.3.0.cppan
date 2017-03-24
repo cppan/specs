@@ -7,6 +7,6 @@
             "url": "http:\/\/www.portaudio.com\/archives\/pa_stable_v19_20140130.tgz"
         }
     },
-    "sha256": "ab43b7f8fcf9d9f723134a92eced68c1dfc47f82390c567b5772db66d9e9039f",
-    "created": "2016-09-13 16:58:03.107451"
+    "created": "2016-09-13 16:58:03.107451",
+    "hash": "30c5bf033014b69fc73ce762597578c4fe23c302cdcdb91f3c2cd09c74ae1c3e"
 }

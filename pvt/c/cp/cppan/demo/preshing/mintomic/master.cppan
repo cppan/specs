@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "a2d86e61828b9b6dcd0972b4b90ddccba8d19ac459102fc4c12903112f3bd619",
     "created": "2017-03-01 11:35:57.161526",
-    "cppan": "source:\n    git: https:\/\/github.com\/mintomic\/mintomic\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/mintomic\/mintomic\n    branch: master\n\nversion: master\n\n",
+    "hash": "403ed3978e7610465804317e8ae462a04e0f96a1682cb8a798b8473ea50077dd"
 }

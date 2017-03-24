@@ -7,7 +7,7 @@
             "tag": "v1.0.0"
         }
     },
-    "sha256": "64d399b71226228ba6f6c190f18a0f4caa377a3e7e84bbba478e95d142fe6b14",
     "created": "2017-01-17 12:13:42.826102",
-    "cppan": "source:\n    git: https:\/\/github.com\/mpark\/variant\n    tag: v1.0.0\n\nversion: 1.0.0\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/mpark\/variant\n    tag: v1.0.0\n\nversion: 1.0.0\n\n",
+    "hash": "f323b07e6bc63cf49d8dffb43a57a771772f15e86deb0acade0fc00e87dd4f32"
 }

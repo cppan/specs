@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "f48094cae821232af771494b6c72d6bef7c4229a85d7a1c13bc82bf8ce8b513c",
     "created": "2017-01-20 21:58:05.985257",
-    "cppan": "source:\n    git: https:\/\/github.com\/vtnerd\/snl\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/vtnerd\/snl\n    branch: master\n\nversion: master\n\n",
+    "hash": "d625040577ecdae8ea3b05f4ceb1b187c168dec54799dfa62d6e251912eb6b57"
 }

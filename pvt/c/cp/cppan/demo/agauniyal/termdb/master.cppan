@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "2423a78b50c73cabaf0e3be887831916bbf05396a65445febd041a28754222c3",
     "created": "2017-01-30 20:54:37.548501",
-    "cppan": "source:\n    git: https:\/\/github.com\/agauniyal\/termdb\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/agauniyal\/termdb\n    branch: master\n\nversion: master\n\n",
+    "hash": "ab6d643604ce0b91a633a39f185cf085aceb6013bef3a3489ff23d5ab44a93be"
 }

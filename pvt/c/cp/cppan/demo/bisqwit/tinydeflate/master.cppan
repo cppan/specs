@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "7f6510f8eb1ecc2c33df92545ac8124f1bd0ee1d7b0210e5a76c294f8639ec7b",
     "created": "2017-03-03 09:14:44.856969",
-    "cppan": "source:\n    git: https:\/\/github.com\/bisqwit\/TinyDeflate\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/bisqwit\/TinyDeflate\n    branch: master\n\nversion: master\n\n",
+    "hash": "6ba639a20cf0f6ee734d2723714403ca3bf20faaec06dd29249b2dfa1323b31a"
 }

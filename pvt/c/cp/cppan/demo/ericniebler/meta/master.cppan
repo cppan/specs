@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "d57d68347e6fac8e69540063b43ef021eb1c2ef54307829912a88644fc62ee32",
     "created": "2016-10-24 23:50:17.67906",
-    "cppan": ""
+    "cppan": "",
+    "hash": "434aace252895c7b0c0844aceeffe7ff7f7f66b539cd79b9a0a49901bfb3c4c8"
 }

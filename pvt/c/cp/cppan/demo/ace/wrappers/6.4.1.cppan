@@ -7,6 +7,6 @@
             "url": "http:\/\/download.dre.vanderbilt.edu\/previous_versions\/ACE-6.4.1.tar.gz"
         }
     },
-    "sha256": "b5fb453215674081ccdf6983b625ae0a1ff9cb25c0db8712d0db9f541713a1fb",
-    "created": "2017-01-13 10:44:23.657269"
+    "created": "2017-01-13 10:44:23.657269",
+    "hash": "1e841682fe06b917640f0bb411855ef68a6724251553640b7c58841917171731"
 }

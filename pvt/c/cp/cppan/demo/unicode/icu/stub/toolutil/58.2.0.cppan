@@ -7,6 +7,6 @@
             "url": "http:\/\/download.icu-project.org\/files\/icu4c\/58.2\/icu4c-58_2-src.zip"
         }
     },
-    "sha256": "38e0ad5dd1fcfb5a14e1ccb6cc1f54973d17f407fcb24c0a5c9a11c320ccdf93",
-    "created": "2016-12-16 21:15:26.552249"
+    "created": "2016-12-16 21:15:26.552249",
+    "hash": "d53a2a86b43dca6a274d0a34a4edbedbaa09472421dc9df2873f4aef170ab779"
 }

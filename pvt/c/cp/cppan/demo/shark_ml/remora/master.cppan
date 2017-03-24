@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "8266258e9d8d63ec3c18d9e1876b87c94472a6a9ae912c979d19235902b0d2fd",
     "created": "2017-01-11 20:42:36.767004",
-    "cppan": "source:\n    git: https:\/\/github.com\/Shark-ML\/Remora\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/Shark-ML\/Remora\n    branch: master\n\nversion: master\n\n",
+    "hash": "7e600e5a36f182c300ce041b99fa3c4b7d2d15d23b6b3823aa84f5a919efc0dd"
 }

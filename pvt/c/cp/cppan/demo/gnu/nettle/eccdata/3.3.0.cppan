@@ -7,6 +7,6 @@
             "url": "https:\/\/ftp.gnu.org\/gnu\/nettle\/nettle-3.3.tar.gz"
         }
     },
-    "sha256": "204ab809d5ec8eb56a2d9528261ede43c3fe035b57d553c382e72fdc9e5d6c90",
-    "created": "2016-11-25 22:25:04.174094"
+    "created": "2016-11-25 22:25:04.174094",
+    "hash": "9be20acc3aa7046bfd114dcd6194703205f74c8f6eb86ded200dec8214331929"
 }

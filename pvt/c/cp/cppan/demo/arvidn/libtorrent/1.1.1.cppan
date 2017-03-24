@@ -8,6 +8,6 @@
             "tag": "libtorrent-1_1_1"
         }
     },
-    "sha256": "3b6ba0fa747a0f1520af98cdbec25d472aa4c0c0ea1a3c518e15a96696b4c64d",
-    "created": "2016-12-07 16:51:13.437782"
+    "created": "2016-12-07 16:51:13.437782",
+    "hash": "261764a10e19df198e536e425b312840a65b63f63d4ba4d8f3cdf16e8dc73e8b"
 }

@@ -6,7 +6,7 @@
             "url": "http:\/\/glxw.dav1d.de\/glxw.zip"
         }
     },
-    "sha256": "03625cf4fd3dc338edb7f0feb14b3540479efc687ed8836e67b3ebcb7b0c09ba",
     "created": "2016-12-06 17:59:20.353931",
-    "cppan": ""
+    "cppan": "",
+    "hash": "2b8bc62d09df632b2d67df67ca89168f14785a8a9ec0e853084bff6cdeab975b"
 }

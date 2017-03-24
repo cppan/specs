@@ -7,7 +7,7 @@
             "branch": "develop"
         }
     },
-    "sha256": "9a8242dd3c13a792f4d205c97a3e4343cbdd5a9b437c7d70232aec059627b1c1",
     "created": "2016-10-15 23:23:26.791235",
-    "cppan": ""
+    "cppan": "",
+    "hash": "5b05d713515fb844327c4d4622e7b84ba659943b3461ee24db9882d433c42c5b"
 }

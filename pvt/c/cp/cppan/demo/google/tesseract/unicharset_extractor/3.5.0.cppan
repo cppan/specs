@@ -8,6 +8,6 @@
         }
     },
     "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/unicharset_extractor.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.tessopt:\n            version: \"*\"\n\n",
-    "sha256": "a72ffc2badae98d76484fe499720059d8ff777517e679ad21d1595fabd64a2ab",
-    "created": "2017-02-23 17:21:30.936057"
+    "created": "2017-02-23 17:21:30.936057",
+    "hash": "fac53eb2fd3d07da1ce9a5e1e520d172f52dcc37b6889b5db7fd02cd40945501"
 }

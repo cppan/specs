@@ -8,6 +8,6 @@
             "branch": "master"
         }
     },
-    "sha256": "31eced04cdd52607fecaf23e198e4cae8cb27d9d41fe8c7e01d21a1b081beaff",
-    "created": "2016-10-03 12:19:39.822314"
+    "created": "2016-10-03 12:19:39.822314",
+    "hash": "ba31b085ef340a525dd4f4e998c34447b28a598b218dc3810ac9624a128158d5"
 }

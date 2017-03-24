@@ -7,6 +7,6 @@
             "url": "https:\/\/www.cairographics.org\/releases\/pixman-0.34.0.tar.gz"
         }
     },
-    "sha256": "5ecfbffb9c86d3bc189c7ca8657314a3b5c52c8efc32f2ad5179c2bd0708b680",
-    "created": "2016-12-05 10:31:14.344828"
+    "created": "2016-12-05 10:31:14.344828",
+    "hash": "e166d759daea72042932be4c3a7abe0d95b9e60cf536f8ff402ec09a5d0197ec"
 }

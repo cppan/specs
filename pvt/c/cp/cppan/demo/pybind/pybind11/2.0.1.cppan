@@ -7,7 +7,7 @@
             "tag": "v2.0.1"
         }
     },
-    "sha256": "abb41f8ed9024da9ca26d86ce11fbda39981152bbba4b0078a31b7954ec127e6",
     "created": "2017-03-05 20:17:15.102893",
-    "cppan": "source:\n    git: https:\/\/github.com\/pybind\/pybind11\n    tag: v2.0.1\n\nversion: 2.0.1\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/pybind\/pybind11\n    tag: v2.0.1\n\nversion: 2.0.1\n\n",
+    "hash": "609ac5697e0b490d7c2979df61aa1736786059a46b18f4760a090da5955fafca"
 }

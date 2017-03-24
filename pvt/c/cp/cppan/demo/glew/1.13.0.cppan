@@ -7,6 +7,6 @@
             "url": "http:\/\/downloads.sourceforge.net\/project\/glew\/glew\/1.13.0\/glew-1.13.0.tgz"
         }
     },
-    "sha256": "fbcbcf4584709b2194b714a50995d28eda14d2f0dedc8791255a0f9daf5ca4e4",
-    "created": "2016-09-12 23:33:50.104338"
+    "created": "2016-09-12 23:33:50.104338",
+    "hash": "ed7f33b7b86811fcc566a7b5f8afde2ef0768f91de5e49683e2f2aa5d7836443"
 }

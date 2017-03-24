@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "1d27707193756b2d6ba84065b085e00f4ba26def87d52822486be90b8d3fb64d",
     "created": "2017-01-07 23:26:43.44929",
-    "cppan": "source:\n    git: https:\/\/bitbucket.org\/alexey_gruzdev\/yato.git\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/bitbucket.org\/alexey_gruzdev\/yato.git\n    branch: master\n\nversion: master\n\n",
+    "hash": "8280d16465ca18c64a7d54babaea2a52aa2c3beea8cef909ea84f8233014274a"
 }

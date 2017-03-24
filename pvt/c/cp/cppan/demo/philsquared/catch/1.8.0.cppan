@@ -7,7 +7,7 @@
             "tag": "v1.8.0"
         }
     },
-    "sha256": "ad0a1a9757931c3b68706d044402120d183b0bcf51e33417256422829abbf839",
     "created": "2017-03-18 12:57:17.340435",
-    "cppan": "source:\n    git: https:\/\/github.com\/philsquared\/Catch\n    tag: v1.8.0\n\nversion: 1.8.0\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/philsquared\/Catch\n    tag: v1.8.0\n\nversion: 1.8.0\n\n",
+    "hash": "271f8fa572978bc88ec303bbd56c00e7db0ccb11d1e8abc6ddf9493dab5a0b4f"
 }

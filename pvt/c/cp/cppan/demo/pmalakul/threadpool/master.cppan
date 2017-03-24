@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "12dcfb5c41def639af77523538e10ff5dc4be9763ce8115c2a585dc53d9ecfa5",
     "created": "2017-03-04 11:17:32.398305",
-    "cppan": "source:\n    git: https:\/\/github.com\/pmalakul\/ThreadPool\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/pmalakul\/ThreadPool\n    branch: master\n\nversion: master\n\n",
+    "hash": "b1c124ba2849ae93f16b229b4409440711a44c5dd5ec744bed3c67d22a808fee"
 }

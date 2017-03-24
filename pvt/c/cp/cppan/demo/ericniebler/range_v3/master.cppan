@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "4622587333df560ac6a62a0efc57a0a3c34516c89f34b11a9dc46e18cd34af3e",
     "created": "2016-10-24 23:47:28.118331",
-    "cppan": "source:\n    git: https:\/\/github.com\/ericniebler\/range-v3\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/ericniebler\/range-v3\n    branch: master\n\nversion: master\n\n",
+    "hash": "8a68b0e9f8d35cc7c84520f903045cce653eb05adb4250e5fdb187368353d09e"
 }

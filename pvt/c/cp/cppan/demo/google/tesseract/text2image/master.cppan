@@ -8,6 +8,6 @@
         }
     },
     "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/boxchar.cpp\n    -   training\/boxchar.h\n    -   training\/degradeimage.cpp\n    -   training\/degradeimage.h\n    -   training\/icuerrorcode.h\n    -   training\/ligature_table.cpp\n    -   training\/ligature_table.h\n    -   training\/normstrngs.cpp\n    -   training\/normstrngs.h\n    -   training\/pango_font_info.cpp\n    -   training\/pango_font_info.h\n    -   training\/stringrenderer.cpp\n    -   training\/stringrenderer.h\n    -   training\/text2image.cpp\n    -   training\/tlog.cpp\n    -   training\/tlog.h\n    -   training\/util.h\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.pango.pangocairo:\n            version: 1\n        pvt.cppan.demo.google.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "sha256": "c58af294af304645ad8750c5ce92e65cacf1b137a19c46441fea8c40283d0e36",
-    "created": "2017-01-11 18:34:43.383393"
+    "created": "2017-01-11 18:34:43.383393",
+    "hash": "d27b51b109a522feb71b689fd0b29f34f7080889e37fbb8210fb4ceb8a577051"
 }

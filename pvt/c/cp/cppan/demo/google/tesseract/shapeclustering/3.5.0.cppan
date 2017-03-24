@@ -8,6 +8,6 @@
         }
     },
     "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/shapeclustering.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.common_training:\n            version: \"*\"\n\n",
-    "sha256": "a381bad07013bcc9fe45d22132d6d3e9fce233cabfe84fa1beecc885da6830a6",
-    "created": "2017-02-23 17:21:15.782969"
+    "created": "2017-02-23 17:21:15.782969",
+    "hash": "a4ca94e001e4217c91d6a2958a055290ea2863e8afb832876491462ecc0cd052"
 }

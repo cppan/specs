@@ -7,6 +7,6 @@
             "url": "http:\/\/ftp.openbsd.org\/pub\/OpenBSD\/LibreSSL\/libressl-2.5.0.tar.gz"
         }
     },
-    "sha256": "6384d811750f302e54da1643d0433965ba842e9148d7d97cacb77be0ef7e8a67",
-    "created": "2017-01-02 13:44:39.220857"
+    "created": "2017-01-02 13:44:39.220857",
+    "hash": "01da3f04b4212aac8208283a406355d96d7b6f4162a8868f6c72790dcbcd5600"
 }

@@ -7,7 +7,7 @@
             "tag": "v1.2.1"
         }
     },
-    "sha256": "d0f8362771804a87e83cb82ddda75a62ddfab39fdd4d36841f5c3c59bf0eae97",
     "created": "2016-11-30 15:30:55.67423",
-    "cppan": ""
+    "cppan": "",
+    "hash": "a6812aa54e434b5a27abf3271d55269551dc32a88f3f96a653dc9d60348ead89"
 }

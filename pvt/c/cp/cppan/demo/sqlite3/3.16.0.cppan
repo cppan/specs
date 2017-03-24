@@ -7,6 +7,6 @@
             "url": "http:\/\/www.sqlite.org\/2017\/sqlite-amalgamation-3160000.zip"
         }
     },
-    "sha256": "1a9938999f99f70764da9f118c1f13cbf1cf7f8545afde14b8345b66b867af68",
-    "created": "2017-01-02 17:14:45.049132"
+    "created": "2017-01-02 17:14:45.049132",
+    "hash": "afd329f2f000006a076b54ba7c6161719607bc79348af4843cf8e7d83543e067"
 }

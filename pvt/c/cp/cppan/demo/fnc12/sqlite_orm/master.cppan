@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "38aee747d9b7561b21c25bef97e88cde5fd08bfbad1195879bd93ddbd331e24b",
     "created": "2017-01-05 21:51:36.59398",
-    "cppan": "source:\n    git: https:\/\/github.com\/fnc12\/sqlite_orm\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/fnc12\/sqlite_orm\n    branch: master\n\nversion: master\n\n",
+    "hash": "c31ec7790389b4c3b80931f3024793e71f1101bba3ae79bacb9f4eb7b02f0a08"
 }

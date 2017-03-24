@@ -8,6 +8,6 @@
             "tag": "boost-1.62.0"
         }
     },
-    "sha256": "6fc2a20d56ffc748a5fe6f4cd73e86c5e8b00165bd41588703aa0abdbfcffc8b",
-    "created": "2016-09-29 15:37:07.320579"
+    "created": "2016-09-29 15:37:07.320579",
+    "hash": "98c45054bfada37d2f5e1131dcce413047fdef03b054a68f7ab9e008f08ee8fd"
 }

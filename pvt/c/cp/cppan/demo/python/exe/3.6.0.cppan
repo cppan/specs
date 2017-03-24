@@ -7,6 +7,6 @@
             "url": "https:\/\/www.python.org\/ftp\/python\/3.6.0\/Python-3.6.0.tar.xz"
         }
     },
-    "sha256": "f294e43a55b3ce6516dcf8f97aba5680d3bc915490317fed868710574049ae58",
-    "created": "2016-12-23 18:00:05.177597"
+    "created": "2016-12-23 18:00:05.177597",
+    "hash": "d89200303e857bf396d98c4400a38fa3366bc30f1815aa1a4d4cb502caaa2080"
 }

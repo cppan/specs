@@ -2,6 +2,6 @@
     "project": "pvt.cppan.demo.freeimage.freeimage",
     "version": "3.17.0",
     "cppan": "files: .*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   FREEIMAGE_EXPORTS\n    static:\n        definitions:\n            public:\n                -   FREEIMAGE_LIB\n\ndependencies:\n    pvt.cppan.demo.jxrlib: 1\n    pvt.cppan.demo.openjpeg.openjp2: 2\n    pvt.cppan.demo.jpeg: 9\n    pvt.cppan.demo.libraw: 0\n    pvt.cppan.demo.png: 1\n    pvt.cppan.demo.tiff: 4\n    pvt.cppan.demo.webp: 0\n    pvt.cppan.demo.openexr.ilmimf: 2\n    pvt.cppan.demo.zlib: 1\n\n",
-    "sha256": "2a9fe71b99164f71c902705a7b991eb6fc70f44c63984dce755561c0a75803b1",
-    "created": "2016-09-21 21:35:02.209911"
+    "created": "2016-09-21 21:35:02.209911",
+    "hash": "ffff169840422eaca84d176cda1b2392e38277f88d59e29c032c81f889f092ce"
 }

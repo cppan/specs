@@ -8,6 +8,6 @@
         }
     },
     "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: sqlite_db\n\ntype: library\n\nroot_directory: sqlite_db\n\nc++: 14\n\n",
-    "sha256": "277b4cfb06b56a45ff7935064f1c30739c204a915435197e013529a1586c024e",
-    "created": "2017-03-03 14:24:39.121403"
+    "created": "2017-03-03 14:24:39.121403",
+    "hash": "b425ff287a2da1e0e73163507da3016efe4328b7aff5fc084c67b5f7245b81ec"
 }

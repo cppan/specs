@@ -8,6 +8,6 @@
             "tag": "curl-7_52_0"
         }
     },
-    "sha256": "0ddab63ab1817499fa5abac50ddd23cd123a294d501213babe025e77e21acc06",
-    "created": "2017-01-02 13:38:15.404744"
+    "created": "2017-01-02 13:38:15.404744",
+    "hash": "c23e70ae9586e1fcd5551a2513b99a6b646aeadfffb2acf8fca2f6c75b1c79ac"
 }

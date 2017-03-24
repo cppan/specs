@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "1930ecf3d07f85268655d98412c6a68c0928cf33ab02a124cd0f06ab2d374346",
     "created": "2017-02-27 20:01:18.338769",
-    "cppan": "source:\n    git: https:\/\/github.com\/Tessil\/ordered-map\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/Tessil\/ordered-map\n    branch: master\n\nversion: master\n\n",
+    "hash": "aeb4c2602ba5bc3d6e35695c4dd6cd7fff5e848a11e949ac75e945def51801eb"
 }

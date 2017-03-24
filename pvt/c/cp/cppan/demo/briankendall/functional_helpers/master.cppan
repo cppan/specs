@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "3f2bd1304191117df63c49fa477600d04cd7b43b2db9bce640d9dbe3cff07ad1",
     "created": "2017-01-19 20:01:08.421787",
-    "cppan": "source:\n    git: https:\/\/github.com\/briankendall\/cpp-functional-helpers\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/briankendall\/cpp-functional-helpers\n    branch: master\n\nversion: master\n\n",
+    "hash": "4fa5d98c8c28ad75399a54720425ada336b1a8bb566bcf9cdfc5e2521944e748"
 }

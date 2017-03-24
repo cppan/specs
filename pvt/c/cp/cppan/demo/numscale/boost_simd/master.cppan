@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "e819da5d282d3e051d47189a5452cb5bce9cb5001b7f13832c8e76a8a6500e5a",
     "created": "2017-02-10 13:18:09.429527",
-    "cppan": "source:\n    git: https:\/\/github.com\/NumScale\/boost.simd\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/NumScale\/boost.simd\n    branch: master\n\nversion: master\n\n",
+    "hash": "8955fbef2cfb30202f7b317a9c330ed1c1adb6fdef7a660978b0c6ec2b05af3b"
 }

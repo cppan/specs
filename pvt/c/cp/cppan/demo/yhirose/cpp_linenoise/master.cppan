@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "d793ecd1a062e26b61c1b29815f6aab068d2e827381b01da723342779089035c",
     "created": "2017-02-26 18:06:00.009981",
-    "cppan": "source:\n    git: https:\/\/github.com\/yhirose\/cpp-linenoise\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/yhirose\/cpp-linenoise\n    branch: master\n\nversion: master\n\n",
+    "hash": "5cc49bd8482c852249ca179f28336b7cbbfcd19102f3ca7d24568e0d6c1840d9"
 }

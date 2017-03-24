@@ -7,6 +7,6 @@
             "url": "https:\/\/www.libsdl.org\/projects\/SDL_ttf\/release\/SDL2_ttf-2.0.14.tar.gz"
         }
     },
-    "sha256": "109b7b792f283148c645008ba50f04396cf03fbe05c13acc38d1ff5f42b17e70",
-    "created": "2016-09-12 22:41:35.109235"
+    "created": "2016-09-12 22:41:35.109235",
+    "hash": "8d7a4aa60baff4ba11dcb27ad3e14e0529e8f2e04e6c977dc4a6d5c31984e1ea"
 }

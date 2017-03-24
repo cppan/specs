@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "9cf0f083b09eed057079fd74d639ca8faa00918e9fba5d50d4ce8d6fa1102c89",
     "created": "2017-03-22 20:45:12.223603",
-    "cppan": "source:\n    git: https:\/\/github.com\/vinniefalco\/NuDB\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/vinniefalco\/NuDB\n    branch: master\n\nversion: master\n\n",
+    "hash": "e0a3fa5bb887d4797e0d07366a319faead1273c86974093a24e90f7f758b11cd"
 }

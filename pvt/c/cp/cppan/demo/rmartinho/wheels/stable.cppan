@@ -7,7 +7,7 @@
             "branch": "stable"
         }
     },
-    "sha256": "7d28b17a0eeb9b8a82f61317cef7f1d505e1fc78b3282d939f93d3202f9d87ff",
     "created": "2016-11-30 21:33:54.607972",
-    "cppan": ""
+    "cppan": "",
+    "hash": "d5d75cb5608743f5515d94fc1d2fbd4e41509b6374e711bb8d9a048d0c25b1ad"
 }

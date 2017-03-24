@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "sha256": "254a1c313f7c356dcfb9d3f4cf5b02a6461add6e6a029a054116b16d237eb99e",
     "created": "2017-01-12 18:55:10.652396",
-    "cppan": "source:\n    git: https:\/\/github.com\/pfultz2\/Fit\n    branch: master\n\nversion: master\n\n"
+    "cppan": "source:\n    git: https:\/\/github.com\/pfultz2\/Fit\n    branch: master\n\nversion: master\n\n",
+    "hash": "3f49116c6a332128bbb2e455114ef94c08dd2af4ad0abe6af3986b03cea444d1"
 }
