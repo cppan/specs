@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.tools.linguist.formats",
+    "version": "5.8.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qttools\n    tag: v5.8.0\n\nversion: 5.8.0\n\ntype: library\n\nroot_directory: src\/linguist\/shared\n\nstatic_only: true\n\nfiles:\n    -   numerus.cpp\n    -   po.cpp\n    -   qm.cpp\n    -   qph.cpp\n    -   translator.cpp\n    -   translator.h\n    -   translatormessage.cpp\n    -   translatormessage.h\n    -   ts.cpp\n    -   xliff.cpp\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.xml:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qttools",
+            "tag": "v5.8.0"
+        }
+    },
+    "hash": "419a7a4c15859298bc56a546d9a938d5b99eb00fe7d7e6772efbd0a965de302b",
+    "created": "2017-03-25 22:19:29.604525"
+}
