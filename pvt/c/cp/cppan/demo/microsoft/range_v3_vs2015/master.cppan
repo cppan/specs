@@ -8,6 +8,6 @@
         }
     },
     "created": "2016-10-24 23:56:32.592607",
-    "cppan": "",
+    "cppan": "source:\n    git: https:\/\/github.com\/microsoft\/Range-V3-VS2015\n    branch: master\n\nversion: master\n\n",
     "hash": "cc89fbb08668e2ca7976b63ea76f0317e6995b9c401ebc989d327930d363d067"
 }
