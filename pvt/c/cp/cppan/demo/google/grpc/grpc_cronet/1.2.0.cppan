@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpc_cronet",
+    "version": "1.2.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v1.2.0\n\nversion: 1.2.0\n\nlicense: LICENSE\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   include\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.gpr:\n            version: \"*\"\n        pvt.cppan.demo.libressl.ssl:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v1.2.0"
+        }
+    },
+    "hash": "b1db78349f4dcc11f1db3c4412c3b7fd84ed9c960e8060df1a822367030bd5a7",
+    "created": "2017-03-27 13:53:08.424577"
+}

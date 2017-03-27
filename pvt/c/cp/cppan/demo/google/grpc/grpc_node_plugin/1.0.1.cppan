@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpc_node_plugin",
+    "version": "1.0.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v1.0.1\n\nversion: 1.0.1\n\nlicense: LICENSE\n\nimport_from_bazel: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_plugin_support:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v1.0.1"
+        }
+    },
+    "hash": "486d294d7fc176fce4ed73055bd4baf5a359fd73e9e450ecae9deda02bb824c3",
+    "created": "2017-03-27 13:51:42.246208"
+}

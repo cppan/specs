@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpc_unsecure",
+    "version": "1.2.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v1.2.0\n\nversion: 1.2.0\n\nlicense: LICENSE\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   include\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.gpr:\n            version: \"*\"\n        pvt.cppan.demo.nanopb:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v1.2.0"
+        }
+    },
+    "hash": "2784b7a7d2ad7f560f90a6c77c6c812781d302294b3c04aa705db5cb6c092efc",
+    "created": "2017-03-27 13:53:22.893521"
+}

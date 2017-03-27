@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpc_ruby_plugin",
+    "version": "1.1.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v1.1.1\n\nversion: 1.1.1\n\nlicense: LICENSE\n\nimport_from_bazel: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_plugin_support:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v1.1.1"
+        }
+    },
+    "hash": "345b5309cbebb6c12c89b33c8d2949de020e4a96b278d50a8f2274bd66632e9c",
+    "created": "2017-03-27 13:59:36.384331"
+}

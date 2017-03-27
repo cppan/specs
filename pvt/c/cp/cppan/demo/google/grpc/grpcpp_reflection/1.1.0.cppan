@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpcpp_reflection",
+    "version": "1.1.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v1.1.0\n\nversion: 1.1.0\n\nlicense: LICENSE\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   .\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpcpp:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v1.1.0"
+        }
+    },
+    "hash": "62da0c85e06c6e1510a81de9e96684f964f7ea41be4628262669aa7885aa1972",
+    "created": "2017-03-27 13:59:18.473686"
+}
