@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpc_plugin_support",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v1.0.0\n\nversion: 1.0.0\n\nlicense: LICENSE\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   include\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.protobuf.protoc_lib:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v1.0.0"
+        }
+    },
+    "hash": "93e0467aa457049dee4fac503fc86ed9a9f9394f17c86d1c08dc3d66d6028a9f",
+    "created": "2017-03-27 13:50:33.61967"
+}
