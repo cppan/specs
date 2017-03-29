@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.eddic.fastcgipp",
+    "cppan": "source:\n    git: https:\/\/github.com\/eddic\/fastcgipp\n    branch: master\n\nversion: master\n\nc++: 14\n\npost_sources: |\n    if(CMAKE_SYSTEM_NAME STREQUAL \"Linux\")\n        set(SYSTEM \"LINUX\")\n    elseif(UNIX)\n        set(SYSTEM \"UNIX\")\n    elseif(WIN32)\n        message(FATAL_ERROR \"Windows systems not supported\")\n        set(SYSTEM \"WINDOWS\")\n    else()\n        message(FATAL_ERROR \"Unknown operating system\")\n    endif()\n    \n    set(VERSION ${PACKAGE_VERSION})\n    set(BUILD_TIME 0)\n    set(LOG_LEVEL 1)\n    \n    configure_file(\n        \"${CMAKE_CURRENT_SOURCE_DIR}\/include\/config.hpp.in\"\n        \"${CMAKE_CURRENT_BINARY_DIR}\/include\/fastcgi++\/config.hpp\" @ONLY)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/eddic\/fastcgipp",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "44fa6055d2127428aba535497310f0b2dfe251f7f8abe05a4b48f5b9c436f1aa",
+    "created": "2017-03-29 12:57:19.390465"
+}
