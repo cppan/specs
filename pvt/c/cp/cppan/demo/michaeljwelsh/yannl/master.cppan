@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.michaeljwelsh.yannl",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/MichaelJWelsh\/yannl",
+            "branch": "master"
+        }
+    },
+    "hash": "0408a0b97c6f0542e453a43910766c02425c9fb01387c1427910f7e2abc4cbca",
+    "created": "2017-03-29 07:39:37.277844",
+    "cppan": "source:\n    git: https:\/\/github.com\/MichaelJWelsh\/yannl\n    branch: master\n\nversion: master\n\n"
+}
