@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.chardan.exceptional",
+    "cppan": "source:\n    git: https:\/\/github.com\/chardan\/exceptional\n    branch: master\n\nversion: master\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.function_types:\n            version: 1\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/chardan\/exceptional",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "202368f40326d410e32c1b28f360dd457fdcc07ae13d30d07bf2c4ff1a7982a6",
+    "created": "2017-03-30 18:56:22.967202"
+}
