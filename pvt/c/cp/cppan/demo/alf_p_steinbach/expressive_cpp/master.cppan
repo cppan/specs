@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.alf_p_steinbach.expressive_cpp",
+    "cppan": "source:\n    git: https:\/\/github.com\/alf-p-steinbach\/Expressive-Cpp\n    branch: master\n\nversion: master\n\nfiles:\n    -   .*\\.hpp\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/alf-p-steinbach\/Expressive-Cpp",
+            "branch": "master"
+        }
+    },
+    "hash": "7a5c76de40bcc9c1d5a5f9154945f46a1be35b9d71a8cf33f0cefd30351960a6",
+    "created": "2017-03-31 13:31:31.714893"
+}

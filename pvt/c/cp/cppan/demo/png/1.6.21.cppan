@@ -1,7 +1,0 @@
-{
-    "cppan": "license: LICENSE\n\nroot_directory: lpng1621\n\nfiles: .*\n\ninclude_directories:\n    public: .\n\ndependencies:\n    pvt.cppan.demo.zlib: 1\n\n",
-    "project": "pvt.cppan.demo.png",
-    "version": "1.6.21",
-    "created": "2016-03-13 18:17:24.961519",
-    "hash": "2747fd6ff0af526750b994b764feda4aea863c46ed9776dec9e6675e0ebfa1b0"
-}

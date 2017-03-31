@@ -1,7 +1,12 @@
 {
     "project": "pvt.cppan.demo.freeimage.freeimage",
+    "cppan": "source:\n    remote: https:\/\/downloads.sourceforge.net\/project\/freeimage\/Source%20Distribution\/3.17.0\/FreeImage3170.zip\n\nversion: 3.17.0\n\nfiles:\n    -   .*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   FREEIMAGE_EXPORTS\n    static:\n        definitions:\n            public:\n                -   FREEIMAGE_LIB\n\ndependencies:\n    public:\n        pvt.cppan.demo.jpeg:\n            version: 9\n        pvt.cppan.demo.jxrlib:\n            version: 1\n        pvt.cppan.demo.libraw:\n            version: 0\n        pvt.cppan.demo.madler.zlib:\n            version: 1\n        pvt.cppan.demo.openexr.ilmimf:\n            version: 2\n        pvt.cppan.demo.openjpeg.openjp2:\n            version: 2\n        pvt.cppan.demo.png:\n            version: 1\n        pvt.cppan.demo.tiff:\n            version: 4\n        pvt.cppan.demo.webp:\n            version: 0\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/downloads.sourceforge.net\/project\/freeimage\/Source%20Distribution\/3.17.0\/FreeImage3170.zip"
+        }
+    },
     "version": "3.17.0",
-    "cppan": "files: .*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   FREEIMAGE_EXPORTS\n    static:\n        definitions:\n            public:\n                -   FREEIMAGE_LIB\n\ndependencies:\n    pvt.cppan.demo.jxrlib: 1\n    pvt.cppan.demo.openjpeg.openjp2: 2\n    pvt.cppan.demo.jpeg: 9\n    pvt.cppan.demo.libraw: 0\n    pvt.cppan.demo.png: 1\n    pvt.cppan.demo.tiff: 4\n    pvt.cppan.demo.webp: 0\n    pvt.cppan.demo.openexr.ilmimf: 2\n    pvt.cppan.demo.zlib: 1\n\n",
-    "created": "2016-09-21 21:35:02.209911",
-    "hash": "ffff169840422eaca84d176cda1b2392e38277f88d59e29c032c81f889f092ce"
+    "hash": "55641ff8d36b7b0ab6261601dbe515c21f410b711f5fc4be47de13f881b84571",
+    "created": "2017-03-31 13:20:14.300137"
 }

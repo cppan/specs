@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.openexr.ilmimf",
-    "cppan": "source:\n    remote: http:\/\/download.savannah.nongnu.org\/releases\/openexr\/openexr-2.2.0.tar.gz\n\nversion: 2.2.0\n\nfiles:\n    -   IlmImf\/Imf.*\\.h\n    -   IlmImf\/Imf.*\\.cpp\n\ninclude_directories:\n    public:\n        -   IlmImf\n\noptions:\n    shared:\n        definitions:\n            public:\n                -   OPENEXR_DLL\n            private:\n                -   ILMIMF_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.zlib: 1\n        pvt.cppan.demo.openexr.ilmbase.ilmthread: \"*\"\n        pvt.cppan.demo.openexr.dwalookups: \"*\"\n        pvt.cppan.demo.openexr.ilmbase.imath: \"*\"\n        pvt.cppan.demo.openexr.ilmbase.iex: \"*\"\n        pvt.cppan.demo.openexr.config: \"*\"\n        pvt.cppan.demo.openexr.b44explogtable: \"*\"\n        pvt.cppan.demo.openexr.ilmbase.half: \"*\"\n\npost_sources: |\n    add_custom_command(OUTPUT ${BDIR}\/b44ExpLogTable.h\n        COMMAND pvt.cppan.demo.openexr.b44explogtable > ${BDIR}\/b44ExpLogTable.h\n    )\n    add_custom_command(OUTPUT ${BDIR}\/dwaLookups.h\n        COMMAND pvt.cppan.demo.openexr.dwalookups > ${BDIR}\/dwaLookups.h\n    )\n    \n    set(src ${src} ${BDIR}\/b44ExpLogTable.h ${BDIR}\/dwaLookups.h)\n    \n\n",
-    "version": "2.2.0",
+    "cppan": "source:\n    remote: http:\/\/download.savannah.nongnu.org\/releases\/openexr\/openexr-2.2.0.tar.gz\n\nversion: 2.2.0\n\nfiles:\n    -   IlmImf\/Imf.*\\.cpp\n    -   IlmImf\/Imf.*\\.h\n\ninclude_directories:\n    public:\n        -   IlmImf\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   ILMIMF_EXPORTS\n            public:\n                -   OPENEXR_DLL\n\ndependencies:\n    public:\n        pvt.cppan.demo.madler.zlib:\n            version: 1\n        pvt.cppan.demo.openexr.b44explogtable:\n            version: \"*\"\n        pvt.cppan.demo.openexr.config:\n            version: \"*\"\n        pvt.cppan.demo.openexr.dwalookups:\n            version: \"*\"\n        pvt.cppan.demo.openexr.ilmbase.half:\n            version: \"*\"\n        pvt.cppan.demo.openexr.ilmbase.iex:\n            version: \"*\"\n        pvt.cppan.demo.openexr.ilmbase.ilmthread:\n            version: \"*\"\n        pvt.cppan.demo.openexr.ilmbase.imath:\n            version: \"*\"\n\npost_sources: |\n    add_custom_command(OUTPUT ${BDIR}\/b44ExpLogTable.h\n        COMMAND pvt.cppan.demo.openexr.b44explogtable > ${BDIR}\/b44ExpLogTable.h\n    )\n    add_custom_command(OUTPUT ${BDIR}\/dwaLookups.h\n        COMMAND pvt.cppan.demo.openexr.dwalookups > ${BDIR}\/dwaLookups.h\n    )\n    \n    set(src ${src} ${BDIR}\/b44ExpLogTable.h ${BDIR}\/dwaLookups.h)\n\n",
     "source": {
         "remote": {
             "url": "http:\/\/download.savannah.nongnu.org\/releases\/openexr\/openexr-2.2.0.tar.gz"
         }
     },
-    "created": "2016-09-21 18:57:36.821496",
-    "hash": "df4a97dd2f81f9bb362507228f37cdf8fe33fa4ea962c4391f260226b08ce2af"
+    "version": "2.2.0",
+    "hash": "2e207666d8a3422017e0ffc24ad8705f074f662f4cd61765afda90d08152c45a",
+    "created": "2017-03-31 13:23:11.334097"
 }

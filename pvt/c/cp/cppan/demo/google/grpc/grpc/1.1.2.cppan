@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.grpc.grpc",
-    "version": "1.1.2",
-    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v1.1.2\n\nversion: 1.1.2\n\nlicense: LICENSE\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   include\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.gpr:\n            version: \"*\"\n        pvt.cppan.demo.libressl.ssl:\n            version: \"*\"\n        pvt.cppan.demo.nanopb:\n            version: \"*\"\n        pvt.cppan.demo.zlib:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v1.1.2\n\nversion: 1.1.2\n\nlicense: LICENSE\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   .\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.gpr:\n            version: \"*\"\n        pvt.cppan.demo.libressl.ssl:\n            version: \"*\"\n        pvt.cppan.demo.madler.zlib:\n            version: \"*\"\n        pvt.cppan.demo.nanopb:\n            version: \"*\"\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/grpc\/grpc",
             "tag": "v1.1.2"
         }
     },
-    "hash": "d4158b788f4250778f29286b23d8f365b21c96e25d8631c6f8cbb90e079f2629",
-    "created": "2017-03-27 13:52:12.356737"
+    "version": "1.1.2",
+    "hash": "782de1b42f34279b18382c85624bbcf7cc4d48549c3a5d996386789e8fd94fd1",
+    "created": "2017-03-31 13:21:27.775152"
 }

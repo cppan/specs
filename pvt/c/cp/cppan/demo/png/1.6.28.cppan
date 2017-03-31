@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.png",
-    "cppan": "source:\n    remote: http:\/\/tenet.dl.sourceforge.net\/project\/libpng\/libpng16\/1.6.28\/libpng-1.6.28.tar.gz\n\nversion: 1.6.28\n\nfiles:\n    -   png.c\n    -   png.h\n    -   pngconf.h\n    -   pngdebug.h\n    -   pngerror.c\n    -   pngget.c\n    -   pnginfo.h\n    -   pngmem.c\n    -   pngpread.c\n    -   pngpriv.h\n    -   pngread.c\n    -   pngrio.c\n    -   pngrtran.c\n    -   pngrutil.c\n    -   pngset.c\n    -   pngstruct.h\n    -   pngtrans.c\n    -   pngwio.c\n    -   pngwrite.c\n    -   pngwtran.c\n    -   pngwutil.c\n    -   scripts\/pnglibconf.h.prebuilt\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.zlib:\n            version: 1\n\npre_sources: |\n    configure_file(${CMAKE_CURRENT_SOURCE_DIR}\/scripts\/pnglibconf.h.prebuilt\n                   ${CMAKE_CURRENT_BINARY_DIR}\/pnglibconf.h)\n\n",
+    "cppan": "source:\n    remote: http:\/\/tenet.dl.sourceforge.net\/project\/libpng\/libpng16\/1.6.28\/libpng-1.6.28.tar.gz\n\nversion: 1.6.28\n\nfiles:\n    -   png.c\n    -   png.h\n    -   pngconf.h\n    -   pngdebug.h\n    -   pngerror.c\n    -   pngget.c\n    -   pnginfo.h\n    -   pngmem.c\n    -   pngpread.c\n    -   pngpriv.h\n    -   pngread.c\n    -   pngrio.c\n    -   pngrtran.c\n    -   pngrutil.c\n    -   pngset.c\n    -   pngstruct.h\n    -   pngtrans.c\n    -   pngwio.c\n    -   pngwrite.c\n    -   pngwtran.c\n    -   pngwutil.c\n    -   scripts\/pnglibconf.h.prebuilt\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.madler.zlib:\n            version: 1\n\npre_sources: |\n    configure_file(${CMAKE_CURRENT_SOURCE_DIR}\/scripts\/pnglibconf.h.prebuilt\n                   ${CMAKE_CURRENT_BINARY_DIR}\/pnglibconf.h)\n\n",
     "source": {
         "remote": {
             "url": "http:\/\/tenet.dl.sourceforge.net\/project\/libpng\/libpng16\/1.6.28\/libpng-1.6.28.tar.gz"
         }
     },
     "version": "1.6.28",
-    "created": "2017-03-04 12:24:19.672994",
-    "hash": "a551753c3c85f23a8cdb1096573b44844a557cd797e6907658f20e959cda5b66"
+    "hash": "093367f5cd1987fbd98186405659689ac53c21754c5b89d1ea47943fc550ebe8",
+    "created": "2017-03-31 13:23:56.196228"
 }

@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.uwebsockets",
-    "cppan": "source:\n    tag: v0.10.0\n    git: https:\/\/github.com\/uWebSockets\/uWebSockets\n\nversion: 0.10.0\n\nfiles:\n    -   src\/.*\\.cpp\n    -   src\/.*\\.h\n\ninclude_directories:\n    public: src\n\ndependencies:\n    pvt.cppan.demo.libressl.crypto: 2\n    pvt.cppan.demo.libuv: 1\n    pvt.cppan.demo.libressl.ssl: 2\n    pvt.cppan.demo.zlib: 1\n\n",
-    "version": "0.10.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/uWebSockets\/uWebSockets\n    tag: v0.10.0\n\nversion: 0.10.0\n\nfiles:\n    -   src\/.*\\.cpp\n    -   src\/.*\\.h\n\ninclude_directories:\n    public:\n        -   src\n\ndependencies:\n    public:\n        pvt.cppan.demo.libressl.crypto:\n            version: 2\n        pvt.cppan.demo.libressl.ssl:\n            version: 2\n        pvt.cppan.demo.libuv:\n            version: 1\n        pvt.cppan.demo.madler.zlib:\n            version: 1\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/uWebSockets\/uWebSockets",
             "tag": "v0.10.0"
         }
     },
-    "created": "2016-10-26 22:17:46.196059",
-    "hash": "3254cbb4d5186e71eddbf49c7078414a6e3b7c43d8ca7143e87b93b4f4575f16"
+    "version": "0.10.0",
+    "hash": "40b9c64cf133ec7cd00b2e9353704430f6b1d1b50335b2e73e4f0626961db311",
+    "created": "2017-03-31 13:25:59.835957"
 }

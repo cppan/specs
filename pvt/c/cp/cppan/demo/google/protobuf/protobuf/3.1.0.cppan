@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.google.protobuf.protobuf",
-    "cppan": "source:\n    git: https:\/\/github.com\/google\/protobuf\n    tag: v3.1.0\n\nversion: 3.1.0\n\nimport_from_bazel: true\n\nfiles:\n    -   src\/.*\\.h\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   LIBPROTOBUF_EXPORTS\n            public:\n                -   PROTOBUF_USE_DLLS\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.protobuf.protobuf_lite:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.zlib:\n            version: \"*\"\n\npost_sources: |\n    file(GLOB_RECURSE src2 \"${pvt_cppan_demo_google_protobuf_protobuf_lite_DIR}\/*\")\n     set(src ${src} ${src2})\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/protobuf\n    tag: v3.1.0\n\nversion: 3.1.0\n\nimport_from_bazel: true\n\nfiles:\n    -   src\/.*\\.h\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   LIBPROTOBUF_EXPORTS\n            public:\n                -   PROTOBUF_USE_DLLS\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.protobuf.protobuf_lite:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.madler.zlib:\n            version: \"*\"\n\npost_sources: |\n    file(GLOB_RECURSE src2 \"${pvt_cppan_demo_google_protobuf_protobuf_lite_DIR}\/*\")\n     set(src ${src} ${src2})\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/google\/protobuf",
@@ -8,6 +8,6 @@
         }
     },
     "version": "3.1.0",
-    "created": "2017-01-09 20:27:33.144782",
-    "hash": "ec4b6b84144b8b7a9bf63284d334de3b71e777d4db46976a622889dff4ef9d03"
+    "hash": "588a90e24cae7975351118f9d3e4dc8db20b44dcfd018d8e5fd816b782d50ec5",
+    "created": "2017-03-31 13:21:43.290161"
 }
