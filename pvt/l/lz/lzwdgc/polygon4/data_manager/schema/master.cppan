@@ -1,0 +1,13 @@
+{
+    "project": "pvt.lzwdgc.polygon4.data_manager.schema",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aimrebirth\/DataManager",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/aimrebirth\/DataManager\n    branch: master\n\nversion: master\n\ntype: library\n\napi_name:\n    -   SCHEMA_API\n\nfiles:\n    -   include\/.*\n    -   src\/schema\/.*\\.cpp\n    -   src\/schema\/.*\\.h\n    -   src\/schema\/.*\\.ll\n    -   src\/schema\/.*\\.yy\n\ninclude_directories:\n    public:\n        -   include\n    private:\n        -   src\/schema\n        -   include\/Polygon4\/DataManager\/Schema\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                public:\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.algorithm:\n            version: 1\n        pvt.cppan.demo.boost.variant:\n            version: 1\n        pvt.cppan.demo.lexxmark.winflexbison.bison:\n            version: master\n        pvt.cppan.demo.lexxmark.winflexbison.flex:\n            version: 2.6.1\n        pvt.lzwdgc.polygon4.data_manager.memory:\n            version: \"*\"\n\npost_sources: |\n    add_custom_command(OUTPUT\n        ${BDIR}\/lexer.h ${BDIR}\/lexer.cpp\n        ${BDIR}\/grammar.hpp ${BDIR}\/grammar.cpp\n        COMMAND pvt.cppan.demo.lexxmark.winflexbison.flex --header-file=${BDIR}\/lexer.h -o lexer.cpp ${SDIR}\/src\/schema\/lexer.ll\n        COMMAND pvt.cppan.demo.lexxmark.winflexbison.bison --defines=grammar.hpp -o grammar.cpp ${SDIR}\/src\/schema\/grammar.yy\n        WORKING_DIRECTORY ${BDIR}\n    )\n    set(src ${src}\n        ${BDIR}\/lexer.h ${BDIR}\/lexer.cpp\n        ${BDIR}\/grammar.hpp ${BDIR}\/grammar.cpp\n    )\n\n",
+    "hash": "ea82879308b5e2cc9a801aceb785fdce9313d8cac87ed6071f7a6dc501ccff76",
+    "created": "2017-04-01 17:36:53.77612"
+}

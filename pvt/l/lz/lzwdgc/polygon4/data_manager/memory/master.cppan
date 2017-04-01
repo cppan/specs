@@ -1,0 +1,13 @@
+{
+    "project": "pvt.lzwdgc.polygon4.data_manager.memory",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aimrebirth\/DataManager",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/aimrebirth\/DataManager\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   include\/Polygon4\/Memory.h\n    -   src\/memory\/Memory.cpp\n\n",
+    "hash": "f144b89cfea11d5cffadecfaeed30260c8626f3d601abab0826a5ad0cb5d4e08",
+    "created": "2017-04-01 17:36:49.619429"
+}
