@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.lexxmark.rsl",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/lexxmark\/rsl",
+            "branch": "master"
+        }
+    },
+    "hash": "95615b7452f7d479a03970c90f9dab50752c93776b417fe0167006e88e0a44ce",
+    "created": "2017-04-03 19:15:38.182493",
+    "cppan": "source:\n    git: https:\/\/github.com\/lexxmark\/rsl\n    branch: master\n\nversion: master\n\n"
+}
