@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qihoo360.evpp",
+    "cppan": "source:\n    git: https:\/\/github.com\/Qihoo360\/evpp\n    tag: v0.3.1\n\nversion: 0.3.1\n\ntype: library\n\napi_name:\n    -   EVPP_EXPORT\n\nfiles:\n    -   evpp\/.*\\.[hc]c?\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.glog:\n            version: master\n        pvt.cppan.demo.libevent:\n            version: 2\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/evpp\/inner_pre.cc \"#pragma comment\" \"\/\/#pragma comment\")\n    replace_in_file_once(${SDIR}\/evpp\/evpp_export.h \"#define EVPP_EXPORT\" \"\/\/#define EVPP_EXPORT\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Qihoo360\/evpp",
+            "tag": "v0.3.1"
+        }
+    },
+    "version": "0.3.1",
+    "created": "2017-04-06 17:27:06.505345",
+    "hash": "59fbf7ed096d49ff31cca4a4bb2b26ba9b698ac01ccc7dc1fff88a0d407e8f7b"
+}
