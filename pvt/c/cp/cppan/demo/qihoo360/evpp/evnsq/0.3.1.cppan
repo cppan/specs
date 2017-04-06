@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qihoo360.evpp.evnsq",
+    "version": "0.3.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/Qihoo360\/evpp\n    tag: v0.3.1\n\nversion: 0.3.1\n\ntype: library\n\nroot_directory: apps\n\napi_name:\n    -   EVNSQ_EXPORT\n\nfiles:\n    -   evnsq\/[^\/]*\\.[hc]c?\n\ndependencies:\n    public:\n        pvt.cppan.demo.qihoo360.evpp.evpp:\n            version: \"*\"\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/evnsq\/exp.h \"#pragma comment\" \"\/\/#pragma comment\")\n    #replace_in_file_once(${SDIR}\/evnsq\/exp.h \"#define EVPP_EXPORT\" \"\/\/#define EVPP_EXPORT\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Qihoo360\/evpp",
+            "tag": "v0.3.1"
+        }
+    },
+    "hash": "0cd723a6c09123ad00a73a14f3b321d5cc965695e7e116c398199d97dff47308",
+    "created": "2017-04-06 18:56:55.550868"
+}

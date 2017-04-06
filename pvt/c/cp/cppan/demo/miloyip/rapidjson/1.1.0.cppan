@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.miloyip.rapidjson",
+    "cppan": "source:\n    git: https:\/\/github.com\/miloyip\/rapidjson\n    tag: v1.1.0\n\nversion: 1.1.0\n\nfiles:\n    -   include\/.*\n\noptions:\n    any:\n        definitions:\n            public:\n                -   RAPIDJSON_HAS_STDSTRING\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/miloyip\/rapidjson",
+            "tag": "v1.1.0"
+        }
+    },
+    "version": "1.1.0",
+    "hash": "60e032205b55f0ca2c3ce11ebea0553048cdfb35e3e5baea17425a8c144ee71f",
+    "created": "2017-04-06 19:13:30.92111"
+}

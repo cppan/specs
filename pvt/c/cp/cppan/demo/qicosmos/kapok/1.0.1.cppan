@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.qicosmos.kapok",
-    "cppan": "source:\n    git: https:\/\/github.com\/qicosmos\/Kapok\n    tag: v1.001\n\nversion: 1.0.1\n\nfiles: kapok\/.*\n\ndependencies:\n    pvt.cppan.demo.fmt: 3\n    pvt.cppan.demo.boost.optional: 1\n    pvt.cppan.demo.boost.mpl: 1\n    pvt.cppan.demo.boost.lexical_cast: 1\n    pvt.cppan.demo.rapidjson: 1\n    pvt.cppan.demo.boost.variant: 1\n\n",
-    "version": "1.0.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/qicosmos\/Kapok\n    tag: v1.001\n\nversion: 1.0.1\n\nfiles:\n    -   kapok\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.lexical_cast:\n            version: 1\n        pvt.cppan.demo.boost.mpl:\n            version: 1\n        pvt.cppan.demo.boost.optional:\n            version: 1\n        pvt.cppan.demo.boost.variant:\n            version: 1\n        pvt.cppan.demo.fmt:\n            version: 3\n        pvt.cppan.demo.miloyip.rapidjson:\n            version: 1\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/qicosmos\/Kapok",
             "tag": "v1.001"
         }
     },
-    "created": "2016-10-12 22:14:45.621041",
-    "hash": "fa2bb1127828165443d7fe2cc7635314821983583446c01ddb10193536f1f922"
+    "version": "1.0.1",
+    "hash": "0b1eec1331b8ad5db9abde8bd279d8fa01510fd2126a197f6c72e896664132fb",
+    "created": "2017-04-06 19:14:10.009331"
 }
