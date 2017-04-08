@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.rafagago.mini_async_log",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/RafaGago\/mini-async-log",
+            "branch": "master"
+        }
+    },
+    "hash": "ddaf4b3d58f6d614aad36ec1b7ce221e6a5bcbd9a46c619b2425b6c65d57e3e8",
+    "created": "2017-04-08 21:19:31.477676",
+    "cppan": "source:\n    git: https:\/\/github.com\/RafaGago\/mini-async-log\n    branch: master\n\nversion: master\n\n"
+}
