@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.quantstack.xtensor",
+    "version": "0.8.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/QuantStack\/xtensor\/",
+            "tag": "0.8.2"
+        }
+    },
+    "hash": "4bb4b973d415e1108b827b1adadb137cd7546f9f473397092f9279dd414800b5",
+    "created": "2017-04-10 20:13:50.392354",
+    "cppan": "source:\n    git: https:\/\/github.com\/QuantStack\/xtensor\/\n    tag: 0.8.2\n\nversion: 0.8.2\n\n"
+}
