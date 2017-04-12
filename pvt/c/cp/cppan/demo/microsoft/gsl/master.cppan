@@ -1,6 +1,5 @@
 {
     "project": "pvt.cppan.demo.microsoft.gsl",
-    "cppan": "files: gsl\/.*\n\n",
     "version": "master",
     "source": {
         "git": {
@@ -8,6 +7,7 @@
             "branch": "master"
         }
     },
-    "created": "2016-10-28 21:44:26.990049",
-    "hash": "38aa060810cb32b641a0ff63bcf59fa2178a49ad2137a15a9af1aa2bc9545abb"
+    "hash": "9ae8d9c3d77f42467bfbb6c1b0687d4e13f0b276bbd19f1264871844f0c3bc1f",
+    "created": "2017-04-12 13:10:13.602238",
+    "cppan": "source:\n    git: https:\/\/github.com\/Microsoft\/GSL\n    branch: master\n\nversion: master\n\n"
 }
