@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.k_brac.cuti",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/k-brac\/CUTI",
+            "branch": "master"
+        }
+    },
+    "hash": "fd8a292c63c71f34dc58c838c98433a9015472d8589c552eac64e5ac059efb7e",
+    "created": "2017-04-14 21:00:16.051268",
+    "cppan": "source:\n    git: https:\/\/github.com\/k-brac\/CUTI\n    branch: master\n\nversion: master\n\n"
+}
