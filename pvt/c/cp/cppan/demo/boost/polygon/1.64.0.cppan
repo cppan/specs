@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.polygon",
+    "version": "1.64.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/polygon\n    commit: c9e6a3dfc2c6eb1f2aaf4352ddab93302c4b59d8\n\nversion: 1.64.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.mpl:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.utility:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/polygon",
+            "commit": "c9e6a3dfc2c6eb1f2aaf4352ddab93302c4b59d8"
+        }
+    },
+    "hash": "dd8816df1223965e899f7e4b6068aed67f4fdbc45b8d8d20484e1540b33c7859",
+    "created": "2017-04-19 23:11:51.060587"
+}

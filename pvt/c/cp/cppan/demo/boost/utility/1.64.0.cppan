@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.utility",
+    "version": "1.64.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/utility\n    commit: 68b26cddbe6abf5e31670bbfe0d22b77678a20f4\n\nversion: 1.64.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.mpl:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/utility",
+            "commit": "68b26cddbe6abf5e31670bbfe0d22b77678a20f4"
+        }
+    },
+    "hash": "302f69e6deb79e0838c9ffd8710310c0aba12f1e191799cd2ac4355e49ec28bd",
+    "created": "2017-04-19 23:13:02.174199"
+}

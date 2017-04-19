@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.throw_exception",
+    "version": "1.64.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/throw_exception\n    commit: c548923b32735fcbc6cdf34c8e9b382d58b4b407\n\nversion: 1.64.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/throw_exception",
+            "commit": "c548923b32735fcbc6cdf34c8e9b382d58b4b407"
+        }
+    },
+    "hash": "e0c45345a632626b19630212eaef7612bdff0fecc95a942322fb93eae4f78f63",
+    "created": "2017-04-19 23:12:33.755875"
+}

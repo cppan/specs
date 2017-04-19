@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.vmd",
+    "version": "1.64.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/vmd\n    commit: ab61fc7dbaca831b4aabd2292b7dba1778f71a9c\n\nversion: 1.64.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/vmd",
+            "commit": "ab61fc7dbaca831b4aabd2292b7dba1778f71a9c"
+        }
+    },
+    "hash": "b76f5fbe8edb68efbed356b190aef88d46db6541a99c5e06815550a9661d4c36",
+    "created": "2017-04-19 23:12:56.552886"
+}

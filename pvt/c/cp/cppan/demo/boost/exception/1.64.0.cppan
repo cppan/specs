@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.exception",
+    "version": "1.64.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/exception\n    commit: da0f861b05111423397f97ae1c285096f17ad584\n\nversion: 1.64.0\n\nstatic_only: true\n\nfiles:\n    -   include\/.*\n    -   src\/.*\n\ninclude_directories:\n    public:\n        -   include\n    private:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   BOOST_EXCEPTION_BUILDING_THE_LIB\n                -   BOOST_EXCEPTION_SOURCE\n    shared:\n        definitions:\n            private:\n                -   BOOST_EXCEPTION_BUILD_DLL\n            public:\n                -   BOOST_ALL_DYN_LINK\n                -   BOOST_EXCEPTION_DYN_LINK\n                -   BOOST_EXCEPTION_USE_DLL\n    static:\n        definitions:\n            public:\n                -   BOOST_ALL_STATIC_LINK\n                -   BOOST_EXCEPTION_BUILD_LIB\n                -   BOOST_EXCEPTION_STATIC_LINK\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.move:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.smart_ptr:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.tuple:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/exception",
+            "commit": "da0f861b05111423397f97ae1c285096f17ad584"
+        }
+    },
+    "hash": "6c161be243cbb8394ec0fb0103486a1cba96bd452e973d67246b69a798257e14",
+    "created": "2017-04-19 23:10:56.965527"
+}

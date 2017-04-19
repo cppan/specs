@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.preprocessor",
+    "version": "1.64.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/preprocessor\n    commit: a6275942f3f2590da2e4708bea5d5779bd162ae7\n\nversion: 1.64.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/preprocessor",
+            "commit": "a6275942f3f2590da2e4708bea5d5779bd162ae7"
+        }
+    },
+    "hash": "a3e4c90d38a90189a51a24ca3437245f60cada709ca21ede0bca45fef9363795",
+    "created": "2017-04-19 23:12:03.928481"
+}
