@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mbed.tls.crypto",
+    "version": "2.4.2",
+    "cppan": "source:\n    git: https:\/\/github.com\/ARMmbed\/mbedtls\n    tag: mbedtls-2.4.2\n\nversion: 2.4.2\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   include\/.*\\.h\n    -   library\/aes.c\n    -   library\/aesni.c\n    -   library\/arc4.c\n    -   library\/asn1parse.c\n    -   library\/asn1write.c\n    -   library\/base64.c\n    -   library\/bignum.c\n    -   library\/blowfish.c\n    -   library\/camellia.c\n    -   library\/ccm.c\n    -   library\/cipher.c\n    -   library\/cipher_wrap.c\n    -   library\/cmac.c\n    -   library\/ctr_drbg.c\n    -   library\/des.c\n    -   library\/dhm.c\n    -   library\/ecdh.c\n    -   library\/ecdsa.c\n    -   library\/ecjpake.c\n    -   library\/ecp.c\n    -   library\/ecp_curves.c\n    -   library\/entropy.c\n    -   library\/entropy_poll.c\n    -   library\/error.c\n    -   library\/gcm.c\n    -   library\/havege.c\n    -   library\/hmac_drbg.c\n    -   library\/md.c\n    -   library\/md2.c\n    -   library\/md4.c\n    -   library\/md5.c\n    -   library\/md_wrap.c\n    -   library\/memory_buffer_alloc.c\n    -   library\/oid.c\n    -   library\/padlock.c\n    -   library\/pem.c\n    -   library\/pk.c\n    -   library\/pk_wrap.c\n    -   library\/pkcs12.c\n    -   library\/pkcs5.c\n    -   library\/pkparse.c\n    -   library\/pkwrite.c\n    -   library\/platform.c\n    -   library\/ripemd160.c\n    -   library\/rsa.c\n    -   library\/sha1.c\n    -   library\/sha256.c\n    -   library\/sha512.c\n    -   library\/threading.c\n    -   library\/timing.c\n    -   library\/version.c\n    -   library\/version_features.c\n    -   library\/xtea.c\n\npost_sources: |\n    #replace_in_file_once(${SDIR}\/include\/mbedtls\/check_config.h \"#define MBEDTLS_PLATFORM_SNPRINTF_ALT\" \"\/\/#define MBEDTLS_PLATFORM_SNPRINTF_ALT\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ARMmbed\/mbedtls",
+            "tag": "mbedtls-2.4.2"
+        }
+    },
+    "hash": "07ddf17f495559bb02b058a87fb78c81b5f3446554874cdc4858b2325979577c",
+    "created": "2017-04-20 20:09:30.470304"
+}

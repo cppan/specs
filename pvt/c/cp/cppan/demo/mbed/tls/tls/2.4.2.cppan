@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mbed.tls.tls",
+    "version": "2.4.2",
+    "cppan": "source:\n    git: https:\/\/github.com\/ARMmbed\/mbedtls\n    tag: mbedtls-2.4.2\n\nversion: 2.4.2\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   include\/.*\\.h\n    -   library\/debug.c\n    -   library\/net_sockets.c\n    -   library\/ssl.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.mbed.tls.x509:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ARMmbed\/mbedtls",
+            "tag": "mbedtls-2.4.2"
+        }
+    },
+    "hash": "7bee86c8813a8c46fea09670d74a1af292e84e4cafe63bcbd230d9e8644107d0",
+    "created": "2017-04-20 20:09:35.054048"
+}

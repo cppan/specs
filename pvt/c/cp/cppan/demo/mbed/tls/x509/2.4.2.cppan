@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mbed.tls.x509",
+    "version": "2.4.2",
+    "cppan": "source:\n    git: https:\/\/github.com\/ARMmbed\/mbedtls\n    tag: mbedtls-2.4.2\n\nversion: 2.4.2\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   include\/.*\\.h\n    -   library\/certs.c\n    -   library\/pkcs11.c\n    -   library\/x509.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.mbed.tls.crypto:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ARMmbed\/mbedtls",
+            "tag": "mbedtls-2.4.2"
+        }
+    },
+    "hash": "44b3b738f0f6e1831b966535a0472ebd7005372bc942dc0c047b7041deb3bd61",
+    "created": "2017-04-20 20:09:39.605042"
+}
