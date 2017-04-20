@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.howardhinnant.date.iso_week",
+    "version": "2.1.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/HowardHinnant\/date\n    tag: 2.1.0\n\nversion: 2.1.0\n\nfiles:\n    -   iso_week.h\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.howardhinnant.date.date:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/HowardHinnant\/date",
+            "tag": "2.1.0"
+        }
+    },
+    "hash": "c9c22d473cadda5bef31f430818582d7a721b36c2e88a0a36ad5f9ba3eb909af",
+    "created": "2017-04-20 17:04:24.839782"
+}

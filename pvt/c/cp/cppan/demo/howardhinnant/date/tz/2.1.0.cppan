@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.howardhinnant.date.tz",
+    "version": "2.1.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/HowardHinnant\/date\n    tag: 2.1.0\n\nversion: 2.1.0\n\nfiles:\n    -   tz.cpp\n    -   tz.h\n    -   tz_private.h\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.howardhinnant.date.date:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/HowardHinnant\/date",
+            "tag": "2.1.0"
+        }
+    },
+    "hash": "b1c746818f246346df2b5bf836dc964dfe3acfa12cb9fb0d103b142692140520",
+    "created": "2017-04-20 17:04:33.527484"
+}

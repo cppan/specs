@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.howardhinnant.date.julian",
+    "version": "2.1.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/HowardHinnant\/date\n    tag: 2.1.0\n\nversion: 2.1.0\n\nfiles:\n    -   julian.h\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.howardhinnant.date.date:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/HowardHinnant\/date",
+            "tag": "2.1.0"
+        }
+    },
+    "hash": "6378475cd945f20ceb8cc2e4a096771c88d06f53cf209fc939ad76c4aa3e012b",
+    "created": "2017-04-20 17:04:29.351802"
+}

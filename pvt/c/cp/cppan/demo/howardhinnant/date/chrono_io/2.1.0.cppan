@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.howardhinnant.date.chrono_io",
+    "version": "2.1.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/HowardHinnant\/date\n    tag: 2.1.0\n\nversion: 2.1.0\n\nfiles:\n    -   chrono_io.h\n\ninclude_directories:\n    public:\n        -   .\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/HowardHinnant\/date",
+            "tag": "2.1.0"
+        }
+    },
+    "hash": "4f6d1fd787e419fe491c9f39f335d2f49c575387edabc7d2789b521b0c468f96",
+    "created": "2017-04-20 17:04:11.908741"
+}

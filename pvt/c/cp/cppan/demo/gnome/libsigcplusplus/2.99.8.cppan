@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gnome.libsigcplusplus",
+    "cppan": "source:\n    git: https:\/\/github.com\/GNOME\/libsigcplusplus\n    tag: 2.99.8\n\nversion: 2.99.8\n\ntype: library\n\nfiles:\n    -   sigc++config.h.cmake\n    -   sigc\\+\\+\/.*\\.cc\n    -   sigc\\+\\+\/.*\\.h\n\noptions:\n    any:\n        definitions:\n            private:\n                -   SIGC_BUILD\n    shared:\n        definitions:\n            public:\n                -   SIGC_DLL\n\npost_sources: |\n    set(SIGCXX_DISABLE_DEPRECATED 1)\n    set(SIGCXX_MAJOR_VERSION ${PACKAGE_MAJOR_VERSION})\n    set(SIGCXX_MINOR_VERSION ${PACKAGE_MINOR_VERSION})\n    set(SIGCXX_MICRO_VERSION ${PACKAGE_PATCH_VERSION})\n    \n    configure_file(${SDIR}\/sigc++config.h.cmake ${BDIR}\/sigc++config.h)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/GNOME\/libsigcplusplus",
+            "tag": "2.99.8"
+        }
+    },
+    "version": "2.99.8",
+    "hash": "57e62e450f7e1d27bef2b77219519d9e4db0a2315e578a59461450154279f2a6",
+    "created": "2017-04-20 17:41:54.517229"
+}

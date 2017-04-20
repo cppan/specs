@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.sailormoon.stopwatch",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/sailormoon\/stopwatch",
+            "branch": "master"
+        }
+    },
+    "hash": "89b555c235a9e38e5c37194c90a399288543f6e7e1bc665531564e910b6dc9e1",
+    "created": "2017-04-20 17:04:48.209829",
+    "cppan": "source:\n    git: https:\/\/github.com\/sailormoon\/stopwatch\n    branch: master\n\nversion: master\n\n"
+}
