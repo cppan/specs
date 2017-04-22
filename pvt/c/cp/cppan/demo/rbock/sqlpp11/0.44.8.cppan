@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.rbock.sqlpp11",
+    "cppan": "source:\n    git: https:\/\/github.com\/rbock\/sqlpp11\n    tag: 0.43\n\nversion: 0.44.8\n\ndependencies:\n    public:\n        pvt.cppan.demo.howardhinnant.date.date:\n            version: 1\n\n",
+    "version": "0.44.8",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/rbock\/sqlpp11",
+            "tag": "0.43"
+        }
+    },
+    "hash": "60e1036a9e4763b36b323c808fc4f30c77694fd36d4398996ebc9be2076877b5",
+    "created": "2017-04-22 14:10:46.740978"
+}

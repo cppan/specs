@@ -8,6 +8,6 @@
         }
     },
     "created": "2016-12-07 19:41:10.264113",
-    "cppan": "",
+    "cppan": "source:\n    git: https:\/\/github.com\/ipkn\/crow\n    branch: master\n\nversion: master\n\n",
     "hash": "471ba5e2b8a5997241332d6c2095392a88de38c24b92c52bb815b8ef7406abd3"
 }
