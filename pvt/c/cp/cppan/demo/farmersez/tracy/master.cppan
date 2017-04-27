@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.farmersez.tracy",
+    "cppan": "source:\n    git: https:\/\/github.com\/farmersez\/tracy\n    branch: master\n\nversion: master\n\nfiles:\n    -   src\/tracy.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/farmersez\/tracy",
+            "branch": "master"
+        }
+    },
+    "hash": "6965ea935be7b9f79edffd4d3cb7533ce83f8aae826b8aa05b1e1274b1c6e753",
+    "created": "2017-04-27 18:50:20.085127"
+}

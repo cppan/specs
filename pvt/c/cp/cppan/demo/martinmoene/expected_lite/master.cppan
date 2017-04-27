@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.martinmoene.expected_lite",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/martinmoene\/expected-lite",
+            "branch": "master"
+        }
+    },
+    "hash": "849081c9be900da546dae3aa4285cb183402adf8333b9056fb8a4a40d958202e",
+    "created": "2017-04-27 18:50:58.146899",
+    "cppan": "source:\n    git: https:\/\/github.com\/martinmoene\/expected-lite\n    branch: master\n\nversion: master\n\n"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tessil.array_hash",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Tessil\/array-hash",
+            "branch": "master"
+        }
+    },
+    "hash": "31d778d0518a46d142b6aaf14473073544b0b78c549762faf874795c13adfafc",
+    "created": "2017-04-27 18:36:32.768585",
+    "cppan": "source:\n    git: https:\/\/github.com\/Tessil\/array-hash\n    branch: master\n\nversion: master\n\n"
+}

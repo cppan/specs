@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tessil.hat_trie",
+    "cppan": "source:\n    git: https:\/\/github.com\/Tessil\/hat-trie\n    branch: master\n\nversion: master\n\nfiles:\n    -   src\/[^\/]*\\.h\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Tessil\/hat-trie",
+            "branch": "master"
+        }
+    },
+    "hash": "caba182df369266efbed296955fcfc5c0c0e42e90ef0126631389359e84aa2b0",
+    "created": "2017-04-27 18:37:43.273844"
+}
