@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gerhobbelt.pthread_win32",
+    "cppan": "source:\n    git: https:\/\/github.com\/GerHobbelt\/pthread-win32\n    branch: master\n\nversion: master\n\ntype: library\n\nfiles:\n    -   .*\\.[hc]\n\nexclude_from_build:\n    -   .*\n\noptions:\n    any:\n        definitions:\n            public:\n                -   HAVE_CONFIG_H\n    static:\n        definitions:\n            public:\n                -   PTW32_STATIC_LIB\n\npost_sources: |\n    add_src(pthread.c)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/GerHobbelt\/pthread-win32",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "8cef21ec9976c40068dc205a531d321036ee6d080da692451005e4afa0f40ddd",
+    "created": "2017-04-27 20:32:46.301715"
+}

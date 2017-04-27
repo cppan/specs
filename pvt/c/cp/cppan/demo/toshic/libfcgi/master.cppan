@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.toshic.libfcgi",
+    "cppan": "source:\n    git: https:\/\/github.com\/toshic\/libfcgi\n    branch: master\n\nversion: master\n\ntype: library\n\nfiles:\n    -   include\/.*\n    -   libfcgi\/.*\n\npost_sources: |\n    file_write_once(${BDIR}\/fcgi_config.h \"\")\n    \n    remove_src_win32(libfcgi\/os_unix.c)\n    remove_src_unix(libfcgi\/os_win32.c)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/toshic\/libfcgi",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "44fa31ad7bf3d53f9a2b80bac9b884a875176eb3c8e739106c4463744b8fe9d5",
+    "created": "2017-04-27 20:41:36.380275"
+}
