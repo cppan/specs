@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.demimarie.sliprock",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/DemiMarie\/SlipRock",
+            "branch": "master"
+        }
+    },
+    "hash": "4558936f328535eb684a6d9688c2f7cd371609dd2660ac2db342fb541d78e5cb",
+    "created": "2017-04-28 12:30:24.720591",
+    "cppan": "source:\n    git: https:\/\/github.com\/DemiMarie\/SlipRock\n    branch: master\n\nversion: master\n\n"
+}
