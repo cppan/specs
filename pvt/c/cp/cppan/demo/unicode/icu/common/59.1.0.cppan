@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.common",
+    "cppan": "source:\n    remote: https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/59.1\/icu4c-59_1-src.tgz\n\nversion: 59.1.0\n\ntype: library\n\nroot_directory: source\n\nfiles:\n    -   common\/.*\\.c\n    -   common\/.*\\.cpp\n    -   common\/.*\\.h\n\ninclude_directories:\n    public:\n        -   common\n\noptions:\n    any:\n        definitions:\n            private:\n                -   U_COMMON_IMPLEMENTATION\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\nchecks_prefixes:\n    -   U_\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.data:\n            version: \"*\"\n\ncheck_function_exists:\n    -   dlopen\n    -   gettimeofday\n    -   mmap\n    -   nl_langinfo\n    -   popen\n    -   pthread_mutex_lock\n    -   strtod_l\n    -   tzset\n    -   _tzset\n\ncheck_include_exists:\n    -   file: dirent.h\n        variable: HAVE_DIRENT_H\n        cpp: false\n    -   file: dlfcn.h\n        variable: HAVE_DLFCN_H\n        cpp: false\n    -   file: elf.h\n        variable: HAVE_ELF_H\n        cpp: false\n    -   file: inttypes.h\n        variable: HAVE_INTTYPES_H\n        cpp: false\n    -   file: wchar.h\n        variable: HAVE_WCHAR_H\n        cpp: false\n\ncheck_type_size:\n    -   type: int16_t\n    -   type: int32_t\n    -   type: int64_t\n    -   type: int8_t\n    -   type: uint16_t\n    -   type: uint32_t\n    -   type: uint64_t\n    -   type: uint8_t\n    -   type: wchar_t\n\ncheck_library_function:\n    -   function: pthread_attr_init\n        library: pthread\n    -   function: pthread_mutex_init\n        library: pthread\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/59.1\/icu4c-59_1-src.tgz"
+        }
+    },
+    "version": "59.1.0",
+    "hash": "947234b019b36f81441683b66110ccd9bb1c81195a8ed286d80eb8fc01d5d8f7",
+    "created": "2017-04-28 20:25:36.09"
+}

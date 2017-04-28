@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.i18n",
+    "cppan": "source:\n    remote: https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/59.1\/icu4c-59_1-src.tgz\n\nversion: 59.1.0\n\ntype: library\n\nroot_directory: source\n\nfiles:\n    -   i18n\/.*\\.c\n    -   i18n\/.*\\.cpp\n    -   i18n\/.*\\.h\n\ninclude_directories:\n    public:\n        -   i18n\n\noptions:\n    any:\n        definitions:\n            private:\n                -   U_I18N_IMPLEMENTATION\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.common:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/59.1\/icu4c-59_1-src.tgz"
+        }
+    },
+    "version": "59.1.0",
+    "hash": "0b0985b90f167cca27a809315f8e02e1806e3a5d48c2b8da4f9078c2c8b386e5",
+    "created": "2017-04-28 20:26:38.620244"
+}

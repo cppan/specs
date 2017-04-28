@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.egladysh.memheap",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egladysh\/memheap",
+            "branch": "master"
+        }
+    },
+    "hash": "6fb8ff0b874aeeb0c8389cca10b9e94a35773163e71207058c7e71807ab08c38",
+    "created": "2017-04-28 20:08:05.33824",
+    "cppan": "source:\n    git: https:\/\/github.com\/egladysh\/memheap\n    branch: master\n\nversion: master\n\n"
+}
