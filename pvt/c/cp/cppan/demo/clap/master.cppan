@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.clap",
+    "version": "master",
+    "source": {
+        "remote": {
+            "url": "https:\/\/www.cs.bgu.ac.il\/~cgproj\/CLAP\/CLAP.zip"
+        }
+    },
+    "hash": "1505e9fb49e9da3b38744541f439d9baf6f6510b0a107c9ed60980a0d608ef7d",
+    "created": "2017-04-28 17:01:01.570668",
+    "cppan": "source:\n    remote: https:\/\/www.cs.bgu.ac.il\/~cgproj\/CLAP\/CLAP.zip\n\nversion: master\n\n"
+}
