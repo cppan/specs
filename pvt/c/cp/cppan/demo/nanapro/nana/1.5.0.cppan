@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.nanapro.nana",
+    "cppan": "source:\n    remote: https:\/\/netcologne.dl.sourceforge.net\/project\/nanapro\/Nana\/Nana%201.x\/nana%201.5.0.zip\n\nversion: 1.5.0\n\nstatic_only: true\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/netcologne.dl.sourceforge.net\/project\/nanapro\/Nana\/Nana%201.x\/nana%201.5.0.zip"
+        }
+    },
+    "version": "1.5.0",
+    "created": "2017-05-02 23:29:15.753346",
+    "hash": "312e91fe55f6427163ec7425fe73d7f53b571f4eb4a461a46620ea46b89073f6"
+}
