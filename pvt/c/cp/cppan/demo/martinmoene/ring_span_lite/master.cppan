@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.martinmoene.ring_span_lite",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/martinmoene\/ring-span-lite",
+            "branch": "master"
+        }
+    },
+    "hash": "5d6680c4dc76b8cd7e0fa50013189caae225cbde9df4efcd0f7d6c11d528b132",
+    "created": "2017-05-08 11:54:14.038334",
+    "cppan": "source:\n    git: https:\/\/github.com\/martinmoene\/ring-span-lite\n    branch: master\n\nversion: master\n\n"
+}
