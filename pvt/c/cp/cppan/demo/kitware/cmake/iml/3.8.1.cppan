@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.kitware.cmake.iml",
+    "cppan": "source:\n    git: https:\/\/github.com\/Kitware\/CMake\n    tag: v3.8.1\n\nversion: 3.8.1\n\ntype: library\n\nroot_directory: Utilities\/KWIML\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Kitware\/CMake",
+            "tag": "v3.8.1"
+        }
+    },
+    "version": "3.8.1",
+    "hash": "107837f4931bfe3c2e102a96b4d41030f87286cf474bc95e35d2fe03f14232fb",
+    "created": "2017-05-10 15:50:41.724113"
+}

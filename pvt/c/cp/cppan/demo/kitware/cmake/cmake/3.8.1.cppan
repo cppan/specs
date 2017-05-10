@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.kitware.cmake.cmake",
+    "cppan": "source:\n    git: https:\/\/github.com\/Kitware\/CMake\n    tag: v3.8.1\n\nversion: 3.8.1\n\nfiles:\n    -   Source\/cmakemain.cxx\n    -   Source\/cmcmd.cxx\n\ndependencies:\n    public:\n        pvt.cppan.demo.kitware.cmake.lib:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Kitware\/CMake",
+            "tag": "v3.8.1"
+        }
+    },
+    "version": "3.8.1",
+    "hash": "3cbe480a93d9dc467f7e59fbe147e65aea2156831a422f8d43816172b99dedb0",
+    "created": "2017-05-10 15:50:41.769196"
+}
