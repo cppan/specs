@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.shinesparkio.simdb",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/LiveAsynchronousVisualizedArchitecture\/simdb",
+            "branch": "master"
+        }
+    },
+    "hash": "18a8416c3cf9e994861d57701501b9fdbcfacfce859a2b64dbbfc17fbe734f4d",
+    "created": "2017-05-14 16:34:26.913048",
+    "cppan": "source:\n    git: https:\/\/github.com\/LiveAsynchronousVisualizedArchitecture\/simdb\n    branch: master\n\nversion: master\n\n"
+}
