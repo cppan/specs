@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.loopperfect.neither",
+    "cppan": "source:\n    git: https:\/\/github.com\/loopperfect\/neither\n    branch: master\n\nversion: master\n\nfiles:\n    -   neither\/include\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/loopperfect\/neither",
+            "branch": "master"
+        }
+    },
+    "hash": "d5e2952bac6567f07d219abd546f8865db890d21ac5d7cc9ec9ca940e41ec9c6",
+    "created": "2017-05-16 23:00:00.289368"
+}

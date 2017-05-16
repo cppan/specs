@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.nyorain.nytl",
+    "cppan": "source:\n    git: https:\/\/github.com\/nyorain\/nytl\n    branch: master\n\nversion: master\n\nfiles:\n    -   nytl\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/nyorain\/nytl",
+            "branch": "master"
+        }
+    },
+    "hash": "50fc8ae2f016bea9d7a6c336af3a03bdbe78ae6a4843de85f3c5d60856b11284",
+    "created": "2017-05-16 23:01:27.455861"
+}
