@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.izvolov.burst",
+    "cppan": "source:\n    git: https:\/\/github.com\/izvolov\/burst\n    branch: master\n\nversion: master\n\nfiles:\n    -   burst\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/izvolov\/burst",
+            "branch": "master"
+        }
+    },
+    "hash": "379649f21db300a8da694a8432d93d3cd32b226105d943bd18fa0fb9b225fa55",
+    "created": "2017-05-16 13:17:15.810478"
+}
