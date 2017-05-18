@@ -8,6 +8,6 @@
         }
     },
     "created": "2016-12-19 16:22:39.552281",
-    "cppan": "",
+    "cppan": "source:\n    git: https:\/\/github.com\/oktal\/pistache\n    branch: master\n\nversion: master\n\n",
     "hash": "7a0dae1a271e64a6229d43e039bb06995e26172d646fc11bf71286bd185752ee"
 }

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.springer13.hptt",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/springer13\/hptt",
+            "branch": "master"
+        }
+    },
+    "hash": "e8f1ee7dc54942553ecd6181b00480991222542b402fd312adfd94e127662727",
+    "created": "2017-05-18 15:46:06.613322",
+    "cppan": "source:\n    git: https:\/\/github.com\/springer13\/hptt\n    branch: master\n\nversion: master\n\n"
+}
