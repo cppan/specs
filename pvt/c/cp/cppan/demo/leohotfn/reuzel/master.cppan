@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.leohotfn.reuzel",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/leohotfn\/Reuzel",
+            "branch": "master"
+        }
+    },
+    "hash": "326e65f47251c6d05cf66d9753d5921d3699178bc92b083fd795613d0cbb6fd0",
+    "created": "2017-05-20 19:34:00.518351",
+    "cppan": "source:\n    git: https:\/\/github.com\/leohotfn\/Reuzel\n    branch: master\n\nversion: master\n\n"
+}
