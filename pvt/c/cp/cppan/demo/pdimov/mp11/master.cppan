@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.pdimov.mp11",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pdimov\/mp11\/",
+            "branch": "master"
+        }
+    },
+    "hash": "263fed7e47c2de3c98c9b429633803a7d15b07f7877e0267a5aa4eb96fc9c2e6",
+    "created": "2017-05-22 20:22:32.636218",
+    "cppan": "source:\n    git: https:\/\/github.com\/pdimov\/mp11\/\n    branch: master\n\nversion: master\n\n"
+}

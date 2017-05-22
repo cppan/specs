@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.serge_sans_paille.frozen",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/serge-sans-paille\/frozen",
+            "branch": "master"
+        }
+    },
+    "hash": "ba33a78c75e1c1016abe747f51f5a434a5b86bfff78bb81c3850a1910de961b8",
+    "created": "2017-05-22 20:08:25.552432",
+    "cppan": "source:\n    git: https:\/\/github.com\/serge-sans-paille\/frozen\n    branch: master\n\nversion: master\n\n"
+}

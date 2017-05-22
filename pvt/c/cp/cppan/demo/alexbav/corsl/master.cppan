@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.alexbav.corsl",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/AlexBAV\/corsl",
+            "branch": "master"
+        }
+    },
+    "hash": "d895b60e6c78b608ee8f0f88c7575adada24a758fd8d0cb555bb0adda4f234bb",
+    "created": "2017-05-22 20:11:35.362224",
+    "cppan": "source:\n    git: https:\/\/github.com\/AlexBAV\/corsl\n    branch: master\n\nversion: master\n\n"
+}

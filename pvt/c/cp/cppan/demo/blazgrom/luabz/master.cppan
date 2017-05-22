@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.blazgrom.luabz",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/blazgrom\/LuaBz",
+            "branch": "master"
+        }
+    },
+    "hash": "b656c6a3496594877a0ed09a8e27cbeaae6240c54615a405e6bafdd57e06ab81",
+    "created": "2017-05-22 20:10:59.904369",
+    "cppan": "source:\n    git: https:\/\/github.com\/blazgrom\/LuaBz\n    branch: master\n\nversion: master\n\n"
+}
