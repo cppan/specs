@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.khronos.syclparallelstl",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/KhronosGroup\/SyclParallelSTL",
+            "branch": "master"
+        }
+    },
+    "hash": "63d9b7cfc7f920b1fe5317b92ed7452398f5206950d3064b691e3054ac7aea47",
+    "created": "2017-05-22 11:38:06.8989",
+    "cppan": "source:\n    git: https:\/\/github.com\/KhronosGroup\/SyclParallelSTL\n    branch: master\n\nversion: master\n\n"
+}
