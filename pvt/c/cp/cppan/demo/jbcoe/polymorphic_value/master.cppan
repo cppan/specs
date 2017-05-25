@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jbcoe.polymorphic_value",
+    "cppan": "source:\n    git: https:\/\/github.com\/jbcoe\/polymorphic_value\n    branch: master\n\nversion: master\n\nfiles:\n    -   polymorphic_value.h\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jbcoe\/polymorphic_value",
+            "branch": "master"
+        }
+    },
+    "hash": "85cac709aa250c980fec46378ee9dc648a7bffb1cd2106fa0bb629332f0fc17d",
+    "created": "2017-05-25 18:38:08.912232"
+}
