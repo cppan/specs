@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.chadaustin.sajson",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/chadaustin\/sajson",
+            "branch": "master"
+        }
+    },
+    "hash": "e7c405efdd761fbc3945d90a8d6841aa6700e1f5a76e340365af9575fa52702b",
+    "created": "2017-05-28 14:53:52.769852",
+    "cppan": "source:\n    git: https:\/\/github.com\/chadaustin\/sajson\n    branch: master\n\nversion: master\n\n"
+}
