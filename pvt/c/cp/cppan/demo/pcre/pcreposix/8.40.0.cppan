@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.pcre.pcreposix",
+    "cppan": "source:\n    remote: http:\/\/ftp.csx.cam.ac.uk\/pub\/software\/programming\/pcre\/pcre-8.40.tar.gz\n\nversion: 8.40.0\n\ntype: library\n\nfiles:\n    -   pcreposix.c\n    -   pcreposix.h\n\noptions:\n    shared:\n        definitions:\n            public:\n                -   PCREPOSIX_EXP_DECL\n    static:\n        definitions:\n            public:\n                -   PCRE_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.pcre.pcre:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/ftp.csx.cam.ac.uk\/pub\/software\/programming\/pcre\/pcre-8.40.tar.gz"
+        }
+    },
+    "version": "8.40.0",
+    "hash": "ce6dbfad2e4f7383a0d2df2852c06b0b0de83e8fcbd8555a0639455c4c090507",
+    "created": "2017-05-31 16:01:15.247536"
+}
