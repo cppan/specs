@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.third_party.harfbuzz",
+    "version": "5.9.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.9.0\n\nversion: 5.9.0\n\ntype: library\n\nroot_directory: src\/3rdparty\/harfbuzz\n\nstatic_only: true\n\nfiles:\n    -   src\/.*\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\npost_sources: |\n    set(src\n        ${SDIR}\/src\/harfbuzz.c\n        ${SDIR}\/src\/harfbuzz-impl.c\n        ${SDIR}\/src\/harfbuzz-stream.c\n        ${SDIR}\/src\/harfbuzz-shaper-all.cpp\n    )\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.9.0"
+        }
+    },
+    "created": "2017-05-31 11:04:44.291208",
+    "hash": "32590e9a7a424d14dada5c7cf950a21a40f5d98147e3a75d5572955c27bc77cd"
+}

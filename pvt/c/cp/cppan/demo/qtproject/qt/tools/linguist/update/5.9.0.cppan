@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.tools.linguist.update",
+    "version": "5.9.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qttools\n    tag: v5.9.0\n\nversion: 5.9.0\n\nfiles:\n    -   src\/linguist\/lupdate\/.*\\.cpp\n    -   src\/linguist\/lupdate\/.*\\.h\n    -   src\/linguist\/shared\/simtexth.*\n\nexclude_from_package:\n    -   src\/linguist\/lupdate\/qdeclarative.cpp\n\noptions:\n    any:\n        definitions:\n            public:\n                -   PROEVALUATOR_DEBUG\n                -   QT_NO_QML\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.tools.linguist.formats:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.tools.linguist.proparser:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qttools",
+            "tag": "v5.9.0"
+        }
+    },
+    "hash": "2ddb6e6aaf224e3c4f53dbf5130b380bbb955a21e001d524b374de68e34fa0de",
+    "created": "2017-05-31 11:05:12.650925"
+}
