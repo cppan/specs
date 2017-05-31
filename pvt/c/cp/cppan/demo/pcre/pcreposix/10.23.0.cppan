@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.pcre.pcreposix",
+    "cppan": "source:\n    remote: https:\/\/ftp.pcre.org\/pub\/pcre\/pcre2-10.23.tar.bz2\n\nversion: 10.23.0\n\ntype: library\n\nfiles:\n    -   src\/pcre2posix.c\n    -   src\/pcre2posix.h\n\noptions:\n    static:\n        definitions:\n            public:\n                -   PCRE2_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.pcre.pcre:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/ftp.pcre.org\/pub\/pcre\/pcre2-10.23.tar.bz2"
+        }
+    },
+    "version": "10.23.0",
+    "hash": "9f70222ca0e5d9e9ecc48ec5dabd0f5f66ca390e307eaf46b869ce8051590d89",
+    "created": "2017-05-31 17:19:41.038741"
+}
