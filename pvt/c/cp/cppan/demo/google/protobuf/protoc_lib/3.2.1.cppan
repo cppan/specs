@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.protobuf.protoc_lib",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/protobuf\n    tag: v3.2.1\n\nversion: 3.2.1\n\nimport_from_bazel: true\n\nfiles:\n    -   src\/google\/protobuf\/compiler\/js\/.*\n    -   src\/google\/protobuf\/compiler\/js\/embed.cc\n\nexclude_from_build:\n    -   src\/google\/protobuf\/compiler\/js\/embed.cc\n    -   src\/google\/protobuf\/compiler\/js\/well_known_types_embed.cc\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   LIBPROTOC_EXPORTS\n            public:\n                -   PROTOBUF_USE_DLLS\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.protobuf.protobuf:\n            version: \"*\"\n\npost_sources: |\n    add_executable(js_embed ${SDIR}\/src\/google\/protobuf\/compiler\/js\/embed.cc)\n    set(js\n        ${SDIR}\/src\/google\/protobuf\/compiler\/js\/well_known_types\/any.js\n        ${SDIR}\/src\/google\/protobuf\/compiler\/js\/well_known_types\/struct.js\n        ${SDIR}\/src\/google\/protobuf\/compiler\/js\/well_known_types\/timestamp.js\n    )\n    add_custom_command(OUTPUT ${BDIR}\/well_known_types_embed.cc\n        COMMAND js_embed ${js} > ${BDIR}\/well_known_types_embed.cc\n    )\n    set(src ${src} ${BDIR}\/well_known_types_embed.cc)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/google\/protobuf",
+            "tag": "v3.2.1"
+        }
+    },
+    "version": "3.2.1",
+    "created": "2017-06-01 12:51:37.813081",
+    "hash": "de2e350ec7fead04bc2778fbd1fd661a4d9e59c328f871af7a6316ac825fe5f3"
+}
