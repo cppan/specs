@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.cliutils.cli11",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/CLIUtils\/CLI11",
+            "branch": "master"
+        }
+    },
+    "hash": "8064462520a18bb90cfa1818dd9207583195868de2ec0deb46b77016ff434f5b",
+    "created": "2017-06-02 00:44:02.281806",
+    "cppan": "source:\n    git: https:\/\/github.com\/CLIUtils\/CLI11\n    branch: master\n\nversion: master\n\n"
+}
