@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.tesseract.cntraining",
+    "version": "3.5.1",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "tag": "3.05.01"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05.01\n\nversion: 3.5.1\n\nc++: 11\n\nfiles:\n    -   training\/cntraining.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "e7028b64e3ec5704c1e7c553fe3c12db4cd044f4ca1442e5f388acf0b7c86f36",
+    "created": "2017-06-03 09:29:10.949305"
+}

@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "tag": "3.05"
+            "tag": "3.05.00"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/unicharset_extractor.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.tessopt:\n            version: \"*\"\n\n",
-    "created": "2017-02-23 17:21:30.936057",
-    "hash": "fac53eb2fd3d07da1ce9a5e1e520d172f52dcc37b6889b5db7fd02cd40945501"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05.00\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/unicharset_extractor.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.tessopt:\n            version: \"*\"\n\n",
+    "hash": "11773097bbdfbae60e26c17cc4f9fa66d4c69b0b3dc1f4f833137244910b8eb4",
+    "created": "2017-06-03 09:29:33.977314"
 }

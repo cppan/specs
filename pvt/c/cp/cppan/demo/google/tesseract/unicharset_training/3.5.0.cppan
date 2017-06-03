@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "tag": "3.05"
+            "tag": "3.05.00"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/fileio.*\n    -   training\/icuerrorcode.h\n    -   training\/lstmtester.*\n    -   training\/normstrngs.*\n    -   training\/unicharset_training_utils.*\n\ninclude_directories:\n    public:\n        -   training\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.common_training:\n            version: \"*\"\n        pvt.cppan.demo.unicode.icu.i18n:\n            version: \"*\"\n\n",
-    "created": "2017-02-23 17:21:34.529968",
-    "hash": "d30d78be1ea160475856362a155c127596117adad9332cf7d127a194cf6e676d"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05.00\n\nversion: 3.5.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/fileio.*\n    -   training\/icuerrorcode.h\n    -   training\/lstmtester.*\n    -   training\/normstrngs.*\n    -   training\/unicharset_training_utils.*\n\ninclude_directories:\n    public:\n        -   training\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.common_training:\n            version: \"*\"\n        pvt.cppan.demo.unicode.icu.i18n:\n            version: \"*\"\n\n",
+    "hash": "00a8ede9c7f801cf97a2044f73dfdc97b3aba56847cb861b72cada279e73287e",
+    "created": "2017-06-03 09:29:37.255048"
 }

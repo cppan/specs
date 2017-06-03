@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "tag": "3.05"
+            "tag": "3.05.00"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/boxchar.cpp\n    -   training\/boxchar.h\n    -   training\/degradeimage.cpp\n    -   training\/degradeimage.h\n    -   training\/icuerrorcode.h\n    -   training\/ligature_table.cpp\n    -   training\/ligature_table.h\n    -   training\/normstrngs.cpp\n    -   training\/normstrngs.h\n    -   training\/pango_font_info.cpp\n    -   training\/pango_font_info.h\n    -   training\/stringrenderer.cpp\n    -   training\/stringrenderer.h\n    -   training\/text2image.cpp\n    -   training\/tlog.cpp\n    -   training\/tlog.h\n    -   training\/util.h\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.pango.pangocairo:\n            version: 1\n        pvt.cppan.demo.google.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "created": "2017-02-23 17:21:26.725622",
-    "hash": "879ebc40bd752356d50382fe900d1c9aab291aee2a58cfa01ff82ee82824d74e"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05.00\n\nversion: 3.5.0\n\nc++: 11\n\nfiles:\n    -   training\/boxchar.cpp\n    -   training\/boxchar.h\n    -   training\/degradeimage.cpp\n    -   training\/degradeimage.h\n    -   training\/icuerrorcode.h\n    -   training\/ligature_table.cpp\n    -   training\/ligature_table.h\n    -   training\/normstrngs.cpp\n    -   training\/normstrngs.h\n    -   training\/pango_font_info.cpp\n    -   training\/pango_font_info.h\n    -   training\/stringrenderer.cpp\n    -   training\/stringrenderer.h\n    -   training\/text2image.cpp\n    -   training\/tlog.cpp\n    -   training\/tlog.h\n    -   training\/util.h\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.pango.pangocairo:\n            version: 1\n        pvt.cppan.demo.google.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "3781e87d747f65828fddc5dec23e3a6e8a5afda33d93a520ade31731f2a48c9a",
+    "created": "2017-06-03 09:29:30.42122"
 }

@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "tag": "3.05"
+            "tag": "3.05.00"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/tessopt.*\n\ninclude_directories:\n    public:\n        -   training\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.libtesseract:\n            version: \"*\"\n\n",
-    "created": "2017-02-23 17:21:23.125251",
-    "hash": "8ae7fb51858c2a295d0e0ecec9fa85f3996e6d0247a2c3b8c46ada0a1476e17d"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05.00\n\nversion: 3.5.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/tessopt.*\n\ninclude_directories:\n    public:\n        -   training\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.tesseract:\n            version: \"*\"\n\n",
+    "hash": "2d62710e60400d024be2a829dbd7e6d2c484ef86470444e742cc7b007c060490",
+    "created": "2017-06-03 09:29:27.158193"
 }

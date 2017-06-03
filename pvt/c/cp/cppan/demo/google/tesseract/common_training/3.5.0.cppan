@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "tag": "3.05"
+            "tag": "3.05.00"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05\n\nversion: 3.5.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/commandlineflags.cpp\n    -   training\/commandlineflags.h\n    -   training\/commontraining.cpp\n    -   training\/commontraining.h\n\ninclude_directories:\n    public:\n        -   training\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.tessopt:\n            version: \"*\"\n\n",
-    "created": "2017-02-23 17:20:52.542881",
-    "hash": "67ef78ef0ba4ee14edcf8d893c02eaa21029a5720fff6eb411270a2e44549b06"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05.00\n\nversion: 3.5.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/commandlineflags.cpp\n    -   training\/commandlineflags.h\n    -   training\/commontraining.cpp\n    -   training\/commontraining.h\n\ninclude_directories:\n    public:\n        -   training\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.tessopt:\n            version: \"*\"\n\n",
+    "hash": "9567670a580b2f0d9fd3339ab15690accfd236a3775e35f595fa31c644eaedfc",
+    "created": "2017-06-03 09:29:06.272946"
 }
