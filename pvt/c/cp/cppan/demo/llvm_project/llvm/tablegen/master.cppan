@@ -1,5 +1,6 @@
 {
     "project": "pvt.cppan.demo.llvm_project.llvm.tablegen",
+    "version": "master",
     "cppan": "source:\n    git: https:\/\/github.com\/llvm-mirror\/llvm\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   lib\/TableGen\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.llvm_project.llvm.support:\n            version: \"*\"\n\n",
     "source": {
         "git": {
@@ -7,7 +8,6 @@
             "branch": "master"
         }
     },
-    "version": "master",
-    "hash": "e193ed1457d898cdf9b35539afeff0897687bddb6cddb224ff89e2001b6e6bdb",
-    "created": "2017-06-02 00:58:29.930864"
+    "hash": "bb29c2b9d7b7d731a0931348509d14323aa0bf6112dd7fbc7e200e8e88433fe5",
+    "created": "2017-06-03 19:41:54.601535"
 }
