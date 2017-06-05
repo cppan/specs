@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.iodcpp.metajson",
+    "cppan": "source:\n    git: https:\/\/github.com\/iodcpp\/metajson\n    branch: master\n\nversion: master\n\nfiles:\n    -   .*\\.hh\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/iodcpp\/metajson",
+            "branch": "master"
+        }
+    },
+    "hash": "66ce2817b3d6415cdf18850c15a7fcbbe955ac1a25b3f9f1ea7b2e77efffa755",
+    "created": "2017-06-05 19:27:54.707827"
+}
