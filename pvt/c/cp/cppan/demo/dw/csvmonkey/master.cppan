@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.dw.csvmonkey",
+    "cppan": "source:\n    git: https:\/\/github.com\/dw\/csvmonkey\n    branch: master\n\nversion: master\n\nfiles:\n    -   csvmonkey.hpp\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/dw\/csvmonkey",
+            "branch": "master"
+        }
+    },
+    "hash": "e73080f10111756028623bda10eee76d998c10500a407ba7fcf3f6a87304c0f1",
+    "created": "2017-06-06 22:14:40.444816"
+}
