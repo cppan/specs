@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.andreas_gone_wild.snackis.snackis",
+    "cppan": "source:\n    git: https:\/\/github.com\/andreas-gone-wild\/snackis\n    branch: master\n\nversion: master\n\ntype: library\n\nexclude_from_package:\n    -   src\/main.cpp\n    -   src\/test.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                public:\n                    -   \/std:c++latest\n\ndependencies:\n    public:\n        pvt.cppan.demo.jedisct1.libsodium:\n            version: 1.0.11\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/andreas-gone-wild\/snackis",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "0a2905795bd698179a72614af7360a4967089c0e00c3405cc03c1e7d08c5c107",
+    "created": "2017-06-08 20:43:14.013781"
+}
