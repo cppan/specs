@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.vhranger.pcg",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/VHRanger\/pcg.h",
+            "branch": "master"
+        }
+    },
+    "hash": "562a925952e313c583411ccd84d0106731fccc4a5763a7c4ed233c0cd379f716",
+    "created": "2017-06-08 17:10:59.139068",
+    "cppan": "source:\n    git: https:\/\/github.com\/VHRanger\/pcg.h\n    branch: master\n\nversion: master\n\n"
+}
