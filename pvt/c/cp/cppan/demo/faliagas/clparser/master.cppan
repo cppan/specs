@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.faliagas.clparser",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/faliagas\/clparser",
+            "branch": "master"
+        }
+    },
+    "hash": "3a534944bd2ff76d1f1132507b12d227570173120069a4e04e1d12d489636386",
+    "created": "2017-06-10 20:21:27.835417",
+    "cppan": "source:\n    git: https:\/\/github.com\/faliagas\/clparser\n    branch: master\n\nversion: master\n\n"
+}
