@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.artyom_beilis.nowide",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/artyom-beilis\/nowide",
+            "branch": "master"
+        }
+    },
+    "hash": "a6a52c6b6606e08fb4d9005a558347335f186f311f8ad8e98376d95f573d066e",
+    "created": "2017-06-11 10:05:58.355353",
+    "cppan": "source:\n    git: https:\/\/github.com\/artyom-beilis\/nowide\n    branch: master\n\nversion: master\n\n"
+}
