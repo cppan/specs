@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.stlab.libraries",
+    "cppan": "source:\n    git: https:\/\/github.com\/stlab\/libraries\n    branch: master\n\nversion: master\n\nfiles:\n    -   stlab\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/stlab\/libraries",
+            "branch": "master"
+        }
+    },
+    "hash": "3bdc84c8e1a87f27ae2b89490c16f777a15b5abf5eafc143f66436e05b21b425",
+    "created": "2017-06-11 11:37:18.523002"
+}
