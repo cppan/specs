@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ldionne.dyno",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ldionne\/dyno",
+            "branch": "master"
+        }
+    },
+    "hash": "afb3fe8440926f5b2c78e7383b2c1c058868f4f82a68a496d319dd106deb7775",
+    "created": "2017-06-11 14:29:37.944262",
+    "cppan": "source:\n    git: https:\/\/github.com\/ldionne\/dyno\n    branch: master\n\nversion: master\n\n"
+}
