@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.cpp_testing.gunit",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/cpp-testing\/GUnit",
+            "branch": "master"
+        }
+    },
+    "hash": "71b0280d5af235fba2e2d568922a6f85e616376d7ec0448e37ef65f7df4df345",
+    "created": "2017-06-11 15:01:40.941568",
+    "cppan": "source:\n    git: https:\/\/github.com\/cpp-testing\/GUnit\n    branch: master\n\nversion: master\n\n"
+}

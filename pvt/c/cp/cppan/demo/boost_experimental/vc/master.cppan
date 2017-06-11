@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost_experimental.vc",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boost-experimental\/vc",
+            "branch": "master"
+        }
+    },
+    "hash": "3010c07ad72698cc8bb69885a0269b1bbf663763da51e2b78c160ff24912a986",
+    "created": "2017-06-11 15:02:16.626022",
+    "cppan": "source:\n    git: https:\/\/github.com\/boost-experimental\/vc\n    branch: master\n\nversion: master\n\n"
+}
