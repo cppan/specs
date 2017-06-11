@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.lefticus.constexpr_all_the_things",
+    "cppan": "source:\n    git: https:\/\/github.com\/lefticus\/constexpr_all_the_things\n    branch: master\n\nversion: master\n\nroot_directory: src\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/lefticus\/constexpr_all_the_things",
+            "branch": "master"
+        }
+    },
+    "hash": "ebf2e17e13de231e03db3210312c991eaf7586ec0d4c0eee8d0a0da6dd1c9914",
+    "created": "2017-06-11 13:49:44.541607"
+}
