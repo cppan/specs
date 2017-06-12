@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.zajo.noexcept",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/zajo\/boost-noexcept",
+            "branch": "master"
+        }
+    },
+    "hash": "518705597052f9a293361cfb8257db2237f75933628cd058899bf9bb89aa535b",
+    "created": "2017-06-12 11:45:15.220411",
+    "cppan": "source:\n    git: https:\/\/github.com\/zajo\/boost-noexcept\n    branch: master\n\nversion: master\n\n"
+}
