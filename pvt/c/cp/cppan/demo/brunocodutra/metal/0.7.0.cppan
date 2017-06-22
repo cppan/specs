@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.brunocodutra.metal",
+    "cppan": "source:\n    git: https:\/\/github.com\/brunocodutra\/metal\n    tag: v0.7.0\n\nversion: 0.7.0\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/brunocodutra\/metal",
+            "tag": "v0.7.0"
+        }
+    },
+    "version": "0.7.0",
+    "hash": "fe43f0f0d33d474206943cf1a893383b336bc08fca9a99e5d1ff01d238b01aca",
+    "created": "2017-06-22 21:32:52.739757"
+}
