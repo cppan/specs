@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.basiliscos.bredis",
-    "cppan": "source:\n    git: https:\/\/github.com\/basiliscos\/cpp-bredis\n    branch: master\n\nversion: master\n\nfiles:\n    -   bredis\/.*\n\n",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/basiliscos\/cpp-bredis\n    branch: master\n\nversion: master\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/basiliscos\/cpp-bredis",
             "branch": "master"
         }
     },
-    "hash": "912c51ffe5a6957dc8584cfd8fdeb7aeaee37cc35a0fbe76a380b0e120e2c961",
-    "created": "2017-04-16 20:25:07.477446"
+    "version": "master",
+    "hash": "302c778a5c8eff0c76f1b52bcdb7fd5bb668f4a20a5bb0806b3b8f8354b70f2e",
+    "created": "2017-06-27 13:39:09.053919"
 }
