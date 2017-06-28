@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.aminroosta.sqlite_modern_cpp",
+    "cppan": "source:\n    git: https:\/\/github.com\/aminroosta\/sqlite_modern_cpp\n    tag: v3.2\n\nversion: 3.2.0\n\nroot_directory: hdr\n\nfiles:\n    -   .*\n\ndependencies:\n    public:\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aminroosta\/sqlite_modern_cpp",
+            "tag": "v3.2"
+        }
+    },
+    "version": "3.2.0",
+    "hash": "784aeb875fa4a90aa0f3c247c9d53d6eb5f17acfafef683b4b196fc81f1c7f4e",
+    "created": "2017-06-28 21:07:57.034794"
+}
