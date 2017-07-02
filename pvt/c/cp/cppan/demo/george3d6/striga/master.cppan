@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.george3d6.striga",
+    "cppan": "source:\n    git: https:\/\/github.com\/George3d6\/striga\n    branch: master\n\nversion: master\n\nfiles:\n    -   striga.h\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/George3d6\/striga",
+            "branch": "master"
+        }
+    },
+    "hash": "f65dae5ed5176f74d6b12b6caf645e31a354cc46d6494b54168c433f953c2eae",
+    "created": "2017-07-02 18:27:40.416185"
+}
