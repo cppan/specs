@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.vietjtnguyen.argagg",
+    "version": "0.4.6",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/vietjtnguyen\/argagg",
+            "tag": "0.4.6"
+        }
+    },
+    "hash": "92785f37e8e9d0d316186ab92a1bee468422665c0a0914804fdb8e4bf2489f2a",
+    "created": "2017-07-03 12:02:37.685118",
+    "cppan": "source:\n    git: https:\/\/github.com\/vietjtnguyen\/argagg\n    tag: 0.4.6\n\nversion: 0.4.6\n\n"
+}
