@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.cylix.redis",
+    "cppan": "source:\n    git: https:\/\/github.com\/Cylix\/cpp_redis\n    tag: 3.1.1\n\nversion: 3.1.1\n\nfiles:\n    -   includes\/.*\n    -   sources\/.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Cylix\/cpp_redis",
+            "tag": "3.1.1"
+        }
+    },
+    "version": "3.1.1",
+    "hash": "544540b4bbb50ac536a1aee851b6f6bfef5db63fbea94391dcfa98a1734e5a92",
+    "created": "2017-07-04 21:09:59.436075"
+}
