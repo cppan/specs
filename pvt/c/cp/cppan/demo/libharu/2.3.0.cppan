@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.libharu",
+    "cppan": "source:\n    git: https:\/\/github.com\/libharu\/libharu\n    tag: RELEASE_2_3_0\n\nversion: 2.3.0\n\ntype: library\n\noptions:\n    shared:\n        definitions:\n            interface:\n                -   HPDF_DLL_CDECL\n            private:\n                -   HPDF_DLL_MAKE_CDECL\n\ndependencies:\n    public:\n        pvt.cppan.demo.png:\n            version: 1\n\npost_sources: |\n    configure_file(${SDIR}\/include\/hpdf_config.h.cmake ${BDIR}\/hpdf_config.h)\n\ncheck_include_exists:\n    -   file: stdint.h\n        variable: HAVE_STDINT_H\n        cpp: false\n    -   file: strings.h\n        variable: HAVE_STRINGS_H\n        cpp: false\n    -   file: string.h\n        variable: HAVE_STRING_H\n        cpp: false\n    -   file: unistd.h\n        variable: HAVE_UNISTD_H\n        cpp: false\n\ncheck_library_function:\n    -   function: deflate\n        library: z\n    -   function: floor\n        library: m\n    -   function: png_init_io\n        library: png\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/libharu\/libharu",
+            "tag": "RELEASE_2_3_0"
+        }
+    },
+    "version": "2.3.0",
+    "hash": "ee7749a38820523bef811d9d766f7ea6e46b74af40095dda4edc3cc45d62bfc8",
+    "created": "2017-07-05 11:09:07.045178"
+}
