@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.xi.libyaml",
+    "cppan": "source:\n    hg: https:\/\/bitbucket.org\/xi\/libyaml\n    branch: default\n\nversion: default\n\noptions:\n    any:\n        definitions:\n            private:\n                -   YAML_VERSION_MAJOR=${PACKAGE_VERSION_MAJOR}\n                -   YAML_VERSION_MINOR=${PACKAGE_VERSION_MINOR}\n                -   YAML_VERSION_PATCH=${PACKAGE_VERSION_PATCH}\n                -   YAML_VERSION_STRING=\"\"\n    shared:\n        definitions:\n            private:\n                -   YAML_DECLARE_EXPORT\n    static:\n        definitions:\n            private:\n                -   YAML_DECLARE_STATIC\n\n",
+    "source": {
+        "hg": {
+            "url": "https:\/\/bitbucket.org\/xi\/libyaml",
+            "branch": "default"
+        }
+    },
+    "version": "default",
+    "hash": "bd521730396fbe11a733f206e689fdbc34a0ad04a0e7e90050c8ff867e635f4d",
+    "created": "2017-07-06 23:41:44.670236"
+}

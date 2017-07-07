@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.sigmavirus24.libyaml",
+    "cppan": "source:\n    git: https:\/\/github.com\/yaml\/libyaml\n    branch: master\n\nversion: master\n\noptions:\n    any:\n        definitions:\n            private:\n                -   YAML_VERSION_MAJOR=${PACKAGE_VERSION_MAJOR}\n                -   YAML_VERSION_MINOR=${PACKAGE_VERSION_MINOR}\n                -   YAML_VERSION_PATCH=${PACKAGE_VERSION_PATCH}\n                -   YAML_VERSION_STRING=\"\"\n    shared:\n        definitions:\n            private:\n                -   YAML_DECLARE_EXPORT\n    static:\n        definitions:\n            private:\n                -   YAML_DECLARE_STATIC\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/yaml\/libyaml",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "1b301902c9eb40e20de65509824355d88b7e9d2855ed5c035f508607ebb7e974",
+    "created": "2017-07-06 23:41:26.18066"
+}
