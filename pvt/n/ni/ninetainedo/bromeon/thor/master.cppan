@@ -1,0 +1,13 @@
+{
+    "project": "pvt.ninetainedo.bromeon.thor",
+    "cppan": "source:\n    git: https:\/\/github.com\/Bromeon\/Thor\n    branch: master\n\nversion: master\n\nfiles:\n    -   cmake\/.*\n    -   include\/.*\n    -   src\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   THOR_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.sfml.graphics:\n            version: \"*\"\n        pvt.cppan.demo.sfml.system:\n            version: \"*\"\n        pvt.cppan.demo.sfml.window:\n            version: \"*\"\n        pvt.ninetainedo.bromeon.aurora:\n            version: master\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Bromeon\/Thor",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "d2eec92437b780d18efa2f9b7a1c4b6d926525fcd599d27cf2fc9f7b5c45338a",
+    "created": "2017-07-08 23:06:47.874729"
+}

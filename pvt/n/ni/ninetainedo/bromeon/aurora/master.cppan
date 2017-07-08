@@ -1,5 +1,5 @@
 {
-    "project": "pvt.ninetainedo.aurora",
+    "project": "pvt.ninetainedo.bromeon.aurora",
     "cppan": "source:\n    git: https:\/\/github.com\/Bromeon\/Aurora\n    branch: master\n\nversion: master\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\n",
     "source": {
         "git": {
@@ -8,6 +8,6 @@
         }
     },
     "version": "master",
-    "hash": "a39dd574922129ff3435c1b047d5bf533ff3fbffcb2ab5fd4305ef7a2f324883",
-    "created": "2017-07-04 17:10:08.805621"
+    "hash": "3acbb095d1c3193f25cddd01d247fb966b008dc793f757398fa38c9128510bca",
+    "created": "2017-07-08 23:04:14.051368"
 }
