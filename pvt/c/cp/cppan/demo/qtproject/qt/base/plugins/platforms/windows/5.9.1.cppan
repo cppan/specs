@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.plugins.platforms.windows",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.9.1\n\nversion: 5.9.1\n\ntype: library\n\nroot_directory: src\/plugins\/platforms\/windows\n\noutput_directory: plugins\/platforms\n\nfiles:\n    -   .*\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   QT_NO_TABLETEVENT\n                    -   UNICODE\n                public:\n                    -   WIN32\n        link_libraries:\n            win32:\n                public:\n                    -   Dwmapi\n                    -   Imm32\n                    -   UxTheme\n                    -   Winmm\n    static:\n        definitions:\n            private:\n                -   QT_STATICPLUGIN\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.angle.egl:\n            version: c3031\n        pvt.cppan.demo.qtproject.qt.base.core:\n            version: \"*\"\n            reference: CORE\n        pvt.cppan.demo.qtproject.qt.base.gui:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.platformsupport.accessibility:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.platformsupport.eventdispatchers:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.platformsupport.fontdatabases.windows:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.platformsupport.themes:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.third_party.iaccessible2:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.tools.moc:\n            version: \"*\"\n            reference: MOC_COMMAND\n        pvt.cppan.demo.qtproject.qt.base.tools.rcc:\n            version: \"*\"\n            reference: RCC_COMMAND\n\npost_sources: |\n    remove_src_dir(*windowstablet*)\n    \n    include(${CORE_SDIR}\/src\/corelib\/Qt5CoreMacros.cmake)\n    set(Qt5Core_MOC_EXECUTABLE ${MOC_COMMAND})\n    \n    set(moc ${src})\n    list(FILTER moc INCLUDE REGEX \".h$\")\n    \n    find_moc_targets(moc ${moc})\n    \n    qt5_wrap_cpp(moc ${moc} TARGET ${this})\n    set(src ${src} ${moc})\n    \n    moc_cpp_file(main.cpp)\n    moc_cpp_file(qwindowsdialoghelpers.cpp)\n    \n    set(Qt5Core_RCC_EXECUTABLE ${RCC_COMMAND})\n    qt5_add_resources(rcc ${SDIR}\/cursors.qrc ${SDIR}\/openglblacklists.qrc)\n    set(src ${src} ${rcc})\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.9.1"
+        }
+    },
+    "version": "5.9.1",
+    "created": "2017-07-09 19:17:03.482265",
+    "hash": "158ab730e0d55ea05bc6cf20b7eb4175e7dddc6a0aef49e045a76cb07591de94"
+}

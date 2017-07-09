@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.platformsupport.accessibility",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.9.1\n\nversion: 5.9.1\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   src\/platformsupport\/accessibility\/.*\n\ninclude_directories:\n    public:\n        -   ${BDIR}\/include\/QtAccessibilitySupport\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\/QtAccessibilitySupport\n        -   ${BDIR}\/include\/QtAccessibilitySupport\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\n        -   ${BDIR}\/include\/QtAccessibilitySupport\n        -   ${BDIR}\/include\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.gui:\n            version: \"*\"\n        pvt.egorpugin.syncqt:\n            version: master\n            reference: syncqt\n\npost_sources: |\n    if (CPPAN_LOCAL_PROJECT)\n        set(PACKAGE_VERSION_MAJOR 5)\n        set(PACKAGE_VERSION_MINOR 8)\n        set(PACKAGE_VERSION_PATCH 0)\n    endif()\n    \n    file_write_once(${BDIR}\/QtAccessibilitySupport\/QtAccessibilitySupportDepends \"\n        #ifdef __cplusplus\n        #include <QtCore\/QtCore>\n        #include <QtGui\/QtGui>\n        #endif\n    \")\n    \n    set(module QtAccessibilitySupport)\n    create_directory(${BDIR}\/include\/${module}\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\/${module})\n    add_custom_command(OUTPUT ${BDIR}\/include\/${module}\/${module}\n        COMMAND ${syncqt}\n            -s ${SDIR}\n            -b ${BDIR}\n            -m ${module}\n            -v ${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\n        DEPENDS ${syncqt}\n    )\n    set(src ${src} ${BDIR}\/include\/${module}\/${module})#\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.9.1"
+        }
+    },
+    "version": "5.9.1",
+    "created": "2017-07-09 19:16:06.329684",
+    "hash": "58e06fd96dddd9673d5a0f49138832020a540cc96014fb10a07d2300991e9eb2"
+}
