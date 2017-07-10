@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.mng",
+    "cppan": "source:\n    remote: https:\/\/netix.dl.sourceforge.net\/project\/libmng\/libmng-devel\/2.0.3\/libmng-2.0.3.tar.xz\n\nversion: 2.0.3\n\ntype: library\n\nfiles:\n    -   \"[^\/]*\\\\.[hc]\"\n\nexclude_from_package:\n    -   config.h\n\noptions:\n    any:\n        definitions:\n            public:\n                -   MNG_VERSION_DLL=1\n                -   MNG_VERSION_MAJOR=${PACKAGE_VERSION_MAJOR}\n                -   MNG_VERSION_MINOR=${PACKAGE_VERSION_MINOR}\n                -   MNG_VERSION_RELEASE=${PACKAGE_VERSION_PATCH}\n                -   MNG_VERSION_SO=1\n    shared:\n        definitions:\n            interface:\n                -   MNG_USE_DLL\n            private:\n                -   MNG_BUILD_DLL\n\ndependencies:\n    public:\n        pvt.cppan.demo.jpeg:\n            version: 9\n        pvt.cppan.demo.madler.zlib:\n            version: 1\n\npost_sources: |\n    file_write_once(${BDIR}\/config.h \"\")\n    replace_in_file_once(${SDIR}\/libmng_types.h \"__stdcall\" \"\")\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/netix.dl.sourceforge.net\/project\/libmng\/libmng-devel\/2.0.3\/libmng-2.0.3.tar.xz"
+        }
+    },
+    "version": "2.0.3",
+    "hash": "6c963ffb3ce51a6bb6e04657c5a70352eede5fdd4e654184f563e94db51338f1",
+    "created": "2017-07-10 15:14:44.378841"
+}
