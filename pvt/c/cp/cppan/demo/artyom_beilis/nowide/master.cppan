@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.artyom_beilis.nowide",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/artyom-beilis\/nowide\n    branch: master\n\nversion: master\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   NOWIDE_SOURCE\n            public:\n                -   NOWIDE_EXPORT\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.config:\n            version: 1\n        pvt.cppan.demo.boost.locale:\n            version: 1\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/artyom-beilis\/nowide",
             "branch": "master"
         }
     },
-    "hash": "a6a52c6b6606e08fb4d9005a558347335f186f311f8ad8e98376d95f573d066e",
-    "created": "2017-06-11 10:05:58.355353",
-    "cppan": "source:\n    git: https:\/\/github.com\/artyom-beilis\/nowide\n    branch: master\n\nversion: master\n\n"
+    "version": "master",
+    "hash": "8e6b27a919cecc02437562342d664062dcdab62a2d5df05d04e57d6c231d69d4",
+    "created": "2017-07-12 20:07:28.299381"
 }
