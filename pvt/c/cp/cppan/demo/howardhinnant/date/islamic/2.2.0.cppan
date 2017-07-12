@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.howardhinnant.date.islamic",
+    "cppan": "source:\n    git: https:\/\/github.com\/HowardHinnant\/date\n    tag: v2.2\n\nversion: 2.2.0\n\nfiles:\n    -   islamic.h\n\ndependencies:\n    public:\n        pvt.cppan.demo.howardhinnant.date.date:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/HowardHinnant\/date",
+            "tag": "v2.2"
+        }
+    },
+    "version": "2.2.0",
+    "hash": "acfa38c99cd8fbf718b17a308a597b6e9e10c1d52b30294fdc51ebc07471c7a5",
+    "created": "2017-07-12 15:47:45.416256"
+}
