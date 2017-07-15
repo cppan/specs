@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.chriskohlhoff.networking_ts_impl",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/chriskohlhoff\/networking-ts-impl",
+            "branch": "master"
+        }
+    },
+    "hash": "cb2ab3bb6e760fde6dedc226858ac2c724049509ee852dd5afb887ad9c66a81e",
+    "created": "2017-07-15 19:16:43.366075",
+    "cppan": "source:\n    git: https:\/\/github.com\/chriskohlhoff\/networking-ts-impl\n    branch: master\n\nversion: master\n\n"
+}
