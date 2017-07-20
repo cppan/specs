@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ybubnov.bencode",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ybubnov\/libbencode",
+            "branch": "master"
+        }
+    },
+    "hash": "4cd9fb715b509019c0f3a05e841467905fafa009f9b65a260efc87742f936e8c",
+    "created": "2017-07-20 13:14:58.85578",
+    "cppan": "source:\n    git: https:\/\/github.com\/ybubnov\/libbencode\n    branch: master\n\nversion: master\n\n"
+}

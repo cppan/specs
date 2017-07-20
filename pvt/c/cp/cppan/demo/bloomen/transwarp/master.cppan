@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.bloomen.transwarp",
+    "cppan": "source:\n    git: https:\/\/github.com\/bloomen\/transwarp\n    branch: master\n\nversion: master\n\nfiles:\n    -   src\/.*\\.h\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/bloomen\/transwarp",
+            "branch": "master"
+        }
+    },
+    "hash": "3932fa5be622dd6350bad90f6dc50ecefc4a4c2ea8b8595d12e714b91042e1e5",
+    "created": "2017-07-20 13:16:41.150147"
+}
