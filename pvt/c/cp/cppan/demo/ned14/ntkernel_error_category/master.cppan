@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ned14.ntkernel_error_category",
+    "cppan": "source:\n    git: https:\/\/github.com\/ned14\/ntkernel-error-category\n    branch: master\n\nversion: master\n\nfiles:\n    -   include\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ned14\/ntkernel-error-category",
+            "branch": "master"
+        }
+    },
+    "hash": "76edb7acd6b7e7331301487085fd2ca033097d3c30e7f1a0c3ceac71a5bea272",
+    "created": "2017-07-20 23:28:20.412512"
+}
