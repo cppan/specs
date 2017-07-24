@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.ragel",
+    "cppan": "source:\n    remote: https:\/\/www.colm.net\/files\/ragel\/ragel-6.10.tar.gz\n\nversion: 6.10.0\n\nlicense: COPYING\n\nfiles:\n    -   aapl\/.*\\.h\n    -   ragel\/.*\\.cpp\n    -   ragel\/.*\\.h\n\ninclude_directories:\n    private:\n        -   aapl\n\npost_sources: |\n    file_write_once(${BDIR}\/config.h \"\")\n    if (WIN32)\n        file_write_once(${BDIR}\/unistd.h \"\")\n    endif()    \n    replace_in_file_once(${SDIR}\/ragel\/rbxgoto.cpp \"rbxGoto\\\\(ret, \\\"_out\\\"\\\\)\" \"rbxGoto(ret, \\\"_out\\\").rdbuf()\")\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/www.colm.net\/files\/ragel\/ragel-6.10.tar.gz"
+        }
+    },
+    "version": "6.10.0",
+    "hash": "0a229f3320becc2a2de2c2925c3c9e9ef2d85968e07670673c3ee5940ec60205",
+    "created": "2017-07-24 20:50:47.586015"
+}
