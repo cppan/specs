@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.freeeaky.fiber_job_system",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Freeeaky\/fiber-job-system",
+            "branch": "master"
+        }
+    },
+    "hash": "6c2d5c0ea23faaf49af1b00abcd1f0213439c890d99f0ec1b3650fd5e0dc7192",
+    "created": "2017-07-24 12:17:28.964795",
+    "cppan": "source:\n    git: https:\/\/github.com\/Freeeaky\/fiber-job-system\n    branch: master\n\nversion: master\n\n"
+}
