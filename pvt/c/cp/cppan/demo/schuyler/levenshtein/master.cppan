@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.schuyler.levenshtein",
+    "cppan": "source:\n    git: https:\/\/github.com\/schuyler\/levenshtein\n    branch: master\n\nversion: master\n\nfiles:\n    -   levenshtein.[hc]\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/schuyler\/levenshtein",
+            "branch": "master"
+        }
+    },
+    "hash": "03d38a15afd66fee0b2492b20de2e71390dd19fcb1e670b53913320e6472d96f",
+    "created": "2017-07-29 15:46:01.47766"
+}
