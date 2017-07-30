@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.i3ck.flaggedt",
-    "cppan": "files: flaggedT\/.*\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/I3ck\/FlaggedT\n    branch: master\n\nversion: master\n\nfiles:\n    -   flaggedT\/.*\n\n",
     "version": "master",
     "source": {
         "git": {
