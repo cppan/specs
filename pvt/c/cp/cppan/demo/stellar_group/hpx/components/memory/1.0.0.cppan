@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.stellar_group.hpx.components.memory",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/STEllAR-GROUP\/hpx\n    tag: 1.0.0\n\nversion: 1.0.0\n\ntype: library\n\nfiles:\n    -   src\/components\/performance_counters\/memory\/.*\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/bigobj\n    shared:\n        definitions:\n            private:\n                -   HPX_COMPONENT_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.stellar_group.hpx.hpx:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/STEllAR-GROUP\/hpx",
+            "tag": "1.0.0"
+        }
+    },
+    "hash": "54f68782f7a94d687aa34db5977347be7845ebf2519b33d7ca42ac174e76032c",
+    "created": "2017-08-03 13:44:03.358952"
+}

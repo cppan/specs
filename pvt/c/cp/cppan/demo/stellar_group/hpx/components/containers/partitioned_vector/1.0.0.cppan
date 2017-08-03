@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.stellar_group.hpx.components.containers.partitioned_vector",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/STEllAR-GROUP\/hpx\n    tag: 1.0.0\n\nversion: 1.0.0\n\ntype: library\n\nfiles:\n    -   src\/components\/containers\/partitioned_vector\/.*\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/bigobj\n    shared:\n        definitions:\n            private:\n                -   HPX_COMPONENT_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.stellar_group.hpx.hpx:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/STEllAR-GROUP\/hpx",
+            "tag": "1.0.0"
+        }
+    },
+    "hash": "67cd034e7df22cf4140569c7a57912be373a9d6488533407801469920d793fef",
+    "created": "2017-08-03 13:43:50.403488"
+}
