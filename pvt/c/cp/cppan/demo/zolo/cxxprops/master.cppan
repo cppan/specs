@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.zolo.cxxprops",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/zolo\/cxxprops",
+            "branch": "master"
+        }
+    },
+    "hash": "3dd73074dbc225a8986a1b10ff555b9fd3451e4668913b27658fad7460c9bc16",
+    "created": "2017-08-06 19:41:20.373597",
+    "cppan": "source:\n    git: https:\/\/github.com\/zolo\/cxxprops\n    branch: master\n\nversion: master\n\n"
+}
