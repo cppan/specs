@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.preshing.junction",
+    "cppan": "source:\n    git: https:\/\/github.com\/preshing\/junction\n    branch: master\n\nversion: master\n\nfiles:\n    -   cmake\/junction_config.h.in\n    -   junction\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.preshing.turf:\n            version: master\n\npost_sources: |\n    configure_file(${SDIR}\/cmake\/junction_config.h.in ${BDIR}\/junction_config.h)\n    file_write_once(${BDIR}\/junction_config.h \"\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/preshing\/junction",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "6de43def5d822c1c900cceafddbbc16c5f3f486679f2f42a7b63dec5c371a114",
+    "created": "2017-08-06 11:05:34.231343"
+}
