@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.macbishop.tclap",
+    "version": "1.2.1",
+    "source": {
+        "git": {
+            "url": "https:\/\/git.code.sf.net\/p\/tclap\/code",
+            "tag": "tclap-1-2-1-release-final"
+        }
+    },
+    "hash": "23fd6a73abf721c049c65a7a4431dbc4b2e579d9fa19db15f7d9ae2296a39ca4",
+    "created": "2017-08-11 18:16:13.01795",
+    "cppan": "source:\n    git: https:\/\/git.code.sf.net\/p\/tclap\/code\n    tag: tclap-1-2-1-release-final\n\nversion: 1.2.1\n\n"
+}
