@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.taywee.args",
+    "cppan": "source:\n    git: https:\/\/github.com\/Taywee\/args\n    branch: master\n\nversion: master\n\nfiles:\n    -   args.hxx\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Taywee\/args",
+            "branch": "master"
+        }
+    },
+    "hash": "5c2676e29fbb9df9c5b4d6c5d6d7076650561406469ea56bd1fcfc8aa6803371",
+    "created": "2017-08-11 17:08:54.062592"
+}

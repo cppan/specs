@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.rollbear.trompeloeil",
+    "cppan": "source:\n    git: https:\/\/github.com\/rollbear\/trompeloeil\n    tag: v27\n\nversion: 1.0.27\n\nfiles:\n    -   trompeloeil.hpp\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/rollbear\/trompeloeil",
+            "tag": "v27"
+        }
+    },
+    "version": "1.0.27",
+    "hash": "471bad6b297f9d4ffb6567ce6c0d5859b15df964a652e3d91534e76db6a6385f",
+    "created": "2017-08-11 17:11:37.514341"
+}

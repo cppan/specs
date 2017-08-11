@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.martinmoene.lest",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/martinmoene\/lest",
+            "branch": "master"
+        }
+    },
+    "hash": "4e5477ddae238c1bdf19466295eabb17fa213966ee3931f45310e826cb07909e",
+    "created": "2017-08-11 16:53:46.166998",
+    "cppan": "source:\n    git: https:\/\/github.com\/martinmoene\/lest\n    branch: master\n\nversion: master\n\n"
+}
