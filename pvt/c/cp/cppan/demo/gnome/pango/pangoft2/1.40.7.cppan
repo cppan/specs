@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnome.pango.pangoft2",
+    "cppan": "source:\n    remote: http:\/\/ftp.gnome.org\/pub\/GNOME\/sources\/pango\/1.40\/pango-1.40.7.tar.xz\n\nversion: 1.40.7\n\ntype: library\n\nfiles:\n    -   pango\/pango-ot-buffer.c\n    -   pango\/pango-ot-info.c\n    -   pango\/pango-ot-private.h\n    -   pango\/pango-ot-ruleset.c\n    -   pango\/pango-ot-tag.c\n    -   pango\/pango-ot.h\n    -   pango\/pangofc-decoder.c\n    -   pango\/pangofc-decoder.h\n    -   pango\/pangofc-font.c\n    -   pango\/pangofc-font.h\n    -   pango\/pangofc-fontmap.c\n    -   pango\/pangofc-fontmap.h\n    -   pango\/pangofc-private.h\n    -   pango\/pangofc-shape.c\n    -   pango\/pangoft2-fontmap.c\n    -   pango\/pangoft2-private.h\n    -   pango\/pangoft2-render.c\n    -   pango\/pangoft2.c\n    -   pango\/pangoft2.h\n\ninclude_directories:\n    public:\n        -   .\n        -   pango\n\ndependencies:\n    public:\n        pvt.cppan.demo.behdad.harfbuzz:\n            version: 1\n        pvt.cppan.demo.freedesktop.fontconfig.fontconfig:\n            version: 2\n        pvt.cppan.demo.gnome.pango.pango:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/ftp.gnome.org\/pub\/GNOME\/sources\/pango\/1.40\/pango-1.40.7.tar.xz"
+        }
+    },
+    "version": "1.40.7",
+    "hash": "795f7feaf5375d7fa099d8952ce4283145f3efd11af08706c5bd66f3f598b7ad",
+    "created": "2017-08-13 13:22:34.383738"
+}
