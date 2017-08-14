@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.unicode.icu.stub.pkgdata",
-    "cppan": "source:\n    remote: https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/59.1\/icu4c-59_1-src.tgz\n\nversion: 59.1.0\n\nroot_directory: source\n\nfiles:\n    -   tools\/pkgdata\/.*\\.c\n    -   tools\/pkgdata\/.*\\.cpp\n    -   tools\/pkgdata\/.*\\.h\n\noptions:\n    any:\n        definitions:\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.toolutil:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    remote: https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/59.1\/icu4c-59_1-src.tgz\n\nversion: 59.1.0\n\nroot_directory: source\n\nc++: 11\n\nfiles:\n    -   tools\/pkgdata\/.*\\.c\n    -   tools\/pkgdata\/.*\\.cpp\n    -   tools\/pkgdata\/.*\\.h\n\noptions:\n    any:\n        definitions:\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.toolutil:\n            version: \"*\"\n\n",
     "source": {
         "remote": {
             "url": "https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/59.1\/icu4c-59_1-src.tgz"
         }
     },
     "version": "59.1.0",
-    "hash": "11b8932ce70d3fc5947cda70f36d6e411eafa5b99f74b8dee0794658e78f9ec6",
-    "created": "2017-04-28 20:24:32.718194"
+    "hash": "a4743a457e1c07ccff341d6fe26a55437654046b106a7b559757c1a7239e828d",
+    "created": "2017-08-14 07:16:01.69028"
 }
