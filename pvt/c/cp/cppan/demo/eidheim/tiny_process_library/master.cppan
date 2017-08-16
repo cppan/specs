@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.eidheim.tiny_process_library",
+    "cppan": "source:\n    git: https:\/\/github.com\/eidheim\/tiny-process-library\n    branch: master\n\nversion: master\n\nfiles:\n    -   process.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/eidheim\/tiny-process-library",
+            "branch": "master"
+        }
+    },
+    "hash": "61f087053192254faf1ce6e35cacabc15fd46e5f2e74c497766213f6b6f5f2f7",
+    "created": "2017-08-16 20:05:48.524702"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.eidheim.tiny_process_library",
+    "cppan": "source:\n    git: https:\/\/github.com\/eidheim\/tiny-process-library\n    tag: v1.0.7\n\nversion: 1.0.7\n\nfiles:\n    -   process.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/eidheim\/tiny-process-library",
+            "tag": "v1.0.7"
+        }
+    },
+    "version": "1.0.7",
+    "hash": "c7bb9cf68d40beaa87bd184f9d46896b80e5afc71e018495f9d8938edffe72a2",
+    "created": "2017-08-16 20:06:18.351274"
+}
