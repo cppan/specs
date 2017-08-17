@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.boost.config",
-    "version": "1.65.0",
-    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/config\n    commit: 9e51aa81ca4c6be6f6af953dc97b9e9c942cc701\n\nversion: 1.65.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\npost_sources: |\n    set(dummy_file ${SDIR}\/autolink.dummy)\n    if (NOT EXISTS ${dummy_file})\n        file_write_once(${SDIR}\/include\/boost\/config\/auto_link.hpp \"\n    #ifdef BOOST_LIB_PREFIX\n    #  undef BOOST_LIB_PREFIX\n    #endif\n    #if defined(BOOST_LIB_NAME)\n    #  undef BOOST_LIB_NAME\n    #endif\n    #if defined(BOOST_LIB_THREAD_OPT)\n    #  undef BOOST_LIB_THREAD_OPT\n    #endif\n    #if defined(BOOST_LIB_RT_OPT)\n    #  undef BOOST_LIB_RT_OPT\n    #endif\n    #if defined(BOOST_LIB_LINK_OPT)\n    #  undef BOOST_LIB_LINK_OPT\n    #endif\n    #if defined(BOOST_LIB_DEBUG_OPT)\n    #  undef BOOST_LIB_DEBUG_OPT\n    #endif\n    #if defined(BOOST_DYN_LINK)\n    #  undef BOOST_DYN_LINK\n    #endif\n        \")\n        file(WRITE ${dummy_file} \"\")\n    endif()\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/config\n    commit: 9e51aa81ca4c6be6f6af953dc97b9e9c942cc701\n\nversion: 1.65.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\npost_sources: |\n    set(dummy_file ${SDIR}\/autolink.dummy)\n    if (NOT EXISTS ${dummy_file})\n        file_write_once(${SDIR}\/include\/boost\/config\/auto_link.hpp \"\n    #ifdef BOOST_LIB_PREFIX\n    #  undef BOOST_LIB_PREFIX\n    #endif\n    #if defined(BOOST_LIB_NAME)\n    #  undef BOOST_LIB_NAME\n    #endif\n    #if defined(BOOST_LIB_THREAD_OPT)\n    #  undef BOOST_LIB_THREAD_OPT\n    #endif\n    #if defined(BOOST_LIB_RT_OPT)\n    #  undef BOOST_LIB_RT_OPT\n    #endif\n    #if defined(BOOST_LIB_LINK_OPT)\n    #  undef BOOST_LIB_LINK_OPT\n    #endif\n    #if defined(BOOST_LIB_DEBUG_OPT)\n    #  undef BOOST_LIB_DEBUG_OPT\n    #endif\n    #if defined(BOOST_DYN_LINK)\n    #  undef BOOST_DYN_LINK\n    #endif\n        \")\n        file(WRITE ${dummy_file} \"\")\n    endif()\n    \n    replace_in_file_once(${SDIR}\/include\/boost\/config\/compiler\/visualc.hpp \"#if (_MSC_VER > 1910)\" \"#if (_MSC_VER > 1911)\")\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/boostorg\/config",
             "commit": "9e51aa81ca4c6be6f6af953dc97b9e9c942cc701"
         }
     },
-    "hash": "a729a424e25930bbdfe52f103c04335a8aa0db10161f503ca7eba89a3ca4c46a",
-    "created": "2017-08-17 15:13:09.190207"
+    "version": "1.65.0",
+    "hash": "d7e897b3c68568c5917556f9327c8ecc07a681c37a43042c12f518f5276b3f1e",
+    "created": "2017-08-17 15:35:31.135391"
 }
