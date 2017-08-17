@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.static_assert",
+    "version": "1.65.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/static_assert\n    commit: afe9e9d7864e23d50077115d51fa8ce17fc2e8be\n\nversion: 1.65.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/static_assert",
+            "commit": "afe9e9d7864e23d50077115d51fa8ce17fc2e8be"
+        }
+    },
+    "hash": "9841ea1c6d551df60c922c00779704a7dd2e316579c84838bafb65f5ef630176",
+    "created": "2017-08-17 15:15:15.858"
+}
