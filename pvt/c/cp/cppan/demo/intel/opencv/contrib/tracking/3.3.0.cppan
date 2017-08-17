@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.intel.opencv.contrib.tracking",
+    "version": "3.3.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: 3.3.0\n\nversion: 3.3.0\n\ntype: library\n\nfiles:\n    -   modules\/tracking\/include\/.*\n    -   modules\/tracking\/src\/.*\n\nexclude_from_build:\n    -   modules\/tracking\/src\/cuda\/.*\n    -   modules\/tracking\/src\/opencl\/.*\n\ninclude_directories:\n    public:\n        -   modules\/tracking\/include\n    private:\n        -   modules\/tracking\/src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.contrib.datasets:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.contrib.dnn:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.core:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.highgui:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.video:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.videoio:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\npost_sources: |\n    set(dir ${SDIR}\/modules\/tracking)\n    file(GLOB cl_kernels \"${dir}\/src\/opencl\/*.cl\")\n    if(cl_kernels)\n        set(OCL_NAME opencl_kernels_tracking)\n        add_custom_command(\n          OUTPUT \"${BDIR}\/${OCL_NAME}.cpp\" \"${BDIR}\/${OCL_NAME}.hpp\"\n          COMMAND\n            ${CMAKE_COMMAND}\n                \"-DMODULE_NAME=tracking\"\n                \"-DCL_DIR=${dir}\/src\/opencl\"\n                \"-DOUTPUT=${BDIR}\/${OCL_NAME}.cpp\"\n                -P \"${pvt_cppan_demo_intel_opencv_core_DIR}\/cmake\/cl2cpp.cmake\"\n          DEPENDS ${cl_kernels} \"${pvt_cppan_demo_intel_opencv_core_DIR}\/cmake\/cl2cpp.cmake\")\n        list(APPEND src \"${BDIR}\/${OCL_NAME}.cpp\" \"${BDIR}\/${OCL_NAME}.hpp\")\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/opencv\/opencv_contrib",
+            "tag": "3.3.0"
+        }
+    },
+    "created": "2017-08-17 23:10:59.681466",
+    "hash": "551e57c8ecf8e573e2aaf47d1a81dbab0fd5bad741373ae1a89d8b303afc1ee1"
+}

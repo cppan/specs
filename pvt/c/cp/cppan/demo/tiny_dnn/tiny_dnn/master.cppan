@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tiny_dnn.tiny_dnn",
+    "cppan": "source:\n    git: https:\/\/github.com\/tiny-dnn\/tiny-dnn\n    branch: master\n\nversion: master\n\nfiles:\n    -   tiny_dnn\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tiny-dnn\/tiny-dnn",
+            "branch": "master"
+        }
+    },
+    "hash": "a7d09f0bcea8d76d12f1427361a6c66cf19440bf9ceae1adfb7c3f655a765350",
+    "created": "2017-08-17 23:14:34.28147"
+}
