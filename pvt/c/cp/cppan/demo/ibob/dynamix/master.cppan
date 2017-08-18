@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ibob.dynamix",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/iboB\/dynamix",
+            "branch": "master"
+        }
+    },
+    "hash": "4d4d013cbc814b4c29644f6854a2bc8feaa0070a382b289b11958bbda242968d",
+    "created": "2017-08-17 23:47:21.442219",
+    "cppan": "source:\n    git: https:\/\/github.com\/iboB\/dynamix\n    branch: master\n\nversion: master\n\n"
+}
