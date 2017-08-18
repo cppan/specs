@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.lewissbaker.cppcoro",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/lewissbaker\/cppcoro",
+            "branch": "master"
+        }
+    },
+    "hash": "5be9c69a92e7dd1e4341f7c523d52dfb112e75840cbb7a94e9c4b62d6efd930f",
+    "created": "2017-08-18 09:01:24.552137",
+    "cppan": "source:\n    git: https:\/\/github.com\/lewissbaker\/cppcoro\n    branch: master\n\nversion: master\n\n"
+}
