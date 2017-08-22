@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: hash\n\ntype: library\n\nroot_directory: hash\n\nc++: 14\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.aleksey14.rhash:\n            version: 1\n        pvt.cppan.demo.openssl.crypto:\n            version: 1\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: hash\n\ntype: library\n\nroot_directory: hash\n\nc++: 17\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.aleksey14.rhash:\n            version: 1\n        pvt.cppan.demo.openssl.crypto:\n            version: 1\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n\n",
     "created": "2017-03-03 14:24:16.897874",
     "hash": "6826705c25830b9451ab9e4a0b542842fc6044fcf40fa68e4e0f3f6bf750a303"
 }

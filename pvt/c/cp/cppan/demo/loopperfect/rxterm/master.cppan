@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.loopperfect.rxterm",
+    "cppan": "source:\n    git: https:\/\/github.com\/loopperfect\/rxterm\n    branch: master\n\nversion: master\n\nfiles:\n    -   rxterm\/include\/.*\n\ninclude_directories:\n    public:\n        -   rxterm\/include\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/loopperfect\/rxterm",
+            "branch": "master"
+        }
+    },
+    "hash": "b284cffd9ed9f056d17c6d2544381da05b33aa27454ed134d8e1011279596a1e",
+    "created": "2017-08-22 12:37:52.395272"
+}

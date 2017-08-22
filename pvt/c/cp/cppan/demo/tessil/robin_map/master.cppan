@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tessil.robin_map",
+    "cppan": "source:\n    git: https:\/\/github.com\/Tessil\/robin-map\n    branch: master\n\nversion: master\n\nfiles:\n    -   tsl\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Tessil\/robin-map",
+            "branch": "master"
+        }
+    },
+    "hash": "c47734f6956ee1c87dd42c08b78eb8d641f8710d94481b9f4eff27f34198fc87",
+    "created": "2017-08-22 12:39:24.648939"
+}
