@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ninja_build.ninja",
+    "cppan": "source:\n    git: https:\/\/github.com\/ninja-build\/ninja\n    branch: master\n\nversion: master\n\npost_sources: |\n    remove_src_dir(*test*)\n    remove_src_dir(*_bench*)\n    remove_src_dir(*.in*)\n    if (WIN32)\n        remove_src_dir(*-posix*)\n        remove_src_dir(*browse*)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ninja-build\/ninja",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "39bce88a8c64f59958a7d71e25cd5726c651ac9b50d5b3a350c3793bf67a7a94",
+    "created": "2017-08-22 21:44:06.752928"
+}
