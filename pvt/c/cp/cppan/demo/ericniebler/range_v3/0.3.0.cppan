@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ericniebler.range_v3",
+    "version": "0.3.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ericniebler\/range-v3",
+            "tag": "0.3.0"
+        }
+    },
+    "created": "2017-08-25 18:10:31.655203",
+    "cppan": "source:\n    git: https:\/\/github.com\/ericniebler\/range-v3\n    tag: 0.3.0\n\nversion: 0.3.0\n\n",
+    "hash": "e045f9598ca22c81d157c3fb91d5f303609aece604ca56b769b42f79cb0d8c45"
+}
