@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.lz4",
+    "cppan": "source:\n    git: https:\/\/github.com\/Cyan4973\/lz4\n    tag: v1.7.5\n\nversion: 1.7.5\n\nlicense: lib\/LICENSE\n\ntype: library\n\nfiles:\n    -   lib\/lz4.c\n    -   lib\/lz4.h\n    -   lib\/lz4frame.c\n    -   lib\/lz4frame.h\n    -   lib\/lz4frame_static.h\n    -   lib\/lz4hc.c\n    -   lib\/lz4hc.h\n    -   lib\/lz4opt.h\n    -   lib\/xxhash.c\n    -   lib\/xxhash.h\n\ninclude_directories:\n    public:\n        -   lib\n\noptions:\n    shared:\n        definitions:\n            interface:\n                -   LZ4_DLL_IMPORT\n            private:\n                -   LZ4_DLL_EXPORT\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Cyan4973\/lz4",
+            "tag": "v1.7.5"
+        }
+    },
+    "version": "1.7.5",
+    "hash": "2d2b0663808bdcc29a329c349cc2552f27884119a99fabdb8de9be61ca3c909e",
+    "created": "2017-08-28 11:23:49.293357"
+}

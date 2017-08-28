@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.oberhumer.lzo.minilzo",
+    "cppan": "source:\n    remote: http:\/\/www.oberhumer.com\/opensource\/lzo\/download\/lzo-2.10.tar.gz\n\nversion: 2.10.0\n\ntype: library\n\nfiles:\n    -   include\/lzo\/lzoconf.h\n    -   include\/lzo\/lzodefs.h\n    -   minilzo\/minilzo.c\n    -   minilzo\/minilzo.h\n\ninclude_directories:\n    public:\n        -   include\n    private:\n        -   include\/lzo\n\noptions:\n    any:\n        definitions:\n            public:\n                -   __LZO_EXPORT1=${LIBRARY_API}\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/www.oberhumer.com\/opensource\/lzo\/download\/lzo-2.10.tar.gz"
+        }
+    },
+    "version": "2.10.0",
+    "hash": "0c5c1ff44c4b6e63903b9a2e95e1030be4e0a66c8343905e042256ad85adaa08",
+    "created": "2017-08-28 11:38:09.745996"
+}
