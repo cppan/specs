@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.nholthaus.units",
+    "version": "2.2.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/nholthaus\/units",
+            "tag": "v2.2.0"
+        }
+    },
+    "created": "2017-09-18 21:03:11.627509",
+    "cppan": "source:\n    git: https:\/\/github.com\/nholthaus\/units\n    tag: v2.2.0\n\nversion: 2.2.0\n\n",
+    "hash": "fe5eab7734ea2bd7b9940d04a7d168bc9d95c1d13f5b02466647fb1777ba38ad"
+}
