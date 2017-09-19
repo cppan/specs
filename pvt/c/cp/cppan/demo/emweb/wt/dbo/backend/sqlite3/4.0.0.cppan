@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.emweb.wt.dbo.backend.sqlite3",
-    "cppan": "source:\n    git: https:\/\/github.com\/emweb\/wt\n    tag: 4.0.0-rc1\n\nversion: 4.0.0\n\ntype: library\n\nfiles:\n    -   src\/Wt\/Dbo\/backend\/.*\n\nexclude_from_build:\n    -   src\/Wt\/Dbo\/backend\/.*\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   WT_BUILDING\n    shared:\n        definitions:\n            private:\n                -   wtdbosqlite3_EXPORTS\n    static:\n        definitions:\n            public:\n                -   WTDBOSQLITE3_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.emweb.wt.dbo.dbo:\n            version: \"*\"\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\npost_sources: |\n    add_src(src\/Wt\/Dbo\/backend\/Sqlite3.C)\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/emweb\/wt\n    tag: 4.0.0\n\nversion: 4.0.0\n\ntype: library\n\nfiles:\n    -   src\/Wt\/Dbo\/backend\/.*\n\nexclude_from_build:\n    -   src\/Wt\/Dbo\/backend\/.*\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   WT_BUILDING\n    shared:\n        definitions:\n            private:\n                -   wtdbosqlite3_EXPORTS\n    static:\n        definitions:\n            public:\n                -   WTDBOSQLITE3_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.emweb.wt.dbo.dbo:\n            version: \"*\"\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\npost_sources: |\n    add_src(src\/Wt\/Dbo\/backend\/Sqlite3.C)\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/emweb\/wt",
-            "tag": "4.0.0-rc1"
+            "tag": "4.0.0"
         }
     },
     "version": "4.0.0",
-    "hash": "9e07778e1ac4ec2ef2c49de8793ae9001975112a1deb3cc08e9d8c49934361fd",
-    "created": "2017-07-08 00:38:41.82918"
+    "hash": "ee03703f6add16b9c412e26d0cd93224062903d1609a37b4ac2391132951291e",
+    "created": "2017-09-19 18:38:53.982149"
 }

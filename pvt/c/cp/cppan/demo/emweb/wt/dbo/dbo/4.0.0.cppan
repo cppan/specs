@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.emweb.wt.dbo.dbo",
-    "cppan": "source:\n    git: https:\/\/github.com\/emweb\/wt\n    tag: 4.0.0-rc1\n\nversion: 4.0.0\n\ntype: library\n\nfiles:\n    -   src\/Wt\/Dbo\/.*\n    -   src\/Wt\/WStringStream.*\n    -   src\/web\/EscapeOStream.*\n\nexclude_from_build:\n    -   src\/Wt\/Dbo\/backend\/.*\n    -   src\/Wt\/WStringStream.*\n    -   src\/web\/.*\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   WT_BUILDING\n    shared:\n        definitions:\n            private:\n                -   wtdbo_EXPORTS\n    static:\n        definitions:\n            public:\n                -   WTDBO_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.emweb.wt.wt:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/emweb\/wt\n    tag: 4.0.0\n\nversion: 4.0.0\n\ntype: library\n\nfiles:\n    -   src\/Wt\/Dbo\/.*\n    -   src\/Wt\/WStringStream.*\n    -   src\/web\/EscapeOStream.*\n\nexclude_from_build:\n    -   src\/Wt\/Dbo\/backend\/.*\n    -   src\/Wt\/WStringStream.*\n    -   src\/web\/.*\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   WT_BUILDING\n    shared:\n        definitions:\n            private:\n                -   wtdbo_EXPORTS\n    static:\n        definitions:\n            public:\n                -   WTDBO_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.emweb.wt.wt:\n            version: \"*\"\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/emweb\/wt",
-            "tag": "4.0.0-rc1"
+            "tag": "4.0.0"
         }
     },
     "version": "4.0.0",
-    "hash": "7831c7884f31a2fd6c0fcaa2fdf986d8ab63c742c7e4be1818730b289c1c3dfe",
-    "created": "2017-07-08 14:06:39.826859"
+    "hash": "c0945b143957a94be081cb898ea9fb6d6e7ed642065695e960bc7e419ba25bc6",
+    "created": "2017-09-19 18:38:59.195209"
 }
