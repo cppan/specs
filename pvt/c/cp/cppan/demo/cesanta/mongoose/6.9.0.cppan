@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.cesanta.mongoose",
+    "cppan": "source:\n    git: https:\/\/github.com\/cesanta\/mongoose\n    tag: 6.9\n\nversion: 6.9.0\n\nfiles:\n    -   mongoose.c\n    -   mongoose.h\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/cesanta\/mongoose",
+            "tag": "6.9"
+        }
+    },
+    "version": "6.9.0",
+    "hash": "e3c9acc8a8bb357329eed3a3179b99b8963bab030bb8268bed28d9adfc69b2c6",
+    "created": "2017-09-22 16:12:17.944094"
+}
