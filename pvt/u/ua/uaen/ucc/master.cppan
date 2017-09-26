@@ -1,0 +1,13 @@
+{
+    "project": "pvt.uaen.ucc",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/uael\/ucc",
+            "branch": "master"
+        }
+    },
+    "hash": "623509689e25b992bcf8b28e28d816a8bcfb5b357a6aad741f5e593aca2d43ed",
+    "created": "2017-09-26 14:45:28.581728",
+    "cppan": "source:\n    git: https:\/\/github.com\/uael\/ucc\n    branch: master\n\nversion: master\n\n"
+}
