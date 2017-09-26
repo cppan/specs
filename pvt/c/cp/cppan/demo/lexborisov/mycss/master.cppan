@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.lexborisov.mycss",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/lexborisov\/mycss",
+            "branch": "master"
+        }
+    },
+    "hash": "a42be864381f2afcd5e3a41f5c23b36ba009bd90d272ec1375d61cb1cebbe319",
+    "created": "2017-09-26 09:33:59.154283",
+    "cppan": "source:\n    git: https:\/\/github.com\/lexborisov\/mycss\n    branch: master\n\nversion: master\n\n"
+}
