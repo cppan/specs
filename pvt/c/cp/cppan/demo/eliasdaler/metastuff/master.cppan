@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.eliasdaler.metastuff",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/eliasdaler\/MetaStuff",
+            "branch": "master"
+        }
+    },
+    "hash": "cdf488a52e5f902c2c0d9d84c324d0d5be103467d1cd05dd621cd9fd07518e65",
+    "created": "2017-09-30 14:37:04.020605",
+    "cppan": "source:\n    git: https:\/\/github.com\/eliasdaler\/MetaStuff\n    branch: master\n\nversion: master\n\n"
+}
