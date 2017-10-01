@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.lexborisov.myhtml",
-    "version": "4.0.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/lexborisov\/myhtml\n    tag: v4.0.1\n\nversion: 4.0.1\n\nstatic_only: true\n\nexclude_from_build:\n    -   source\/myport\/.*\n\npost_sources: |\n    if (WIN32)\n        add_src_dir(source\/myport\/windows_nt\/*)\n    else()\n        add_src_dir(source\/myport\/posix\/*)\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/lexborisov\/myhtml",
             "tag": "v4.0.1"
         }
     },
-    "hash": "e9d1bcde3d3cfba25f460b18ab6d37cea61e0e03f41f04c0051452b70c23d3cb",
-    "created": "2017-09-26 09:33:16.073302",
-    "cppan": "source:\n    git: https:\/\/github.com\/lexborisov\/myhtml\n    tag: v4.0.1\n\nversion: 4.0.1\n\n"
+    "version": "4.0.1",
+    "hash": "faac63400c65586e35a4cda2ff724f9c9eec894641030381c327351655a1780e",
+    "created": "2017-10-01 01:09:26.64442"
 }
