@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.hdembinski.stateful_pointer",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/HDembinski\/stateful_pointer",
+            "branch": "master"
+        }
+    },
+    "hash": "906150cb0051b1f4c2ccefdfc77b2686bbf00f986d5a07099b6f040853c80498",
+    "created": "2017-10-02 23:23:31.278778",
+    "cppan": "source:\n    git: https:\/\/github.com\/HDembinski\/stateful_pointer\n    branch: master\n\nversion: master\n\n"
+}
