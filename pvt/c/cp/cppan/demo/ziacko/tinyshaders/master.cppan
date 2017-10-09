@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ziacko.tinyshaders",
+    "cppan": "source:\n    git: https:\/\/github.com\/ziacko\/TinyShaders\n    branch: master\n\nversion: master\n\nroot_directory: Include\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ziacko\/TinyShaders",
+            "branch": "master"
+        }
+    },
+    "hash": "76270f20aa8360870721d5d0b913611499d58c192130cf5fd07b0a077ce2d5e7",
+    "created": "2017-10-09 20:44:32.538082"
+}

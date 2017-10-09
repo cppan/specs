@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.skeeto.branchless_utf8",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/skeeto\/branchless-utf8",
+            "branch": "master"
+        }
+    },
+    "hash": "f3b4aaab2edfdbefc98796fabd4d401618ef7ec7cf4e25100286cb1d93d007c2",
+    "created": "2017-10-09 20:53:03.817258",
+    "cppan": "source:\n    git: https:\/\/github.com\/skeeto\/branchless-utf8\n    branch: master\n\nversion: master\n\n"
+}

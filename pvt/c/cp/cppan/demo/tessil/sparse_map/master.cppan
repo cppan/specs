@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tessil.sparse_map",
+    "cppan": "source:\n    git: https:\/\/github.com\/Tessil\/sparse-map\n    branch: master\n\nversion: master\n\nfiles:\n    -   tsl\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Tessil\/sparse-map",
+            "branch": "master"
+        }
+    },
+    "hash": "337dd98f7611a8369a5323dd1a4f223e2a3cd49f4fcb36ad29814e1fef05686f",
+    "created": "2017-10-09 20:42:42.230119"
+}

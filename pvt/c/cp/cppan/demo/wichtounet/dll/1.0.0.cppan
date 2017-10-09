@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.wichtounet.dll",
+    "version": "1.0.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/wichtounet\/dll",
+            "tag": "1.0"
+        }
+    },
+    "hash": "2d2f89458018fcc0658da0722a51257f4a31e05efaf66b10761fcf0b13e9d69a",
+    "created": "2017-10-09 20:48:18.032852",
+    "cppan": "source:\n    git: https:\/\/github.com\/wichtounet\/dll\n    tag: 1.0\n\nversion: 1.0.0\n\n"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.wichtounet.etl",
+    "cppan": "source:\n    git: https:\/\/github.com\/wichtounet\/etl\n    tag: 1.2\n\nversion: 1.2.0\n\nfiles:\n    -   include\/.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/wichtounet\/etl",
+            "tag": "1.2"
+        }
+    },
+    "version": "1.2.0",
+    "hash": "c1828235d120e78f5b132411bbb755f8cd73771cf0ce917bfcd31a2c305ee4ec",
+    "created": "2017-10-09 20:47:50.341641"
+}

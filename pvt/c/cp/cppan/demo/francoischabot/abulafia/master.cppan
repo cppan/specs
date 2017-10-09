@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.francoischabot.abulafia",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/FrancoisChabot\/abulafia",
+            "branch": "master"
+        }
+    },
+    "hash": "d076b0dfc9868d28d7c260f5ce480504b3622cb36da9392425179e3da47ad8d8",
+    "created": "2017-10-09 20:49:21.082908",
+    "cppan": "source:\n    git: https:\/\/github.com\/FrancoisChabot\/abulafia\n    branch: master\n\nversion: master\n\n"
+}
