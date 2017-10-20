@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.morwenn.tight_pair",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Morwenn\/tight_pair",
+            "branch": "master"
+        }
+    },
+    "hash": "ccb1548002b2370c671c2035694a4f5c294e7f25cdf91e4579f10285699c70c1",
+    "created": "2017-10-20 06:38:51.850115",
+    "cppan": "source:\n    git: https:\/\/github.com\/Morwenn\/tight_pair\n    branch: master\n\nversion: master\n\n"
+}

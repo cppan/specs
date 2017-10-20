@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ababo.syncer",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ababo\/syncer",
+            "branch": "master"
+        }
+    },
+    "hash": "deb033cc2bb354d4fd0a86f6d4a50b166aedec30ab40efb2fab60042fea11907",
+    "created": "2017-10-20 06:38:02.660661",
+    "cppan": "source:\n    git: https:\/\/github.com\/ababo\/syncer\n    branch: master\n\nversion: master\n\n"
+}
