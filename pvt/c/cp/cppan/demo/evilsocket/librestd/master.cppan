@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.evilsocket.librestd",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/evilsocket\/librestd",
+            "branch": "master"
+        }
+    },
+    "hash": "cd2615b8102c207cb6d4a36ae266c9e2dbcac2280e4ca1c5670ce9c2370f5b64",
+    "created": "2017-10-22 20:33:59.642221",
+    "cppan": "source:\n    git: https:\/\/github.com\/evilsocket\/librestd\n    branch: master\n\nversion: master\n\n"
+}

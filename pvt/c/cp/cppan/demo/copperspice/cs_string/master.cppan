@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.copperspice.cs_string",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/copperspice\/cs_string",
+            "branch": "master"
+        }
+    },
+    "hash": "7cfa634acee2b0f78af87c6834a1c94b4c0da5bbbc211fbbfdfb05e141d00fe8",
+    "created": "2017-10-22 20:34:20.091876",
+    "cppan": "source:\n    git: https:\/\/github.com\/copperspice\/cs_string\n    branch: master\n\nversion: master\n\n"
+}
