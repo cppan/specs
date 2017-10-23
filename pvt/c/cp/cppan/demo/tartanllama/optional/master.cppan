@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tartanllama.optional",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/TartanLlama\/optional",
+            "branch": "master"
+        }
+    },
+    "hash": "4fe652d18e3b8cf5747043991570894d066605fc5f06955122c18b38b5d06de2",
+    "created": "2017-10-23 15:44:03.869683",
+    "cppan": "source:\n    git: https:\/\/github.com\/TartanLlama\/optional\n    branch: master\n\nversion: master\n\n"
+}
