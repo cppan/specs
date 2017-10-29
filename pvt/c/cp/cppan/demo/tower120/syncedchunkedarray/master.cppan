@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tower120.syncedchunkedarray",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tower120\/SyncedChunkedArray",
+            "branch": "master"
+        }
+    },
+    "hash": "8d7ffb558ae50df687c55f3f9731e2670d3036aa7e071aa763f3a4a748ccc7ad",
+    "created": "2017-10-29 23:11:04.89621",
+    "cppan": "source:\n    git: https:\/\/github.com\/tower120\/SyncedChunkedArray\n    branch: master\n\nversion: master\n\n"
+}

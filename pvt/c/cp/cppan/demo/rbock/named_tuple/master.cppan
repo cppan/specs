@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.rbock.named_tuple",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/rbock\/named_tuple",
+            "branch": "master"
+        }
+    },
+    "hash": "8b262054295cd63663372b02141e5e5a595902113ad934c153c86c50459594bf",
+    "created": "2017-10-29 23:37:21.202218",
+    "cppan": "source:\n    git: https:\/\/github.com\/rbock\/named_tuple\n    branch: master\n\nversion: master\n\n"
+}

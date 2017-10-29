@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tuxalin.safeenum",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tuxalin\/safeenum",
+            "branch": "master"
+        }
+    },
+    "hash": "7ac4b753fff4f31c92eca8c41f842a40bf2199735b55f4cd8d73944da16877f5",
+    "created": "2017-10-29 23:18:11.230593",
+    "cppan": "source:\n    git: https:\/\/github.com\/tuxalin\/safeenum\n    branch: master\n\nversion: master\n\n"
+}

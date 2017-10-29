@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.blackmatov.kari",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/BlackMATov\/kari.hpp",
+            "branch": "master"
+        }
+    },
+    "hash": "f392f8203787a3e9b751fcc2d40a8794a4b7b3785d3b51cb3f6c63d07f7db3b5",
+    "created": "2017-10-29 23:10:10.099572",
+    "cppan": "source:\n    git: https:\/\/github.com\/BlackMATov\/kari.hpp\n    branch: master\n\nversion: master\n\n"
+}

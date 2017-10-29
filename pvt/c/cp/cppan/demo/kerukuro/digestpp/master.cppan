@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.kerukuro.digestpp",
+    "cppan": "source:\n    git: https:\/\/github.com\/kerukuro\/digestpp\n    branch: master\n\nversion: master\n\nfiles:\n    -   .*\\.hpp\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/kerukuro\/digestpp",
+            "branch": "master"
+        }
+    },
+    "hash": "c5daf027fae52423068633a0a45a22f34817767a57a008a6b8b2726503c97cd5",
+    "created": "2017-10-29 23:12:26.657655"
+}
