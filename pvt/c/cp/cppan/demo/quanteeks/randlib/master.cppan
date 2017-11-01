@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.quanteeks.randlib",
+    "cppan": "source:\n    git: https:\/\/github.com\/Quanteeks\/RandLib\n    branch: master\n\nversion: master\n\nfiles:\n    -   .*\\.[hc]p?p?\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Quanteeks\/RandLib",
+            "branch": "master"
+        }
+    },
+    "hash": "9119ebadf65526b36410436b154ef0a450f4ff0514499b1abb985fb450e963d0",
+    "created": "2017-11-01 19:41:07.865356"
+}
