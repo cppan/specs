@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.bluescarni.mppp",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/bluescarni\/mppp",
+            "branch": "master"
+        }
+    },
+    "hash": "b70f0c036b7d67ec842be48efdeb4fa459fb89641a2384113448fce5094ae9cf",
+    "created": "2017-11-11 09:36:40.925223",
+    "cppan": "source:\n    git: https:\/\/github.com\/bluescarni\/mppp\n    branch: master\n\nversion: master\n\n"
+}
