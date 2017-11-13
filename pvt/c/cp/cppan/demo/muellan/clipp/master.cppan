@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.muellan.clipp",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/muellan\/clipp",
+            "branch": "master"
+        }
+    },
+    "hash": "52241b6641cff4f4fc7c9f77e1852af17b08f76be1f598c836114aba41e6d06d",
+    "created": "2017-11-12 23:46:31.716966",
+    "cppan": "source:\n    git: https:\/\/github.com\/muellan\/clipp\n    branch: master\n\nversion: master\n\n"
+}
