@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.minidump",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: minidump\n\ntype: library\n\nroot_directory: minidump\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        link_libraries:\n            win32:\n                public:\n                    -   dbghelp\n\n",
+    "hash": "b2d4075ae0e1f5a346c54ac05d0c06f660e1f3feda6fd64c41a3222a78a67350",
+    "created": "2017-11-15 10:14:49.638369"
+}
