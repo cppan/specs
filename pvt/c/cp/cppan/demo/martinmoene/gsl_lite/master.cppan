@@ -8,6 +8,6 @@
         }
     },
     "created": "2016-11-06 14:43:11.840596",
-    "cppan": "",
+    "cppan": "source:\n    git: https:\/\/github.com\/martinmoene\/gsl-lite\n    branch: master\n\nversion: master\n\n",
     "hash": "91da9824930f3fcc5bf302d29a36770e71f4ab3d9190e51dd38ef10d2ff96984"
 }

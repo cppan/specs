@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.taywee.args",
+    "cppan": "source:\n    git: https:\/\/github.com\/Taywee\/args\n    tag: 6.2.0\n\nversion: 6.2.0\n\nfiles:\n    -   args.hxx\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Taywee\/args",
+            "tag": "6.2.0"
+        }
+    },
+    "version": "6.2.0",
+    "hash": "371b330adf3f60fb5f6af114da1a04d209607f81f5383a47244f048df011b7fa",
+    "created": "2017-11-18 11:05:03.953682"
+}
