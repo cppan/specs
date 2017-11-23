@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.openssl.ssl",
-    "cppan": "source:\n    git: https:\/\/github.com\/openssl\/openssl\n    branch: master\n\nversion: master\n\ntype: lib\n\nexport_all_symbols: true\n\nfiles:\n    -   ssl\/.*\\.c\n    -   ssl\/.*\\.h\n    -   e_os.h\n\ninclude_directories:\n    private:\n        -   tls\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.openssl.crypto: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/openssl\/openssl\n    branch: master\n\nversion: master\n\ntype: library\n\nexport_all_symbols: true\n\nfiles:\n    -   e_os.h\n    -   ssl\/.*\\.c\n    -   ssl\/.*\\.h\n\ninclude_directories:\n    private:\n        -   .\n        -   tls\n\ndependencies:\n    public:\n        pvt.cppan.demo.openssl.crypto:\n            version: \"*\"\n\n",
     "version": "master",
     "source": {
         "git": {
