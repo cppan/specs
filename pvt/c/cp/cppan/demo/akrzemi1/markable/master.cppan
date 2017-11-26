@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.akrzemi1.markable",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/akrzemi1\/markable",
+            "branch": "master"
+        }
+    },
+    "hash": "7cb8b8740d16e288e3af01074a92f2ce66f60912f00b56a25393702fa3871550",
+    "created": "2017-11-26 00:37:52.951744",
+    "cppan": "source:\n    git: https:\/\/github.com\/akrzemi1\/markable\n    branch: master\n\nversion: master\n\n"
+}
