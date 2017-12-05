@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.smart_ptr",
+    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/smart_ptr\n    branch: master\n\nversion: master\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.move:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/smart_ptr",
+            "branch": "master"
+        }
+    },
+    "hash": "3c18e90790c656578083960e19824280110f3ac74f3d57700fa01414c2bb2890",
+    "created": "2017-12-05 11:03:01.063169"
+}

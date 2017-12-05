@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.bind",
+    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/bind\n    branch: master\n\nversion: master\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/bind",
+            "branch": "master"
+        }
+    },
+    "hash": "0e4e863f184728a63cc4ef156ab95ec25393adf2c42172e44804ee703db89bfa",
+    "created": "2017-12-05 11:00:30.684662"
+}
