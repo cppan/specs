@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.emweb.wt.http",
+    "cppan": "source:\n    git: https:\/\/github.com\/emweb\/wt\n    tag: 4.0.1\n\nversion: 4.0.1\n\ntype: library\n\nfiles:\n    -   src\/http\/.*\n\noptions:\n    any:\n        definitions:\n            private:\n                -   HTTP_WITH_SSL\n                -   WT_BUILDING\n                -   _WIN32_WINNT=0x0601\n            public:\n                -   WTHTTP_WITH_ZLIB\n    shared:\n        definitions:\n            private:\n                -   wthttp_EXPORTS\n    static:\n        definitions:\n            public:\n                -   WTHTTP_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.program_options:\n            version: 1\n        pvt.cppan.demo.boost.spirit:\n            version: 1\n        pvt.cppan.demo.emweb.wt.wt:\n            version: \"*\"\n        pvt.cppan.demo.madler.zlib:\n            version: 1\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/emweb\/wt",
+            "tag": "4.0.1"
+        }
+    },
+    "version": "4.0.1",
+    "hash": "3ab35cb58f31587888263563be4db8c9d41bc1ac539a654aa0b5115c3710bcbf",
+    "created": "2017-12-05 16:47:07.947413"
+}
