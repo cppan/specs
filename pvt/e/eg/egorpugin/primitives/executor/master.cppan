@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: executor\n\ntype: library\n\nroot_directory: executor\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   _WIN32_WINNT=0x0601\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.asio:\n            version: 1\n        pvt.cppan.demo.boost.system:\n            version: 1\n        pvt.egorpugin.primitives.minidump:\n            version: \"*\"\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: executor\n\ntype: library\n\nroot_directory: executor\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   _WIN32_WINNT=0x0601\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.asio:\n            version: master\n        pvt.cppan.demo.boost.system:\n            version: master\n        pvt.egorpugin.primitives.minidump:\n            version: \"*\"\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n\n",
     "created": "2017-03-03 14:24:08.178675",
     "hash": "96d73b29c0c1a488dca8d44ee11ae3b4e87755835cf628efecf68369e0541b3a"
 }
