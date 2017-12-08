@@ -1,0 +1,13 @@
+{
+    "project": "pvt.biocomp.apolukhin.magic_get",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/apolukhin\/magic_get",
+            "branch": "master"
+        }
+    },
+    "hash": "04a9ef409765271f11851037179f1c512a1d788a462088ef05a4797950ae83d9",
+    "created": "2017-12-08 20:16:14.798679",
+    "cppan": "source:\n    git: https:\/\/github.com\/apolukhin\/magic_get\n    branch: master\n\nversion: master\n\n"
+}
