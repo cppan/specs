@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.predef",
+    "version": "1.66.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/predef\n    commit: c8c26821b9ab850ace7bbaf0d22f347a1486ff6d\n\nversion: 1.66.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/predef",
+            "commit": "c8c26821b9ab850ace7bbaf0d22f347a1486ff6d"
+        }
+    },
+    "hash": "7f61084d55ac2e4f750345ed6e63a6e4f9e69f207429c5f03eaa3abdbf14fb3f",
+    "created": "2017-12-18 18:01:00.622273"
+}

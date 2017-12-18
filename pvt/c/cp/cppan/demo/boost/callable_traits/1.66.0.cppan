@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.callable_traits",
+    "version": "1.66.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/callable_traits\n    commit: 0ce9138ce86095eab9c09d171fecb5f72c4457f7\n\nversion: 1.66.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/callable_traits",
+            "commit": "0ce9138ce86095eab9c09d171fecb5f72c4457f7"
+        }
+    },
+    "hash": "c6f494fd5fe80ad1391073b142363e32b7e6b0561ca7695197e4387d6116c291",
+    "created": "2017-12-18 17:59:14.168738"
+}

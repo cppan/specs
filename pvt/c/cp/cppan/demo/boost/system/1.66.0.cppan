@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.system",
+    "version": "1.66.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/system\n    commit: e367d65b6e5110b196f90a58750d423d60daa446\n\nversion: 1.66.0\n\nfiles:\n    -   include\/.*\n    -   src\/.*\n\ninclude_directories:\n    public:\n        -   include\n    private:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   BOOST_SYSTEM_BUILDING_THE_LIB\n                -   BOOST_SYSTEM_SOURCE\n    shared:\n        definitions:\n            private:\n                -   BOOST_SYSTEM_BUILD_DLL\n            public:\n                -   BOOST_ALL_DYN_LINK\n                -   BOOST_SYSTEM_DYN_LINK\n                -   BOOST_SYSTEM_USE_DLL\n    static:\n        definitions:\n            public:\n                -   BOOST_ALL_STATIC_LINK\n                -   BOOST_SYSTEM_BUILD_LIB\n                -   BOOST_SYSTEM_STATIC_LINK\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.winapi:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/system",
+            "commit": "e367d65b6e5110b196f90a58750d423d60daa446"
+        }
+    },
+    "hash": "9abd7a4a2fdbbf19fe5d424f0f012bdce7b1e7eee5fb6309ff729b97afc3d081",
+    "created": "2017-12-18 18:01:40.587545"
+}
