@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.emweb.wt.dbo.backend.sqlite3",
+    "cppan": "source:\n    git: https:\/\/github.com\/emweb\/wt\n    branch: master\n\nversion: master\n\ntype: library\n\nfiles:\n    -   src\/Wt\/Dbo\/backend\/.*\n\nexclude_from_build:\n    -   src\/Wt\/Dbo\/backend\/.*\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   WT_BUILDING\n    shared:\n        definitions:\n            private:\n                -   wtdbosqlite3_EXPORTS\n    static:\n        definitions:\n            public:\n                -   WTDBOSQLITE3_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.emweb.wt.dbo.dbo:\n            version: \"*\"\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\npost_sources: |\n    add_src(src\/Wt\/Dbo\/backend\/Sqlite3.C)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/emweb\/wt",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "e2dca66c390276b4459da21d79713461c0d8913174a9dcf51feaaaa2c53487ce",
+    "created": "2017-12-25 15:26:57.641704"
+}
