@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnu.gmp.cxx",
+    "version": "6.1.2",
+    "cppan": "source:\n    remote: https:\/\/gmplib.org\/download\/gmp\/gmp-6.1.2.tar.lz\n\nversion: 6.1.2\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   cxx\/.*\\.cc\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.gmp.lib:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/gmplib.org\/download\/gmp\/gmp-6.1.2.tar.lz"
+        }
+    },
+    "hash": "1f6ed5272eb66f9c63838b4769c179014237df637aee982294941e5b81b94422",
+    "created": "2017-12-26 13:29:41.414187"
+}

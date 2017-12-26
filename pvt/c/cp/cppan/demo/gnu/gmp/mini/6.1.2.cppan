@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnu.gmp.mini",
+    "version": "6.1.2",
+    "cppan": "source:\n    remote: https:\/\/gmplib.org\/download\/gmp\/gmp-6.1.2.tar.lz\n\nversion: 6.1.2\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   mini-gmp\/mini-gmp.*\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/gmplib.org\/download\/gmp\/gmp-6.1.2.tar.lz"
+        }
+    },
+    "hash": "7a4b83836c19f2294db2040b771c304c80a1c2aa86faf0f7233b600e640e4e29",
+    "created": "2017-12-26 13:22:56.942201"
+}
