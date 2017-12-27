@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gnu.mpc",
+    "cppan": "source:\n    git: https:\/\/gforge.inria.fr\/anonscm\/git\/mpc\/mpc.git\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\n\nfiles:\n    -   .*\n\nexclude_from_build:\n    -   logging.c\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.mpfr:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/gforge.inria.fr\/anonscm\/git\/mpc\/mpc.git",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "071e43c766449dc62c2927d12b6bc9b51c8f17d84c55f561d88de8b31fdf3159",
+    "created": "2017-12-26 23:46:26.481803"
+}
