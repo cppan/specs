@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tuxalin.thst",
+    "cppan": "source:\n    git: https:\/\/github.com\/tuxalin\/THST\n    branch: master\n\nversion: master\n\nfiles:\n    -   .*\\.h\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tuxalin\/THST",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "a31af6dcb0499b37725cbdcfec28b315d07355e8625b359a0fdfe53aec94b850",
+    "created": "2018-01-04 16:09:26.768843"
+}

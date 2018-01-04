@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.arun11299.jwt",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/arun11299\/cpp-jwt",
+            "branch": "master"
+        }
+    },
+    "hash": "a84540b687b74d44d44c89487029b77deed49f4fe19fdb3977b44101a67602c3",
+    "created": "2018-01-04 16:10:36.757902",
+    "cppan": "source:\n    git: https:\/\/github.com\/arun11299\/cpp-jwt\n    branch: master\n\nversion: master\n\n"
+}
