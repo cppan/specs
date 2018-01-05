@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.stub.genccode",
+    "cppan": "source:\n    remote: https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/60.1\/icu4c-60_1-src.tgz\n\nversion: 60.1.0\n\nroot_directory: source\n\nc++: 11\n\nfiles:\n    -   tools\/genccode\/.*\\.c\n\noptions:\n    any:\n        definitions:\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.toolutil:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/60.1\/icu4c-60_1-src.tgz"
+        }
+    },
+    "version": "60.1.0",
+    "hash": "22fa68d584ab85decd3ddd0d75f31f647896a86bae666e78135273986f44d84c",
+    "created": "2018-01-05 23:17:08.532421"
+}

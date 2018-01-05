@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.stub.data",
+    "cppan": "source:\n    remote: https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/60.1\/icu4c-60_1-src.tgz\n\nversion: 60.1.0\n\ntype: library\n\nc++: 11\n\nfiles:\n    -   source\/stubdata\/stubdata.cpp\n\noptions:\n    any:\n        definitions:\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.common:\n            version: \"*\"\n            include_directories_only: true\n\npost_target: |\n    if (LIBRARY_TYPE STREQUAL SHARED)\n        if (MSVC)\n            target_link_libraries(${this} PRIVATE -NOENTRY)\n        endif()\n    endif()\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/60.1\/icu4c-60_1-src.tgz"
+        }
+    },
+    "version": "60.1.0",
+    "hash": "74a8f81a939d68e171c52b3fc9cb7f9e50477c5868df2fbaffbd1a63cbc11554",
+    "created": "2018-01-05 23:12:43.507129"
+}

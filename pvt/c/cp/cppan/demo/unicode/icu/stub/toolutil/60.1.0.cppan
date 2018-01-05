@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.stub.toolutil",
+    "cppan": "source:\n    remote: https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/60.1\/icu4c-60_1-src.tgz\n\nversion: 60.1.0\n\ntype: library\n\nroot_directory: source\n\nc++: 11\n\nfiles:\n    -   tools\/toolutil\/.*\\.c\n    -   tools\/toolutil\/.*\\.cpp\n    -   tools\/toolutil\/.*\\.h\n\ninclude_directories:\n    public:\n        -   tools\/toolutil\n\noptions:\n    any:\n        definitions:\n            private:\n                -   U_TOOLUTIL_IMPLEMENTATION\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.i18n:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/netcologne.dl.sourceforge.net\/project\/icu\/ICU4C\/60.1\/icu4c-60_1-src.tgz"
+        }
+    },
+    "version": "60.1.0",
+    "hash": "fa36efe50ff2d2d77ef1430cc378226dbc64c7fabe6c1eb6d2226fe6c2205b7b",
+    "created": "2018-01-05 23:37:13.692585"
+}
