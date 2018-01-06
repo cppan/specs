@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.stub.common",
+    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/60.2\/icu4c-60_2-src.tgz\n\nversion: 60.2.0\n\ntype: library\n\nroot_directory: source\n\nc++: 11\n\nfiles:\n    -   common\/.*\\.c\n    -   common\/.*\\.cpp\n    -   common\/.*\\.h\n\ninclude_directories:\n    public:\n        -   common\n\noptions:\n    any:\n        definitions:\n            private:\n                -   U_COMMON_IMPLEMENTATION\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n        compile_options:\n            msvc:\n                public:\n                    -   \/utf-8\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\nchecks_prefixes:\n    -   U_\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.data:\n            version: \"*\"\n\ncheck_function_exists:\n    -   dlopen\n    -   gettimeofday\n    -   mmap\n    -   nl_langinfo\n    -   popen\n    -   pthread_mutex_lock\n    -   strtod_l\n    -   tzset\n    -   _tzset\n\ncheck_include_exists:\n    -   file: dirent.h\n        variable: HAVE_DIRENT_H\n        cpp: false\n    -   file: dlfcn.h\n        variable: HAVE_DLFCN_H\n        cpp: false\n    -   file: elf.h\n        variable: HAVE_ELF_H\n        cpp: false\n    -   file: inttypes.h\n        variable: HAVE_INTTYPES_H\n        cpp: false\n    -   file: wchar.h\n        variable: HAVE_WCHAR_H\n        cpp: false\n\ncheck_type_size:\n    -   type: int16_t\n    -   type: int32_t\n    -   type: int64_t\n    -   type: int8_t\n    -   type: uint16_t\n    -   type: uint32_t\n    -   type: uint64_t\n    -   type: uint8_t\n    -   type: wchar_t\n\ncheck_library_function:\n    -   function: pthread_attr_init\n        library: pthread\n    -   function: pthread_mutex_init\n        library: pthread\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.icu-project.org\/files\/icu4c\/60.2\/icu4c-60_2-src.tgz"
+        }
+    },
+    "version": "60.2.0",
+    "hash": "09e7575768298f22edb83542999acbf90c2d831afcc618bc5a063614ad8049ec",
+    "created": "2018-01-06 00:32:30.903438"
+}

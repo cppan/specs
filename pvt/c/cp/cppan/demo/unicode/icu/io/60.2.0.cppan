@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.io",
+    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/60.2\/icu4c-60_2-src.tgz\n\nversion: 60.2.0\n\ntype: library\n\nroot_directory: source\n\nc++: 11\n\nfiles:\n    -   io\/.*\\.c\n    -   io\/.*\\.cpp\n    -   io\/.*\\.h\n\noptions:\n    any:\n        definitions:\n            private:\n                -   U_IO_IMPLEMENTATION\n            public:\n                -   U_USING_ICU_NAMESPACE=1\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.i18n:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.icu-project.org\/files\/icu4c\/60.2\/icu4c-60_2-src.tgz"
+        }
+    },
+    "version": "60.2.0",
+    "hash": "8223bab67a5ac4a869e39184936fa37a744c5c8de7f1e84f743ece71ff273ec0",
+    "created": "2018-01-06 00:33:26.963683"
+}
