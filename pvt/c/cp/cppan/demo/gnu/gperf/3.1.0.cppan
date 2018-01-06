@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnu.gperf",
+    "cppan": "source:\n    remote: https:\/\/ftp.gnu.org\/gnu\/gperf\/gperf-3.1.tar.gz\n\nversion: 3.1.0\n\nfiles:\n    -   lib\/.*\\.c.*\n    -   lib\/.*\\.h\n    -   src\/.*\\.c.*\n    -   src\/.*\\.h\n    -   src\/.*\\.icc\n\ninclude_directories:\n    public:\n        -   lib\n\npost_sources: |\n    file_write_once(${BDIR}\/config.h \"\")\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/ftp.gnu.org\/gnu\/gperf\/gperf-3.1.tar.gz"
+        }
+    },
+    "version": "3.1.0",
+    "hash": "4f90b8b31f172af63f47fd6c6b20b122fa1293bbccef7f84e357050a49a87503",
+    "created": "2018-01-06 12:22:22.415708"
+}
