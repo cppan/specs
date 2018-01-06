@@ -1,6 +1,5 @@
 {
     "project": "pvt.cppan.demo.telegram.td.generate.clib",
-    "version": "1.0.0",
     "cppan": "source:\n    git: https:\/\/github.com\/tdlib\/td\n    tag: v1.0.0\n\nversion: 1.0.0\n\nroot_directory: td\/generate\n\nfiles:\n    -   generate_c.cpp\n    -   tl_writer_c.h\n\ndependencies:\n    public:\n        pvt.cppan.demo.telegram.td.tl:\n            version: \"*\"\n\n",
     "source": {
         "git": {
@@ -8,6 +7,7 @@
             "tag": "v1.0.0"
         }
     },
-    "hash": "64bb3c588dfe9e82d04411744aa55929950ef6bdd679d802f8d056811a7e9a65",
-    "created": "2018-01-06 13:38:12.541458"
+    "version": "1.0.0",
+    "hash": "d6dfcc000eac670bab49834b8218680969ea1c7b79343e6afb049c1e7487d5c4",
+    "created": "2018-01-06 13:57:20.908722"
 }
