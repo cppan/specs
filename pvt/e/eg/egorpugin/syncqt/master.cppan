@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/syncqt\n    branch: master\n\nversion: master\n\nc++: 14\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.algorithm:\n            version: 1\n        pvt.cppan.demo.boost.program_options:\n            version: 1\n        pvt.egorpugin.primitives.filesystem:\n            version: master\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/syncqt\n    branch: master\n\nversion: master\n\nc++: 17\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.algorithm:\n            version: 1\n        pvt.cppan.demo.boost.program_options:\n            version: 1\n        pvt.egorpugin.primitives.filesystem:\n            version: master\n\n",
     "created": "2017-03-07 15:23:45.60106",
     "hash": "56f0638d580eef4e17f19fcddf3731c0312ba4a7ca5f9726fa82a52d2b2c5814"
 }
