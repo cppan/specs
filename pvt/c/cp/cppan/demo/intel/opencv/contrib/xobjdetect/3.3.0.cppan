@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.intel.opencv.contrib.xobjdetect",
+    "version": "3.3.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: 3.3.0\n\nversion: 3.3.0\n\ntype: library\n\nfiles:\n    -   modules\/xobjdetect\/include\/.*\n    -   modules\/xobjdetect\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/xobjdetect\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.highgui:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.objdetect:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/opencv\/opencv_contrib",
+            "tag": "3.3.0"
+        }
+    },
+    "created": "2018-01-17 12:33:59.367497",
+    "hash": "0961706d478f75757daaa1b9651b6a17905509b2eb833a857fb36ea4ba436dd8"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.intel.opencv.contrib.surface_matching",
+    "version": "3.4.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: 3.4.0\n\nversion: 3.4.0\n\ntype: library\n\nfiles:\n    -   modules\/surface_matching\/include\/.*\n    -   modules\/surface_matching\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/surface_matching\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.flann:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/opencv\/opencv_contrib",
+            "tag": "3.4.0"
+        }
+    },
+    "created": "2018-01-17 12:54:07.924128",
+    "hash": "3b43dbbfd3642b1404b9b62a17c8fca43093e4d41f89b9ba7fe49d812ce41e95"
+}

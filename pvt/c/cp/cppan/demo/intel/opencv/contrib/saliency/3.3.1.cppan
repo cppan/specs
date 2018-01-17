@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.intel.opencv.contrib.saliency",
+    "version": "3.3.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: 3.3.1\n\nversion: 3.3.1\n\ntype: library\n\nfiles:\n    -   modules\/saliency\/include\/.*\n    -   modules\/saliency\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/saliency\/include\n    private:\n        -   modules\/saliency\/src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.highgui:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.videoio:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/opencv\/opencv_contrib",
+            "tag": "3.3.1"
+        }
+    },
+    "created": "2018-01-17 12:42:40.418358",
+    "hash": "24eacc281c12fb6657abbf4e2f989a18e034de13d12f4b78de5f59f4332ff594"
+}

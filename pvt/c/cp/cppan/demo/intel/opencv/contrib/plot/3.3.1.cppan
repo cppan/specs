@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.intel.opencv.contrib.plot",
+    "version": "3.3.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: 3.3.1\n\nversion: 3.3.1\n\ntype: library\n\nfiles:\n    -   modules\/plot\/include\/.*\n    -   modules\/plot\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/plot\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.imgproc:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/opencv\/opencv_contrib",
+            "tag": "3.3.1"
+        }
+    },
+    "created": "2018-01-17 12:43:23.168587",
+    "hash": "5b8dee97ce2db9d60885fb22b96b2bd2288e914f2dfd1953cc7228066258f487"
+}

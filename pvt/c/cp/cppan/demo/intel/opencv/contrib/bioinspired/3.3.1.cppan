@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.intel.opencv.contrib.bioinspired",
+    "version": "3.3.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: 3.3.1\n\nversion: 3.3.1\n\ntype: library\n\nfiles:\n    -   modules\/bioinspired\/include\/.*\n    -   modules\/bioinspired\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/bioinspired\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.core:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/opencv\/opencv_contrib",
+            "tag": "3.3.1"
+        }
+    },
+    "created": "2018-01-17 12:40:47.339573",
+    "hash": "6becab44710d604d4b3a42728a5343326817424f322584e060c8663c41a44fb0"
+}
