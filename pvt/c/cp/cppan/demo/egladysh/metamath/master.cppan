@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.egladysh.metamath",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egladysh\/metamath",
+            "branch": "master"
+        }
+    },
+    "hash": "575a65efcf67f8bcc5ad710e18581b2b330c11cc706b26a21211fc0c1b38f541",
+    "created": "2018-01-18 09:58:53.33959",
+    "cppan": "source:\n    git: https:\/\/github.com\/egladysh\/metamath\n    branch: master\n\nversion: master\n\n"
+}
