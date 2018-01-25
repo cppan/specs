@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.badger.curl.curl",
+    "cppan": "source:\n    git: https:\/\/github.com\/curl\/curl\n    tag: curl-7_58_0\n\nversion: 7.58.0\n\nfiles:\n    -   lib\/curl_setup.h\n    -   lib\/nonblock.*\n    -   lib\/strtoofft.*\n    -   lib\/warnless.*\n    -   src\/.*\\.[hc]\n\ninclude_directories:\n    public:\n        -   lib\n\ndependencies:\n    public:\n        pvt.cppan.demo.badger.curl.libcurl:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/curl\/curl",
+            "tag": "curl-7_58_0"
+        }
+    },
+    "version": "7.58.0",
+    "hash": "0c737914a6847acd31d8f417ccda5b531f40031b4136abaa3040f43abc270262",
+    "created": "2018-01-25 18:15:46.612786"
+}
