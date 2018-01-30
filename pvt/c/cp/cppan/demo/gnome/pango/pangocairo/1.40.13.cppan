@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnome.pango.pangocairo",
+    "cppan": "source:\n    remote: http:\/\/ftp.gnome.org\/pub\/GNOME\/sources\/pango\/1.40\/pango-1.40.13.tar.xz\n\nversion: 1.40.13\n\ntype: library\n\nfiles:\n    -   pango\/pangocairo-.*\n    -   pango\/pangocairo.h\n    -   pango\/pangocoretext.*\n    -   pango\/pangowin32-fontcache.c\n    -   pango\/pangowin32-fontmap.c\n    -   pango\/pangowin32-private.h\n    -   pango\/pangowin32-shape.c\n    -   pango\/pangowin32.c\n    -   pango\/pangowin32.h\n\ninclude_directories:\n    public:\n        -   .\n        -   pango\n\noptions:\n    any:\n        link_libraries:\n            win32:\n                public:\n                    -   Usp10\n\ndependencies:\n    public:\n        pvt.cppan.demo.cairographics.cairo:\n            version: 1\n        pvt.cppan.demo.freedesktop.fontconfig.fontconfig:\n            version: 2\n        pvt.cppan.demo.gnome.pango.pangoft2:\n            version: \"*\"\n\npost_sources: |\n    if (WIN32)\n        remove_src_dir(pango\/pangocoretext*)\n        remove_src_dir(pango\/pangocairo-coretext*)\n    else()\n        remove_src_dir(pango\/pangocairo-win32*)\n        remove_src_dir(pango\/pangowin32*)\n    endif()\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/ftp.gnome.org\/pub\/GNOME\/sources\/pango\/1.40\/pango-1.40.13.tar.xz"
+        }
+    },
+    "version": "1.40.13",
+    "hash": "d2a9e2c1ad8be2f3fdb010eaab7c9532279b63484291f4065490e399531f8407",
+    "created": "2018-01-30 15:41:11.476617"
+}

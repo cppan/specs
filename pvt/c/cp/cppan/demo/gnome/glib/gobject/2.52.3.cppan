@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gnome.glib.gobject",
+    "cppan": "source:\n    git: git:\/\/git.gnome.org\/glib\n    tag: 2.52.3\n\nversion: 2.52.3\n\ntype: library\n\nfiles:\n    -   gobject\/[^\/]*\\.c\n    -   gobject\/[^\/]*\\.h\n\nexclude_from_build:\n    -   gobject\/glib-genmarshal.c\n\ninclude_directories:\n    public:\n        -   gobject\n        -   .\n\noptions:\n    any:\n        definitions:\n            private:\n                -   GOBJECT_COMPILATION\n    shared:\n        definitions:\n            private:\n                -   DLL_EXPORT\n    static:\n        definitions:\n            public:\n                -   GOBJECT_STATIC_COMPILATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.glib.glib:\n            version: \"*\"\n        pvt.cppan.demo.weltling.winlibs.libffi:\n            version: 3\n\npost_sources: |\n    #file_write_once(${BDIR}\/config.h \"\")\n\n",
+    "source": {
+        "git": {
+            "url": "git:\/\/git.gnome.org\/glib",
+            "tag": "2.52.3"
+        }
+    },
+    "version": "2.52.3",
+    "created": "2018-01-30 15:51:01.886086",
+    "hash": "2ec70263b957c528460ea19fb2d78d8c1c5040f827a6784b8fdee1659da0feb8"
+}
