@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.unicode.icu.data",
-    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/60.2\/icu4c-60_2-src.tgz\n\nversion: 60.2.0\n\ntype: library\n\nroot_directory: source\n\nc++: 11\n\ncustom: true\n\nheader_only: false\n\nfiles:\n    -   data\/in\/.*\\.dat\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.genccode:\n            version: \"*\"\n            reference: genccode\n\npre_sources: |\n    file_write_once(${SDIR}\/dummy.c \"\")\n\npost_sources: |\n    set(name icudt${PACKAGE_VERSION_MAJOR}l)\n    set(o ${BDIR}\/${name}_dat.o)\n    if (WIN32)\n        set(o ${o}bj)\n    endif()\n    add_custom_command(OUTPUT ${o}\n        COMMAND ${genccode} --name ${name} -e icudt${PACKAGE_VERSION_MAJOR} -o \"${SDIR}\/data\/in\/icudt${PACKAGE_VERSION_MAJOR}l.dat\"\n        WORKING_DIRECTORY ${BDIR}\n    )\n    set(src ${src} ${o} ${SDIR}\/dummy.c)\n\npost_target: |\n    if (${LIBRARY_TYPE} STREQUAL SHARED)\n        if (MSVC)\n            target_link_libraries(${this} PRIVATE -NOENTRY)\n        endif()\n    endif()\n\n",
+    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/60.2\/icu4c-60_2-src.tgz\n\nversion: 60.2.0\n\ntype: library\n\nroot_directory: source\n\nc++: 11\n\ncustom: true\n\nheader_only: false\n\nfiles:\n    -   data\/in\/.*\\.dat\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.common:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.unicode.icu.stub.genccode:\n            version: \"*\"\n            reference: genccode\n\npre_sources: |\n    file_write_once(${SDIR}\/dummy.c \"\")\n\npost_sources: |\n    set(name icudt${PACKAGE_VERSION_MAJOR}l)\n    set(o ${BDIR}\/${name}_dat.)\n    set(objopt -o)\n    if (WIN32)\n        set(o ${o}obj)\n    else()\n        set(o ${o}c)\n        set(objopt)\n    endif()\n    add_custom_command(OUTPUT ${o}\n        COMMAND ${genccode} --name ${name} -e icudt${PACKAGE_VERSION_MAJOR} ${objopt} \"${SDIR}\/data\/in\/icudt${PACKAGE_VERSION_MAJOR}l.dat\"\n        WORKING_DIRECTORY ${BDIR}\n    )\n    set(src ${src} ${o} ${SDIR}\/dummy.c)\n\npost_target: |\n    if (${LIBRARY_TYPE} STREQUAL SHARED)\n        if (MSVC)\n            target_link_libraries(${this} PRIVATE -NOENTRY)\n        endif()\n    endif()\n\n",
     "source": {
         "remote": {
             "url": "http:\/\/download.icu-project.org\/files\/icu4c\/60.2\/icu4c-60_2-src.tgz"
         }
     },
     "version": "60.2.0",
-    "hash": "47c2d2cc926c06283ef323c9b94f53d186f4528b5b53e3538b89501662d42e88",
-    "created": "2018-01-06 11:07:37.997221"
+    "hash": "8f232d56b5ba8d0a1f64ea033329b72816cb54b3094303164eeca84818cb68e5",
+    "created": "2018-01-30 21:43:27.959477"
 }
