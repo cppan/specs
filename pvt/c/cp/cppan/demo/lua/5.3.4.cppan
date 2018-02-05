@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.lua",
+    "cppan": "source:\n    remote: https:\/\/www.lua.org\/ftp\/lua-5.3.4.tar.gz\n\nversion: 5.3.4\n\nfiles:\n    -   src\/.*\\.h.*\n    -   src\/lapi.c\n    -   src\/lauxlib.c\n    -   src\/lbaselib.c\n    -   src\/lbitlib.c\n    -   src\/lcode.c\n    -   src\/lcorolib.c\n    -   src\/lctype.c\n    -   src\/ldblib.c\n    -   src\/ldebug.c\n    -   src\/ldo.c\n    -   src\/ldump.c\n    -   src\/lfunc.c\n    -   src\/lgc.c\n    -   src\/linit.c\n    -   src\/liolib.c\n    -   src\/llex.c\n    -   src\/lmathlib.c\n    -   src\/lmem.c\n    -   src\/loadlib.c\n    -   src\/lobject.c\n    -   src\/lopcodes.c\n    -   src\/loslib.c\n    -   src\/lparser.c\n    -   src\/lstate.c\n    -   src\/lstring.c\n    -   src\/lstrlib.c\n    -   src\/ltable.c\n    -   src\/ltablib.c\n    -   src\/ltm.c\n    -   src\/lundump.c\n    -   src\/lutf8lib.c\n    -   src\/lvm.c\n    -   src\/lzio.c\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   LUA_LIB\n    shared:\n        definitions:\n            public:\n                -   LUA_BUILD_AS_DLL\n\n",
+    "version": "5.3.4",
+    "source": {
+        "remote": {
+            "url": "https:\/\/www.lua.org\/ftp\/lua-5.3.4.tar.gz"
+        }
+    },
+    "created": "2018-02-05 16:23:30.613513",
+    "hash": "6a6f0851a0efa1cfe4924b4b63f5bc4af0e4718a6cf30e16a3c0ad55b96f4999"
+}
