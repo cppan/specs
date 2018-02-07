@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.madler.minizip",
-    "cppan": "source:\n    git: https:\/\/github.com\/madler\/zlib\n    tag: v1.2.11\n\nversion: 1.2.11\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   contrib\/minizip\/.*\\.c\n    -   contrib\/minizip\/.*\\.h\n\nexclude_from_package:\n    -   contrib\/minizip\/miniunz.c\n\noptions:\n    any:\n        definitions:\n            public:\n                -   HAVE_BZIP2\n    shared:\n        definitions:\n            private:\n                -   ZLIB_INTERNAL\n            public:\n                -   ZLIB_DLL\n\ndependencies:\n    public:\n        pvt.cppan.demo.bzip2:\n            version: 1\n        pvt.cppan.demo.madler.zlib:\n            version: 1\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/madler\/zlib\n    tag: v1.2.11\n\nversion: 1.2.11\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   contrib\/minizip\/.*\\.c\n    -   contrib\/minizip\/.*\\.h\n\nexclude_from_package:\n    -   contrib\/minizip\/miniunz.c\n\ninclude_directories:\n    public:\n        -   contrib\n\noptions:\n    any:\n        definitions:\n            public:\n                -   HAVE_BZIP2\n    shared:\n        definitions:\n            private:\n                -   ZLIB_INTERNAL\n            public:\n                -   ZLIB_DLL\n\ndependencies:\n    public:\n        pvt.cppan.demo.bzip2:\n            version: 1\n        pvt.cppan.demo.madler.zlib:\n            version: 1\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/madler\/zlib",
@@ -8,6 +8,6 @@
         }
     },
     "version": "1.2.11",
-    "hash": "5aac928268035a100a6279c6b44e455714a6d8c2c121835c58ed485fca360963",
-    "created": "2018-02-07 19:16:32.290561"
+    "hash": "23a73fee2ed8db0c049ddffb81aaa89027efd7646a95ba5807178238db49968f",
+    "created": "2018-02-07 19:40:26.714154"
 }
