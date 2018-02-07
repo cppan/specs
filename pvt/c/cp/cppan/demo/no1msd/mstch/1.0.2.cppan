@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.no1msd.mstch",
-    "cppan": "source:\n    git: https:\/\/github.com\/no1msd\/mstch\n    tag: 1.0.2\n\nversion: 1.0.2\n\nstatic_only: true\n\nfiles:\n    -   include\/.*\\.hpp\n    -   src\/.*\\.cpp\n    -   src\/.*\\.hpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.variant:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/no1msd\/mstch\n    tag: 1.0.2\n\nversion: 1.0.2\n\nstatic_only: true\n\nfiles:\n    -   include\/.*\\.hpp\n    -   src\/.*\\.cpp\n    -   src\/.*\\.hpp\n\noptions:\n    any:\n        definitions:\n            msvc:\n                public:\n                    -   BOOST_VARIANT_DO_NOT_USE_VARIADIC_TEMPLATES\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.variant:\n            version: \"*\"\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/no1msd\/mstch",
@@ -8,6 +8,6 @@
         }
     },
     "version": "1.0.2",
-    "created": "2017-03-02 20:41:13.776535",
-    "hash": "9d02b4be03efeea5ead9833dfae3e434915f9d697cb489b95e435690a5db45f0"
+    "hash": "bef058232ba474c6eb5f31b4e53e27517dc5d0b6917a0b7c41a054203116362c",
+    "created": "2018-02-07 13:48:15.443614"
 }
