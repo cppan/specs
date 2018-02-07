@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ffmpeg.avfilter",
+    "version": "3.2.8",
+    "cppan": "source:\n    git: https:\/\/github.com\/FFmpeg\/FFmpeg\n    tag: n3.2.8\n\nversion: 3.2.8\n\ntype: library\n\nexport_all_symbols: true\n\nfiles:\n    -   libavfilter\/.*\\.c\n    -   libavfilter\/.*\\.h\n    -   libavfilter\/.*\\.inc\n    -   libavfilter\/.*\\.m\n\ndependencies:\n    public:\n        pvt.cppan.demo.ffmpeg.avformat:\n            version: \"*\"\n        pvt.cppan.demo.ffmpeg.avresample:\n            version: \"*\"\n        pvt.cppan.demo.ffmpeg.postproc:\n            version: \"*\"\n        pvt.cppan.demo.ffmpeg.swscale:\n            version: \"*\"\n        pvt.cppan.demo.freetype:\n            version: 2\n\npost_project: |\n    # strip unexisting symbols with \/O1\n    if (MSVC)\n        string(REPLACE \"\/RTC1\" \"\" CMAKE_C_FLAGS_DEBUG ${CMAKE_C_FLAGS_DEBUG})\n        string(REPLACE \"\/RTC1\" \"\" CMAKE_CXX_FLAGS_DEBUG ${CMAKE_CXX_FLAGS_DEBUG})\n    \n        set(CMAKE_C_FLAGS_DEBUG \"${CMAKE_C_FLAGS_DEBUG} \/O1\")\n        set(CMAKE_CXX_FLAGS_DEBUG \"${CMAKE_CXX_FLAGS_DEBUG} \/O1\")\n    endif()\n\npost_sources: |\n    remove_src_dir(libavfilter\/tests\/*)\n    \n    remove_src_dir(libavfilter\/*template*)\n    remove_src_win32(libavfilter\/af_rubberband.c)\n    remove_src_win32(libavfilter\/asrc_flite.c)\n    remove_src_win32(libavfilter\/af_ladspa.c)\n    remove_src_win32(libavfilter\/af_sofalizer.c)\n    remove_src_win32(libavfilter\/af_bs2b.c)\n    remove_src_win32(libavfilter\/f_zmq.c)\n    remove_src_win32(libavfilter\/vf_ocr.c)\n    remove_src_win32(libavfilter\/vf_libopencv.c)\n    remove_src_win32(libavfilter\/vidstabutils.c)\n    remove_src_win32(libavfilter\/vf_frei0r.c)\n    remove_src_win32(libavfilter\/vf_vidstabdetect.c)\n    remove_src_win32(libavfilter\/vf_subtitles.c)\n    remove_src_win32(libavfilter\/vf_scale_vaapi.c)\n    remove_src_win32(libavfilter\/af_loudnorm.c)\n    remove_src_win32(libavfilter\/vf_vidstabtransform.c)\n    remove_src_win32(libavfilter\/vf_scale_npp.c)\n    remove_src_win32(libavfilter\/vf_zscale.c)\n    remove_src_win32(libavfilter\/vf_hwupload_cuda.c)\n    remove_src_win32(libavfilter\/deshake_opencl.c)\n    remove_src_win32(libavfilter\/unsharp_opencl.c)\n    if (NOT APPLE)\n        remove_src(libavfilter\/vf_coreimage.m)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/FFmpeg\/FFmpeg",
+            "tag": "n3.2.8"
+        }
+    },
+    "created": "2018-02-07 20:50:25.59741",
+    "hash": "8a464dd82b27351fd2e9565303991410a9ea2093f5e81cdfdd20d95458913d23"
+}
