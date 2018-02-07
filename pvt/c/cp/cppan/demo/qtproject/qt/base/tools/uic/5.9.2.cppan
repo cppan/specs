@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.tools.uic",
+    "version": "5.9.2",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.9.2\n\nversion: 5.9.2\n\nroot_directory: src\/tools\/uic\n\nfiles:\n    -   .*\\.cpp\n    -   .*\\.h\n\ninclude_directories:\n    public:\n        -   cpp\n\noptions:\n    any:\n        definitions:\n            public:\n                -   QT_NO_CAST_FROM_ASCII\n                -   QT_NO_FOREACH\n                -   QT_UIC\n                -   QT_UIC_CPP_GENERATOR\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.tools.bootstrap:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.9.2"
+        }
+    },
+    "created": "2018-02-07 18:57:43.263666",
+    "hash": "4eb8b5f755e9f41da560c2d6c889b6b28e7703512b9e20c6ce8d9d301a5e1440"
+}

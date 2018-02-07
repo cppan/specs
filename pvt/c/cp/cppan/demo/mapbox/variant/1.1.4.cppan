@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mapbox.variant",
+    "version": "1.1.4",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mapbox\/variant",
+            "tag": "v1.1.4"
+        }
+    },
+    "hash": "0f8561a2d07c1729a581fbcdf1c28ae58c92a1d29b1713057f9d23e7c811e943",
+    "created": "2018-02-07 19:03:54.203567",
+    "cppan": "source:\n    git: https:\/\/github.com\/mapbox\/variant\n    tag: v1.1.4\n\nversion: 1.1.4\n\n"
+}

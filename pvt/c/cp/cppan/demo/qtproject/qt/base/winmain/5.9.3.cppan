@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.winmain",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.9.3\n\nversion: 5.9.3\n\ntype: library\n\nroot_directory: src\/winmain\n\nstatic_only: true\n\nfiles:\n    -   qtmain_win.cpp\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.core:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.9.3"
+        }
+    },
+    "version": "5.9.3",
+    "created": "2018-02-07 19:00:18.329776",
+    "hash": "80a27bd9caed5893203e96647258ba72f5dd6ce699ef6d562e400f75f88c2587"
+}

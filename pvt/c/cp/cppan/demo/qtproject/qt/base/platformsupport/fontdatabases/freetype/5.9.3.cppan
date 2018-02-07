@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.platformsupport.fontdatabases.freetype",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.9.3\n\nversion: 5.9.3\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   src\/platformsupport\/fontdatabases\/freetype\/.*\n\ninclude_directories:\n    public:\n        -   ${BDIR}\/include\/QtFontDatabaseSupport\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\n        -   ${BDIR}\/include\/QtFontDatabaseSupport\n        -   ${BDIR}\/include\/QtFontDatabaseSupport\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\/QtFontDatabaseSupport\n        -   ${BDIR}\/include\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.gui:\n            version: \"*\"\n        pvt.egorpugin.syncqt:\n            version: master\n            reference: syncqt\n\npost_sources: |\n    if (CPPAN_LOCAL_PROJECT)\n        set(PACKAGE_VERSION_MAJOR 5)\n        set(PACKAGE_VERSION_MINOR 8)\n        set(PACKAGE_VERSION_PATCH 0)\n    endif()\n    \n    file_write_once(${BDIR}\/QtFontDatabaseSupport\/QtFontDatabaseSupportDepends \"\n        #ifdef __cplusplus\n        #include <QtCore\/QtCore>\n        #include <QtGui\/QtGui>\n        #endif\n    \")\n    \n    set(module QtFontDatabaseSupport)\n    create_directory(${BDIR}\/include\/${module}\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\/${module})\n    add_custom_command(OUTPUT ${BDIR}\/include\/${module}\/${module}\n        COMMAND ${syncqt}\n            -s ${SDIR}\n            -b ${BDIR}\n            -m ${module}\n            -v ${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\n        DEPENDS ${syncqt}\n    )\n    set(src ${src} ${BDIR}\/include\/${module}\/${module})\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.9.3"
+        }
+    },
+    "version": "5.9.3",
+    "hash": "f31ec81633caaa9b3a75c7748416ae6dc260e0c003ec35e0f931ac3bd47341d4",
+    "created": "2018-02-07 18:59:40.799107"
+}

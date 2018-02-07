@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mapbox.variant",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mapbox\/variant",
+            "branch": "master"
+        }
+    },
+    "hash": "cd73aae4cbccb07c8b41b6e3a62304c19c67533993ceedb1424ff6eac7cec1bd",
+    "created": "2018-02-07 18:45:38.083941",
+    "cppan": "source:\n    git: https:\/\/github.com\/mapbox\/variant\n    branch: master\n\nversion: master\n\n"
+}

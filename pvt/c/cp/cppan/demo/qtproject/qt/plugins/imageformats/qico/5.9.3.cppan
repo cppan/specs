@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.plugins.imageformats.qico",
+    "version": "5.9.3",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.9.3\n\nversion: 5.9.3\n\ntype: library\n\nroot_directory: src\/plugins\/imageformats\/ico\n\noutput_directory: plugins\/imageformats\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n    static:\n        definitions:\n            private:\n                -   QT_STATICPLUGIN\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.core:\n            version: \"*\"\n            reference: CORE\n        pvt.cppan.demo.qtproject.qt.base.gui:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.tools.moc:\n            version: \"*\"\n            reference: MOC_COMMAND\n\npost_sources: |\n    include(${CORE_SDIR}\/src\/corelib\/Qt5CoreMacros.cmake)\n    set(Qt5Core_MOC_EXECUTABLE ${MOC_COMMAND})\n    \n    set(moc ${src})\n    list(FILTER moc INCLUDE REGEX \".h$\")\n    \n    find_moc_targets(moc ${moc})\n    \n    qt5_wrap_cpp(moc ${moc} TARGET ${this})\n    set(src ${src} ${moc})\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.9.3"
+        }
+    },
+    "hash": "5dd8584614fe0be9d07e383671a9424be3d8edd11db30b30ecfafe69dda8d90e",
+    "created": "2018-02-07 19:02:01.29572"
+}
