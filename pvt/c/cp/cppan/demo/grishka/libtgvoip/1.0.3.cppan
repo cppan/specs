@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.grishka.libtgvoip",
+    "cppan": "source:\n    git: https:\/\/github.com\/grishka\/libtgvoip\n    tag: 1.0.3\n\nversion: 1.0.3\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   .*\\.c.*\n    -   .*\\.h\n\nexclude_from_build:\n    -   client\/.*\n    -   os\/android\/.*\n    -   os\/darwin\/.*\n    -   os\/linux\/.*\n    -   os\/posix\/.*\n    -   os\/windows\/AudioInputWave.cpp\n    -   os\/windows\/AudioOutputWave.cpp\n    -   os\/windows\/CXWrapper.cpp\n\ninclude_directories:\n    public:\n        -   .\n        -   webrtc_dsp\n\noptions:\n    any:\n        definitions:\n            public:\n                -   WEBRTC_APM_DEBUG_DUMP=0\n            win32:\n                public:\n                    -   NOMINMAX\n        link_libraries:\n            win32:\n                public:\n                    -   Iphlpapi\n                    -   Mmdevapi\n\ndependencies:\n    public:\n        pvt.cppan.demo.libressl.crypto:\n            version: 2\n        pvt.cppan.demo.xiph.opus:\n            version: 1\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grishka\/libtgvoip",
+            "tag": "1.0.3"
+        }
+    },
+    "version": "1.0.3",
+    "hash": "50bbd0891f83ad4cdfdd127d6425f08d360afdb4eb6d2cebf36e821a2a233229",
+    "created": "2018-02-08 16:53:52.892688"
+}
