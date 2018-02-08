@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnu.mpfr",
+    "cppan": "source:\n    remote: http:\/\/www.mpfr.org\/mpfr-current\/mpfr-4.0.1.tar.xz\n\nversion: 4.0.1\n\ntype: library\n\nroot_directory: src\n\nfiles:\n    -   .*\n\nexclude_from_build:\n    -   jyn_asympt.c\n    -   round_raw_generic.c\n\noptions:\n    any:\n        definitions:\n            private:\n                -   MPFR_TUNE_CASE=\"\"\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.gmp.lib:\n            version: \"*\"\n\npost_target: |\n    if (\"${CMAKE_SIZEOF_VOID_P}\" EQUAL \"4\")\n        target_include_directories(${this} PUBLIC ${SDIR}\/x86)\n    else()\n        target_include_directories(${this} PUBLIC ${SDIR}\/x86_64)\n    endif()\n    \n    if (WORDS_BIGENDIAN)\n        target_compile_definitions(${this} PRIVATE HAVE_BIG_ENDIAN)\n    else()\n        target_compile_definitions(${this} PRIVATE HAVE_LITTLE_ENDIAN)\n    endif()\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/www.mpfr.org\/mpfr-current\/mpfr-4.0.1.tar.xz"
+        }
+    },
+    "version": "4.0.1",
+    "hash": "83be1cb88890bff4f760662c6a52c46386988e05491fbf92d6c75e4adb5324bc",
+    "created": "2018-02-08 06:42:00.705653"
+}
