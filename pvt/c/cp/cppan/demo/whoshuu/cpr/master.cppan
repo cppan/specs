@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.whoshuu.cpr",
+    "cppan": "source:\n    git: https:\/\/github.com\/whoshuu\/cpr\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   cpr\/.*\n    -   include\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.badger.curl.libcurl:\n            version: 7\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/whoshuu\/cpr",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "c9a6c76b92e69193e8e6b59678a8dc640944826752ef4eeb4ba57c4424a2e453",
+    "created": "2018-02-12 09:29:39.120595"
+}
