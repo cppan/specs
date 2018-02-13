@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.tools.linguist.update",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qttools\n    tag: v5.10.1\n\nversion: 5.10.1\n\nfiles:\n    -   src\/linguist\/Qt5LinguistToolsMacros.cmake\n    -   src\/linguist\/lupdate\/.*\\.cpp\n    -   src\/linguist\/lupdate\/.*\\.h\n\nexclude_from_package:\n    -   src\/linguist\/lupdate\/qdeclarative.cpp\n\noptions:\n    any:\n        definitions:\n            public:\n                -   PROEVALUATOR_DEBUG\n                -   QT_NO_QML\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.tools.linguist.formats:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.tools.linguist.proparser:\n            version: \"*\"\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/src\/linguist\/Qt5LinguistToolsMacros.cmake \"CMAKE_CURRENT_BINARY_DIR\" \"BDIR\")\n    replace_in_file_once(${SDIR}\/src\/linguist\/lupdate\/main.cpp \"int main(int argc, char **argv)\" \"int initTS(); Q_CONSTRUCTOR_FUNCTION(initTS) int main(int argc, char **argv)\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qttools",
+            "tag": "v5.10.1"
+        }
+    },
+    "version": "5.10.1",
+    "hash": "900883cfb7d392205e07e27e9c89c54913744b91f04aba677f691c1d26d9e668",
+    "created": "2018-02-13 20:02:41.421921"
+}

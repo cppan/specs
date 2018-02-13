@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.tools.rcc",
+    "version": "5.10.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.10.1\n\nversion: 5.10.1\n\nroot_directory: src\/tools\/rcc\n\noptions:\n    any:\n        definitions:\n            public:\n                -   QT_NO_CAST_FROM_ASCII\n                -   QT_NO_FOREACH\n                -   QT_RCC\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.tools.bootstrap:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.10.1"
+        }
+    },
+    "created": "2018-02-13 20:00:30.049148",
+    "hash": "5f556296dd0ba3ec6af78b48eafd3340891f0b4beec30e4292db71d495788bbb"
+}

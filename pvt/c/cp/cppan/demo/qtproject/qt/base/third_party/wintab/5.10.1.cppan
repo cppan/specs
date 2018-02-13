@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.third_party.wintab",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.10.1\n\nversion: 5.10.1\n\nroot_directory: src\/3rdparty\/wintab\n\nfiles:\n    -   .*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.10.1"
+        }
+    },
+    "version": "5.10.1",
+    "hash": "87359e22bcba58e7d0b5e2737c2141fed22fc8b1bd0a6231e62ca16313474759",
+    "created": "2018-02-13 20:00:35.509956"
+}
