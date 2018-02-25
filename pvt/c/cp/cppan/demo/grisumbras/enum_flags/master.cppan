@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.grisumbras.enum_flags",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grisumbras\/enum-flags",
+            "branch": "master"
+        }
+    },
+    "hash": "29abf4de0075fdafddb43f8f06ec20bfcf8abc806ab2d6ba88043d1ec5a19d87",
+    "created": "2018-02-25 14:55:03.131329",
+    "cppan": "source:\n    git: https:\/\/github.com\/grisumbras\/enum-flags\n    branch: master\n\nversion: master\n\n"
+}
