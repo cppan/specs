@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.naios.function2",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Naios\/function2",
+            "branch": "master"
+        }
+    },
+    "hash": "65c2808cb54944bcac406173ed8e78cae5319959c46125232e297d7f9a5b1e51",
+    "created": "2018-02-25 11:16:37.030266",
+    "cppan": "source:\n    git: https:\/\/github.com\/Naios\/function2\n    branch: master\n\nversion: master\n\n"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.fgoujeon.multifunction",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/fgoujeon\/multifunction",
+            "branch": "master"
+        }
+    },
+    "hash": "95e8c48cb0baa52b70fe27a368fc5f5075e8e68290b756448f306b70a4115c87",
+    "created": "2018-02-25 11:17:16.861212",
+    "cppan": "source:\n    git: https:\/\/github.com\/fgoujeon\/multifunction\n    branch: master\n\nversion: master\n\n"
+}
