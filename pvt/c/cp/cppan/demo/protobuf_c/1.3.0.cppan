@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.protobuf_c",
+    "cppan": "source:\n    git: https:\/\/github.com\/protobuf-c\/protobuf-c\n    tag: v{v}\n\nversion: 1.3.0\n\nrc_enabled: true\n\nfiles:\n    -   protobuf-c\/.*\\.c\n    -   protobuf-c\/.*\\.h\n\ninclude_directories:\n    public:\n        -   protobuf-c\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/protobuf-c\/protobuf-c",
+            "tag": "v{v}"
+        }
+    },
+    "version": "1.3.0",
+    "hash": "fadf87bd7ecb2910c5ada618a8beec4b43503528576542a0958c60351ea6fa65",
+    "created": "2018-02-27 14:37:30.78238"
+}

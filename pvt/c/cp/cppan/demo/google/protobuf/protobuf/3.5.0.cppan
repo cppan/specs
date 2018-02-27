@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.protobuf.protobuf",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/protobuf\n    tag: v{v}\n\nversion: 3.5.0\n\nimport_from_bazel: true\n\nrc_enabled: true\n\nfiles:\n    -   src\/.*\\.h\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   LIBPROTOBUF_EXPORTS\n            public:\n                -   PROTOBUF_USE_DLLS\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.protobuf.protobuf_lite:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.madler.zlib:\n            version: \"*\"\n\npost_sources: |\n    file(GLOB_RECURSE src2 \"${pvt_cppan_demo_google_protobuf_protobuf_lite_DIR}\/*\")\n     set(src ${src} ${src2})\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/google\/protobuf",
+            "tag": "v{v}"
+        }
+    },
+    "version": "3.5.0",
+    "hash": "793f428b03b2c4d31086b5b13c0bbfc3a26e04d27c3b02a1e955e74d6dd8a807",
+    "created": "2018-02-27 14:41:38.258288"
+}

@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.protobuf.protobuf_lite",
-    "version": "3.4.0",
-    "cppan": "source:\n    git: https:\/\/github.com\/google\/protobuf\n    tag: v3.4.0\n\nversion: 3.4.0\n\nimport_from_bazel: true\n\nfiles:\n    -   src\/google\/protobuf\/.*\\.h\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   LIBPROTOBUF_EXPORTS\n            public:\n                -   PROTOBUF_USE_DLLS\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/protobuf\n    tag: v{v}\n\nversion: 3.4.0\n\nimport_from_bazel: true\n\nrc_enabled: true\n\nfiles:\n    -   src\/google\/protobuf\/.*\\.h\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   LIBPROTOBUF_EXPORTS\n            public:\n                -   PROTOBUF_USE_DLLS\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/google\/protobuf",
-            "tag": "v3.4.0"
+            "tag": "v{v}"
         }
     },
-    "created": "2017-08-17 23:17:13.398956",
-    "hash": "eb4075094fcdc5aec309f513b70b86c884cf0a22fea01332eb9ef08a557aacc2"
+    "version": "3.4.0",
+    "hash": "ddea755953f14b1a5a1ad5dc78229437ee92865648bb1791d471e9b254d2c1b1",
+    "created": "2018-02-27 14:37:06.936939"
 }
