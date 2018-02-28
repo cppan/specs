@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.hdfgroup.hdf5.hdf5cpp",
+    "version": "1.10.1",
+    "cppan": "source:\n    remote: https:\/\/support.hdfgroup.org\/ftp\/HDF5\/releases\/hdf5-{M}.{m}\/hdf5-{v}\/src\/hdf5-{v}.tar.bz2\n\nversion: 1.10.1\n\ntype: library\n\nroot_directory: c++\/src\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   hdf5_cpp_shared_EXPORTS\n            public:\n                -   H5_BUILT_AS_DYNAMIC_LIB\n\ndependencies:\n    public:\n        pvt.cppan.demo.hdfgroup.hdf5.hdf5:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/support.hdfgroup.org\/ftp\/HDF5\/releases\/hdf5-{M}.{m}\/hdf5-{v}\/src\/hdf5-{v}.tar.bz2"
+        }
+    },
+    "hash": "bc677894753cf7a8f2e8086636fa21fa3d728524f2aacf824105f6ff23852a51",
+    "created": "2018-02-28 21:13:26.397391"
+}
