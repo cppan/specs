@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.intel.opencv.contrib.datasets",
-    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: \"{v}\"\n\nversion: 3.4.1\n\ntype: library\n\nrc_enabled: true\n\nfiles:\n    -   modules\/datasets\/include\/.*\n    -   modules\/datasets\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/datasets\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.highgui:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.videoio:\n            version: \"*\"\n        pvt.cppan.demo.leethomason.tinyxml2:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: \"{v}\"\n\nversion: 3.4.1\n\ntype: library\n\nfiles:\n    -   modules\/datasets\/include\/.*\n    -   modules\/datasets\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/datasets\/include\n    private:\n        -   modules\/datasets\/src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.highgui:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.videoio:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/opencv\/opencv_contrib",
@@ -8,6 +8,6 @@
         }
     },
     "version": "3.4.1",
-    "hash": "47e5e73f4cfe3829d9d388925a221412bf6a01ec46b472de66afffdd9cfbd661",
-    "created": "2018-02-28 19:06:43.889787"
+    "hash": "2684250e6d02395bf62048f1d899338c3d30bdb7965a91d02560a65d45af12c8",
+    "created": "2018-02-28 19:37:12.468389"
 }
