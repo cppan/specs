@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.poco.net",
+    "version": "1.8.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/pocoproject\/poco\n    tag: poco-{v}-release\n\nversion: 1.8.1\n\nlicense: LICENSE\n\nfiles:\n    -   Net\/include\/.*\n    -   Net\/src\/.*\n    -   cmake\/PocoMacros.cmake\n\ninclude_directories:\n    public:\n        -   Net\/include\n    private:\n        -   Net\/src\n\noptions:\n    any:\n        definitions:\n            public:\n                -   POCO_NO_AUTOMATIC_LIBS\n                -   POCO_UNBUNDLED\n    shared:\n        definitions:\n            private:\n                -   Net_EXPORTS\n            public:\n                -   POCO_DLL\n    static:\n        definitions:\n            public:\n                -   POCO_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.poco.foundation:\n            version: \"*\"\n        pvt.cppan.demo.poco.util:\n            version: \"*\"\n\npost_sources: |\n    include(${SDIR}\/cmake\/PocoMacros.cmake)\n    \n    # Windows and WindowsCE need additional libraries\n    if(WIN32)\n        if(WINCE)\n            set(SYSLIBS ${SYSLIBS} \"ws2.lib\" \"iphlpapi.lib\")\n        else()\n            set(SYSLIBS ${SYSLIBS} \"ws2_32.lib\" \"iphlpapi.lib\")\n        endif()\n    endif(WIN32)\n\npost_target: |\n    target_link_libraries(${this} PUBLIC ${SYSLIBS})\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pocoproject\/poco",
+            "tag": "poco-{v}-release"
+        }
+    },
+    "hash": "d028d258c73ce32f565bd7b3147fc39ddc833cb200e6fefcf98db49b36956e54",
+    "created": "2018-03-01 13:04:29.938417"
+}

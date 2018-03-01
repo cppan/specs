@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.poco.json",
+    "version": "1.8.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/pocoproject\/poco\n    tag: poco-{v}-release\n\nversion: 1.8.1\n\nlicense: LICENSE\n\nfiles:\n    -   JSON\/include\/.*\n    -   JSON\/src\/.*\n    -   cmake\/PocoMacros.cmake\n\ninclude_directories:\n    public:\n        -   JSON\/include\n    private:\n        -   JSON\/src\n\noptions:\n    any:\n        definitions:\n            public:\n                -   POCO_NO_AUTOMATIC_LIBS\n                -   POCO_UNBUNDLED\n    shared:\n        definitions:\n            private:\n                -   JSON_EXPORTS\n            public:\n                -   POCO_DLL\n    static:\n        definitions:\n            public:\n                -   POCO_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.poco.foundation:\n            version: \"*\"\n\npost_sources: |\n    include(${SDIR}\/cmake\/PocoMacros.cmake)\n    \n    if (MSVC)\n        file(GLOB_RECURSE csrc \"${SDIR}\/*.c\")\n        set_source_files_properties(${csrc} PROPERTIES LANGUAGE CXX)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pocoproject\/poco",
+            "tag": "poco-{v}-release"
+        }
+    },
+    "hash": "73aa24f444033bdf6413c8491b8201534e6c25b94bec6898996851794db47e1d",
+    "created": "2018-03-01 13:04:25.15388"
+}
