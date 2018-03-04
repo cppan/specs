@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.dobiasd.functionalplus",
+    "cppan": "source:\n    git: https:\/\/github.com\/Dobiasd\/FunctionalPlus\n    tag: v{M}.{m}-p{p}\n\nversion: 0.2.1\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Dobiasd\/FunctionalPlus",
+            "tag": "v{M}.{m}-p{p}"
+        }
+    },
+    "version": "0.2.1",
+    "hash": "34c3944786bb9f292838e3aa4eabe681c5bdf0ff3cc14951b656b205201c30eb",
+    "created": "2018-03-04 22:46:25.132593"
+}

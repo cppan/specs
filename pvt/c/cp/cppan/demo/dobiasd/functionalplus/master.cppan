@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.dobiasd.functionalplus",
-    "cppan": "source:\n    git: https:\/\/github.com\/Dobiasd\/FunctionalPlus\n    branch: master\n\nversion: master\n\nlicense: LICENSE_1_0.txt\n\nfiles: include\/.*\n\n",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/Dobiasd\/FunctionalPlus\n    branch: master\n\nversion: master\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/Dobiasd\/FunctionalPlus",
             "branch": "master"
         }
     },
-    "created": "2016-09-23 23:53:12.148579",
-    "hash": "77a73a15c928a126da6da9d259bc377e33b28a0e2eb8aceae77ec0f37b743153"
+    "version": "master",
+    "hash": "d52ae695b7620f71c347909660040612fef28d99dc1e2a60524892ef784a4315",
+    "created": "2018-03-04 22:44:23.382063"
 }
