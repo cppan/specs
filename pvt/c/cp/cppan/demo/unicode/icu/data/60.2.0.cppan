@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.data",
+    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.zip\n\nversion: 60.2.0\n\ntype: library\n\nc++: 11\n\ncustom: true\n\nheader_only: false\n\nfiles:\n    -   source\/data\/in\/.*\\.dat\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.common:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.unicode.icu.stub.genccode:\n            version: \"*\"\n            reference: genccode\n\npre_sources: |\n    file_write_once(${SDIR}\/dummy.c \"\")\n\npost_sources: |\n    set(name icudt${PACKAGE_VERSION_MAJOR}l)\n    set(o ${BDIR}\/${name}_dat.)\n    #set(objopt -o)\n    #if (WIN32)\n        #set(o ${o}obj)\n    #else()\n        set(o ${o}c)\n        set(objopt)\n    #endif()\n    add_custom_command(OUTPUT ${o}\n        COMMAND ${genccode} --name ${name} -e icudt${PACKAGE_VERSION_MAJOR} ${objopt} \"${SDIR}\/source\/data\/in\/icudt${PACKAGE_VERSION_MAJOR}l.dat\"\n        WORKING_DIRECTORY ${BDIR}\n    )\n    set(src ${src} ${o} ${SDIR}\/dummy.c)\n\npost_target: |\n    if (${LIBRARY_TYPE} STREQUAL SHARED)\n        if (MSVC)\n            target_link_libraries(${this} PRIVATE -NOENTRY)\n        endif()\n    endif()\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.zip"
+        }
+    },
+    "version": "60.2.0",
+    "hash": "8e5fc18210485d210556eb0a580554c89cc356e399e43d9d038455bd6cfbcef2",
+    "created": "2018-03-06 16:54:10.714709"
+}
