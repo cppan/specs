@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/cppan\/cppan\n    branch: master\n\nversion: master\n\nc++: 17\n\nrc_enabled: true\n\nfiles:\n    -   src\/client\/.*\n\nexclude_from_package:\n    -   src\/client\/.*\\.txt\n\ndependencies:\n    public:\n        pvt.cppan.demo.yhirose.cpp_linenoise:\n            version: master\n        pvt.cppan.client.common:\n            version: \"*\"\n        pvt.cppan.demo.boost.program_options:\n            version: 1\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/cppan\/cppan\n    branch: master\n\nversion: master\n\nc++: 17\n\nfiles:\n    -   src\/client\/.*\n\nexclude_from_package:\n    -   src\/client\/.*\\.txt\n\ndependencies:\n    public:\n        pvt.cppan.demo.yhirose.cpp_linenoise:\n            version: master\n        pvt.cppan.client.common:\n            version: \"*\"\n        pvt.cppan.demo.boost.program_options:\n            version: 1\n\n",
     "created": "2017-03-01 20:44:50.531099",
     "hash": "1350e5e3ca24fd2d02c7567ea3e650b4b71f0a4dd22bccb0688a1023e2255a66"
 }
