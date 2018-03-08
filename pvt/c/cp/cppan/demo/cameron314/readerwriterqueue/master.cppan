@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.cameron314.readerwriterqueue",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/cameron314\/readerwriterqueue",
+            "branch": "master"
+        }
+    },
+    "hash": "594c1ed6b6b5a41b79157d510218c112d6815c628b33dfaeae5b47a895490766",
+    "created": "2018-03-07 23:40:29.019629",
+    "cppan": "source:\n    git: https:\/\/github.com\/cameron314\/readerwriterqueue\n    branch: master\n\nversion: master\n\n"
+}
