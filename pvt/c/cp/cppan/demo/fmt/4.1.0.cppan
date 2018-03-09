@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.fmt",
-    "cppan": "source:\n    git: https:\/\/github.com\/fmtlib\/fmt\n    tag: 4.1.0\n\nversion: 4.1.0\n\nfiles:\n    -   fmt\/format.*\n    -   fmt\/ostream.*\n\ninclude_directories:\n    public:\n        -   .\n        -   fmt\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   FMT_EXPORT\n            public:\n                -   FMT_SHARED\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/fmtlib\/fmt\n    tag: 4.1.0\n\nversion: 4.1.0\n\nfiles:\n    -   fmt\/format.*\n    -   fmt\/ostream.*\n\ninclude_directories:\n    public:\n        -   fmt\n        -   .\n\noptions:\n    any:\n        definitions:\n            clang:\n                public:\n                    -   FMT_USE_EXTERN_TEMPLATES=0\n    shared:\n        definitions:\n            private:\n                -   FMT_EXPORT\n            public:\n                -   FMT_SHARED\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/fmtlib\/fmt",
@@ -8,6 +8,6 @@
         }
     },
     "version": "4.1.0",
-    "hash": "0949eedfa5df299860cdd544db216b7ddd9d03dc7da8726b288f5d64c16dc071",
-    "created": "2018-02-19 15:56:02.625945"
+    "hash": "261a3599f7aec1c7db379df35ba37193e744dbe3ffc07f04345eb102434f59b0",
+    "created": "2018-03-09 17:26:12.400998"
 }
