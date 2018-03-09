@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.boost.config",
-    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/config\n    commit: 59ea08b918fd3d5587ab0699b7093a28bcde9a24\n\nversion: 1.66.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/include\/boost\/config\/compiler\/visualc.hpp \"BOOST_PRAGMA_MESSAGE\" \"\/\/ BOOST_PRAGMA_MESSAGE\")\n    \n    set(dummy_file ${SDIR}\/autolink.dummy)\n    if (NOT EXISTS ${dummy_file})\n        file_write_once(${SDIR}\/include\/boost\/config\/auto_link.hpp \"\n    #ifdef BOOST_LIB_PREFIX\n    #  undef BOOST_LIB_PREFIX\n    #endif\n    #if defined(BOOST_LIB_NAME)\n    #  undef BOOST_LIB_NAME\n    #endif\n    #if defined(BOOST_LIB_THREAD_OPT)\n    #  undef BOOST_LIB_THREAD_OPT\n    #endif\n    #if defined(BOOST_LIB_RT_OPT)\n    #  undef BOOST_LIB_RT_OPT\n    #endif\n    #if defined(BOOST_LIB_LINK_OPT)\n    #  undef BOOST_LIB_LINK_OPT\n    #endif\n    #if defined(BOOST_LIB_DEBUG_OPT)\n    #  undef BOOST_LIB_DEBUG_OPT\n    #endif\n    #if defined(BOOST_DYN_LINK)\n    #  undef BOOST_DYN_LINK\n    #endif\n        \")\n        file(WRITE ${dummy_file} \"\")\n    endif()\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/config\n    commit: 47c2b0a74ae6b403f21d696b325833aeb09e29c4\n\nversion: 1.66.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\npost_sources: |\n    set(dummy_file ${SDIR}\/autolink.dummy)\n    if (NOT EXISTS ${dummy_file})\n        file_write_once(${SDIR}\/include\/boost\/config\/auto_link.hpp \"\n    #ifdef BOOST_LIB_PREFIX\n    #  undef BOOST_LIB_PREFIX\n    #endif\n    #if defined(BOOST_LIB_NAME)\n    #  undef BOOST_LIB_NAME\n    #endif\n    #if defined(BOOST_LIB_THREAD_OPT)\n    #  undef BOOST_LIB_THREAD_OPT\n    #endif\n    #if defined(BOOST_LIB_RT_OPT)\n    #  undef BOOST_LIB_RT_OPT\n    #endif\n    #if defined(BOOST_LIB_LINK_OPT)\n    #  undef BOOST_LIB_LINK_OPT\n    #endif\n    #if defined(BOOST_LIB_DEBUG_OPT)\n    #  undef BOOST_LIB_DEBUG_OPT\n    #endif\n    #if defined(BOOST_DYN_LINK)\n    #  undef BOOST_DYN_LINK\n    #endif\n        \")\n        file(WRITE ${dummy_file} \"\")\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/boostorg\/config",
-            "commit": "59ea08b918fd3d5587ab0699b7093a28bcde9a24"
+            "commit": "47c2b0a74ae6b403f21d696b325833aeb09e29c4"
         }
     },
     "version": "1.66.0",
-    "hash": "1244b32d459089b5f97a4ecb85f785384fbf6a13bd094facc944bf0bfa5d9abc",
-    "created": "2018-03-09 13:09:04.122191"
+    "hash": "7262098955d5f5aeb3e3baa70f9379e87060978d472c814a57b28e7ea5e444b3",
+    "created": "2018-03-09 13:34:10.898182"
 }
