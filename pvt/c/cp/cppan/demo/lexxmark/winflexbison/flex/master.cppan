@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.lexxmark.winflexbison.flex",
+    "cppan": "source:\n    git: https:\/\/github.com\/lexxmark\/winflexbison\n    branch: master\n\nversion: master\n\nfiles:\n    -   flex\/.*\n\nexclude_from_build:\n    -   flex\/src\/libmain.c\n    -   flex\/src\/libyywrap.c\n\ndependencies:\n    public:\n        pvt.cppan.demo.lexxmark.winflexbison.common:\n            version: master\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/lexxmark\/winflexbison",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "1e2ae0aeb72566212081cf35680505a71cde6a4e41ced2dac3c63cd26541c5d3",
+    "created": "2018-03-13 09:34:49.908855"
+}
