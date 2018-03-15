@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.nlohmann.json",
-    "cppan": "source:\n    git: https:\/\/github.com\/nlohmann\/json\n    tag: v3.1.0\n\nversion: 3.1.0\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/nlohmann\/json\n    tag: v{v}\n\nversion: 3.1.0\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/nlohmann\/json",
-            "tag": "v3.1.0"
+            "tag": "v{v}"
         }
     },
     "version": "3.1.0",
-    "hash": "7402c6409de342d501ed312016d8ef55ccd36e491fc4ba09428432a6f26255d4",
-    "created": "2018-02-02 09:33:20.489322"
+    "hash": "835c7f59c706b918242ad3db3cfd3d2cdd307cb9e6da3ec7fb76c117fb04e9e8",
+    "created": "2018-03-15 20:59:04.826436"
 }

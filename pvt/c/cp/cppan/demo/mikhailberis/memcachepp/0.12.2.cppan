@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mikhailberis.memcachepp",
+    "cppan": "source:\n    git: https:\/\/github.com\/mikhailberis\/memcachepp\n    tag: \"{v}\"\n\nversion: 0.12.2\n\nfiles:\n    -   memcachepp\/.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mikhailberis\/memcachepp",
+            "tag": "{v}"
+        }
+    },
+    "version": "0.12.2",
+    "hash": "9d5b3ee2633907360cf07b52b831680753e2ec237ac530a5ff2a3d73fd448f3f",
+    "created": "2018-03-15 21:02:49.94657"
+}
