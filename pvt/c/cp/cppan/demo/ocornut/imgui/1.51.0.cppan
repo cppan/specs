@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ocornut.imgui",
+    "cppan": "source:\n    git: https:\/\/github.com\/ocornut\/imgui\n    tag: v{M}.{m}\n\nversion: 1.51.0\n\napi_name:\n    -   IMGUI_API\n\nfiles:\n    -   imconfig.h\n    -   imgui.cpp\n    -   imgui.h\n    -   imgui_demo.cpp\n    -   imgui_draw.cpp\n    -   imgui_internal.h\n\noptions:\n    any:\n        link_libraries:\n            win32:\n                public:\n                    -   Opengl32\n\ndependencies:\n    public:\n        pvt.cppan.demo.stb.all:\n            version: master\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ocornut\/imgui",
+            "tag": "v{M}.{m}"
+        }
+    },
+    "version": "1.51.0",
+    "hash": "15e12e8908ad790b1b8180c2beffdf5c0c3b55adf17046e3f122c288e7286d21",
+    "created": "2018-03-16 17:10:55.025798"
+}
