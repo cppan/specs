@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.bearssl",
+    "cppan": "source:\n    git: https:\/\/www.bearssl.org\/git\/BearSSL\n    tag: v{M}.{m}\n\nversion: 0.5.0\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   inc\/.*\n    -   src\/.*\n\ninclude_directories:\n    public:\n        -   inc\n    private:\n        -   src\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/www.bearssl.org\/git\/BearSSL",
+            "tag": "v{M}.{m}"
+        }
+    },
+    "version": "0.5.0",
+    "hash": "4d3f8be55015fba92e5a0e726e9f722641b35155c4a1f9060475c5fda76262ae",
+    "created": "2018-03-17 10:58:30.266077"
+}
