@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.rmartinho.nonius",
-    "cppan": "files: include\/.*\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/libnonius\/nonius\n    branch: devel\n\nversion: devel\n\nfiles:\n    -   include\/.*\n\n",
     "version": "devel",
     "source": {
         "git": {
