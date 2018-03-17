@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.taocpp.pegtl",
+    "cppan": "source:\n    git: https:\/\/github.com\/taocpp\/PEGTL\n    branch: master\n\nversion: master\n\nfiles:\n    -   include\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/taocpp\/PEGTL",
+            "branch": "master"
+        }
+    },
+    "hash": "3d49a0d219fd2c7df82c08dbbecc26db9c4c9089ccf9c3fe02c97218461db4de",
+    "created": "2018-03-17 09:55:04.796486"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.easz.cpp_semver",
+    "cppan": "source:\n    git: https:\/\/github.com\/easz\/cpp-semver\n    branch: master\n\nversion: master\n\ndependencies:\n    public:\n        pvt.cppan.demo.taocpp.pegtl:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/easz\/cpp-semver",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "412720b9875c26ae25fb3feef8171d6ffd3ba225089232a2d098ec41fba121c8",
+    "created": "2018-03-17 09:56:51.635899"
+}
