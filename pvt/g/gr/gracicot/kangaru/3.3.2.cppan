@@ -1,0 +1,13 @@
+{
+    "project": "pvt.gracicot.kangaru",
+    "version": "3.3.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/gracicot\/kangaru.git",
+            "tag": "v3.3.2"
+        }
+    },
+    "hash": "0d3ebcc047374d7c4657f5cbd6d53f5612e4c8b2c3e9d8ac973d2d7928195cab",
+    "created": "2018-03-17 17:16:19.311628",
+    "cppan": "source:\n    git: https:\/\/github.com\/gracicot\/kangaru.git\n    tag: v3.3.2\n\nversion: 3.3.2\n\n"
+}
