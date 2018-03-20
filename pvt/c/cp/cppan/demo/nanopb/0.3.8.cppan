@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.nanopb",
-    "cppan": "source:\n    git: https:\/\/github.com\/nanopb\/nanopb\n    tag: 0.3.8\n\nversion: 0.3.8\n\nstatic_only: true\n\nfiles:\n    -   pb.h\n    -   pb_common.c\n    -   pb_common.h\n    -   pb_decode.c\n    -   pb_decode.h\n    -   pb_encode.c\n    -   pb_encode.h\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/nanopb\/nanopb\n    tag: \"{v}\"\n\nversion: 0.3.8\n\nstatic_only: true\n\nfiles:\n    -   pb.h\n    -   pb_common.c\n    -   pb_common.h\n    -   pb_decode.c\n    -   pb_decode.h\n    -   pb_encode.c\n    -   pb_encode.h\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/nanopb\/nanopb",
-            "tag": "0.3.8"
+            "tag": "{v}"
         }
     },
     "version": "0.3.8",
-    "hash": "0abca7b0d80e572baabb1b2627218bec763b4584fd746922827a15a0b776bf57",
-    "created": "2017-03-27 14:35:23.053895"
+    "hash": "c494a9fb3eb5bfee91d9d8c91ef3a8719f58d777f2d366953f55fd428a26fb79",
+    "created": "2018-03-20 11:03:40.1326"
 }
