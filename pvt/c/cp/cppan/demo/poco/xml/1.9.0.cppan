@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.poco.xml",
+    "version": "1.9.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/pocoproject\/poco\n    tag: poco-{v}-release\n\nversion: 1.9.0\n\nlicense: LICENSE\n\nfiles:\n    -   XML\/include\/.*\n    -   XML\/src\/.*\n    -   cmake\/PocoMacros.cmake\n\nexclude_from_build:\n    -   XML\/src\/xmlparse.cpp\n    -   XML\/src\/xmlrole.c\n    -   XML\/src\/xmltok.c\n    -   XML\/src\/xmltok_impl.c\n    -   XML\/src\/xmltok_ns.c\n\ninclude_directories:\n    public:\n        -   XML\/include\n    private:\n        -   XML\/src\n\noptions:\n    any:\n        definitions:\n            public:\n                -   POCO_NO_AUTOMATIC_LIBS\n                -   POCO_UNBUNDLED\n    shared:\n        definitions:\n            private:\n                -   XML_EXPORTS\n            public:\n                -   POCO_DLL\n    static:\n        definitions:\n            public:\n                -   POCO_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.expat:\n            version: 2\n        pvt.cppan.demo.poco.foundation:\n            version: \"*\"\n\npost_sources: |\n    include(${SDIR}\/cmake\/PocoMacros.cmake)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pocoproject\/poco",
+            "tag": "poco-{v}-release"
+        }
+    },
+    "hash": "d8be5c97f09bf68ec04215a89f984d5301a4e697eb587f1e48c22b23a14764bb",
+    "created": "2018-03-22 22:12:18.378348"
+}

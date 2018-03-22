@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.poco.zip",
+    "version": "1.9.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/pocoproject\/poco\n    tag: poco-{v}-release\n\nversion: 1.9.0\n\nlicense: LICENSE\n\nfiles:\n    -   Zip\/include\/.*\n    -   Zip\/src\/.*\n    -   cmake\/PocoMacros.cmake\n\ninclude_directories:\n    public:\n        -   Zip\/include\n    private:\n        -   Zip\/src\n\noptions:\n    any:\n        definitions:\n            public:\n                -   POCO_NO_AUTOMATIC_LIBS\n                -   POCO_UNBUNDLED\n    shared:\n        definitions:\n            private:\n                -   Zip_EXPORTS\n            public:\n                -   POCO_DLL\n    static:\n        definitions:\n            public:\n                -   POCO_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.poco.util:\n            version: \"*\"\n\npost_sources: |\n    include(${SDIR}\/cmake\/PocoMacros.cmake)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/pocoproject\/poco",
+            "tag": "poco-{v}-release"
+        }
+    },
+    "hash": "df2deee4d852ea2074eb1a905d82f220c42126eb560ebb0f256205ed68f3817b",
+    "created": "2018-03-22 22:12:15.186298"
+}
