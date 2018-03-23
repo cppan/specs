@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tartanllama.expected",
+    "cppan": "source:\n    git: https:\/\/github.com\/TartanLlama\/expected\n    branch: master\n\nversion: master\n\nfiles:\n    -   tl\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/TartanLlama\/expected",
+            "branch": "master"
+        }
+    },
+    "hash": "460e798e53c098a656526740511dd1944f878fc6a39b5c98d064bb3ab83c7593",
+    "created": "2018-03-23 20:05:25.450055"
+}
