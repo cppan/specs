@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jbeder.yaml_cpp",
+    "cppan": "source:\n    git: https:\/\/github.com\/jbeder\/yaml-cpp\n    tag: yaml-cpp-{v}\n\nversion: 0.6.2\n\nc++: 11\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   yaml_cpp_EXPORTS\n            public:\n                -   YAML_CPP_DLL\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jbeder\/yaml-cpp",
+            "tag": "yaml-cpp-{v}"
+        }
+    },
+    "version": "0.6.2",
+    "hash": "a9b6369ec39db65d09af56947b5f4e76ec4a48b9872d7f9c634bd675ed11d784",
+    "created": "2018-03-24 18:17:56.294164"
+}
