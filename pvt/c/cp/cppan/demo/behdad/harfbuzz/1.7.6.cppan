@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.behdad.harfbuzz",
+    "cppan": "source:\n    git: https:\/\/github.com\/behdad\/harfbuzz\n    tag: \"{v}\"\n\nversion: 1.7.6\n\ntype: library\n\nfiles:\n    -   src\/[^\/]*\\.c\n    -   src\/[^\/]*\\.cc\n    -   src\/[^\/]*\\.h\n    -   src\/[^\/]*\\.hh\n    -   src\/[^\/]*\\.rl\n    -   src\/[^\/]*\\.tmpl\n    -   src\/hb-version.h.in\n\nexclude_from_package:\n    -   src\/dump.*\n    -   src\/main.cc\n    -   src\/test.*\n\nexclude_from_build:\n    -   src\/hb-coretext.cc\n    -   src\/hb-directwrite.cc\n    -   src\/hb-gobject-enums.cc\n    -   src\/hb-gobject-structs.cc\n    -   src\/hb-graphite2.cc\n    -   src\/hb-uniscribe.cc\n\noptions:\n    any:\n        definitions:\n            private:\n                -   HAVE_CAIRO\n                -   HAVE_CAIRO_FT\n                -   HAVE_FALLBACK\n                -   HAVE_FREETYPE\n                -   HAVE_GLIB\n                -   HAVE_ICU\n                -   HAVE_OT\n    shared:\n        definitions:\n            interface:\n                -   HD_EXTERN=${CPPAN_IMPORT}\n            private:\n                -   HB_EXTERN=${CPPAN_EXPORT}\n\ndependencies:\n    public:\n        pvt.cppan.demo.ragel:\n            version: 6\n        pvt.cppan.demo.freetype:\n            version: 2\n        pvt.cppan.demo.cairographics.cairo:\n            version: 1\n        pvt.cppan.demo.gnome.glib.glib:\n            version: 2\n        pvt.cppan.demo.grigorig.ucdn:\n            version: master\n        pvt.cppan.demo.unicode.icu.i18n:\n            version: \"*\"\n\npost_sources: |\n    set(HB_VERSION_MAJOR ${PACKAGE_VERSION_MAJOR})\n    set(HB_VERSION_MINOR ${PACKAGE_VERSION_MINOR})\n    set(HB_VERSION_MICRO ${PACKAGE_VERSION_PATCH})\n    configure_file(${SDIR}\/src\/hb-version.h.in ${BDIR}\/hb-version.h @ONLY)\n    \n    macro(ragel f)\n        add_custom_command(OUTPUT ${BDIR}\/${f}.hh\n            COMMAND pvt.cppan.demo.ragel ${SDIR}\/src\/${f}.rl -o ${BDIR}\/${f}.hh\n        )\n        set(src ${src} ${BDIR}\/${f}.hh)\n    endmacro(ragel)\n    \n    ragel(hb-buffer-deserialize-json)\n    ragel(hb-buffer-deserialize-text)\n    ragel(hb-ot-shape-complex-indic-machine)\n    ragel(hb-ot-shape-complex-khmer-machine)\n    ragel(hb-ot-shape-complex-myanmar-machine)\n    ragel(hb-ot-shape-complex-use-machine)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/behdad\/harfbuzz",
+            "tag": "{v}"
+        }
+    },
+    "version": "1.7.6",
+    "hash": "65122cafe47ab2c43d2279f74ad64137f426697fd5b1bfb57df4f3358f08a0ca",
+    "created": "2018-03-24 10:03:54.275433"
+}
