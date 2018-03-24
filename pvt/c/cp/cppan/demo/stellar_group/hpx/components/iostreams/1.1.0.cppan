@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.stellar_group.hpx.components.iostreams",
+    "version": "1.1.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/STEllAR-GROUP\/hpx\n    tag: \"{v}\"\n\nversion: 1.1.0\n\ntype: library\n\nfiles:\n    -   src\/components\/iostreams\/.*\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/bigobj\n    shared:\n        definitions:\n            private:\n                -   HPX_COMPONENT_EXPORTS\n                -   HPX_IOSTREAMS_MODULE_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.stellar_group.hpx.hpx:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/STEllAR-GROUP\/hpx",
+            "tag": "{v}"
+        }
+    },
+    "hash": "2ed11ffa4fef3bfdd0a2fe2190d51aff22f84b74a38603a087ebdf41214786bf",
+    "created": "2018-03-24 22:18:12.277864"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.stellar_group.hpx.plugins.binary_filter.snappy",
+    "version": "1.1.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/STEllAR-GROUP\/hpx\n    tag: \"{v}\"\n\nversion: 1.1.0\n\ntype: library\n\nfiles:\n    -   plugins\/binary_filter\/snappy\/.*\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/bigobj\n    shared:\n        definitions:\n            private:\n                -   HPX_LIBRARY_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.stellar_group.hpx.hpx:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/STEllAR-GROUP\/hpx",
+            "tag": "{v}"
+        }
+    },
+    "hash": "a0707bbf710211abfc84e0910787b3f0c5bffd22cbc170202008f851000c8d60",
+    "created": "2018-03-24 22:18:38.557428"
+}

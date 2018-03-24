@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.stellar_group.hpx.components.containers.unordered",
+    "version": "1.1.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/STEllAR-GROUP\/hpx\n    tag: \"{v}\"\n\nversion: 1.1.0\n\ntype: library\n\nfiles:\n    -   src\/components\/containers\/unordered\/.*\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/bigobj\n    shared:\n        definitions:\n            private:\n                -   HPX_COMPONENT_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.stellar_group.hpx.hpx:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/STEllAR-GROUP\/hpx",
+            "tag": "{v}"
+        }
+    },
+    "hash": "34fb305106b8980a1adca8a7e1440acbb003b291e5a57ee6b4022e985f0f3aa7",
+    "created": "2018-03-24 22:18:08.357656"
+}
