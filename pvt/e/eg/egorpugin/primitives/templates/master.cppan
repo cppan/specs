@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: templates\n\ntype: library\n\nroot_directory: templates\n\nc++: 17\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: templates\n\ntype: library\n\nroot_directory: templates\n\nc++: 17\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\n",
     "created": "2017-03-03 18:58:39.667709",
     "hash": "95e1e146a7e93e7305b91bee155eb2c29170a819c9b3b2f7faedb524919e8a6a"
 }
