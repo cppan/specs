@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpc_common",
+    "version": "1.11.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    branch: master\n\nversion: 1.11.0\n\ntype: library\n\ncustom: true\n\nstatic_only: true\n\nheader_only: false\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_common\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_message_size_filter:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_resolver_fake:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.census:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_resolver_sockaddr:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_workaround_cronet_compression_filter:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_resolver_dns_native:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_transport_chttp2_server_insecure:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_base:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_lb_policy_pick_first:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_max_age_filter:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_server_load_reporting:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_transport_chttp2_client_insecure:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_deadline_filter:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_transport_inproc:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_server_backward_compatibility:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_lb_policy_round_robin:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_resolver_dns_ares:\n            version: \"*\"\n\npre_sources: |\n    file_write_once(${SDIR}\/dummy.c \"\")\n\npost_sources: |\n    set(src ${src} ${o} ${SDIR}\/dummy.c)\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "branch": "master"
+        }
+    },
+    "hash": "a63ef9414e4c74704eaab6e4b89390c5a698dd92f6197727ad48ee5e62bf5e97",
+    "created": "2018-03-25 22:27:21.359319"
+}

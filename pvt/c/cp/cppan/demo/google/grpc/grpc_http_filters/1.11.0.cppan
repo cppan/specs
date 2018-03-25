@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpc_http_filters",
+    "version": "1.11.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    branch: master\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_http_filters\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_base:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "branch": "master"
+        }
+    },
+    "hash": "580aa76b0f53c706cf7bbea8a73aed621ce3f7571b70d35cbfef4f7c3343cd9d",
+    "created": "2018-03-25 22:27:39.321232"
+}

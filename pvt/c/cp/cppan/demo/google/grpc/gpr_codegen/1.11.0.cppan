@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.gpr_codegen",
+    "version": "1.11.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    branch: master\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   .\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   _WIN32_WINNT=0x0600\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "branch": "master"
+        }
+    },
+    "hash": "4d03e9923059f236a9b439943499309fd29480ec2ef375ed0936d2d43e17f26d",
+    "created": "2018-03-25 22:26:13.934517"
+}
