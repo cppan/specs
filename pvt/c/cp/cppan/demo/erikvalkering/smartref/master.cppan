@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.erikvalkering.smartref",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/erikvalkering\/smartref",
+            "branch": "master"
+        }
+    },
+    "hash": "2aea62cbebe46d6fbb3cc2a2f0e2c59b837fc1397033cfab7eb6f26f11bcd05d",
+    "created": "2018-03-27 20:46:53.616292",
+    "cppan": "source:\n    git: https:\/\/github.com\/erikvalkering\/smartref\n    branch: master\n\nversion: master\n\n"
+}

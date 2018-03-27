@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.rttrorg.rttr",
+    "cppan": "source:\n    git: https:\/\/github.com\/rttrorg\/rttr\n    tag: v{v}\n\nversion: 0.9.5\n\ntype: library\n\nroot_directory: src\n\nfiles:\n    -   rttr\/.*\n\ninclude_directories:\n    public:\n        -   rttr\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   RTTR_DLL_EXPORTS\n            public:\n                -   RTTR_DLL\n\npost_sources: |\n    set(LIBRARY_VERSION_MAJOR ${PACKAGE_VERSION_MAJOR})\n    set(LIBRARY_VERSION_MINOR ${PACKAGE_VERSION_MAJOR})\n    set(LIBRARY_VERSION_PATCH ${PACKAGE_VERSION_MAJOR})\n    set(LIBRARY_VERSION_CALC ${PACKAGE_VERSION_MAJOR})\n    set(LIBRARY_VERSION_STR ${PACKAGE_VERSION})\n    configure_file(${SDIR}\/rttr\/detail\/base\/version.h.in ${BDIR}\/rttr\/detail\/base\/version.h)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/rttrorg\/rttr",
+            "tag": "v{v}"
+        }
+    },
+    "version": "0.9.5",
+    "hash": "6dc3bcfe0a34d98d16638cb8cec726de2d44446e4e9acb6604847ecc4a7cd2fc",
+    "created": "2018-03-27 20:48:34.816738"
+}
