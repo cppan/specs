@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.testxxx",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nc++: 17\n\nfiles:\n    -   main.cpp\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.date_time:\n            version: \"*\"\n        pvt.egorpugin.primitives.command:\n            version: \"*\"\n        pvt.egorpugin.primitives.yaml:\n            version: \"*\"\n        pvt.egorpugin.primitives.hash:\n            version: \"*\"\n        pvt.egorpugin.primitives.executor:\n            version: \"*\"\n        pvt.egorpugin.primitives.db.sqlite3:\n            version: \"*\"\n        pvt.cppan.demo.philsquared.catch:\n            version: 1\n\n",
+    "hash": "0de497e968ee64384c3de13c4c5dd49a342170d3343e6a08099adba06e2b24e9",
+    "created": "2018-03-31 23:18:20.282614"
+}

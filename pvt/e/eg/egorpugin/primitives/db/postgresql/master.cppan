@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.db.postgresql",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: db\/postgresql\n\nc++: 17\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.db.common:\n            version: \"*\"\n        pvt.cppan.demo.jtv.pqxx:\n            version: \"*\"\n\n",
+    "hash": "bf9ffae77f528357d6f86fc419588cba3860e1361bf1e210efe6c1da5082f37b",
+    "created": "2018-03-31 23:17:50.077137"
+}
