@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.old.executor_io",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: executor_io\n\ntype: library\n\nroot_directory: src\/executor_io\n\nc++: 17\n\nstatic_only: true\n\nskip_on_server: true\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   _WIN32_WINNT=0x0601\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.asio:\n            version: 1\n        pvt.cppan.demo.boost.system:\n            version: 1\n\n",
+    "hash": "17faa7521f690df8c59493c9eba7893728b6f6e9dbf0198a7fc36e560bc315f9",
+    "created": "2018-04-01 17:15:24.598617"
+}
