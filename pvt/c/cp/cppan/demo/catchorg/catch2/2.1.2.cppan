@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.catchorg.catch2",
+    "cppan": "source:\n    git: https:\/\/github.com\/catchorg\/Catch2\n    tag: v{v}\n\nversion: 2.1.2\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/catchorg\/Catch2",
+            "tag": "v{v}"
+        }
+    },
+    "version": "2.1.2",
+    "hash": "0416cac3af84e95e41b487fb22cc40b1f6feace59b14326dbd06431fb9cd7dd0",
+    "created": "2018-04-01 15:12:14.144568"
+}
