@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.gnu.gss",
-    "cppan": "source:\n    remote: http:\/\/ftp.gnu.org\/gnu\/gss\/gss-1.0.3.tar.gz\n\nversion: 1.0.3\n\nname: gss\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   lib\/[^\/]*\\.c\n    -   lib\/[^\/]*\\.h\n    -   lib\/gl\/strverscmp.c\n    -   lib\/headers\/.*\\.h\n\nexclude_from_build:\n    -   lib\/gl\/strverscmp.c\n\ninclude_directories:\n    public:\n        -   lib\/headers\n\noptions:\n    any:\n        definitions:\n            public:\n                -   PO_SUFFIX=\".po\"\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.gettext.intl:\n            version: \"*\"\n\npost_sources: |\n    file_write_once(${BDIR}\/config.h \"\")\n    \n    push_front_to_file_once(${SDIR}\/lib\/version.c \"\n        #include \\\"gl\/strverscmp.c\\\"\n        #define strverscmp __strverscmp\n    \")\n\n",
+    "cppan": "source:\n    remote: http:\/\/ftp.gnu.org\/gnu\/gss\/gss-1.0.3.tar.gz\n\nversion: 1.0.3\n\nname: gss\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   lib\/[^\/]*\\.c\n    -   lib\/[^\/]*\\.h\n    -   lib\/gl\/strverscmp.c\n    -   lib\/headers\/.*\\.h\n\nexclude_from_build:\n    -   lib\/gl\/strverscmp.c\n\ninclude_directories:\n    public:\n        -   lib\/headers\n\noptions:\n    any:\n        definitions:\n            public:\n                -   PO_SUFFIX=\".po\"\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.gettext.intl:\n            version: \"*\"\n\npost_sources: |\n    file_write_once(${BDIR_PRIVATE}\/config.h \"\")\n    \n    execute_process(COMMAND ${CMAKE_COMMAND} -E copy_if_different ${SDIR}\/lib\/headers\/gss\/api.h ${BDIR}\/gssapi.h)\n    execute_process(COMMAND ${CMAKE_COMMAND} -E copy_if_different ${SDIR}\/lib\/headers\/gss\/ext.h ${BDIR}\/gssext.h)\n    execute_process(COMMAND ${CMAKE_COMMAND} -E copy_if_different ${SDIR}\/lib\/headers\/gss\/krb5.h ${BDIR}\/krb5.h)\n    execute_process(COMMAND ${CMAKE_COMMAND} -E copy_if_different ${SDIR}\/lib\/headers\/gss\/krb5-ext.h ${BDIR}\/krb5-ext.h)\n    \n    push_front_to_file_once(${SDIR}\/lib\/version.c \"\n        #include \\\"gl\/strverscmp.c\\\"\n        #define strverscmp __strverscmp\n    \")\n\n",
     "source": {
         "remote": {
             "url": "http:\/\/ftp.gnu.org\/gnu\/gss\/gss-1.0.3.tar.gz"
         }
     },
     "version": "1.0.3",
-    "created": "2017-03-01 17:10:33.89086",
-    "hash": "c0cae51cc299671931928f4e356715a305ff70c627049dbc122f4cf090d5c6ab"
+    "hash": "9d8b0ef9283d50c7dcd61773d77d238736015bba67d53b09c45b1449a758110c",
+    "created": "2018-04-02 18:17:02.93684"
 }
