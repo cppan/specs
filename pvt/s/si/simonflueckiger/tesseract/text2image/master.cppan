@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.text2image",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/boxchar.cpp\n    -   training\/boxchar.h\n    -   training\/degradeimage.cpp\n    -   training\/degradeimage.h\n    -   training\/icuerrorcode.h\n    -   training\/ligature_table.cpp\n    -   training\/ligature_table.h\n    -   training\/normstrngs.cpp\n    -   training\/normstrngs.h\n    -   training\/pango_font_info.cpp\n    -   training\/pango_font_info.h\n    -   training\/stringrenderer.cpp\n    -   training\/stringrenderer.h\n    -   training\/text2image.cpp\n    -   training\/tlog.cpp\n    -   training\/tlog.h\n    -   training\/util.h\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.pango.pangocairo:\n            version: 1\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "9d1115bf76576f02f9571bdbec896a6eb4ff25e9b7b18aa5df2fd1e630b48161",
+    "created": "2018-04-03 23:01:21.772039"
+}

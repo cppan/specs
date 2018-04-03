@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.lstmeval",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/lstmeval.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "1ddb6430d52b16e9a399fe0870bf6500572871aa2d56562302e6484848aababd",
+    "created": "2018-04-03 23:00:46.515726"
+}
