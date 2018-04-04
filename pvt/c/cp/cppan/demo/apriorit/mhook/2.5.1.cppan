@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.apriorit.mhook",
+    "cppan": "source:\n    git: https:\/\/github.com\/apriorit\/mhook\n    tag: \"{v}\"\n\nversion: 2.5.1\n\nfiles:\n    -   disasm-lib\/.*\n    -   mhook-lib\/.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/apriorit\/mhook",
+            "tag": "{v}"
+        }
+    },
+    "version": "2.5.1",
+    "hash": "ee82437144772c2261d0d7b747b2eb72d983cf66b015155fa46f27cfd763cce6",
+    "created": "2018-04-04 15:21:54.295301"
+}

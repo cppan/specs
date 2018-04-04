@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.matt_42.moustique",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/matt-42\/moustique",
+            "branch": "master"
+        }
+    },
+    "hash": "ff1ef4e1365cbe0259cc631fb2c3bc436537d74c9d0f2e651b977061c903b2f9",
+    "created": "2018-04-04 15:15:36.94055",
+    "cppan": "source:\n    git: https:\/\/github.com\/matt-42\/moustique\n    branch: master\n\nversion: master\n\n"
+}
