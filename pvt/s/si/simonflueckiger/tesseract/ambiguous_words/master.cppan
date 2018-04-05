@@ -3,11 +3,11 @@
     "version": "master",
     "source": {
         "git": {
-            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "url": "https:\/\/github.com\/simonflueckiger\/tesseract",
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/ambiguous_words.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
-    "hash": "3fcad64d44d34996ff0a9a453da73d3211683b27f97744b4a92d264612f3dd37",
-    "created": "2018-04-03 22:59:59.907642"
+    "cppan": "source:\n    git: https:\/\/github.com\/simonflueckiger\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/ambiguous_words.cpp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "cf23ec110907bdfd122a5c451a0047ebaadefce3e17a42b8bed3035f127256b4",
+    "created": "2018-04-04 23:46:25.027977"
 }

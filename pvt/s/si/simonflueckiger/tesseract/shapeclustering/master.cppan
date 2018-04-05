@@ -3,11 +3,11 @@
     "version": "master",
     "source": {
         "git": {
-            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "url": "https:\/\/github.com\/simonflueckiger\/tesseract",
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/shapeclustering.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
-    "hash": "5251065b2ae123fb427cc0815060e08960f7bea8ecec39fc91d38b8a6b5f319c",
-    "created": "2018-04-03 23:01:07.930371"
+    "cppan": "source:\n    git: https:\/\/github.com\/simonflueckiger\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/shapeclustering.cpp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "34db189d2f24d48308b362b226927d1bc508abea003cf1c0efc41198ff50f76a",
+    "created": "2018-04-04 23:47:17.014293"
 }

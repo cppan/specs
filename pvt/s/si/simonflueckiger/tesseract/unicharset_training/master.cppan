@@ -3,11 +3,11 @@
     "version": "master",
     "source": {
         "git": {
-            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "url": "https:\/\/github.com\/simonflueckiger\/tesseract",
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/fileio.*\n    -   training\/icuerrorcode.h\n    -   training\/lang_model_helpers.*\n    -   training\/lstmtester.*\n    -   training\/normstrngs.*\n    -   training\/unicharset_training_utils.*\n    -   training\/validat.*\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.i18n:\n            version: \"*\"\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
-    "hash": "0224750543b78514f3f265dc44b9821b348d1992ac11655bab1a1a68fb1636ef",
-    "created": "2018-04-03 23:01:31.194384"
+    "cppan": "source:\n    git: https:\/\/github.com\/simonflueckiger\/tesseract\n    branch: master\n\nversion: master\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/fileio.*\n    -   training\/icuerrorcode.h\n    -   training\/lang_model_helpers.*\n    -   training\/lstmtester.*\n    -   training\/normstrngs.*\n    -   training\/unicharset_training_utils.*\n    -   training\/validat.*\n\ninclude_directories:\n    public:\n        -   training\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.i18n:\n            version: \"*\"\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "ef8de15ca60b7d490d88b39a0c359892fbe12b8f825fb850453c5c3da5714bcb",
+    "created": "2018-04-04 23:47:37.528869"
 }

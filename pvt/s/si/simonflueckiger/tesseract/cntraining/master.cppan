@@ -3,11 +3,11 @@
     "version": "master",
     "source": {
         "git": {
-            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "url": "https:\/\/github.com\/simonflueckiger\/tesseract",
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/cntraining.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
-    "hash": "a256c5c79459e216e34223eed4df662595d4076215dbede62f26cad3cbd6167b",
-    "created": "2018-04-03 23:00:15.905356"
+    "cppan": "source:\n    git: https:\/\/github.com\/simonflueckiger\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/cntraining.cpp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "87f6436291539a352ec09ac10d8250d1a053802b40aeb30e80dcb3d423e319c7",
+    "created": "2018-04-04 23:46:32.814257"
 }
