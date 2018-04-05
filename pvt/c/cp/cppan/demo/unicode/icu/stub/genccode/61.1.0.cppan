@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.stub.genccode",
+    "version": "61.1.0",
+    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.tgz\n\nversion: 61.1.0\n\nroot_directory: source\n\nc++: 11\n\nfiles:\n    -   tools\/genccode\/.*\\.c\n\noptions:\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.toolutil:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.tgz"
+        }
+    },
+    "hash": "683d9a65ca03c97a6296d73c4001375c2c67f12a25b6b4d7134e66696c9335ff",
+    "created": "2018-04-05 22:53:48.597706"
+}
