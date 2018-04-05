@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.unicharset_training",
+    "version": "c40f43111e05b3dd2f2f8aeae3aba33016523c881",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "commit": "40f43111e05b3dd2f2f8aeae3aba33016523c881"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: 40f43111e05b3dd2f2f8aeae3aba33016523c881\n\nversion: c40f43111e05b3dd2f2f8aeae3aba33016523c881\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/fileio.*\n    -   training\/icuerrorcode.h\n    -   training\/lang_model_helpers.*\n    -   training\/lstmtester.*\n    -   training\/normstrngs.*\n    -   training\/unicharset_training_utils.*\n    -   training\/validat.*\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.i18n:\n            version: \"*\"\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "dde5de577020563b5db9a7e5a62202c5144d775f5451e9d3f3b36a381925cb35",
+    "created": "2018-04-05 18:46:10.297108"
+}

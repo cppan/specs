@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.set_unicharset_properties",
+    "version": "c40f43111e05b3dd2f2f8aeae3aba33016523c881",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "commit": "40f43111e05b3dd2f2f8aeae3aba33016523c881"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: 40f43111e05b3dd2f2f8aeae3aba33016523c881\n\nversion: c40f43111e05b3dd2f2f8aeae3aba33016523c881\n\nc++: 11\n\nfiles:\n    -   training\/set_unicharset_properties.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "d19dfb08b33ba05f0baa2028a53442d0641bc41c76c8e3e32ed98cbb14afb4a7",
+    "created": "2018-04-05 18:45:38.661707"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.common_training",
+    "version": "c40f43111e05b3dd2f2f8aeae3aba33016523c881",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "commit": "40f43111e05b3dd2f2f8aeae3aba33016523c881"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: 40f43111e05b3dd2f2f8aeae3aba33016523c881\n\nversion: c40f43111e05b3dd2f2f8aeae3aba33016523c881\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/commandlineflags.cpp\n    -   training\/commandlineflags.h\n    -   training\/commontraining.cpp\n    -   training\/commontraining.h\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.tessopt:\n            version: \"*\"\n\n",
+    "hash": "2924d2ed836350527d952b0da7c5d56cab3fec8e78942bd8c6b462ce285ff261",
+    "created": "2018-04-05 18:45:08.008047"
+}
