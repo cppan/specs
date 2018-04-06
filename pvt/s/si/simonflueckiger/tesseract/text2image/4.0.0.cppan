@@ -2,6 +2,6 @@
     "project": "pvt.simonflueckiger.tesseract.text2image",
     "version": "4.0.0",
     "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/boxchar.cpp\n    -   training\/boxchar.h\n    -   training\/degradeimage.cpp\n    -   training\/degradeimage.h\n    -   training\/icuerrorcode.h\n    -   training\/ligature_table.cpp\n    -   training\/ligature_table.h\n    -   training\/normstrngs.cpp\n    -   training\/normstrngs.h\n    -   training\/pango_font_info.cpp\n    -   training\/pango_font_info.h\n    -   training\/stringrenderer.cpp\n    -   training\/stringrenderer.h\n    -   training\/text2image.cpp\n    -   training\/tlog.cpp\n    -   training\/tlog.h\n    -   training\/util.h\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.pango.pangocairo:\n            version: 1\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "hash": "cf9ca16c48581e95577b35f7b9b6a9de3effc116fbe8646e48ec0c4d57b6f051",
-    "created": "2018-04-06 11:06:25.06404"
+    "hash": "26f74258dccb751b7b31bf55c0f536f3f5abd88e6e47be7ffdd77ab0f997f712",
+    "created": "2018-04-06 12:05:13.656042"
 }

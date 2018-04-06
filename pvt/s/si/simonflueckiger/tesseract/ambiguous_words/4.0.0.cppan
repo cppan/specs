@@ -2,6 +2,6 @@
     "project": "pvt.simonflueckiger.tesseract.ambiguous_words",
     "version": "4.0.0",
     "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/ambiguous_words.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
-    "hash": "f681d6aa4f4a64ae834e906c56f9bbfdb963e25339dcbf35ac504c329adf3972",
-    "created": "2018-04-06 11:05:06.224768"
+    "hash": "74bd9b4483b964542354360370e28bc6fc2632af08342c3e1162e4437496c9e1",
+    "created": "2018-04-06 12:04:04.384841"
 }

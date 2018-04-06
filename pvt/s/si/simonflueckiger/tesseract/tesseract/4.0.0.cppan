@@ -2,6 +2,6 @@
     "project": "pvt.simonflueckiger.tesseract.tesseract",
     "version": "4.0.0",
     "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   api\/tesseractmain.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
-    "hash": "7da439840a9ecf6aec555cd6b42b16d756c135896392ad3a1d67c27e6e540353",
-    "created": "2018-04-06 11:06:14.951344"
+    "hash": "db45624591e76c3fc6a5ddb8fb6fd7ab2da8e094a3ed1fdf473bedb21d146692",
+    "created": "2018-04-06 12:05:01.912057"
 }

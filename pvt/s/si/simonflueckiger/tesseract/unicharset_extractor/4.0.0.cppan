@@ -2,6 +2,6 @@
     "project": "pvt.simonflueckiger.tesseract.unicharset_extractor",
     "version": "4.0.0",
     "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/unicharset_extractor.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "hash": "a1c012ec4c1feed51c953d0ed161abe4a4b7f579af5c74d0c6a7fa180ddee1d3",
-    "created": "2018-04-06 11:06:30.340041"
+    "hash": "ce5d638059731317e3e84313c7066ea97b9aad637e162217e5a9b6dad8980d9d",
+    "created": "2018-04-06 12:05:18.152134"
 }

@@ -2,6 +2,6 @@
     "project": "pvt.simonflueckiger.tesseract.set_unicharset_properties",
     "version": "4.0.0",
     "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/set_unicharset_properties.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "hash": "44cb314c83d19d583bf4516853aa30f4781df21481316413dc3f5c29ae47cdae",
-    "created": "2018-04-06 11:06:04.872042"
+    "hash": "91238602357299b9dcc41fc8df894bbff8c434bc39dccb9daf32b7792ff16b03",
+    "created": "2018-04-06 12:04:53.451286"
 }

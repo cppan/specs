@@ -2,6 +2,6 @@
     "project": "pvt.simonflueckiger.tesseract.classifier_tester",
     "version": "4.0.0",
     "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/classifier_tester.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
-    "hash": "7e32a67f5658b89b1bfbdcf8da7e4392c0a8c1f8fc0ec1e77c8ba5864586db3e",
-    "created": "2018-04-06 11:05:12.110452"
+    "hash": "db7919427ceeee0d423e5d760a823e470f6c966dfe1426e91081737cac0575d9",
+    "created": "2018-04-06 12:04:09.544039"
 }

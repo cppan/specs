@@ -2,6 +2,6 @@
     "project": "pvt.simonflueckiger.tesseract.lstmtraining",
     "version": "4.0.0",
     "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/lstmtraining.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "hash": "e971e89146aee011a8d48f7f2f913a2343bea8a5cd9001566f2045f0696196ac",
-    "created": "2018-04-06 11:05:53.676038"
+    "hash": "5500e5940cde6a660faf5e637e2dda87bc253da2f97078941d136f49f04c6268",
+    "created": "2018-04-06 12:04:44.900051"
 }

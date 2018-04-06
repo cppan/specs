@@ -2,6 +2,6 @@
     "project": "pvt.simonflueckiger.tesseract.combine_lang_model",
     "version": "4.0.0",
     "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/combine_lang_model.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "hash": "5e795b3e52cbb3f19dbc591fd79b36bd6b2d0d779797626fe00acd1d5fddea91",
-    "created": "2018-04-06 11:05:22.42407"
+    "hash": "023046738fd4bbac57787b733dc700bfd9a1d551b02752af31134efdcc76e468",
+    "created": "2018-04-06 12:04:18.100066"
 }
