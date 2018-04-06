@@ -1,0 +1,7 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.tessopt",
+    "version": "4.0.0",
+    "cppan": "version: 4.0.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/tessopt.*\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "e07ee6137f6427cfff9f97eac070abdb34049c813dc16774cd4f2dc3b5ef57cb",
+    "created": "2018-04-06 11:06:20.034228"
+}

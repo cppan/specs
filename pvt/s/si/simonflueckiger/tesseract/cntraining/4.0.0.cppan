@@ -1,0 +1,7 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.cntraining",
+    "version": "4.0.0",
+    "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/cntraining.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "c6bcd9e7e38df56c4c6e59c84dd16f6f1daf97730b91957242bd1a2b5d5e82bf",
+    "created": "2018-04-06 11:05:17.39204"
+}

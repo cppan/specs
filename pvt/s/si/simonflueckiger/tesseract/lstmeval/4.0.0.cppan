@@ -1,0 +1,7 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.lstmeval",
+    "version": "4.0.0",
+    "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/lstmeval.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "32f75a1893e8473a9fddb635ba58da136752114b24d7741675516bb43aa293ba",
+    "created": "2018-04-06 11:05:48.890447"
+}

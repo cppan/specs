@@ -1,0 +1,7 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.common_training",
+    "version": "4.0.0",
+    "cppan": "version: 4.0.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/commandlineflags.cpp\n    -   training\/commandlineflags.h\n    -   training\/commontraining.cpp\n    -   training\/commontraining.h\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.tessopt:\n            version: \"*\"\n\n",
+    "hash": "c34238584f7ee42a5d343c77b928f5ef1e6f65ada47963d7918938bdfff7ddd8",
+    "created": "2018-04-06 11:05:32.219445"
+}

@@ -1,0 +1,7 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.mftraining",
+    "version": "4.0.0",
+    "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/mergenf.*\n    -   training\/mftraining.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "5bfa4b6e90837da5e81525de1933a9788f8fefd3fd5e2b8669843f5948e4b290",
+    "created": "2018-04-06 11:05:58.618594"
+}

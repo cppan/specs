@@ -1,0 +1,7 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.dawg2wordlist",
+    "version": "4.0.0",
+    "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/dawg2wordlist.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "b5576263a9c8883513ea7d00c9ad8c92e4158e7cd37aaee8875d136d0b9bb806",
+    "created": "2018-04-06 11:05:37.370323"
+}

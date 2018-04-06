@@ -1,0 +1,7 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.shapeclustering",
+    "version": "4.0.0",
+    "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/shapeclustering.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "0045c1d9d3d52fff73cad83254673795b6e3c9094129bcb2c091944ef344c72c",
+    "created": "2018-04-06 11:06:09.830291"
+}

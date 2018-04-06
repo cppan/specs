@@ -1,0 +1,7 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.combine_tessdata",
+    "version": "4.0.0",
+    "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/combine_tessdata.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "8955da97799e68f15d23f48ec5df28e3d5a550609da95ab1dcaba65fd2cae445",
+    "created": "2018-04-06 11:05:27.404038"
+}

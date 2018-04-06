@@ -1,0 +1,7 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.unicharset_training",
+    "version": "4.0.0",
+    "cppan": "version: 4.0.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/fileio.*\n    -   training\/icuerrorcode.h\n    -   training\/lang_model_helpers.*\n    -   training\/lstmtester.*\n    -   training\/normstrngs.*\n    -   training\/unicharset_training_utils.*\n    -   training\/validat.*\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.i18n:\n            version: \"*\"\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "324a3339957f359b08d2221aad9a5732091369342c0823c22571445262ce9af5",
+    "created": "2018-04-06 11:06:35.400054"
+}
