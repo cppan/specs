@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.telegram.td.memprof",
+    "version": "1.2.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/tdlib\/td\n    tag: v{v}\n\nversion: 1.2.0\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   memprof\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.telegram.td.utils:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tdlib\/td",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "228a0fa92cdd177fb55bea26724e7b01f5c17957752a0ae881da9f2195712662",
+    "created": "2018-04-07 00:10:24.048043"
+}

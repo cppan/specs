@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.telegram.td.generate.common",
+    "version": "1.2.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/tdlib\/td\n    tag: v{v}\n\nversion: 1.2.0\n\nroot_directory: td\/generate\n\nfiles:\n    -   generate_common.cpp\n    -   tl_.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.telegram.td.tl:\n            version: \"*\"\n        pvt.cppan.demo.telegram.td.utils:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tdlib\/td",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "3ac36a4aa94195b546e41f01d033e5fad9228a14a55f31c096205137cb619bf1",
+    "created": "2018-04-07 00:10:13.940318"
+}

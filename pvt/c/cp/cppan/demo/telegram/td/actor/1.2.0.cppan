@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.telegram.td.actor",
+    "version": "1.2.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/tdlib\/td\n    tag: v{v}\n\nversion: 1.2.0\n\ntype: library\n\nroot_directory: tdactor\n\nstatic_only: true\n\nfiles:\n    -   td\/actor\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.telegram.td.utils:\n            version: \"*\"\n\npost_sources: |\n    push_front_to_file_once(${SDIR}\/td\/actor\/impl\/ConcurrentScheduler.cpp \"#include \\\"td\/actor\/actor.h\\\"\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tdlib\/td",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "54f203b773aef4372c8e792542708c6a0907274e1e713c39fb72d6c4ebac84bd",
+    "created": "2018-04-07 00:09:56.531722"
+}

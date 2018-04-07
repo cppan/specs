@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.telegram.td.db",
+    "version": "1.1.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/tdlib\/td\n    tag: v{v}\n\nversion: 1.1.0\n\ntype: library\n\nroot_directory: tddb\n\nstatic_only: true\n\nfiles:\n    -   td\/db\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.sqlite3:\n            version: 3\n        pvt.cppan.demo.telegram.td.actor:\n            version: \"*\"\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/td\/db\/detail\/RawSqliteDb.cpp \"sqlite\/sqlite3.h\" \"sqlite3.h\")\n    replace_in_file_once(${SDIR}\/td\/db\/SqliteDb.cpp \"sqlite\/sqlite3.h\" \"sqlite3.h\")\n    replace_in_file_once(${SDIR}\/td\/db\/SqliteStatement.cpp \"sqlite\/sqlite3.h\" \"sqlite3.h\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tdlib\/td",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "db3dd783b8827509f9fa32c94e773774bfb2b9dd49f2c60237bf9104c687c034",
+    "created": "2018-04-07 00:08:10.500082"
+}

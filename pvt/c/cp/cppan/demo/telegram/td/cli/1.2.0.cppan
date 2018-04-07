@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.telegram.td.cli",
+    "version": "1.2.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/tdlib\/td\n    tag: v{v}\n\nversion: 1.2.0\n\nfiles:\n    -   td\/telegram\/cli\\..*\n\noptions:\n    any:\n        definitions:\n            private:\n                -   USE_READLINE=1\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.readline.readline:\n            version: \"*\"\n        pvt.cppan.demo.telegram.td.core:\n            version: \"*\"\n        pvt.cppan.demo.telegram.td.memprof:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tdlib\/td",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "c8f3eb4b7071400873045ae8ce3bdd270fe9c5d71527d22af147da409871733f",
+    "created": "2018-04-07 00:10:05.024995"
+}
