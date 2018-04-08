@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.open_mpi.hwloc",
+    "cppan": "source:\n    git: https:\/\/github.com\/open-mpi\/hwloc\n    tag: hwloc-{v}\n\nversion: 2.0.1\n\ntype: library\n\nfiles:\n    -   contrib\/windows\/.*\\.h\n    -   hwloc\/.*\\.c\n    -   include\/.*\\.h\n    -   include\/.*\\.h.in\n\nexclude_from_build:\n    -   hwloc\/topology-.*\n\noptions:\n    shared:\n        definitions:\n            win32:\n                private:\n                    -   DECLSPEC_EXPORTS\n                public:\n                    -   _USRDLL=_WINDLL\n\ndependencies:\n    public:\n        pvt.cppan.demo.libxml2:\n            version: 2\n\npost_sources: |\n    add_src(hwloc\/topology-noos.c)\n    add_src(hwloc\/topology-synthetic.c)\n    add_src(hwloc\/topology-x86.c)\n    add_src_dir(hwloc\/topology-xml*)\n    if (WIN32)\n        add_src(hwloc\/topology-windows.c)\n        configure_file(${SDIR}\/contrib\/windows\/hwloc_config.h ${BDIR}\/hwloc\/autogen\/config.h)\n        configure_file(${SDIR}\/contrib\/windows\/private_config.h ${BDIR}\/private\/autogen\/config.h)\n        #replace_in_file_once(${BDIR}\/hwloc\/autogen\/config.h \"#define DECLSPEC_EXPORTS\" \"\")\n        configure_file(${SDIR}\/contrib\/windows\/static-components.h ${BDIR}\/static-components.h)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/open-mpi\/hwloc",
+            "tag": "hwloc-{v}"
+        }
+    },
+    "version": "2.0.1",
+    "hash": "dfb9d96eacf43d8faf209e20125d73db6983e41fc32dbf3d05ba6665fa3fada8",
+    "created": "2018-04-08 19:26:27.3443"
+}
