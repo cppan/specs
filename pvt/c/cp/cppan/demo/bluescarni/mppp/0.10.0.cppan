@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.bluescarni.mppp",
+    "cppan": "source:\n    git: https:\/\/github.com\/bluescarni\/mppp\n    tag: v{M}.{m}\n\nversion: 0.10.0\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/bluescarni\/mppp",
+            "tag": "v{M}.{m}"
+        }
+    },
+    "version": "0.10.0",
+    "hash": "4a5790945ca40b06087298877386ba2c608e48e9af181577a8521317b74a443d",
+    "created": "2018-04-08 16:56:32.911596"
+}
