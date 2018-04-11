@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.calebzulawski.cotila",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/calebzulawski\/cotila",
+            "branch": "master"
+        }
+    },
+    "hash": "c878f18569bbf05f00f18ba807f5d38617ee1d8ca095b789b863fb824917ccce",
+    "created": "2018-04-11 05:44:21.272647",
+    "cppan": "source:\n    git: https:\/\/github.com\/calebzulawski\/cotila\n    branch: master\n\nversion: master\n\n"
+}
