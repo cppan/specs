@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.emweb.wt.dbo.dbo",
+    "version": "4.0.3",
+    "cppan": "source:\n    git: https:\/\/github.com\/emweb\/wt\n    tag: \"{v}\"\n\nversion: 4.0.3\n\ntype: library\n\nfiles:\n    -   src\/Wt\/Dbo\/.*\n    -   src\/Wt\/WStringStream.*\n    -   src\/web\/EscapeOStream.*\n\nexclude_from_build:\n    -   src\/Wt\/Dbo\/backend\/.*\n    -   src\/Wt\/WStringStream.*\n    -   src\/web\/.*\n\ninclude_directories:\n    public:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   WT_BUILDING\n    shared:\n        definitions:\n            private:\n                -   wtdbo_EXPORTS\n    static:\n        definitions:\n            public:\n                -   WTDBO_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.emweb.wt.wt:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/emweb\/wt",
+            "tag": "{v}"
+        }
+    },
+    "hash": "67f81258f4d22d5ab2a3b0e95f34df106c999b62959ae00f71e669f0b65594ee",
+    "created": "2018-04-12 11:54:14.50904"
+}
