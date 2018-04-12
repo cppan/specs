@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.platformsupport.themes",
+    "version": "5.9.5",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.9.4\n\nversion: 5.9.5\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   src\/platformsupport\/themes\/[^\/]*\n\ninclude_directories:\n    public:\n        -   ${BDIR}\/include\n        -   ${BDIR}\/include\/QtThemeSupport\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\n        -   ${BDIR}\/include\/QtThemeSupport\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\/QtThemeSupport\n        -   ${BDIR}\/include\/QtThemeSupport\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.gui:\n            version: \"*\"\n        pvt.egorpugin.syncqt:\n            version: master\n            reference: syncqt\n\npost_sources: |\n    if (CPPAN_LOCAL_PROJECT)\n        set(PACKAGE_VERSION_MAJOR 5)\n        set(PACKAGE_VERSION_MINOR 8)\n        set(PACKAGE_VERSION_PATCH 0)\n    endif()\n    \n    file_write_once(${BDIR}\/QtThemeSupport\/QtThemeSupportDepends \"\n        #ifdef __cplusplus\n        #include <QtCore\/QtCore>\n        #include <QtGui\/QtGui>\n        #endif\n    \")\n    \n    set(module QtThemeSupport)\n    create_directory(${BDIR}\/include\/${module}\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\/${module})\n    add_custom_command(OUTPUT ${BDIR}\/include\/${module}\/${module}\n        COMMAND ${syncqt}\n            -s ${SDIR}\n            -b ${BDIR}\n            -m ${module}\n            -v ${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\n        DEPENDS ${syncqt}\n    )\n    set(src ${src} ${BDIR}\/include\/${module}\/${module})\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.9.4"
+        }
+    },
+    "created": "2018-04-12 16:56:08.886426",
+    "hash": "02446f3fde8aa90a987117ad98fff06be3342e209cf550129edbf9c0d85be24b"
+}
