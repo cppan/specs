@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.quantstack.xframe",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/QuantStack\/xframe",
+            "branch": "master"
+        }
+    },
+    "hash": "2fa4b85b921e07e2c3c6fb0179e2b613b61b6dce14ccfe08106df890759c900f",
+    "created": "2018-04-12 21:49:46.48422",
+    "cppan": "source:\n    git: https:\/\/github.com\/QuantStack\/xframe\n    branch: master\n\nversion: master\n\n"
+}
