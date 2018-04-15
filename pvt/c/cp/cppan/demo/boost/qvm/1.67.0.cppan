@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.qvm",
+    "version": "1.67.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/qvm\n    commit: 364708ff20900d5d6d1aa249d142a481e68e9c26\n\nversion: 1.67.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.smart_ptr:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.move:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.tuple:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/qvm",
+            "commit": "364708ff20900d5d6d1aa249d142a481e68e9c26"
+        }
+    },
+    "hash": "843323a274b1a633aa3043443ca1dfca76770fc5beb72b030fd5741b63db1083",
+    "created": "2018-04-15 16:22:17.900319"
+}

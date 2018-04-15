@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.config",
+    "version": "1.67.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/config\n    commit: 200d36776e514d343be71a49502d2aabaecd273d\n\nversion: 1.67.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\noptions:\n    any:\n        definitions:\n            win32 and clang:\n                public:\n                    -   BOOST_USE_INTRIN_H=1\n                    -   BOOST_USE_WINDOWS_H=1\n\npost_sources: |\n    set(dummy_file ${SDIR}\/autolink.dummy)\n    if (NOT EXISTS ${dummy_file})\n        file_write_once(${SDIR}\/include\/boost\/config\/auto_link.hpp \"\n    #ifdef BOOST_LIB_PREFIX\n    #  undef BOOST_LIB_PREFIX\n    #endif\n    #if defined(BOOST_LIB_NAME)\n    #  undef BOOST_LIB_NAME\n    #endif\n    #if defined(BOOST_LIB_THREAD_OPT)\n    #  undef BOOST_LIB_THREAD_OPT\n    #endif\n    #if defined(BOOST_LIB_RT_OPT)\n    #  undef BOOST_LIB_RT_OPT\n    #endif\n    #if defined(BOOST_LIB_LINK_OPT)\n    #  undef BOOST_LIB_LINK_OPT\n    #endif\n    #if defined(BOOST_LIB_DEBUG_OPT)\n    #  undef BOOST_LIB_DEBUG_OPT\n    #endif\n    #if defined(BOOST_DYN_LINK)\n    #  undef BOOST_DYN_LINK\n    #endif\n        \")\n        file(WRITE ${dummy_file} \"\")\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/config",
+            "commit": "200d36776e514d343be71a49502d2aabaecd273d"
+        }
+    },
+    "hash": "6638d666712914a8426034c78b2ca55635e2bb4b356a6ad4b7d2edfab79151d9",
+    "created": "2018-04-15 16:19:46.680335"
+}

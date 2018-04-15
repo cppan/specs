@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.atomic",
+    "version": "1.67.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/atomic\n    commit: e16092f4737ae2bb1a053221bc92469ff8b8670c\n\nversion: 1.67.0\n\nfiles:\n    -   include\/.*\n    -   src\/.*\n\ninclude_directories:\n    public:\n        -   include\n    private:\n        -   src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   BOOST_ATOMIC_BUILDING_THE_LIB\n                -   BOOST_ATOMIC_SOURCE\n    shared:\n        definitions:\n            private:\n                -   BOOST_ATOMIC_BUILD_DLL\n            public:\n                -   BOOST_ALL_DYN_LINK\n                -   BOOST_ATOMIC_DYN_LINK\n                -   BOOST_ATOMIC_USE_DLL\n    static:\n        definitions:\n            public:\n                -   BOOST_ALL_STATIC_LINK\n                -   BOOST_ATOMIC_BUILD_LIB\n                -   BOOST_ATOMIC_STATIC_LINK\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/atomic",
+            "commit": "e16092f4737ae2bb1a053221bc92469ff8b8670c"
+        }
+    },
+    "hash": "b84f6003324aa1d6c3dff52fa39b57b97cb66e7187b9d12226aa0155ccd18dcb",
+    "created": "2018-04-15 16:19:32.948377"
+}

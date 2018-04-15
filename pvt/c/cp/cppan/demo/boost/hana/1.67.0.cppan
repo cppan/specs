@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.hana",
+    "version": "1.67.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/hana\n    commit: e53c547207c4364f051d5ca7c244ffa03267af69\n\nversion: 1.67.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.integer:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.fusion:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.function_types:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.detail:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.typeof:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.mpl:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.utility:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.container_hash:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.tuple:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/hana",
+            "commit": "e53c547207c4364f051d5ca7c244ffa03267af69"
+        }
+    },
+    "hash": "dbdd0400eb5fefd238209a0d91286d24cf510f9e5dc7519af2ba06eecad4e6fa",
+    "created": "2018-04-15 16:20:53.945739"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.winapi",
+    "version": "1.67.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/winapi\n    commit: f004b4753d6fee6f68c90cfc65b075fa0a33d092\n\nversion: 1.67.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/winapi",
+            "commit": "f004b4753d6fee6f68c90cfc65b075fa0a33d092"
+        }
+    },
+    "hash": "6f3eecb86b0beb574a03730ea3fdfd855e243296bbd1f4bba7a753403d161af0",
+    "created": "2018-04-15 16:23:17.916375"
+}

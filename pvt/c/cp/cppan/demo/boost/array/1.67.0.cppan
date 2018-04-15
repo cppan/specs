@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.array",
+    "version": "1.67.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/array\n    commit: 8f3aea2200fa45ed4c1829b3d3148432867dda87\n\nversion: 1.67.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/array",
+            "commit": "8f3aea2200fa45ed4c1829b3d3148432867dda87"
+        }
+    },
+    "hash": "bae3aef440119086bb32ef29fd8732da2bc5c070d7a6b40a510231668d405d1a",
+    "created": "2018-04-15 16:19:26.444321"
+}

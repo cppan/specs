@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.unordered",
+    "version": "1.67.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/unordered\n    commit: 741a10f5a81dd2d2da7029099b87c23de5215ca4\n\nversion: 1.67.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.intrusive:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.smart_ptr:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.mpl:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.utility:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.integer:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.move:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.container_hash:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.container:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.detail:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.tuple:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/unordered",
+            "commit": "741a10f5a81dd2d2da7029099b87c23de5215ca4"
+        }
+    },
+    "hash": "56c6d0043457f68620f171376c204f0c876834f2ff386c1625b5eb1995f34ad2",
+    "created": "2018-04-15 16:23:17.812343"
+}

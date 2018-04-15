@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.compatibility",
+    "version": "1.67.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/compatibility\n    commit: 445fbc1633cbaf49b0c3310db95a642e9c3fe89b\n\nversion: 1.67.0\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/compatibility",
+            "commit": "445fbc1633cbaf49b0c3310db95a642e9c3fe89b"
+        }
+    },
+    "hash": "d055a1e83ddc1862d44425308f03324cfa2494433f9c072cf8630781f98ad0a4",
+    "created": "2018-04-15 16:19:38.260632"
+}
