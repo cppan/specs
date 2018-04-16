@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.seqan.seqan",
+    "version": "2.4.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/seqan\/seqan",
+            "tag": "seqan-v{v}"
+        }
+    },
+    "hash": "d6bf36c79a4d2020e99eb1e3f64a055d9ec70cc62cad86bc99b55d0d91bf9358",
+    "created": "2018-04-16 21:56:36.803141",
+    "cppan": "source:\n    git: https:\/\/github.com\/seqan\/seqan\n    tag: seqan-v{v}\n\nversion: 2.4.0\n\n"
+}
