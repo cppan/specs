@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.grpc.gpr",
     "version": "1.11.0",
-    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    branch: master\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.gpr_base:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.gpr_base:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/grpc\/grpc",
-            "branch": "master"
+            "tag": "v{v}"
         }
     },
-    "hash": "664b0b14ce0d53bb60b054ead46924d6b94ddddb5f9ff2a720becf24fb5e1444",
-    "created": "2018-03-25 22:26:03.235656"
+    "hash": "ef99c868f75b268271a2ebaacf36f88b015b7a18a247a48b9f2ed72384979f99",
+    "created": "2018-04-16 17:48:56.976073"
 }

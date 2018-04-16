@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.grpc.grpc_base",
     "version": "1.11.0",
-    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    branch: master\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_base\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_base_c:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.atomic:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_base\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_base_c:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.atomic:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/grpc\/grpc",
-            "branch": "master"
+            "tag": "v{v}"
         }
     },
-    "hash": "24ff7620d5d36f577ffdd9fbed4221f3ff0aa827d22962b7ab34de15caaa409d",
-    "created": "2018-03-25 22:26:23.133799"
+    "hash": "d7b5c98d9d3d0bd17a21cd6f94f870fdf267336c19f5c5c9e0a9f6f37dec2f9d",
+    "created": "2018-04-16 17:49:18.732069"
 }

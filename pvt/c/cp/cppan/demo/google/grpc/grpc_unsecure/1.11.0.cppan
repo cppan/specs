@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.grpc.grpc_unsecure",
     "version": "1.11.0",
-    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    branch: master\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_unsecure\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_lb_policy_grpclb:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_common:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_unsecure\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_lb_policy_grpclb:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_common:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/grpc\/grpc",
-            "branch": "master"
+            "tag": "v{v}"
         }
     },
-    "hash": "74ad3b8c6f91db90842c994f453cb28639fc30b8e4eb8aa3913ffe3a5ca64db5",
-    "created": "2018-03-25 22:33:50.288063"
+    "hash": "e9ccd9e62a638a634d21d80f7850eda6a93102434829ad0a3a803ccb47e729a5",
+    "created": "2018-04-16 17:52:23.604069"
 }

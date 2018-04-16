@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.grpc.grpc_transport_chttp2_server_secure",
     "version": "1.11.0",
-    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    branch: master\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_transport_chttp2_server_secure\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_transport_chttp2:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_transport_chttp2_server:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_base:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_secure:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_transport_chttp2_server_secure\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_transport_chttp2:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_transport_chttp2_server:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_base:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_secure:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/grpc\/grpc",
-            "branch": "master"
+            "tag": "v{v}"
         }
     },
-    "hash": "bba4eb2466def7569268f1176488c7f8b192898fb68b28eb3c284137209864d5",
-    "created": "2018-03-25 22:33:41.348065"
+    "hash": "965fbf935c790a952066ae88288b07fe33bcd71411bb4c75428b1a41598cc131",
+    "created": "2018-04-16 17:52:15.136045"
 }

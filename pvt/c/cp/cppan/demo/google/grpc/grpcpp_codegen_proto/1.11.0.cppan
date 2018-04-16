@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.google.grpc.grpcpp_codegen_proto",
     "version": "1.11.0",
-    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    branch: master\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc++_codegen_proto\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpcpp_config_proto:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpcpp_codegen_base:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.11.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc++_codegen_proto\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpcpp_config_proto:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpcpp_codegen_base:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/grpc\/grpc",
-            "branch": "master"
+            "tag": "v{v}"
         }
     },
-    "hash": "82474f3ba17ceb62d5109d26601d5e16e849cf154ab31b4406dd64fd39316a86",
-    "created": "2018-03-25 22:34:28.468067"
+    "hash": "f33d2c9ef1a39b6f79757d1a04f55734476adbdf3225b13cae8297e893543581",
+    "created": "2018-04-16 17:52:58.772067"
 }
