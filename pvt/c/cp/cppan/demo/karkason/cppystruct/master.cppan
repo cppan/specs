@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.karkason.cppystruct",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/karkason\/cppystruct",
+            "branch": "master"
+        }
+    },
+    "hash": "eaa909e62d7ef24309065c59b01d503ee0cad4101e15918e626ec8ce3d1792f8",
+    "created": "2018-04-16 14:32:40.967327",
+    "cppan": "source:\n    git: https:\/\/github.com\/karkason\/cppystruct\n    branch: master\n\nversion: master\n\n"
+}
