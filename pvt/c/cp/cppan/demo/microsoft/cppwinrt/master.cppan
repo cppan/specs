@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.microsoft.cppwinrt",
-    "cppan": "source:\n    git: https:\/\/github.com\/Microsoft\/cppwinrt\n\nversion: master\n\nfiles: 10.0.14393.0\/winrt\/.*\n\ninclude_directories:\n    public: 10.0.14393.0\/winrt\n\n",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/Microsoft\/cppwinrt\n    branch: master\n\nversion: master\n\nfiles:\n    -   10.0.16299.0\/winrt\/.*\n\ninclude_directories:\n    public:\n        -   10.0.16299.0\/winrt\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/Microsoft\/cppwinrt",
             "branch": "master"
         }
     },
-    "created": "2016-10-14 15:54:24.758391",
-    "hash": "05d012eec694e4b799aa20604bc63ce0353520437dbd1b65e6ac67647e49e2d2"
+    "version": "master",
+    "hash": "bfe15ada0826d8b67280f91c9fd2eeb306934baa1a4f14f5db74a05395e9c305",
+    "created": "2018-04-20 21:05:36.723327"
 }
