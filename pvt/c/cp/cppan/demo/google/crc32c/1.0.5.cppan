@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.crc32c",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/crc32c\n    tag: \"{v}\"\n\nversion: 1.0.5\n\ntype: library\n\nstatic_only: true\n\nexclude_from_package:\n    -   .*_benchmark.c.*\n    -   .*_test.c.*\n    -   .*_test_main.c.*\n    -   .*_unittest.c.*\n\npost_sources: |\n    set(HAVE_SSE42 1)\n    set(BYTE_ORDER_BIG_ENDIAN ${WORDS_BIGENDIAN})\n    configure_file(${SDIR}\/src\/crc32c_config.h.in ${BDIR}\/crc32c\/crc32c_config.h)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/google\/crc32c",
+            "tag": "{v}"
+        }
+    },
+    "version": "1.0.5",
+    "hash": "076531952817ac1c80f13fc3c71d4f05d1ca678205d03752abfa784b1002cf4f",
+    "created": "2018-04-21 22:04:03.984933"
+}
