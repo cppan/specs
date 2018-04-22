@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gvaliente.catch_mini",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/GValiente\/catch-mini",
+            "branch": "master"
+        }
+    },
+    "hash": "101b7ddb1df31abd9c07ab936f93d1aa78c448c7fe93e94996c9b0a4fc4a030f",
+    "created": "2018-04-22 13:00:39.759144",
+    "cppan": "source:\n    git: https:\/\/github.com\/GValiente\/catch-mini\n    branch: master\n\nversion: master\n\n"
+}

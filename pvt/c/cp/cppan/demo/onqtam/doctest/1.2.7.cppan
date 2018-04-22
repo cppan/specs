@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.onqtam.doctest",
+    "cppan": "source:\n    git: https:\/\/github.com\/onqtam\/doctest\n    tag: \"{v}\"\n\nversion: 1.2.7\n\nfiles:\n    -   doctest\/.*\n\ninclude_directories:\n    public:\n        -   .\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/onqtam\/doctest",
+            "tag": "{v}"
+        }
+    },
+    "version": "1.2.7",
+    "hash": "f8b3075fa7560af5cdf0fb30e4536bfb603b587ebe1975314f92985cdfbbc63d",
+    "created": "2018-04-22 13:01:53.436603"
+}
