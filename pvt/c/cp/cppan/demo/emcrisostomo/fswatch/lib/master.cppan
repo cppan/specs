@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.emcrisostomo.fswatch.lib",
+    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/emcrisostomo\/fswatch\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: libfswatch\n\ninclude_directories:\n    public:\n        -   src\n    private:\n        -   src\/libfswatch\n\noptions:\n    any:\n        definitions:\n            public:\n                -   HAVE_GETOPT_LONG\n\ndependencies:\n    public:\n        pvt.cppan.demo.tronkko.dirent:\n            version: master\n        pvt.cppan.demo.kimgr.getopt_port:\n            version: master\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/emcrisostomo\/fswatch",
+            "branch": "master"
+        }
+    },
+    "hash": "6ecb4e2b84594feb3a2411a4b3ba3d61ecad361641323d117d08a1ac21977d3c",
+    "created": "2018-04-22 16:57:58.806327"
+}
