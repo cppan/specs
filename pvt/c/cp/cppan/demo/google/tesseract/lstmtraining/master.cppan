@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   training\/lstmtraining.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    branch: master\n\nversion: master\n\nc++: 11\n\nfiles:\n    -   src\/training\/lstmtraining.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.unicharset_training:\n            version: \"*\"\n\n",
     "created": "2016-12-31 14:53:19.298739",
     "hash": "195f90000df28749530b19f7f9ebc503873b27865492c8a3469f308595064565"
 }
