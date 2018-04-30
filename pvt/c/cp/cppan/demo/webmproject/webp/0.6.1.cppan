@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.webmproject.webp",
+    "cppan": "source:\n    git: https:\/\/github.com\/webmproject\/libwebp\n    tag: v{v}\n\nversion: 0.6.1\n\nfiles:\n    -   src\/.*\\.c\n    -   src\/.*\\.h\n\ninclude_directories:\n    public:\n        -   src\n\npost_sources: |\n    replace_in_file_once(src\/webp\/types.h \"#ifndef WEBP_EXTERN\" \"#define WEBP_EXTERN extern ${LIBRARY_API}\\n#ifndef WEBP_EXTERN\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/webmproject\/libwebp",
+            "tag": "v{v}"
+        }
+    },
+    "version": "0.6.1",
+    "hash": "e141622e9beea85aac19235da1b14a74484602dfef77c64d2ce3ab78253e0d7b",
+    "created": "2018-04-30 09:00:09.232627"
+}

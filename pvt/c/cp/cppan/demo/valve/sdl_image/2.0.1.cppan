@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.valve.sdl_image",
-    "cppan": "source:\n    remote: https:\/\/www.libsdl.org\/projects\/SDL_image\/release\/SDL2_image-2.0.1.tar.gz\n\nversion: 2.0.1\n\nfiles:\n    -   \"[^\/]*\\\\.h\"\n    -   \"[^\/]*\\\\.c$\"\n    -   \"[^\/]*\\\\.m\"\n\nexclude_from_package:\n    -   showimage.c\n\noptions:\n    any:\n        definitions:\n            private:\n                -   LOAD_BMP\n                -   LOAD_GIF\n                -   LOAD_JPG\n                -   LOAD_LBM\n                -   LOAD_PCX\n                -   LOAD_PNG\n                -   LOAD_PNM\n                -   LOAD_TGA\n                -   LOAD_TIF\n                -   LOAD_WEBP\n                -   LOAD_XCF\n                -   LOAD_XPM\n                -   LOAD_XV\n                -   LOAD_XXX\n\ndependencies:\n    pvt.cppan.demo.gif: 5\n    pvt.cppan.demo.png: 1\n    pvt.cppan.demo.webp: 0.5\n    pvt.cppan.demo.valve.sdl.sdl: 2\n    pvt.cppan.demo.jpeg: 9\n    pvt.cppan.demo.tiff: 4\n\npost_sources: |\n    if (NOT APPLE)\n        remove_src(IMG_UIImage.m)\n        remove_src(IMG_ImageIO.m)\n    endif()\n\n",
-    "version": "2.0.1",
+    "cppan": "source:\n    remote: https:\/\/www.libsdl.org\/projects\/SDL_image\/release\/SDL2_image-{v}.tar.gz\n\nversion: 2.0.1\n\nfiles:\n    -   \"[^\/]*\\\\.c$\"\n    -   \"[^\/]*\\\\.h\"\n    -   \"[^\/]*\\\\.m\"\n\nexclude_from_package:\n    -   showimage.c\n\noptions:\n    any:\n        definitions:\n            private:\n                -   LOAD_BMP\n                -   LOAD_GIF\n                -   LOAD_JPG\n                -   LOAD_LBM\n                -   LOAD_PCX\n                -   LOAD_PNG\n                -   LOAD_PNM\n                -   LOAD_TGA\n                -   LOAD_TIF\n                -   LOAD_WEBP\n                -   LOAD_XCF\n                -   LOAD_XPM\n                -   LOAD_XV\n                -   LOAD_XXX\n\ndependencies:\n    public:\n        pvt.cppan.demo.png:\n            version: 1\n        pvt.cppan.demo.gif:\n            version: 5\n        pvt.cppan.demo.webmproject.webp:\n            version: 1\n        pvt.cppan.demo.valve.sdl.sdl:\n            version: 2\n        pvt.cppan.demo.jpeg:\n            version: 9\n        pvt.cppan.demo.tiff:\n            version: 4\n\npost_sources: |\n    if (NOT APPLE)\n        remove_src(IMG_UIImage.m)\n        remove_src(IMG_ImageIO.m)\n    endif()\n\n",
     "source": {
         "remote": {
-            "url": "https:\/\/www.libsdl.org\/projects\/SDL_image\/release\/SDL2_image-2.0.1.tar.gz"
+            "url": "https:\/\/www.libsdl.org\/projects\/SDL_image\/release\/SDL2_image-{v}.tar.gz"
         }
     },
-    "created": "2016-10-05 16:24:25.654983",
-    "hash": "1d0bcde20c2d9e9781d9908aa9a308cb4079c724db44d4aa94e96cd15403227a"
+    "version": "2.0.1",
+    "hash": "1e4d82f74bb8087a2307c9b6c52062ef4001be96fadb424a5f773d56ba4418c6",
+    "created": "2018-04-30 09:04:24.924311"
 }

@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.qtproject.qt.plugins.imageformats.qwebp",
-    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtimageformats\n    tag: v5.10.1\n\nversion: 5.10.1\n\ntype: library\n\nroot_directory: src\/plugins\/imageformats\/webp\n\noutput_directory: plugins\/imageformats\n\nfiles:\n    -   .*\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n    static:\n        definitions:\n            private:\n                -   QT_STATICPLUGIN\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.core:\n            version: \"*\"\n            reference: CORE\n        pvt.cppan.demo.qtproject.qt.base.gui:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.tools.moc:\n            version: \"*\"\n            reference: MOC_COMMAND\n        pvt.cppan.demo.webp:\n            version: 0\n\npost_sources: |\n    include(${CORE_SDIR}\/src\/corelib\/Qt5CoreMacros.cmake)\n    set(Qt5Core_MOC_EXECUTABLE ${MOC_COMMAND})\n    \n    set(moc ${src})\n    list(FILTER moc INCLUDE REGEX \".h$\")\n    \n    find_moc_targets(moc ${moc})\n    \n    qt5_wrap_cpp(moc ${moc} TARGET ${this})\n    set(src ${src} ${moc})\n    \n    \n    moc_cpp_file(main.cpp)\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtimageformats\n    tag: v{v}\n\nversion: 5.10.1\n\ntype: library\n\nroot_directory: src\/plugins\/imageformats\/webp\n\noutput_directory: plugins\/imageformats\n\nfiles:\n    -   .*\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n    static:\n        definitions:\n            private:\n                -   QT_STATICPLUGIN\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.core:\n            version: \"*\"\n            reference: CORE\n        pvt.cppan.demo.qtproject.qt.base.gui:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.tools.moc:\n            version: \"*\"\n            reference: MOC_COMMAND\n        pvt.cppan.demo.webmproject.webp:\n            version: 1\n\npost_sources: |\n    include(${CORE_SDIR}\/src\/corelib\/Qt5CoreMacros.cmake)\n    set(Qt5Core_MOC_EXECUTABLE ${MOC_COMMAND})\n    \n    set(moc ${src})\n    list(FILTER moc INCLUDE REGEX \".h$\")\n    \n    find_moc_targets(moc ${moc})\n    \n    qt5_wrap_cpp(moc ${moc} TARGET ${this})\n    set(src ${src} ${moc})\n    \n    \n    moc_cpp_file(main.cpp)\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/qt\/qtimageformats",
-            "tag": "v5.10.1"
+            "tag": "v{v}"
         }
     },
     "version": "5.10.1",
-    "hash": "b7a8d298b2b631ec1af0745bb549ad4c2690f09ae859318a5ac2730980844a5b",
-    "created": "2018-02-13 20:01:48.522689"
+    "hash": "2857eac217cc93f87288096c1fb3191972cb830905745abeeae6ae5df2bf2f0a",
+    "created": "2018-04-30 09:05:01.286141"
 }
