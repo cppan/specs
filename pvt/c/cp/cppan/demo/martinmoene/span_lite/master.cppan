@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.martinmoene.span_lite",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/martinmoene\/span-lite",
+            "branch": "master"
+        }
+    },
+    "hash": "82dcfa364b69b6f6ad077e62431972713a82ff9148b63b0225c4178ace1434ba",
+    "created": "2018-04-30 22:38:30.488442",
+    "cppan": "source:\n    git: https:\/\/github.com\/martinmoene\/span-lite\n    branch: master\n\nversion: master\n\n"
+}
