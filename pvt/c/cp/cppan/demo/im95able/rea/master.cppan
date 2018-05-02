@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.im95able.rea",
+    "cppan": "source:\n    git: https:\/\/github.com\/im95able\/Rea\n    branch: master\n\nversion: master\n\nfiles:\n    -   Rea\/rea.h\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/im95able\/Rea",
+            "branch": "master"
+        }
+    },
+    "hash": "ce8260aea2fd603a58a8bb96b6373b98e64ffd223eca07dfe79b3a35b951d226",
+    "created": "2018-05-02 17:54:57.444279"
+}
