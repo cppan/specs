@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.arvidn.libtorrent",
+    "cppan": "source:\n    git: https:\/\/github.com\/arvidn\/libtorrent\n    tag: libtorrent-{M}_{m}_{p}\n\nversion: 1.1.7\n\ntype: library\n\nfiles:\n    -   ed25519\/src\/.*\n    -   include\/.*\n    -   src\/.*\n\noptions:\n    any:\n        definitions:\n            private:\n                -   TORRENT_BUILDING_LIBRARY\n            public:\n                -   TORRENT_USE_ICONV\n                -   TORRENT_USE_LIBCRYPTO\n                -   TORRENT_USE_OPENSSL\n            win32:\n                private:\n                    -   BOOST_ASIO_ENABLE_CANCELIO\n                public:\n                    -   _WIN32_WINNT=0x0601\n        link_libraries:\n            win32:\n                public:\n                    -   iphlpapi.lib\n    shared:\n        definitions:\n            private:\n                -   TORRENT_BUILDING_SHARED\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.iconv.libiconv:\n            version: 1\n        pvt.cppan.demo.boost.multiprecision:\n            version: 1\n        pvt.cppan.demo.boost.system:\n            version: 1\n        pvt.cppan.demo.boost.date_time:\n            version: 1\n        pvt.cppan.demo.boost.crc:\n            version: 1\n        pvt.cppan.demo.boost.asio:\n            version: 1\n        pvt.cppan.demo.openssl.ssl:\n            version: 1\n\npost_sources: |\n    replace_in_file_once(\"${SDIR}\/include\/libtorrent\/config.hpp\"\n        \"#define TORRENT_ICONV_ARG (char**)\"\n        \"#define TORRENT_ICONV_ARG (const char**)\"\n    )\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/arvidn\/libtorrent",
+            "tag": "libtorrent-{M}_{m}_{p}"
+        }
+    },
+    "version": "1.1.7",
+    "hash": "6623bc5a0f65a068009c1920346a7ee471e8c395f490fad2f546dc3fcfd52b78",
+    "created": "2018-05-05 20:26:40.124952"
+}
