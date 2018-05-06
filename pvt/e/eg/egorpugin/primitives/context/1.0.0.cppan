@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.context",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: 1.0.0\n\nname: context\n\ntype: library\n\nroot_directory: src\/context\n\nc++: 17\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+        }
+    },
+    "hash": "1d01f9b75f9c2f1edf531c7c189f04f0ba59295a2e0eb1c56c8936bb8173ccd4",
+    "created": "2018-05-06 13:55:01.471733"
+}

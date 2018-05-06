@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.pack",
     "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: master\n\nname: pack\n\ntype: library\n\nroot_directory: src\/pack\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.cppan.demo.libarchive.libarchive:\n            version: 3\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
-            "branch": "master"
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: pack\n\ntype: library\n\nroot_directory: pack\n\nc++: 17\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.libarchive.libarchive:\n            version: 3\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n\n",
-    "created": "2017-03-03 14:24:34.761678",
-    "hash": "abd9a82de979ce6dd1e9baee4830012c700374244c16d983d0842e7f739824b5"
+    "hash": "fc1327b012bb8422ae0e06c49e8dd03b17fdf4f6b04d733ba6c6335763bbfce3",
+    "created": "2018-05-06 13:57:36.66607"
 }

@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.http",
     "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: master\n\nname: http\n\ntype: library\n\nroot_directory: src\/http\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n        link_libraries:\n            win32:\n                public:\n                    -   Winhttp\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.cppan.demo.badger.curl.libcurl:\n            version: 7\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
-            "branch": "master"
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: http\n\ntype: library\n\nroot_directory: http\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        link_libraries:\n            win32:\n                public:\n                    -   Winhttp\n\ndependencies:\n    public:\n        pvt.cppan.demo.badger.curl.libcurl:\n            version: 7\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n\n",
-    "created": "2017-03-03 14:24:21.304642",
-    "hash": "63a7c592e0de75908be92d63766ab841e349adb0a505e7d6864a815bc7a2f77f"
+    "hash": "76f357864ff8e09ed34efb12efdf73368fc19c84e728da3c83ab81e469d2ea18",
+    "created": "2018-05-06 13:57:19.35261"
 }

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.db.common",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: 1.0.0\n\ntype: library\n\nroot_directory: src\/db\/common\n\nc++: 17\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+        }
+    },
+    "hash": "71feb177ef8e6a1a71ef09fc0e8a8010023c3f8fbf50e2f5b0ee85e1e666dabb",
+    "created": "2018-05-06 13:55:19.48351"
+}

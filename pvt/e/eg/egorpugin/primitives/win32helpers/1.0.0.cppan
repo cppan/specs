@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.win32helpers",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: 1.0.0\n\nname: win32helpers\n\ntype: library\n\nroot_directory: src\/win32helpers\n\nc++: 17\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.dll:\n            version: 1\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.cppan.demo.boost.algorithm:\n            version: 1\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+        }
+    },
+    "hash": "d96d29eb0fb1f3744f0aca4a5c2ca7f3d600cd91e80ebd04813028aaf1bc234d",
+    "created": "2018-05-06 13:56:27.302134"
+}

@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.db.sqlite3",
     "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: master\n\ntype: library\n\nroot_directory: src\/db\/sqlite3\n\nc++: 17\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.db.common:\n            version: \"*\"\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
-            "branch": "master"
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: db\/sqlite3\n\nc++: 17\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.db.common:\n            version: \"*\"\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\n",
-    "hash": "3e07c8ca78078c9439f1ec9825362f1b3eab556041d90214a3a2f0ec68bcf7d0",
-    "created": "2018-03-31 23:17:54.764043"
+    "hash": "8e1e69f3f7bb955dc8ae1fb44b8e0e1fbc2ef1f29cce67b6d9508f3b2655dd4b",
+    "created": "2018-05-06 13:57:00.058333"
 }

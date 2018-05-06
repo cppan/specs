@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.filesystem",
     "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: master\n\nname: filesystem\n\ntype: library\n\nroot_directory: src\/filesystem\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.string:\n            version: \"*\"\n        pvt.cppan.demo.artyom_beilis.nowide:\n            version: master\n        pvt.cppan.demo.boost.filesystem:\n            version: 1\n        pvt.cppan.demo.grisumbras.enum_flags:\n            version: master\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
-            "branch": "master"
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: filesystem\n\ntype: library\n\nroot_directory: src\/filesystem\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.string:\n            version: \"*\"\n        pvt.cppan.demo.artyom_beilis.nowide:\n            version: master\n        pvt.cppan.demo.boost.filesystem:\n            version: 1\n        pvt.cppan.demo.grisumbras.enum_flags:\n            version: master\n\n",
-    "created": "2017-03-03 14:24:12.423793",
-    "hash": "90278ebdc448604b35083801dca7ff82e8b171d392fec02a61dc0918101679dc"
+    "hash": "c0ec95c4eb500539e684d7b5e57846a276c0028fffb880f2fe1fd124ff34c595",
+    "created": "2018-05-06 13:57:10.747405"
 }

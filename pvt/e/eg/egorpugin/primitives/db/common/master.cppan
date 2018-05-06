@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.db.common",
     "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: master\n\ntype: library\n\nroot_directory: src\/db\/common\n\nc++: 17\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
-            "branch": "master"
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: db\/common\n\nc++: 17\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n\n",
-    "hash": "9476fa897581d222c995c96780c69647270a07743c40b9d8f229f70652841603",
-    "created": "2018-03-31 23:17:45.478095"
+    "hash": "06407e29b003d989e9672e9b929f7e64ed76264eee51d33795790fee3476be7e",
+    "created": "2018-05-06 13:56:51.412581"
 }

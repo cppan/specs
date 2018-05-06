@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.log",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: 1.0.0\n\nname: log\n\ntype: library\n\nroot_directory: src\/log\n\nc++: 17\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.log:\n            version: 1\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+        }
+    },
+    "hash": "c67e8bab9967595f58fd76aef8761e799098144fa03e027a7cd6a2c6fb2befb0",
+    "created": "2018-05-06 13:55:59.514137"
+}

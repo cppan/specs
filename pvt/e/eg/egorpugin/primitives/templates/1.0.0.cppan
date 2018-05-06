@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.templates",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: 1.0.0\n\nname: templates\n\ntype: library\n\nroot_directory: src\/templates\n\nc++: 17\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+        }
+    },
+    "hash": "ef5747d6b023d46f33375684183c03d685a8a16bdf6c76a74458ced5b4149397",
+    "created": "2018-05-06 13:56:22.098129"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.yaml",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: 1.0.0\n\nname: yaml\n\ntype: library\n\nroot_directory: src\/yaml\n\nc++: 17\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.cppan.demo.jbeder.yaml_cpp:\n            version: 1.0.0\n        pvt.egorpugin.primitives.string:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+        }
+    },
+    "hash": "f3945bb2e322d88d54da8b85da6ee77c51c8c9414d345c8ba98da8908e345333",
+    "created": "2018-05-06 13:56:32.342105"
+}

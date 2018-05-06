@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.hash",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: 1.0.0\n\nname: hash\n\ntype: library\n\nroot_directory: src\/hash\n\nc++: 17\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.cppan.demo.aleksey14.rhash:\n            version: 1\n        pvt.cppan.demo.openssl.crypto:\n            version: 1\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+        }
+    },
+    "hash": "af9f277bf1f435e46aef66d9efad417f1fe85a7f01ed2ff076df67b64b4c8900",
+    "created": "2018-05-06 13:55:44.428777"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.string",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: 1.0.0\n\nname: string\n\ntype: library\n\nroot_directory: src\/string\n\nc++: 17\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.algorithm:\n            version: 1\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+        }
+    },
+    "hash": "536967f1b5f495450ec38aee09eb368eec49c61ce915af8cdf1d8e1e097950c7",
+    "created": "2018-05-06 13:56:16.826131"
+}
