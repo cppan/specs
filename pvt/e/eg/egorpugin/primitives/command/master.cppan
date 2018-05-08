@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.command",
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: command\n\ntype: library\n\nroot_directory: src\/command\n\nc++: 17\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   _WIN32_WINNT=0x0601\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/wd4251\n                    -   \/wd4275\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.cppan.demo.boost.process:\n            version: 1\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: master\n\nname: command\n\ntype: library\n\nroot_directory: src\/command\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   _WIN32_WINNT=0x0601\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.cppan.demo.boost.process:\n            version: 1\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
-            "branch": "master"
+            "commit": "39d25af2729c825970ce637eac7e22609587954d"
         }
     },
     "version": "master",
-    "hash": "fbccf3edb5008e9265d4f624a2d1cc5bbd3ad589f25b8a4f22f35e5230a50af7",
-    "created": "2018-05-08 16:25:31.181391"
+    "hash": "2f5cf401c83aa9727f14efbac00bcbc0293863ab771e2f282131acf5b972821a",
+    "created": "2018-05-08 17:03:03.91562"
 }
