@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.minidump",
     "version": "master",
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: master\n\nname: minidump\n\ntype: library\n\nroot_directory: src\/minidump\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n        link_libraries:\n            win32:\n                public:\n                    -   dbghelp\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: minidump\n\ntype: library\n\nroot_directory: src\/minidump\n\nc++: 17\n\nstatic_only: true\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/wd4251\n                    -   \/wd4275\n        link_libraries:\n            win32:\n                public:\n                    -   dbghelp\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
-            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+            "branch": "master"
         }
     },
-    "hash": "42006af939a54de17be9f5dde222bc88a272605b67ad26fb02065a4e1a9d0dcf",
-    "created": "2018-05-09 23:05:14.726108"
+    "hash": "dbf40bbcc57107149c613bb91190e8e33eec5535d8b1904d194ca665b15e651d",
+    "created": "2018-05-09 23:11:12.730102"
 }

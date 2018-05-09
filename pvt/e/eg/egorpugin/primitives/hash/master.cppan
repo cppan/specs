@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.hash",
     "version": "master",
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: master\n\nname: hash\n\ntype: library\n\nroot_directory: src\/hash\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.cppan.demo.aleksey14.rhash:\n            version: 1\n        pvt.cppan.demo.openssl.crypto:\n            version: 1\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: hash\n\ntype: library\n\nroot_directory: src\/hash\n\nc++: 17\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/wd4251\n                    -   \/wd4275\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.cppan.demo.aleksey14.rhash:\n            version: 1\n        pvt.cppan.demo.openssl.crypto:\n            version: 1\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
-            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+            "branch": "master"
         }
     },
-    "hash": "5756e8998300c5c14c761805b04c12b7a908cabec93006acfe7a3bd7fe40ed3e",
-    "created": "2018-05-09 23:04:54.562112"
+    "hash": "87dabea6047429b0e866fbe75cd058a34967c3d7a8a8944551efa1e3c3952f43",
+    "created": "2018-05-09 23:10:53.390123"
 }

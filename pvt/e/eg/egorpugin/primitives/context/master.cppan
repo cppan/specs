@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.context",
     "version": "master",
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    commit: 39d25af2729c825970ce637eac7e22609587954d\n\nversion: master\n\nname: context\n\ntype: library\n\nroot_directory: src\/context\n\nc++: 17\n\nstatic_only: true\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: context\n\ntype: library\n\nroot_directory: src\/context\n\nc++: 17\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/wd4251\n                    -   \/wd4275\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
-            "commit": "39d25af2729c825970ce637eac7e22609587954d"
+            "branch": "master"
         }
     },
-    "hash": "d36545f4920136346668e090e67c531c92484dac9bd53b6d2eddb6a05803e4e9",
-    "created": "2018-05-09 23:04:19.800691"
+    "hash": "58b9a9336456d0a1cb6530e31fa348f7b36a1d1f83cce189560892b3b40d26ef",
+    "created": "2018-05-09 23:10:18.366113"
 }
