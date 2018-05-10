@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.manu343726.tinyrefl",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Manu343726\/tinyrefl",
+            "branch": "master"
+        }
+    },
+    "hash": "15ab61fc84e0f75a4abd3640fa77d247b3e230eef519c62d2faefbb94625b982",
+    "created": "2018-05-10 19:26:54.670345",
+    "cppan": "source:\n    git: https:\/\/github.com\/Manu343726\/tinyrefl\n    branch: master\n\nversion: master\n\n"
+}

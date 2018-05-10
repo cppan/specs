@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tzlaine.text",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tzlaine\/text",
+            "branch": "master"
+        }
+    },
+    "hash": "345db7353759880ef6c56dda1a9b254a95f36d1382632eb97f0d5f32b75f3eb5",
+    "created": "2018-05-10 19:20:39.627815",
+    "cppan": "source:\n    git: https:\/\/github.com\/tzlaine\/text\n    branch: master\n\nversion: master\n\n"
+}
