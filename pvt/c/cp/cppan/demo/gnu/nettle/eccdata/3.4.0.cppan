@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnu.nettle.eccdata",
+    "version": "3.4.0",
+    "cppan": "source:\n    remote: https:\/\/ftp.gnu.org\/gnu\/nettle\/nettle-{M}.{m}.tar.gz\n\nversion: 3.4.0\n\nfiles:\n    -   eccdata.c\n    -   mini-gmp.c\n    -   mini-gmp.h\n\nexclude_from_build:\n    -   mini-gmp.c\n\naliases:\n    -   eccdata\n\ncheck_function_exists:\n    -   getline\n    -   secure_getenv\n\ncheck_include_exists:\n    -   file: dlfcn.h\n        variable: HAVE_DLFCN_H\n        cpp: false\n    -   file: time.h\n        variable: HAVE_TIME_H\n        cpp: false\n\ncheck_type_size:\n    -   type: long\n    -   type: uid_t\n    -   type: unsigned long\n\ncheck_library_function:\n    -   function: dlopen\n        library: dl\n    -   function: __gmpz_powm_sec\n        library: gmp\n\ncheck_c_source_compiles:\n    HAVE_TIME_WITH_SYS_TIME:\n        text: \"\\n#include <time.h>\\n#include <sys\/time.h>\\nint main() {return 0;}\\n\"\n        invert: false\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/ftp.gnu.org\/gnu\/nettle\/nettle-{M}.{m}.tar.gz"
+        }
+    },
+    "hash": "e6ba4aaae886bd02ef8813daf978307f4bc10ba78996e9a7232372a835c4ef00",
+    "created": "2018-05-14 16:41:27.974658"
+}
