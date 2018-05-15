@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.nlohmann.json",
-    "cppan": "source:\n    git: https:\/\/github.com\/nlohmann\/json\n    tag: v{v}\n\nversion: 3.1.2\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/nlohmann\/json\n    tag: v{v}\n\nversion: 3.1.2\n\nfiles:\n    -   include\/.*\n    -   nlohmann_json.natvis\n\npost_target: |\n    target_sources(${this} INTERFACE ${SDIR}\/nlohmann_json.natvis)\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/nlohmann\/json",
@@ -8,6 +8,6 @@
         }
     },
     "version": "3.1.2",
-    "hash": "daba5611896b9dbe4fac8a4604d3dc4445585d782d94d972c2b5768048b9c6da",
-    "created": "2018-03-15 20:59:46.523857"
+    "hash": "215ef9e37faf76e86488f916bbb3d9a1c675329c5c2da278f175e67d0c8f79d4",
+    "created": "2018-05-15 16:09:15.699573"
 }
