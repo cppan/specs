@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.wqking.eventpp",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/wqking\/eventpp",
+            "branch": "master"
+        }
+    },
+    "hash": "8c1686542b2d93bdee02573de3de9effe29727d2fcff69baab64e28a387d31b9",
+    "created": "2018-05-17 21:07:42.236858",
+    "cppan": "source:\n    git: https:\/\/github.com\/wqking\/eventpp\n    branch: master\n\nversion: master\n\n"
+}
