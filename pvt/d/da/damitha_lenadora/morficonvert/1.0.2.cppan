@@ -1,0 +1,13 @@
+{
+    "project": "pvt.damitha_lenadora.morficonvert",
+    "version": "1.0.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Sandeepa1995\/MorfiConvert.git",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/Sandeepa1995\/MorfiConvert.git\n    branch: master\n\nversion: 1.0.2\n\nstatic_only: true\n\nfiles:\n    -   src\/.*\n\n",
+    "hash": "9ced54e5f7cc39fe3a8690b2266b1465549552a7399e238cd512f467cf517ad4",
+    "created": "2018-05-17 01:24:10.674686"
+}
