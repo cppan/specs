@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.gnome.glib.gobject",
-    "version": "2.56.1",
-    "cppan": "source:\n    git: git:\/\/git.gnome.org\/glib\n    tag: \"{v}\"\n\nversion: 2.56.1\n\ntype: library\n\nfiles:\n    -   gobject\/[^\/]*\\.c\n    -   gobject\/[^\/]*\\.h\n\nexclude_from_build:\n    -   gobject\/glib-genmarshal.c\n\ninclude_directories:\n    public:\n        -   gobject\n        -   .\n\noptions:\n    any:\n        definitions:\n            private:\n                -   GOBJECT_COMPILATION\n    shared:\n        definitions:\n            private:\n                -   DLL_EXPORT\n    static:\n        definitions:\n            public:\n                -   GOBJECT_STATIC_COMPILATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.glib.glib:\n            version: \"*\"\n        pvt.cppan.demo.weltling.winlibs.libffi:\n            version: 3\n\npost_sources: |\n    #file_write_once(${BDIR}\/config.h \"\")\n\n",
+    "cppan": "source:\n    git: git:\/\/git.gnome.org\/glib\n    tag: \"{v}\"\n\nversion: 2.56.1\n\ntype: library\n\nfiles:\n    -   gobject\/[^\/]*\\.c\n    -   gobject\/[^\/]*\\.h\n\nexclude_from_build:\n    -   gobject\/glib-genmarshal.c\n\ninclude_directories:\n    public:\n        -   .\n        -   gobject\n\noptions:\n    any:\n        definitions:\n            private:\n                -   GOBJECT_COMPILATION\n        link_libraries:\n            unix:\n                public:\n                    -   ffi\n    shared:\n        definitions:\n            private:\n                -   DLL_EXPORT\n    static:\n        definitions:\n            public:\n                -   GOBJECT_STATIC_COMPILATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.glib.glib:\n            version: \"*\"\n        pvt.cppan.demo.weltling.winlibs.libffi:\n            version: 3\n            conditions:\n                -   WIN32\n\npost_sources: |\n    #file_write_once(${BDIR}\/config.h \"\")\n\n",
     "source": {
         "git": {
             "url": "git:\/\/git.gnome.org\/glib",
             "tag": "{v}"
         }
     },
-    "hash": "e0420023718a84e1c0e64503f600f070213cfcff5b53f6cba5cf17be7cdc3232",
-    "created": "2018-04-25 08:48:36.037631"
+    "version": "2.56.1",
+    "hash": "607ae1e478eb438b9dcbe00b0648375108624181abe729ef119abebb70f8434a",
+    "created": "2018-05-21 15:50:19.088435"
 }
