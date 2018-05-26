@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.vpiotr.decimal_for_cpp",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/vpiotr\/decimal_for_cpp",
+            "branch": "master"
+        }
+    },
+    "hash": "0a734c892d401124d8a84d9c8372372b9fbf9d7d3cfc29d58cc9bc53cb9c2714",
+    "created": "2018-05-26 22:00:30.349351",
+    "cppan": "source:\n    git: https:\/\/github.com\/vpiotr\/decimal_for_cpp\n    branch: master\n\nversion: master\n\n"
+}
