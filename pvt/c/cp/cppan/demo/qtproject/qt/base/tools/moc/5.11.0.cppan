@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.tools.moc",
+    "version": "5.11.0",
+    "cppan": "source:\n    git: git:\/\/code.qt.io\/qt\/qtbase.git\n    tag: v{v}\n\nversion: 5.11.0\n\nroot_directory: src\/tools\/moc\n\nfiles:\n    -   \"[^\/]*\\\\.cpp\"\n    -   \"[^\/]*\\\\.h\"\n\nexclude_from_build:\n    -   keywords.cpp\n    -   ppkeywords.cpp\n\noptions:\n    any:\n        definitions:\n            public:\n                -   QT_MOC\n                -   QT_NO_CAST_FROM_ASCII\n                -   QT_NO_CAST_FROM_BYTEARRAY\n                -   QT_NO_COMPRESS\n                -   QT_NO_FOREACH\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.tools.bootstrap:\n            version: \"*\"\n\npost_sources: |\n    remove_src(mwerks_mac.cpp)\n\n",
+    "source": {
+        "git": {
+            "url": "git:\/\/code.qt.io\/qt\/qtbase.git",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "a80723cae857ded364a5f6f41936e9808eb757fed87215770f1a19deedec0b28",
+    "created": "2018-05-31 20:03:34.448638"
+}
