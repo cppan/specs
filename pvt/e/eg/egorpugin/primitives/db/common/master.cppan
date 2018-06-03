@@ -1,7 +1,7 @@
 {
     "project": "pvt.egorpugin.primitives.db.common",
     "version": "master",
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\/db\/common\n\nc++: 17\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\/db\/common\n\nc++: 17\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.cppan.demo.imageworks.pystring:\n            version: 1\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
