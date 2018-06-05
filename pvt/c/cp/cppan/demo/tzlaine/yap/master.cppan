@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.tzlaine.yap",
-    "cppan": "source:\n    git: https:\/\/github.com\/tzlaine\/yap\n    branch: master\n\nversion: master\n\nfiles:\n    -   boost\/.*\n\n",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/tzlaine\/yap\n    branch: master\n\nversion: master\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tzlaine\/yap",
             "branch": "master"
         }
     },
-    "created": "2017-01-10 18:55:10.491362",
-    "hash": "303d5c5b763e83d8bc35bd16953fa5d2e96ef3e147daee47a5a83f2449b0515d"
+    "version": "master",
+    "hash": "4852d8e0908426d8ebc6af1882637b36a5eb13fc8cfc48d719dca8654628e12a",
+    "created": "2018-06-05 10:32:33.336463"
 }
