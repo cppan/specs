@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.tcbrindle.nanorange",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tcbrindle\/nanorange",
+            "branch": "master"
+        }
+    },
+    "hash": "baf561f619f283de3bfa497e1d81381e81a5a4fd338822fc15cf89360b253b86",
+    "created": "2018-06-06 10:56:20.077405",
+    "cppan": "source:\n    git: https:\/\/github.com\/tcbrindle\/nanorange\n    branch: master\n\nversion: master\n\n"
+}
