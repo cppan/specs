@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.gpr",
+    "version": "1.11.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.11.1\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.gpr_base:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "651043fbd1930c41b48a8c33df0ed191ec0665d0babfc973480e438581edf7fb",
+    "created": "2018-06-07 21:37:37.196919"
+}
