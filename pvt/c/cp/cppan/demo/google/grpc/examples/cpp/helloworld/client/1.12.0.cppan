@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.examples.cpp.helloworld.client",
+    "version": "1.12.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.12.0\n\nstatic_only: true\n\nfiles:\n    -   examples\/cpp\/helloworld\/greeter_client.cc\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.examples.cpp.helloworld.proto:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "fb4573503382afe30ce4f36228bfb6fac0c5dcaf40e8e7c101f625b0768457c8",
+    "created": "2018-06-07 21:43:33.738467"
+}

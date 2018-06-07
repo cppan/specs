@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.third_party.nanopb",
+    "version": "1.12.1",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.12.1\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   third_party\/nanopb\/[^\/]*\\.[hc]\n\ninclude_directories:\n    public:\n        -   .\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "365c0ba3ff7cd04ce5870d4a26dcdae69fc14e25d0d30dc1d6dfbeecd41e97ef",
+    "created": "2018-06-07 21:54:41.041633"
+}
