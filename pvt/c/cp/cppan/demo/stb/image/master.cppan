@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.stb.image",
-    "cppan": "source:\n    branch: master\n    git: https:\/\/github.com\/nothings\/stb\n\nversion: master\n\nfiles: stb_image.h\n\n",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/nothings\/stb\n    branch: master\n\nversion: master\n\nfiles:\n    -   stb_image.h\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/nothings\/stb",
             "branch": "master"
         }
     },
-    "created": "2016-09-12 14:48:08.818314",
-    "hash": "905adea97c5c9cd3b046cf287f99445a6d5379e0a98e97424f9b592993430bb4"
+    "version": "master",
+    "hash": "47297ebe10d1696e66b33321e43e0340d94eb907a1dd6a09ee3c1b7f6bd15ca4",
+    "created": "2018-06-08 20:34:39.155455"
 }
