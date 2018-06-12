@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.plugins.imageformats.qdds",
+    "version": "5.9.6",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtimageformats\n    tag: v5.9.4\n\nversion: 5.9.6\n\ntype: library\n\nroot_directory: src\/plugins\/imageformats\/dds\n\noutput_directory: plugins\/imageformats\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n    static:\n        definitions:\n            private:\n                -   QT_STATICPLUGIN\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.core:\n            version: \"*\"\n            reference: CORE\n        pvt.cppan.demo.qtproject.qt.base.gui:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.tools.moc:\n            version: \"*\"\n            reference: MOC_COMMAND\n\npost_sources: |\n    include(${CORE_SDIR}\/src\/corelib\/Qt5CoreMacros.cmake)\n    set(Qt5Core_MOC_EXECUTABLE ${MOC_COMMAND})\n    \n    set(moc ${src})\n    list(FILTER moc INCLUDE REGEX \".h$\")\n    \n    find_moc_targets(moc ${moc})\n    \n    qt5_wrap_cpp(moc ${moc} TARGET ${this})\n    set(src ${src} ${moc})\n    \n    \n    moc_cpp_file(main.cpp)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtimageformats",
+            "tag": "v5.9.4"
+        }
+    },
+    "hash": "c98d8aa610baf1d668fd92b87fcba67d84d5388de77d6fdb73de93afd4172069",
+    "created": "2018-06-12 13:23:28.83657"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.tools.linguist.release",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qttools\n    tag: v5.9.4\n\nversion: 5.9.6\n\nfiles:\n    -   src\/linguist\/Qt5LinguistToolsMacros.cmake\n    -   src\/linguist\/lrelease\/main.cpp\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.tools.linguist.formats:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.tools.linguist.proparser:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qttools",
+            "tag": "v5.9.4"
+        }
+    },
+    "version": "5.9.6",
+    "hash": "4b59f9098a4ddfe3e96e718f2c8da600ba62dd4d1a9977c25380f8c11e897367",
+    "created": "2018-06-12 13:23:59.455847"
+}

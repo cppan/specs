@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.platformsupport.fontdatabases.windows",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qtbase\n    tag: v5.9.4\n\nversion: 5.9.6\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   src\/platformsupport\/fontdatabases\/.*\\.h\n    -   src\/platformsupport\/fontdatabases\/windows\/.*\n\ninclude_directories:\n    public:\n        -   ${BDIR}\/include\/QtFontDatabaseSupport\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\/QtFontDatabaseSupport\n        -   ${BDIR}\/include\n        -   ${BDIR}\/include\/QtFontDatabaseSupport\n        -   ${BDIR}\/include\/QtFontDatabaseSupport\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   QT_USE_DIRECTWRITE2\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.gui:\n            version: \"*\"\n        pvt.cppan.demo.qtproject.qt.base.platformsupport.fontdatabases.freetype:\n            version: \"*\"\n        pvt.egorpugin.syncqt:\n            version: master\n            reference: syncqt\n\npost_sources: |\n    if (CPPAN_LOCAL_PROJECT)\n        set(PACKAGE_VERSION_MAJOR 5)\n        set(PACKAGE_VERSION_MINOR 8)\n        set(PACKAGE_VERSION_PATCH 0)\n    endif()\n    \n    file_write_once(${BDIR}\/QtFontDatabaseSupport\/QtFontDatabaseSupportDepends \"\n        #ifdef __cplusplus\n        #include <QtCore\/QtCore>\n        #include <QtGui\/QtGui>\n        #endif\n    \")\n    \n    set(module QtFontDatabaseSupport)\n    create_directory(${BDIR}\/include\/${module}\/${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\/${module})\n    add_custom_command(OUTPUT ${BDIR}\/include\/${module}\/${module}\n        COMMAND ${syncqt}\n            -s ${SDIR}\n            -b ${BDIR}\n            -m ${module}\n            -v ${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}\n        DEPENDS ${syncqt}\n    )\n    set(src ${src} ${BDIR}\/include\/${module}\/${module})\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qtbase",
+            "tag": "v5.9.4"
+        }
+    },
+    "version": "5.9.6",
+    "hash": "cd1d3be977f33e65f96c42bbae5389dbea0f6fb22bd216914a201e1057307037",
+    "created": "2018-06-12 13:21:46.386448"
+}

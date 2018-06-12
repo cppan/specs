@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.tools.linguist.convert",
+    "version": "5.9.6",
+    "cppan": "source:\n    git: https:\/\/github.com\/qt\/qttools\n    tag: v5.9.4\n\nversion: 5.9.6\n\nfiles:\n    -   src\/linguist\/lconvert\/main.cpp\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.tools.linguist.formats:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/qt\/qttools",
+            "tag": "v5.9.4"
+        }
+    },
+    "hash": "53c1b8f8b11839ef021787a87dd10c1b92595fce508fc6c1d6b22fad2c38b80f",
+    "created": "2018-06-12 13:24:11.844678"
+}
