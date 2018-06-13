@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.quantstack.xtl",
+    "cppan": "source:\n    git: https:\/\/github.com\/QuantStack\/xtl\n    tag: \"{v}\"\n\nversion: 0.4.9\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/QuantStack\/xtl",
+            "tag": "{v}"
+        }
+    },
+    "version": "0.4.9",
+    "hash": "c71f3576f041f7351a3001b59dd25958a34f12a8cb66cd876915bce23f38540a",
+    "created": "2018-06-13 21:03:10.024694"
+}
