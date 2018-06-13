@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.openalpr.statedetection",
+    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/openalpr\/openalpr\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   src\/statedetection\/.*\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   NOMINMAX\n                    -   WINDOWS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.video:\n            version: 3\n        pvt.cppan.demo.openalpr.openalpr:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.intel.opencv.calib3d:\n            version: 3\n        pvt.cppan.demo.intel.opencv.highgui:\n            version: 3\n        pvt.cppan.demo.intel.opencv.objdetect:\n            version: 3\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/openalpr\/openalpr",
+            "branch": "master"
+        }
+    },
+    "hash": "348643c55ab88c5cc18c839348dd9ea3002f4766d34e6432d8f5356c4aa43298",
+    "created": "2018-06-13 16:41:23.268453"
+}
