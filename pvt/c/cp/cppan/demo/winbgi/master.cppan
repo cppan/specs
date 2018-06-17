@@ -1,7 +1,7 @@
 {
     "project": "pvt.cppan.demo.winbgi",
     "version": "master",
-    "created": "2016-12-05 22:34:38.094182",
-    "cppan": "",
-    "hash": "9db46bdc246a2d1c48de2a482dfe747aec378bcbcb053359baa9a2ef055971a1"
+    "cppan": "version: master\n\nstatic_only: true\n\n",
+    "hash": "f66f8889ae3184499158ad1f255043a73e1054963dfbf8f108ead9d7f4f1787c",
+    "created": "2018-06-17 17:28:03.106743"
 }
