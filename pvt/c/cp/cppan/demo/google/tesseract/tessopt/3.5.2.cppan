@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.tesseract.tessopt",
+    "version": "3.5.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "tag": "3.05.02"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05.02\n\nversion: 3.5.2\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/tessopt.*\n\ninclude_directories:\n    public:\n        -   training\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "1107b7358abb9d0e04d5a88abb5d0b7a28466109b92859c4943782ebe1cf43b6",
+    "created": "2018-06-19 09:40:03.416848"
+}

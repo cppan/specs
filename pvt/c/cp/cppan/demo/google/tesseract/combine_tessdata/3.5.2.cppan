@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.tesseract.combine_tessdata",
+    "version": "3.5.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "tag": "3.05.02"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    tag: 3.05.02\n\nversion: 3.5.2\n\nc++: 11\n\nfiles:\n    -   training\/combine_tessdata.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "4b3f0d15cc2f8278a60faf111f047d139069782daceaf7a1ed83e85b0519ba4a",
+    "created": "2018-06-19 09:39:21.570627"
+}
