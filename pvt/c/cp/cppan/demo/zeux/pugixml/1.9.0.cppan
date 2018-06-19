@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.zeux.pugixml",
+    "cppan": "source:\n    git: https:\/\/github.com\/zeux\/pugixml\n    tag: v1.9\n\nversion: 1.9.0\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/zeux\/pugixml",
+            "tag": "v1.9"
+        }
+    },
+    "version": "1.9.0",
+    "hash": "c1bb709c3aca6623b7eac6e702c2b19300a1b257b96d9f526dc270daaf1a450b",
+    "created": "2018-06-19 12:59:17.352695"
+}
