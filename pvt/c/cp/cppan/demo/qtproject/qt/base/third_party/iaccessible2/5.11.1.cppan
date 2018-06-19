@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.base.third_party.iaccessible2",
+    "version": "5.11.1",
+    "cppan": "source:\n    git: git:\/\/code.qt.io\/qt\/qtbase.git\n    tag: v{v}\n\nversion: 5.11.1\n\ntype: library\n\nroot_directory: src\/3rdparty\/iaccessible2\/generated\n\nstatic_only: true\n\nfiles:\n    -   .*\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\npost_sources: |\n    if (${CMAKE_SIZEOF_VOID_P} EQUAL 8)\n        remove_src_dir(x86\/*)\n    else()\n        remove_src_dir(amd64\/*)\n    endif()\n\npost_target: |\n    if (${CMAKE_SIZEOF_VOID_P} EQUAL 8)\n        target_include_directories(${this} PUBLIC ${SDIR}\/amd64)\n    else()\n        target_include_directories(${this} PUBLIC ${SDIR}\/x86)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "git:\/\/code.qt.io\/qt\/qtbase.git",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "97012444eb8a7abb3a1fd33941038c6fa114fe6b4f2ccb1770ce5d09dc0da904",
+    "created": "2018-06-19 18:29:18.094198"
+}
