@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.i18n",
+    "version": "62.1.0",
+    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.tgz\n\nversion: 62.1.0\n\ntype: library\n\nroot_directory: source\n\nc++: 11\n\nfiles:\n    -   i18n\/.*\\.c\n    -   i18n\/.*\\.cpp\n    -   i18n\/.*\\.h\n\ninclude_directories:\n    public:\n        -   i18n\n\noptions:\n    any:\n        definitions:\n            private:\n                -   U_I18N_IMPLEMENTATION\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.common:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.tgz"
+        }
+    },
+    "hash": "3c48277a249e628574cfe1668e0c1485025f9320fe5a8e86ecfead51ab34782f",
+    "created": "2018-06-21 11:30:37.744482"
+}

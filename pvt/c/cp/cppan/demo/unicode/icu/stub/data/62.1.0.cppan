@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.stub.data",
+    "version": "62.1.0",
+    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.tgz\n\nversion: 62.1.0\n\ntype: library\n\nc++: 11\n\nfiles:\n    -   source\/stubdata\/stubdata.cpp\n\noptions:\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.common:\n            version: \"*\"\n            include_directories_only: true\n\npost_target: |\n    if (LIBRARY_TYPE STREQUAL SHARED)\n        if (MSVC)\n            target_link_libraries(${this} PRIVATE -NOENTRY)\n        endif()\n    endif()\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.tgz"
+        }
+    },
+    "hash": "5aa133bb8a2f815655af78e89cbbf919935ad48687882bab638b5a482c78a20a",
+    "created": "2018-06-21 11:34:01.637218"
+}
