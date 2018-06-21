@@ -7,7 +7,7 @@
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/aimrebirth\/DataManager\n    branch: master\n\nversion: master\n\nfiles:\n    -   src\/generator\/main.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.filesystem:\n            version: 1\n        pvt.lzwdgc.polygon4.data_manager.schema:\n            version: \"*\"\n        pvt.lzwdgc.polygon4.data_manager.memory:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/aimrebirth\/DataManager\n    branch: master\n\nversion: master\n\nc++: 17\n\nfiles:\n    -   src\/generator\/main.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.filesystem:\n            version: 1\n        pvt.lzwdgc.polygon4.data_manager.schema:\n            version: \"*\"\n        pvt.lzwdgc.polygon4.data_manager.memory:\n            version: \"*\"\n\n",
     "hash": "b82de702bac84f6ee04f6004209e4d44920225dd4098091a38a16ead60028a2a",
     "created": "2017-04-01 17:36:45.560122"
 }
