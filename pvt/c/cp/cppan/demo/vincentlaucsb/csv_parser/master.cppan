@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.vincentlaucsb.csv_parser",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/vincentlaucsb\/csv-parser",
+            "branch": "master"
+        }
+    },
+    "hash": "22de0673177ca419d15b6030db87ebb7ce11d063696ec9f7cce0183934748bbd",
+    "created": "2018-06-26 08:00:13.425126",
+    "cppan": "source:\n    git: https:\/\/github.com\/vincentlaucsb\/csv-parser\n    branch: master\n\nversion: master\n\n"
+}
