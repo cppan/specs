@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jmcnamara.libxlsxwriter",
+    "version": "0.7.7",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jmcnamara\/libxlsxwriter",
+            "tag": "RELEASE_{v}"
+        }
+    },
+    "hash": "905615d179cf22ad4915e2a0d0bb3648e13cb5da29ba72104db39550fb7a0690",
+    "created": "2018-06-28 13:53:54.392211",
+    "cppan": "source:\n    git: https:\/\/github.com\/jmcnamara\/libxlsxwriter\n    tag: RELEASE_{v}\n\nversion: 0.7.7\n\n"
+}
