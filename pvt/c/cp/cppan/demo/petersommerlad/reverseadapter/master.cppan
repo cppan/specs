@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.petersommerlad.reverseadapter",
+    "cppan": "source:\n    git: https:\/\/github.com\/PeterSommerlad\/ReverseAdapter\n    branch: master\n\nversion: master\n\nfiles:\n    -   reverse.h\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/PeterSommerlad\/ReverseAdapter",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "584c336df694dfb6655d3ce656d1b153bc59fe84f0eeb6851d97b6946b06d6a3",
+    "created": "2018-06-29 19:28:07.465936"
+}
