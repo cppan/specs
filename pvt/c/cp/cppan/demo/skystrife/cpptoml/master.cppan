@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.skystrife.cpptoml",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/skystrife\/cpptoml",
+            "branch": "master"
+        }
+    },
+    "hash": "bc79cde95b47fae3801d63acbf2b3ec810f817d2eeb989a92bdc55c5a582f391",
+    "created": "2018-06-30 23:35:03.096015",
+    "cppan": "source:\n    git: https:\/\/github.com\/skystrife\/cpptoml\n    branch: master\n\nversion: master\n\n"
+}

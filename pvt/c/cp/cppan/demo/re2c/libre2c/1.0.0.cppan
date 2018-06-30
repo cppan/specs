@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.re2c.libre2c",
+    "version": "1.0.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/skvadrik\/re2c\n    tag: 1.0\n\nversion: 1.0.0\n\nfiles:\n    -   libre2c\/libre2c\/.*\n\ninclude_directories:\n    public:\n        -   libre2c\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/skvadrik\/re2c",
+            "tag": "1.0"
+        }
+    },
+    "hash": "61267199dee412f9987a0d10032864a7b6ad7ebcb79c5d09bfadf6687a5447e2",
+    "created": "2018-06-30 23:02:29.152213"
+}

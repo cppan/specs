@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.re2c.libre2c",
+    "cppan": "source:\n    git: https:\/\/github.com\/skvadrik\/re2c\n    tag: \"{v}\"\n\nversion: 1.0.3\n\nstatic_only: true\n\nfiles:\n    -   libre2c\/libre2c\/.*\n\ninclude_directories:\n    public:\n        -   libre2c\n\npost_sources: |\n    remove_src_win32(libre2c\/libre2c\/readfd.c)\n    remove_src_win32(libre2c\/libre2c\/readrand.c)\n\npost_target: |\n    if(CMAKE_SIZEOF_VOID_P EQUAL 8)\n        set(x \"long long\")\n        target_compile_definitions(${this} PUBLIC ssize_t=${x})\n    elseif(CMAKE_SIZEOF_VOID_P EQUAL 4)\n        target_compile_definitions(${this} PUBLIC ssize_t=int)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/skvadrik\/re2c",
+            "tag": "{v}"
+        }
+    },
+    "version": "1.0.3",
+    "hash": "5baa65aa3897dd6d4f2eaf6ff40429da0931fedaf4b32149910028ad6d0f391f",
+    "created": "2018-06-30 23:16:41.268266"
+}

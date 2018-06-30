@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mayah.tinytoml",
+    "cppan": "source:\n    git: https:\/\/github.com\/mayah\/tinytoml\n    branch: master\n\nversion: master\n\nfiles:\n    -   include\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mayah\/tinytoml",
+            "branch": "master"
+        }
+    },
+    "hash": "09f8a2680b30444cc9ca1fa7a851fb8686eb38fc25d691e355eba6457119fdac",
+    "created": "2018-06-30 23:36:42.090674"
+}

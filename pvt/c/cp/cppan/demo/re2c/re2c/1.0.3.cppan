@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.re2c.re2c",
+    "cppan": "source:\n    git: https:\/\/github.com\/skvadrik\/re2c\n    tag: \"{v}\"\n\nversion: 1.0.3\n\nfiles:\n    -   re2c\/bootstrap\/src\/.*\n    -   re2c\/src\/.*\n\nexclude_from_package:\n    -   re2c\/src\/test\/.*\\.c.*\n\ninclude_directories:\n    public:\n        -   re2c\/bootstrap\n        -   re2c\n\npost_sources: |\n    file_write_once(${BDIR_PRIVATE}\/config.h \"\")\n\ncheck_include_exists:\n    -   file: stdint.h\n        variable: HAVE_STDINT_H\n        cpp: false\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/skvadrik\/re2c",
+            "tag": "{v}"
+        }
+    },
+    "version": "1.0.3",
+    "hash": "435e5c564e101f91cd760ef25627beaa0c754fa2c545ac590b78212c4d73cf03",
+    "created": "2018-06-30 23:32:09.051111"
+}
