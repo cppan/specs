@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.egorpugin.tgbot",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/tgbot-cpp\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\noptions:\n    any:\n        definitions:\n            public:\n                -   HAVE_CURL\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.property_tree:\n            version: 1\n        pvt.cppan.demo.boost.system:\n            version: 1\n        pvt.cppan.demo.boost.date_time:\n            version: 1\n        pvt.cppan.demo.badger.curl.libcurl:\n            version: 7\n        pvt.cppan.demo.openssl.ssl:\n            version: 1\n        pvt.cppan.demo.boost.asio:\n            version: 1\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/tgbot-cpp",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "f221368583ecfa4077bf80a84c77dce930dba8b3e0f149c1663bc25219b90a79",
+    "created": "2018-07-04 17:00:51.208184"
+}
