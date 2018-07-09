@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.python.exe",
+    "version": "3.7.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/python\/cpython\n    tag: v{v}\n\nversion: 3.7.0\n\nfiles:\n    -   Programs\/python.c\n\ndependencies:\n    public:\n        pvt.cppan.demo.python.lib:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/python\/cpython",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "dc82918c76ec5e73645e26bad41fc62750928f34c74b10b0fed763ae841db22a",
+    "created": "2018-07-09 13:04:15.74409"
+}
