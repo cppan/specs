@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.ocornut.imgui",
-    "cppan": "source:\n    git: https:\/\/github.com\/ocornut\/imgui\n    tag: v{M}.{m}\n\nversion: 1.62.0\n\napi_name:\n    -   IMGUI_API\n\nfiles:\n    -   imconfig.h\n    -   imgui.cpp\n    -   imgui.h\n    -   imgui_demo.cpp\n    -   imgui_draw.cpp\n    -   imgui_internal.h\n\noptions:\n    any:\n        link_libraries:\n            win32:\n                public:\n                    -   Opengl32\n\ndependencies:\n    public:\n        pvt.cppan.demo.stb.all:\n            version: master\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/ocornut\/imgui\n    tag: v{M}.{m}\n\nversion: 1.62.0\n\napi_name:\n    -   IMGUI_API\n\nfiles:\n    -   examples\/imgui_impl_glfw.*\n    -   examples\/imgui_impl_opengl3.*\n    -   examples\/imgui_impl_win32.*\n    -   imconfig.h\n    -   imgui.cpp\n    -   imgui.h\n    -   imgui_demo.cpp\n    -   imgui_draw.cpp\n    -   imgui_internal.h\n\nexclude_from_build:\n    -   examples\/.*\n\ninclude_directories:\n    public:\n        -   .\n        -   examples\n\ndependencies:\n    public:\n        pvt.cppan.demo.stb.all:\n            version: master\n        pvt.cppan.demo.glfw:\n            version: \"*\"\n        pvt.cppan.demo.gl3w:\n            version: master\n\npost_sources: |\n    #add_src_win32(examples\/imgui_impl_win32.cpp)\n    add_src_win32(examples\/imgui_impl_glfw.cpp)\n    add_src_win32(examples\/imgui_impl_opengl3.cpp)\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/ocornut\/imgui",
@@ -8,6 +8,6 @@
         }
     },
     "version": "1.62.0",
-    "hash": "528b468727e06c775677e96fa5d8ba802752438e8bb1f3ac82810e4405c1412a",
-    "created": "2018-07-09 20:31:50.450659"
+    "hash": "1d9c1f5973843d44c01545760f5c38c23bed3ebfcef3c19691e79c609bb57162",
+    "created": "2018-07-09 21:06:21.755017"
 }
