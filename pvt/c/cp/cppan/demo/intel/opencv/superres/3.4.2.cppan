@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.intel.opencv.superres",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv\n    tag: \"{v}\"\n\nversion: 3.4.2\n\ntype: library\n\nfiles:\n    -   cmake\/cl2cpp.cmake\n    -   modules\/superres\/include\/.*\n    -   modules\/superres\/src\/[^\/]*\n    -   modules\/superres\/src\/cuda\/.*.cu\n    -   modules\/superres\/src\/opencl\/.*.cl\n\nexclude_from_build:\n    -   modules\/superres\/src\/cuda\/.*\n    -   modules\/superres\/src\/opencl\/.*\n\ninclude_directories:\n    public:\n        -   modules\/superres\/include\n    private:\n        -   modules\/superres\/src\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.video:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.videoio:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\npost_sources: |\n    if (NOT APPLE)\n        remove_src_dir(modules\/${PACKAGE_NAME_LAST}\/src\/*.mm)\n    endif()\n    \n    replace_in_file_once(${SDIR}\/cmake\/cl2cpp.cmake\n        \"string(REPLACE \\\".cpp\\\"\"\n        \"string(REGEX REPLACE \\\"\\\\\\\\.cpp$\\\"\"\n    )\n    \n    set(dir ${SDIR}\/modules\/${PACKAGE_NAME_LAST})\n    file(GLOB cl_kernels \"${dir}\/src\/opencl\/*.cl\")\n    if(cl_kernels)\n        set(OCL_NAME opencl_kernels_${PACKAGE_NAME_LAST})\n        add_custom_command(\n          OUTPUT \"${BDIR}\/${OCL_NAME}.cpp\" \"${BDIR}\/${OCL_NAME}.hpp\"\n          COMMAND\n            ${CMAKE_COMMAND}\n                \"-DMODULE_NAME=${PACKAGE_NAME_LAST}\"\n                \"-DCL_DIR=${dir}\/src\/opencl\"\n                \"-DOUTPUT=${BDIR}\/${OCL_NAME}.cpp\"\n                -P \"${SDIR}\/cmake\/cl2cpp.cmake\"\n          DEPENDS ${cl_kernels} \"${SDIR}\/cmake\/cl2cpp.cmake\")\n        list(APPEND src \"${BDIR}\/${OCL_NAME}.cpp\" \"${BDIR}\/${OCL_NAME}.hpp\")\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/opencv\/opencv",
+            "tag": "{v}"
+        }
+    },
+    "version": "3.4.2",
+    "hash": "39df3221031429931e81202ef263fa0804262f38ae3c38c178a826c600904ed8",
+    "created": "2018-07-09 12:09:31.491502"
+}
