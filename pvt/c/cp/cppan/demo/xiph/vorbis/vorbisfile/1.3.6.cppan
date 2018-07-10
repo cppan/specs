@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.xiph.vorbis.vorbisfile",
+    "cppan": "source:\n    remote: https:\/\/ftp.osuosl.org\/pub\/xiph\/releases\/vorbis\/libvorbis-{v}.tar.xz\n\nversion: 1.3.6\n\nfiles:\n    -   include\/.*\\.h\n    -   lib\/misc.h\n    -   lib\/os.h\n    -   lib\/vorbisfile.c\n    -   win32\/vorbisfile.def\n\ndependencies:\n    public:\n        pvt.cppan.demo.xiph.vorbis.libvorbis:\n            version: \"*\"\n\npost_sources: |\n    remove_src_unix(win32\/vorbisfile.def)\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/ftp.osuosl.org\/pub\/xiph\/releases\/vorbis\/libvorbis-{v}.tar.xz"
+        }
+    },
+    "version": "1.3.6",
+    "hash": "733f69eb165c932442836bc105adb90dea30512e91ac7e86dea2f4ac28254b51",
+    "created": "2018-07-10 21:16:23.262627"
+}
