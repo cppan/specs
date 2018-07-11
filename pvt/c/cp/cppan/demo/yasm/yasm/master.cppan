@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.yasm.yasm",
     "version": "master",
-    "cppan": "source:\n    git: https:\/\/github.com\/yasm\/yasm\n    branch: master\n\nversion: master\n\nfiles:\n    -   frontends\/yasm\/.*\\.[hc]\n\ndependencies:\n    public:\n        pvt.cppan.demo.yasm.libyasm:\n            version: \"*\"\n\npost_sources: |\n    file_write_once(${BDIR}\/license.c \"const char *license_msg[] = { \\\"\\\" };\")\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/yasm\/yasm\n    branch: master\n\nversion: master\n\nfiles:\n    -   frontends\/yasm\/.*\\.[hc]\n    -   libyasm-stdint.h.cmake\n\nexclude_from_package:\n    -   .*\/genversion.c\n    -   .*\/tests\/.*\n\nexclude_from_build:\n    -   .*\/genversion.c\n    -   .*\/tests\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.yasm.libyasm:\n            version: \"*\"\n\npost_sources: |\n    configure_file(${SDIR}\/libyasm-stdint.h.cmake ${BDIR}\/libyasm-stdint.h)\n    \n    \n    file_write_once(${BDIR}\/license.c \"const char *license_msg[] = { \\\"\\\" };\")\n\ncheck_function_exists:\n    -   mergesort\n    -   popen\n    -   strcasecmp\n    -   strcmpi\n    -   stricmp\n    -   strsep\n    -   _popen\n    -   _stricmp\n\ncheck_include_exists:\n    -   file: libgen.h\n        variable: HAVE_LIBGEN_H\n        cpp: false\n    -   file: locale.h\n        variable: HAVE_LOCALE_H\n        cpp: false\n    -   file: strings.h\n        variable: HAVE_STRINGS_H\n        cpp: false\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/yasm\/yasm",
             "branch": "master"
         }
     },
-    "hash": "8a753dc0f5e8a95db7ed86ee113af8be9805d38ff1eb9380961161e036cb00b9",
-    "created": "2018-07-11 16:23:10.381198"
+    "hash": "09b93a5f59f8a143f01d59fdf65d6994914464015be81552107eb4878907ce17",
+    "created": "2018-07-11 22:42:18.311214"
 }

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.yasm.modules.parsers.nasm",
+    "cppan": "source:\n    git: https:\/\/github.com\/yasm\/yasm\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   libyasm-stdint.h.cmake\n    -   modules\/parsers\/nasm\/.*\n\nexclude_from_package:\n    -   .*\/genversion.c\n    -   .*\/tests\/.*\n\nexclude_from_build:\n    -   .*\/genversion.c\n    -   .*\/tests\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.yasm.libyasm:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.yasm.modules.preprocs.nasm:\n            version: \"*\"\n        pvt.cppan.demo.yasm.tools.genmacro:\n            version: \"*\"\n            reference: genmacro\n        pvt.cppan.demo.re2c.re2c:\n            version: 1\n\npost_sources: |\n    configure_file(${SDIR}\/libyasm-stdint.h.cmake ${BDIR}\/libyasm-stdint.h)\n    \n    \n    cppan_re2c(modules\/parsers\/nasm\/nasm-token.re c)\n    \n    macro (YASM_GENMACRO _in_NAME _out_NAME _var_NAME)\n        add_custom_command(\n            OUTPUT ${_out_NAME}\n            COMMAND ${genmacro} ${_out_NAME} ${_var_NAME} ${_in_NAME}\n            DEPENDS ${genmacro}\n            MAIN_DEPENDENCY ${_in_NAME}\n        )\n        set(src ${src} ${_out_NAME})\n        set_source_files_properties(${_out_NAME} PROPERTIES HEADER_FILE_ONLY TRUE)\n    endmacro (YASM_GENMACRO)\n    \n    YASM_GENMACRO(\n        ${SDIR}\/modules\/parsers\/nasm\/nasm-std.mac\n        ${BDIR}\/nasm-macros.c\n        nasm_standard_mac\n    )\n\ncheck_function_exists:\n    -   mergesort\n    -   popen\n    -   strcasecmp\n    -   strcmpi\n    -   stricmp\n    -   strsep\n    -   _popen\n    -   _stricmp\n\ncheck_include_exists:\n    -   file: libgen.h\n        variable: HAVE_LIBGEN_H\n        cpp: false\n    -   file: locale.h\n        variable: HAVE_LOCALE_H\n        cpp: false\n    -   file: strings.h\n        variable: HAVE_STRINGS_H\n        cpp: false\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/yasm\/yasm",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "35b9abdc18f3803e52cf12858a49b7954c21dd7483e655113b999adde732d77e",
+    "created": "2018-07-11 22:48:38.07517"
+}
