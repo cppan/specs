@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.yasm.tools.genmacro",
     "version": "master",
-    "cppan": "source:\n    git: https:\/\/github.com\/yasm\/yasm\n    branch: master\n\nversion: master\n\nfiles:\n    -   libyasm-stdint.h.cmake\n    -   tools\/genmacro\/genmacro.c\n\nexclude_from_package:\n    -   .*\/genversion.c\n    -   .*\/tests\/.*\n\nexclude_from_build:\n    -   .*\/genversion.c\n    -   .*\/tests\/.*\n\npost_sources: |\n    configure_file(${SDIR}\/libyasm-stdint.h.cmake ${BDIR}\/libyasm-stdint.h)\n\ncheck_function_exists:\n    -   mergesort\n    -   popen\n    -   strcasecmp\n    -   strcmpi\n    -   stricmp\n    -   strsep\n    -   _popen\n    -   _stricmp\n\ncheck_include_exists:\n    -   file: libgen.h\n        variable: HAVE_LIBGEN_H\n        cpp: false\n    -   file: locale.h\n        variable: HAVE_LOCALE_H\n        cpp: false\n    -   file: strings.h\n        variable: HAVE_STRINGS_H\n        cpp: false\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/yasm\/yasm\n    branch: master\n\nversion: master\n\nfiles:\n    -   libyasm-stdint.h.cmake\n    -   tools\/genmacro\/genmacro.c\n\nexclude_from_package:\n    -   .*\/tests\/.*\n\nexclude_from_build:\n    -   .*\/tests\/.*\n\npost_sources: |\n    configure_file(${SDIR}\/libyasm-stdint.h.cmake ${BDIR}\/libyasm-stdint.h)\n\ncheck_function_exists:\n    -   mergesort\n    -   popen\n    -   strcasecmp\n    -   strcmpi\n    -   stricmp\n    -   strsep\n    -   _popen\n    -   _stricmp\n\ncheck_include_exists:\n    -   file: libgen.h\n        variable: HAVE_LIBGEN_H\n        cpp: false\n    -   file: locale.h\n        variable: HAVE_LOCALE_H\n        cpp: false\n    -   file: strings.h\n        variable: HAVE_STRINGS_H\n        cpp: false\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/yasm\/yasm",
             "branch": "master"
         }
     },
-    "hash": "aebd80cb24d7e9946568c3c69d504e52871f641854fad4927c68cc2c5950bbbb",
-    "created": "2018-07-11 22:42:14.360187"
+    "hash": "fcbe29dfc276234b31b113e8b7fc59e96681c5a71f989b8f6cbd6cf36a8356fc",
+    "created": "2018-07-11 23:25:44.058859"
 }

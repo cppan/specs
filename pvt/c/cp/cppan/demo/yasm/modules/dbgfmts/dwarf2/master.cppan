@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.yasm.modules.dbgfmts.dwarf2",
     "version": "master",
-    "cppan": "source:\n    git: https:\/\/github.com\/yasm\/yasm\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   libyasm-stdint.h.cmake\n    -   modules\/dbgfmts\/dwarf2\/.*\n\nexclude_from_package:\n    -   .*\/genversion.c\n    -   .*\/tests\/.*\n\nexclude_from_build:\n    -   .*\/genversion.c\n    -   .*\/tests\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.yasm.libyasm:\n            version: \"*\"\n            include_directories_only: true\n\npost_sources: |\n    configure_file(${SDIR}\/libyasm-stdint.h.cmake ${BDIR}\/libyasm-stdint.h)\n\ncheck_function_exists:\n    -   mergesort\n    -   popen\n    -   strcasecmp\n    -   strcmpi\n    -   stricmp\n    -   strsep\n    -   _popen\n    -   _stricmp\n\ncheck_include_exists:\n    -   file: libgen.h\n        variable: HAVE_LIBGEN_H\n        cpp: false\n    -   file: locale.h\n        variable: HAVE_LOCALE_H\n        cpp: false\n    -   file: strings.h\n        variable: HAVE_STRINGS_H\n        cpp: false\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/yasm\/yasm\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   libyasm-stdint.h.cmake\n    -   modules\/dbgfmts\/dwarf2\/.*\n\nexclude_from_package:\n    -   .*\/tests\/.*\n\nexclude_from_build:\n    -   .*\/tests\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.yasm.libyasm:\n            version: \"*\"\n            include_directories_only: true\n\npost_sources: |\n    configure_file(${SDIR}\/libyasm-stdint.h.cmake ${BDIR}\/libyasm-stdint.h)\n\ncheck_function_exists:\n    -   mergesort\n    -   popen\n    -   strcasecmp\n    -   strcmpi\n    -   stricmp\n    -   strsep\n    -   _popen\n    -   _stricmp\n\ncheck_include_exists:\n    -   file: libgen.h\n        variable: HAVE_LIBGEN_H\n        cpp: false\n    -   file: locale.h\n        variable: HAVE_LOCALE_H\n        cpp: false\n    -   file: strings.h\n        variable: HAVE_STRINGS_H\n        cpp: false\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/yasm\/yasm",
             "branch": "master"
         }
     },
-    "hash": "12590c084fea888ff728e9a14ed751f7ca8e7d0f5514f32dae524bebf2d2dbfa",
-    "created": "2018-07-11 22:40:57.073188"
+    "hash": "79127151116f79237309fca745eef3ea9a23958f68fa1fcca7adb1d7929cd9ec",
+    "created": "2018-07-11 23:24:27.647442"
 }

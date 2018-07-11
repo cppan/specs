@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.yasm.tools.genversion",
+    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/yasm\/yasm\n    branch: master\n\nversion: master\n\nfiles:\n    -   libyasm-stdint.h.cmake\n    -   modules\/preprocs\/nasm\/genversion.c\n\nexclude_from_package:\n    -   .*\/tests\/.*\n\nexclude_from_build:\n    -   .*\/tests\/.*\n\npost_sources: |\n    configure_file(${SDIR}\/libyasm-stdint.h.cmake ${BDIR}\/libyasm-stdint.h)\n    \n    \n    file_write_once(${BDIR_PRIVATE}\/config.h \"#define PACKAGE_VERSION \\\"1.3.0\\\"\")\n\ncheck_function_exists:\n    -   mergesort\n    -   popen\n    -   strcasecmp\n    -   strcmpi\n    -   stricmp\n    -   strsep\n    -   _popen\n    -   _stricmp\n\ncheck_include_exists:\n    -   file: libgen.h\n        variable: HAVE_LIBGEN_H\n        cpp: false\n    -   file: locale.h\n        variable: HAVE_LOCALE_H\n        cpp: false\n    -   file: strings.h\n        variable: HAVE_STRINGS_H\n        cpp: false\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/yasm\/yasm",
+            "branch": "master"
+        }
+    },
+    "hash": "536279cbe1ff404ff5a60771f10904d66d2bb1df5106c45cc3a397c7693fad9b",
+    "created": "2018-07-11 23:25:48.381437"
+}
