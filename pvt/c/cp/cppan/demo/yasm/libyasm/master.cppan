@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.yasm.libyasm",
+    "cppan": "source:\n    git: https:\/\/github.com\/yasm\/yasm\n    branch: master\n\nversion: master\n\ntype: library\n\napi_name:\n    -   YASM_DECL\n\nfiles:\n    -   libyasm-stdint.h.cmake\n    -   libyasm.h\n    -   libyasm\/[^\/]*\n    -   util.h\n\npost_sources: |\n    configure_file(${SDIR}\/libyasm-stdint.h.cmake ${BDIR}\/libyasm-stdint.h)\n\ncheck_function_exists:\n    -   mergesort\n    -   strcasecmp\n    -   strcmpi\n    -   stricmp\n    -   strsep\n    -   _stricmp\n\ncheck_include_exists:\n    -   file: libgen.h\n        variable: HAVE_LIBGEN_H\n        cpp: false\n    -   file: locale.h\n        variable: HAVE_LOCALE_H\n        cpp: false\n    -   file: strings.h\n        variable: HAVE_STRINGS_H\n        cpp: false\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/yasm\/yasm",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "5a254e52484c857121fc98b69f9154abf764cd49fd6c5068210df11b536a4899",
+    "created": "2018-07-11 16:29:10.664573"
+}

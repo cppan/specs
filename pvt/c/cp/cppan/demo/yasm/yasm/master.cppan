@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.yasm.yasm",
+    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/yasm\/yasm\n    branch: master\n\nversion: master\n\nfiles:\n    -   frontends\/yasm\/.*\\.[hc]\n\ndependencies:\n    public:\n        pvt.cppan.demo.yasm.libyasm:\n            version: \"*\"\n\npost_sources: |\n    file_write_once(${BDIR}\/license.c \"const char *license_msg[] = { \\\"\\\" };\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/yasm\/yasm",
+            "branch": "master"
+        }
+    },
+    "hash": "8a753dc0f5e8a95db7ed86ee113af8be9805d38ff1eb9380961161e036cb00b9",
+    "created": "2018-07-11 16:23:10.381198"
+}
