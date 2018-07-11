@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.chromium.libyuv.libyuv",
+    "cppan": "source:\n    git: https:\/\/chromium.googlesource.com\/libyuv\/libyuv\n    branch: master\n\nversion: master\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   LIBYUV_BUILDING_SHARED_LIBRARY\n            public:\n                -   LIBYUV_USING_SHARED_LIBRARY\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/include\/libyuv\/convert_from.h \"#define H420ToH010 I420ToI010\" \"#define H420ToH010 I420ToI010\\nLIBYUV_API\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/chromium.googlesource.com\/libyuv\/libyuv",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "267d890be34aa6c99d9e7308bbbb6396f52fd80217c94bff23c45a0b53be2419",
+    "created": "2018-07-11 11:18:06.226609"
+}
