@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.python.data",
+    "cppan": "source:\n    git: https:\/\/github.com\/python\/cpython\n    tag: v{v}\n\nversion: 3.7.0\n\ntype: library\n\nheader_only: true\n\nfiles:\n    -   Lib\/.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/python\/cpython",
+            "tag": "v{v}"
+        }
+    },
+    "version": "3.7.0",
+    "hash": "b9597d2bae0a127eb53b9a2dd49eda7d5f316c60df8c76a226415e898cfedf9f",
+    "created": "2018-07-12 00:40:16.742806"
+}
