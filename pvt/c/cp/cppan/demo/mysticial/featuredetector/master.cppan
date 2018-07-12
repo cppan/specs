@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mysticial.featuredetector",
+    "cppan": "source:\n    git: https:\/\/github.com\/Mysticial\/FeatureDetector\n    branch: master\n\nversion: master\n\nstatic_only: true\n\nfiles:\n    -   src\/x86\/.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Mysticial\/FeatureDetector",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "83e39777a48ac701aedc475504f4dc2a947a600b58d05c7a50e3f2c0b5b4c382",
+    "created": "2018-07-12 19:32:33.286961"
+}
