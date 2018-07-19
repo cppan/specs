@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.sqlcipher.lemon",
+    "version": "3.4.2",
+    "cppan": "source:\n    git: https:\/\/github.com\/sqlcipher\/sqlcipher\n    tag: v{v}\n\nversion: 3.4.2\n\nfiles:\n    -   tool\/lemon.c\n    -   tool\/lempar.c\n\nexclude_from_build:\n    -   tool\/lempar.c\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/sqlcipher\/sqlcipher",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "c15385799be49c2da047b9d2a3557070c224d0ee64eecf0b98b67ba038e71e48",
+    "created": "2018-07-19 14:14:46.47735"
+}
