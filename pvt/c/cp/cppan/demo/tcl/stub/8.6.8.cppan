@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.tcl.stub",
+    "cppan": "source:\n    remote: https:\/\/prdownloads.sourceforge.net\/tcl\/tcl{v}-src.tar.gz\n\nversion: 8.6.8\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   generic\/tclOOStubLib.c\n    -   generic\/tclStubLib.c\n    -   generic\/tclTomMathStubLib.c\n\noptions:\n    any:\n        definitions:\n            private:\n                -   STATIC_BUILD\n    shared:\n        definitions:\n            private:\n                -   TCL_SHARED_BUILD\n\ndependencies:\n    public:\n        pvt.cppan.demo.tcl.sh:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.tcl.lib:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/prdownloads.sourceforge.net\/tcl\/tcl{v}-src.tar.gz"
+        }
+    },
+    "version": "8.6.8",
+    "hash": "f3543f0c119313493fc5d7b20213950a9da64b79553ebe2d4eeff61712fad4f4",
+    "created": "2018-07-19 11:35:43.092413"
+}

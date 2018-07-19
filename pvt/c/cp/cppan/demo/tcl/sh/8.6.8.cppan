@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.tcl.sh",
+    "cppan": "source:\n    remote: https:\/\/prdownloads.sourceforge.net\/tcl\/tcl{v}-src.tar.gz\n\nversion: 8.6.8\n\nfiles:\n    -   win\/.*\\.h\n    -   win\/tclAppInit.c\n\nexclude_from_build:\n    -   .*manifest$\n    -   .*rc$\n\ninclude_directories:\n    public:\n        -   win\n\ndependencies:\n    public:\n        pvt.cppan.demo.tcl.lib:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/prdownloads.sourceforge.net\/tcl\/tcl{v}-src.tar.gz"
+        }
+    },
+    "version": "8.6.8",
+    "hash": "b2ad087c4f7ea4e0e03474b56986ce15db61c654debe9425b9bf29005c7b4a8f",
+    "created": "2018-07-19 11:42:54.993212"
+}
