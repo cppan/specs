@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.reo7sp.tgbot",
-    "cppan": "source:\n    git: https:\/\/github.com\/reo7sp\/tgbot-cpp\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.system:\n            version: 1\n        pvt.cppan.demo.boost.property_tree:\n            version: 1\n        pvt.cppan.demo.boost.date_time:\n            version: 1\n        pvt.cppan.demo.openssl.ssl:\n            version: 1\n        pvt.cppan.demo.boost.asio:\n            version: 1\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/reo7sp\/tgbot-cpp\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.property_tree:\n            version: 1\n        pvt.cppan.demo.boost.system:\n            version: 1\n        pvt.cppan.demo.boost.date_time:\n            version: 1\n        pvt.cppan.demo.openssl.ssl:\n            version: 1\n        pvt.cppan.demo.boost.asio:\n            version: 1\n\n",
     "version": "master",
     "source": {
         "git": {
