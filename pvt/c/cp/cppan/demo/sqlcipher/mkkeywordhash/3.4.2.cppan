@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.sqlcipher.mkkeywordhash",
+    "version": "3.4.2",
+    "cppan": "source:\n    git: https:\/\/github.com\/sqlcipher\/sqlcipher\n    tag: v{v}\n\nversion: 3.4.2\n\nfiles:\n    -   tool\/mkkeywordhash.c\n\noptions:\n    any:\n        definitions:\n            private:\n                -   SQLCIPHER_CRYPTO_OPENSSL=1\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/sqlcipher\/sqlcipher",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "ad615248003960d5c363ff3f5437c2ca0a475aab8bd684f1979de31c585665f0",
+    "created": "2018-07-22 10:09:59.792385"
+}
