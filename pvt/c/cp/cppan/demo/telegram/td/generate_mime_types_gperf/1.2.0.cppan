@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.telegram.td.generate_mime_types_gperf",
+    "version": "1.2.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/tdlib\/td\n    tag: v{v}\n\nversion: 1.2.0\n\nroot_directory: tdutils\n\nfiles:\n    -   generate\/generate_mime_types_gperf.cpp\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tdlib\/td",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "dc919df99fbdde234133e1e60942e44e919e1ea71926ab3830e445a693d4af40",
+    "created": "2018-07-22 11:12:49.797774"
+}
