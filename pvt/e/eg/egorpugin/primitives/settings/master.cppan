@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.settings",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\/settings\n\nc++: 17\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.yaml:\n            version: \"*\"\n        pvt.cppan.demo.ragel:\n            version: 6\n        pvt.cppan.demo.lexxmark.winflexbison.flex:\n            version: master\n            reference: flex\n            conditions:\n                -   WIN32\n        pvt.egorpugin.primitives.templates:\n            version: \"*\"\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.cppan.demo.lexxmark.winflexbison.bison:\n            version: master\n            reference: bison\n            conditions:\n                -   WIN32\n\npost_target: |\n    cppan_flex_bison_pair(LALR1_CPP_VARIANT_PARSER src\/settings)\n    cppan_flex_bison_pair(LALR1_CPP_VARIANT_PARSER src\/path)\n    target_sources(${this} PUBLIC ${SDIR}\/src\/settings.natvis)\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "hash": "7eb5553a603820641a39ae37d42cde9ee221269e83b08db1632b9d4db5cbc4c9",
+    "created": "2018-07-25 23:16:27.137482"
+}
