@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.reo7sp.tgbot",
-    "cppan": "source:\n    git: https:\/\/github.com\/reo7sp\/tgbot-cpp\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.property_tree:\n            version: 1\n        pvt.cppan.demo.boost.system:\n            version: 1\n        pvt.cppan.demo.boost.date_time:\n            version: 1\n        pvt.cppan.demo.openssl.ssl:\n            version: 1\n        pvt.cppan.demo.boost.asio:\n            version: 1\n\n",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/reo7sp\/tgbot-cpp\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\noptions:\n    any:\n        definitions:\n            public:\n                -   HAVE_CURL\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.property_tree:\n            version: 1\n        pvt.cppan.demo.boost.system:\n            version: 1\n        pvt.cppan.demo.boost.date_time:\n            version: 1\n        pvt.cppan.demo.badger.curl.libcurl:\n            version: 7\n        pvt.cppan.demo.openssl.ssl:\n            version: 1\n        pvt.cppan.demo.boost.asio:\n            version: 1\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/reo7sp\/tgbot-cpp",
             "branch": "master"
         }
     },
-    "hash": "8e78c01f328c506f3257543106345b7728a3bfb79682e68d8c23feae02eaef03",
-    "created": "2018-03-27 18:22:04.648301"
+    "version": "master",
+    "hash": "2219445974e6161ee17294f7669edf03feea27b17111434647b5f701383bcfab",
+    "created": "2018-07-26 00:00:32.111715"
 }
