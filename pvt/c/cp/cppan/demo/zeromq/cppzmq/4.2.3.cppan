@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.zeromq.cppzmq",
+    "cppan": "source:\n    git: https:\/\/github.com\/zeromq\/cppzmq\n    tag: v{v}\n\nversion: 4.2.3\n\ntype: library\n\nfiles:\n    -   \"[^\/]*\\\\.hpp\"\n\ndependencies:\n    public:\n        pvt.cppan.demo.zeromq.libzmq:\n            version: 4\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/zeromq\/cppzmq",
+            "tag": "v{v}"
+        }
+    },
+    "version": "4.2.3",
+    "hash": "bf8e9ac08e64dd17f5a876dc91b4b4638c494926fe981a2e7fe3bb3b05c1a0cd",
+    "created": "2018-07-26 16:25:57.570104"
+}
