@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.llvm.demangle",
+    "cppan": "source:\n    git: https:\/\/git.llvm.org\/git\/llvm.git\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   include\/llvm\/Demangle\/.*\n    -   lib\/Demangle\/.*\\.cpp\n    -   lib\/Demangle\/.*\\.h\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/git.llvm.org\/git\/llvm.git",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "b669f2cbf4d4f766875df790d8faaf299aa5e87b151619783d9e51bddad57b58",
+    "created": "2018-07-29 10:59:55.044116"
+}
