@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.error_handling",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nname: error_handling\n\ntype: library\n\nroot_directory: src\/error_handling\n\nc++: 17\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\n",
+    "hash": "90a21ad4f1ecbb6e82c831b8aee0b7bfe8564346a8060022a17f61864bb8f462",
+    "created": "2018-07-29 12:30:50.367449"
+}

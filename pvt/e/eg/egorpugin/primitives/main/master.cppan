@@ -1,6 +1,5 @@
 {
     "project": "pvt.egorpugin.primitives.main",
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\/main\n\nc++: 17\n\nstatic_only: true\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\n",
     "version": "master",
     "source": {
         "git": {
@@ -8,6 +7,7 @@
             "branch": "master"
         }
     },
-    "hash": "b8782a42be76c2ec20b2a86d9617d021bca5fc312701533cac259a0c96e70d73",
-    "created": "2018-07-25 23:16:22.456841"
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\/main\n\nc++: 17\n\nstatic_only: true\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.error_handling:\n            version: \"*\"\n\n",
+    "hash": "6326645cf357da1c22ba6d899117a2ef4d526da037c8503ec0b0dcf2eff94c47",
+    "created": "2018-07-29 12:30:55.005436"
 }
