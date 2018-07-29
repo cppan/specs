@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.daandemeyer.reproc",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/DaanDeMeyer\/reproc",
+            "branch": "master"
+        }
+    },
+    "hash": "4381db8ab7af1aa33d0b03d05fcfa0a44fb871304c928abf33a73ef5a0048e19",
+    "created": "2018-07-29 23:09:38.215805",
+    "cppan": "source:\n    git: https:\/\/github.com\/DaanDeMeyer\/reproc\n    branch: master\n\nversion: master\n\n"
+}

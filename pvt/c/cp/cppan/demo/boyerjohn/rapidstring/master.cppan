@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boyerjohn.rapidstring",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boyerjohn\/rapidstring",
+            "branch": "master"
+        }
+    },
+    "hash": "e10960e01719ed7d30704b02a1967dae4f053abb8fe498b140ce330a65002a50",
+    "created": "2018-07-29 22:58:16.485042",
+    "cppan": "source:\n    git: https:\/\/github.com\/boyerjohn\/rapidstring\n    branch: master\n\nversion: master\n\n"
+}
