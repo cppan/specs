@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.sw.main",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\/sw\/main\n\nc++: 17\n\nstatic_only: true\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.sw.settings:\n            version: \"*\"\n    private:\n        pvt.egorpugin.primitives.main:\n            version: \"*\"\n\n",
+    "hash": "47f74a7ef55a08bd45cd0082be1d74e34407d904cbfea484e1cfc209529100dc",
+    "created": "2018-07-29 20:47:19.532894"
+}
