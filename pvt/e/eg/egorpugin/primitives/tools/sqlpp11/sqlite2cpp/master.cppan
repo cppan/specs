@@ -1,13 +1,13 @@
 {
     "project": "pvt.egorpugin.primitives.tools.sqlpp11.sqlite2cpp",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nc++: 17\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\nfiles:\n    -   src\/tools\/sqlpp11.sqlite2cpp.cpp\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.context:\n            version: \"*\"\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.egorpugin.primitives.sw.main:\n            version: \"*\"\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\ninclude_script: \"macro(sqlite2cpp_gen_sql f out ns)\\n    get_filename_component(d ${f} DIRECTORY)\\n    set(o ${BDIR_PRIVATE}\/${out})\\n    add_custom_command(OUTPUT ${o}\\n        COMMAND ${sqlite2cpp} ${f} ${o} ${ns}\\n        DEPENDS ${sqlite2cpp} ${f}\\n    )\\n    set(src ${src} ${f} ${o})\\nendmacro()\\n\"\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
             "branch": "master"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nc++: 17\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\nfiles:\n    -   src\/tools\/sqlpp11.sqlite2cpp.cpp\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.context:\n            version: \"*\"\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n        pvt.egorpugin.primitives.sw.main:\n            version: \"*\"\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\n",
-    "hash": "d887846b5a1b2e3ab6543481a92c474a195043494af0b61e2595805dee5b2ec5",
-    "created": "2018-07-30 00:58:44.040335"
+    "version": "master",
+    "hash": "7143297ceee7df731e3d67965d2098da6cecc6e5a70a1f82b5e32cd87811a78a",
+    "created": "2018-07-30 08:58:48.125271"
 }
