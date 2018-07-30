@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.tools.embedder",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\nc++: 17\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\nfiles:\n    -   src\/tools\/embedder.cpp\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.sw.main:\n            version: \"*\"\n        pvt.egorpugin.primitives.filesystem:\n            version: \"*\"\n\n",
+    "hash": "f170c33db23bfdb19f8c1375ada2436b3e5e58bc379b50e20a15ebb6fafb2204",
+    "created": "2018-07-30 00:58:38.464962"
+}
