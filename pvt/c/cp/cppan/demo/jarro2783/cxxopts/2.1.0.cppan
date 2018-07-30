@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.jarro2783.cxxopts",
+    "cppan": "source:\n    git: https:\/\/github.com\/jarro2783\/cxxopts\n    tag: v{v}\n\nversion: 2.1.0\n\nfiles:\n    -   include\/.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/jarro2783\/cxxopts",
+            "tag": "v{v}"
+        }
+    },
+    "version": "2.1.0",
+    "hash": "830f5f3bd0f0a919c9d08a2b5bef278d0c597208ba46f8ae7ac8b4ca68c33639",
+    "created": "2018-07-30 14:39:27.85799"
+}
