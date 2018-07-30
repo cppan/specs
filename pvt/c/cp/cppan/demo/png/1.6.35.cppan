@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.png",
+    "cppan": "source:\n    git: https:\/\/github.com\/glennrp\/libpng\n    tag: v{v}\n\nversion: 1.6.35\n\nfiles:\n    -   png.c\n    -   png.h\n    -   pngconf.h\n    -   pngdebug.h\n    -   pngerror.c\n    -   pngget.c\n    -   pnginfo.h\n    -   pngmem.c\n    -   pngpread.c\n    -   pngpriv.h\n    -   pngread.c\n    -   pngrio.c\n    -   pngrtran.c\n    -   pngrutil.c\n    -   pngset.c\n    -   pngstruct.h\n    -   pngtrans.c\n    -   pngwio.c\n    -   pngwrite.c\n    -   pngwtran.c\n    -   pngwutil.c\n    -   scripts\/pnglibconf.h.prebuilt\n\ninclude_directories:\n    public:\n        -   .\n\noptions:\n    shared:\n        definitions:\n            win32:\n                public:\n                    -   _WINDLL\n\ndependencies:\n    public:\n        pvt.cppan.demo.madler.zlib:\n            version: 1\n\npre_sources: |\n    configure_file(${CMAKE_CURRENT_SOURCE_DIR}\/scripts\/pnglibconf.h.prebuilt\n                   ${CMAKE_CURRENT_BINARY_DIR}\/pnglibconf.h)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/glennrp\/libpng",
+            "tag": "v{v}"
+        }
+    },
+    "version": "1.6.35",
+    "hash": "78b454407fabcbe6727fe7ee80fef13b16957408fe3d1d3151d32b7ef4fdb3c7",
+    "created": "2018-07-30 11:47:48.769748"
+}

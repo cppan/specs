@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.google.protobuf.protoc",
-    "cppan": "source:\n    git: https:\/\/github.com\/google\/protobuf\n    tag: v{v}\n\nversion: 3.6.0\n\nimport_from_bazel: true\n\naliases:\n    -   protoc\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.protobuf.protoc_lib:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/protobuf\n    tag: v{v}\n\nversion: 3.6.0\n\nimport_from_bazel: true\n\naliases:\n    -   protoc\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.protobuf.protoc_lib:\n            version: \"*\"\n\ninclude_script: |\n    macro(gen_pb f)\n        get_filename_component(n ${f} NAME_WE)\n        get_filename_component(d ${f} DIRECTORY)\n        string(REPLACE \"${SDIR}\" \"\" d2 \"${d}\")\n        set(n ${d2}\/${n})\n        add_custom_command(\n            OUTPUT\n                ${BDIR}\/${n}.pb.cc\n                ${BDIR}\/${n}.pb.h\n            COMMAND\n                ${this} ${f} --cpp_out=${BDIR}\/${d2} -I ${d}\n            DEPENDS ${f}\n        )\n        set(src ${src} ${BDIR}\/${n}.pb.cc ${BDIR}\/${n}.pb.h)\n    endmacro()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/google\/protobuf",
@@ -8,6 +8,6 @@
         }
     },
     "version": "3.6.0",
-    "hash": "b6d5aa3d6cee09972cc6ee994a5ea342df0ccdc917ba2a44035ddc65e43ffa23",
-    "created": "2018-06-07 21:53:46.175171"
+    "hash": "a54c7f76004c558ad9e8d979bf2b08d4a6ec605125ee03866372c9a5b96e94a9",
+    "created": "2018-07-30 12:27:39.527749"
 }
