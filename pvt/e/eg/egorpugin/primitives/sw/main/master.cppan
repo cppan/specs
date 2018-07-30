@@ -1,6 +1,6 @@
 {
     "project": "pvt.egorpugin.primitives.sw.main",
-    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\/sw\/main\n\nc++: 17\n\nstatic_only: true\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.sw.settings:\n            version: \"*\"\n        pvt.egorpugin.primitives.main:\n            version: \"*\"\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\/sw\/main\n\nc++: 17\n\nstatic_only: true\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.sw.settings:\n            version: \"*\"\n            reference: sw_settings\n        pvt.egorpugin.primitives.main:\n            version: \"*\"\n            reference: main\n\npost_target: |\n    # try to fix link order fo ld\n    target_link_libraries(${this} INTERFACE $<TARGET_FILE:${main}> $<TARGET_FILE:${PACKAGE_STRING}> $<TARGET_FILE:${sw_settings}>)\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/egorpugin\/primitives",
@@ -8,6 +8,6 @@
         }
     },
     "version": "master",
-    "hash": "5b676f3f1f325f164fb3b74bb6883983b9cc0333b261f44f98efdffcae3f6db9",
-    "created": "2018-07-30 07:56:43.107076"
+    "hash": "2d09e57684299c5346eaef953e591d036bfef29c82e3fe8cc4adf8b8041368f7",
+    "created": "2018-07-30 08:30:25.847178"
 }
