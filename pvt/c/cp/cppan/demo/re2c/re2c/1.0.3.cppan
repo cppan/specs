@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.re2c.re2c",
-    "cppan": "source:\n    git: https:\/\/github.com\/skvadrik\/re2c\n    tag: \"{v}\"\n\nversion: 1.0.3\n\nfiles:\n    -   re2c\/bootstrap\/src\/.*\n    -   re2c\/src\/.*\n\nexclude_from_package:\n    -   re2c\/src\/test\/.*\\.c.*\n\ninclude_directories:\n    public:\n        -   re2c\/bootstrap\n        -   re2c\n\npost_sources: |\n    file_write_once(${BDIR_PRIVATE}\/config.h \"\")\n\ncheck_include_exists:\n    -   file: stdint.h\n        variable: HAVE_STDINT_H\n        cpp: false\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/skvadrik\/re2c\n    tag: \"{v}\"\n\nversion: 1.0.3\n\nfiles:\n    -   re2c\/bootstrap\/src\/.*\n    -   re2c\/src\/.*\n\nexclude_from_package:\n    -   re2c\/src\/test\/.*\\.c.*\n\ninclude_directories:\n    public:\n        -   re2c\n        -   re2c\/bootstrap\n\npost_sources: |\n    file_write_once(${BDIR_PRIVATE}\/config.h \"\")\n\ninclude_script: |\n    macro(gen_re2c f ext)\n        set(i ${SDIR}\/${f})\n        set(o ${BDIR_PRIVATE}\/${f}.${ext})\n        get_filename_component(dir ${o} DIRECTORY)\n        add_custom_command(OUTPUT ${o}\n            COMMAND ${CMAKE_COMMAND} -E make_directory ${dir}\n            COMMAND $<CPPAN_THIS_PACKAGE> -o ${o} ${i}\n            DEPENDS ${i}\n        )\n        set(src ${src} ${o})\n    endmacro()\n\ncheck_include_exists:\n    -   file: stdint.h\n        variable: HAVE_STDINT_H\n        cpp: false\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/skvadrik\/re2c",
@@ -8,6 +8,6 @@
         }
     },
     "version": "1.0.3",
-    "hash": "435e5c564e101f91cd760ef25627beaa0c754fa2c545ac590b78212c4d73cf03",
-    "created": "2018-06-30 23:32:09.051111"
+    "hash": "ad2f275cee08e331645bafb06b3ed27941770ae938be1bf5af25558567f5e8a2",
+    "created": "2018-07-30 12:44:04.777224"
 }
