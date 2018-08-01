@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.malaterre.gdcm.jpeg16",
+    "cppan": "source:\n    git: https:\/\/github.com\/malaterre\/GDCM\n    tag: v{v}\n\nversion: 2.6.9\n\ntype: library\n\nroot_directory: Utilities\/gdcmjpeg\n\nfiles:\n    -   .*\\.c\n    -   .*\\.h\n    -   .*\\.in\n\nexclude_from_package:\n    -   example.c\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   JPEGDLL\n    static:\n        definitions:\n            public:\n                -   JPEGSTATIC\n\npost_sources: |\n    replace_in_file_once(${SDIR}\/jmorecfg.h\n        \"__declspec(dllexport)\"\n        \"extern __declspec(dllexport )\")\n    replace_in_file_once(${SDIR}\/jmorecfg.h\n        \"__declspec(dllimport)\"\n        \"extern \\\"C\\\" __declspec(dllimport )\")\n    \n    foreach(bits 16)\n          set(CMAKE_BITS_IN_JSAMPLE ${bits})\n          configure_file(${SDIR}\/jpegcmake.h.in\n                         ${BDIR}\/${bits}\/jpegcmake.h\n                         @ONLY)\n          set(MANGLE_PREFIX jpeg${bits})\n          configure_file(${SDIR}\/mangle_jpeg.h.in\n                         ${BDIR}\/${bits}\/mangle_jpeg${bits}bits.h\n                         @ONLY)\n    \n          # FIXME FIXME FIXME\n          configure_file(${SDIR}\/jmorecfg.h\n                         ${BDIR}\/${bits}\/jmorecfg.h\n                         COPYONLY)\n          configure_file(${SDIR}\/jconfig.h\n                         ${BDIR}\/${bits}\/jconfig.h\n                         COPYONLY)\n          configure_file(${SDIR}\/jpeglib.h\n                         ${BDIR}\/${bits}\/jpeglib.h\n                         COPYONLY)\n          configure_file(${SDIR}\/jerror.h\n                         ${BDIR}\/${bits}\/jerror.h\n                         COPYONLY)\n          configure_file(${SDIR}\/jinclude.h\n                         ${BDIR}\/${bits}\/jinclude.h\n                         COPYONLY)\n    endforeach()\n\npost_target: |\n    target_include_directories(${this} PRIVATE ${BDIR}\/16)\n\ncheck_include_exists:\n    -   file: stddef.h\n        variable: HAVE_STDDEF_H\n        cpp: false\n    -   file: stdint.h\n        variable: HAVE_STDINT_H\n        cpp: false\n    -   file: stdlib.h\n        variable: HAVE_STDLIB_H\n        cpp: false\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/malaterre\/GDCM",
+            "tag": "v{v}"
+        }
+    },
+    "version": "2.6.9",
+    "hash": "c47d231a7b6b96cc24db976881cd971c0df2aba450763a883a525a61db92a279",
+    "created": "2018-08-01 16:13:52.075251"
+}

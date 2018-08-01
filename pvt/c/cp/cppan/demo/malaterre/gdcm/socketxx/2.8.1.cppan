@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.malaterre.gdcm.socketxx",
+    "cppan": "source:\n    git: https:\/\/github.com\/malaterre\/GDCM\n    tag: v{v}\n\nversion: 2.8.1\n\ntype: library\n\nroot_directory: Utilities\/socketxx\n\nfiles:\n    -   .*\\.cpp\n    -   .*\\.h\n    -   socket++\/config.h.in\n\ninclude_directories:\n    public:\n        -   .\n        -   socket++\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   socketxx_EXPORTS\n            public:\n                -   GDCM_BUILD_SHARED_LIBS\n\npost_sources: |\n    macro(setv v)\n        set(GDCM_${v} ${${v}})\n    endmacro(setv)\n    \n    set(SOCKET_MAJOR_VERSION ${PACKAGE_MAJOR_VERSION})\n    set(SOCKET_MINOR_VERSION ${PACKAGE_MINOR_VERSION})\n    set(SOCKET_MICRO_VERSION ${PACKAGE_PATCH_VERSION})\n    set(VERSION ${PACKAGE_VERSION})\n    \n    setv(HAVE_STRSIGNAL)\n    set(HAVE_STRING 1)\n    set(HAVE_SSTREAM 1)\n    set(HAVE_WORKING_FORK 1)\n    set(HAVE_WORKING_VFORK 1)\n    \n    configure_file(${SDIR}\/socket++\/config.h.in ${BDIR}\/config.h)\n    \n    remove_src_win32(socket++\/sockunix.cpp)\n    \n    replace_in_file_once(${SDIR}\/socket++\/sockstream.h \"#  include <windows.h>\" \"\/\/#  include <windows.h>\\n#include <WinSock2.h>\")\n    replace_in_file_once(${SDIR}\/socket++\/local.h \"#\tinclude <windows.h>\" \"\")\n\ncheck_function_exists:\n    -   fork\n    -   select\n    -   strsignal\n    -   vfork\n\ncheck_include_exists:\n    -   file: dlfcn.h\n        variable: HAVE_DLFCN_H\n        cpp: false\n    -   file: inttypes.h\n        variable: HAVE_INTTYPES_H\n        cpp: false\n    -   file: memory.h\n        variable: HAVE_MEMORY_H\n        cpp: false\n    -   file: stdint.h\n        variable: HAVE_STDINT_H\n        cpp: false\n    -   file: stdlib.h\n        variable: HAVE_STDLIB_H\n        cpp: false\n    -   file: strings.h\n        variable: HAVE_STRINGS_H\n        cpp: false\n    -   file: string.h\n        variable: HAVE_STRING_H\n        cpp: false\n    -   file: sys\/stat.h\n        variable: HAVE_SYS_STAT_H\n        cpp: false\n    -   file: sys\/types.h\n        variable: HAVE_SYS_TYPES_H\n        cpp: false\n    -   file: sys\/wait.h\n        variable: HAVE_SYS_WAIT_H\n        cpp: false\n    -   file: unistd.h\n        variable: HAVE_UNISTD_H\n        cpp: false\n    -   file: vfork.h\n        variable: HAVE_VFORK_H\n        cpp: false\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/malaterre\/GDCM",
+            "tag": "v{v}"
+        }
+    },
+    "version": "2.8.1",
+    "hash": "f4604c75513b0185b0a7b59b5402d5307924f20d00573b9dfb0f6879e3a82056",
+    "created": "2018-08-01 16:14:22.680409"
+}

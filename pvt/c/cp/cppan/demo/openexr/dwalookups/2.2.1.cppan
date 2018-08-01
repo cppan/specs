@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.openexr.dwalookups",
+    "cppan": "source:\n    remote: https:\/\/download.savannah.nongnu.org\/releases\/openexr\/openexr-{v}.tar.gz\n\nversion: 2.2.1\n\nfiles:\n    -   IlmImf\/dwaLookups.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.openexr.ilmbase.ilmthread:\n            version: \"*\"\n        pvt.cppan.demo.openexr.config:\n            version: \"*\"\n        pvt.cppan.demo.openexr.ilmimf:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.openexr.ilmbase.imath:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/download.savannah.nongnu.org\/releases\/openexr\/openexr-{v}.tar.gz"
+        }
+    },
+    "version": "2.2.1",
+    "hash": "ea0caf953d89f12cfd43fd8df7f9c6313c65b64b7bfacb2250bf3e7e0d8fa0e7",
+    "created": "2018-08-01 16:20:04.510214"
+}

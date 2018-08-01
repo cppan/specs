@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.openexr.b44explogtable",
+    "cppan": "source:\n    remote: https:\/\/download.savannah.nongnu.org\/releases\/openexr\/openexr-{v}.tar.gz\n\nversion: 2.2.1\n\nfiles:\n    -   IlmImf\/b44ExpLogTable.cpp\n\ndependencies:\n    public:\n        pvt.cppan.demo.openexr.ilmbase.half:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/download.savannah.nongnu.org\/releases\/openexr\/openexr-{v}.tar.gz"
+        }
+    },
+    "version": "2.2.1",
+    "hash": "1e29f91c4ed4eefb4b6ad5ea1b49d1341a20588045f8cf98c81bb3aea4e23a0b",
+    "created": "2018-08-01 16:21:50.079489"
+}

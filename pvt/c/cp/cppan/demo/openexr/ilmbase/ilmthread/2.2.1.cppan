@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.openexr.ilmbase.ilmthread",
+    "cppan": "source:\n    remote: https:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-{v}.tar.gz\n\nversion: 2.2.1\n\nfiles:\n    -   IlmThread\/.*\\.cpp\n    -   IlmThread\/.*\\.h\n\ninclude_directories:\n    public:\n        -   IlmThread\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   ILMTHREAD_EXPORTS\n            public:\n                -   OPENEXR_DLL\n\ndependencies:\n    public:\n        pvt.cppan.demo.openexr.ilmbase.iex:\n            version: \"*\"\n\npost_sources: |\n    remove_src_unix(IlmThread\/IlmThreadMutexWin32.cpp)\n    remove_src_unix(IlmThread\/IlmThreadSemaphoreWin32.cpp)\n    remove_src_unix(IlmThread\/IlmThreadWin32.cpp)\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/download.savannah.nongnu.org\/releases\/openexr\/ilmbase-{v}.tar.gz"
+        }
+    },
+    "version": "2.2.1",
+    "hash": "c619ef72dda8fca70eaacc11619a8a73cc939479b7332bf93bf407a986dcc0ca",
+    "created": "2018-08-01 16:21:07.103384"
+}
