@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.protobuf.protoc",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/protobuf\n    tag: v{v}\n\nversion: 3.6.1\n\nimport_from_bazel: true\n\nfiles:\n    -   src\/google\/protobuf\/any.proto\n    -   src\/google\/protobuf\/api.proto\n    -   src\/google\/protobuf\/compiler\/plugin.proto\n    -   src\/google\/protobuf\/descriptor.proto\n    -   src\/google\/protobuf\/duration.proto\n    -   src\/google\/protobuf\/empty.proto\n    -   src\/google\/protobuf\/field_mask.proto\n    -   src\/google\/protobuf\/source_context.proto\n    -   src\/google\/protobuf\/struct.proto\n    -   src\/google\/protobuf\/timestamp.proto\n    -   src\/google\/protobuf\/type.proto\n    -   src\/google\/protobuf\/wrappers.proto\n\naliases:\n    -   protoc\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.protobuf.protoc_lib:\n            version: \"*\"\n\ninclude_script: |\n    macro(gen_pb f)\n        get_filename_component(n ${f} NAME_WE)\n        get_filename_component(d ${f} DIRECTORY)\n        string(REPLACE \"${SDIR}\" \"\" d2 \"${d}\")\n        set(n ${d2}\/${n})\n        add_custom_command(\n            OUTPUT\n                ${BDIR}\/${n}.pb.cc\n                ${BDIR}\/${n}.pb.h\n            COMMAND\n                $<CPPAN_THIS_PACKAGE> ${f} --cpp_out=${BDIR}\/${d2} -I ${d} -I $<CPPAN_THIS_PACKAGE_SDIR>\/src\n            DEPENDS ${f}\n        )\n        set(src ${src} ${BDIR}\/${n}.pb.cc ${BDIR}\/${n}.pb.h)\n    endmacro()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/google\/protobuf",
+            "tag": "v{v}"
+        }
+    },
+    "version": "3.6.1",
+    "hash": "7545931bcf8ff6b1a0b0da630b5615fe266c905284fc308c703d587265c465c0",
+    "created": "2018-08-01 01:06:40.642192"
+}
