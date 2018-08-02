@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.gnu.gawk.regex",
-    "cppan": "source:\n    remote: http:\/\/ftp.gnu.org\/gnu\/gawk\/gawk-{v}.tar.xz\n\nversion: 4.2.1\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   support\/reg.*\n\nexclude_from_build:\n    -   support\/regcomp.c\n    -   support\/regex_internal.c\n    -   support\/regexec.c\n\ninclude_directories:\n    public:\n        -   support\n\noptions:\n    any:\n        definitions:\n            private:\n                -   GAWK\n                -   HAVE_CONFIG_H\n\npost_sources: |\n    file_write_once(${BDIR_PRIVATE}\/config.h \"\n        #ifdef _WIN32\n            #ifdef _WIN64\n            #define ssize_t long long\n            #else\n            #define ssize_t int\n            #endif\n        #endif\n    \")\n    \n    replace_in_file_once(${SDIR}\/support\/regex_internal.c \"__attribute ((pure))\" \"\")\n    replace_in_file_once(${SDIR}\/support\/regexec.c \"__attribute ((always_inline))\" \"\")\n\ncheck_include_exists:\n    -   file: stdbool.h\n        variable: HAVE_STDBOOL_H\n        cpp: false\n\n",
+    "cppan": "source:\n    remote: https:\/\/ftp.gnu.org\/gnu\/gawk\/gawk-{v}.tar.xz\n\nversion: 4.2.1\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   support\/reg.*\n\nexclude_from_build:\n    -   support\/regcomp.c\n    -   support\/regex_internal.c\n    -   support\/regexec.c\n\ninclude_directories:\n    public:\n        -   support\n\noptions:\n    any:\n        definitions:\n            private:\n                -   GAWK\n                -   HAVE_CONFIG_H\n\npost_sources: |\n    file_write_once(${BDIR_PRIVATE}\/config.h \"\n        #ifdef _WIN32\n            #ifdef _WIN64\n            #define ssize_t long long\n            #else\n            #define ssize_t int\n            #endif\n        #endif\n    \")\n    \n    replace_in_file_once(${SDIR}\/support\/regex_internal.c \"__attribute ((pure))\" \"\")\n    replace_in_file_once(${SDIR}\/support\/regexec.c \"__attribute ((always_inline))\" \"\")\n\ncheck_include_exists:\n    -   file: stdbool.h\n        variable: HAVE_STDBOOL_H\n        cpp: false\n\n",
     "source": {
         "remote": {
-            "url": "http:\/\/ftp.gnu.org\/gnu\/gawk\/gawk-{v}.tar.xz"
+            "url": "https:\/\/ftp.gnu.org\/gnu\/gawk\/gawk-{v}.tar.xz"
         }
     },
     "version": "4.2.1",
-    "hash": "afb36255cc5b439d077a6bab752e83e64ad8b4e264c9a889c16f6f78bd884928",
-    "created": "2018-08-02 13:41:55.739981"
+    "hash": "66bb093d9a4474621efe4caeb5da10b352b16c06f806c61a888e727f36f36cca",
+    "created": "2018-08-02 16:51:30.324398"
 }
