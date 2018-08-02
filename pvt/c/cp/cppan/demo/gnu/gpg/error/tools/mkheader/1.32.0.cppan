@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gnu.gpg.error.tools.mkheader",
+    "version": "1.32.0",
+    "cppan": "source:\n    git: git:\/\/git.gnupg.org\/libgpg-error.git\n    tag: libgpg-error-{M}.{m}\n\nversion: 1.32.0\n\nfiles:\n    -   src\/mkheader.c\n\noptions:\n    any:\n        definitions:\n            win32:\n                private:\n                    -   R_OK=4\n\npost_sources: |\n    if (WIN32)\n        file_write_once(${BDIR_PRIVATE}\/unistd.h \"\")\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "git:\/\/git.gnupg.org\/libgpg-error.git",
+            "tag": "libgpg-error-{M}.{m}"
+        }
+    },
+    "hash": "f210131c02a415d4564e83fa0905743f2ef5fb165bc304f954035ebb41707af9",
+    "created": "2018-08-02 18:39:20.922003"
+}
