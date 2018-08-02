@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.libotr",
+    "cppan": "source:\n    remote: https:\/\/otr.cypherpunks.ca\/libotr-{v}.tar.gz\n\nversion: 4.1.1\n\ntype: library\n\nstatic_only: true\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/otr.cypherpunks.ca\/libotr-{v}.tar.gz"
+        }
+    },
+    "version": "4.1.1",
+    "hash": "9a79ff6ea88a79233a4eead07219fc82a0dd4c12969f1cc0e6221d6c0fb81932",
+    "created": "2018-08-02 08:16:59.619043"
+}
