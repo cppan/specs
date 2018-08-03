@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gnu.gpg.assuan.tools.mkheader",
+    "version": "2.5.1",
+    "cppan": "source:\n    git: git:\/\/git.gnupg.org\/libassuan.git\n    tag: libassuan-{v}\n\nversion: 2.5.1\n\nfiles:\n    -   src\/mkheader.c\n\n",
+    "source": {
+        "git": {
+            "url": "git:\/\/git.gnupg.org\/libassuan.git",
+            "tag": "libassuan-{v}"
+        }
+    },
+    "hash": "065382519d479d8ef4bb3fbc2b22b5fe5d3ce14ea9f38c1578cf28e0fa55dbbe",
+    "created": "2018-08-03 00:30:16.337259"
+}

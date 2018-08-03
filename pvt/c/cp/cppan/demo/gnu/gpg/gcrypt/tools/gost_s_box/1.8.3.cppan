@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gnu.gpg.gcrypt.tools.gost_s_box",
+    "version": "1.8.3",
+    "cppan": "source:\n    git: git:\/\/git.gnupg.org\/libgcrypt.git\n    tag: libgcrypt-{v}\n\nversion: 1.8.3\n\nfiles:\n    -   cipher\/gost-s-box.c\n\n",
+    "source": {
+        "git": {
+            "url": "git:\/\/git.gnupg.org\/libgcrypt.git",
+            "tag": "libgcrypt-{v}"
+        }
+    },
+    "hash": "d941790f21b35889beebd191bd4d7ec013d1c33720f3be59545c612353c9a502",
+    "created": "2018-08-02 23:34:38.840834"
+}
