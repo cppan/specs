@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.gnu.gawk.getopt",
+    "version": "4.2.1",
     "cppan": "source:\n    remote: https:\/\/ftp.gnu.org\/gnu\/gawk\/gawk-{v}.tar.xz\n\nversion: 4.2.1\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   support\/getopt\\.[hc]\n    -   support\/getopt_.*\n\ninclude_directories:\n    public:\n        -   support\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.gettext.intl:\n            version: \"*\"\n\n",
     "source": {
         "remote": {
             "url": "https:\/\/ftp.gnu.org\/gnu\/gawk\/gawk-{v}.tar.xz"
         }
     },
-    "version": "4.2.1",
-    "hash": "7d1b352a067e19c78bc0039fb225841e995bcdc2ff803414931fd1c21846ea73",
-    "created": "2018-08-02 16:51:25.64901"
+    "hash": "0f0341dce0fb19c995830b816b34ac071ff93d8b3d944734ecaf23bfd7a8488e",
+    "created": "2018-08-04 09:55:16.325209"
 }

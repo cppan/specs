@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gnu.gpg.gpgme.gpgme_w32spawn",
+    "version": "1.11.1",
+    "cppan": "source:\n    git: git:\/\/git.gnupg.org\/gpgme.git\n    tag: gpgme-{v}\n\nversion: 1.11.1\n\nfiles:\n    -   src\/gpgme-w32spawn.c\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.gpg.assuan.assuan:\n            version: 2\n\n",
+    "source": {
+        "git": {
+            "url": "git:\/\/git.gnupg.org\/gpgme.git",
+            "tag": "gpgme-{v}"
+        }
+    },
+    "hash": "68cf6edff162369cd87599a93b6ec26d20570b61114b9c8468f50304125f23a1",
+    "created": "2018-08-04 10:16:53.447655"
+}

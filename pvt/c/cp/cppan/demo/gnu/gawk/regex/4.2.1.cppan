@@ -1,12 +1,12 @@
 {
     "project": "pvt.cppan.demo.gnu.gawk.regex",
-    "cppan": "source:\n    remote: https:\/\/ftp.gnu.org\/gnu\/gawk\/gawk-{v}.tar.xz\n\nversion: 4.2.1\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   support\/reg.*\n\nexclude_from_build:\n    -   support\/regcomp.c\n    -   support\/regex_internal.c\n    -   support\/regexec.c\n\ninclude_directories:\n    public:\n        -   support\n\noptions:\n    any:\n        definitions:\n            private:\n                -   GAWK\n                -   HAVE_CONFIG_H\n\npost_sources: |\n    file_write_once(${BDIR_PRIVATE}\/config.h \"\n        #ifdef _WIN32\n            #ifdef _WIN64\n            #define ssize_t long long\n            #else\n            #define ssize_t int\n            #endif\n        #endif\n    \")\n    \n    replace_in_file_once(${SDIR}\/support\/regex_internal.c \"__attribute ((pure))\" \"\")\n    replace_in_file_once(${SDIR}\/support\/regexec.c \"__attribute ((always_inline))\" \"\")\n\ncheck_include_exists:\n    -   file: stdbool.h\n        variable: HAVE_STDBOOL_H\n        cpp: false\n\n",
+    "version": "4.2.1",
+    "cppan": "source:\n    remote: https:\/\/ftp.gnu.org\/gnu\/gawk\/gawk-{v}.tar.xz\n\nversion: 4.2.1\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   support\/reg.*\n\nexclude_from_build:\n    -   support\/regcomp.c\n    -   support\/regex_internal.c\n    -   support\/regexec.c\n\ninclude_directories:\n    public:\n        -   support\n\noptions:\n    any:\n        definitions:\n            private:\n                -   GAWK\n                -   HAVE_CONFIG_H\n\npost_sources: |\n    file_write_once(${BDIR_PRIVATE}\/config.h \"\n    \n        #ifdef _WIN32\n            #ifdef _WIN64\n            #define ssize_t long long\n            #else\n            #define ssize_t int\n            #endif\n    \n            #define _CRT_DECLARE_NONSTDC_NAMES 1\n        #endif\n    \n        #include <stdint.h>\n        #include <string.h>\n        #include <stdio.h>\n    \")\n    \n    replace_in_file_once(${SDIR}\/support\/regex_internal.c \"__attribute ((pure))\" \"\")\n    replace_in_file_once(${SDIR}\/support\/regexec.c \"__attribute ((always_inline))\" \"\")\n\ncheck_include_exists:\n    -   file: stdbool.h\n        variable: HAVE_STDBOOL_H\n        cpp: false\n\n",
     "source": {
         "remote": {
             "url": "https:\/\/ftp.gnu.org\/gnu\/gawk\/gawk-{v}.tar.xz"
         }
     },
-    "version": "4.2.1",
-    "hash": "66bb093d9a4474621efe4caeb5da10b352b16c06f806c61a888e727f36f36cca",
-    "created": "2018-08-02 16:51:30.324398"
+    "hash": "3471f31f44c4a3fb07f9747492f8c2563916b18f3f0e11967c7064f5739c2dd3",
+    "created": "2018-08-04 09:55:20.487577"
 }
