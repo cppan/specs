@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpc_php_plugin",
+    "version": "1.14.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.14.0\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_php_plugin\n\nbazel_target_function: grpc_proto_plugin\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_plugin_support:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "c106ee988c45edc7ce8c478b9f7f8d0376eff9cda679208eaa7b5a3174ce2d1e",
+    "created": "2018-08-04 14:17:39.870619"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpcpp",
+    "version": "1.14.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.14.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc++\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpcpp_codegen_proto:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpcpp_codegen_base_src:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpcpp_codegen_base:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpcpp_base:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.gpr:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "9ad32d9afc22dbe7bfe5431957d44fbbbf6c701cf872ac1f244af6250661ff4e",
+    "created": "2018-08-04 14:18:57.56041"
+}
