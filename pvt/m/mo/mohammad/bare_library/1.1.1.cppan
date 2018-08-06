@@ -1,0 +1,13 @@
+{
+    "project": "pvt.mohammad.bare_library",
+    "version": "1.1.1",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mrlspl\/bare-library.git",
+            "branch": "master"
+        }
+    },
+    "hash": "66e052484c2e7fc19dbc42760f6113f82590626a3c71faaa472e7cdfd9deba9f",
+    "created": "2018-08-06 08:35:41.291521",
+    "cppan": "source:\n    git: https:\/\/github.com\/mrlspl\/bare-library.git\n    branch: master\n\nversion: 1.1.1\n\n"
+}
