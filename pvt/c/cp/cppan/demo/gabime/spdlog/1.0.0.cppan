@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.gabime.spdlog",
+    "cppan": "source:\n    git: https:\/\/github.com\/gabime\/spdlog\n    tag: v{v}\n\nversion: 1.0.0\n\nexclude_from_package:\n    -   include\/spdlog\/fmt\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.fmt:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/gabime\/spdlog",
+            "tag": "v{v}"
+        }
+    },
+    "version": "1.0.0",
+    "hash": "9e768a6f5c415eab6a75ae6a97c0ce0370a11d5787a84f3767b63271c954c012",
+    "created": "2018-08-05 23:32:24.862858"
+}
