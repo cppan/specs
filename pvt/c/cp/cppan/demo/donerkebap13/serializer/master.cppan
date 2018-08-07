@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.donerkebap13.serializer",
+    "cppan": "source:\n    git: https:\/\/github.com\/Donerkebap13\/DonerSerializer\n    branch: master\n\nversion: master\n\nroot_directory: DonerSerializer\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/Donerkebap13\/DonerSerializer",
+            "branch": "master"
+        }
+    },
+    "hash": "b9178a20fd68e54c732fcce3a63bfc106bd2e803c02bb6dabe11a99605b87b49",
+    "created": "2018-08-07 12:37:39.020388"
+}
