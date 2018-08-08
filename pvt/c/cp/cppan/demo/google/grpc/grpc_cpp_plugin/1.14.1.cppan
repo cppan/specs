@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpc_cpp_plugin",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.14.1\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_cpp_plugin\n\nbazel_target_function: grpc_proto_plugin\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.grpc_plugin_support:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\ninclude_script: |\n    macro(gen_grpc f)\n        gen_pb(${f})\n    \n        get_filename_component(n ${f} NAME_WE)\n        get_filename_component(d ${f} DIRECTORY)\n        string(REPLACE \"${SDIR}\" \"\" d2 \"${d}\")\n        set(n ${d2}\/${n})\n        add_custom_command(\n            OUTPUT\n                ${BDIR}\/${n}.grpc.pb.cc\n                ${BDIR}\/${n}.grpc.pb.h\n            COMMAND\n                pvt.cppan.demo.google.protobuf.protoc ${f} --grpc_out=${BDIR}\/${d2} -I ${d} -I ${pvt_cppan_demo_google_protobuf_protoc_DIR}\/src\n                    --plugin=protoc-gen-grpc=$<TARGET_FILE:$<CPPAN_THIS_PACKAGE>>\n            DEPENDS ${f}\n        )\n        set(src ${src} ${BDIR}\/${n}.grpc.pb.cc ${BDIR}\/${n}.grpc.pb.h)\n    endmacro()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v{v}"
+        }
+    },
+    "version": "1.14.1",
+    "hash": "7ff48902815811051cf514d0ba850dbe87a8195c8c1d66baf19b995ff901ca10",
+    "created": "2018-08-08 20:54:17.362396"
+}
