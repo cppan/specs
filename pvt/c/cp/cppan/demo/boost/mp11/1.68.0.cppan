@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.mp11",
+    "version": "1.68.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/mp11\n    commit: 05a366e8ba929ad60dd51e02e5165665a98a2531\n\nversion: 1.68.0\n\ntype: library\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/mp11",
+            "commit": "05a366e8ba929ad60dd51e02e5165665a98a2531"
+        }
+    },
+    "hash": "049ae658351cf0e7463fa151f0e76718a4be16839161798417b4fbb9e3f97940",
+    "created": "2018-08-09 11:20:08.036351"
+}

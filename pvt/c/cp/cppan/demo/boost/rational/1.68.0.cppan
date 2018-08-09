@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.rational",
+    "version": "1.68.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/rational\n    commit: 2c7fe1aae7fdb72458754d76aa2d0d57542264b7\n\nversion: 1.68.0\n\ntype: library\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.utility:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.integer:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/rational",
+            "commit": "2c7fe1aae7fdb72458754d76aa2d0d57542264b7"
+        }
+    },
+    "hash": "4c200132100fdc19b70cb2726b907faf76207f993ba2a7774b70b27e053d9b4f",
+    "created": "2018-08-09 11:20:56.825096"
+}

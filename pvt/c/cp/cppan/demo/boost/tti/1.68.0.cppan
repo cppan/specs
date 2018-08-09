@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.tti",
+    "version": "1.68.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/tti\n    commit: 31736e3dff24934430b038b85f794432eb949a29\n\nversion: 1.68.0\n\ntype: library\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.utility:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.detail:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.function_types:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.mpl:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/tti",
+            "commit": "31736e3dff24934430b038b85f794432eb949a29"
+        }
+    },
+    "hash": "563a42f8fd0ee4bc2883305ba1ad10db68d9f9043923da7e98e344032c3d9191",
+    "created": "2018-08-09 11:21:30.572462"
+}

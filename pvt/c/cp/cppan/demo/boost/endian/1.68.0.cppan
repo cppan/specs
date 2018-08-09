@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.endian",
+    "version": "1.68.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/endian\n    commit: f6998d2406be7b5d7a03cae93c72bb097bfbc87a\n\nversion: 1.68.0\n\ntype: library\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.winapi:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.utility:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.system:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/endian",
+            "commit": "f6998d2406be7b5d7a03cae93c72bb097bfbc87a"
+        }
+    },
+    "hash": "0571cdaca4615c023cefb93b7ab3504ae4330a87265c3eb648aa844dc84a5819",
+    "created": "2018-08-09 11:18:58.247082"
+}

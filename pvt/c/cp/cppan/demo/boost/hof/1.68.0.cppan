@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.hof",
+    "version": "1.68.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/hof\n    commit: 7e7610854ecec699af8503e44c48383828c44734\n\nversion: 1.68.0\n\ntype: library\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/hof",
+            "commit": "7e7610854ecec699af8503e44c48383828c44734"
+        }
+    },
+    "hash": "b8214a5197a0c5edb5f7de06f097b8f33f627d981e0be9a3791fa7386c729985",
+    "created": "2018-08-09 11:19:33.941436"
+}

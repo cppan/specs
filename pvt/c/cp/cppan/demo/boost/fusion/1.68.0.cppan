@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.boost.fusion",
+    "version": "1.68.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/boostorg\/fusion\n    commit: c740a4dbadb5daf836f2f8ab024e6ae5fa331dde\n\nversion: 1.68.0\n\ntype: library\n\nheader_only: true\n\nfiles:\n    -   include\/.*\n\ninclude_directories:\n    public:\n        -   include\n\ndependencies:\n    public:\n        pvt.cppan.demo.boost.predef:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.utility:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.throw_exception:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.tuple:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.integer:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.typeof:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.preprocessor:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.static_assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.container_hash:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.config:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.type_traits:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.mpl:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.core:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.detail:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.assert:\n            version: \"*\"\n            include_directories_only: true\n        pvt.cppan.demo.boost.function_types:\n            version: \"*\"\n            include_directories_only: true\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/boostorg\/fusion",
+            "commit": "c740a4dbadb5daf836f2f8ab024e6ae5fa331dde"
+        }
+    },
+    "hash": "5c3b52e74a1a9627f235d9f148d70b3ee7852db19cd12814d1e0257c6a2f38d5",
+    "created": "2018-08-09 11:19:18.111188"
+}
