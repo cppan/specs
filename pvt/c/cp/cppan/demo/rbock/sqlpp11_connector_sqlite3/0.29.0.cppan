@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.rbock.sqlpp11_connector_sqlite3",
+    "cppan": "source:\n    git: https:\/\/github.com\/rbock\/sqlpp11-connector-sqlite3\n    tag: \"{M}.{m}\"\n\nversion: 0.29.0\n\nc++: 11\n\nstatic_only: true\n\ndependencies:\n    public:\n        pvt.cppan.demo.rbock.sqlpp11:\n            version: 0\n        pvt.cppan.demo.sqlite3:\n            version: 3\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/rbock\/sqlpp11-connector-sqlite3",
+            "tag": "{M}.{m}"
+        }
+    },
+    "version": "0.29.0",
+    "hash": "960b320fbf7cd314f7431e0ff52e93a9b5d60230bb3c3f2ebfb21cabdb4258ca",
+    "created": "2018-08-10 16:39:19.618335"
+}
