@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.rbock.sqlpp11",
-    "cppan": "source:\n    git: https:\/\/github.com\/rbock\/sqlpp11\n    tag: \"{M}.{m}\"\n\nversion: 0.57.0\n\nc++: 11\n\ndependencies:\n    public:\n        pvt.cppan.demo.howardhinnant.date.date:\n            version: 2\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/rbock\/sqlpp11\n    tag: \"{M}.{m}\"\n\nversion: 0.57.0\n\nc++: 11\n\ndependencies:\n    public:\n        pvt.cppan.demo.howardhinnant.date.date:\n            version: 2\n\npost_sources: |\n    replace_in_file_once(\"include\/sqlpp11\/char_sequence.h\" \"Input\" \"s\")\n    replace_in_file_once(\"include\/sqlpp11\/char_sequence.h\" \"(&s)[N]\" \"*s\")\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/rbock\/sqlpp11",
@@ -8,6 +8,6 @@
         }
     },
     "version": "0.57.0",
-    "hash": "82ea82c3601f4d9573f16c7d2566bcefc88a1fb78e067cc65138c9d04d0e8279",
-    "created": "2018-08-10 16:36:41.164618"
+    "hash": "4c72af690f97e9a37cfd28b64dec649f1f70374d88d8892464fdedc32b9c2001",
+    "created": "2018-08-14 23:13:54.02096"
 }
