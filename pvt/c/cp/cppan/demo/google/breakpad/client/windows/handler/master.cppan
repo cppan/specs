@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.breakpad.client.windows.handler",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/breakpad\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\n\nstatic_only: true\n\nfiles:\n    -   client\/windows\/handler\/exception_handler.cc\n    -   client\/windows\/handler\/exception_handler.h\n\ninclude_directories:\n    public:\n        -   client\/windows\/handler\n        -   .\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   UNICODE\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.breakpad.client.windows.crash_generation.client:\n            version: \"*\"\n\ncheck_function_exists:\n    -   arc4random\n    -   getrandom\n\ncheck_include_exists:\n    -   file: a.out.h\n        variable: HAVE_A_OUT_H\n        cpp: false\n    -   file: stdlib.h\n        variable: HAVE_STDLIB_H\n        cpp: false\n    -   file: sys\/random.h\n        variable: HAVE_SYS_RANDOM_H\n        cpp: false\n\ncheck_c_source_compiles:\n    STDC_HEADERS:\n        text: \"\\n#include <stdlib.h>\\n#include <stdarg.h>\\n#include <string.h>\\n#include <float.h>\\nint main() {return 0;}\\n\"\n        invert: false\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/google\/breakpad",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "d842d0beb97dd85d7c2c96c184a952932da5d266a70bb4d10442e9371c3768ad",
+    "created": "2018-08-18 21:03:32.817811"
+}
