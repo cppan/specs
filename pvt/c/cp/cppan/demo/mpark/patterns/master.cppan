@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mpark.patterns",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mpark\/patterns",
+            "branch": "master"
+        }
+    },
+    "hash": "24360c40d990c7f17a24121ec7ad57be7d6b5565f393819e882376878068a57a",
+    "created": "2018-08-19 22:11:45.504172",
+    "cppan": "source:\n    git: https:\/\/github.com\/mpark\/patterns\n    branch: master\n\nversion: master\n\n"
+}
