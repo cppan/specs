@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.codesynthesis.libstudxml",
+    "cppan": "source:\n    remote: https:\/\/www.codesynthesis.com\/download\/libstudxml\/{M}.{m}\/libstudxml-{v}.tar.gz\n\nversion: 1.0.1\n\ntype: library\n\nfiles:\n    -   xml\/.*\n\nexclude_from_package:\n    -   xml\/details\/expat\/.*\n\noptions:\n    any:\n        definitions:\n            public:\n                -   LIBSTUDXML_EXTERNAL_EXPAT\n    shared:\n        definitions:\n            private:\n                -   LIBSTUDXML_DYNAMIC_LIB\n    static:\n        definitions:\n            public:\n                -   LIBSTUDXML_STATIC_LIB\n\ndependencies:\n    public:\n        pvt.cppan.demo.expat:\n            version: 2\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/www.codesynthesis.com\/download\/libstudxml\/{M}.{m}\/libstudxml-{v}.tar.gz"
+        }
+    },
+    "version": "1.0.1",
+    "hash": "5a59b3f5fcdef4d0bede8a75106001b3af7db2c41e043d3f8bfd63400e474918",
+    "created": "2018-08-20 17:32:45.977579"
+}
