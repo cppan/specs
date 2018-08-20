@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.ledger.utfcpp",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/ledger\/utfcpp",
+            "branch": "master"
+        }
+    },
+    "hash": "f52eee29544c2cca728e89839a3a917f627e1ce3cb95bfd95024e8d9d4d435fe",
+    "created": "2018-08-20 16:56:12.455493",
+    "cppan": "source:\n    git: https:\/\/github.com\/ledger\/utfcpp\n    branch: master\n\nversion: master\n\n"
+}
