@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.acm",
+    "version": "1.5.18",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: \"{v}\"\n\nversion: 1.5.18\n\nroot_directory: aws-cpp-sdk-acm\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_ACM_EXPORTS\n            public:\n                -   USE_IMPORT_EXPORT\n            win32:\n                public:\n                    -   USE_WINDOWS_DLL_SEMANTICS\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "{v}"
+        }
+    },
+    "hash": "8f9d1a36263313d48b41aa3ce0baa5fa43d4d37ce2fb9ac210753eed8bbdb82e",
+    "created": "2018-08-21 12:48:15.232237"
+}

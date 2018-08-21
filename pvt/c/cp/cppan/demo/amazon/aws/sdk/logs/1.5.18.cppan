@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.logs",
+    "version": "1.5.18",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: \"{v}\"\n\nversion: 1.5.18\n\nroot_directory: aws-cpp-sdk-logs\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_LOGS_EXPORTS\n            public:\n                -   USE_IMPORT_EXPORT\n            win32:\n                public:\n                    -   USE_WINDOWS_DLL_SEMANTICS\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "{v}"
+        }
+    },
+    "hash": "c0f58c91887769b292fab83fe24cc92575158d4ccd6edb54bb3aaa570dc9302d",
+    "created": "2018-08-21 12:52:57.646305"
+}

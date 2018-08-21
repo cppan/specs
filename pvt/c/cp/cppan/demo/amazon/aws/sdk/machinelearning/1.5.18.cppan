@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.machinelearning",
+    "version": "1.5.18",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: \"{v}\"\n\nversion: 1.5.18\n\nroot_directory: aws-cpp-sdk-machinelearning\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_MACHINELEARNING_EXPORTS\n            public:\n                -   USE_IMPORT_EXPORT\n            win32:\n                public:\n                    -   USE_WINDOWS_DLL_SEMANTICS\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "{v}"
+        }
+    },
+    "hash": "cfd4cc47248240ca472ab1d286692b6c3f5389e5e8dd57f4f95e4b7332cdfe13",
+    "created": "2018-08-21 12:52:49.44477"
+}

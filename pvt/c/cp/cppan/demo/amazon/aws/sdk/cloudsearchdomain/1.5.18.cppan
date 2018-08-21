@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.aws.sdk.cloudsearchdomain",
+    "version": "1.5.18",
+    "cppan": "source:\n    git: https:\/\/github.com\/aws\/aws-sdk-cpp\n    tag: \"{v}\"\n\nversion: 1.5.18\n\nroot_directory: aws-cpp-sdk-cloudsearchdomain\n\nc++: 11\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   AWS_CLOUDSEARCHDOMAIN_EXPORTS\n            public:\n                -   USE_IMPORT_EXPORT\n            win32:\n                public:\n                    -   USE_WINDOWS_DLL_SEMANTICS\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.amazon.aws.sdk.core:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/aws\/aws-sdk-cpp",
+            "tag": "{v}"
+        }
+    },
+    "hash": "0d3acb16bf16a69829ff1b8a5e32e00e8705abd5cc8f3800b3b76d724c8e40fe",
+    "created": "2018-08-21 12:48:51.089067"
+}
