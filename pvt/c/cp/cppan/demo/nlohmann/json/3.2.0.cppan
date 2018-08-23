@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.nlohmann.json",
+    "cppan": "source:\n    git: https:\/\/github.com\/nlohmann\/json\n    tag: v{v}\n\nversion: 3.2.0\n\nfiles:\n    -   include\/.*\n    -   nlohmann_json.natvis\n\npost_target: |\n    target_sources(${this} INTERFACE ${SDIR}\/nlohmann_json.natvis)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/nlohmann\/json",
+            "tag": "v{v}"
+        }
+    },
+    "version": "3.2.0",
+    "hash": "2229ea75c3a5cb9cc14cb92a61efd35957258c222fc54f7f70a53f47e2e8c16b",
+    "created": "2018-08-23 09:04:25.100892"
+}

@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.sobjectizerteam.restinio",
+    "cppan": "source:\n    remote: https:\/\/bitbucket.org\/sobjectizerteam\/restinio-{M}.{m}\/downloads\/restinio-{v}-full.tar.bz2\n\nversion: 0.4.6\n\nroot_directory: dev\n\nfiles:\n    -   restinio\/.*\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/bitbucket.org\/sobjectizerteam\/restinio-{M}.{m}\/downloads\/restinio-{v}-full.tar.bz2"
+        }
+    },
+    "version": "0.4.6",
+    "hash": "aa5821e8e678a822c2bf5f97e78dcb99e553b58f87c848da31a171c62e7aa794",
+    "created": "2018-08-23 09:03:35.370729"
+}
