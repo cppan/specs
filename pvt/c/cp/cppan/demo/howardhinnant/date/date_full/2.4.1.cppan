@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.howardhinnant.date.date_full",
+    "cppan": "source:\n    git: https:\/\/github.com\/HowardHinnant\/date\n    tag: v{v}\n\nversion: 2.4.1\n\nexclude_from_build:\n    -   src\/ios.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/HowardHinnant\/date",
+            "tag": "v{v}"
+        }
+    },
+    "version": "2.4.1",
+    "hash": "b8b98616314f977fece7262ea21c60111ce2c0c823c8fd488c01c1a9795c96dc",
+    "created": "2018-08-23 12:26:54.729355"
+}
