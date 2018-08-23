@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.google.breakpad.client.windows.crash_generation.server",
-    "cppan": "source:\n    git: https:\/\/github.com\/google\/breakpad\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\n\nstatic_only: true\n\nfiles:\n    -   client\/windows\/crash_generation\/client_info.*\n    -   client\/windows\/crash_generation\/crash_generation_server.*\n    -   client\/windows\/crash_generation\/minidump_generator.*\n\ninclude_directories:\n    public:\n        -   client\/windows\/crash_generation\n        -   .\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   UNICODE\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.breakpad.client.windows.crash_generation.client:\n            version: \"*\"\n\ncheck_function_exists:\n    -   arc4random\n    -   getrandom\n\ncheck_include_exists:\n    -   file: a.out.h\n        variable: HAVE_A_OUT_H\n        cpp: false\n    -   file: stdlib.h\n        variable: HAVE_STDLIB_H\n        cpp: false\n    -   file: sys\/random.h\n        variable: HAVE_SYS_RANDOM_H\n        cpp: false\n\ncheck_c_source_compiles:\n    STDC_HEADERS:\n        text: \"\\n#include <stdlib.h>\\n#include <stdarg.h>\\n#include <string.h>\\n#include <float.h>\\nint main() {return 0;}\\n\"\n        invert: false\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/breakpad\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\n\nstatic_only: true\n\nfiles:\n    -   client\/windows\/crash_generation\/client_info.*\n    -   client\/windows\/crash_generation\/crash_generation_server.*\n    -   client\/windows\/crash_generation\/minidump_generator.*\n\ninclude_directories:\n    public:\n        -   .\n        -   client\/windows\/crash_generation\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   UNICODE\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.breakpad.client.windows.crash_generation.client:\n            version: \"*\"\n\npost_sources: |\n    if (NOT WIN32)\n        remove_src_dir(*)\n        file_write_once(${BDIR}\/dummy.cpp \"static void f(){}\")\n        set(src ${src} ${BDIR}\/dummy.cpp)\n    endif()\n\ncheck_function_exists:\n    -   arc4random\n    -   getrandom\n\ncheck_include_exists:\n    -   file: a.out.h\n        variable: HAVE_A_OUT_H\n        cpp: false\n    -   file: stdlib.h\n        variable: HAVE_STDLIB_H\n        cpp: false\n    -   file: sys\/random.h\n        variable: HAVE_SYS_RANDOM_H\n        cpp: false\n\ncheck_c_source_compiles:\n    STDC_HEADERS:\n        text: \"\\n#include <stdlib.h>\\n#include <stdarg.h>\\n#include <string.h>\\n#include <float.h>\\nint main() {return 0;}\\n\"\n        invert: false\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/google\/breakpad",
@@ -8,6 +8,6 @@
         }
     },
     "version": "master",
-    "hash": "cc8c69c0079194bdde68ae89b4ef239c9760a5e8a682b6221bdc04e913df049c",
-    "created": "2018-08-18 21:02:15.137354"
+    "hash": "8af07cd229d1dba05218e9a52453a88c1335c0f433673c8e00c57d80ce54cbc4",
+    "created": "2018-08-23 21:27:35.165126"
 }

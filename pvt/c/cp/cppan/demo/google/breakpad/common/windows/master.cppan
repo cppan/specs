@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.google.breakpad.common.windows",
-    "cppan": "source:\n    git: https:\/\/github.com\/google\/breakpad\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\n\nstatic_only: true\n\nfiles:\n    -   client\/windows\/common\/.*\\.h\n    -   common\/[^\/]*\\.h\n    -   common\/windows\/.*\\.h\n    -   common\/windows\/guid_string.*\n    -   google_breakpad\/.*\n\nexclude_from_package:\n    -   .*_unittest.cc\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   UNICODE\n\ncheck_function_exists:\n    -   arc4random\n    -   getrandom\n\ncheck_include_exists:\n    -   file: a.out.h\n        variable: HAVE_A_OUT_H\n        cpp: false\n    -   file: stdlib.h\n        variable: HAVE_STDLIB_H\n        cpp: false\n    -   file: sys\/random.h\n        variable: HAVE_SYS_RANDOM_H\n        cpp: false\n\ncheck_c_source_compiles:\n    STDC_HEADERS:\n        text: \"\\n#include <stdlib.h>\\n#include <stdarg.h>\\n#include <string.h>\\n#include <float.h>\\nint main() {return 0;}\\n\"\n        invert: false\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/breakpad\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\n\nstatic_only: true\n\nfiles:\n    -   client\/windows\/common\/.*\\.h\n    -   common\/[^\/]*\\.h\n    -   common\/windows\/.*\\.h\n    -   common\/windows\/guid_string.*\n    -   google_breakpad\/.*\n\nexclude_from_package:\n    -   .*_unittest.cc\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   UNICODE\n\npost_sources: |\n    if (NOT WIN32)\n        remove_src_dir(*)\n        file_write_once(${BDIR}\/dummy.cpp \"static void f(){}\")\n        set(src ${src} ${BDIR}\/dummy.cpp)\n    endif()\n\ncheck_function_exists:\n    -   arc4random\n    -   getrandom\n\ncheck_include_exists:\n    -   file: a.out.h\n        variable: HAVE_A_OUT_H\n        cpp: false\n    -   file: stdlib.h\n        variable: HAVE_STDLIB_H\n        cpp: false\n    -   file: sys\/random.h\n        variable: HAVE_SYS_RANDOM_H\n        cpp: false\n\ncheck_c_source_compiles:\n    STDC_HEADERS:\n        text: \"\\n#include <stdlib.h>\\n#include <stdarg.h>\\n#include <string.h>\\n#include <float.h>\\nint main() {return 0;}\\n\"\n        invert: false\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/google\/breakpad",
@@ -8,6 +8,6 @@
         }
     },
     "version": "master",
-    "hash": "b1a863609650bdf5370d7670da76f20cc360b0d2d441f6f219e656b524ce0ac6",
-    "created": "2018-08-18 21:00:01.223722"
+    "hash": "a66d5dcf71183019a06576ce0365ae80fce8d1d94059c634465f2cc623960fa6",
+    "created": "2018-08-23 21:27:42.828028"
 }

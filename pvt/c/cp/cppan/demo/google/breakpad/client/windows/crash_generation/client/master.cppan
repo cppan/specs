@@ -1,6 +1,6 @@
 {
     "project": "pvt.cppan.demo.google.breakpad.client.windows.crash_generation.client",
-    "cppan": "source:\n    git: https:\/\/github.com\/google\/breakpad\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\n\nstatic_only: true\n\nfiles:\n    -   client\/windows\/crash_generation\/crash_generation_client.*\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   UNICODE\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.breakpad.common.windows:\n            version: \"*\"\n\ncheck_function_exists:\n    -   arc4random\n    -   getrandom\n\ncheck_include_exists:\n    -   file: a.out.h\n        variable: HAVE_A_OUT_H\n        cpp: false\n    -   file: stdlib.h\n        variable: HAVE_STDLIB_H\n        cpp: false\n    -   file: sys\/random.h\n        variable: HAVE_SYS_RANDOM_H\n        cpp: false\n\ncheck_c_source_compiles:\n    STDC_HEADERS:\n        text: \"\\n#include <stdlib.h>\\n#include <stdarg.h>\\n#include <string.h>\\n#include <float.h>\\nint main() {return 0;}\\n\"\n        invert: false\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/breakpad\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\n\nstatic_only: true\n\nfiles:\n    -   client\/windows\/crash_generation\/crash_generation_client.*\n\noptions:\n    any:\n        definitions:\n            win32:\n                public:\n                    -   UNICODE\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.breakpad.common.windows:\n            version: \"*\"\n\npost_sources: |\n    if (NOT WIN32)\n        remove_src_dir(*)\n        file_write_once(${BDIR}\/dummy.cpp \"static void f(){}\")\n        set(src ${src} ${BDIR}\/dummy.cpp)\n    endif()\n\ncheck_function_exists:\n    -   arc4random\n    -   getrandom\n\ncheck_include_exists:\n    -   file: a.out.h\n        variable: HAVE_A_OUT_H\n        cpp: false\n    -   file: stdlib.h\n        variable: HAVE_STDLIB_H\n        cpp: false\n    -   file: sys\/random.h\n        variable: HAVE_SYS_RANDOM_H\n        cpp: false\n\ncheck_c_source_compiles:\n    STDC_HEADERS:\n        text: \"\\n#include <stdlib.h>\\n#include <stdarg.h>\\n#include <string.h>\\n#include <float.h>\\nint main() {return 0;}\\n\"\n        invert: false\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/google\/breakpad",
@@ -8,6 +8,6 @@
         }
     },
     "version": "master",
-    "hash": "b273bcca5ecc8753d1591f8cd6ef91093dc1c0866e1440b630fdeb3f4799cdfa",
-    "created": "2018-08-18 20:59:21.494829"
+    "hash": "85e7679467191eb7b8fed187faea1db6c5e7d664092d6593f2fd9f9999af4e23",
+    "created": "2018-08-23 21:27:30.827917"
 }
