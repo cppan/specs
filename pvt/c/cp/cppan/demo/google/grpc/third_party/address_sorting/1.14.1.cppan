@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.third_party.address_sorting",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.14.1\n\ntype: library\n\nroot_directory: third_party\/address_sorting\n\nstatic_only: true\n\nfiles:\n    -   .*\\.[hc]\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v{v}"
+        }
+    },
+    "version": "1.14.1",
+    "hash": "3f84154fb1d0b292e1e9221d592b1ba8abdb9902e0492770a6fb97d47771fb55",
+    "created": "2018-08-25 19:10:26.458672"
+}
