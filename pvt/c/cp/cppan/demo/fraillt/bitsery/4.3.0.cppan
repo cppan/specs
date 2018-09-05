@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.fraillt.bitsery",
+    "cppan": "source:\n    git: https:\/\/github.com\/fraillt\/bitsery\n    tag: v{v}\n\nversion: 4.3.0\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/fraillt\/bitsery",
+            "tag": "v{v}"
+        }
+    },
+    "version": "4.3.0",
+    "hash": "c3805930aa5a591c3a05c114352e6e845325b3223648694cdf898d010923f1f5",
+    "created": "2018-09-05 13:38:54.105272"
+}

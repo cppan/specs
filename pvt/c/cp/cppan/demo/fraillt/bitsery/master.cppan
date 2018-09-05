@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.fraillt.bitsery",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/fraillt\/bitsery\n    branch: master\n\nversion: master\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/fraillt\/bitsery",
             "branch": "master"
         }
     },
-    "hash": "70dd92b4bfbf4b0c00732b5716abb0bc8a93c653368704c3cf6c36a1ec3c16f0",
-    "created": "2017-10-20 06:38:32.413174",
-    "cppan": "source:\n    git: https:\/\/github.com\/fraillt\/bitsery\n    branch: master\n\nversion: master\n\n"
+    "version": "master",
+    "hash": "a67d4989da57b50f5b703b63e752e5e8d2fe1fa85f6903175fc66c01e6a14515",
+    "created": "2018-09-05 13:38:06.402989"
 }
