@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mdadams.jasper",
+    "cppan": "source:\n    git: https:\/\/github.com\/mdadams\/jasper\n    tag: version-{v}\n\nversion: 2.0.11\n\ntype: library\n\nroot_directory: src\/libjasper\n\nfiles:\n    -   .*\\.c\n    -   .*\\.h\n    -   .*\\.in\n\nexclude_from_package:\n    -   jpg\/jpg_dummy.c\n\ninclude_directories:\n    public:\n        -   include\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   JAS_BUILDING_DLL\n            public:\n                -   JAS_DLL\n                -   JAS_HAVE_VISIBILITY\n\ndependencies:\n    public:\n        pvt.cppan.demo.jpeg:\n            version: 9\n\npost_sources: |\n    configure_file(${SDIR}\/include\/jasper\/jas_config.h.in ${BDIR}\/jasper\/jas_config.h)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mdadams\/jasper",
+            "tag": "version-{v}"
+        }
+    },
+    "version": "2.0.11",
+    "hash": "e7a90511b29ba8666779e4ae62aa3cbf950591394bb0c9a33fa488c176f40d9a",
+    "created": "2018-09-09 12:24:32.650048"
+}
