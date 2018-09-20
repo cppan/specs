@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.qtproject.qt.tools.linguist.proparser",
+    "version": "5.11.2",
+    "cppan": "source:\n    git: git:\/\/code.qt.io\/qt\/qttools.git\n    tag: v{v}\n\nversion: 5.11.2\n\ntype: library\n\nroot_directory: src\/linguist\/shared\n\nstatic_only: true\n\nfiles:\n    -   ioutils.cpp\n    -   ioutils.h\n    -   profileevaluator.cpp\n    -   profileevaluator.h\n    -   proitems.cpp\n    -   proitems.h\n    -   qmake_global.h\n    -   qmakebuiltins.cpp\n    -   qmakeevaluator.cpp\n    -   qmakeevaluator.h\n    -   qmakeevaluator_p.h\n    -   qmakeglobals.cpp\n    -   qmakeglobals.h\n    -   qmakeparser.cpp\n    -   qmakeparser.h\n    -   qmakevfs.cpp\n    -   qmakevfs.h\n\noptions:\n    any:\n        definitions:\n            public:\n                -   PROEVALUATOR_CUMULATIVE\n                -   PROEVALUATOR_INIT_PROPS\n                -   QMAKE_BUILTIN_PRFS\n                -   QMAKE_OVERRIDE_PRFS\n            win32:\n                private:\n                    -   UNICODE\n                public:\n                    -   WIN32\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.core:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "git:\/\/code.qt.io\/qt\/qttools.git",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "051d8fdd94ee1663c6d7542c6aaba6afc3c1bc03c59744fb9c0e47b6ebc8dcb6",
+    "created": "2018-09-20 10:29:15.435133"
+}
