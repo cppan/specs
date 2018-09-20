@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.josephholsten.libdecodeqr",
+    "cppan": "source:\n    git: https:\/\/github.com\/josephholsten\/libdecodeqr\n    branch: master\n\nversion: master\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   libdecodeqr\/.*\\.cpp\n    -   libdecodeqr\/.*\\.h\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.imgproc:\n            version: 3\n        pvt.cppan.demo.intel.opencv.core:\n            version: 3\n        pvt.cppan.demo.intel.opencv.highgui:\n            version: 3\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/josephholsten\/libdecodeqr",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "066038e9485f329ac43acd42e764d9db30bad59fe8d5d88e459566189c9523ad",
+    "created": "2018-09-20 12:55:35.726421"
+}
