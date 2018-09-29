@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.intel.tbb.tbbmalloc_proxy",
+    "version": "2018.7.18",
+    "cppan": "source:\n    remote: https:\/\/github.com\/01org\/tbb\/archive\/2019.tar.gz\n\nversion: 2018.7.18\n\ntype: library\n\nfiles:\n    -   include\/.*\n    -   src\/tbb\/.*\\.h\n    -   src\/tbbmalloc\/.*\\.h\n    -   src\/tbbmalloc\/proxy.*\n    -   src\/tbbmalloc\/tbb_function_replacement.*\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __TBBMALLOC_BUILD\n            public:\n                -   __TBBMALLOC_NO_IMPLICIT_LINKAGE\n                -   __TBB_NO_IMPLICIT_LINKAGE\n            unix:\n                public:\n                    -   USE_PTHREAD\n            win32:\n                public:\n                    -   USE_WINTHREAD\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.tbb.tbbmalloc:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/github.com\/01org\/tbb\/archive\/2019.tar.gz"
+        }
+    },
+    "hash": "15b4fb608d2099e8b1c9d3073f5654a48f592351cf73525791d8b01d94f45292",
+    "created": "2018-09-29 21:36:35.164918"
+}
