@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.telegram.td.net",
+    "version": "1.3.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/tdlib\/td\n    tag: v{v}\n\nversion: 1.3.0\n\ntype: library\n\nroot_directory: tdnet\n\nstatic_only: true\n\nfiles:\n    -   td\/net\/.*\n\ndependencies:\n    public:\n        pvt.cppan.demo.openssl.ssl:\n            version: 1\n        pvt.cppan.demo.telegram.td.actor:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tdlib\/td",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "751739c27524dcac3797cc57f3cfc34d34fa9e677b24d288a5b217cc07e5fd6f",
+    "created": "2018-10-02 20:59:32.162715"
+}

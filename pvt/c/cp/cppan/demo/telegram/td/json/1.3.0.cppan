@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.telegram.td.json",
+    "version": "1.3.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/tdlib\/td\n    tag: v{v}\n\nversion: 1.3.0\n\ntype: library\n\napi_name:\n    -   TDJSON_EXPORT\n\nfiles:\n    -   td\/telegram\/td_json_client\\..*\n    -   td\/telegram\/td_log\\..*\n\ndependencies:\n    public:\n        pvt.cppan.demo.telegram.td.private.json:\n            version: \"*\"\n\npost_sources: |\n    file_write_once(\"${BDIR}\/td\/telegram\/tdjson_export.h\" \"\")\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tdlib\/td",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "451dcd402df2aef400b29cc8145b9ad89262e904e66b4c47c27456b2256c63c8",
+    "created": "2018-10-02 20:59:22.544046"
+}
