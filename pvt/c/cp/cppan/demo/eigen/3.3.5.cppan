@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.eigen",
+    "cppan": "source:\n    remote: https:\/\/bitbucket.org\/eigen\/eigen\/get\/{v}.tar.gz\n\nversion: 3.3.5\n\nfiles:\n    -   Eigen\/.*\n    -   unsupported\/Eigen\/.*\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/bitbucket.org\/eigen\/eigen\/get\/{v}.tar.gz"
+        }
+    },
+    "version": "3.3.5",
+    "hash": "dfa3b5022c5d1341f63d7d8a94ad3fb20e634d16a55b4dbb2af8e8a154875f45",
+    "created": "2018-10-09 20:06:22.473406"
+}
