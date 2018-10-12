@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.sqlite3",
+    "cppan": "source:\n    remote: https:\/\/sqlite.org\/2018\/sqlite-amalgamation-{M}{m}0{p}00.zip\n\nversion: 3.25.2\n\nfiles:\n    -   sqlite3.c\n    -   sqlite3.h\n    -   sqlite3ext.h\n\noptions:\n    shared:\n        definitions:\n            public:\n                -   SQLITE_API=${LIBRARY_API}\n\n",
+    "source": {
+        "remote": {
+            "url": "https:\/\/sqlite.org\/2018\/sqlite-amalgamation-{M}{m}0{p}00.zip"
+        }
+    },
+    "version": "3.25.2",
+    "hash": "fc7f474add6add4a28fb59820eff27462d86d48fd213e455ce4bef0937a38e33",
+    "created": "2018-10-12 13:36:57.740377"
+}
