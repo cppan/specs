@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.glm",
+    "cppan": "source:\n    git: https:\/\/github.com\/g-truc\/glm\n    tag: 0.9.9.2\n\nversion: 0.9.9\n\nheader_only: true\n\nfiles:\n    -   glm\/.*\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/g-truc\/glm",
+            "tag": "0.9.9.2"
+        }
+    },
+    "version": "0.9.9",
+    "hash": "9774f91581ff9add74785c098b715e47f29040cdbc51a709e0940c4e317a5d08",
+    "created": "2018-10-16 11:06:24.306665"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.open_source_parsers.jsoncpp",
+    "cppan": "source:\n    git: https:\/\/github.com\/open-source-parsers\/jsoncpp\n    tag: \"{v}\"\n\nversion: 1.8.4\n\ntype: library\n\nfiles:\n    -   include\/.*\\.h\n    -   src\/lib_json\/.*\\.cpp\n    -   src\/lib_json\/.*\\.h\n    -   src\/lib_json\/.*\\.inl\n\noptions:\n    shared:\n        definitions:\n            interface:\n                -   JSON_DLL\n            private:\n                -   JSON_DLL_BUILD\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/open-source-parsers\/jsoncpp",
+            "tag": "{v}"
+        }
+    },
+    "version": "1.8.4",
+    "hash": "3f5e8acbdadeeb87fbd07a739667773b7f21bea2b0965c53aff8f1f2828b2897",
+    "created": "2018-10-16 11:07:16.080741"
+}
