@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.combine_lang_model",
+    "version": "commit-18787ea",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
+            "commit": "18787ea12b2ea9368c8e1c0128d1f8aef2beebc8"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: 18787ea12b2ea9368c8e1c0128d1f8aef2beebc8\n\nversion: commit-18787ea\n\nc++: 11\n\nfiles:\n    -   src\/training\/combine_lang_model.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "19d2c2120453e43562596593a1453cd6f916244e9be14f0411f9448f93fc2117",
+    "created": "2018-10-18 04:06:58.473314"
+}

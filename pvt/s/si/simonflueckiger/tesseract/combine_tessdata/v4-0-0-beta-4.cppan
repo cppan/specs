@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.combine_tessdata",
+    "version": "v4-0-0-beta-4",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
+            "commit": "18787ea12b2ea9368c8e1c0128d1f8aef2beebc8"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: 18787ea12b2ea9368c8e1c0128d1f8aef2beebc8\n\nversion: v4-0-0-beta-4\n\nc++: 11\n\nfiles:\n    -   src\/training\/combine_tessdata.cpp\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "5bcdf16424fc5719c25c679cc4ddd6446b0cc80418adfc545a195f751e384112",
+    "created": "2018-10-18 04:08:21.7666"
+}
