@@ -1,7 +1,13 @@
 {
     "project": "pvt.simonflueckiger.tesseract.text2image",
     "version": "4.0.0",
-    "cppan": "version: 4.0.0\n\nc++: 11\n\nfiles:\n    -   training\/boxchar.cpp\n    -   training\/boxchar.h\n    -   training\/degradeimage.cpp\n    -   training\/degradeimage.h\n    -   training\/icuerrorcode.h\n    -   training\/ligature_table.cpp\n    -   training\/ligature_table.h\n    -   training\/normstrngs.cpp\n    -   training\/normstrngs.h\n    -   training\/pango_font_info.cpp\n    -   training\/pango_font_info.h\n    -   training\/stringrenderer.cpp\n    -   training\/stringrenderer.h\n    -   training\/text2image.cpp\n    -   training\/tlog.cpp\n    -   training\/tlog.h\n    -   training\/util.h\n\noptions:\n    {}\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.pango.pangocairo:\n            version: 1\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "hash": "26f74258dccb751b7b31bf55c0f536f3f5abd88e6e47be7ffdd77ab0f997f712",
-    "created": "2018-04-06 12:05:13.656042"
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
+            "commit": "d6950eb21c47566dbec4593e934e56f7fca106f8"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: d6950eb21c47566dbec4593e934e56f7fca106f8\n\nversion: 4.0.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/boxchar.cpp\n    -   src\/training\/boxchar.h\n    -   src\/training\/degradeimage.cpp\n    -   src\/training\/degradeimage.h\n    -   src\/training\/icuerrorcode.h\n    -   src\/training\/ligature_table.cpp\n    -   src\/training\/ligature_table.h\n    -   src\/training\/normstrngs.cpp\n    -   src\/training\/normstrngs.h\n    -   src\/training\/pango_font_info.cpp\n    -   src\/training\/pango_font_info.h\n    -   src\/training\/stringrenderer.cpp\n    -   src\/training\/stringrenderer.h\n    -   src\/training\/text2image.cpp\n    -   src\/training\/tlog.cpp\n    -   src\/training\/tlog.h\n    -   src\/training\/util.h\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.pango.pangocairo:\n            version: 1\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "ef361aae3e8b413c30c0e99886736874b2fe8a2235522979a630dd23de4e971e",
+    "created": "2018-10-18 21:44:11.345742"
 }
