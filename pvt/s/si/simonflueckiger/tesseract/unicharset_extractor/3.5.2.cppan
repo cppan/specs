@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.unicharset_extractor",
+    "version": "3.5.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
+            "commit": "7e5f0d6fc6b214093d5b660cdcf6ce36bbbdd30f"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: 7e5f0d6fc6b214093d5b660cdcf6ce36bbbdd30f\n\nversion: 3.5.2\n\nc++: 11\n\nfiles:\n    -   training\/unicharset_extractor.cpp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.tessopt:\n            version: \"*\"\n\n",
+    "hash": "75ecc33727941cf9cd8ae3fa75c28cc9cb5100cf454cba66337788087675fb68",
+    "created": "2018-10-20 20:09:59.761635"
+}

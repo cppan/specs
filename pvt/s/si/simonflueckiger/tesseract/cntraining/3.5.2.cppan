@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.cntraining",
+    "version": "3.5.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
+            "commit": "7e5f0d6fc6b214093d5b660cdcf6ce36bbbdd30f"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: 7e5f0d6fc6b214093d5b660cdcf6ce36bbbdd30f\n\nversion: 3.5.2\n\nc++: 11\n\nfiles:\n    -   training\/cntraining.cpp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "733ba29b8307ce6c4a52b0cfb3ad86ccdfa51d2c5130b5ffd09ff16d046d1021",
+    "created": "2018-10-20 20:08:58.554636"
+}

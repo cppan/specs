@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.classifier_tester",
+    "version": "3.5.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
+            "commit": "7e5f0d6fc6b214093d5b660cdcf6ce36bbbdd30f"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: 7e5f0d6fc6b214093d5b660cdcf6ce36bbbdd30f\n\nversion: 3.5.2\n\nc++: 11\n\nfiles:\n    -   training\/classifier_tester.cpp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "20f783b64b19b599517d00a24ef0d7932cd6825306958197b498c1e27ecce29e",
+    "created": "2018-10-20 20:08:53.249595"
+}

@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.tessopt",
+    "version": "3.5.2",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
+            "commit": "7e5f0d6fc6b214093d5b660cdcf6ce36bbbdd30f"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: 7e5f0d6fc6b214093d5b660cdcf6ce36bbbdd30f\n\nversion: 3.5.2\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   training\/tessopt.*\n\ninclude_directories:\n    public:\n        -   training\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "31719e7c13cb91037d73cb6d688251965e334e2321f4864327a6f155190b1835",
+    "created": "2018-10-20 20:09:48.834926"
+}
