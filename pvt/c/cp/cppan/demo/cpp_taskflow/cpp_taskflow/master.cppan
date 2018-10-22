@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.cpp_taskflow.cpp_taskflow",
-    "version": "master",
+    "cppan": "source:\n    git: https:\/\/github.com\/cpp-taskflow\/cpp-taskflow\n    branch: master\n\nversion: master\n\nfiles:\n    -   taskflow\/.*\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/cpp-taskflow\/cpp-taskflow",
             "branch": "master"
         }
     },
-    "hash": "2896001f9d2d3145654f5bcadf02dd48d1b83e787c5a9916680b69972905699f",
-    "created": "2018-06-15 17:12:47.398737",
-    "cppan": "source:\n    git: https:\/\/github.com\/cpp-taskflow\/cpp-taskflow\n    branch: master\n\nversion: master\n\n"
+    "version": "master",
+    "hash": "c4b2b8a31ee882a6445dbac16d31afdc23d2767d011fcb30833b8076bf07df9c",
+    "created": "2018-10-22 18:31:42.180944"
 }

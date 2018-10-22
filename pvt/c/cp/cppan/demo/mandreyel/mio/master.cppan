@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.mandreyel.mio",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/mandreyel\/mio",
+            "branch": "master"
+        }
+    },
+    "hash": "2cf9f50ab7865f53f822c4a04eed164577d33093459b398d7b050b2562c2f67f",
+    "created": "2018-10-22 18:32:21.68407",
+    "cppan": "source:\n    git: https:\/\/github.com\/mandreyel\/mio\n    branch: master\n\nversion: master\n\n"
+}
