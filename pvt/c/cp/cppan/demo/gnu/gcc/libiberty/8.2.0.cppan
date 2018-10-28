@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnu.gcc.libiberty",
+    "version": "8.2.0",
+    "cppan": "source:\n    remote: ftp:\/\/ftp.gnu.org\/gnu\/gcc\/gcc-{v}\/gcc-{v}.tar.xz\n\nversion: 8.2.0\n\ntype: library\n\nstatic_only: true\n\nfiles:\n    -   libiberty\/[^\/]*\\.[hc]\n\nexclude_from_build:\n    -   libiberty\/calloc.c\n    -   libiberty\/msdos.c\n    -   libiberty\/pex-djgpp.c\n    -   libiberty\/pex-msdos.c\n    -   libiberty\/pex-unix.c\n    -   libiberty\/snprintf.c\n    -   libiberty\/vfprintf.c\n    -   libiberty\/vprintf.c\n    -   libiberty\/vsnprintf.c\n\ninclude_directories:\n    public:\n        -   include\n        -   gcc\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.gmp.lib:\n            version: \"*\"\n        pvt.cppan.demo.gnu.gcc.config:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "ftp:\/\/ftp.gnu.org\/gnu\/gcc\/gcc-{v}\/gcc-{v}.tar.xz"
+        }
+    },
+    "hash": "cf680924cfad441a79b13dd1e33192cfd7a657766bf09eb36c49c248f0c77068",
+    "created": "2018-10-28 21:57:53.092884"
+}

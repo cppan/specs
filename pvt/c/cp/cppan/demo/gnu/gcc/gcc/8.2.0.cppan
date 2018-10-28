@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.gnu.gcc.gcc",
+    "version": "8.2.0",
+    "cppan": "source:\n    remote: ftp:\/\/ftp.gnu.org\/gnu\/gcc\/gcc-{v}\/gcc-{v}.tar.xz\n\nversion: 8.2.0\n\nfiles:\n    -   gcc\/c\/.*\n\ninclude_directories:\n    public:\n        -   include\n        -   gcc\n\noptions:\n    any:\n        definitions:\n            private:\n                -   IN_GCC\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnu.gmp.lib:\n            version: \"*\"\n        pvt.cppan.demo.gnu.gcc.libiberty:\n            version: \"*\"\n        pvt.cppan.demo.gnu.gcc.tools.genconstants:\n            version: \"*\"\n            reference: genconstants\n\npost_sources: |\n    if (MSVC)\n        set(src2 ${src})\n        list(FILTER src2 INCLUDE REGEX \"\\\\.c$\")\n        set_source_files_properties(${src2} PROPERTIES LANGUAGE CXX)\n    endif()\n    \n    add_custom_command(OUTPUT ${BDIR}\/insn-genconstants.h\n        COMMAND ${genconstants} > ${BDIR}\/insn-genconstants.h\n    )\n    set(src ${src} ${BDIR}\/insn-genconstants.h)\n\n",
+    "source": {
+        "remote": {
+            "url": "ftp:\/\/ftp.gnu.org\/gnu\/gcc\/gcc-{v}\/gcc-{v}.tar.xz"
+        }
+    },
+    "hash": "8e3252f8153dd3bda5a140a4f516514a4540f3aa73b5c12f11ffb4a489e9c48a",
+    "created": "2018-10-28 21:57:45.011483"
+}
