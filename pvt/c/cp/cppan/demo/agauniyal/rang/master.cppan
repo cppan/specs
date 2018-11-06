@@ -8,6 +8,6 @@
         }
     },
     "created": "2016-12-11 14:48:18.396124",
-    "cppan": "",
+    "cppan": "source:\n    git: https:\/\/github.com\/agauniyal\/rang\n    branch: master\n\nversion: master\n\n",
     "hash": "3de0f62272a655889fa4fb35e61435bdb2804b7345e2011ad78dd6b0cf368cd1"
 }

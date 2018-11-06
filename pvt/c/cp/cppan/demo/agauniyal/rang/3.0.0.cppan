@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.agauniyal.rang",
+    "cppan": "source:\n    git: https:\/\/github.com\/agauniyal\/rang\n    tag: v{M}.{m}\n\nversion: 3.0.0\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/agauniyal\/rang",
+            "tag": "v{M}.{m}"
+        }
+    },
+    "version": "3.0.0",
+    "hash": "92ccc972a6b811486386bbff111c90c23434f7a3d836c2517fa4c063b8fae752",
+    "created": "2018-11-06 15:45:49.496384"
+}
