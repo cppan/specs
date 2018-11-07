@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.stub.toolutil",
+    "version": "63.1.0",
+    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.tgz\n\nversion: 63.1.0\n\ntype: library\n\nroot_directory: source\n\nc++: 11\n\nfiles:\n    -   tools\/toolutil\/.*\\.c\n    -   tools\/toolutil\/.*\\.cpp\n    -   tools\/toolutil\/.*\\.h\n\ninclude_directories:\n    public:\n        -   tools\/toolutil\n\noptions:\n    any:\n        definitions:\n            private:\n                -   U_TOOLUTIL_IMPLEMENTATION\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.i18n:\n            version: \"*\"\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.tgz"
+        }
+    },
+    "hash": "93ba635f478cfd851fee683a586332eb275ef0e2ea1f85e69556f636ed6af0ae",
+    "created": "2018-11-07 10:38:25.146739"
+}
