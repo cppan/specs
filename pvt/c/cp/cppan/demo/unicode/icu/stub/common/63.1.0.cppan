@@ -1,0 +1,12 @@
+{
+    "project": "pvt.cppan.demo.unicode.icu.stub.common",
+    "version": "63.1.0",
+    "cppan": "source:\n    remote: http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.tgz\n\nversion: 63.1.0\n\ntype: library\n\nroot_directory: source\n\nc++: 11\n\nfiles:\n    -   common\/.*\\.c\n    -   common\/.*\\.cpp\n    -   common\/.*\\.h\n\ninclude_directories:\n    public:\n        -   common\n\noptions:\n    any:\n        definitions:\n            private:\n                -   U_COMMON_IMPLEMENTATION\n        compile_options:\n            msvc:\n                public:\n                    -   \/utf-8\n    shared:\n        definitions:\n            public:\n                -   U_EXPORT=${CPPAN_EXPORT}\n                -   U_IMPORT=${CPPAN_IMPORT}\n    static:\n        definitions:\n            public:\n                -   U_STATIC_IMPLEMENTATION\n\nchecks_prefixes:\n    -   U_\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.stub.data:\n            version: \"*\"\n\ncheck_function_exists:\n    -   dlopen\n    -   gettimeofday\n    -   mmap\n    -   nl_langinfo\n    -   popen\n    -   pthread_mutex_lock\n    -   strtod_l\n    -   tzset\n    -   _tzset\n\ncheck_include_exists:\n    -   file: dirent.h\n        variable: HAVE_DIRENT_H\n        cpp: false\n    -   file: dlfcn.h\n        variable: HAVE_DLFCN_H\n        cpp: false\n    -   file: elf.h\n        variable: HAVE_ELF_H\n        cpp: false\n    -   file: inttypes.h\n        variable: HAVE_INTTYPES_H\n        cpp: false\n    -   file: locale.h\n        variable: HAVE_LOCALE_H\n        cpp: false\n    -   file: wchar.h\n        variable: HAVE_WCHAR_H\n        cpp: false\n    -   file: xlocale.h\n        variable: HAVE_XLOCALE_H\n        cpp: false\n\ncheck_type_size:\n    -   type: int16_t\n    -   type: int32_t\n    -   type: int64_t\n    -   type: int8_t\n    -   type: uint16_t\n    -   type: uint32_t\n    -   type: uint64_t\n    -   type: uint8_t\n    -   type: wchar_t\n\ncheck_library_function:\n    -   function: pthread_attr_init\n        library: pthread\n    -   function: pthread_mutex_init\n        library: pthread\n\n",
+    "source": {
+        "remote": {
+            "url": "http:\/\/download.icu-project.org\/files\/icu4c\/{M}.{m}\/icu4c-{M}_{m}-src.tgz"
+        }
+    },
+    "hash": "79040ccf6766fd433be7875f6db4e442ad48c72d3faaa598bd910efa26985970",
+    "created": "2018-11-07 10:37:16.862703"
+}
