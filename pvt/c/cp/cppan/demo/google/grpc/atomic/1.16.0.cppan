@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.atomic",
+    "version": "1.16.0",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.16.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.gpr:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v{v}"
+        }
+    },
+    "hash": "e1c5b880e2eb3d1cf4765895f462c3080bc61121c558a17832ecc8de997660fd",
+    "created": "2018-11-09 18:01:23.994294"
+}

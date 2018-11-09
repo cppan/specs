@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.grpc.grpc_client_channel",
+    "cppan": "source:\n    git: https:\/\/github.com\/grpc\/grpc\n    tag: v{v}\n\nversion: 1.16.0\n\ntype: library\n\nstatic_only: true\n\nimport_from_bazel: true\n\nbazel_target_name: grpc_client_channel\n\nbazel_target_function: grpc_cc_library\n\ninclude_directories:\n    public:\n        -   .\n\ndependencies:\n    public:\n        pvt.cppan.demo.google.grpc.gpr_base:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_base:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.inlined_vector:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.ref_counted_ptr:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.ref_counted:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_deadline_filter:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.orphanable:\n            version: \"*\"\n        pvt.cppan.demo.google.grpc.grpc_client_authority_filter:\n            version: \"*\"\n\npost_target: |\n    if (EXISTS ${SDIR}\/include)\n        get_target_property(v ${this} TYPE)\n        set(t PUBLIC)\n        if (\"${v}\" STREQUAL \"INTERFACE_LIBRARY\")\n            set(t INTERFACE)\n        endif()\n        target_include_directories(${this} ${t} ${SDIR}\/include)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/grpc\/grpc",
+            "tag": "v{v}"
+        }
+    },
+    "version": "1.16.0",
+    "hash": "125304bbbb2e8c426d2c6f6b12f327863de9fe3c833e52317f07d42d308f9b74",
+    "created": "2018-11-09 18:02:21.041688"
+}
