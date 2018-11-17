@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.awslabs.c_common",
+    "cppan": "source:\n    git: https:\/\/github.com\/awslabs\/aws-c-common\n    branch: master\n\nversion: master\n\ntype: library\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\nexclude_from_build:\n    -   include\/.*c\n    -   source\/posix\/.*\n    -   source\/windows\/.*\n\noptions:\n    any:\n        compile_options:\n            gcc:\n                private:\n                    -   -Wa,-mbig-obj\n            msvc:\n                private:\n                    -   \/bigobj\n    shared:\n        definitions:\n            private:\n                -   AWS_COMMON_EXPORTS\n            public:\n                -   AWS_COMMON_USE_IMPORT_EXPORT\n            unix:\n                private:\n                    -   HAVE_BUILTIN_CPU_SUPPORTS\n            win32:\n                private:\n                    -   HAVE_MSVC_CPUIDEX\n                public:\n                    -   USE_WINDOWS_DLL_SEMANTICS\n                    -   WIN32\n\npost_sources: |\n    if (WIN32)\n        add_src_dir(source\/windows\/*)\n    else()\n        add_src_dir(source\/posix\/*)\n    endif()\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/awslabs\/aws-c-common",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "2e5a9fb78e99cf57d4ec93e1583331b38e91d597fc0b25f2509e64606571e7d4",
+    "created": "2018-11-17 15:33:11.235194"
+}
