@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.amazon.awslabs.checksums",
+    "cppan": "source:\n    git: https:\/\/github.com\/awslabs\/aws-checksums\n    branch: master\n\nversion: master\n\ntype: library\n\nfiles:\n    -   include\/.*\n    -   source\/.*\n\noptions:\n    any:\n        compile_options:\n            gcc:\n                private:\n                    -   -Wa,-mbig-obj\n            msvc:\n                private:\n                    -   \/bigobj\n    shared:\n        definitions:\n            private:\n                -   AWS_CHECKSUMS_EXPORTS\n            public:\n                -   USE_IMPORT_EXPORT\n            win32:\n                public:\n                    -   USE_WINDOWS_DLL_SEMANTICS\n                    -   WIN32\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/awslabs\/aws-checksums",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "88850e392897fbc15d587751f5f7af17a8cdbb714a7af5d1f4b16a2db8a2c47b",
+    "created": "2018-11-17 15:38:54.46754"
+}
