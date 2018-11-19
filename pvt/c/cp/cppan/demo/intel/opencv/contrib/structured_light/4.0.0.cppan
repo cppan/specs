@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.intel.opencv.contrib.structured_light",
     "version": "4.0.0",
-    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: \"{v}-rc\"\n\nversion: 4.0.0\n\ntype: library\n\nfiles:\n    -   modules\/structured_light\/include\/.*\n    -   modules\/structured_light\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/structured_light\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.calib3d:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.contrib.phase_unwrapping:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: \"{v}\"\n\nversion: 4.0.0\n\ntype: library\n\nfiles:\n    -   modules\/structured_light\/include\/.*\n    -   modules\/structured_light\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/structured_light\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.calib3d:\n            version: \"*\"\n        pvt.cppan.demo.intel.opencv.contrib.phase_unwrapping:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/opencv\/opencv_contrib",
-            "tag": "{v}-rc"
+            "tag": "{v}"
         }
     },
-    "hash": "63fa7e5667dbb54d5c8cc15f06a81169b946439fa9495503a10d3981945270cd",
-    "created": "2018-11-13 10:42:35.029974"
+    "hash": "e348b9733164c6a768100cdbeae25f93328a8980b18ea52ac78e4f7b9884409e",
+    "created": "2018-11-19 01:11:28.297692"
 }

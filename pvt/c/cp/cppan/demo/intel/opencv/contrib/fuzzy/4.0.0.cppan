@@ -1,13 +1,13 @@
 {
     "project": "pvt.cppan.demo.intel.opencv.contrib.fuzzy",
     "version": "4.0.0",
-    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: \"{v}-rc\"\n\nversion: 4.0.0\n\ntype: library\n\nfiles:\n    -   modules\/fuzzy\/include\/.*\n    -   modules\/fuzzy\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/fuzzy\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.imgproc:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
+    "cppan": "source:\n    git: https:\/\/github.com\/opencv\/opencv_contrib\n    tag: \"{v}\"\n\nversion: 4.0.0\n\ntype: library\n\nfiles:\n    -   modules\/fuzzy\/include\/.*\n    -   modules\/fuzzy\/src\/.*\n\ninclude_directories:\n    public:\n        -   modules\/fuzzy\/include\n\noptions:\n    any:\n        definitions:\n            private:\n                -   __OPENCV_BUILD\n    shared:\n        definitions:\n            private:\n                -   CVAPI_EXPORTS\n\ndependencies:\n    public:\n        pvt.cppan.demo.intel.opencv.imgproc:\n            version: \"*\"\n\npre_project: |\n    if (MSVC)\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4127\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4251\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4275\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4324\")\n        set(CMAKE_CXX_FLAGS \"${CMAKE_CXX_FLAGS} \/wd4589\")\n    endif()\n\n",
     "source": {
         "git": {
             "url": "https:\/\/github.com\/opencv\/opencv_contrib",
-            "tag": "{v}-rc"
+            "tag": "{v}"
         }
     },
-    "hash": "0f0bebbc7eecef895db40291a4dd1f92fdaafed1e5d949fb4d5e7ab5455802f3",
-    "created": "2018-11-13 10:41:32.972528"
+    "hash": "704735bcffa08332971086f13faad0942c9ba1f7a78117bb5955d5f8908e8213",
+    "created": "2018-11-19 01:10:43.749195"
 }
