@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.fmt",
+    "cppan": "source:\n    git: https:\/\/github.com\/fmtlib\/fmt\n    tag: \"{v}\"\n\nversion: 5.2.1\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   FMT_EXPORT\n            public:\n                -   FMT_SHARED\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/fmtlib\/fmt",
+            "tag": "{v}"
+        }
+    },
+    "version": "5.2.1",
+    "hash": "00fc31034e291021b0475309434a460c4622540d2d32b40cf97793d629b91c96",
+    "created": "2018-12-01 12:57:41.1833"
+}
