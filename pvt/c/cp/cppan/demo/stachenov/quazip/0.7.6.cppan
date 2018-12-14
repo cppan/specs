@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.stachenov.quazip",
+    "cppan": "source:\n    git: https:\/\/github.com\/stachenov\/quazip\n    tag: \"{v}\"\n\nversion: 0.7.6\n\ntype: library\n\nfiles:\n    -   quazip\/.*\n\noptions:\n    shared:\n        definitions:\n            private:\n                -   QUAZIP_BUILD\n    static:\n        definitions:\n            public:\n                -   QUAZIP_STATIC\n\ndependencies:\n    public:\n        pvt.cppan.demo.qtproject.qt.base.tools.moc:\n            version: 5\n            reference: MOC_COMMAND\n        pvt.cppan.demo.madler.zlib:\n            version: 1\n        pvt.cppan.demo.qtproject.qt.base.core:\n            version: 5\n            reference: CORE\n\npost_sources: |\n    include(${CORE_SDIR}\/src\/corelib\/Qt5CoreMacros.cmake)\n    \n    set(moc ${src})\n    list(FILTER moc INCLUDE REGEX \".h$\")\n    find_moc_targets(moc ${moc})\n    \n    set(Qt5Core_MOC_EXECUTABLE ${MOC_COMMAND})\n    qt5_wrap_cpp(moc ${moc} TARGET ${this})\n    set(src ${src} ${moc})\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/stachenov\/quazip",
+            "tag": "{v}"
+        }
+    },
+    "version": "0.7.6",
+    "hash": "562d356f8133c7b226011af534dd86e018a366c31385701b19cbc752caaebfeb",
+    "created": "2018-12-14 11:13:46.394703"
+}
