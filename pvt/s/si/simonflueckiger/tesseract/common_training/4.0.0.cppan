@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
-            "commit": "d6950eb21c47566dbec4593e934e56f7fca106f8"
+            "commit": "51316994ccae0b48692d547030f26c0969308214"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: d6950eb21c47566dbec4593e934e56f7fca106f8\n\nversion: 4.0.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   src\/training\/commandlineflags.cpp\n    -   src\/training\/commandlineflags.h\n    -   src\/training\/commontraining.cpp\n    -   src\/training\/commontraining.h\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.tessopt:\n            version: \"*\"\n\n",
-    "hash": "f567bf9917cc01b98d5e0dd303b2cf18283655e85d80e4a1a1233e9eb0d7abf6",
-    "created": "2018-10-18 21:43:20.898371"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: 51316994ccae0b48692d547030f26c0969308214\n\nversion: 4.0.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   src\/training\/commandlineflags.cpp\n    -   src\/training\/commandlineflags.h\n    -   src\/training\/commontraining.cpp\n    -   src\/training\/commontraining.h\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.tessopt:\n            version: \"*\"\n\n",
+    "hash": "9eab357557081ecfae235252cf944e870885f2610868590729dcfa26b0e1590c",
+    "created": "2019-01-08 09:51:39.51474"
 }
