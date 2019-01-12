@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.cubicdaiya.dtl",
+    "cppan": "source:\n    git: https:\/\/github.com\/cubicdaiya\/dtl\n    branch: master\n\nversion: master\n\nfiles:\n    -   dtl\/.*\n\n",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/cubicdaiya\/dtl",
+            "branch": "master"
+        }
+    },
+    "hash": "280c836f1c042afde75d342375ae7938b0bb7ac67e825b2de26193dd533a6c26",
+    "created": "2019-01-12 17:20:13.491649"
+}
