@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.libgit2",
+    "cppan": "source:\n    git: https:\/\/github.com\/libgit2\/libgit2\n    tag: v{v}\n\nversion: 0.27.7\n\ntype: library\n\nrc_enabled: false\n\nfiles:\n    -   deps\/http-parser\/http_parser\\.[hc]\n    -   deps\/regex\/.*\n    -   include\/.*\n    -   src\/.*\n\nexclude_from_build:\n    -   deps\/regex\/regcomp.c\n    -   deps\/regex\/regex_internal.c\n    -   deps\/regex\/regexec.c\n    -   src\/hash_generic.c\n    -   src\/hash_mbed*.c\n    -   src\/hash_win32.c\n\ninclude_directories:\n    public:\n        -   include\n    private:\n        -   deps\/http-parser\n        -   src\n        -   deps\/regex\n\noptions:\n    any:\n        link_libraries:\n            win32:\n                public:\n                    -   Rpcrt4\n                    -   Winhttp\n\ndependencies:\n    public:\n        pvt.cppan.demo.badger.curl.libcurl:\n            version: 7\n\npost_sources: |\n    set(GIT_THREADS 1)\n    \n    set(GIT_SSH 1)\n    set(GIT_SSH_MEMORY_CREDENTIALS 1)\n    \n    set(GIT_GSSAPI 1)\n    if (WIN32)\n        set(GIT_WINHTTP 1)\n    endif()\n    set(GIT_CURL 1)\n    \n    set(GIT_HTTPS 1)\n    set(GIT_OPENSSL 1)\n    if (APPLE)\n        set(GIT_SECURE_TRANSPORT 1)\n    endif()\n    \n    set(GIT_SHA1_OPENSSL 1)\n    \n    configure_file(${SDIR}\/src\/features.h.in ${BDIR}\/git2\/sys\/features.h)\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/libgit2\/libgit2",
+            "tag": "v{v}"
+        }
+    },
+    "version": "0.27.7",
+    "hash": "9b5bc4271db40c576af83bdcde0872209a62c35430e2db6cebd7702dbea2c777",
+    "created": "2019-01-13 14:50:02.158039"
+}
