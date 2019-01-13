@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.google.diff_match_patch",
+    "cppan": "source:\n    git: https:\/\/github.com\/google\/diff-match-patch\n    branch: master\n\nversion: master\n\nroot_directory: cpp\n\nfiles:\n    -   diff_match_patch.cpp\n    -   diff_match_patch.h\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/google\/diff-match-patch",
+            "branch": "master"
+        }
+    },
+    "version": "master",
+    "hash": "b39c857801251218f2f3f6b57e1759870727e80bf851d6e8a43b627e5a24db7d",
+    "created": "2019-01-13 11:56:34.728259"
+}
