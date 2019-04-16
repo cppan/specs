@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.wordlist2dawg",
+    "version": "ca93ef8e0ae75aac9691394a8372a4d053e796b0c",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
+            "commit": "a93ef8e0ae75aac9691394a8372a4d053e796b0c"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: a93ef8e0ae75aac9691394a8372a4d053e796b0c\n\nversion: ca93ef8e0ae75aac9691394a8372a4d053e796b0c\n\nc++: 11\n\nfiles:\n    -   src\/training\/wordlist2dawg.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "974818878c3abc77a79b7d7ab2d29a785efaaa2b0b79180bd0c23cd764c1e948",
+    "created": "2019-04-16 08:52:44.474429"
+}
