@@ -1,0 +1,13 @@
+{
+    "project": "pvt.egorpugin.primitives.source",
+    "version": "master",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/egorpugin\/primitives",
+            "branch": "master"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/egorpugin\/primitives\n    branch: master\n\nversion: master\n\ntype: library\n\nroot_directory: src\/source\n\nc++: 17\n\ncreate_default_api: true\n\ndefault_api_start: primitives\n\noptions:\n    any:\n        compile_options:\n            clang:\n                private:\n                    -   -Wno-assume\n                    -   -Wno-delete-non-virtual-dtor\n                    -   -Wno-potentially-evaluated-expression\n            msvc:\n                public:\n                    -   \/permissive-\n                    -   \/wd4251\n\ndependencies:\n    public:\n        pvt.egorpugin.primitives.pack:\n            version: \"*\"\n        pvt.egorpugin.primitives.http:\n            version: \"*\"\n        pvt.egorpugin.primitives.command:\n            version: \"*\"\n        pvt.egorpugin.primitives.yaml:\n            version: \"*\"\n        pvt.egorpugin.primitives.hash:\n            version: \"*\"\n        pvt.egorpugin.primitives.version:\n            version: \"*\"\n        pvt.cppan.demo.nlohmann.json:\n            version: \"*\"\n\n",
+    "hash": "46ed08eb3338c3f2d16ecee893ec5a031705c256754b8941f825c1dfe21d09fc",
+    "created": "2019-05-01 14:08:17.748216"
+}
