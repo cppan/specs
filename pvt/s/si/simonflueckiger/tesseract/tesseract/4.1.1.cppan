@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.tesseract",
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: a93ef8e0ae75aac9691394a8372a4d053e796b0c\n\nversion: 4.1.1\n\nc++: 11\n\nfiles:\n    -   src\/api\/tesseractmain.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
+            "commit": "a93ef8e0ae75aac9691394a8372a4d053e796b0c"
+        }
+    },
+    "version": "4.1.1",
+    "hash": "7da1b929c62c6045ecbe1c4525ea36c84ba00807a4c4435ea5012455e00218d3",
+    "created": "2019-07-29 18:54:36.902226"
+}
