@@ -3,11 +3,11 @@
     "version": "4.1.0",
     "source": {
         "git": {
-            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
-            "commit": "a93ef8e0ae75aac9691394a8372a4d053e796b0c"
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "commit": "c8374cc5288bdb0bab87d3fcdfff5b99d81268bf"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: a93ef8e0ae75aac9691394a8372a4d053e796b0c\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/shapeclustering.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
-    "hash": "f092277557c3d8df612713af27fb39245845132b91580b0108ba953edce2cfad",
-    "created": "2019-04-16 18:29:39.081707"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: c8374cc5288bdb0bab87d3fcdfff5b99d81268bf\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/shapeclustering.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "4433c901d47918ff74dfe7692b1fa5a182fe7707901ee2cd4c99c42cbc301991",
+    "created": "2019-07-29 19:36:27.029419"
 }

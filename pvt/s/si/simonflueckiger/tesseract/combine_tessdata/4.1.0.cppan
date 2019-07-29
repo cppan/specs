@@ -3,11 +3,11 @@
     "version": "4.1.0",
     "source": {
         "git": {
-            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
-            "commit": "a93ef8e0ae75aac9691394a8372a4d053e796b0c"
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "commit": "c8374cc5288bdb0bab87d3fcdfff5b99d81268bf"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: a93ef8e0ae75aac9691394a8372a4d053e796b0c\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/combine_tessdata.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
-    "hash": "e3fb3e836ce03c9f2b13181891a25f1279c7e089d7c0f64ab287ed112a630fc6",
-    "created": "2019-04-16 18:28:47.897532"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: c8374cc5288bdb0bab87d3fcdfff5b99d81268bf\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/combine_tessdata.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "845e599299e198cba8f2f83894527c543c5aab54d98cbffeac48f19cfdce0eb7",
+    "created": "2019-07-29 19:35:48.843009"
 }

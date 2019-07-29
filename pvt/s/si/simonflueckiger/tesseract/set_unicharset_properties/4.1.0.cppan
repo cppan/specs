@@ -3,11 +3,11 @@
     "version": "4.1.0",
     "source": {
         "git": {
-            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
-            "commit": "a93ef8e0ae75aac9691394a8372a4d053e796b0c"
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "commit": "c8374cc5288bdb0bab87d3fcdfff5b99d81268bf"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: a93ef8e0ae75aac9691394a8372a4d053e796b0c\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/set_unicharset_properties.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "hash": "928d415cbe546d76dccd79395269782da6c9abf598dba6e2718e55c316603ce4",
-    "created": "2019-04-16 18:29:33.029518"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: c8374cc5288bdb0bab87d3fcdfff5b99d81268bf\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/set_unicharset_properties.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "abba1de26c46e21b06f3628e3fe4f18b65c5bde82241253afe70a86af12420de",
+    "created": "2019-07-29 19:36:23.120289"
 }

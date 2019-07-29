@@ -3,11 +3,11 @@
     "version": "4.1.0",
     "source": {
         "git": {
-            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
-            "commit": "a93ef8e0ae75aac9691394a8372a4d053e796b0c"
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "commit": "c8374cc5288bdb0bab87d3fcdfff5b99d81268bf"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: a93ef8e0ae75aac9691394a8372a4d053e796b0c\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/boxchar.cpp\n    -   src\/training\/boxchar.h\n    -   src\/training\/degradeimage.cpp\n    -   src\/training\/degradeimage.h\n    -   src\/training\/ligature_table.cpp\n    -   src\/training\/ligature_table.h\n    -   src\/training\/normstrngs.cpp\n    -   src\/training\/normstrngs.h\n    -   src\/training\/pango_font_info.cpp\n    -   src\/training\/pango_font_info.h\n    -   src\/training\/stringrenderer.cpp\n    -   src\/training\/stringrenderer.h\n    -   src\/training\/text2image.cpp\n    -   src\/training\/tlog.cpp\n    -   src\/training\/tlog.h\n    -   src\/training\/util.h\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.pango.pangocairo:\n            version: 1\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "hash": "beaea7300c61d94bd460e0638e2b4a32a83f8cc9999c9496b56df32582e050a0",
-    "created": "2019-04-16 18:29:56.275631"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: c8374cc5288bdb0bab87d3fcdfff5b99d81268bf\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/boxchar.cpp\n    -   src\/training\/boxchar.h\n    -   src\/training\/degradeimage.cpp\n    -   src\/training\/degradeimage.h\n    -   src\/training\/ligature_table.cpp\n    -   src\/training\/ligature_table.h\n    -   src\/training\/normstrngs.cpp\n    -   src\/training\/normstrngs.h\n    -   src\/training\/pango_font_info.cpp\n    -   src\/training\/pango_font_info.h\n    -   src\/training\/stringrenderer.cpp\n    -   src\/training\/stringrenderer.h\n    -   src\/training\/text2image.cpp\n    -   src\/training\/tlog.cpp\n    -   src\/training\/tlog.h\n    -   src\/training\/util.h\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.cppan.demo.gnome.pango.pangocairo:\n            version: 1\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "cb6980e372dd0e5bde75c42a4eeef8991eb4983def6746574ffffeeea02b800a",
+    "created": "2019-07-29 19:36:38.758479"
 }

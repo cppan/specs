@@ -3,11 +3,11 @@
     "version": "4.1.0",
     "source": {
         "git": {
-            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract.git",
-            "commit": "a93ef8e0ae75aac9691394a8372a4d053e796b0c"
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "commit": "c8374cc5288bdb0bab87d3fcdfff5b99d81268bf"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract.git\n    commit: a93ef8e0ae75aac9691394a8372a4d053e796b0c\n\nversion: 4.1.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   src\/training\/tessopt.*\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
-    "hash": "fc2c6fef3833bce2d130d8efc9bf5e4caa9f661786992bdee6a169075b9222dd",
-    "created": "2019-04-16 18:29:51.182913"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: c8374cc5288bdb0bab87d3fcdfff5b99d81268bf\n\nversion: 4.1.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   src\/training\/tessopt.*\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "247fbe99dad22d356517843149b14b1769d5736f0971b35e4900f11ee63e3f42",
+    "created": "2019-07-29 19:36:34.728149"
 }
