@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.lstmtraining",
+    "version": "4.1.5",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "commit": "a93ef8e0ae75aac9691394a8372a4d053e796b0c"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: a93ef8e0ae75aac9691394a8372a4d053e796b0c\n\nversion: 4.1.5\n\nc++: 11\n\nfiles:\n    -   src\/training\/lstmtraining.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "1b89697a16b540f4ba099bfb8df41cf9363502055061f933894a029df8745c8f",
+    "created": "2019-07-30 21:44:53.164569"
+}
