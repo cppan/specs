@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "commit": "c8374cc5288bdb0bab87d3fcdfff5b99d81268bf"
+            "commit": "23ef93ac4d60932faf6a4ac86ed6ffa117ed650d"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: c8374cc5288bdb0bab87d3fcdfff5b99d81268bf\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/wordlist2dawg.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
-    "hash": "6774b0eb64d9743492e2d654c1c4aec279af0e83056d4bbd821c8436160bb9ce",
-    "created": "2019-07-29 19:36:50.865078"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: 23ef93ac4d60932faf6a4ac86ed6ffa117ed650d\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/wordlist2dawg.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.libtesseract:\n            version: \"*\"\n\n",
+    "hash": "ee6d65a310d792823c74acd4683fc938fcf49f746c251d91d2ef1899db4819b0",
+    "created": "2019-07-31 14:19:22.597156"
 }

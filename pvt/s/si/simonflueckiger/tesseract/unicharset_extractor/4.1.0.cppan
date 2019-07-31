@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "commit": "c8374cc5288bdb0bab87d3fcdfff5b99d81268bf"
+            "commit": "23ef93ac4d60932faf6a4ac86ed6ffa117ed650d"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: c8374cc5288bdb0bab87d3fcdfff5b99d81268bf\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/unicharset_extractor.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
-    "hash": "f0e933ef3536da006d7891dac400a8e9d1e16333f62cf0c2d9c9a697d3967382",
-    "created": "2019-07-29 19:36:43.215395"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: 23ef93ac4d60932faf6a4ac86ed6ffa117ed650d\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/unicharset_extractor.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.unicharset_training:\n            version: \"*\"\n\n",
+    "hash": "9c2b68b61f1bd3c4cfb88e858feef265d74f80e493197864c2e17d792897ce3b",
+    "created": "2019-07-31 14:19:14.491727"
 }

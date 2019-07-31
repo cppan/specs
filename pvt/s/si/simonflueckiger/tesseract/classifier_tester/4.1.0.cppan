@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "commit": "c8374cc5288bdb0bab87d3fcdfff5b99d81268bf"
+            "commit": "23ef93ac4d60932faf6a4ac86ed6ffa117ed650d"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: c8374cc5288bdb0bab87d3fcdfff5b99d81268bf\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/classifier_tester.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
-    "hash": "1b6be946d160a58388b9659d7cd743f3652f37188d4992b701f10d79d6a1c795",
-    "created": "2019-07-29 19:35:36.342035"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: 23ef93ac4d60932faf6a4ac86ed6ffa117ed650d\n\nversion: 4.1.0\n\nc++: 11\n\nfiles:\n    -   src\/training\/classifier_tester.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "c70a9a6bba69c65572fb71bdfeb60da953110b236f57c51c78108640a99effc3",
+    "created": "2019-07-31 14:18:01.596596"
 }

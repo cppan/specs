@@ -4,10 +4,10 @@
     "source": {
         "git": {
             "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
-            "commit": "c8374cc5288bdb0bab87d3fcdfff5b99d81268bf"
+            "commit": "23ef93ac4d60932faf6a4ac86ed6ffa117ed650d"
         }
     },
-    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: c8374cc5288bdb0bab87d3fcdfff5b99d81268bf\n\nversion: 4.1.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   src\/training\/fileio.*\n    -   src\/training\/icuerrorcode.*\n    -   src\/training\/lang_model_helpers.*\n    -   src\/training\/lstmtester.*\n    -   src\/training\/normstrngs.*\n    -   src\/training\/unicharset_training_utils.*\n    -   src\/training\/validat.*\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.i18n:\n            version: \"*\"\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
-    "hash": "7cdd975e16f32cd69634c0c4044cb8e16c44705e18d6c2ad89769f4cd47a85dd",
-    "created": "2019-07-29 19:36:47.086616"
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: 23ef93ac4d60932faf6a4ac86ed6ffa117ed650d\n\nversion: 4.1.0\n\ntype: library\n\nc++: 11\n\nstatic_only: true\n\nfiles:\n    -   src\/training\/fileio.*\n    -   src\/training\/icuerrorcode.*\n    -   src\/training\/lang_model_helpers.*\n    -   src\/training\/lstmtester.*\n    -   src\/training\/normstrngs.*\n    -   src\/training\/unicharset_training_utils.*\n    -   src\/training\/validat.*\n\ninclude_directories:\n    public:\n        -   training\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.cppan.demo.unicode.icu.i18n:\n            version: \"*\"\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "6b1df531796ca24c1d9a2740b6768985b64654e59913d8f3f564d18d797a0eaa",
+    "created": "2019-07-31 14:19:18.501382"
 }
