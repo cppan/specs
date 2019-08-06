@@ -1,0 +1,13 @@
+{
+    "project": "pvt.simonflueckiger.tesseract.mftraining",
+    "version": "4.1.4",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
+            "commit": "a93ef8e0ae75aac9691394a8372a4d053e796b0c"
+        }
+    },
+    "cppan": "source:\n    git: https:\/\/github.com\/tesseract-ocr\/tesseract\n    commit: a93ef8e0ae75aac9691394a8372a4d053e796b0c\n\nversion: 4.1.4\n\nc++: 11\n\nfiles:\n    -   src\/training\/mergenf.*\n    -   src\/training\/mftraining.cpp\n\noptions:\n    any:\n        compile_options:\n            msvc:\n                private:\n                    -   \/openmp\n\ndependencies:\n    public:\n        pvt.simonflueckiger.tesseract.common_training:\n            version: \"*\"\n\n",
+    "hash": "937cbbefa91ded7d3595e3609bc34ef3422e03329bb1ae85c2de1fcaad7e187b",
+    "created": "2019-08-06 14:55:54.7749"
+}
