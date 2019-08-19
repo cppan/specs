@@ -1,0 +1,13 @@
+{
+    "project": "pvt.nuspell.org.nuspell",
+    "version": "2.3.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/nuspell\/nuspell",
+            "tag": "v2.3.0"
+        }
+    },
+    "hash": "37a911b095f8c6e62591122796be20f127511641bef3f6fd1ca17a8e2b70aeae",
+    "created": "2019-08-19 08:34:24.601834",
+    "cppan": "source:\n    git: https:\/\/github.com\/nuspell\/nuspell\n    tag: v2.3.0\n\nversion: 2.3.0\n\n"
+}
