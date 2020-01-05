@@ -1,0 +1,13 @@
+{
+    "project": "pvt.cppan.demo.danbloomberg.leptonica",
+    "version": "1.79.0",
+    "source": {
+        "git": {
+            "url": "https:\/\/github.com\/DanBloomberg\/leptonica",
+            "tag": "1.79.0"
+        }
+    },
+    "hash": "1f403bcbdba64b96b1af9a91765f07e4900041d839bd58d0a7cdab621198591d",
+    "created": "2020-01-05 12:29:09.302764",
+    "cppan": "source:\n    git: https:\/\/github.com\/DanBloomberg\/leptonica\n    tag: 1.79.0\n\nversion: 1.79.0\n\n"
+}
